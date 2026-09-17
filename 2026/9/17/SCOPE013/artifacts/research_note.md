@@ -245,7 +245,6 @@ it does **not** claim that this bound is the exact asymptotic limit of `rho(n)`.
 ---
 
 ## 6. Reproducibility
-
 Run:
 
 ```bash
