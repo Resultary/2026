@@ -1,12 +1,12 @@
 {
   "resultary_path": "2026/9/17/SCOPE011",
   "resultary_record_key": "SCOPE011",
-  "source_commit": "c1f24d15e3eb510b5fd2a02aa1e04ea754c0a3cf",
-  "source_commit_time": "2026-09-17T13:20:29Z",
-  "source_path": "2026/09/17/011",
+  "source_commit": "5d856c64e6c21bac9c7ab8053bbff0d7ad4ff968",
+  "source_commit_time": "2026-09-17T13:43:45Z",
+  "source_path": "2026/09/17/fan-conjecture-5-9-monotone-three-point-riesz-capacity-deformation--db85b6d29ff8",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260917-011",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
-  "synced_at": "2026-09-17T13:21:07Z",
+  "synced_at": "2026-09-17T13:44:09Z",
   "time_standard": "UTC"
 }
