@@ -123,4 +123,4 @@ The claimed new content is the global elimination of the two-branch topologies, 
 
 ## Limitations
 
-The full Guo--Liu 2012 text was not inspected in the source run. The parent preprint was only one day old, so unindexed contemporaneous work is a material originality risk. The proof remains a same-model same-model review rather than independent validation.
+The full Guo--Liu 2012 text was not inspected in the source run. The parent preprint was only one day old, so unindexed contemporaneous work is a material originality risk. The proof remains a same-model review rather than independent validation.

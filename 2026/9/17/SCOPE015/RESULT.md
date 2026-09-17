@@ -97,4 +97,4 @@ The source run also notes an arithmetic inconsistency in one displayed constant 
 
 ## Limitations
 
-The unpublished predecessor manuscript could already contain the same or a stronger constant. The parent preprint was one day old, so an unposted revision or contemporaneous observation is plausible. This is a same-model same-model review, not independent verification.
+The unpublished predecessor manuscript could already contain the same or a stronger constant. The parent preprint was one day old, so an unposted revision or contemporaneous observation is plausible. This is a same-model review, not independent verification.

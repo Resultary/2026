@@ -2,7 +2,7 @@
 
 ## Verdict
 
-PASS on correctness, originality-to-the-best-of-our-knowledge, and value. This is a same-model same-model review, not independent validation or peer review.
+PASS on correctness, originality-to-the-best-of-our-knowledge, and value. This is a same-model review, not independent validation or peer review.
 
 ## Correctness audit
 

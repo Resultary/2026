@@ -11,7 +11,7 @@
 
 ## Correctness
 
-**PASS (same-model same-model assessment).**
+**PASS (same-model assessment).**
 
 The source run reports enumerating all nine new/old joint equalities, checking monotonicity across candidate increments and stage transitions, the boundary case `h=2`, global uniqueness of auxiliary block lengths, endpoint formulas, filler and alignment steps, and that the final pair replacement deletes rather than creates a joint. It reports computational checks through `h=300`.
 
@@ -19,13 +19,13 @@ No independent review has been performed.
 
 ## Originality
 
-**PASS, qualified to the best of our knowledge (same-model same-model assessment).**
+**PASS, qualified to the best of our knowledge (same-model assessment).**
 
 The source run found no public occurrence of the `14h-13` sharpening in the one-day-old parent preprint or exact/equivalent searches. The principal unresolved threat is an unpublished manuscript titled *Building barricades*; the 2025 Barrycades chapter was also only partially accessible.
 
 ## Value
 
-**PASS (same-model same-model assessment).**
+**PASS (same-model assessment).**
 
 The result is not a finite instance or simple parameter substitution. It improves the explicit linear construction density from `1/24` to `1/14` according to the source run and replaces the nine-apparent-collision count by a three-forward-collision argument.
 

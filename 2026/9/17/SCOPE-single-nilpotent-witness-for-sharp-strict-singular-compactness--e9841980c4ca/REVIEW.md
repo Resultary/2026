@@ -4,7 +4,7 @@
 
 This record claims a strengthening of the sharpness part of Laustsen--Wirzenius (2026): their non-compact product of k strictly singular operators can, on the same spaces, be replaced by the k-th power of one strictly singular operator which is actually nilpotent of order k+1.
 
-The three axes below were checked separately. This is a same-model same-model review, not independent validation.
+The three axes below were checked separately. This is a same-model review, not independent validation.
 
 ## Correctness
 

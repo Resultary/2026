@@ -11,7 +11,7 @@
 
 ## Correctness
 
-**PASS (same-model same-model assessment), with an explicit residual risk.**
+**PASS (same-model assessment), with an explicit residual risk.**
 
 The source run says it checked that Khetan's dilation lemma is genuinely general in `|F|`, that the common-zero lemma supplies simultaneous equations for every admissible dilation, that the auxiliary combinatorial lemma permits an arbitrary codomain, that signed line separations do not invalidate the two-even-profile contradiction, and that the full-affine-span hypothesis forces a unimodular `2 x 3` product in the mixed-profile branch.
 
@@ -19,13 +19,13 @@ However, the source run also states that a hidden dependency may remain in the i
 
 ## Originality
 
-**PASS, qualified to the best of our knowledge (same-model same-model assessment).**
+**PASS, qualified to the best of our knowledge (same-model assessment).**
 
 Khetan's July 2026 source explicitly presents cardinality six as open, and targeted searches found no later resolution. The source run identifies older, differently phrased factorization and vanishing-sum literature as a meaningful threat to originality of the product lemma or parts of the argument; no concrete prior coverage of the full six-cell orbit-closure statement was found.
 
 ## Value
 
-**PASS (same-model same-model assessment).**
+**PASS (same-model assessment).**
 
 The result is not an isolated numerical extension: if correct, it closes the sole unresolved cardinality below Khetan's eight-cell counterexample and sharpens the first possible full-span failure from “six or eight” to eight. The source slogan is: “Six cells cannot hide an aperiodic orbit closure; the first full-span failure occurs at eight.”
 
