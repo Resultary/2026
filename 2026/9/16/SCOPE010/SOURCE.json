@@ -1,12 +1,12 @@
 {
   "resultary_path": "2026/9/16/SCOPE010",
   "resultary_record_key": "SCOPE010",
-  "source_commit": "da00294ec163ffc44ebd61f8eda006689f809031",
-  "source_commit_time": "2026-09-16T15:12:41Z",
-  "source_path": "2026/09/16/010",
+  "source_commit": "5d856c64e6c21bac9c7ab8053bbff0d7ad4ff968",
+  "source_commit_time": "2026-09-17T13:43:45Z",
+  "source_path": "2026/09/16/order-optimal-affine-locality-witnesses--02028642dcf5",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260916-010",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
-  "synced_at": "2026-09-16T15:17:28Z",
+  "synced_at": "2026-09-17T13:44:09Z",
   "time_standard": "UTC"
 }

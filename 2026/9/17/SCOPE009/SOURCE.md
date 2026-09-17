@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20260917-009`](https://github.com/SCOPE-Science/SCOPE2026/tree/2bd8851d271f340e813d982d43707221026008f0/2026/09/17/009)
+Original record: [`SCOPE-20260917-009`](https://github.com/SCOPE-Science/SCOPE2026/tree/5d856c64e6c21bac9c7ab8053bbff0d7ad4ff968/2026/09/17/weighted-histogram-certificates-for-the-edge-multiset-dimension-of-q7q10--dfb096a352c4)
 
 Imported into Resultary as `2026/9/17/SCOPE009`. The finding, audit, and attached artifacts remain attributable to SCOPE.

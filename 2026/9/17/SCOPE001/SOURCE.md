@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20260917-001`](https://github.com/SCOPE-Science/SCOPE2026/tree/7f2dc45341d6af5f7fa73147d5d7a53b7de603a8/2026/09/17/001)
+Original record: [`SCOPE-20260917-001`](https://github.com/SCOPE-Science/SCOPE2026/tree/5d856c64e6c21bac9c7ab8053bbff0d7ad4ff968/2026/09/17/a-six-cycle-construction-for-weak-rainbow-saturation-of-c4--f3f49c011417)
 
 Imported into Resultary as `2026/9/17/SCOPE001`. The finding, audit, and attached artifacts remain attributable to SCOPE.
