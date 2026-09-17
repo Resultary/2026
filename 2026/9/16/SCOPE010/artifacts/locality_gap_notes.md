@@ -111,7 +111,7 @@ and substantive-value audit below.
 
 ## Actual Computational Check
 
-Command: `python3 output/artifacts/locality_template_check.py`
+Command: `python3 artifacts/locality_template_check.py`
 
 The code constructs edges, not just type counts, and verifies all vertex
 degrees; both induced-matching predicates; exact-one intersection domination
@@ -163,9 +163,9 @@ Primary material inspected:
 
 Specific unresolved source: Gotthilf--Lewenstein, *Tighter Approximations for
 Maximum Induced Matchings in Regular Graphs*, DOI 10.1007/11671411_21.
-Known-paper acquisition by title, DOI (with paid fallback allowed), and the
+Known-paper acquisition by title, DOI, and the
 containing volume DOI 10.1007/11671411 failed. Search found indexed Springer
-and Academia copies but the available fulltext tool did not deliver the chapter.
+and Academia copies but the full chapter could not be obtained.
 Its possible extremal constructions have therefore NOT been excluded.
 
 Further audit needed: assess whether standard common-cover results, especially
