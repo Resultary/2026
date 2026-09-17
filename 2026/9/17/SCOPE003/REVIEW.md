@@ -10,7 +10,7 @@
 
 ## Correctness
 
-**PASS (same-model same-model assessment).**
+**PASS (same-model assessment).**
 
 The proof was checked against the structural properties supplied by Boyer et al.'s algorithm, including the bound `2|R| <= |B|`, the final-set outdegree condition in `A`, and the prekernel-to-kernel conversion. Boundary cases of the auxiliary pseudoforest lemma were checked separately, including isolated vertices, ordinary cycles, trees, and the two-vertex cycle formed by parallel edges.
 
@@ -18,7 +18,7 @@ The supplied verification script independently checks the theorem for every simp
 
 ## Originality
 
-**PASS, qualified to the best of our knowledge (same-model same-model assessment).**
+**PASS, qualified to the best of our knowledge (same-model assessment).**
 
 Fresh searches during the source run for the exact constant, equivalent formulations, minimum in-degree two plus 3-kernel terminology, and nearby transversal formulations found no prior coverage. The primary June 2026 paper still presents the `δ=2,q=3` case as unresolved.
 
@@ -28,7 +28,7 @@ Remaining threat: a recent unindexed manuscript, private draft, or newer revisio
 
 ## Value
 
-**PASS (same-model same-model assessment).**
+**PASS (same-model assessment).**
 
 If correct and novel, the result improves the first unresolved case highlighted by the primary paper from the known general upper bound `1/2` to the sharp `1/3`, proving the conjectured constant for `(δ,q)=(2,3)`. The proof also introduces a pseudoforest-incidence covering mechanism rather than only a finite computation.
 

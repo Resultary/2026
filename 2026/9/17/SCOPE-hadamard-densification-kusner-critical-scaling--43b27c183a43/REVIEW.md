@@ -2,7 +2,7 @@
 
 ## Verdict
 
-**PASS**, as a same-model same-model review only. The finding is not independently validated.
+**PASS**, as a same-model review only. The finding is not independently validated.
 
 ## Correctness
 

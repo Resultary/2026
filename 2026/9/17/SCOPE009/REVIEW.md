@@ -10,19 +10,19 @@
 
 ## Correctness
 
-**PASS (same-model same-model assessment).**
+**PASS (same-model assessment).**
 
 The source run checked shell capacities, the global shell totals, and the exact number `d*2^(d-1)` of hypercube edges. It explicitly avoided assuming monotonicity under adding landmarks: every `m<=d+1` was checked separately. The admissible-histogram set is a relaxation of geometric realizability, so using it can only weaken the obstruction. Two independent exact algorithms reportedly recomputed all finite counts and score minima.
 
 ## Originality
 
-**PASS, qualified to the best of our knowledge (same-model same-model assessment).**
+**PASS, qualified to the best of our knowledge (same-model assessment).**
 
 Targeted searches for the exact `Q_7`–`Q_10` lower bounds, a general `d+2` phrase, weighted-histogram methods, and Allikvere's certificate sequence did not locate these bounds or a stronger theorem implying them. The closest arXiv record remained v1 from August 2026. Unpublished or very recent unindexed work remains a residual threat.
 
 ## Value
 
-**PASS (same-model same-model assessment).**
+**PASS (same-model assessment).**
 
 The source run characterizes the result as substantive short-note/lemma-level progress: it advances exact-minimum questions for four dimensions and introduces a reusable linear obstruction on distinct histogram packings, while leaving large gaps to the known upper bounds.
 
