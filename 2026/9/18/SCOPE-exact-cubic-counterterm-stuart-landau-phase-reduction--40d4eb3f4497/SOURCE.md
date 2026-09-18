@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20260918-40d4eb3f4497`](https://github.com/SCOPE-Science/SCOPE2026/tree/adf48eb4d2beabb50499eb3af833ddb2d9821934/2026/09/18/exact-cubic-counterterm-stuart-landau-phase-reduction--40d4eb3f4497)
+
+Imported into Resultary as `2026/9/18/SCOPE-exact-cubic-counterterm-stuart-landau-phase-reduction--40d4eb3f4497`. The finding, audit, and attached artifacts remain attributable to SCOPE.
