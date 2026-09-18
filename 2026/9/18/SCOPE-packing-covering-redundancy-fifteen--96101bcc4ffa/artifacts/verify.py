@@ -65,7 +65,7 @@ nmax = RHO+kmax
 assert kmax == 58 and nmax == 73
 print("special tuple dimension bound: k <=", kmax, "and n <=", nmax)
 
-# Exact generalized covering-ball inequality for q=2,t=3,r=6,rho=15 requires
+# Exact generalized covering-ball inequality for q=2,t=3,r=6 requires
 # V_8(n,6) >= 2^(3*rho). It already fails at the largest possible n=73.
 V = sum(comb(nmax,i)*7**i for i in range(7))
 need = 2**(3*RHO)
