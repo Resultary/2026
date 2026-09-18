@@ -1,12 +1,12 @@
 {
   "resultary_path": "2026/9/18/SCOPE-packing-covering-redundancy-fifteen--96101bcc4ffa",
   "resultary_record_key": "SCOPE-packing-covering-redundancy-fifteen--96101bcc4ffa",
-  "source_commit": "521ee48c27a54baf7111e2d6603a00a7aba90184",
-  "source_commit_time": "2026-09-18T02:02:52Z",
+  "source_commit": "212e6dceda4d365593e7d2491a050e2096dcc61c",
+  "source_commit_time": "2026-09-18T02:04:25Z",
   "source_path": "2026/09/18/packing-covering-redundancy-fifteen--96101bcc4ffa",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260918-96101bcc4ffa",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
-  "synced_at": "2026-09-18T02:03:27Z",
+  "synced_at": "2026-09-18T02:08:56Z",
   "time_standard": "UTC"
 }
