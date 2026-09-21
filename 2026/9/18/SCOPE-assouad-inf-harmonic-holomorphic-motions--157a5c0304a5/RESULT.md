@@ -1,7 +1,5 @@
 # Assouad dimension is inf-harmonic under holomorphic motions
 
-**Same-model review: passed. Cross-model review: not yet performed.**
-
 ## Main result
 
 Let
