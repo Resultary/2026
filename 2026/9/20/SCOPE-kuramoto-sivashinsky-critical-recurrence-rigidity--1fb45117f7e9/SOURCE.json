@@ -1,12 +1,12 @@
 {
   "resultary_path": "2026/9/20/SCOPE-kuramoto-sivashinsky-critical-recurrence-rigidity--1fb45117f7e9",
   "resultary_record_key": "SCOPE-kuramoto-sivashinsky-critical-recurrence-rigidity--1fb45117f7e9",
-  "source_commit": "807b59b9737ac92236002720bd4c1b7db5ac8631",
-  "source_commit_time": "2026-09-20T21:51:37Z",
+  "source_commit": "e9ed144c13b7834896a844cc4f9cac3c25a168a6",
+  "source_commit_time": "2026-09-21T10:13:41Z",
   "source_path": "2026/09/20/kuramoto-sivashinsky-critical-recurrence-rigidity--1fb45117f7e9",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260920-1fb45117f7e9",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
-  "synced_at": "2026-09-21T09:10:55Z",
+  "synced_at": "2026-09-21T10:13:58Z",
   "time_standard": "UTC"
 }
