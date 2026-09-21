@@ -1,7 +1,5 @@
 # Spectral-persistence counterexamples and a repair for AdOGD
 
-**Same-model review: passed. Cross-model review: not yet performed.**
-
 ## Statement
 
 Wang, Ballotta, Carli, Cao, and Schenato introduce Adaptive Optimal Gradient
