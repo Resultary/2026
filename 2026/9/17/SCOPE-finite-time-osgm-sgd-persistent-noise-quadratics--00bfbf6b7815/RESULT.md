@@ -1,7 +1,5 @@
 # Finite-time absorption of OSGM-SGD under persistent discrete gradient noise
 
-**Same-model review: passed. Cross-model review: not yet performed.**
-
 ## Statement
 
 Consider the one-dimensional quadratic objective
