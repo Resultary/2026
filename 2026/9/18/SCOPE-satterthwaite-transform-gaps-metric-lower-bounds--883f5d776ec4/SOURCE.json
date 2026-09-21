@@ -1,12 +1,12 @@
 {
   "resultary_path": "2026/9/18/SCOPE-satterthwaite-transform-gaps-metric-lower-bounds--883f5d776ec4",
   "resultary_record_key": "SCOPE-satterthwaite-transform-gaps-metric-lower-bounds--883f5d776ec4",
-  "source_commit": "918cfb22da91c0194310d2a75314c82e00f8806d",
-  "source_commit_time": "2026-09-18T00:57:47Z",
+  "source_commit": "90ae836d65ac05e647efd48c07b0319ab9628086",
+  "source_commit_time": "2026-09-20T04:37:45Z",
   "source_path": "2026/09/18/satterthwaite-transform-gaps-metric-lower-bounds--883f5d776ec4",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260918-883f5d776ec4",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
-  "synced_at": "2026-09-18T00:58:28Z",
+  "synced_at": "2026-09-21T09:10:55Z",
   "time_standard": "UTC"
 }

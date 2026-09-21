@@ -2,6 +2,7 @@
 
 Research date: 16 September 2026.
 
+
 ## Claim
 
 All graphs are finite, simple, undirected, and containment means ordinary, not induced, subgraph containment. A graph G is H-saturated if G contains no copy of H but adding any missing edge creates one. Write sat(n,H) for the minimum number of edges in such an n-vertex graph. The operation A join B adds all edges between the vertex-disjoint graphs A and B; below it is written as \(A\vee B\).

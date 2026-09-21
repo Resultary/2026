@@ -1,12 +1,12 @@
 {
   "resultary_path": "2026/9/18/SCOPE-morse-maxima-t-quarter-cell-polarization-localization--95d03c9c0771",
   "resultary_record_key": "SCOPE-morse-maxima-t-quarter-cell-polarization-localization--95d03c9c0771",
-  "source_commit": "3b14c7a630423004f39a0110f26946ff3aa25e77",
-  "source_commit_time": "2026-09-18T17:51:42Z",
+  "source_commit": "90ae836d65ac05e647efd48c07b0319ab9628086",
+  "source_commit_time": "2026-09-20T04:37:45Z",
   "source_path": "2026/09/18/morse-maxima-t-quarter-cell-polarization-localization--95d03c9c0771",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260918-95d03c9c0771",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
-  "synced_at": "2026-09-18T17:52:28Z",
+  "synced_at": "2026-09-21T09:10:55Z",
   "time_standard": "UTC"
 }

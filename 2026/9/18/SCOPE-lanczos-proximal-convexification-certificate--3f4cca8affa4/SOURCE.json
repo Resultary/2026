@@ -1,12 +1,12 @@
 {
   "resultary_path": "2026/9/18/SCOPE-lanczos-proximal-convexification-certificate--3f4cca8affa4",
   "resultary_record_key": "SCOPE-lanczos-proximal-convexification-certificate--3f4cca8affa4",
-  "source_commit": "ed14277e0cea28a09978e94e562fca6c40642ed7",
-  "source_commit_time": "2026-09-18T03:27:23Z",
+  "source_commit": "90ae836d65ac05e647efd48c07b0319ab9628086",
+  "source_commit_time": "2026-09-20T04:37:45Z",
   "source_path": "2026/09/18/lanczos-proximal-convexification-certificate--3f4cca8affa4",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260918-3f4cca8affa4",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
-  "synced_at": "2026-09-18T03:29:44Z",
+  "synced_at": "2026-09-21T09:10:55Z",
   "time_standard": "UTC"
 }

@@ -1,12 +1,12 @@
 {
   "resultary_path": "2026/9/18/SCOPE-parity-restricted-rainbow-schur-optimum--229fec98f6c5",
   "resultary_record_key": "SCOPE-parity-restricted-rainbow-schur-optimum--229fec98f6c5",
-  "source_commit": "e676a3ccc7d2a119a55c2b1485291079663ad0b8",
-  "source_commit_time": "2026-09-18T04:20:30Z",
+  "source_commit": "90ae836d65ac05e647efd48c07b0319ab9628086",
+  "source_commit_time": "2026-09-20T04:37:45Z",
   "source_path": "2026/09/18/parity-restricted-rainbow-schur-optimum--229fec98f6c5",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260918-229fec98f6c5",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
-  "synced_at": "2026-09-18T04:24:08Z",
+  "synced_at": "2026-09-21T09:10:55Z",
   "time_standard": "UTC"
 }

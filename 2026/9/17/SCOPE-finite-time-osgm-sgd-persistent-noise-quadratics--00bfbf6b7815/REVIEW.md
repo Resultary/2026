@@ -133,4 +133,4 @@ non-vanishing-noise convergence theory.
 
 ## Recorded review qualifications
 
-**Same-model review: passed. Cross-model review: not yet performed.**
+**Same-model review: passed. Independent audit: not yet performed.**

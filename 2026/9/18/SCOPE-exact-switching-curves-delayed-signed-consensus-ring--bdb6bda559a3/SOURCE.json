@@ -1,12 +1,12 @@
 {
   "resultary_path": "2026/9/18/SCOPE-exact-switching-curves-delayed-signed-consensus-ring--bdb6bda559a3",
   "resultary_record_key": "SCOPE-exact-switching-curves-delayed-signed-consensus-ring--bdb6bda559a3",
-  "source_commit": "12d186601812c02e4b0b52eaa2ecc9003b76397c",
-  "source_commit_time": "2026-09-18T02:50:17Z",
+  "source_commit": "90ae836d65ac05e647efd48c07b0319ab9628086",
+  "source_commit_time": "2026-09-20T04:37:45Z",
   "source_path": "2026/09/18/exact-switching-curves-delayed-signed-consensus-ring--bdb6bda559a3",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260918-bdb6bda559a3",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
-  "synced_at": "2026-09-18T02:52:28Z",
+  "synced_at": "2026-09-21T09:10:55Z",
   "time_standard": "UTC"
 }

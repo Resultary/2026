@@ -75,6 +75,8 @@ A later covering theorem would require revision of this assessment. The PASS is 
 
 ## Recorded review qualifications
 
-> **Review status: same-model review.** Correctness, originality and value were assessed by the same-model review, not an independent reviewer. Originality is claimed only to the best of our knowledge; consult REVIEW.md for search evidence and inaccessible sources. Publication is not peer review or a guarantee of priority.
+> **Review status: same-model review.** Same-model review: passed. Independent audit: not yet performed. Originality is claimed only to the best of our knowledge; consult REVIEW.md for search evidence and inaccessible sources. Publication is not peer review or a guarantee of priority.
 
-This is a researcher self-assessed result, not independent validation.
+## Recorded review qualifications
+
+Same-model review:passed. Independent audit: not yet performed.

@@ -1,12 +1,12 @@
 {
   "resultary_path": "2026/9/18/SCOPE-strict-bias-squarefree-prime-factor-parities--4442c8a18ae6",
   "resultary_record_key": "SCOPE-strict-bias-squarefree-prime-factor-parities--4442c8a18ae6",
-  "source_commit": "2481012abd90e8c693f8016e683f04b2fb9fb665",
-  "source_commit_time": "2026-09-18T16:47:48Z",
+  "source_commit": "90ae836d65ac05e647efd48c07b0319ab9628086",
+  "source_commit_time": "2026-09-20T04:37:45Z",
   "source_path": "2026/09/18/strict-bias-squarefree-prime-factor-parities--4442c8a18ae6",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260918-4442c8a18ae6",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
-  "synced_at": "2026-09-18T16:52:56Z",
+  "synced_at": "2026-09-21T09:10:55Z",
   "time_standard": "UTC"
 }
