@@ -1,12 +1,12 @@
 {
   "resultary_path": "2026/9/21/SCOPE-pythagorean-square-perimeter-fixed-prime-support--1c78d6da7690",
   "resultary_record_key": "SCOPE-pythagorean-square-perimeter-fixed-prime-support--1c78d6da7690",
-  "source_commit": "781c4eea8293f199cfb7de1b06f8073724226287",
-  "source_commit_time": "2026-09-21T06:09:56Z",
+  "source_commit": "e9ed144c13b7834896a844cc4f9cac3c25a168a6",
+  "source_commit_time": "2026-09-21T10:13:41Z",
   "source_path": "2026/09/21/pythagorean-square-perimeter-fixed-prime-support--1c78d6da7690",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260921-1c78d6da7690",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
-  "synced_at": "2026-09-21T09:10:55Z",
+  "synced_at": "2026-09-21T10:13:58Z",
   "time_standard": "UTC"
 }

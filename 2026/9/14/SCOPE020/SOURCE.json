@@ -1,12 +1,12 @@
 {
   "resultary_path": "2026/9/14/SCOPE020",
   "resultary_record_key": "SCOPE020",
-  "source_commit": "e0ed8e02fa97c93a849a5a84b0fb1840051922a2",
-  "source_commit_time": "2026-09-14T07:14:59Z",
+  "source_commit": "e9ed144c13b7834896a844cc4f9cac3c25a168a6",
+  "source_commit_time": "2026-09-21T10:13:41Z",
   "source_path": "2026/09/14/020",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260914-020",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
-  "synced_at": "2026-09-14T07:17:27Z",
+  "synced_at": "2026-09-21T10:13:58Z",
   "time_standard": "UTC"
 }
