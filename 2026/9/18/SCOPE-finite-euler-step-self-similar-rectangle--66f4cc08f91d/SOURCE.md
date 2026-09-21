@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20260918-66f4cc08f91d`](https://github.com/SCOPE-Science/SCOPE2026/tree/90ae836d65ac05e647efd48c07b0319ab9628086/2026/09/18/finite-euler-step-self-similar-rectangle--66f4cc08f91d)
+
+Imported into Resultary as `2026/9/18/SCOPE-finite-euler-step-self-similar-rectangle--66f4cc08f91d`. The finding, audit, and attached artifacts remain attributable to SCOPE.

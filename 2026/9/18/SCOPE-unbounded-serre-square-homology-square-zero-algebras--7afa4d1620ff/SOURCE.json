@@ -1,12 +1,12 @@
 {
   "resultary_path": "2026/9/18/SCOPE-unbounded-serre-square-homology-square-zero-algebras--7afa4d1620ff",
   "resultary_record_key": "SCOPE-unbounded-serre-square-homology-square-zero-algebras--7afa4d1620ff",
-  "source_commit": "29560305aed6e72f0693d66f8686dd333e397998",
-  "source_commit_time": "2026-09-18T05:40:18Z",
+  "source_commit": "90ae836d65ac05e647efd48c07b0319ab9628086",
+  "source_commit_time": "2026-09-20T04:37:45Z",
   "source_path": "2026/09/18/unbounded-serre-square-homology-square-zero-algebras--7afa4d1620ff",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260918-7afa4d1620ff",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
-  "synced_at": "2026-09-18T05:44:28Z",
+  "synced_at": "2026-09-21T09:10:55Z",
   "time_standard": "UTC"
 }

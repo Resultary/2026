@@ -1,12 +1,12 @@
 {
   "resultary_path": "2026/9/18/SCOPE-renewal-tail-bias-next-token-surprise--ab11ed86de35",
   "resultary_record_key": "SCOPE-renewal-tail-bias-next-token-surprise--ab11ed86de35",
-  "source_commit": "c2dfa36773a2476927f92ebd7be5abfa6293cb27",
-  "source_commit_time": "2026-09-18T12:17:40Z",
+  "source_commit": "b628b419b96bbd7013b14046d8c7e91ca06d6039",
+  "source_commit_time": "2026-09-21T09:05:34Z",
   "source_path": "2026/09/18/renewal-tail-bias-next-token-surprise--ab11ed86de35",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260918-ab11ed86de35",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
-  "synced_at": "2026-09-18T12:18:57Z",
+  "synced_at": "2026-09-21T09:10:55Z",
   "time_standard": "UTC"
 }

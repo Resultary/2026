@@ -1,12 +1,12 @@
 {
   "resultary_path": "2026/9/17/SCOPE-quantitative-garsia-rearrangement-lower-bound--7325492acf77",
   "resultary_record_key": "SCOPE-quantitative-garsia-rearrangement-lower-bound--7325492acf77",
-  "source_commit": "1107a2a37f8e5cc893b5a1b72d42b6cf96eff178",
-  "source_commit_time": "2026-09-17T21:21:14Z",
+  "source_commit": "b628b419b96bbd7013b14046d8c7e91ca06d6039",
+  "source_commit_time": "2026-09-21T09:05:34Z",
   "source_path": "2026/09/17/quantitative-garsia-rearrangement-lower-bound--7325492acf77",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260917-7325492acf77",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
-  "synced_at": "2026-09-17T21:21:28Z",
+  "synced_at": "2026-09-21T09:10:55Z",
   "time_standard": "UTC"
 }

@@ -1,12 +1,12 @@
 {
   "resultary_path": "2026/9/18/SCOPE-three-nonterminal-counterexample-group-language-inclusion--94009a9b7e05",
   "resultary_record_key": "SCOPE-three-nonterminal-counterexample-group-language-inclusion--94009a9b7e05",
-  "source_commit": "9569c501a51269a10ebbd97e7a86cb2cf5198d19",
-  "source_commit_time": "2026-09-18T02:43:14Z",
+  "source_commit": "90ae836d65ac05e647efd48c07b0319ab9628086",
+  "source_commit_time": "2026-09-20T04:37:45Z",
   "source_path": "2026/09/18/three-nonterminal-counterexample-group-language-inclusion--94009a9b7e05",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260918-94009a9b7e05",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
-  "synced_at": "2026-09-18T02:46:57Z",
+  "synced_at": "2026-09-21T09:10:55Z",
   "time_standard": "UTC"
 }
