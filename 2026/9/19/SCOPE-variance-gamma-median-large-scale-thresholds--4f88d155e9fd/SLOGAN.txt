@@ -1,0 +1,1 @@
+This later record reproduces the SCOPE five-regime large-noise variance-gamma median theorem already committed on 2026-09-18, and is retained as an alternate derivation plus an explicit Wishart small-correlation corollary package. The two critical shapes remain r=1 and r=3, but no separate priority is claimed here.

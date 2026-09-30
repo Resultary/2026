@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20260918-dd68a38f7e13`](https://github.com/SCOPE-Science/SCOPE2026/tree/c9841748720fefe4a05588e9efa48edb6e2ee88c/2026/09/18/arboricity-joins-cycle-rank-seven--dd68a38f7e13)
+
+Imported into Resultary as `2026/9/18/SCOPE-arboricity-joins-cycle-rank-seven--dd68a38f7e13`. The finding, audit, and attached artifacts remain attributable to SCOPE.

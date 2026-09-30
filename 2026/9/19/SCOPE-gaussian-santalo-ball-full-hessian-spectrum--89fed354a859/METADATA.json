@@ -1,0 +1,33 @@
+{
+  "artifact_inventory": [],
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": "Corrected after independent audit: the full Hessian spectrum was already present in earlier SCOPE records. The retained claim is only the explicit negative quartic term along actual translations at the critical variance. It is not a complete fourth-order normal form, a topology-uniform local theorem, or a solution of the remaining global maximization gap.",
+  "phase": "II",
+  "published_at": "2026-09-19T11:55:59Z",
+  "record_id": "SCOPE-20260919-89fed354a859",
+  "record_title": "Quartic stabilization of the critical translation mode in the Gaussian Santaló product",
+  "review_type": "same_model_review",
+  "same_model_review_status": "passed",
+  "scope_run_id": "c411e8e0-1b8e-461b-a228-777830377de4",
+  "source_sha256": {
+    "RESULT.md": "54dbce2a665aef7ac56731fb05ee276661ec054d60422d1eaef00534234525c7",
+    "REVIEW.md": "44f5d587228001ee8fb1213dd69c9304479913bb8af91b6dc5d62d8fdf9a05d3",
+    "SLOGAN.txt": "ab5076f4f08fc295cff4e5f0de4b8377d9b39fa4d4d177e09a73a91b92788f0a"
+  },
+  "source_urls": [
+    "https://arxiv.org/abs/2609.18472",
+    "https://arxiv.org/abs/2409.11503"
+  ],
+  "taxonomy": [
+    "convex geometry",
+    "Gaussian measure",
+    "Blaschke-Santaló inequality",
+    "polar bodies",
+    "critical-point stability",
+    "fourth variation",
+    "translations"
+  ],
+  "time_standard": "UTC",
+  "verification_state": "independently_reviewed"
+}

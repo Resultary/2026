@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20260911-036`](https://github.com/SCOPE-Science/SCOPE2026/tree/e9ed144c13b7834896a844cc4f9cac3c25a168a6/2026/09/11/036)
+Original record: [`SCOPE-20260911-036`](https://github.com/SCOPE-Science/SCOPE2026/tree/de99ed8fc4a43499ad31fb7b0b0c045fa5ba47d2/2026/09/11/036)
 
 Imported into Resultary as `2026/9/11/SCOPE036`. The finding, audit, and attached artifacts remain attributable to SCOPE.
