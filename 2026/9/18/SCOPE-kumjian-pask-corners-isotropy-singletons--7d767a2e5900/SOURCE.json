@@ -1,12 +1,12 @@
 {
   "resultary_path": "2026/9/18/SCOPE-kumjian-pask-corners-isotropy-singletons--7d767a2e5900",
   "resultary_record_key": "SCOPE-kumjian-pask-corners-isotropy-singletons--7d767a2e5900",
-  "source_commit": "e9ed144c13b7834896a844cc4f9cac3c25a168a6",
-  "source_commit_time": "2026-09-21T10:13:41Z",
+  "source_commit": "d64bb64b1420a214c941dab53f7aafc8f2312777",
+  "source_commit_time": "2026-09-30T12:53:30Z",
   "source_path": "2026/09/18/kumjian-pask-corners-isotropy-singletons--7d767a2e5900",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260918-7d767a2e5900",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
-  "synced_at": "2026-09-21T10:13:58Z",
+  "synced_at": "2026-09-30T12:56:11Z",
   "time_standard": "UTC"
 }

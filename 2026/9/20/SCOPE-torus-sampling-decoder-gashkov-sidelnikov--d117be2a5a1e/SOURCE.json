@@ -1,12 +1,12 @@
 {
   "resultary_path": "2026/9/20/SCOPE-torus-sampling-decoder-gashkov-sidelnikov--d117be2a5a1e",
   "resultary_record_key": "SCOPE-torus-sampling-decoder-gashkov-sidelnikov--d117be2a5a1e",
-  "source_commit": "e9ed144c13b7834896a844cc4f9cac3c25a168a6",
-  "source_commit_time": "2026-09-21T10:13:41Z",
+  "source_commit": "96e68c65f5b5574fe693f13122ed3288cf771d47",
+  "source_commit_time": "2026-09-30T12:53:32Z",
   "source_path": "2026/09/20/torus-sampling-decoder-gashkov-sidelnikov--d117be2a5a1e",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260920-d117be2a5a1e",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
-  "synced_at": "2026-09-21T10:13:58Z",
+  "synced_at": "2026-09-30T12:56:11Z",
   "time_standard": "UTC"
 }

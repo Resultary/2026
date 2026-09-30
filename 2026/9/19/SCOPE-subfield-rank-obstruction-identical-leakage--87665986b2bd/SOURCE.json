@@ -1,12 +1,12 @@
 {
   "resultary_path": "2026/9/19/SCOPE-subfield-rank-obstruction-identical-leakage--87665986b2bd",
   "resultary_record_key": "SCOPE-subfield-rank-obstruction-identical-leakage--87665986b2bd",
-  "source_commit": "e9ed144c13b7834896a844cc4f9cac3c25a168a6",
-  "source_commit_time": "2026-09-21T10:13:41Z",
+  "source_commit": "0b13195e52d6ec4497b49b57b76161c2d3d97bab",
+  "source_commit_time": "2026-09-30T12:53:30Z",
   "source_path": "2026/09/19/subfield-rank-obstruction-identical-leakage--87665986b2bd",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260919-87665986b2bd",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
-  "synced_at": "2026-09-21T10:13:58Z",
+  "synced_at": "2026-09-30T12:56:11Z",
   "time_standard": "UTC"
 }

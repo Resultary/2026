@@ -1,12 +1,12 @@
 {
   "resultary_path": "2026/9/18/SCOPE-exact-cubic-counterterm-stuart-landau-phase-reduction--40d4eb3f4497",
   "resultary_record_key": "SCOPE-exact-cubic-counterterm-stuart-landau-phase-reduction--40d4eb3f4497",
-  "source_commit": "e9ed144c13b7834896a844cc4f9cac3c25a168a6",
-  "source_commit_time": "2026-09-21T10:13:41Z",
+  "source_commit": "5bc3f92b6ed62c571da9a3404ec78fb66871a5ee",
+  "source_commit_time": "2026-09-30T12:53:32Z",
   "source_path": "2026/09/18/exact-cubic-counterterm-stuart-landau-phase-reduction--40d4eb3f4497",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260918-40d4eb3f4497",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
-  "synced_at": "2026-09-21T10:13:58Z",
+  "synced_at": "2026-09-30T12:56:11Z",
   "time_standard": "UTC"
 }

@@ -1,12 +1,12 @@
 {
   "resultary_path": "2026/9/20/SCOPE-synchronous-ricker-spectral-floquet-reduction--5261a9c6ad45",
   "resultary_record_key": "SCOPE-synchronous-ricker-spectral-floquet-reduction--5261a9c6ad45",
-  "source_commit": "e9ed144c13b7834896a844cc4f9cac3c25a168a6",
-  "source_commit_time": "2026-09-21T10:13:41Z",
+  "source_commit": "b23c410039fb2e26a31cf7d7df387fc689d3606d",
+  "source_commit_time": "2026-09-30T12:53:33Z",
   "source_path": "2026/09/20/synchronous-ricker-spectral-floquet-reduction--5261a9c6ad45",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260920-5261a9c6ad45",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
-  "synced_at": "2026-09-21T10:13:58Z",
+  "synced_at": "2026-09-30T12:56:11Z",
   "time_standard": "UTC"
 }

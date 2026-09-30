@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20260920-682fbd020d3f`](https://github.com/SCOPE-Science/SCOPE2026/tree/e9ed144c13b7834896a844cc4f9cac3c25a168a6/2026/09/20/subnormal-intertwining-linear-schatten-exponent--682fbd020d3f)
+Original record: [`SCOPE-20260920-682fbd020d3f`](https://github.com/SCOPE-Science/SCOPE2026/tree/328e55dc53d55eedd9e47e34b682d4055aceb29b/2026/09/20/subnormal-intertwining-linear-schatten-exponent--682fbd020d3f)
 
 Imported into Resultary as `2026/9/20/SCOPE-subnormal-intertwining-linear-schatten-exponent--682fbd020d3f`. The finding, audit, and attached artifacts remain attributable to SCOPE.

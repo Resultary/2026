@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20260920-9d2c1e07f7b4`](https://github.com/SCOPE-Science/SCOPE2026/tree/e9ed144c13b7834896a844cc4f9cac3c25a168a6/2026/09/20/pairwise-independent-lorden-overshoot-counterexample--9d2c1e07f7b4)
+Original record: [`SCOPE-20260920-9d2c1e07f7b4`](https://github.com/SCOPE-Science/SCOPE2026/tree/c3b28225d641674354bc858508e7e20826741e34/2026/09/20/pairwise-independent-lorden-overshoot-counterexample--9d2c1e07f7b4)
 
 Imported into Resultary as `2026/9/20/SCOPE-pairwise-independent-lorden-overshoot-counterexample--9d2c1e07f7b4`. The finding, audit, and attached artifacts remain attributable to SCOPE.

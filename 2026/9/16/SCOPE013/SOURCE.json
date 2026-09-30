@@ -1,12 +1,12 @@
 {
   "resultary_path": "2026/9/16/SCOPE013",
   "resultary_record_key": "SCOPE013",
-  "source_commit": "e9ed144c13b7834896a844cc4f9cac3c25a168a6",
-  "source_commit_time": "2026-09-21T10:13:41Z",
+  "source_commit": "d447e2050739c3544aa2f3af057cd7fe9e0a3433",
+  "source_commit_time": "2026-09-30T12:53:30Z",
   "source_path": "2026/09/16/edge-addition-can-increase-the-optimal-2-burning-source-number-without-b--d11e385324db",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260916-013",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
-  "synced_at": "2026-09-21T10:13:58Z",
+  "synced_at": "2026-09-30T12:56:11Z",
   "time_standard": "UTC"
 }

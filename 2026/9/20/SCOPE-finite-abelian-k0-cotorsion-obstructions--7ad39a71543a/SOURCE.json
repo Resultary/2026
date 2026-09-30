@@ -1,12 +1,12 @@
 {
   "resultary_path": "2026/9/20/SCOPE-finite-abelian-k0-cotorsion-obstructions--7ad39a71543a",
   "resultary_record_key": "SCOPE-finite-abelian-k0-cotorsion-obstructions--7ad39a71543a",
-  "source_commit": "e9ed144c13b7834896a844cc4f9cac3c25a168a6",
-  "source_commit_time": "2026-09-21T10:13:41Z",
+  "source_commit": "3d331749a38fbbf3647634a13c8388d77ce134c3",
+  "source_commit_time": "2026-09-30T12:53:33Z",
   "source_path": "2026/09/20/finite-abelian-k0-cotorsion-obstructions--7ad39a71543a",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260920-7ad39a71543a",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
-  "synced_at": "2026-09-21T10:13:58Z",
+  "synced_at": "2026-09-30T12:56:11Z",
   "time_standard": "UTC"
 }

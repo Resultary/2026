@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20260918-2c50538f59a6`](https://github.com/SCOPE-Science/SCOPE2026/tree/e9ed144c13b7834896a844cc4f9cac3c25a168a6/2026/09/18/time-varying-rates-destroy-moose-wolf-structural-identifiability--2c50538f59a6)
+Original record: [`SCOPE-20260918-2c50538f59a6`](https://github.com/SCOPE-Science/SCOPE2026/tree/35a78b4f610c154b9c13bd3bbcd09732fa41c74c/2026/09/18/time-varying-rates-destroy-moose-wolf-structural-identifiability--2c50538f59a6)
 
 Imported into Resultary as `2026/9/18/SCOPE-time-varying-rates-destroy-moose-wolf-structural-identifiability--2c50538f59a6`. The finding, audit, and attached artifacts remain attributable to SCOPE.

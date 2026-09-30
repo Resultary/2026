@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20260920-972984d0bf0d`](https://github.com/SCOPE-Science/SCOPE2026/tree/e9ed144c13b7834896a844cc4f9cac3c25a168a6/2026/09/20/frobenius-dimension-quasi-hereditary-nakayama--972984d0bf0d)
+Original record: [`SCOPE-20260920-972984d0bf0d`](https://github.com/SCOPE-Science/SCOPE2026/tree/e2c463d1cd4cbc73a100334372463e3fb5c78e2a/2026/09/20/frobenius-dimension-quasi-hereditary-nakayama--972984d0bf0d)
 
 Imported into Resultary as `2026/9/20/SCOPE-frobenius-dimension-quasi-hereditary-nakayama--972984d0bf0d`. The finding, audit, and attached artifacts remain attributable to SCOPE.

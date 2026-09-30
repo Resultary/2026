@@ -1,12 +1,12 @@
 {
   "resultary_path": "2026/9/17/SCOPE-outerplanar-screewidth-sqrt-bound--1410f5e644f4",
   "resultary_record_key": "SCOPE-outerplanar-screewidth-sqrt-bound--1410f5e644f4",
-  "source_commit": "e9ed144c13b7834896a844cc4f9cac3c25a168a6",
-  "source_commit_time": "2026-09-21T10:13:41Z",
+  "source_commit": "b5d366c3d1657805ba1c5f22ea1f2e748fe80efe",
+  "source_commit_time": "2026-09-30T12:53:31Z",
   "source_path": "2026/09/17/outerplanar-screewidth-sqrt-bound--1410f5e644f4",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260917-1410f5e644f4",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
-  "synced_at": "2026-09-21T10:13:58Z",
+  "synced_at": "2026-09-30T12:56:11Z",
   "time_standard": "UTC"
 }

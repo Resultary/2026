@@ -1,12 +1,12 @@
 {
   "resultary_path": "2026/9/18/SCOPE-rare-bernoulli-tv-sign-cancellation--adcb7befe3ff",
   "resultary_record_key": "SCOPE-rare-bernoulli-tv-sign-cancellation--adcb7befe3ff",
-  "source_commit": "e9ed144c13b7834896a844cc4f9cac3c25a168a6",
-  "source_commit_time": "2026-09-21T10:13:41Z",
+  "source_commit": "ae0d1f0f0d1f7b488527d56b77fa83ef64a39d45",
+  "source_commit_time": "2026-09-30T12:53:32Z",
   "source_path": "2026/09/18/rare-bernoulli-tv-sign-cancellation--adcb7befe3ff",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260918-adcb7befe3ff",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
-  "synced_at": "2026-09-21T10:13:58Z",
+  "synced_at": "2026-09-30T12:56:11Z",
   "time_standard": "UTC"
 }

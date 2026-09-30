@@ -1,12 +1,12 @@
 {
   "resultary_path": "2026/9/20/SCOPE-lorenz96-closed-energy-stability-boundary--b1e268a77e67",
   "resultary_record_key": "SCOPE-lorenz96-closed-energy-stability-boundary--b1e268a77e67",
-  "source_commit": "e9ed144c13b7834896a844cc4f9cac3c25a168a6",
-  "source_commit_time": "2026-09-21T10:13:41Z",
+  "source_commit": "15b8bce984decbf660b8d2020e336eafe6080428",
+  "source_commit_time": "2026-09-30T12:53:33Z",
   "source_path": "2026/09/20/lorenz96-closed-energy-stability-boundary--b1e268a77e67",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260920-b1e268a77e67",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
-  "synced_at": "2026-09-21T10:13:58Z",
+  "synced_at": "2026-09-30T12:56:11Z",
   "time_standard": "UTC"
 }
