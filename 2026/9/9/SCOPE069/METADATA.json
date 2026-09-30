@@ -41,5 +41,8 @@
     "https://arxiv.org/abs/1902.07533",
     "https://arxiv.org/abs/1604.07863"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

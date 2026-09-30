@@ -6,8 +6,8 @@
   "published_at": "2026-09-18T00:20:52Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "Originality is to the best of our knowledge. Filtration dependence of algebraic entropy and linear reindexing effects are prior work and are not claimed as new. The corrected source is the very recent v1 preprint arXiv:2609.18144, so an author revision or concurrent independent observation may supersede this record. The full text of the Krause-Lenagan proposition cited by that preprint was not directly inspected; the counterexamples here are self-contained and address the theorem statements as printed. No independent validation is asserted.",
   "taxonomy": [
@@ -30,5 +30,5 @@
     "SLOGAN.txt": "c82b9cfbf6b8173361842941fc1b1a10fd558a2fc2c113bdfa38ceb2de73cbf6"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

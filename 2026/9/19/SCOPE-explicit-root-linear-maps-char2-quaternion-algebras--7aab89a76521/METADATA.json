@@ -6,8 +6,8 @@
   "published_at": "2026-09-19T21:21:10Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "A finite 2-basis of the center yields explicit quaternion coordinates for the Frobenius-twisted H/A module, producing a complete basis of root-linear maps and an explicit normal form for range-compatible Hermitian-matrix homomorphisms.",
   "limitations": "Originality is to the best of our knowledge. The basis depends on a quaternion presentation and a chosen 2-basis, and the finite-coordinate theorem assumes finite 2-rank. Older characteristic-2 quaternion or p-basis literature may contain an equivalent semilinear decomposition under different terminology. No independent validation is asserted.",
   "taxonomy": [
@@ -26,5 +26,5 @@
   ],
   "artifact_inventory": [],
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

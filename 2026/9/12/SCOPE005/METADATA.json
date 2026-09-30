@@ -24,5 +24,8 @@
     "https://arxiv.org/abs/1510.05448",
     "https://doi.org/10.2140/gt.2022.26.3055"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

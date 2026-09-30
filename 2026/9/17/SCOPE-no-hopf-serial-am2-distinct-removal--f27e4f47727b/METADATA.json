@@ -6,8 +6,8 @@
   "published_at": "2026-09-17",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "Scientific derivation from the cited serial AM2 ordinary-differential-equation model; the determinant-trace proof and literature review are documented in RESULT.md and REVIEW.md.",
   "limitations": "The result rules out local Hopf bifurcation from equilibria but does not prove global convergence or exclude periodic orbits created by global mechanisms. It relies on the feed-forward serial AM2 structure and does not automatically extend to chemostat models with feedback, flocculation, mutualism, delay, or other non-triangular couplings.",
   "taxonomy": [
@@ -27,6 +27,6 @@
     "https://doi.org/10.1137/20M1353897"
   ],
   "artifact_inventory": [],
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "same_model_review_status": "passed"
 }

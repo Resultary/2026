@@ -58,5 +58,8 @@
     "https://doi.org/10.1007/BF02712865",
     "https://doi.org/10.1023/A:1016543307592"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

@@ -6,10 +6,10 @@
   "published_at": "2026-09-21",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "An exact coding-theoretic certificate showing that the 6x24 matrix printed as a ternary trifferent inner code in a 2024 JLMS construction has two codewords with strictly nested supports and is therefore not trifferent.",
   "limitations": "The result invalidates only the displayed matrix as a trifferent witness. It does not prove that no [24,6]_3 trifferent code exists, does not determine b_3^*(6,1), and does not by itself refute the existence statement of the cited asymptotic theorem; a corrected witness could repair the proof. Originality is to the best of our knowledge, with residual risk from an unindexed correction.",
   "taxonomy": [

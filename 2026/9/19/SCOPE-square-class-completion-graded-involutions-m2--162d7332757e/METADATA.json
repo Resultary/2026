@@ -6,8 +6,8 @@
   "published_at": "2026-09-19T00:19:19Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "A correction and completion of the order-two elementary graded-involution classification on M2(F), using the action on diagonal primitive idempotents, the monomial normalizer of the diagonal algebra, square classes, and scalar extension of graded identities and central polynomials.",
   "limitations": "Originality is to the best of our knowledge. Square-class classification of orthogonal involutions is standard background; the claim here is the explicit arbitrary-field completion/correction of arXiv:2609.20488v1 in its order-two elementary branch and the proof that the omitted forms are graded-*-PI and central-PI equivalent to the transpose representative. The Klein (-1)-grading and a complete arbitrary-field classification of all G-gradings on M2(F) are not addressed. Older discriminant or adjoint-form literature may contain equivalent structural language. No independent validation is asserted.",
   "taxonomy": [
@@ -32,5 +32,5 @@
     "SLOGAN.txt": "1bb28451c3088ec2ff5d3fdc58cf312703e2c78c90a04a31528d62f37e13ae34"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

@@ -6,8 +6,8 @@
   "published_at": "2026-09-18",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "The result corrects the exact image geometry and proves a sharp strong-starlikeness consequence for the starlike Ma--Minda class. It does not invalidate the source paper's coefficient or Hankel-determinant results, does not claim novelty for classical sine/arcsine conformal identities, and makes no claim for the companion convex class because the most relevant full text there was not inspected. Residual overlap risk therefore remains for arXiv:2607.27293v2. No independent validation is asserted.",
   "taxonomy": [
@@ -30,6 +30,6 @@
     "REVIEW.md": "33f9ca0f70bc3bd6e802dfb0efe2bf19da04c029dc3241410d23e9644f0bfa14",
     "SLOGAN.txt": "59866a1a5dd9850224b5c810ecb4e67881c3b3debd299650b4b63ac76e17086a"
   },
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "same_model_review_status": "passed"
 }

@@ -25,5 +25,8 @@
     "https://arxiv.org/abs/1903.11817",
     "http://pi.math.cornell.edu/~cao/3nonnegative.pdf"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

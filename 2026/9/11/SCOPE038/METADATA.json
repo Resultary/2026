@@ -31,5 +31,8 @@
     "https://ar5iv.labs.arxiv.org/html/1810.08665",
     "https://arxiv.org/html/1701.06579v2"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

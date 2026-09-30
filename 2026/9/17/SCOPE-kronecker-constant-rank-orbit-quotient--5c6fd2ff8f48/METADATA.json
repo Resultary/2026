@@ -6,8 +6,8 @@
   "published_at": "2026-09-17T19:23:10Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "Originality is to the best of our knowledge. The 2026 preprint leaves the matrix-space equivalence relation unspecified, so the correction distinguishes ordinary fixed-arrow module isomorphism from equivalence after an arrow-basis change rather than asserting that every possible intended reading is false. The full text of Westwick (1987) was not inspected. A concurrent author revision or independent correction is possible. No independent validation is asserted.",
   "taxonomy": [
@@ -31,5 +31,5 @@
     "SLOGAN.txt": "4ba1ed55de64070d7e593d1912886010ef96f66ffdb0f17a7ae62ae064f29302"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

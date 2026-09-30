@@ -42,5 +42,8 @@
     "https://doi.org/10.1080/00029890.2003.11919971",
     "https://doi.org/10.1155/imrn/2006/38937"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

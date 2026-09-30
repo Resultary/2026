@@ -9,8 +9,8 @@
       "sha256": "34ffb70b5fa3de1afc2aa5f5f47c3345e8ab645f63da58481f52f424fd8e0387"
     }
   ],
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
   "limitations": "No priority is claimed for the track decomposition or equivalence of the canonical families. The surviving results are short invariant deductions from the v2 structure and concern the nonlinear layer only, not a full cipher with external diffusion.",
   "phase": "II",
   "provenance": "Corrected after arXiv:2609.19548v2 explicitly added the interleaved-track decomposition and elementary equivalence. The corrected claim is restricted to the exact divisor-indexed affine-class count and the inherited Walsh/linear scaling; earlier SCOPE work already records the order, inverse, DDT, differential-uniformity and diffusion consequences.",
@@ -40,5 +40,5 @@
     "Walsh transform"
   ],
   "time_standard": "UTC",
-  "verification_state": "same_model_reviewed"
+  "verification_state": "independently_reviewed"
 }

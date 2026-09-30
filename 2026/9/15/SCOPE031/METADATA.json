@@ -25,5 +25,8 @@
     "https://content.openalex.org/works/W1980887482.pdf",
     "https://www.math.ucla.edu/~pak/papers/psurvey.pdf"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

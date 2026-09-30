@@ -6,8 +6,8 @@
   "published_at": "2026-09-21",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "Scientific theorem, proof, literature comparison, and review evidence only.",
   "limitations": [
     "The theorem concerns the standard symmetric-top wreath product A wr S_n and assumes n>=2; it does not classify arbitrary permutation wreath products.",
@@ -48,5 +48,5 @@
     "SLOGAN.txt": "ddb1cf3bdcc6bec7946edc639655954f41de74b1db2511f8fbf256d2f476dcc2"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

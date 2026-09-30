@@ -6,8 +6,8 @@
   "published_at": "2026-09-18",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II scientific record. Review evidence is documented in REVIEW.md.",
   "limitations": "Pointwise asymptotics for fixed shape r and fixed nonzero asymmetry theta only; no uniform transition theory as r approaches 1 or 3, no general higher-order expansion, and no extension to non-VG generalized hyperbolic medians. Older generalized-Laplace literature remains a residual originality risk.",
   "taxonomy": [
@@ -29,5 +29,5 @@
   ],
   "artifact_inventory": [],
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

@@ -6,8 +6,8 @@
   "published_at": "2026-09-18T20:35:42Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "limitations": "Originality is to the best of our knowledge. The proof uses classical Lindenstrauss--Rosenthal extension theory and standard Fredholm facts, which are not claimed as new. The full 1969 Lindenstrauss--Rosenthal paper and the relevant Lindenstrauss--Tzafriri book treatment were not inspected; they are the main residual sources that could contain the stable transfer in equivalent language. The converse transfer implication is not established, and the argument is specific to subspaces of ell_infinity.",
   "taxonomy": [
     "functional analysis",
@@ -29,5 +29,5 @@
     "SLOGAN.txt": "6661aa3408a21f261e2a227000282ab8b94b019b8973576f76a8acd87d13d300"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

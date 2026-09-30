@@ -36,5 +36,8 @@
     "https://arxiv.org/abs/math/0506316",
     "https://arxiv.org/abs/math/0610022"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

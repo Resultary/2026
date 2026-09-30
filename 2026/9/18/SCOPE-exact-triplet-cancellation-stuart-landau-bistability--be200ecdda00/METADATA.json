@@ -6,8 +6,8 @@
   "published_at": "2026-09-18",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "Coefficient matching and exact linear-stability analysis of the second-order Stuart–Landau phase reduction and engineered physical nonpairwise coupling in the cited source.",
   "limitations": "Three Stuart–Landau oscillators with straight isochrones and no self-coupling; the exact cancellation is for the retained mixed-order phase model through second order, not the full finite-coupling physical system. The stability result is local and concerns synchrony and splay only. Explicit triplet harmonics are canceled, but other second-order corrections and path-dependent emergent provenance remain.",
   "taxonomy": [
@@ -33,6 +33,6 @@
       "description": "Standalone SymPy verification of the pairwise residual identity and exact sync–splay transverse-stability relation after 1:1:2 motif cancellation."
     }
   ],
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "same_model_review_status": "passed"
 }

@@ -31,5 +31,8 @@
     "https://doi.org/10.1109/focs52979.2021.00109",
     "https://math.colorado.edu/~kstange/papers/1728.pdf"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

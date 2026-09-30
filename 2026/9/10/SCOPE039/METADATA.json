@@ -34,5 +34,8 @@
     "https://www.numdam.org/articles/10.1051/cocv/2021033/",
     "http://arxiv.org/abs/2212.12528"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

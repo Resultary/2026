@@ -81,5 +81,8 @@
     "https://annals.math.princeton.edu/2015/182-1/p07",
     "https://doi.org/10.1016/j.aim.2017.10.042"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

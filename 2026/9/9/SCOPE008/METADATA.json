@@ -36,5 +36,8 @@
     "https://arxiv.org/abs/2312.15022",
     "https://www.cs.ox.ac.uk/pseudospectra/thumbnails/orrsomm.html"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

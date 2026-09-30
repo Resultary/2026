@@ -6,10 +6,10 @@
   "published_at": "2026-09-20",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "A theorem for the Rabinovich--Fabrikant ODE derived from an exact dissipative balance, the logarithmic evolution of z, ergodic recurrence, invariant-measure generator identities, an exact planar angular reduction, and a Lyapunov estimate, compared with the original model and later bifurcation, periodic-orbit, negative-parameter, and statistical studies.",
   "limitations": "The invariant-measure statement is for compactly supported ergodic measures and is componentwise under ergodic decomposition. The exponential convergence theorem assumes alpha>0, gamma<0 and z>=0 and does not classify the negative-z half-space or alpha<=0. No originality is claimed for the historic conservative energy x^2+y^2+4z, the invariant plane z=0, or the reduced-plane radial identity alone. Originality is to the best of our knowledge; older or non-indexed work in the original wave-amplitude variables remains a residual coverage risk.",
   "taxonomy": [

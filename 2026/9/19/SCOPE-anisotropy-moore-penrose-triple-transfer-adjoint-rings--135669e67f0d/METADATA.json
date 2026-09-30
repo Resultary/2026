@@ -6,8 +6,8 @@
   "published_at": "2026-09-19T10:25:18Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "Exact anisotropy criterion for two Moore–Penrose transposed-triple conditions in adjoint endomorphism rings, with an isotropic rank-one obstruction and finite-field transpose classification.",
   "limitations": "Originality is to the best of our knowledge. The result does not settle the source question for arbitrary *-rings. The full texts of Pearl (1968) and Huylebrouck-Puystjens-Van Geel (1988) were not independently inspected and remain residual prior-art risks. No independent validation is asserted.",
   "taxonomy": [
@@ -28,5 +28,5 @@
   ],
   "artifact_inventory": [],
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

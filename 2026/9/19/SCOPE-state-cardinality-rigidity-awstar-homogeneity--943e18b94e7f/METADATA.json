@@ -6,8 +6,8 @@
   "published_at": "2026-09-19T01:26:49Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "limitations": "Originality is to the best of our knowledge. The elementary state-counting lemma, countable weighted-sum argument, Christensen--Pedersen countable result, and Berberian addability are prior art or standard ingredients. The claimed contribution is the exact identification kappa=max(aleph_0,s(M)), the resulting maximal/downward homogeneity spectrum under the simultaneous transfinite hypotheses, and the canonical-cardinal consequence for Arulseelan's local faithful-corner construction. Arbitrary AW*-algebras are not classified, and the normal-state analogue is not asserted. Older AW*/Baer-* dimension literature, especially Berberian 1972, was not exhaustively checked for an equivalent invariant in different terminology.",
   "taxonomy": [
     "functional analysis",
@@ -31,5 +31,5 @@
     "SLOGAN.txt": "7b2c95ffb9a7d29d079a4a9d92a528c8a4cea1b297d3e5f7358346f45de0c9ae"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

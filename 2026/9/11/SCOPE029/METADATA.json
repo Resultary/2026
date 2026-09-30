@@ -31,5 +31,8 @@
     "https://link.springer.com/article/10.1007/s00222-022-01148-3",
     "https://doi.org/10.1007/s10476-025-00125-1"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

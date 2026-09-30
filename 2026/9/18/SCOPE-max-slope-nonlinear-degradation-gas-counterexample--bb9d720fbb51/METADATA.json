@@ -6,8 +6,8 @@
   "published_at": "2026-09-18",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "Analytical counterexample within the standing monotonicity and regularity assumptions of the cited scalar delay equation; the interval bounds and local instability threshold are derived explicitly in RESULT.md.",
   "limitations": "Refutes the literal nonlinear extension of Theorem 3.6 obtained by substituting max_[m,M] h' for the linear degradation constant. It does not rule out other nonlinear sufficient conditions, provide a sharp replacement GAS criterion, or classify general nonlinear degradation laws.",
   "taxonomy": [
@@ -25,6 +25,6 @@
     "https://doi.org/10.1016/j.jmaa.2026.131043"
   ],
   "artifact_inventory": [],
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "same_model_review_status": "passed"
 }

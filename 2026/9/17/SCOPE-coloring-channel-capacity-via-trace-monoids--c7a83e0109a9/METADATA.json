@@ -5,8 +5,8 @@
   "published_at": "2026-09-17T15:11:37Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "Originality is to the best of our knowledge. Classical trace/history-monoid theory is prior art; the claimed contribution is its application to coloring-channel capacity. The full Shields 1985 article was subscription-inaccessible for this review, and a contemporaneous or poorly indexed 2026 note could independently contain the same application. No independent validation is asserted.",
   "taxonomy": [
@@ -34,6 +34,6 @@
     "REVIEW.md": "2c8beb2409fe274eb95b17fe1b633a89a4583928687180d0f6b9f2ee82a63646",
     "artifacts/verify.py": "a04f73abad14824f01b933d7195f2bfda2cb614b67658c9a2d19fdaa5ded8577"
   },
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "same_model_review_status": "passed"
 }

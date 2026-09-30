@@ -24,5 +24,8 @@
     "https://arxiv.org/html/2209.14784v1",
     "https://doi.org/10.5802/jtnb.1097"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

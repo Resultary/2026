@@ -37,5 +37,8 @@
     "https://users.fmi.uni-jena.de/~green/Coho_v3/64gps/64gp199.html",
     "https://groupprops.subwiki.org/wiki/Groups_of_order_64"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

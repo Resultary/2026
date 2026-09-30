@@ -30,5 +30,8 @@
     "https://www.kurims.kyoto-u.ac.jp/~prims/pdf/42-2/42-2-11.pdf",
     "https://doi.org/10.1016/j.aim.2014.07.032"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

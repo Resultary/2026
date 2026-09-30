@@ -33,5 +33,8 @@
     "https://users.cecs.anu.edu.au/~bdm/data/ramsey.html",
     "https://www.combinatorics.org/ojs/index.php/eljc/article/view/v19i1p66"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

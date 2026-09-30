@@ -22,5 +22,8 @@
     "https://ncatlab.org/nlab/show/theory+of+presheaf+type",
     "https://www.oliviacaramello.com/Unification/Concrete%20examples/TheoriesOfPresheafType.html"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

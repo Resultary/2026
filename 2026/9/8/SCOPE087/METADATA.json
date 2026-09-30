@@ -30,5 +30,8 @@
     "https://mathworld.wolfram.com/Permanent.html",
     "https://doi.org/10.1006/jctb.1997.1798"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

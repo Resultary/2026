@@ -29,5 +29,8 @@
     "https://arxiv.org/abs/1503.05993",
     "https://gap-packages.github.io/numericalsgps/doc/chap4.html"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

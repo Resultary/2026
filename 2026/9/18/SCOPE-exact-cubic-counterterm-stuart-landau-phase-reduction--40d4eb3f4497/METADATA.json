@@ -6,8 +6,8 @@
   "published_at": "2026-09-18",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "Exact resonant-cubic phase projection applied to the published second-order Stuart–Landau triad phase reduction, with an explicit physical counterterm.",
   "limitations": "Perturbative cancellation through order epsilon^2 only. No bound on the order-epsilon^3 remainder or experimental realizability is claimed. The explicit formula uses the source's three-oscillator, straight-isochrone, c=-1, d=0 setting.",
   "taxonomy": [
@@ -33,6 +33,6 @@
       "verified_output": "max_abs_residual=4.441e-16; checks=375"
     }
   ],
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "same_model_review_status": "passed"
 }

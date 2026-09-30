@@ -6,10 +6,10 @@
   "published_at": "2026-09-21",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "An exact extremal theorem for binary length-eight (2,1)-separating systems, equivalently binary 2-frameproof codes and general-position sets in the 8-dimensional hypercube, proved by a distance reduction and symmetry-complete exact verification.",
   "limitations": "The upper bound is computer-assisted after an exact reduction and does not automatically generalize to higher dimensions. Originality is to the best of our knowledge; the full theorem text of Sun and Wang (2025) was not inspected, although the later August 2026 general-position survey states that exact hypercube values were known only through dimension seven.",
   "taxonomy": [

@@ -25,5 +25,8 @@
     "https://arxiv.org/abs/alg-geom/9708001",
     "https://people.math.ethz.ch/~rahul/Quintic2016fin.pdf"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

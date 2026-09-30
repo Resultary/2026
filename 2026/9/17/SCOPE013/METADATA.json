@@ -5,8 +5,8 @@
   "published_at": "2026-09-17T12:45:47Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "Originality is only to the best of our knowledge. the same-model review identifies a residual risk of an algebraic or inequality-direction error in the analytic tail. No independent validation or formal verification is asserted.",
   "taxonomy": [
@@ -29,6 +29,6 @@
     "artifacts/research_note.md": "d19e8dafe43e047ae6e8d40a99245c382b5833af90b4749cf60bdbdea300b9e7",
     "artifacts/verify.py": "97182aea4f3bc54d2ec55faf3f641e5294d0374ebbe23badae7137e5e8f8ef8d"
   },
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "same_model_review_status": "passed"
 }

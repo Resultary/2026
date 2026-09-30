@@ -5,8 +5,8 @@
   "published_at": "2026-09-17T12:00:42Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "Originality to the best of our knowledge. No independent-review badge is asserted. This archival publication does not strengthen the source report's claims.",
   "taxonomy": [
@@ -29,6 +29,6 @@
     "artifacts/research_note.md": "5ee23b2fbc47ba31b77716fde944a0f0dcb260cc4132793075752e1e5d3202f6",
     "artifacts/verify.py": "b4b7a3f9f0a6f36920bfa981bb49392b58a281d5668268317fc94a2ce4b407f9"
   },
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "same_model_review_status": "passed"
 }

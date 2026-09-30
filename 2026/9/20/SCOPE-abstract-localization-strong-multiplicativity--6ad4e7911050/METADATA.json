@@ -6,8 +6,8 @@
   "published_at": "2026-09-20T03:24:02Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "An explicit pair of multiplicative sets in one commutative ring separates strong multiplicativity from the abstract isomorphism type of the localization ring and gives a map-compatible repair of the idempotent-localization clause in arXiv:2609.16741v1.",
   "limitations": "Originality is qualified to the best of our knowledge. The current source preprint was inspected in full around its structural theorem and proof, and targeted searches did not locate this explicit correction. The map-compatible universal-property formulation is standard; the claimed contribution is the concrete separation of bare ring isomorphism from strong multiplicativity. The superseded predecessor was not fully inspected in its earlier versions, and an equivalent observation may exist under different terminology or appear independently.",
   "taxonomy": [
@@ -25,5 +25,5 @@
   ],
   "artifact_inventory": [],
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

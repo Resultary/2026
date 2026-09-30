@@ -28,5 +28,8 @@
     "https://doi.org/10.4171/jncg/399",
     "https://doi.org/10.1007/s00208-007-0171-6"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

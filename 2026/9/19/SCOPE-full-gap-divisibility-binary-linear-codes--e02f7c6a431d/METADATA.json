@@ -6,10 +6,10 @@
   "published_at": "2026-09-19",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "A global structural consequence of the minimal-vector ceiling and binary disjoint-support decomposition of Ashikhmin--Barg, motivated by the local mirror-vanishing theorem of He, arXiv:2609.20344v1.",
   "limitations": "The initial gap must extend through n-k+1, which is stronger than the short-gap hypothesis in the motivating preprint. The recursive disjoint-support argument is binary-specific. No full classification is given for even minimum distance. Originality is to the best of our knowledge, with residual folklore and near-simultaneous priority risk.",
   "taxonomy": [

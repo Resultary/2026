@@ -6,10 +6,10 @@
   "published_at": "2026-09-20",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "A symmetry reduction for occupancy-invariant statistics under uniform pairwise independence, with exact sharp collision-free probability bounds.",
   "limitations": "The reduction applies to coordinate- and common-label-invariant objectives on a finite uniform alphabet. It does not characterize nonsymmetric objectives, nonuniform marginals, or higher k-wise independence. Equivalent formulations may exist in finite exchangeability, weighted orthogonal-array, universal-hashing, or probability-bounds literature.",
   "taxonomy": [

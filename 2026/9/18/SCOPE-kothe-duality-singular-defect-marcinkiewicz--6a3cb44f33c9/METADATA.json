@@ -6,8 +6,8 @@
   "published_at": "2026-09-18T22:25:54Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "limitations": "Originality is to the best of our knowledge. The elementary truncation lemma, the Lorentz--Luxemburg theorem, and standard Marcinkiewicz associate-space theory are classical and are not claimed as new. The full older literature on singular functionals and non-Fatou renormings was not exhaustively inspected and is the main residual source that could contain the general truncation consequence in equivalent language. The result identifies the Kothe/associate dual and biassociate, not the full Banach dual, and does not classify all singular functionals.",
   "taxonomy": [
     "functional analysis",
@@ -28,5 +28,5 @@
     "SLOGAN.txt": "ab56978cb1ed49e4aa61c8f4a8a2e2ed2828258ed1672d03b26a62164245c023"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

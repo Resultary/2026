@@ -6,10 +6,10 @@
   "published_at": "2026-09-18",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "Source-specific correction to the ordered-product spectral-rate convergence claim in arXiv:2609.18017v1, using an explicit smooth period-four Jacobian cocycle and a residue-class transversality calculation.",
   "limitations": "The result corrects the general asymptotic interpretation of h_L but does not dispute the source paper's reported finite-L numerical values or control experiments. The periodic transversality condition is sufficient, not claimed to characterize arbitrary aperiodic cocycles. Broad nonconvergence of normalized spectral radius is established prior mathematics and is excluded from the originality claim.",
   "taxonomy": [

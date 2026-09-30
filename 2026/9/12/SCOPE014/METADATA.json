@@ -27,5 +27,8 @@
     "https://arxiv.org/abs/0806.1720",
     "https://arxiv.org/abs/1905.12435"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

@@ -55,5 +55,8 @@
     "https://doi.org/10.1101/2023.11.20.567709",
     "https://doi.org/10.21428/8e6ba8ef.7f5fc8cc"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

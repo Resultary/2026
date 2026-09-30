@@ -6,10 +6,10 @@
   "published_at": "2026-09-18",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "Scientific sources, proof evidence, and verification evidence are listed in RESULT.md and REVIEW.md.",
   "limitations": "Originality is to the best of our knowledge. The result strengthens the quantitative parameters of the Wang--Wu construction but does not claim the qualitative separation, the fully linear PCP machinery, or standard adder/comparator circuits as new. It does not establish optimality or a matching lower bound on rectangle density. The motivating preprint is extremely recent, creating a near-simultaneous-discovery risk. No independent validation is asserted.",
   "taxonomy": [

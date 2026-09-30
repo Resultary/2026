@@ -24,5 +24,8 @@
     "https://arxiv.org/pdf/1806.05527v1.pdf",
     "https://arxiv.org/pdf/0907/0907.3324v5.pdf"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

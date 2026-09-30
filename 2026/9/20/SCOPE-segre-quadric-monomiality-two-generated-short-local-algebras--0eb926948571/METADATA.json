@@ -6,8 +6,8 @@
   "published_at": "2026-09-20",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "Scientific theorem, proof, literature comparison, and review evidence only.",
   "limitations": [
     "The theorem is restricted to split local algebras with J^3=0 and dim(J/J^2)=2.",
@@ -43,5 +43,5 @@
     "SLOGAN.txt": "59cd6805c6b77318eb74eb204b6c5cf94cd8cd5aebeb1e109b130ad14d7ef57b"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

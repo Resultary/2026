@@ -27,5 +27,8 @@
     "https://doi.org/10.1090/S0025-5718-1981-0616374-9",
     "https://doi.org/10.1090/S0025-5718-1995-1303086-1"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

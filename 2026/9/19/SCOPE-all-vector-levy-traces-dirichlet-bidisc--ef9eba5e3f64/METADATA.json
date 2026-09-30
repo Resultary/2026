@@ -6,8 +6,8 @@
   "published_at": "2026-09-19T12:01:22Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "limitations": "Originality is to the best of our knowledge. The result answers the arbitrary-vector question in arXiv:2609.20346v1 by combining a known polynomial defect identity with the zero-defect Lévy face decomposition, then derives a countable tomography theorem. It does not claim those prior ingredients, Hausdorff moment uniqueness, disintegration, or Fourier uniqueness as new. The trace maps are L2 extensions rather than pointwise boundary traces; Lévy measures alone do not recover boundary-supported defining mass, for which the drift is essential. Older completely-hyperexpansive model literature may contain equivalent one-variable trace formulations.",
   "taxonomy": [
     "functional analysis",
@@ -32,5 +32,5 @@
     "SLOGAN.txt": "3e7d3b9ede6c4c92b4a4723c5a91fb2936cb7da8b70b423661e232223744dbee"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

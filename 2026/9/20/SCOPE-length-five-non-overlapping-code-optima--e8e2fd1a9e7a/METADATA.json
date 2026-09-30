@@ -6,10 +6,10 @@
   "published_at": "2026-09-20",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "Symbolic solution of the exact SQN(q,5) integer formulation for maximum q-ary non-overlapping codes, with equality classification, enumeration via Proposition 11, and finite exact verification.",
   "limitations": "The result is specific to block length five and relies on the published SQN characterization of maximum non-overlapping codes. Originality is to the best of our knowledge after checking equivalent terminology, stronger formulations, later constrained and overlap-free literature, and potentially conflicting ternary maximality claims.",
   "taxonomy": [

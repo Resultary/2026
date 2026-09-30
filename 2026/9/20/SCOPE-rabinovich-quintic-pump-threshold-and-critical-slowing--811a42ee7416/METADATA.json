@@ -6,10 +6,10 @@
   "published_at": "2026-09-20",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "A theorem for the dissipative Rabinovich three-wave equations derived from an exact critical energy factorization, LaSalle invariance, an explicit center-manifold reduction, and the classical equilibrium branch.",
   "limitations": "Positive damping and pump parameters are assumed. The t^{-1/4} law applies off the two-dimensional strong-stable manifold. The result does not classify later post-threshold bifurcations. The strict subthreshold theorem, exact nonzero equilibria and pitchfork itself are prior work; originality is claimed only for the equality closure, quintic critical mechanism and decay law. A 1981 review by the original authors and older Russian-language analyses remain residual coverage risks.",
   "taxonomy": [

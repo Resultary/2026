@@ -25,5 +25,8 @@
     "https://arxiv.org/abs/1006.5523",
     "https://hal.science/hal-00495786v1/file/spectreFP21.pdf"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

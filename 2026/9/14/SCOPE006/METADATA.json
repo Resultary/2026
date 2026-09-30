@@ -24,5 +24,8 @@
     "https://www.chebfun.org/examples/approx/RationalAbsx.html",
     "https://doi.org/10.1090/s0273-0979-1993-00351-3"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

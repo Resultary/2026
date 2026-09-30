@@ -25,5 +25,8 @@
     "http://home.mathematik.uni-freiburg.de/rschnei/Wuhan.pdf",
     "https://www.aimsciences.org/article/id/37db4c5e-1fe6-4d9e-9b8e-42368887ca88"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

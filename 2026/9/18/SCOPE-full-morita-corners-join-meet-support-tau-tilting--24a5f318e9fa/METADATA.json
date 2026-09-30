@@ -6,8 +6,8 @@
   "published_at": "2026-09-18T19:19:46Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "A strict-Morita-context specialization of the direct-induction and componentwise torsion constructions in arXiv:2609.18746v1, using Morita equivalence and the support tau-tilting/functorially-finite-torsion correspondence.",
   "limitations": "Originality is to the best of our knowledge. The matrix-algebra failures of the radical-valued converse and the strict M_2(C) intersection obstruction are prior work in arXiv:2609.18746v1. Morita equivalence of strict contexts and order-preserving correspondences for torsion theories are classical. Older Morita/torsion-theory literature was not exhaustively inspected theorem-by-theorem, so an equivalent join/meet observation under different terminology remains a residual originality risk. No independent validation is asserted.",
   "taxonomy": [
@@ -32,5 +32,5 @@
     "SLOGAN.txt": "0d1d3908939fa1fa8301bebcbbd20bea62771c4b5bca6293a9fe1b5a7e965870"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

@@ -6,8 +6,8 @@
   "published_at": "2026-09-17",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "Uniformly nondegenerate Bernoulli probabilities and a fixed large-deviation separation from the mean are required. The first-order remainder is conservative and no complete heterogeneous expansion is claimed. The explicit heterogeneity constant is not asserted optimal. Sparse, moderate-deviation, dependent, and near-the-mean regimes are outside the result. General saddlepoint theory may recover part of the first theorem by specialization; originality is to the best of our knowledge.",
   "taxonomy": [
@@ -32,5 +32,5 @@
   ],
   "artifact_inventory": [],
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

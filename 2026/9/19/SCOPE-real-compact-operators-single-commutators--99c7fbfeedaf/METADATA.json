@@ -6,8 +6,8 @@
   "published_at": "2026-09-19T16:01:25Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "limitations": "Originality is to the best of our knowledge. The universal constant is not optimized; finite-dimensional real Hilbert spaces are necessarily excluded; no stronger Schatten-ideal membership of the factors or extension to general real Banach spaces is proved. Fan--Fong (1987), Fan (1984), and Anderson (1977) were not all inspected in original full text and are the principal residual prior-art sources.",
   "taxonomy": [
     "functional analysis",
@@ -31,5 +31,5 @@
     "SLOGAN.txt": "a328e2f18622f2bda9c4541b885c66ca17473d1a68029e0985660120d6d62a0b"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

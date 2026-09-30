@@ -5,10 +5,10 @@
   "phase": "II",
   "published_at": "2026-09-19",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "limitations": "The quantitative distance lives in the one-dimensional profile-transform space, not a standard geometric distance; no quantitative inverse-transform modulus is proved. For nonsymmetric bodies the Rényi term sees the Blaschke symmetral, while the volume-gain factor records only one asymmetry statistic. The theorem remains restricted to bodies of revolution.",
   "taxonomy": [
     "convex geometry",

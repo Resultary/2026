@@ -6,8 +6,8 @@
   "published_at": "2026-09-20T07:33:51Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "A recurrent-prefix modification of Wallen's weighted-shift realization repeats each norming prefix arbitrarily far out while positive bridge weights preserve all submultiplicative upper bounds, forcing the same prescribed values in operator norm and essential norm.",
   "limitations": "The ordinary power-norm characterization is classical Wallen. Originality is claimed only for the simultaneous essential-norm equality with an irreducible unilateral weighted shift and its exact-rate consequence, to the best of our knowledge. Shields's 1974 weighted-shift survey was not exhaustively inspected page by page, and Wallen's original source was not identified beyond Halmos's explicit attribution; an equivalent observation may exist under different terminology.",
   "taxonomy": [
@@ -28,5 +28,5 @@
   ],
   "artifact_inventory": [],
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

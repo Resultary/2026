@@ -6,10 +6,10 @@
   "published_at": "2026-09-19",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "limitations": "Finite measure L1 spaces only. Higher closed powers, infinite or merely localizable measure spaces, classification of intermediate ideals, incompressibility, and quantitative multiplication constants are not resolved. The translation-averaging symbol is attached to a complemented circle model rather than canonically to the full ambient measure algebra.",
   "taxonomy": [
     "functional analysis",

@@ -21,5 +21,8 @@
     "https://arxiv.org/abs/2008.04043",
     "https://link.springer.com/article/10.1007/s00029-023-00889-0"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

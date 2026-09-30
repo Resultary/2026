@@ -27,5 +27,8 @@
     "https://arxiv.org/abs/2507.09416",
     "https://doi.org/10.1103/PhysRevA.84.052306"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

@@ -19,5 +19,8 @@
   "record_id": "SCOPE-20260913-069",
   "record_title": "Exact neutral fixed point gives rigorous Anosov-threshold upper bound t_c <= (sqrt(3)-1)/(4pi) for shear-perturbed family on T^3",
   "source_urls": [],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

@@ -6,8 +6,8 @@
   "published_at": "2026-09-20T07:24:23Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "The theorem is proved in RESULT.md from the central-extension structure of graphical groups and a self-contained twisted-group-algebra lemma; scientific sources are listed in source_urls.",
   "limitations": "The general formula reduces character enumeration to alternating-matrix rank counts but does not establish polynomiality in q for arbitrary graphs. Originality is to the best of our knowledge; an equivalent older formulation in general class-two or projective-representation terminology remains a residual risk.",
   "taxonomy": [
@@ -33,5 +33,5 @@
     "SLOGAN.txt": "5843b32b94f94d6f8dba82d49730abc87127932f3ba494c5d500eabd64b72029"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

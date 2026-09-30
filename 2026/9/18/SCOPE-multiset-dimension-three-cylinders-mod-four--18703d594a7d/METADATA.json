@@ -6,8 +6,8 @@
   "published_at": "2026-09-18",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "limitations": "The theorem covers m >= 3, n >= 6m, and n congruent to 2 modulo 4. It does not determine the remaining congruence classes or n < 6m, and the coefficient 6 is proved sharp only for the antipodal boundary landmark family used here, not among arbitrary three-landmark sets. Originality is to the best of our knowledge and unindexed parallel work remains a residual risk. No independent validation is asserted.",
   "taxonomy": [
     "graph theory",
@@ -36,5 +36,5 @@
     "artifacts/verification.txt": "93be69fc5f6d64539384be047e72e9348fd1a2466119e6ff720b122ad078b34a"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

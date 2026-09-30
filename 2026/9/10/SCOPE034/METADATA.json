@@ -28,5 +28,8 @@
     "https://doi.org/10.1017/cbo9781139525350.013",
     "https://arxiv.org/abs/2201.04573"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

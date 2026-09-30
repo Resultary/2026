@@ -6,10 +6,10 @@
   "published_at": "2026-09-21",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "Analytic invariant-measure and generator-balance analysis of the classical Shimizu–Morioka flow.",
   "limitations": "The theorem assumes a,b>0 and compact support of the invariant measure. It does not prove existence, uniqueness, or ergodicity of attractors or invariant measures, and it does not give pointwise bounds for arbitrary nonperiodic trajectories. Originality is to the best of our knowledge; the 1980 original article and some older Russian bifurcation literature were not fully inspected at theorem level.",
   "taxonomy": [

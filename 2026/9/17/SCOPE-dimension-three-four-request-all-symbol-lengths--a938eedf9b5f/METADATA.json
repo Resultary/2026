@@ -6,10 +6,10 @@
   "published_at": "2026-09-17",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "Scientific sources and verification evidence are listed in RESULT.md and REVIEW.md.",
   "limitations": "Originality is to the best of our knowledge. The Fano-matroid representability obstruction is classical and is not claimed as new. The originality claim is limited to the reduction of the odd-characteristic dimension-three four-all-symbol PIR problem to Fano incidence and the resulting exact ASP/ASB value. Older disjoint-repair-group and majority-logic literature remains a residual coverage risk. No independent validation is asserted.",
   "taxonomy": [

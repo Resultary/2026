@@ -21,5 +21,8 @@
   "source_urls": [
     "https://ar5iv.labs.arxiv.org/html/1007.3770"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

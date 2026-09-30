@@ -112,5 +112,8 @@
     "https://doi.org/10.1112/S0024610799008467",
     "https://pdfs.semanticscholar.org/78cc/99d03f2bb0b899fb7ac992b09defcfb8b536.pdf"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

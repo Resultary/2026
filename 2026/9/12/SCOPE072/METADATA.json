@@ -26,5 +26,8 @@
     "https://doi.org/10.2140/pjm.1996.176.365",
     "https://doi.org/10.1016/j.jalgebra.2012.09.037"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

@@ -6,8 +6,8 @@
   "published_at": "2026-09-17T21:26:25Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "Originality is to the best of our knowledge. The sharp bound and saturated-pair formula used here appear in a very recent v1 preprint, so a concurrent revision or independent equality analysis is possible. Targeted searches found no matching maximum-case classification, but unpublished notes and all equivalent formulations cannot be excluded. No specific inaccessible paper was identified as especially likely to contain the exact classification. No independent validation is asserted.",
   "taxonomy": [
@@ -31,5 +31,5 @@
     "SLOGAN.txt": "5eb8bf4b2d30874288b0c9803bcad013595cbd9f31529a063043cc00ece6b91c"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

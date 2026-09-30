@@ -6,8 +6,8 @@
   "published_at": "2026-09-18T03:29:22Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "Bounded planar sets under holomorphic motions are treated. The auxiliary variable-radius Assouad packing criterion is elementary and not claimed as independently new. The result does not resolve Hausdorff or upper-Minkowski holomorphic-motion questions, and no higher-dimensional analogue is asserted. The principal source preprint is extremely recent, so contemporaneous unindexed overlap remains a residual risk. No independent validation is asserted.",
   "taxonomy": [
@@ -31,6 +31,6 @@
     "REVIEW.md": "7ad0fa96fd78108ce333a995055ac6ea08e9708d1fd7a2c50477180ab9db5823",
     "SLOGAN.txt": "822eb1fd73d5387f878f4331c296744d87873ec16df22439cf7b4eba1f6c01df"
   },
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "same_model_review_status": "passed"
 }

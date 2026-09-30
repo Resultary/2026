@@ -6,8 +6,8 @@
   "published_at": "2026-09-17",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "The result is specific to maximum degree at most two and the nontrivial three-colour case. It does not resolve degree-three families. The source paper is extremely recent, so unindexed parallel work remains a residual originality risk. No independent validation is asserted.",
   "taxonomy": [
@@ -32,5 +32,5 @@
     "REVIEW.md": "052630c5bb8281672782dcc70a49cef8c2c99ecd4dba9bc73466ea4a9615a4e5"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

@@ -6,10 +6,10 @@
   "published_at": "2026-09-21",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "A structural theorem showing that, at sufficiently low redundancy, any binary t-PIR encoder onto a linear associated code is affine-equivalent to a linear t-PIR encoder, with an application to the open length-11 size-2^7 binary 3-PIR case.",
   "limitations": "The affine-forcing step is binary, the threshold r<=3t-4 is sufficient rather than claimed optimal, and the theorem does not settle existence of the length-11 size-2^7 3-PIR code; it proves only that any such code must have a nonlinear associated code. Originality is to the best of our knowledge, with residual risk from equivalent results under unrelated Boolean-function or coding terminology.",
   "taxonomy": [

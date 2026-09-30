@@ -31,5 +31,8 @@
     "https://arxiv.org/html/2507.14917",
     "https://doi.org/10.1090/proc/14406"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

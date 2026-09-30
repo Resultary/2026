@@ -25,5 +25,8 @@
     "https://doi.org/10.2140/gt.2022.26.3055",
     "https://doi.org/10.1142/s0129167x20500135"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

@@ -6,8 +6,8 @@
   "published_at": "2026-09-20",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "Scientific theorem, proof, literature comparison, and review evidence only.",
   "limitations": [
     "The theorem is stated for connected basic finite-dimensional Nakayama algebras over an algebraically closed field.",
@@ -45,5 +45,5 @@
     "SLOGAN.txt": "a78752b579b8439a1f3186471135e4122acc5b7264c1f82a120324f4b9c606c6"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

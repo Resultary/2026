@@ -48,5 +48,8 @@
     "https://arxiv.org/abs/2312.07716",
     "https://oeis.org/A257562?fmt=text"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

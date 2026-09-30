@@ -23,5 +23,8 @@
     "https://www.chebfun.org/examples/approx/RationalAbsx.html",
     "https://people.maths.ox.ac.uk/trefethen/remezR2_arxiv.pdf"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

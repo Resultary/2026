@@ -35,5 +35,8 @@
     "https://arxiv.org/abs/1609.08828",
     "https://doi.org/10.4171/jems/329"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

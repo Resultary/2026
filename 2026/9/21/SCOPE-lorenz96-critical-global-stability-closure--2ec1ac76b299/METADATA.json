@@ -6,10 +6,10 @@
   "published_at": "2026-09-21",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "Analytic quadratic-energy, polarization, LaSalle-invariance, circulant spectral, and Fourier arguments for energy-preserving Lorenz-96-type flows.",
   "limitations": "Requires a homogeneous quadratic Euclidean-energy-preserving cyclically equivariant nonlinearity with uniform damping and forcing. No quantitative critical decay rate or post-bifurcation classification is claimed. Originality is to the best of our knowledge; the closest published strict-interior theorem was checked through an accessible manuscript copy because the final publisher full text was not fully accessible.",
   "taxonomy": [

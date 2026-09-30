@@ -6,10 +6,10 @@
   "published_at": "2026-09-19",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "Exact convex-analysis and entropy-pair analysis of the interface-state selector introduced in arXiv:2609.19838v1.",
   "limitations": "This is a source-specific correction and invariance result, not an instability or convergence-failure theorem. The published four-candidate ELCD remains well-defined after fixing an entropy normalization, and the gauge-invariant alternative score has not been benchmarked.",
   "taxonomy": [

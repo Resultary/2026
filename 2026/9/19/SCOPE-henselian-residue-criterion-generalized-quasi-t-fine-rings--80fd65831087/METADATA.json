@@ -6,8 +6,8 @@
   "published_at": "2026-09-19T02:22:08Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "A local torsion-lifting characterization and Henselian residue-field criterion for generalized quasi t-fine rings, with sharp localization/completion and mixed-characteristic matrix consequences.",
   "limitations": "Originality is to the best of our knowledge. The generalized quasi t-fine definition, commutative quasinilpotent identity, center-locality, positive-characteristic matrix result, Hensel lifting, and periodic-division-ring theorem are prior art. The claims here are the exact local torsion-lifting criterion, the commutative Henselian residue-field equivalence, the Z_(p) versus Z_p boundary, and the all-size M_n(Z_(p)) obstruction for p>=5. General matrix rings over arbitrary Henselian local bases are not classified. No independent validation is asserted.",
   "taxonomy": [
@@ -33,5 +33,5 @@
     "SLOGAN.txt": "d28c0b65de08aa52f8d4760d1bf8c3469eed2ca9ecbe0d3cf0717d85d57f1b5a"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

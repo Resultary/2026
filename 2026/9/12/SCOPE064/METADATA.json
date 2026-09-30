@@ -24,5 +24,8 @@
     "https://grannell.net/Papers/kmn.pdf",
     "https://doi.org/10.37236/10292"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

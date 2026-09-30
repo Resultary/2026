@@ -6,10 +6,10 @@
   "published_at": "2026-09-20",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "A theorem for the Moore--Spiegel oscillator derived from two exact polynomial balance laws, invariant-measure generator identities, bounded-orbit convergence arguments, a zero-parameter first integral, and the sharp periodic Wirtinger inequality, compared with classic and modern Moore--Spiegel literature.",
   "limitations": "Invariant-measure statements require compact support. Bounded-orbit convergence for T<=0 is conditional on forward boundedness. The damping-threshold support result requires R>T>0. The period theorem constrains existing cycles and does not prove existence. Originality is to the best of our knowledge; the full texts of Baker--Moore--Spiegel (1971) and Letellier--Malasoma (2014) were not inspected and remain residual coverage risks.",
   "taxonomy": [

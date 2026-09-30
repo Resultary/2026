@@ -6,8 +6,8 @@
   "published_at": "2026-09-21",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "Scientific theorem, symbolic proof, exact finite verification, literature comparison, and review evidence only.",
   "limitations": [
     "The result does not settle whether any nonabelian psi-divisible finite group exists.",
@@ -46,5 +46,5 @@
     "artifacts/verify.py": "8f8073a79c90bfb310bd50cd24376f23308cbd24a74e69cb32d870f428f6031f"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

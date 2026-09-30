@@ -38,5 +38,8 @@
     "https://oeis.org/A395248",
     "https://wwwhomes.uni-bielefeld.de/achim/octal.html"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

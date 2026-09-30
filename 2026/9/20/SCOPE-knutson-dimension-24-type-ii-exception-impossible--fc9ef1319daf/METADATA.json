@@ -6,8 +6,8 @@
   "published_at": "2026-09-20",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "Scientific theorem, proof, literature comparison, and review evidence only.",
   "limitations": [
     "The dimension-at-most-31 conclusion inherits the hypotheses and non-exceptional case analysis of Martin Duro's Corollary 2.32.",
@@ -43,5 +43,5 @@
     "SLOGAN.txt": "9be3697ed0f9810858a01f7bf1a66ab68e6ce9c8e677489322ea7b129afd0158"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

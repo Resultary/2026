@@ -23,5 +23,8 @@
     "https://arxiv.org/abs/1612.00178",
     "https://doi.org/10.1515/geofl-2018-0007"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

@@ -30,5 +30,8 @@
     "https://www.mat.univie.ac.at/~gerald/ftp/book-jacobi/",
     "https://en.wikipedia.org/wiki/Su%E2%80%93Schrieffer%E2%80%93Heeger_model"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

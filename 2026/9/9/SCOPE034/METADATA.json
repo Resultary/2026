@@ -32,5 +32,8 @@
     "https://arxiv.org/html/2406.04036v2",
     "https://arxiv.org/search/?query=nilpotent+compatible+Lie+algebras+classification&searchtype=all&source=header"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

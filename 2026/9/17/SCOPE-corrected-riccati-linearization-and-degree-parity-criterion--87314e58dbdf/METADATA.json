@@ -6,10 +6,10 @@
   "published_at": "2026-09-17T16:29:57Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "limitations": "The correction concerns the auxiliary Riccati-to-linear reduction in Wu--Hong Remark 4.21, not their main rank-two irreducibility theorem. The degree-parity condition is sufficient rather than necessary. General Riccati linearization and valuation methods are classical; originality is claimed only for the source-specific correction and its representation-theoretic corollary, to the best of our knowledge. No independent validation is asserted.",
   "taxonomy": [
     "representation theory",

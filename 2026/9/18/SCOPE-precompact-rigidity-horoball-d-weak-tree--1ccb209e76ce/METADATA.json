@@ -5,10 +5,10 @@
   "phase": "II",
   "published_at": "2026-09-18",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "limitations": "The universal-limit construction is proved for the regular binary R-tree, not arbitrary proper CAT(0) spaces. Bounded subsets of non-proper spaces need not be totally bounded. The result concerns the metric-functional d-weak topology, not the projection/Delta-weak topology on CAT(0) spaces. The motivating topology paper is very recent, so unindexed parallel work remains possible.",
   "taxonomy": [
     "metric geometry",

@@ -6,8 +6,8 @@
   "published_at": "2026-09-20",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "Scientific theorem, proof, literature comparison, and review evidence only.",
   "limitations": [
     "The result does not classify all finite ψ-divisible groups or settle the existence of nonabelian ψ-divisible groups in full.",
@@ -46,5 +46,5 @@
     "SLOGAN.txt": "fcf95d24edee07b5000c5340d5a8178a1c909b791309f2f36c919bedda360e1c"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

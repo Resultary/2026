@@ -31,5 +31,8 @@
     "https://arxiv.org/abs/2203.13379",
     "https://doi.org/10.1090/S0002-9947-1987-0871675-6"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

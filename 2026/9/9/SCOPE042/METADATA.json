@@ -34,5 +34,8 @@
     "https://arxiv.org/abs/2012.08796",
     "https://arxiv.org/abs/1812.08567"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

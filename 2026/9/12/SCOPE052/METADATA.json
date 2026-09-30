@@ -32,5 +32,8 @@
     "https://pubmed.ncbi.nlm.nih.gov/10490941/",
     "https://pubmed.ncbi.nlm.nih.gov/10809012/"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

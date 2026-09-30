@@ -28,5 +28,8 @@
     "https://link.springer.com/article/10.1007/s12044-018-0425-0",
     "https://doi.org/10.1112/jlms/s2-39.3.405"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

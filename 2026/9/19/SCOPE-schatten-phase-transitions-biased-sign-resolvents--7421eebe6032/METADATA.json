@@ -6,8 +6,8 @@
   "published_at": "2026-09-19T13:37:23Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "limitations": "Originality is to the best of our knowledge. The result does not classify arbitrary weight sequences, and absolute continuity or representability is not claimed to imply finite Schatten membership. The exponentially growing spectral examples are not claimed to retain the Schur-space or singular-measure features of Acuaviva's specific choice. Older literature on diagonal semigroups, product-measure generators and Cantor-group spectral triples is the principal residual prior-art risk.",
   "taxonomy": [
     "functional analysis",
@@ -32,5 +32,5 @@
     "SLOGAN.txt": "19ec18e26f9d04316245cb686f1d52d2a06da0d2b71ddf62074398ceb0b49059"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

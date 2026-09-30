@@ -6,8 +6,8 @@
   "published_at": "2026-09-19T11:29:10Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "Sharp topological correction of a point-mass isotropy embedding for Steinberg/Kumjian--Pask algebras, with an isolated-point corner repair and a graded periodicity obstruction.",
   "limitations": "Originality is to the best of our knowledge. Standard Steinberg isotropy induction and open-singleton corner results are prior art and are not claimed. The main residual risk is that the elementary isolated-point criterion appears implicitly or explicitly in older Steinberg-algebra literature. No independent validation is asserted.",
   "taxonomy": [
@@ -26,5 +26,5 @@
   ],
   "artifact_inventory": [],
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

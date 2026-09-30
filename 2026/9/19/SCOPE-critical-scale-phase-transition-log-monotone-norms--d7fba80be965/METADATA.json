@@ -6,10 +6,10 @@
   "published_at": "2026-09-19",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "limitations": "The theorem is tied to Huang's sparse Marcinkiewicz scales. It does not classify arbitrary sampling scales, settle the kernel in the finite positive critical regime, treat genuinely oscillatory critical products beyond the stated cases, or give a noncommutative analogue.",
   "taxonomy": [
     "functional analysis",

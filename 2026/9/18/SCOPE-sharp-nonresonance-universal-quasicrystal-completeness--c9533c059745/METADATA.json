@@ -6,8 +6,8 @@
   "published_at": "2026-09-18",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "The positive direction inherits the source theorem's assumptions, including ||beta||_2<1/2; the converse phase-lock obstruction itself does not need that norm bound. The result concerns uniqueness/completeness rather than frame bounds or Riesz-basis stability, and it is specific to this quasicrystal family. The source preprint is extremely recent, so unindexed contemporaneous observations remain a residual originality risk. No independent validation is asserted.",
   "taxonomy": [
@@ -30,6 +30,6 @@
     "REVIEW.md": "cc691b5dd281c36c35ab03066032908c65b597d3ed55ae59f0447f47cfb4bd1a",
     "SLOGAN.txt": "bf80856b09b104ab9bd754e410c8f5b0417dbf53631fbe8bb1604efdaebe7608"
   },
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "same_model_review_status": "passed"
 }

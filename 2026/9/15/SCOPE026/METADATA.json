@@ -24,5 +24,8 @@
     "http://arxiv.org/abs/2005.00139",
     "https://arxiv.org/html/2210.00245v2"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

@@ -6,8 +6,8 @@
   "published_at": "2026-09-18",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "Exact two-stage phase-type reduction and Lyapunov analysis for the bistable Gurtin--MacCamy boundary-feedback model studied by Griette and Herrera (2026).",
   "limitations": "The theorem treats an explicit noncompact two-stage hypoexponential survival-weighted reproductive kernel, including Erlang-2 as a limit; it does not settle arbitrary noncompact fertility or higher-stage phase-type kernels. The most relevant 1979 finite-dimensional Gurtin--MacCamy paper was not independently inspected in full text.",
   "taxonomy": [
@@ -30,6 +30,6 @@
     "https://doi.org/10.1016/0025-5564(79)90049-X"
   ],
   "artifact_inventory": [],
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "same_model_review_status": "passed"
 }

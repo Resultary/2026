@@ -5,10 +5,10 @@
   "phase": "II",
   "published_at": "2026-09-18",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "limitations": "The sharp radius 84 is only for integer realizations affinely equivalent to Mizhaev's published coordinate realization, not for all realizations of the abstract {9,3} surface. The sharp radius 90 additionally restricts to affine copies in which the conjugated published C4 generator is a Euclidean isometry. The full text of the 2020 precursor was not inspected, and the recent source leaves residual originality risk from parallel work.",
   "taxonomy": [
     "discrete geometry",

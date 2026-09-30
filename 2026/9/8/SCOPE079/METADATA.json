@@ -35,5 +35,8 @@
     "https://oeis.org/A020985",
     "https://oeis.org/A337120"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

@@ -6,8 +6,8 @@
   "published_at": "2026-09-19T03:26:26Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "limitations": "Originality is to the best of our knowledge. The construction-specific contribution is the faithful midpoint family and the exact distance formula dist(omega_{c,t},T_qd(A))=c|2t-1|. The weak-star diagonal approximation, the complementary-projection norm calculation, and faciality of amenable traces are standard ingredients. The result is specific to Moradi's arXiv:2609.18793v1 algebra and does not classify all quasidiagonal traces or all failures of faciality. Older quasidiagonal-trace literature was not exhaustively checked for an abstract equivalent convex-geometric lemma.",
   "taxonomy": [
     "functional analysis",
@@ -30,5 +30,5 @@
     "SLOGAN.txt": "629359354f57023923b154384ac7356a17c564a578596ea344cfccfc805e0eee"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

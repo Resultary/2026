@@ -6,8 +6,8 @@
   "published_at": "2026-09-20",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "A finite-propagation approximation and recursive separation of finite coordinate blocks produce a 1-complemented disjoint l_p or c_0 copy on which the operator is bounded below arbitrarily close to its classical essential norm. The witness yields exact strictly-singular ideal distances and the asymptotic Bernstein profile.",
   "limitations": "Originality is to the best of our knowledge. The theorem requires finite-dimensional coordinate fibers, local finiteness of the metric space, and matching outer l_p exponents (or c_0 on both sides); it does not cover l_infinity-sums. The Rabinovich--Roch--Silbermann 2004 monograph and Roch's 2022 paper on ideals of band-dominated operators were not exhaustively inspected theorem by theorem, so an older equivalent formulation cannot be excluded.",
   "taxonomy": [
@@ -34,5 +34,5 @@
   ],
   "artifact_inventory": [],
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

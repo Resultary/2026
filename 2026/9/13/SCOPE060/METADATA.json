@@ -24,5 +24,8 @@
   "source_urls": [
     "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1E0885C0904E60059F60C70364DC8529/S0004972700014453a.pdf/csagroups_and_separated_free_constructions.pdf"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

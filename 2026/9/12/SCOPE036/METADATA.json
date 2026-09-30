@@ -26,5 +26,8 @@
     "https://link.springer.com/article/10.1007/s40840-021-01175-y",
     "https://annals.math.princeton.edu/wp-content/uploads/annals-v167-n2-p04.pdf"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

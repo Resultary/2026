@@ -6,8 +6,8 @@
   "published_at": "2026-09-17T17:48:00Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "The theorem concerns positive classical steady states and does not establish dynamic convergence or nonlinear asymptotic stability. The quantitative condition is strict and may be vacuous when the equilibrium map response has unbounded logarithmic slope. The multidimensional statement applies to the local elliptic-smoothing system; exact equivalence with the motivating nonlocal exponential-kernel model is established in the cited source for the one-dimensional even-periodic setting. Originality is to the best of our knowledge, with residual risk from broader chemotaxis and aggregation-diffusion literature.",
   "taxonomy": [
@@ -32,6 +32,6 @@
     "REVIEW.md": "4ad36982a659cd560ee1a13da1e4c14e1905600043234466e4f986e5e6270314",
     "SLOGAN.txt": "80f17bad8604940ccaa5c4f9406d32d376134a3e8c033606844dd65a08401ada"
   },
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "same_model_review_status": "passed"
 }

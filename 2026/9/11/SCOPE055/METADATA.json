@@ -25,5 +25,8 @@
     "https://www.wcupa.edu/sciences-mathematics/mathematics/jMcLaughlin/documents/RamSlatJuly25.pdf",
     "https://rrsdb.github.io/"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

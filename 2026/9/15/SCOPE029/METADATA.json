@@ -39,5 +39,8 @@
     "https://doi.org/10.1215/00127094-2024-0041",
     "https://doi.org/10.4007/annals.2014.179.1.2"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

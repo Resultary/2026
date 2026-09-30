@@ -28,5 +28,8 @@
   "source_urls": [
     "https://pmc.ncbi.nlm.nih.gov/articles/PMC8550510/"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

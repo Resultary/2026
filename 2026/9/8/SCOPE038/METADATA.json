@@ -36,5 +36,8 @@
     "https://arxiv.org/abs/2001.02295",
     "https://www.lmfdb.org/Groups/Abstract/168.42"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

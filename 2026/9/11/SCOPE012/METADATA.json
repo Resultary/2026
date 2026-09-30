@@ -35,5 +35,8 @@
     "https://doi.org/10.1016/j.jsc.2005.10.001",
     "https://arxiv.org/abs/1905.11869"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

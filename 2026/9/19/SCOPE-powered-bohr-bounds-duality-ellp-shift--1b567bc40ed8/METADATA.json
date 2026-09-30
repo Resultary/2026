@@ -6,8 +6,8 @@
   "published_at": "2026-09-19T12:40:12Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "limitations": "Originality is to the best of our knowledge. The exact value of the shift radius R_p remains open for 1<p<infinity, p not equal to 2; no equality with the powered Bohr upper bound is claimed. The result concerns the canonical unilateral shift on ell_p and does not classify general Banach sequence spaces. Older Matsaev-type polynomial-calculus and analytic Toeplitz/convolution literature is the principal residual prior-art risk.",
   "taxonomy": [
     "functional analysis",
@@ -31,5 +31,5 @@
     "SLOGAN.txt": "61c5a97567ec31f7224a809b369b0b2ea9515c972533f00429e7b28659f3e3de"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

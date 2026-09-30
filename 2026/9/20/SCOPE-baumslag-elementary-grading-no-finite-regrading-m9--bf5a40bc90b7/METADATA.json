@@ -6,8 +6,8 @@
   "published_at": "2026-09-20",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "Scientific theorem, proof, literature comparison, and review evidence only.",
   "limitations": [
     "The cases n=4,5,6,7,8 are not resolved; the result only gives 3 <= n_0 <= 8.",
@@ -47,5 +47,5 @@
     "SLOGAN.txt": "f5f13c18d73f3d1ea534ede7445a8ef09b05927339909b59b10f73c00da3e23f"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

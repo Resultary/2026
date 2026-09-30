@@ -26,5 +26,8 @@
   "source_urls": [
     "https://storage.googleapis.com/arxiv-dataset/arxiv/arxiv/pdf/0912/0912.4981v2.pdf"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

@@ -23,5 +23,8 @@
     "https://arxiv.org/abs/2607.03129",
     "https://arxiv.org/abs/1712.01957"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

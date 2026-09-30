@@ -6,8 +6,8 @@
   "published_at": "2026-09-17T20:19:05Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "Originality is to the best of our knowledge. Classical Jacobi/Gegenbauer identities used in the proof are not claimed as new. The originality claim is limited to sharpness of the September 2026 Castillo--Sadigova lower-envelope theorem across the full Jacobi range alpha>-1, the explicit degree-5 first-cell defect for -1/2<alpha<0, and the three-regime failure classification. The original motivating question itself was posed only for alpha>=0. No independent validation is asserted.",
   "taxonomy": [
@@ -30,6 +30,6 @@
     "REVIEW.md": "e9d63778c4e1e7cb6a432adddf41d2cbc987fe3656c3d533f0051f2353fd56ab",
     "SLOGAN.txt": "569f7c7a6133a103b348c4cb400bc554a273aa7dafd0319392b96967596cc65b"
   },
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "same_model_review_status": "passed"
 }

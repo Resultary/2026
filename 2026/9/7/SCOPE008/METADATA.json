@@ -39,5 +39,8 @@
     "https://doi.org/10.1145/2684068",
     "https://doi.org/10.1016/0024-3795(93)90560-M"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

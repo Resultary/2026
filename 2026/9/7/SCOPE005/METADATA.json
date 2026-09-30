@@ -88,5 +88,8 @@
     "https://eprint.iacr.org/2006/449",
     "https://www.math.univ-paris13.fr/~carlet/chap-fcts-Bool.pdf"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

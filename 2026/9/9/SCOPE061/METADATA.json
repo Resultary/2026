@@ -33,5 +33,8 @@
     "https://arxiv.org/abs/2504.05394",
     "https://arxiv.org/abs/quant-ph/0310137"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

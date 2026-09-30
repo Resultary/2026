@@ -26,5 +26,8 @@
     "https://arxiv.org/abs/1904.08285",
     "https://doi.org/10.1524/zkri.2006.221.9.621"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

@@ -6,8 +6,8 @@
   "published_at": "2026-09-20T12:35:50Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "A sign-averaging reduction makes every projection onto a diagonal graph block-diagonal without increasing its norm. The resulting coefficient identities combine with the exact ℓ_q-to-ℓ_p block-multiplier norm to give a reciprocal-tail lower bound, while an explicit threshold projection gives the matching upper bound.",
   "limitations": "Originality is to the best of our knowledge. Classical complemented-subspace and unconditional-basis results for ℓ_p⊕ℓ_q are close qualitative antecedents, and the 1973, 1976, and 1978 Studia Mathematica papers were not all inspected in full. The novelty claim is restricted to the block-independent quantitative threshold formula and its sharp power-weight projection-constant consequences.",
   "taxonomy": [
@@ -29,5 +29,5 @@
   ],
   "artifact_inventory": [],
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

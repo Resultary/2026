@@ -6,8 +6,8 @@
   "published_at": "2026-09-17",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "Scientific derivation from the cited threshold-controlled dengue model; review evidence is documented in REVIEW.md.",
   "limitations": "The theorem excludes ordinary codimension-one Filippov sliding/escaping regions but does not classify degenerate common tangencies. Saltation statements require transversal crossings. The result does not establish periodic-orbit existence or stability and does not classify the Hopf bifurcation. It applies to arXiv:2607.18140v1 as formulated.",
   "taxonomy": [
@@ -26,6 +26,6 @@
     "https://doi.org/10.1002/mma.10192"
   ],
   "artifact_inventory": [],
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "same_model_review_status": "passed"
 }

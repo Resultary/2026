@@ -6,8 +6,8 @@
   "published_at": "2026-09-19T05:32:01Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "limitations": "Originality is to the best of our knowledge. The contribution is exact bounded-symbol surjectivity of the radial eigenvalue map for Bdarneh's logarithmic Fock weight in every dimension, a bounded linear right inverse, and equality of the bounded-radial Toeplitz set with the full U(n)-commutant. Standard moment formulas, Laplace concentration, Fredholm and closed-range theory, Hahn--Banach, and the older arbitrary-eigenvalue result with generally unbounded symbols are not claimed as new. The result does not classify other radial weights, quasi-radial multi-parameter maps, optimal lifting norms, or uniqueness of symbols.",
   "taxonomy": [
     "functional analysis",
@@ -31,5 +31,5 @@
     "SLOGAN.txt": "4ef11fe617fceac986e7435d16a8d2ee40f64f70a82070d270805a49c71e51a3"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

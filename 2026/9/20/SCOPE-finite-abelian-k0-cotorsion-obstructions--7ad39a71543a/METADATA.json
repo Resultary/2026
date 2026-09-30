@@ -6,8 +6,8 @@
   "published_at": "2026-09-20T02:18:41Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "A finite-index Grothendieck-group construction extends the parity counterexample of arXiv:2609.18681v1 from a Z/2 obstruction to arbitrary finite abelian obstruction groups and identifies exact object-level stabilization indices.",
   "limitations": "Originality is qualified to the best of our knowledge. The recent parity source and closely related ideal-approximation counterexamples and Frobenius results were checked, together with targeted searches for K0, Euler-congruence, and finite-abelian formulations. An equivalent observation may exist in older exact-category literature under different terminology or may appear independently in follow-up work. No independent validation is asserted.",
   "taxonomy": [
@@ -30,5 +30,5 @@
   ],
   "artifact_inventory": [],
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

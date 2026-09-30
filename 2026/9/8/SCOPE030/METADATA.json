@@ -30,5 +30,8 @@
     "https://arxiv.org/abs/1804.06515",
     "https://wwwhomes.uni-bielefeld.de/achim/octal.html"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

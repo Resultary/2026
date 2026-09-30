@@ -21,5 +21,8 @@
     "https://arxiv.org/abs/2404.17516",
     "https://doi.org/10.1090/s0002-9947-1994-1149121-0"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

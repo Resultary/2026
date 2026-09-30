@@ -38,5 +38,8 @@
     "https://link.springer.com/chapter/10.1007/978-3-642-31606-7_24",
     "https://arxiv.org/abs/2608.24245"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

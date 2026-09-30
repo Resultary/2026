@@ -34,5 +34,8 @@
     "https://arxiv.org/abs/2607.19029",
     "https://doi.org/10.4007/annals.2015.181.1.6"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

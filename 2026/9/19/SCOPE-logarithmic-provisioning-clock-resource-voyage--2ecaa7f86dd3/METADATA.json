@@ -6,10 +6,10 @@
   "published_at": "2026-09-19",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "A source-specific asymptotic analysis of the resource-coupled crew-health ODE in arXiv:2609.20430v1. Positive spontaneous deterioration yields a logarithmic large-buffer threshold clock, while zero deterioration has finite lifetime consumption and an explicit high-buffer depletion constant.",
   "limitations": "The result concerns the deterministic ODE model and fixed positive provisioning thresholds. It does not assess historical calibration, stochastic events, heterogeneous crews, resupply, or the detailed intermediate-buffer crossover regime.",
   "taxonomy": [

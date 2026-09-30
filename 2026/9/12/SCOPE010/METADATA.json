@@ -23,5 +23,8 @@
     "https://doi.org/10.1007/BF01444731",
     "https://doi.org/10.1137/S0097539703447898"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

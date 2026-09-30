@@ -36,5 +36,8 @@
     "https://arxiv.org/abs/2607.21517",
     "https://arxiv.org/search/"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

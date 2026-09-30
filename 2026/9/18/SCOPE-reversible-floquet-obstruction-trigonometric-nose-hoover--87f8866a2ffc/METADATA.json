@@ -6,8 +6,8 @@
   "published_at": "2026-09-18",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "Exact reversibility, Liouville, and Floquet analysis applied to the trigonometric Nosé–Hoover oscillator and its explicit periodic family.",
   "limitations": "Does not determine the complete Hill-discriminant stability diagram, prove nonlinear stability of elliptic orbits, or independently establish the numerically reported attracting periodic orbit. General reciprocal-multiplier theory is classical and is not claimed as new.",
   "taxonomy": [
@@ -25,6 +25,6 @@
     "https://doi.org/10.1016/S0167-2789(97)00199-1"
   ],
   "artifact_inventory": [],
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "same_model_review_status": "passed"
 }

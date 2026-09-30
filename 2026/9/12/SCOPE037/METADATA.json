@@ -37,5 +37,8 @@
     "https://arxiv.org/html/2011.13839v2",
     "https://arxiv.org/pdf/1909.02524"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

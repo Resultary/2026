@@ -39,5 +39,8 @@
     "https://arxiv.org/abs/2110.14605",
     "https://doi.org/10.1007/978-3-540-45538-7_6"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

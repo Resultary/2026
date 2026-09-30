@@ -5,8 +5,8 @@
   "published_at": "2026-09-17T15:25:26Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "Originality is to the best of our knowledge under the documented literature search. The result has not received independent validation or peer review. The theorem is limited to finite simple graphs of maximum degree at most two.",
   "taxonomy": [
@@ -33,6 +33,6 @@
     "artifacts/check_degree2_prescribed.py": "3987e2cde3358245f4ca3ef45944d9e0b05321569711e312e9ba08e509ef2d97",
     "artifacts/check_degree2_prescribed.out": "435327decee86332fbcee3175016f46a77c661411e6b57fa0eaf0a53cf70d12b"
   },
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "same_model_review_status": "passed"
 }

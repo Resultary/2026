@@ -6,8 +6,8 @@
   "published_at": "2026-09-19T08:34:43Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "limitations": "Originality is to the best of our knowledge. The contribution is the bounded nondecaying endpoint of Qin's Gaussian zero-product construction, all-Schatten membership of the resulting infinite-rank factors, and the exact passive-coordinate compactness boundary. Standard Gaussian integration, quaternionic matrix identities, Fock composition-operator singular values, and general bounded-symbol Toeplitz recognition are not claimed as new. The result is limited to n>=2 and this explicit family; Bauer--Le (2011) was not inspected in full, and Lin--Lu--Zu (2026) was inspected only at abstract level.",
   "taxonomy": [
     "functional analysis",
@@ -32,5 +32,5 @@
     "SLOGAN.txt": "0f8bbfc67f85715df699c3d2503132229f0050e72d640c348d0ea17ce9fcf857"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

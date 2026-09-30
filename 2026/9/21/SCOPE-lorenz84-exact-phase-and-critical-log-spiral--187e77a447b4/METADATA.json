@@ -6,10 +6,10 @@
   "published_at": "2026-09-21",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "Exact complex-coordinate phase reconstruction, Lyapunov analysis of the symmetric Lorenz-84 reduction, and sharp critical asymptotics.",
   "limitations": "Restricted to zero asymmetric forcing G=0. Global isochrons require autonomous F>1; critical asymptotics require autonomous F=1 and exclude the invariant axis where phase is undefined. Older theses and early Lorenz-84 papers leave residual priority risk; originality is to the best of our knowledge.",
   "taxonomy": [

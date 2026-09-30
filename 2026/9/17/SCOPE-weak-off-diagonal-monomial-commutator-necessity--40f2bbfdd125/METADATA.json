@@ -6,8 +6,8 @@
   "published_at": "2026-09-17T23:14:30Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "Unweighted only; no claim for Bloom weights, compactness, q<p, q=infinity, or general finite-type curves. Outside the known Oikari sufficiency region, the result is only necessary. The higher-dimensional companion geometry is taken from Li--Zeng's all-dimensional theorem and its stated extension. Originality is to the best of our knowledge; the principal residual risk is contemporaneous discussion of the very recent September 2026 source preprint. No independent validation is asserted.",
   "taxonomy": [
@@ -27,6 +27,6 @@
     "REVIEW.md": "69669f1f16ee339bba4720ed9adcdd37be8d46fe672db5465a085a5f6d5dad72",
     "SLOGAN.txt": "c4726d5fdf35841632f70e75cfe8a9ade2e8eebdf5ea0b74a07c1dddc4aff3ce"
   },
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "same_model_review_status": "passed"
 }

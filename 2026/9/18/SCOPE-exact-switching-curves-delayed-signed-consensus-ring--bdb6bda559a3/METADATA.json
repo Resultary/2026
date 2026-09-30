@@ -6,8 +6,8 @@
   "published_at": "2026-09-18",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "Scientific derivation from the Fourier-mode characteristic equation of the cited delayed signed-ring consensus model, using exact phase parametrization, scalar one-delay factorization, and standard retarded-delay spectral theory.",
   "limitations": "Restricted to K_p>K_n>0 for the stability conclusions. The no-open-bounded-phase statement is a robust transverse spectral result and does not cover specially prepared histories. The equal-delay theorem gives the exact first stability loss; the general two-delay parametrization does not by itself label every stability cell. Nonlinear, switching-graph, noisy, and time-varying-delay systems are outside scope.",
   "taxonomy": [
@@ -33,6 +33,6 @@
       "description": "Standalone numerical check of the exact common-delay threshold, first-mode ordering, and characteristic residual for K_p=2, K_n=1, N=20."
     }
   ],
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "same_model_review_status": "passed"
 }

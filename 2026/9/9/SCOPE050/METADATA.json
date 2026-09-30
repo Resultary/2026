@@ -36,5 +36,8 @@
     "https://brauer.maths.qmul.ac.uk/Atlas/v3/spor/M11/",
     "https://www.math.auckland.ac.nz/~conder/"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

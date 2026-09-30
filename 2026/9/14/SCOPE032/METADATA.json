@@ -25,5 +25,8 @@
     "https://arxiv.org/pdf/2007.09575",
     "https://doi.org/10.1016/j.cam.2007.01.019"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

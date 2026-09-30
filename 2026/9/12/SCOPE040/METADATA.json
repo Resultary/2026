@@ -23,5 +23,8 @@
     "https://arxiv.org/html/1601.08110v3",
     "https://link.springer.com/article/10.1007/s40879-024-00779-5"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

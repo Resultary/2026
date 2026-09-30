@@ -6,8 +6,8 @@
   "published_at": "2026-09-18T02:32:43Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "Originality is to the best of our knowledge. The arbitrary-field Dedekind Poisson classification and simultaneous-similarity criterion are prior work; contemporaneous low-dimensional Poisson classification overlaps with the three-dimensional normal forms; general bilinear-form classification is classical. The novelty claim is restricted to the finite-field Dedekind specialization, all-dimension isomorphism counts, mixed-class enumeration, and automorphism-order formulas. The source papers are recent preprints and may be revised. No independent validation is asserted.",
   "taxonomy": [
@@ -31,5 +31,5 @@
     "SLOGAN.txt": "35c15d6cb6712a667bad2bb9cb0ef3a723c25defb9abb4eae79e4ab5279327ff"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

@@ -6,8 +6,8 @@
   "published_at": "2026-09-19T08:20:18Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "A sharp separability correction to the quadratic-field branch of the arbitrary-field classification of two-dimensional trace-prime algebras in arXiv:2609.19797v1.",
   "limitations": "Originality is to the best of our knowledge. The field-trace/separability criterion is standard prior art. The correction concerns the arbitrary-field quadratic-extension branch and dependent centroid statements; the finite-field T-ideal theorems are not contradicted because finite fields are perfect. No T-ideal basis is claimed for the newly exposed inseparable family. No independent validation is asserted.",
   "taxonomy": [
@@ -25,5 +25,5 @@
   ],
   "artifact_inventory": [],
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

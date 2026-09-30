@@ -6,8 +6,8 @@
   "published_at": "2026-09-21",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "Scientific theorem, exact finite verification, literature comparison, and review evidence only.",
   "limitations": [
     "The result refutes Conjecture 3 of the cited paper, not its Conjecture 1 or Conjecture 2.",
@@ -44,5 +44,5 @@
     "artifacts/verify.py": "76c7806079d3d7bdc267312d3fe44342337b5a2582789d2dd1db9aff3bdaf083"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

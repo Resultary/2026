@@ -26,5 +26,8 @@
     "https://doi.org/10.1090/S0894-0347-1988-0924699-9",
     "https://arxiv.org/abs/2110.12413"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

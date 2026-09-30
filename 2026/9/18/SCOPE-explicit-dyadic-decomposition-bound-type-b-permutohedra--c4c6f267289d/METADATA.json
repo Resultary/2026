@@ -5,10 +5,10 @@
   "phase": "II",
   "published_at": "2026-09-18",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "limitations": "The bound is not claimed optimal for dimensions d>=5. It concerns dyadic decomposition, not ordinary IDP or normality, and does not bound simplex normalized volumes by the same power. Residual originality risk remains because the motivating preprint is extremely recent.",
   "taxonomy": [
     "discrete geometry",

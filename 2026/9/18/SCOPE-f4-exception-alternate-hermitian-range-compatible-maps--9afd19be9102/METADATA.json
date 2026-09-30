@@ -5,8 +5,8 @@
   "phase": "II",
   "published_at": "2026-09-18",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "limitations": "Originality is to the best of our knowledge. The exceptional map Phi_0, its nonlocality, and the Hermitian classification are prior results of arXiv:2609.20363v1. The novelty claim is restricted to the contradiction with Theorem 1.7(a), its corrected alternate-Hermitian statement, and the exact exceptional count with exhaustive finite verification. The source is a recent v1 and may be revised independently; no public erratum or revised arXiv version addressing this point was located.",
   "taxonomy": [
     "rings and algebras",
@@ -28,5 +28,5 @@
     "artifacts/verify_f4_exception.py": "9cede7acf75d0c565f686a16c75b1fe5aa1c3eaf47ac2bdf64f5b4c8025bca71"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

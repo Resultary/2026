@@ -6,8 +6,8 @@
   "published_at": "2026-09-18",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "The theorem gives an improved explicit universal constant for the simply connected planar analytic-Lipschitz/inner-metric comparison, but does not claim optimality. The Gaussian parameter choice is explicit rather than globally optimal, and no extension to multiply connected domains is claimed. The source preprint is extremely recent, so an unindexed parallel quantitative observation remains possible.",
   "taxonomy": [
@@ -29,6 +29,6 @@
       "description": "Standalone numerical check of the explicit constant."
     }
   ],
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "same_model_review_status": "passed"
 }

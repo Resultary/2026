@@ -28,5 +28,8 @@
     "https://doi.org/10.4171/ggd/162",
     "https://u.math.biu.ac.il/~kunyav/cejm.pdf"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

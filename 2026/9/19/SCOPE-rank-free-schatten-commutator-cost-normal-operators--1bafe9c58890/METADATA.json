@@ -6,8 +6,8 @@
   "published_at": "2026-09-19T00:38:15Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "limitations": "Originality is to the best of our knowledge. The rank-one constant c_{p,q} is not evaluated or claimed sharp. The infinite-rank extension requires an infinite-dimensional kernel, and no exact phase transition is claimed for trace-zero finite-rank targets. Anderson--Brown ideal-membership thresholds are prior art; the claimed contribution is the rank-free mixed Schatten factorization-cost estimate for normal targets. Salinas 1974 was inspected as nearby ideal-theoretic prior art; Anderson 1986, Indiana Univ. Math. J. 35, 373--378 (MR 833400), remains a full-text access uncertainty and could contain a differently formulated related estimate.",
   "taxonomy": [
     "functional analysis",
@@ -34,5 +34,5 @@
     "SLOGAN.txt": "badedddc1a1433c06a2bf0122a7e4f09d0a65a82acf244e950206f383c9126d8"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

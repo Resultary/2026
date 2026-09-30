@@ -1,5 +1,5 @@
 {
-  "independent_audit_status": "repaired",
+  "independent_audit_status": "passed",
   "independent_validation": true,
   "limitations": "The exact Whittaker–Hill reduction, reciprocal multipliers, and b=1/2 finite-coupling Floquet edge are prior SCOPE coverage and are not claimed as new here. The surviving result is linear and local in the weak-coupling tongue expansion.",
   "phase": "II",
@@ -23,5 +23,5 @@
     "Nosé-Hoover oscillator"
   ],
   "time_standard": "UTC",
-  "verification_state": "independently_audited_repaired"
+  "verification_state": "independently_reviewed"
 }

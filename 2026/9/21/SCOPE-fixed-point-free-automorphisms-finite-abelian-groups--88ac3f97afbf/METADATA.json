@@ -6,8 +6,8 @@
   "published_at": "2026-09-21",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "Scientific theorem, proof, literature comparison, exact finite checks, and review evidence only.",
   "limitations": [
     "The theorem determines only theta(A,1), the fixed-point-free stratum; it does not determine theta(A,d) for d>1.",
@@ -50,5 +50,5 @@
     "artifacts/verified_output.txt": "1748a13258586c9e28b3cede098ccedf6dea3c3f8df3d748b2ffc5410a205da0"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

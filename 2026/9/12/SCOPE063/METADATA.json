@@ -25,5 +25,8 @@
     "https://doi.org/10.1002/jgt.22176",
     "https://arxiv.org/abs/1205.4052"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

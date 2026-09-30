@@ -6,8 +6,8 @@
   "published_at": "2026-09-21",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "Scientific theorem, proof, literature comparison, and review evidence only.",
   "limitations": [
     "The theorem refutes the proposed converse only in characteristic 2; it does not settle a corrected converse in characteristic different from 2 or the general nonsymmetric case.",
@@ -42,5 +42,5 @@
     "SLOGAN.txt": "34b3f600691fdb856f631a12f87f8a4acf2c95fe1cad042843e75b553b78bd55"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

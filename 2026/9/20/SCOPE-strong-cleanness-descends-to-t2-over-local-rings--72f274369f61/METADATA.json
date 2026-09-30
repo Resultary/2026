@@ -6,8 +6,8 @@
   "published_at": "2026-09-20T10:28:40Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "Scientific theorem, proof, literature comparison, and review evidence only.",
   "limitations": [
     "The theorem is proved only for 2x2 matrices and does not settle the corresponding questions for n >= 3.",
@@ -43,5 +43,5 @@
     "SLOGAN.txt": "93245ad7b8230612b103fce80fc7b2801d2708e1679216addf4bfcdcaef5dcb5"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

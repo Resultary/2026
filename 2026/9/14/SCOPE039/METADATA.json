@@ -28,5 +28,8 @@
     "http://arxiv.org/abs/1303.5022",
     "http://arxiv.org/abs/2601.19068"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

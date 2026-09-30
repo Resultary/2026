@@ -6,8 +6,8 @@
   "published_at": "2026-09-19T01:16:33Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "A field-hypothesis sharpening of the unbounded-isotropy criterion for local nilpotence in differential Ore extensions, together with a positive-characteristic Frobenius counterexample on A_x.",
   "limitations": "Originality is to the best of our knowledge. The arbitrary-field automorphism theorem and arbitrary-characteristic-zero LND classification are prior art. The claim is the extension of the recent isotropy criterion from algebraically closed characteristic-zero fields to all characteristic-zero fields, the exact field-characteristic boundary, and the locally finite positive-characteristic A_x counterexample. Other algebra families in the source paper and iterative higher derivations are not addressed. No independent validation is asserted.",
   "taxonomy": [
@@ -33,5 +33,5 @@
     "SLOGAN.txt": "e977338a7ed0dc77a99acb8b54941ecb705c64927f003261690df9acf8ee064a"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

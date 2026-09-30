@@ -29,5 +29,8 @@
     "https://arxiv.org/abs/2302.03986",
     "https://arxiv.org/abs/2002.03291"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

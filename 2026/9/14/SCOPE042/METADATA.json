@@ -23,5 +23,8 @@
     "https://arxiv.org/abs/1407.1415",
     "https://doi.org/10.2140/apde.2017.10.127"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

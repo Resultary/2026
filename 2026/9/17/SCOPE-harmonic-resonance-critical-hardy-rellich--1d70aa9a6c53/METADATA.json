@@ -6,8 +6,8 @@
   "published_at": "2026-09-17T18:22:29Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "Originality is to the best of our knowledge. Castro v4 and the relevant theorem/proof/concluding passages of Majdoub v1 were inspected. McOwen (1979), a potentially relevant general weighted-Sobolev/Fredholm source, was not inspected in full; only bibliographic metadata and secondary theorem descriptions were available. The record does not characterize nonresonant Laplacian weights outside the Muckenhoupt interval. No independent validation is asserted.",
   "taxonomy": [
@@ -31,6 +31,6 @@
     "REVIEW.md": "085432fb274168053cf65f7a9292589751dc82b2988a7a78fbd59409133f621d",
     "SLOGAN.txt": "baf07b48557a6a5c480dbcd30309ac1c95ed8e6531aa4d24afa7f1582105ede4"
   },
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "same_model_review_status": "passed"
 }

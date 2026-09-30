@@ -25,5 +25,8 @@
     "https://catherinepfaff.com/CompleteGraphs.pdf",
     "https://academic.oup.com/imrn/article/2019/14/4549/4791942"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

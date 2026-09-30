@@ -24,5 +24,8 @@
     "https://doi.org/10.1103/physrevlett.107.051101",
     "http://arxiv.org/abs/1209.4530"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

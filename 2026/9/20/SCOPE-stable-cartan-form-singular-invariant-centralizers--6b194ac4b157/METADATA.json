@@ -6,8 +6,8 @@
   "published_at": "2026-09-20T11:39:58Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "Scientific theorem, proof, literature comparison, and review evidence only.",
   "limitations": [
     "The singular-equivalence invariant is proved only for centralizer matrix algebras, not arbitrary finite-dimensional algebras.",
@@ -43,5 +43,5 @@
     "SLOGAN.txt": "779a1ad53c85c4393537104afc4eaa3978a4111f79661fea960a6a8fb784fa73"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

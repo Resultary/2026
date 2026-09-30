@@ -5,10 +5,10 @@
   "phase": "II",
   "published_at": "2026-09-18",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "limitations": "The near-p=4 upper and lower estimates differ by a logarithmic factor, and neither is claimed optimal for the true minimum counterexample dimension. The large-p O(p) upper bound may be far from optimal. The Hadamard-order transfer applies to Xiong's specific two-block construction. Chalmers' separate p=5 construction can be smaller at individual exponents. The motivating all-p>4 preprint is very recent, so unindexed parallel work remains possible.",
   "taxonomy": [
     "discrete geometry",

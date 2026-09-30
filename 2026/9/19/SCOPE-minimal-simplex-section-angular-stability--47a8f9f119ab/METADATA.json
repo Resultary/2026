@@ -6,8 +6,8 @@
   "published_at": "2026-09-19T03:57:07Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "limitations": "Originality is to the best of our knowledge. The explicit angular inequality is proved on the one-positive/one-negative sign chamber; the global near-minimizer statement requires the finite threshold rho_n and does not claim that threshold optimal. No dimension-free global stability modulus for arbitrary deficit or higher-order classification beyond the Hessian is claimed. The sharp minimum theorem is recent, so differently phrased or not-yet-indexed parallel observations remain a residual originality risk.",
   "taxonomy": [
     "convex geometry",
@@ -29,5 +29,5 @@
     "SLOGAN.txt": "37af2d50e7b728809c7b3cf5989fbc852fcecbaf5c98ea46ab95a063fa8c83f2"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

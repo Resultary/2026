@@ -31,5 +31,8 @@
     "https://arxiv.org/abs/2011.07153",
     "https://arxiv.org/abs/2507.09746"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

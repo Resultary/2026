@@ -31,5 +31,8 @@
     "https://doi.org/10.4064/aa147-3-8",
     "https://doi.org/10.1016/j.aim.2014.11.004"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

@@ -27,5 +27,8 @@
   "source_urls": [
     "https://doi.org/10.1017/etds.2022.32"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

@@ -52,5 +52,8 @@
     "https://doi.org/10.1016/S0747-7171(86)80010-4",
     "https://doi.org/10.2140/pjm.1996.176.365"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

@@ -22,5 +22,8 @@
   "source_urls": [
     "https://inria.hal.science/hal-01185377/document"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

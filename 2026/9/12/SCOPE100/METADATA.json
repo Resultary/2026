@@ -25,5 +25,8 @@
     "https://doi.org/10.1016/j.dam.2014.05.024",
     "https://arxiv.org/abs/2408.10977"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

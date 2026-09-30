@@ -23,5 +23,8 @@
     "https://arxiv.org/abs/2011.04059",
     "https://doi.org/10.4310/acta.2023.v231.n1.a3"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

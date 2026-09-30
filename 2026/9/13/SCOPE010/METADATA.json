@@ -27,5 +27,8 @@
     "https://arxiv.org/abs/0904.4713",
     "https://doi.org/10.4007/annals.2009.170.1307"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

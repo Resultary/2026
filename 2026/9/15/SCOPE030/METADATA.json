@@ -43,5 +43,8 @@
     "https://storage.googleapis.com/arxiv-dataset/arxiv/arxiv/pdf/1202/1202.2627v3.pdf",
     "https://brauer.maths.qmul.ac.uk/Atlas/v3/clas/S63/"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

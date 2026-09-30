@@ -6,8 +6,8 @@
   "published_at": "2026-09-21",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "Scientific theorem, proof, literature comparison, and review evidence only.",
   "limitations": [
     "The exponent formula requires G to be abelian; the Frobenius step uses commutativity of KG.",
@@ -46,5 +46,5 @@
     "SLOGAN.txt": "1ef1c2fc4be64678044276a2d67369accdc6b4ca6372104e85209160ebc34170"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

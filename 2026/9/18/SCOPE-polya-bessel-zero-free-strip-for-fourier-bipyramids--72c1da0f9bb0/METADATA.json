@@ -5,10 +5,10 @@
   "phase": "II",
   "published_at": "2026-09-18",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "limitations": "The Bessel-root strip is a sufficient zero-free certificate and does not locate the actual nearest Fourier zero or an optimal elongation threshold. The explicit elementary fixed-pair certification is stated for (alpha,d)=(100,3). Residual originality risk remains because the motivating preprint is very recent.",
   "taxonomy": [
     "metric geometry",

@@ -6,10 +6,10 @@
   "published_at": "2026-09-21",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "Analytic Lyapunov, spectral, invariant-manifold, and asymptotic analysis of the cyclic Thomas sine-feedback system at its first pitchfork threshold.",
   "limitations": "The sharp relaxation law is for the unforced cyclic sine ring exactly at b=1. No novelty is claimed for the model, the strict b>1 stable regime, the pitchfork location, the higher-dimensional ring, or general invariant-manifold theory. Originality is to the best of our knowledge; the 1999 Thomas article was not fully inspected at theorem level.",
   "taxonomy": [

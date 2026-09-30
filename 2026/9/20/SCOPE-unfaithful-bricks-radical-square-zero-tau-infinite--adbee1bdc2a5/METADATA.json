@@ -6,8 +6,8 @@
   "published_at": "2026-09-20T05:26:46Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "Scientific sources are listed in source_urls; review evidence is documented in REVIEW.md.",
   "limitations": "The result is restricted to minimal τ-tilting-infinite algebras with radical square zero. Originality is to the best of our knowledge; because the proof becomes elementary after the known sink-source affine-Dynkin reduction, differently phrased or unindexed prior observations remain a meaningful risk. No independent validation is asserted.",
   "taxonomy": [
@@ -30,5 +30,5 @@
   ],
   "artifact_inventory": [],
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

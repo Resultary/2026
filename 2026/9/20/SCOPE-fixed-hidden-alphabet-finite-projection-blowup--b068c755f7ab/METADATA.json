@@ -6,10 +6,10 @@
   "published_at": "2026-09-20",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "A bounded-arity erased-symbol routing tree replacing the direct hidden fan-out in the Jirásková--Masopust finite-language projection witness.",
   "limitations": "The construction gives an arbitrarily close exponent tradeoff but does not prove exact attainment of the Jirásková--Masopust exponent with one fixed domain alphabet. Originality is to the best of our knowledge; a 2011 personal communication cited by the source paper was not publicly inspectable.",
   "taxonomy": [

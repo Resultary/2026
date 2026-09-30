@@ -27,5 +27,8 @@
     "https://hal.science/hal-00168473",
     "https://homepage.univie.ac.at/dietrich.burde/papers/burde_13_aff_coho.pdf"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

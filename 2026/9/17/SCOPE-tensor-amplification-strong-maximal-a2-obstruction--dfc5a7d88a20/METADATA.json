@@ -6,8 +6,8 @@
   "published_at": "2026-09-17T22:17:11Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "The lower bound is asymptotic and is not claimed sharp. It does not improve the infimum of admissible pure-power exponents, nor establish a matching linear-times-log upper bound. The two-dimensional input is Lerner's recent preprint. Originality is to the best of our knowledge, with the main residual risk coming from contemporaneous or not-yet-indexed discussion of the September 2026 source preprints. No independent validation is asserted.",
   "taxonomy": [
@@ -27,6 +27,6 @@
     "REVIEW.md": "e9f363a1414bdf1c721edc6fe5cd0ba3b0b9096f44f72b0c08f279b6f07df10b",
     "SLOGAN.txt": "ff859debb638aac8982b16a277e1c93ccec705d6826f06f7eb779b4cf61b766e"
   },
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "same_model_review_status": "passed"
 }

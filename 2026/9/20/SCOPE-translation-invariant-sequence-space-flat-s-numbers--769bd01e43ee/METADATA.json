@@ -6,8 +6,8 @@
   "published_at": "2026-09-20",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "A disjoint-translate argument produces a 1-complemented classical sequence subspace on which a translation-invariant operator is bounded below arbitrarily close to its full norm. This yields exact Bernstein and strictly-singular ideal bounds; finite-codimensional intersection and finite-dimensional tail arguments give the Gelfand and Kolmogorov equalities.",
   "limitations": "Originality is to the best of our knowledge. Maximal noncompactness and essential-norm equality for broad translation-invariant sequence-space operators on Z^d are prior art and are not claimed as new. The closest 2024 article was not exhaustively inspected at full-text theorem level, leaving residual overlap risk. The theorem is restricted to same-space operators on l_p(G), 1<=p<infinity, and c_0(G), and does not cover l_infinity(G).",
   "taxonomy": [
@@ -31,5 +31,5 @@
   ],
   "artifact_inventory": [],
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

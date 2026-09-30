@@ -25,5 +25,8 @@
     "https://storage.googleapis.com/arxiv-dataset/arxiv/arxiv/pdf/1711/1711.03209v3.pdf",
     "https://storage.googleapis.com/arxiv-dataset/arxiv/arxiv/pdf/2307/2307.06934v1.pdf"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

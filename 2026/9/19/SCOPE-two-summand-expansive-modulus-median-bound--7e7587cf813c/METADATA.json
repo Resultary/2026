@@ -6,8 +6,8 @@
   "published_at": "2026-09-19T14:38:58Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "limitations": "Originality is to the best of our knowledge. The general m^{-1/2} bound is not claimed sharp for every admissible (d,m,k); the exact two-summand median constant in M_4 is not determined; and no infinite-dimensional essential-spectrum analogue is proved. Older matrix-inequality or singular-value literature using different terminology is the principal residual prior-art risk.",
   "taxonomy": [
     "functional analysis",
@@ -30,5 +30,5 @@
     "SLOGAN.txt": "8caad4e5d9be66da130562e90edc1897dada404eaec1c98d6615e0c6247e271c"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

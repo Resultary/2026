@@ -1,6 +1,6 @@
 {
   "artifact_inventory": [],
-  "independent_audit_status": "passed_after_provenance_repair",
+  "independent_audit_status": "passed",
   "independent_validation": true,
   "limitations": "No separate discovery priority is claimed relative to the earlier SCOPE records. The theorem concerns the Chen-Wang-Zou pro-star-reversible notion for unital rings with involution.",
   "phase": "II",
@@ -33,5 +33,5 @@
     "local rings"
   ],
   "time_standard": "UTC",
-  "verification_state": "independently_audited"
+  "verification_state": "independently_reviewed"
 }

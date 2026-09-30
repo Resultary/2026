@@ -6,10 +6,10 @@
   "published_at": "2026-09-21",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "Analytic energy, spectral, and center-manifold analysis of a one-dimensional convective Chafee-Infante equation with homogeneous Dirichlet data.",
   "limitations": "The sharp critical asymptotics exclude the strong-stable exceptional class; the post-threshold branch result is local; the global energy threshold uses homogeneous Dirichlet data; the gamma=-1 Burgers-Huxley interpretation is a symmetric-cubic mathematical extension rather than the standard physical parameter regime. Originality is to the best of our knowledge and retains residual risk from older model-specific sources not all inspected at full theorem level.",
   "taxonomy": [

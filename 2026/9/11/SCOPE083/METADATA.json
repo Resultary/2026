@@ -26,5 +26,8 @@
     "https://arxiv.org/abs/2306.04007",
     "https://doi.org/10.4007/annals.2024.199.2.8"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

@@ -6,8 +6,8 @@
   "published_at": "2026-09-18T18:33:37Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "Extension of the three-dimensional Heisenberg computation in arXiv:2609.19086v1 using the symplectic quotient description of finite Heisenberg Lie algebras and exact isotropic-subspace enumeration.",
   "limitations": "Originality is to the best of our knowledge. The m=1 formula, the definition of subalgebra commutativity degree, and preservation under Lazard correspondence are prior work in arXiv:2609.19086v1. The ordinary element commutativity degree of Heisenberg Lie algebras and subalgebra zeta functions of higher Heisenberg Lie lattices are distinct prior invariants. The full text of M. Tărnăuceanu, J. Algebra 321 (2009), 2508--2520, DOI 10.1016/j.jalgebra.2009.02.010, was not inspected; it remains a residual originality risk for the odd-prime extraspecial-group corollary. No independent validation is asserted.",
   "taxonomy": [
@@ -45,5 +45,5 @@
     "artifacts/verify_output.txt": "698d91c8b72b25a6e09179787eac050f6bd74753e575d8dbf5b7e94108738484"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

@@ -24,5 +24,8 @@
     "https://arxiv.org/abs/2001.00045",
     "https://doi.org/10.1017/S000497272200082X"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

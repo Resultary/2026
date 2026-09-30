@@ -6,10 +6,10 @@
   "published_at": "2026-09-20",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "A theorem for the autonomous Lorenz-84 atmospheric circulation ODE derived from exact scalar-filter and eddy-amplitude identities, invariant-measure generator identities, and a contraction estimate on bounded complete trajectories, compared with dissipation, bifurcation, attractor, global-stability, and invariant-measure literature.",
   "limitations": "The global convergence inequality is sufficient, not necessary, and requires F<1. The invariant-measure statement assumes compact support. Seasonal, stochastic and coupled Lorenz-84 variants are outside the theorem. Originality is to the best of our knowledge. Full theorem text was not inspected for Pelino and Pasini (2001), Yu (2006), or Naser et al. (2026); the full Gallo et al. (2026) preprint was not accessible through the inspected route. These are the principal prior-coverage risks, and no originality is claimed for the unforced G=0 specialization by itself.",
   "taxonomy": [

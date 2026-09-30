@@ -3,8 +3,8 @@
     "artifacts/verify_q9.py",
     "artifacts/verification.txt"
   ],
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
   "limitations": "The explicit discrepancy constants are not optimized and no exact norm-by-norm multiplicity formula is obtained. The qualitative q/6+O(sqrt(q)) scale is not claimed as new because the 1986 Gashkov--Sidel'nikov proof already contains a closely related q+O(sqrt(q)) count of the three-term conic system. The 1987 FCT conference paper was located bibliographically but not inspected at theorem level.",
   "phase": "II",
   "provenance": "Scientific sources, proof evidence, finite verification, and the independent-audit correction of the prior-work discussion are documented in RESULT.md and the independent audit files.",
@@ -36,5 +36,5 @@
     "finite fields"
   ],
   "time_standard": "UTC",
-  "verification_state": "same_model_reviewed"
+  "verification_state": "independently_reviewed"
 }

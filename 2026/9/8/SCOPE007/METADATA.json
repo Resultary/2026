@@ -39,5 +39,8 @@
     "https://users.cecs.anu.edu.au/~bdm/data/latin.html",
     "https://arxiv.org/abs/1910.10103"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

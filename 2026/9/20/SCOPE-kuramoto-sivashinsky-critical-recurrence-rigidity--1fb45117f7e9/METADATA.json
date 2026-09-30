@@ -6,10 +6,10 @@
   "published_at": "2026-09-20",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "An exact critical-energy kernel classification for periodic conservative-flux Kuramoto-Sivashinsky equations, with recurrence and invariant-measure consequences and a classical-KS stability-boundary corollary.",
   "limitations": "The general-flux recurrence theorem assumes sufficient regularity; general-flux global attraction additionally requires established global well-posedness and precompactness. The unconditional global-attraction statement is restricted to the classical one-dimensional periodic KS equation. Several older full texts remain residual originality risks for the classical critical special case; originality is to the best of our knowledge.",
   "taxonomy": [

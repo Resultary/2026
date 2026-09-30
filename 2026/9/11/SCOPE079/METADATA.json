@@ -28,5 +28,8 @@
     "https://arxiv.org/html/1811.10966v5",
     "https://sites.math.duke.edu/~ng/atlas/"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

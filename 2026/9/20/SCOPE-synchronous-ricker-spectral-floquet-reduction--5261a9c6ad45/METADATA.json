@@ -6,10 +6,10 @@
   "published_at": "2026-09-20",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "An exact local-stability reduction for synchronous periodic orbits of row-regular multispecies Ricker competition maps, motivated by the literature on multispecies coexistence and periodic Ricker dynamics.",
   "limitations": "The result is local and applies to the row-regular synchronous sector with common intrinsic growth. It does not establish cycle existence, global attraction, persistence, or stability of nonsynchronous cycles; unit-modulus cases generally require nonlinear analysis.",
   "taxonomy": [

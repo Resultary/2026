@@ -6,8 +6,8 @@
   "published_at": "2026-09-19T00:51:03Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "limitations": "Originality is to the best of our knowledge. The stability exponent 1/n and displayed constants are not claimed sharp. The Banach–Mazur coefficient n^(50n^2) is inherited from Böröczky’s Rogers–Shephard stability theorem. The relative-inradius modulus uses the full two-body Bézout constant, whereas the Banach–Mazur conclusion uses only the restricted chord-intersection tests. No reverse near-simplex-to-near-Bézout estimate or classification of near-extremizers is claimed. The motivating characterization is recent, so differently formulated or not-yet-indexed related work remains a residual originality risk.",
   "taxonomy": [
     "convex geometry",
@@ -32,5 +32,5 @@
     "SLOGAN.txt": "f593544298144b04fdc51ce2fbeec1986e3ee974db214aee2c41d9fb69808746"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

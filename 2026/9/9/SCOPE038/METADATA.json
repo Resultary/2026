@@ -32,5 +32,8 @@
     "https://arxiv.org/abs/2011.00068",
     "https://arxiv.org/abs/2210.15962"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

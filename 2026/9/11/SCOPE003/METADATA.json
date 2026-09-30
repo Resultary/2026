@@ -34,5 +34,8 @@
     "https://arxiv.org/abs/1711.00461",
     "https://doi.org/10.2298/fil2007329b"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

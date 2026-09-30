@@ -5,10 +5,10 @@
   "phase": "II",
   "published_at": "2026-09-18",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "limitations": "The sharp formula is proved for subsets of the real line and uses one-dimensional order; no same-constant higher-dimensional analogue is claimed. Assouad dimension below one does not by itself give a quantitative lower bound for the optimal uniform-disconnectedness or Stieltjes jump-dominance constant. The central-Cantor examples establish sharpness but not uniqueness of extremizers. The motivating preprint is very recent, and unindexed parallel work remains possible.",
   "taxonomy": [
     "metric geometry",

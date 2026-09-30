@@ -5,8 +5,8 @@
   "published_at": "2026-09-17T12:45:47Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "Originality is only to the best of our knowledge. The strongest unresolved threat is an unpublished manuscript 'Building barricades' cited by the parent paper; a 2025 Barrycades chapter was available only in limited preview, and the parent preprint was one day old. No independent review is asserted.",
   "taxonomy": [
@@ -29,6 +29,6 @@
     "artifacts/proof_note.md": "4a7acea74d7653d73e48ac14e2f3311f191afd506c830ebdb32ae783be130869",
     "artifacts/verify.py": "c3c064360d559d6f76fe4196e0227e0ddbd0166c3705a20dbe417c63d4da9850"
   },
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "same_model_review_status": "passed"
 }

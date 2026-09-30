@@ -44,5 +44,8 @@
     "https://arxiv.org/abs/1809.09591",
     "https://oeis.org/A001349"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

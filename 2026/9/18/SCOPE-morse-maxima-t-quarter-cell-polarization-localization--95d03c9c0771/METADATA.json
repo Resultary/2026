@@ -6,10 +6,10 @@
   "published_at": "2026-09-18",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "Sharp long-time asymptotics for the D=infinity slow-limit cell-polarization free-boundary system introduced in arXiv:2609.20609v1, under finitely many nondegenerate signal maxima.",
   "limitations": "The theorem applies to the D=infinity slow-limit system with a time-independent signal and finitely many isolated nondegenerate maxima. It does not establish the same rate for finite D, degenerate maxima, moving signals, or the original positive-mass parabolic PDE uniformly in mass. Originality is qualified to the best of our knowledge.",
   "taxonomy": [

@@ -6,10 +6,10 @@
   "published_at": "2026-09-21",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "An explicit infinite family proving the exact worst-case one-row conversion frontier G(s)=floor(s/2) from exact s-separability to disjunctness, sharpening the Chen--Hwang conversion theorem.",
   "limitations": "The result concerns noiseless binary matrices and one-row augmentation. It does not optimize witness row count, classify extremal examples, or address error-tolerant variants. Originality is to the best of our knowledge, with residual risk from equivalent set-system or superimposed-code terminology.",
   "taxonomy": [

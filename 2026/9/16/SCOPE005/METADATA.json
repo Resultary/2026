@@ -22,5 +22,8 @@
     "https://arxiv.org/abs/1904.10765",
     "https://doi.org/10.1090/S0002-9904-1963-10969-6"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

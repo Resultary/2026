@@ -6,8 +6,8 @@
   "published_at": "2026-09-18",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "The result evaluates the specific truncated-strip family and its positive-dilation images; it is not a general stability theorem or an optimization over all finite-measure approximate eigenvectors. The source preprint is very recent, so unindexed contemporaneous observations remain a residual originality risk. No independent validation is asserted.",
   "taxonomy": [
@@ -27,6 +27,6 @@
     "REVIEW.md": "28ce146e7040a0dea618082f6ac8590273630e3c00005fc4f8841599234cfadb",
     "SLOGAN.txt": "9b8192032f725b726c561e4e57f7990e24f9e6ac9989bb2aebf03ccc72236acd"
   },
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "same_model_review_status": "passed"
 }

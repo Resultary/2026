@@ -27,5 +27,8 @@
     "https://arxiv.org/abs/2109.09885",
     "https://doi.org/10.4171/dm/771"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

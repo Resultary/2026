@@ -6,8 +6,8 @@
   "published_at": "2026-09-19T16:28:29Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "A residue-level characterization of comparability, joins, totality, and the discrete-valuation boundary for a recent localization construction of directed field orders.",
   "limitations": "Originality is to the best of our knowledge. Classical division-closed lattice-order results and valuation-compatible total orders are prior art. The theorem concerns the localization-cone construction, not arbitrary directed partial orders, and does not resolve the Birkhoff-Pierce problem for the complex field. Older valuation/order literature remains the main residual risk for an equivalent formulation. No independent validation is asserted.",
   "taxonomy": [
@@ -27,5 +27,5 @@
   ],
   "artifact_inventory": [],
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

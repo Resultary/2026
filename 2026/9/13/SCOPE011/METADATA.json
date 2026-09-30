@@ -25,5 +25,8 @@
     "https://doi.org/10.1214/08-AOP433",
     "https://doi.org/10.1007/s00440-002-0239-x"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

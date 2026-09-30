@@ -23,5 +23,8 @@
     "https://doi.org/10.2140/apde.2014.7.159",
     "https://doi.org/10.4171/jems/460"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

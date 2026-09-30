@@ -22,5 +22,8 @@
     "https://doi.org/10.48550/arxiv.1909.08385",
     "https://ar5iv.labs.arxiv.org/html/1505.00759"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

@@ -22,5 +22,8 @@
     "https://arxiv.org/abs/2210.06488",
     "https://arxiv.org/html/2503.09457v2"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

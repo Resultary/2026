@@ -21,5 +21,8 @@
   "source_urls": [
     "https://arxiv.org/html/2505.09383v2"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

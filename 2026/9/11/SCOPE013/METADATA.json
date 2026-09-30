@@ -47,5 +47,8 @@
     "https://arxiv.org/abs/1111.4979",
     "https://arxiv.org/html/1912.04866v1"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

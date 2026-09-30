@@ -6,10 +6,10 @@
   "published_at": "2026-09-18",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "Scientific sources and verification evidence are listed in RESULT.md and REVIEW.md.",
   "limitations": "Originality is to the best of our knowledge. The result refutes only the literal same-form q-ary extension of the binary mirror theorem; q-dependent thresholds or added structural hypotheses may still yield valid analogues. The elementary code family may occur in older code catalogues under another formulation, and the very recent motivating source creates a residual risk of simultaneous or not-yet-indexed work. No independent validation is asserted.",
   "taxonomy": [

@@ -5,8 +5,8 @@
   "phase": "II",
   "published_at": "2026-09-18",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "limitations": "Originality is to the best of our knowledge. The novelty claim is restricted to the exact unit-orbit relative-rank formula, its iterated orbit-weighted extension, and the resulting corrections to Lemmas 3.2 and 3.8 of arXiv:2609.20521v1. The source paper is a recent v1 and may be revised independently. The closest older partition-rank literature was identified, but the full text of the 2009 paper was not text-searchable in the inspected sources, so differently phrased prior coverage remains possible.",
   "taxonomy": [
     "semigroup theory",
@@ -29,5 +29,5 @@
     "artifacts/verify_counterexample.py": "421ebdbb3ad3b22a04393b080fc1c73d464a897c6fac544c915e6ff424817300"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

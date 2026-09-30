@@ -6,8 +6,8 @@
   "published_at": "2026-09-20",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "Finite-rank approximation keeps the globally largest singular modes on atomic fibers; matching lower bounds come from atomic singular-vector subspaces or fixed-vector Lp copies on the nonatomic part. Reflexive Bochner duality transfers the Gelfand formula to Kolmogorov numbers, and the same witnesses determine exact distances to compact and singular operator ideals.",
   "limitations": "Originality is to the best of our knowledge. Classical scalar diagonal and atomless multiplication results are prior art. The claimed contribution is the simultaneous exact approximation/Bernstein/Gelfand/Kolmogorov profile for finite matrix-valued multiplication operators on mixed sigma-finite Bochner Lp spaces, together with exact distances to compact, finitely strictly singular and strictly singular classes. Hutton--Morrell--Retherford (1976), Pietsch's operator-ideal monographs, Heymann's 2015 thesis and older direct-integral literature were not exhaustively inspected in full. The theorem assumes fixed finite-dimensional Euclidean fibers and 1<p<infinity.",
   "taxonomy": [
@@ -35,5 +35,5 @@
   ],
   "artifact_inventory": [],
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

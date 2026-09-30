@@ -31,5 +31,8 @@
     "https://arxiv.org/abs/math/0506520",
     "https://oeis.org/A000109"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

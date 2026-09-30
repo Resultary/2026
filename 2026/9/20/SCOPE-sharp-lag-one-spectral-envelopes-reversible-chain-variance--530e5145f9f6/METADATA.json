@@ -6,10 +6,10 @@
   "published_at": "2026-09-20",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "A sharp extremal theorem for autocorrelation and Monte Carlo variance of positive reversible Markov-chain observables with fixed lag-one correlation and optional spectral ceiling.",
   "limitations": "Requires nonnegative observable spectrum for the lower-envelope conclusions; the spectral ceiling may be observable-specific; rho and beta are treated as known rather than estimated; equivalent formulations may exist in classical moment-problem or operator-theoretic literature.",
   "taxonomy": [

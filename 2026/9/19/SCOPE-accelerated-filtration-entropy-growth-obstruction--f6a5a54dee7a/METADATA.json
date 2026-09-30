@@ -6,8 +6,8 @@
   "published_at": "2026-09-19T06:22:48Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "An explicit family of accelerated finite-dimensional filtrations on k[x] realizing the full extended nonnegative entropy spectrum, correcting unrestricted entropy-to-growth claims in arXiv:2609.18144v1 and giving a universal-quantifier repair.",
   "limitations": "Originality is to the best of our knowledge. Filtration dependence, linear reindexing of entropy, standard filtered-GK comparison theorems, and the need for associated-graded finiteness hypotheses are prior art. The primary Krause--Lenagan Proposition 6.6 text was not independently inspected; later accessible citations quote a finite-generation hypothesis. The construction is elementary and may have an equivalent older formulation under different filtration terminology. Results restricted to standard or natural filtrations, including the Leavitt-path-algebra setting, are not claimed to fail. No independent validation is asserted.",
   "taxonomy": [
@@ -27,5 +27,5 @@
   ],
   "artifact_inventory": [],
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

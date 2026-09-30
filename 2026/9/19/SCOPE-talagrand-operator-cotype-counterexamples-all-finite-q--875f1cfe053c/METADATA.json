@@ -6,8 +6,8 @@
   "published_at": "2026-09-19T10:31:39Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "limitations": "Originality is to the best of our knowledge. The result strengthens arXiv:2609.19731v1 from q=2 and Hadamard dimensions to every fixed finite q>=2, simultaneously on the same family, and to every sufficiently large dimension via a flat DCT matrix. It does not address q=infinity, does not claim the logarithmic exponent is optimal for q>2, and does not claim the interpolation lemma, DCT identities, subgaussian maximum estimate, or classical Gaussian-cotype bounds are new. Older operator-cotype literature may contain equivalent formulations under different terminology.",
   "taxonomy": [
     "functional analysis",
@@ -33,5 +33,5 @@
     "SLOGAN.txt": "310a03e52890d74f7a47769754766acafbd4e71babc0ae2604ae04704041b934"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

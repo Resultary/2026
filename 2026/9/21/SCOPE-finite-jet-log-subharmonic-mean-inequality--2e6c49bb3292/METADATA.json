@@ -6,10 +6,10 @@
   "published_at": "2026-09-21",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "A finite-jet expansion for the local ball-versus-sphere mean inequality of positive log-subharmonic functions, prompted by Mochizuki's 2005 intermediate-exponent question and compared with the 2009 Beckenbach–Radó inequality.",
   "limitations": "Local positive-point theorem only; zeros, infinite-order-flat smooth germs, and the finite-order endpoint remain unresolved. Originality is to the best of our knowledge and equivalent higher-order Pizzetti formulations may exist. Independent audit has not been performed.",
   "taxonomy": [

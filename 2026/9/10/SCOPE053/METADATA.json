@@ -31,5 +31,8 @@
     "https://polymake.org/doku.php/extensions/tropicalquarticcurves",
     "https://arxiv.org/html/2207.01305v2"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

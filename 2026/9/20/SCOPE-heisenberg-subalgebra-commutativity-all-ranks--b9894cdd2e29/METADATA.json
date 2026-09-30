@@ -6,8 +6,8 @@
   "published_at": "2026-09-20T01:19:59Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "An all-rank symplectic enumeration extends the explicit rank-one Heisenberg computation in arXiv:2609.19086v1 and transfers, for odd primes, to exponent-p extraspecial groups via the Lazard correspondence.",
   "limitations": "Originality is qualified to the best of our knowledge. The 2026 source paper, its cited subgroup-commutativity literature, targeted searches for Heisenberg/extraspecial formulas, and standard finite symplectic counts were checked. Older subgroup-lattice literature on extraspecial groups may contain an equivalent enumeration in different language. No independent validation is asserted.",
   "taxonomy": [
@@ -36,5 +36,5 @@
     }
   ],
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

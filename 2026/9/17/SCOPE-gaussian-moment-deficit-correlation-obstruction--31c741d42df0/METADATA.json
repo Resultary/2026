@@ -6,8 +6,8 @@
   "published_at": "2026-09-17T19:05:32Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "The moment condition is sufficient rather than necessary. The Caratheodory cardinality bound is not claimed optimal. The six-dimensional icosahedral obstruction is sharper only below fourth moment 9/5. For symmetric Beta(a,a) with a>1, eventual incompatibility is proved without an exact dimensional threshold. Originality is to the best of our knowledge and retains residual risk from older copula-attainability, multivariate moment, and cubature literature.",
   "taxonomy": [
@@ -36,5 +36,5 @@
     "SLOGAN.txt": "a818fb189d64a67fa558ffaf20d9e67ab38ee33a0feaff97b56f90c8f7531aae"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

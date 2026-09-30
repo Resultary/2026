@@ -32,5 +32,8 @@
     "https://arxiv.org/html/1506.06387v2",
     "https://www.sciencedirect.com/science/article/pii/S0196885819301253"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

@@ -32,5 +32,8 @@
     "https://math.mit.edu/classes/18.745/Notes/Lecture_16_Notes.pdf",
     "https://docs.oscar-system.org/v1.2/Experimental/QuadFormAndIsom/primembed/"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

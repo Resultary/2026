@@ -40,5 +40,8 @@
     "https://arxiv.org/abs/2012.07107",
     "https://arxiv.org/abs/2110.11050"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

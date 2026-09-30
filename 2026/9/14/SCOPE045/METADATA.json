@@ -26,5 +26,8 @@
     "https://doi.org/10.1016/j.laa.2025.08.018",
     "https://doi.org/10.1016/j.laa.2022.03.013"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

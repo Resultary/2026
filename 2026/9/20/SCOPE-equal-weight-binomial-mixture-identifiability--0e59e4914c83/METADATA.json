@@ -6,10 +6,10 @@
   "published_at": "2026-09-20",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "A sharp identifiability theorem for equal-weight finite binomial mixtures, motivated by the classical binomial-mixture threshold and the sparse Hausdorff moment problem.",
   "limitations": "Assumes exactly K distinct components with known equal weights and exact anchor locations. This is an exact, not noise-robust, result; close support points can make numerical root recovery ill-conditioned. Equivalent formulations may exist in classical finite-moment or equal-weight quadrature literature.",
   "taxonomy": [

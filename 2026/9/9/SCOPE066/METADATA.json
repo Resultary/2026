@@ -32,5 +32,8 @@
     "https://arxiv.org/abs/1302.5947",
     "https://doi.org/10.3906/mat-1510-121"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

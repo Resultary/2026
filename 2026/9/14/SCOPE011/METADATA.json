@@ -28,5 +28,8 @@
     "https://arxiv.org/abs/math/0204228",
     "https://arxiv.org/abs/math/0410233"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

@@ -6,8 +6,8 @@
   "published_at": "2026-09-17T17:30:09Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "Fixed-degree exact-arithmetic result for the Haar power-law source model under (4d+2)p<1; it does not cover the variance-critical boundary or heavier-tail regime, growing degree, finite precision, or preconditioning. Originality is to the best of our knowledge; related CG fluctuation theory exists for other random-matrix ensembles.",
   "taxonomy": [
@@ -34,6 +34,6 @@
     "REVIEW.md": "7bbe7dd0e5ee0966a9fd709e7550ee9cd774c9f5ece3a865dce42241f88d5812",
     "SLOGAN.txt": "75fa7536ef126a0fe1f2332a9874cad479f767940af0a5e2f614498692a37fc3"
   },
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "same_model_review_status": "passed"
 }

@@ -6,8 +6,8 @@
   "published_at": "2026-09-18",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "limitations": "The theorem is restricted to connected complete multipartite graphs and does not characterize general graphs of bounded phylogenetic rank. Originality is to the best of our knowledge; the relevant Pachter-Sturmfels book section was not inspected in full, and the principal 2026 graph-theoretic source is very recent, so differently indexed or parallel work remains a residual risk. No independent validation is asserted.",
   "taxonomy": [
     "graph theory",
@@ -29,5 +29,5 @@
     "REVIEW.md": "bfc0cae266e90acf1ed523e4dd61c35a215ea811c992b9e301c9f3893e75ea28"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

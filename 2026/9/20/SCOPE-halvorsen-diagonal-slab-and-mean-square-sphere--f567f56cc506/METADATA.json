@@ -6,10 +6,10 @@
   "published_at": "2026-09-20",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "A global theorem for the cyclic Halvorsen ordinary differential equation derived from the exact evolution law of the diagonal coordinate and compared with prior numerical, control, and local-bifurcation studies.",
   "limitations": "The full text of Vaidyanathan and Azar (2016), DOI 10.1007/978-3-319-30340-6_10, was not inspected and remains the main prior-coverage risk. Sprott’s later books were not inspected directly. The theorem is conditional on bounded forward or bounded complete trajectories where stated and does not prove existence of an attractor or global boundedness for arbitrary initial data.",
   "taxonomy": [

@@ -6,10 +6,10 @@
   "published_at": "2026-09-21",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "Analytic invariant-measure, Lie-derivative, cutoff, and equality-rigidity arguments for the Rabinovich–Fabrikant flow.",
   "limitations": "Requires alpha,gamma>0 and compact support for the invariant-measure statements. The results are necessary stationary and recurrence constraints, not attractor-existence or chaos criteria. Originality is to the best of our knowledge; older Russian-language and model-specific literature creates residual priority risk.",
   "taxonomy": [

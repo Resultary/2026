@@ -29,5 +29,8 @@
     "https://doi.org/10.4310/jdg/1090349447",
     "https://doi.org/10.1103/physrev.131.471"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

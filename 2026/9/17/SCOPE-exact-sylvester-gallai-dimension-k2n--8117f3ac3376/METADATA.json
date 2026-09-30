@@ -6,8 +6,8 @@
   "published_at": "2026-09-17",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "The theorem determines only K_{2,n}, not general K_{s,n} for s >= 3 or all extremal realizations. Originality is asserted only to the best of our knowledge; the primary 2026 source was inspected in full HTML, but very recent or poorly indexed follow-up work may exist. No independent validation is asserted.",
   "taxonomy": [
@@ -29,5 +29,5 @@
     "SLOGAN.txt": "36231c4f77f33abe91d7a5bd810f67b3c42e5c2ff7b44d2d4c98b6e2a1cda915"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

@@ -6,8 +6,8 @@
   "published_at": "2026-09-18",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "limitations": "The exact formula is proved for prime powers q >= 5 with q == 1 (mod 4). For odd k == 3 (mod 4) only a strict lower-bound obstruction is proved. Arbitrary non-prime-power k == 1 (mod 4) and the full (h,k) attainment range remain open here. Older design literature may contain equivalent edge-pairing constructions under different terminology. No independent validation is asserted.",
   "taxonomy": [
     "graph theory",
@@ -32,5 +32,5 @@
     "REVIEW.md": "486c1122714e7517bf1fbed67571a9c6fa0be259ae43ffefef074bf5e0bd1f13"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

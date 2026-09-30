@@ -38,5 +38,8 @@
     "https://arxiv.org/abs/math/0605571",
     "https://doi.org/10.2140/agt.2017.17.793"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

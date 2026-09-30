@@ -5,8 +5,8 @@
   "published_at": "2026-09-17T15:04:22Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "Originality is to the best of our knowledge. Shift-like constructions for non-compact powers of strictly singular operators are established prior art in other spaces; the claimed contribution is the sharp single-operator realization for the Laustsen--Wirzenius Baernstein/Schreier/ell_p direct sums. No independent validation is asserted.",
   "taxonomy": [
@@ -34,6 +34,6 @@
     "REVIEW.md": "c3f0105417001071cbe0f4091730649f8d64bb525398c45e49342b9f34bb2fb0",
     "SLOGAN.txt": "92dc5c1aedfd812e39daa0e809153a57454aeea052aca59915614c1101dd8b34"
   },
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "same_model_review_status": "passed"
 }

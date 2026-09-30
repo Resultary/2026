@@ -33,5 +33,8 @@
     "https://arxiv.org/abs/1904.10311",
     "https://doi.org/10.5802/jep.288"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

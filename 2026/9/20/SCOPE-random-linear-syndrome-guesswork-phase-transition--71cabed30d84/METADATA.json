@@ -6,10 +6,10 @@
   "published_at": "2026-09-20",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "Extends recent constrained-guesswork results for random linear codes by replacing weight-spectrum analysis with a source-independent collision-moment theorem for uniform random linear syndrome maps, and connects the resulting exponent to classical Renyi guesswork/task-encoding converses.",
   "limitations": "The field size q is fixed; constants are not claimed uniform for growing q. The theorem concerns optimal likelihood-ordered guessing within syndrome classes and does not provide an efficient ordering algorithm. It establishes the leading exponential rate rather than the sharp logarithmic second-order term. Originality is to the best of our knowledge, with residual risk from adjacent universal-hashing and random-binning literature.",
   "taxonomy": [

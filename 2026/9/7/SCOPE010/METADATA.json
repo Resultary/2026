@@ -39,5 +39,8 @@
     "https://doi.org/10.1016/0377-2217(95)00022-I",
     "https://doi.org/10.1016/j.dam.2007.08.052"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

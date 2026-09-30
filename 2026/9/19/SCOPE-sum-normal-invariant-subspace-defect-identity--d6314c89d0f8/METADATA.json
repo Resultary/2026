@@ -6,8 +6,8 @@
   "published_at": "2026-09-19T06:31:00Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "limitations": "Originality is to the best of our knowledge. The contribution is a paper-specific correction to arXiv:2609.19287v1: an exact invariant-subspace defect identity, the sharp reducing-subspace criterion for sum-normal restrictions, an all-d counterexample, and identification of the auxiliary Remark 3.4 argument that relies on the false inheritance step. The block-matrix calculation and classical bilateral-shift example are not claimed as new. The result does not challenge Theorems 2.1--2.4 or resolve the paper's open sum-normality questions.",
   "taxonomy": [
     "functional analysis",
@@ -30,5 +30,5 @@
     "SLOGAN.txt": "4314d6ac3150f86219f95d846d17aec2e95f05c75630d7fe53e6d472edc3434e"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

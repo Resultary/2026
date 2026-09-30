@@ -24,5 +24,8 @@
     "https://math.berkeley.edu/~mchrist/Papers/worm.pdf",
     "https://arxiv.org/html/2609.01561v1"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

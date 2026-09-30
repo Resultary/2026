@@ -5,10 +5,10 @@
   "phase": "II",
   "published_at": "2026-09-17",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "limitations": "This is a local second-variation result. It does not settle the higher-dimensional global maximization gap, determine nonlinear behavior of the degree-one kernel at the exact threshold, or assert a uniform neighborhood stability theorem. Originality is to the best of our knowledge, with residual risk from unindexed concurrent work because the motivating preprint is extremely recent.",
   "taxonomy": [
     "convex geometry",

@@ -27,5 +27,8 @@
     "https://arxiv.org/html/2301.12272v1",
     "https://arxiv.org/search/?query=quasi+symmetric+plane+partitions+qspp&searchtype=all&source=header"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

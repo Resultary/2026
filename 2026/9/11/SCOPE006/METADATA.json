@@ -34,5 +34,8 @@
     "http://www.scholarpedia.org/article/Central_configurations",
     "https://annals.math.princeton.edu/wp-content/uploads/annals-v176-n1-p10-p.pdf"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

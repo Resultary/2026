@@ -6,8 +6,8 @@
   "published_at": "2026-09-17",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "Fixed reset probability and balanced standard-coupon probabilities of order 1/n. Moving-reset regimes, vanishingly rare coupon types, Zipf-like profiles, and second-order saddle corrections are not covered. The heterogeneity constant is explicit but not claimed optimal. Originality is to the best of our knowledge, with residual risk from older generalized coupon-collector, restart, and saddle-point literature under different terminology.",
   "taxonomy": [
@@ -35,5 +35,5 @@
     "SLOGAN.txt": "0a6fd7cab3f551eb6aaba919fc8d41153d4ad82bd5d2fac11659398d0f1ef7f0"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

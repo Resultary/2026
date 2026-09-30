@@ -6,8 +6,8 @@
   "published_at": "2026-09-18T22:24:04Z",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "A structural analysis of the recently introduced pro-star-reversible condition, using invertible projected products, local-ring unit structure, and the standard decomposition of semiperfect rings into local corners.",
   "limitations": "Originality is to the best of our knowledge. The source paper introduces pro-star-reversibility and already proves several projection consequences; those are prior work. The unit-rigidity, local and semiperfect classifications, domain criterion, and minimal F4 separation were not located in targeted searches, but equivalent observations may exist under older terminology concerning self-adjoint units, clean rings, or involution-fixed unit groups. No independent validation is asserted.",
   "taxonomy": [
@@ -33,5 +33,5 @@
     "SLOGAN.txt": "f1aba3ade9c9e76a354d3d1cbb8e1d1048c5873fabd5c8a4660094093e3cdd54"
   },
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

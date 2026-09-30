@@ -48,5 +48,8 @@
     "https://arxiv.org/abs/math/0702316",
     "https://arxiv.org/abs/1201.4427"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

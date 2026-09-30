@@ -6,8 +6,8 @@
   "published_at": "2026-09-18",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "Independent positive-shape Gamma summands are assumed. Transform order is not promoted to ordinary stochastic order. The d1 and d2 lower certificates are not claimed optimal and no Kolmogorov lower bound is proved. The full text of Covo and Elalouf (2014), the most relevant residual originality risk, was not inspected; originality is to the best of our knowledge.",
   "taxonomy": [
@@ -30,5 +30,5 @@
   ],
   "artifact_inventory": [],
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }

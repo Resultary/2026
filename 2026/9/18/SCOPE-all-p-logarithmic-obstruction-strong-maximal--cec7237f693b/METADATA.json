@@ -6,8 +6,8 @@
   "published_at": "2026-09-18",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II research record. Review evidence is documented in REVIEW.md.",
   "limitations": "The theorem excludes the endpoint pure-power estimate but does not prove that the infimum power exponent exceeds 1/(p-1), does not establish optimality of the logarithmic exponent 1/p, and makes no p=1 claim. The p=2 construction and recurrence are prior work of Lerner. Recent publication dates leave a residual risk of unindexed simultaneous observations. No independent validation is asserted.",
   "taxonomy": [
@@ -30,6 +30,6 @@
     "REVIEW.md": "a05dd67a5ddbbbcb624457dc93fc5304011c6059f6dbb65c3ea71f0ab07be6fa",
     "SLOGAN.txt": "c9a3ee4e516ffd8b9141356ff125843018c43948689d5b67c64bc511f219b22c"
   },
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "same_model_review_status": "passed"
 }

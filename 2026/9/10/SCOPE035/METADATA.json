@@ -29,5 +29,8 @@
     "https://errorcorrectionzoo.org/c/qc_ldpc",
     "https://doi.org/10.1109/tit.2021.3119384"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

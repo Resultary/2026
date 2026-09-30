@@ -5,10 +5,10 @@
   "phase": "II",
   "published_at": "2026-09-18",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "limitations": "The lower-density statement is for origin-centred square annuli of fixed positive relative thickness. The set and constant may depend on the chosen thickness ratio; translated windows and arbitrarily thin relative annuli are not controlled. Constants depend on the implicit universal constant in the source bad-quadruple estimates and are not optimized. The motivating preprint is extremely recent, so unindexed parallel work remains possible.",
   "taxonomy": [
     "discrete geometry",

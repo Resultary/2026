@@ -46,5 +46,8 @@
     "https://doi.org/10.1016/j.disc.2024.114158",
     "https://pottonen.kapsi.fi/sts19/"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

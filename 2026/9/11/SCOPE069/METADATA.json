@@ -25,5 +25,8 @@
     "https://doi.org/10.2140/ant.2016.10.1601",
     "https://arxiv.org/abs/1505.05460"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

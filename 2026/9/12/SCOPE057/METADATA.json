@@ -27,5 +27,8 @@
     "https://csrc.nist.gov/pubs/fips/204/final",
     "https://pq-crystals.org/dilithium/data/dilithium-specification-round3-20210208.pdf"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

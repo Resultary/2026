@@ -6,10 +6,10 @@
   "published_at": "2026-09-19",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "provenance": "Harmonic stability analysis of the LC-UBU, LCT-UBU, and LCP-UBU schemes introduced in arXiv:2609.20713, compared with established stochastic-Verlet linear analysis in Journal of Statistical Physics 193, 12 (2026).",
   "limitations": "The theorem is exact for quadratic potentials and Schur/finite-second-moment stability of the affine Gaussian chain. It is not a nonlinear stability theorem or a comparison of invariant-measure bias inside the stable region.",
   "taxonomy": [

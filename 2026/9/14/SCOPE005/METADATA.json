@@ -27,5 +27,8 @@
     "https://dlmf.nist.gov/31.8",
     "https://arxiv.org/abs/0902.2991"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

@@ -5,10 +5,10 @@
   "phase": "II",
   "published_at": "2026-09-18",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed",
+  "independent_audit_status": "passed",
   "limitations": "The formulas are triangle-specific; no improvement is claimed for arbitrary convex bodies or the equal-area partition constant. The fatness radius is the smallest-containing-disk radius, which differs from the three-point circumcircle radius for obtuse triangles. The motivating invariant is extremely recent, so unindexed parallel work remains possible.",
   "taxonomy": [
     "convex geometry",

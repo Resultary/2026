@@ -30,5 +30,8 @@
     "https://arxiv.org/html/1012.5884v1",
     "https://arxiv.org/html/2108.02518"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

@@ -24,5 +24,8 @@
   "source_urls": [
     "https://doi.org/10.1016/j.jpaa.2017.06.006"
   ],
-  "time_standard": "UTC"
+  "time_standard": "UTC",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed"
 }

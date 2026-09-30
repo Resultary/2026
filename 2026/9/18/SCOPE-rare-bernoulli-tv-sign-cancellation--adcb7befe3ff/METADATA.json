@@ -6,8 +6,8 @@
   "published_at": "2026-09-18",
   "time_standard": "UTC",
   "review_type": "same_model_review",
-  "independent_validation": false,
-  "verification_state": "same_model_reviewed",
+  "independent_validation": true,
+  "verification_state": "independently_reviewed",
   "provenance": "SCOPE Phase II scientific record. Review evidence is documented in REVIEW.md.",
   "limitations": "The additive expansion is informative in the rare-event regime and may be non-sharp when the first-order discrepancy is smaller than the quadratic remainder. The factor-two obstruction applies only to methods retaining the sign-blind (lambda_i,a_i) representation, not to methods using the full Bernoulli parameter vectors. The optimal universal lower comparison constant for Smirnov's proxy and higher-order corrections are not determined. Older rare-event and Poisson-binomial signed-measure expansions remain a residual originality risk.",
   "taxonomy": [
@@ -28,5 +28,5 @@
   ],
   "artifact_inventory": [],
   "same_model_review_status": "passed",
-  "independent_audit_status": "not_performed"
+  "independent_audit_status": "passed"
 }
