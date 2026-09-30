@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20260919-1b567bc40ed8`](https://github.com/SCOPE-Science/SCOPE2026/tree/72f20a1008be6ebb9197e3204b1a8382e0e23bcf/2026/09/19/powered-bohr-bounds-duality-ellp-shift--1b567bc40ed8)
+Original record: [`SCOPE-20260919-1b567bc40ed8`](https://github.com/SCOPE-Science/SCOPE2026/tree/92c7f26b45ce94be6cda0eafed44298c598d7b47/2026/09/19/powered-bohr-bounds-duality-ellp-shift--1b567bc40ed8)
 
 Imported into Resultary as `2026/9/19/SCOPE-powered-bohr-bounds-duality-ellp-shift--1b567bc40ed8`. The finding, audit, and attached artifacts remain attributable to SCOPE.

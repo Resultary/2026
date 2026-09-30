@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/21/SCOPE-two-dimensional-ab-ba-determinant-phase-law--f7e2a68c2439",
   "resultary_record_key": "SCOPE-two-dimensional-ab-ba-determinant-phase-law--f7e2a68c2439",
-  "source_commit": "8b3a2d84b145c433d1f179f0fd57830bca96ac7e",
-  "source_commit_time": "2026-09-30T12:53:31Z",
+  "source_commit": "92c7f26b45ce94be6cda0eafed44298c598d7b47",
+  "source_commit_time": "2026-09-30T19:52:54Z",
   "source_path": "2026/09/21/two-dimensional-ab-ba-determinant-phase-law--f7e2a68c2439",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260921-f7e2a68c2439",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-09-30T13:05:17Z",
+  "synced_at": "2026-09-30T19:59:14Z",
   "time_standard": "UTC"
 }

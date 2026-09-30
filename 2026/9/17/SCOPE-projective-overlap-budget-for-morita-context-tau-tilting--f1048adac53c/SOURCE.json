@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/17/SCOPE-projective-overlap-budget-for-morita-context-tau-tilting--f1048adac53c",
   "resultary_record_key": "SCOPE-projective-overlap-budget-for-morita-context-tau-tilting--f1048adac53c",
-  "source_commit": "8c5f393cd560ecaa9873f16108bd4e5f97002f95",
-  "source_commit_time": "2026-09-30T12:53:32Z",
+  "source_commit": "92c7f26b45ce94be6cda0eafed44298c598d7b47",
+  "source_commit_time": "2026-09-30T19:52:54Z",
   "source_path": "2026/09/17/projective-overlap-budget-for-morita-context-tau-tilting--f1048adac53c",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260917-f1048adac53c",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-09-30T13:05:17Z",
+  "synced_at": "2026-09-30T19:59:14Z",
   "time_standard": "UTC"
 }

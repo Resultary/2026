@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/17/SCOPE-skewed-hajnal-szemeredi-maximum-degree-two--2b89b837f418",
   "resultary_record_key": "SCOPE-skewed-hajnal-szemeredi-maximum-degree-two--2b89b837f418",
-  "source_commit": "00cbd47f6a2aba9a01db0c97daa5360eeec20abb",
-  "source_commit_time": "2026-09-30T12:53:31Z",
+  "source_commit": "92c7f26b45ce94be6cda0eafed44298c598d7b47",
+  "source_commit_time": "2026-09-30T19:52:54Z",
   "source_path": "2026/09/17/skewed-hajnal-szemeredi-maximum-degree-two--2b89b837f418",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260917-2b89b837f418",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-09-30T13:05:17Z",
+  "synced_at": "2026-09-30T19:59:14Z",
   "time_standard": "UTC"
 }

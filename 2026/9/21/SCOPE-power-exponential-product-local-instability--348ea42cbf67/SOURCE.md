@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20260921-348ea42cbf67`](https://github.com/SCOPE-Science/SCOPE2026/tree/c8a56ab2783ecbd63d5f30cf9b03258cb66944a7/2026/09/21/power-exponential-product-local-instability--348ea42cbf67)
+Original record: [`SCOPE-20260921-348ea42cbf67`](https://github.com/SCOPE-Science/SCOPE2026/tree/92c7f26b45ce94be6cda0eafed44298c598d7b47/2026/09/21/power-exponential-product-local-instability--348ea42cbf67)
 
 Imported into Resultary as `2026/9/21/SCOPE-power-exponential-product-local-instability--348ea42cbf67`. The finding, audit, and attached artifacts remain attributable to SCOPE.

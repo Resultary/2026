@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/21/SCOPE-polylog-ratio-complete-monotonicity-classification--efe7f86dd392",
   "resultary_record_key": "SCOPE-polylog-ratio-complete-monotonicity-classification--efe7f86dd392",
-  "source_commit": "042031cacc4886b1bc1c70787b22cef34642e81e",
-  "source_commit_time": "2026-09-30T12:53:32Z",
+  "source_commit": "92c7f26b45ce94be6cda0eafed44298c598d7b47",
+  "source_commit_time": "2026-09-30T19:52:54Z",
   "source_path": "2026/09/21/polylog-ratio-complete-monotonicity-classification--efe7f86dd392",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260921-efe7f86dd392",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-09-30T13:05:17Z",
+  "synced_at": "2026-09-30T19:59:14Z",
   "time_standard": "UTC"
 }

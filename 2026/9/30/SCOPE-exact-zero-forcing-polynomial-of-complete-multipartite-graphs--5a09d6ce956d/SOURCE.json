@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/30/SCOPE-exact-zero-forcing-polynomial-of-complete-multipartite-graphs--5a09d6ce956d",
   "resultary_record_key": "SCOPE-exact-zero-forcing-polynomial-of-complete-multipartite-graphs--5a09d6ce956d",
-  "source_commit": "b8a311eaf5d5a5ada00324b62793f9e2c641026f",
-  "source_commit_time": "2026-09-30T17:06:26Z",
+  "source_commit": "92c7f26b45ce94be6cda0eafed44298c598d7b47",
+  "source_commit_time": "2026-09-30T19:52:54Z",
   "source_path": "2026/09/30/exact-zero-forcing-polynomial-of-complete-multipartite-graphs--5a09d6ce956d",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260930-5a09d6ce956d",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-09-30T17:08:59Z",
+  "synced_at": "2026-09-30T19:59:14Z",
   "time_standard": "UTC"
 }

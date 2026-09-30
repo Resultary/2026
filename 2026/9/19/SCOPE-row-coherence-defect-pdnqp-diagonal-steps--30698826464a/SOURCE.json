@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/19/SCOPE-row-coherence-defect-pdnqp-diagonal-steps--30698826464a",
   "resultary_record_key": "SCOPE-row-coherence-defect-pdnqp-diagonal-steps--30698826464a",
-  "source_commit": "c69157153e7becea9d49e43abb602493c73f6e0c",
-  "source_commit_time": "2026-09-30T12:53:30Z",
+  "source_commit": "92c7f26b45ce94be6cda0eafed44298c598d7b47",
+  "source_commit_time": "2026-09-30T19:52:54Z",
   "source_path": "2026/09/19/row-coherence-defect-pdnqp-diagonal-steps--30698826464a",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260919-30698826464a",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-09-30T13:05:17Z",
+  "synced_at": "2026-09-30T19:59:14Z",
   "time_standard": "UTC"
 }

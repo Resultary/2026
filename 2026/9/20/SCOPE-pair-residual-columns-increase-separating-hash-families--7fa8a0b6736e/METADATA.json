@@ -1,0 +1,40 @@
+{
+  "artifact_inventory": [],
+  "independent_audit_status": "not_performed",
+  "independent_review_reset_at_utc": "2026-09-30T19:42:31.993290Z",
+  "independent_validation": false,
+  "limitations": "The construction gives a reduced pair-residual requirement but does not guarantee a smaller numerical auxiliary in every parameter regime. Originality is to the best of our knowledge and retains residual risk from differently named, unindexed, or inaccessible work. The frameproof lifting is a corollary rather than the principal novelty. No independent validation is asserted.",
+  "phase": "II",
+  "previously_published_pending_reaudit": true,
+  "published_at": "2026-09-20",
+  "record_id": "SCOPE-20260920-7fa8a0b6736e",
+  "record_title": "Pair-residual columns increase for separating hash families",
+  "review_type": "same_model_review",
+  "same_model_review_status": "passed",
+  "scope_run_id": "374b68b2-5127-4529-9012-e0d30a6bc8be",
+  "source_sha256": {
+    "RESULT.md": "e9192fa65e59a4bde01532cbc8d1b9bbc7102bd0368e8d4441d589d49bbc9200",
+    "REVIEW.md": "0fc0b20a9a159ee9dd3e5033d37b0e1728bb0e6d673b19cbeec76705df5099b6",
+    "SLOGAN.txt": "31a8a46e28510cb6b1b8981dee441cb571e99cc625675ca96db326f795b6b6fc"
+  },
+  "source_urls": [
+    "https://uwspace.uwaterloo.ca/items/73fdcd45-2ba4-4d2b-851c-e5ec75e05ad6",
+    "https://doi.org/10.1007/s10623-007-9138-6",
+    "https://doi.org/10.1515/JMC.2007.008",
+    "https://doi.org/10.1016/j.jcta.2010.11.006",
+    "https://doi.org/10.1137/15M103827X",
+    "https://doi.org/10.1016/j.tcs.2019.10.014",
+    "https://thaijmath.com/index.php/thaijmath/article/view/979",
+    "https://doi.org/10.1016/j.jcta.2025.106075"
+  ],
+  "taxonomy": [
+    "theoretical computer science",
+    "coding theory",
+    "separating hash families",
+    "perfect hash families",
+    "frameproof codes",
+    "recursive constructions"
+  ],
+  "time_standard": "UTC",
+  "verification_state": "awaiting_fresh_independent_audit"
+}

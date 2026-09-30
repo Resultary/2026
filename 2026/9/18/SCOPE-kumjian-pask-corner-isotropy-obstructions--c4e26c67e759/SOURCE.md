@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20260918-c4e26c67e759`](https://github.com/SCOPE-Science/SCOPE2026/tree/200df4edcf9ef2a623d068c2608205744727abf6/2026/09/18/kumjian-pask-corner-isotropy-obstructions--c4e26c67e759)
+Original record: [`SCOPE-20260918-c4e26c67e759`](https://github.com/SCOPE-Science/SCOPE2026/tree/92c7f26b45ce94be6cda0eafed44298c598d7b47/2026/09/18/kumjian-pask-corner-isotropy-obstructions--c4e26c67e759)
 
 Imported into Resultary as `2026/9/18/SCOPE-kumjian-pask-corner-isotropy-obstructions--c4e26c67e759`. The finding, audit, and attached artifacts remain attributable to SCOPE.

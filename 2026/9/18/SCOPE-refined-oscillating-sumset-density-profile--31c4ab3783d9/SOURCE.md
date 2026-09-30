@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20260918-31c4ab3783d9`](https://github.com/SCOPE-Science/SCOPE2026/tree/ec58d95a47152986593542bbfdc0360e52f7c24e/2026/09/18/refined-oscillating-sumset-density-profile--31c4ab3783d9)
+Original record: [`SCOPE-20260918-31c4ab3783d9`](https://github.com/SCOPE-Science/SCOPE2026/tree/92c7f26b45ce94be6cda0eafed44298c598d7b47/2026/09/18/refined-oscillating-sumset-density-profile--31c4ab3783d9)
 
 Imported into Resultary as `2026/9/18/SCOPE-refined-oscillating-sumset-density-profile--31c4ab3783d9`. The finding, audit, and attached artifacts remain attributable to SCOPE.

@@ -10,6 +10,9 @@
   "claim_type": "computational census refutation (TARGET disproof: finite-window moment decision AND high-rank witness absence)",
   "created_at": "2026-09-10T22:46:48Z",
   "domain": "Arithmetic Statistics",
+  "independent_audit_status": "not_performed",
+  "independent_review_reset_at_utc": "2026-09-30T19:42:31.993290Z",
+  "independent_validation": false,
   "keywords": [
     "11a1",
     "X0(11)",
@@ -26,6 +29,7 @@
     "Point saturation not certified; only r_lo direction claimed.",
     "No asymptotic claim against Poonen-Rains limit; only the stated finite-window |M-3|<=0.15 decision."
   ],
+  "previously_published_pending_reaudit": true,
   "provenance": {
     "attempt": 1,
     "claim_route": "TARGET",
@@ -42,7 +46,5 @@
     "https://web.math.princeton.edu/~dkriz/Goldfeld.pdf"
   ],
   "time_standard": "UTC",
-  "independent_audit_status": "passed",
-  "independent_validation": true,
-  "verification_state": "independently_reviewed"
+  "verification_state": "awaiting_fresh_independent_audit"
 }

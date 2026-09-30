@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20260919-7421eebe6032`](https://github.com/SCOPE-Science/SCOPE2026/tree/b95c4cb51277b7cef072a37b1e59407b35e6ae70/2026/09/19/schatten-phase-transitions-biased-sign-resolvents--7421eebe6032)
+Original record: [`SCOPE-20260919-7421eebe6032`](https://github.com/SCOPE-Science/SCOPE2026/tree/92c7f26b45ce94be6cda0eafed44298c598d7b47/2026/09/19/schatten-phase-transitions-biased-sign-resolvents--7421eebe6032)
 
 Imported into Resultary as `2026/9/19/SCOPE-schatten-phase-transitions-biased-sign-resolvents--7421eebe6032`. The finding, audit, and attached artifacts remain attributable to SCOPE.

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/30/SCOPE-cintioli-extensions-split-into-dense-rational-jump-fibres--be44aab940f1",
   "resultary_record_key": "SCOPE-cintioli-extensions-split-into-dense-rational-jump-fibres--be44aab940f1",
-  "source_commit": "5ca59969d34d8d59060dea989e0ac7af662d156f",
-  "source_commit_time": "2026-09-30T17:06:49Z",
+  "source_commit": "92c7f26b45ce94be6cda0eafed44298c598d7b47",
+  "source_commit_time": "2026-09-30T19:52:54Z",
   "source_path": "2026/09/30/cintioli-extensions-split-into-dense-rational-jump-fibres--be44aab940f1",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260930-be44aab940f1",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-09-30T17:08:59Z",
+  "synced_at": "2026-09-30T19:59:14Z",
   "time_standard": "UTC"
 }

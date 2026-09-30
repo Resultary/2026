@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/20/SCOPE-sharp-steiner-disk-hausdorff-stability-constant-width--49cee8c667fb",
   "resultary_record_key": "SCOPE-sharp-steiner-disk-hausdorff-stability-constant-width--49cee8c667fb",
-  "source_commit": "3779a2a9be8e2a9dd4e37339e1a59ebc37099e31",
-  "source_commit_time": "2026-09-30T12:53:32Z",
+  "source_commit": "92c7f26b45ce94be6cda0eafed44298c598d7b47",
+  "source_commit_time": "2026-09-30T19:52:54Z",
   "source_path": "2026/09/20/sharp-steiner-disk-hausdorff-stability-constant-width--49cee8c667fb",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260920-49cee8c667fb",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-09-30T13:05:17Z",
+  "synced_at": "2026-09-30T19:59:14Z",
   "time_standard": "UTC"
 }

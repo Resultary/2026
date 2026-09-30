@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/18/SCOPE-exact-rotation-law-trigonometric-nose-hoover-axis--505b9a3beb70",
   "resultary_record_key": "SCOPE-exact-rotation-law-trigonometric-nose-hoover-axis--505b9a3beb70",
-  "source_commit": "649b7e313bd43d326765727d593fafd1d2ae1ce5",
-  "source_commit_time": "2026-09-30T12:53:31Z",
+  "source_commit": "92c7f26b45ce94be6cda0eafed44298c598d7b47",
+  "source_commit_time": "2026-09-30T19:52:54Z",
   "source_path": "2026/09/18/exact-rotation-law-trigonometric-nose-hoover-axis--505b9a3beb70",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260918-505b9a3beb70",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-09-30T13:05:17Z",
+  "synced_at": "2026-09-30T19:59:14Z",
   "time_standard": "UTC"
 }

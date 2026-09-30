@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/17/SCOPE-heterogeneous-bernoulli-exact-chernoff-envelope--40d55355f1a6",
   "resultary_record_key": "SCOPE-heterogeneous-bernoulli-exact-chernoff-envelope--40d55355f1a6",
-  "source_commit": "68a7f4f81957f6f4dbb40309a3a81d0e4d106cb7",
-  "source_commit_time": "2026-09-30T12:53:32Z",
+  "source_commit": "92c7f26b45ce94be6cda0eafed44298c598d7b47",
+  "source_commit_time": "2026-09-30T19:52:54Z",
   "source_path": "2026/09/17/heterogeneous-bernoulli-exact-chernoff-envelope--40d55355f1a6",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260917-40d55355f1a6",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-09-30T13:05:17Z",
+  "synced_at": "2026-09-30T19:59:14Z",
   "time_standard": "UTC"
 }

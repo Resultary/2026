@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20260919-1615b82a083d`](https://github.com/SCOPE-Science/SCOPE2026/tree/1bc8429388b2ca104d5ad5834978101420ce8520/2026/09/19/first-order-weyl-isotropy-criterion--1615b82a083d)
+Original record: [`SCOPE-20260919-1615b82a083d`](https://github.com/SCOPE-Science/SCOPE2026/tree/92c7f26b45ce94be6cda0eafed44298c598d7b47/2026/09/19/first-order-weyl-isotropy-criterion--1615b82a083d)
 
 Imported into Resultary as `2026/9/19/SCOPE-first-order-weyl-isotropy-criterion--1615b82a083d`. The finding, audit, and attached artifacts remain attributable to SCOPE.

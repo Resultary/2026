@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20260920-d117be2a5a1e`](https://github.com/SCOPE-Science/SCOPE2026/tree/96e68c65f5b5574fe693f13122ed3288cf771d47/2026/09/20/torus-sampling-decoder-gashkov-sidelnikov--d117be2a5a1e)
+Original record: [`SCOPE-20260920-d117be2a5a1e`](https://github.com/SCOPE-Science/SCOPE2026/tree/92c7f26b45ce94be6cda0eafed44298c598d7b47/2026/09/20/torus-sampling-decoder-gashkov-sidelnikov--d117be2a5a1e)
 
 Imported into Resultary as `2026/9/20/SCOPE-torus-sampling-decoder-gashkov-sidelnikov--d117be2a5a1e`. The finding, audit, and attached artifacts remain attributable to SCOPE.

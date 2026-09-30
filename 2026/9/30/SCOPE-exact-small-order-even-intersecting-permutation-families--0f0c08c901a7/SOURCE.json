@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/30/SCOPE-exact-small-order-even-intersecting-permutation-families--0f0c08c901a7",
   "resultary_record_key": "SCOPE-exact-small-order-even-intersecting-permutation-families--0f0c08c901a7",
-  "source_commit": "4db3b89a973129d936fdbeba5d10c831233e78c5",
-  "source_commit_time": "2026-09-30T17:06:38Z",
+  "source_commit": "92c7f26b45ce94be6cda0eafed44298c598d7b47",
+  "source_commit_time": "2026-09-30T19:52:54Z",
   "source_path": "2026/09/30/exact-small-order-even-intersecting-permutation-families--0f0c08c901a7",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260930-0f0c08c901a7",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-09-30T17:08:59Z",
+  "synced_at": "2026-09-30T19:59:14Z",
   "time_standard": "UTC"
 }

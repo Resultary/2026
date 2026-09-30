@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/20/SCOPE-minimum-size-isolate-free-irregular-3-uniform-hypergraphs--fd0241f4c3e9",
   "resultary_record_key": "SCOPE-minimum-size-isolate-free-irregular-3-uniform-hypergraphs--fd0241f4c3e9",
-  "source_commit": "79a5abd334eb320a682a2f615e12485e2b64c68f",
-  "source_commit_time": "2026-09-30T12:53:32Z",
+  "source_commit": "92c7f26b45ce94be6cda0eafed44298c598d7b47",
+  "source_commit_time": "2026-09-30T19:52:54Z",
   "source_path": "2026/09/20/minimum-size-isolate-free-irregular-3-uniform-hypergraphs--fd0241f4c3e9",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260920-fd0241f4c3e9",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-09-30T13:05:17Z",
+  "synced_at": "2026-09-30T19:59:14Z",
   "time_standard": "UTC"
 }

@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20260917-395c132bbcb8`](https://github.com/SCOPE-Science/SCOPE2026/tree/c4ce1679e213bad22fc97ee0170cb9eedd4b320b/2026/09/17/conjugation-counterexamples-c1-bicircular-idempotents--395c132bbcb8)
+Original record: [`SCOPE-20260917-395c132bbcb8`](https://github.com/SCOPE-Science/SCOPE2026/tree/92c7f26b45ce94be6cda0eafed44298c598d7b47/2026/09/17/conjugation-counterexamples-c1-bicircular-idempotents--395c132bbcb8)
 
 Imported into Resultary as `2026/9/17/SCOPE-conjugation-counterexamples-c1-bicircular-idempotents--395c132bbcb8`. The finding, audit, and attached artifacts remain attributable to SCOPE.

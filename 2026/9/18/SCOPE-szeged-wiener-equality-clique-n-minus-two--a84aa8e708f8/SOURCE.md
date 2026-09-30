@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20260918-a84aa8e708f8`](https://github.com/SCOPE-Science/SCOPE2026/tree/10f41947405d215dde561a607e2415f35332d144/2026/09/18/szeged-wiener-equality-clique-n-minus-two--a84aa8e708f8)
+Original record: [`SCOPE-20260918-a84aa8e708f8`](https://github.com/SCOPE-Science/SCOPE2026/tree/92c7f26b45ce94be6cda0eafed44298c598d7b47/2026/09/18/szeged-wiener-equality-clique-n-minus-two--a84aa8e708f8)
 
 Imported into Resultary as `2026/9/18/SCOPE-szeged-wiener-equality-clique-n-minus-two--a84aa8e708f8`. The finding, audit, and attached artifacts remain attributable to SCOPE.

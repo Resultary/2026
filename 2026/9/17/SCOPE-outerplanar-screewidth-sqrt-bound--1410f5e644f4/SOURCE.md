@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20260917-1410f5e644f4`](https://github.com/SCOPE-Science/SCOPE2026/tree/b5d366c3d1657805ba1c5f22ea1f2e748fe80efe/2026/09/17/outerplanar-screewidth-sqrt-bound--1410f5e644f4)
+Original record: [`SCOPE-20260917-1410f5e644f4`](https://github.com/SCOPE-Science/SCOPE2026/tree/92c7f26b45ce94be6cda0eafed44298c598d7b47/2026/09/17/outerplanar-screewidth-sqrt-bound--1410f5e644f4)
 
 Imported into Resultary as `2026/9/17/SCOPE-outerplanar-screewidth-sqrt-bound--1410f5e644f4`. The finding, audit, and attached artifacts remain attributable to SCOPE.

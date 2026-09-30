@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20260918-66f4cc08f91d`](https://github.com/SCOPE-Science/SCOPE2026/tree/fb7adb52933df6254a394f60eeda02e33b1b881c/2026/09/18/finite-euler-step-self-similar-rectangle--66f4cc08f91d)
+Original record: [`SCOPE-20260918-66f4cc08f91d`](https://github.com/SCOPE-Science/SCOPE2026/tree/92c7f26b45ce94be6cda0eafed44298c598d7b47/2026/09/18/finite-euler-step-self-similar-rectangle--66f4cc08f91d)
 
 Imported into Resultary as `2026/9/18/SCOPE-finite-euler-step-self-similar-rectangle--66f4cc08f91d`. The finding, audit, and attached artifacts remain attributable to SCOPE.

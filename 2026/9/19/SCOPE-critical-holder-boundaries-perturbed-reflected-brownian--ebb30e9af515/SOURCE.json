@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/19/SCOPE-critical-holder-boundaries-perturbed-reflected-brownian--ebb30e9af515",
   "resultary_record_key": "SCOPE-critical-holder-boundaries-perturbed-reflected-brownian--ebb30e9af515",
-  "source_commit": "b8ea289805c537f3846ca53568dbb469878e5c15",
-  "source_commit_time": "2026-09-30T12:53:30Z",
+  "source_commit": "92c7f26b45ce94be6cda0eafed44298c598d7b47",
+  "source_commit_time": "2026-09-30T19:52:54Z",
   "source_path": "2026/09/19/critical-holder-boundaries-perturbed-reflected-brownian--ebb30e9af515",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260919-ebb30e9af515",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-09-30T13:05:17Z",
+  "synced_at": "2026-09-30T19:59:14Z",
   "time_standard": "UTC"
 }

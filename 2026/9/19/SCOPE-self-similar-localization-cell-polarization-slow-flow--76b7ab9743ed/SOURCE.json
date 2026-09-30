@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/19/SCOPE-self-similar-localization-cell-polarization-slow-flow--76b7ab9743ed",
   "resultary_record_key": "SCOPE-self-similar-localization-cell-polarization-slow-flow--76b7ab9743ed",
-  "source_commit": "b3216366a98cccf8fbf3215362f55c66c6d6da2a",
-  "source_commit_time": "2026-09-30T12:53:30Z",
+  "source_commit": "92c7f26b45ce94be6cda0eafed44298c598d7b47",
+  "source_commit_time": "2026-09-30T19:52:54Z",
   "source_path": "2026/09/19/self-similar-localization-cell-polarization-slow-flow--76b7ab9743ed",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260919-76b7ab9743ed",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-09-30T13:05:17Z",
+  "synced_at": "2026-09-30T19:59:14Z",
   "time_standard": "UTC"
 }
