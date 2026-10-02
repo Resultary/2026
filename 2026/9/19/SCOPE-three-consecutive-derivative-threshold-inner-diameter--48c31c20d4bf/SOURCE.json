@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/19/SCOPE-three-consecutive-derivative-threshold-inner-diameter--48c31c20d4bf",
   "resultary_record_key": "SCOPE-three-consecutive-derivative-threshold-inner-diameter--48c31c20d4bf",
-  "source_commit": "a7cc69d784246a36eca421019db9c279a2c15a0e",
-  "source_commit_time": "2026-09-30T19:52:54Z",
+  "source_commit": "e4ed9da8f93b0156241b19162b8f781a46d91725",
+  "source_commit_time": "2026-10-02T18:48:13Z",
   "source_path": "2026/09/19/three-consecutive-derivative-threshold-inner-diameter--48c31c20d4bf",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260919-48c31c20d4bf",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-01T08:22:11Z",
+  "synced_at": "2026-10-02T18:49:10Z",
   "time_standard": "UTC"
 }
