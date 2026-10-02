@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/20/SCOPE-exact-degree-spread-minima-trees--9568bcd9b985",
   "resultary_record_key": "SCOPE-exact-degree-spread-minima-trees--9568bcd9b985",
-  "source_commit": "a7cc69d784246a36eca421019db9c279a2c15a0e",
-  "source_commit_time": "2026-09-30T19:52:54Z",
+  "source_commit": "c60f4315d31dbea4f4ebabfe6465ece98b262fc1",
+  "source_commit_time": "2026-10-02T06:01:56Z",
   "source_path": "2026/09/20/exact-degree-spread-minima-trees--9568bcd9b985",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260920-9568bcd9b985",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-01T08:22:11Z",
+  "synced_at": "2026-10-02T06:02:15Z",
   "time_standard": "UTC"
 }
