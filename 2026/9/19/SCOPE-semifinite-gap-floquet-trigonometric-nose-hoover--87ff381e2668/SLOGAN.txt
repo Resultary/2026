@@ -1,1 +1,0 @@
-For the trigonometric Nosé–Hoover central orbit, the already-known s=1 Whittaker–Hill reduction combines with the classical semifinite-gap theorem to close every periodic spectral gap: weak-coupling tongues are forbidden at |b|=1/j and may open only at anti-periodic |b|=2/(2j+1); the principal tongue has b_±(a)=2±a/2−a²/32+O(a³).

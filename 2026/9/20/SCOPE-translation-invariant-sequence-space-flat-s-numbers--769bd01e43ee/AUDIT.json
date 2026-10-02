@@ -1,28 +1,103 @@
 {
+  "audit_date_utc": "2026-10-01",
   "axes": {
     "correctness": {
-      "rationale": "Finite-support norming, disjoint translated input blocks and disjoint finite truncations of the translated output give an almost-full-norm lower-bound subspace. An explicit blockwise rank-one projection proves this subspace is 1-complemented. The witness gives exact distances to SS, FSS and compact operators and the Bernstein/approximation equalities; finite-codimensional intersection and a separate uniform-tail quotient argument establish the Gelfand and Kolmogorov equalities. Endpoint p=1 and c_0 estimates were checked separately.",
-      "verdict": "PASS"
+      "rationale": "A finitely supported almost-norming vector can be translated to disjoint input blocks while finite truncations of its image are translated to disjoint output blocks; choosing summable/Hölder-compatible tail errors gives an infinite-dimensional copy of \\(\\ell_p\\) or \\(c_0\\) on which \\(T\\) is bounded below by \\(\\|T\\|-\\varepsilon\\). Block norm-one functionals yield a norm-one projection onto that subspace. This immediately gives the strict-singular/FSS/compact distance and approximation/Bernstein identities. Finite-codimensional intersection gives the Gelfand identity, and uniform tails on a finite-dimensional quotient subspace plus a translate avoiding a finite coordinate set gives the Kolmogorov identity. The endpoint estimates for \\(p=1\\) and \\(c_0\\) are separately valid.",
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Classical compact-convolution and cross-space strict-singularity work is treated as prior art. Karlovych--Shargorodsky (2024) already proves maximal noncompactness for broad translation-invariant sequence-space operators on Z^d, so no novelty is claimed for essential-norm/maximal-noncompactness equality. Searches did not locate the combined exact all-n Bernstein/Gelfand/Kolmogorov/approximation profile, exact FSS/SS distances, or explicit 1-complemented almost-norming witness for l_p(G) and c_0(G) over arbitrary infinite discrete groups. Residual risk remains because the closest 2024 source was not exhaustively inspected at full-text theorem level and older multiplier literature may contain equivalent reformulations.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "Karlovych–Shargorodsky cover broader source/target sequence spaces on \\(\\mathbb Z^d\\) but only assert maximal noncompactness in the accessible theorem summary.",
+          "The related SCOPE records treat specialized operator classes and do not dominate arbitrary group-translation commutants."
+        ],
+        "reasoning": "The prior theorem is broader in spaces but weaker in quantitative invariants; the SCOPE analogues are narrower in operator class.",
+        "searches": [
+          "Karlovych–Shargorodsky 2024, Pure Appl. Funct. Anal. 9, 195–210",
+          "Published SCOPE related records on Toeplitz Schur multipliers, band-dominated maps, and one-sided multipliers"
+        ]
+      },
+      "checked_sources": [
+        "Karlovych–Shargorodsky 2024 accessible statement",
+        "arXiv:2503.19600",
+        "Published SCOPE semantic search and related operator-profile records"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Equality of operator norm with a Hausdorff measure of noncompactness does not in general force Bernstein numbers or distances to strictly singular operators to remain at the norm; these are finer invariants."
+        ],
+        "reasoning": "The accessible prior theorem does not mechanically imply the audited conclusion.",
+        "searches": [
+          "Implication comparison with Karlovych–Shargorodsky 2024 maximal-noncompactness theorem"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "No distinct published SCOPE theorem was found for arbitrary translation-invariant operators on \\(\\ell_p(G)\\) or \\(c_0(G)\\).",
+          "Karlovych–Shargorodsky’s accessible statement is formulated as maximal noncompactness, not flat strict s-numbers."
+        ],
+        "reasoning": "Maximal noncompactness is weaker than exact equality of all four finite-index s-number scales and strict-singular distances.",
+        "searches": [
+          "Published SCOPE search: translation-invariant operators flat approximation Bernstein Gelfand Kolmogorov numbers",
+          "Literature search: translation invariant operator l_p discrete group strictly singular Bernstein Gelfand Kolmogorov"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No theorem table or database result was found giving the audited all-\\(n\\) profile for this class."
+        ],
+        "reasoning": "The result follows from a structural disjoint-translate argument rather than a known numeric table.",
+        "searches": [
+          "Published SCOPE semantic search for flat s-number profiles",
+          "Exact web searches combining translation invariant, Bernstein, Gelfand, Kolmogorov, strictly singular"
+        ]
+      },
+      "rationale": "Karlovych–Shargorodsky (2024) is genuine broader prior art for maximal noncompactness: its accessible abstract states norm equals Hausdorff measure of noncompactness for broad translation-invariant sequence-space maps on \\(\\mathbb Z^d\\). It does not state the exact all-\\(n\\) Bernstein/Gelfand/Kolmogorov/approximation profiles or the exact FSS/strict-singular distances. Published SCOPE searches found related flat-profile theorems for specialized operator classes, none of which implies this arbitrary group-translation commutant theorem. The 2024 full theorem section could not be exhaustively fetched, so equivalent stronger wording inside it remains a residual risk.",
+      "residual_risks": [
+        "The complete 2024 Karlovych–Shargorodsky theorem section was not exhaustively inspected; an equivalent stronger formulation inside that paper or older multiplier literature remains a material risk."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "PARTIAL_COVERAGE",
+          "evidence": "The accessible statement proves norm equals Hausdorff measure of noncompactness for translation-invariant maps on \\(\\mathbb Z^d\\), but does not mention the audited flat \\(a_n,b_n,c_n,d_n\\) profile or strict-singular distances.",
+          "identifier_or_url": "Karlovych–Shargorodsky, Pure Appl. Funct. Anal. 9 (2024), 195–210",
+          "material_read": "Accessible abstract and first-page/introductory text stating the maximal-noncompactness theorem; the full theorem section could not be fetched in this run.",
+          "method": "Author/institutional public pages and public PDF search text",
+          "title": "Discrete Riesz transforms on rearrangement-invariant Banach sequence spaces and maximally noncompact operators",
+          "trigger": "Closest modern theorem for translation-invariant sequence-space operators"
+        },
+        {
+          "assessment": "CONTEXT",
+          "evidence": "It supports treating Bernstein numbers as finer data than ordinary maximal noncompactness; it is not a coverage theorem for the translation-invariant class.",
+          "identifier_or_url": "arXiv:2503.19600",
+          "material_read": "Accessible abstract/bibliographic material.",
+          "method": "Public arXiv metadata",
+          "title": "Notes on Non-Compact Maps and the Importance of Bernstein Numbers",
+          "trigger": "Recent source emphasizing the distinction between noncompactness and Bernstein-number behavior"
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The theorem determines four classical s-number scales exactly, separates the result from ordinary maximal noncompactness through Bernstein and strict-singularity information, and supplies a reusable complemented-subspace mechanism valid for arbitrary infinite discrete groups.",
-      "verdict": "PASS"
+      "rationale": "Determining four classical s-number scales and three operator-ideal distances exactly is a substantial quantitative strengthening of ordinary maximal noncompactness, and the complemented almost-norming witness is a reusable structural mechanism for translation-invariant operators on natural sequence spaces.",
+      "status": "PASS"
     }
   },
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
+  "final_claim": "If \\(G\\) is an infinite discrete group and \\(T\\) is a bounded operator on \\(\\ell_p(G)\\) for \\(1\\le p<\\infty\\), or on \\(c_0(G)\\), commuting with all left translations, then every approximation, Bernstein, Gelfand, and Kolmogorov number of \\(T\\) equals \\(\\|T\\|\\); the distances to compact, finitely strictly singular, and strictly singular operators also equal \\(\\|T\\|\\), witnessed on a \\(1\\)-complemented classical sequence subspace where \\(T\\) is bounded below arbitrarily close to its norm.",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "Restricted to same-space operators on \\(\\ell_p(G)\\), \\(1\\le p<\\infty\\), and \\(c_0(G)\\); no \\(\\ell_\\infty(G)\\) claim.",
+    "No claim that every operator is convolution by an \\(\\ell_1\\) kernel.",
+    "The closest 2024 paper was not exhaustively available at theorem level."
+  ],
+  "previously_published_pending_reaudit": false,
+  "prior_scientific_review_evidence": {
+    "correctness": "The prior review uses disjoint translated input/output blocks, an explicit norm-one projection, finite-codimensional intersections, and a quotient tail argument to obtain the four flat s-number profiles and ideal distances.",
+    "originality": "The prior review treats maximal noncompactness on \\(\\mathbb Z^d\\) as prior art and limits novelty to the all-\\(n\\) strict s-number profile, strict-singular distances, and complemented witness on arbitrary infinite discrete groups.",
+    "value": "The prior review identifies exact determination of four s-number scales and a reusable complemented-subspace mechanism as the mathematical value."
+  },
   "record_id": "SCOPE-20260920-769bd01e43ee",
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-20",
-  "same_model_review_status": "passed",
-  "scope_run_id": "e9dcaf19-55ab-483b-b253-ce831cb26260",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "status": "passed",
+  "verification_state": "independently_reviewed"
 }

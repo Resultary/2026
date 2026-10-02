@@ -1,0 +1,93 @@
+{
+  "audit_date_utc": "2026-10-01",
+  "axes": {
+    "correctness": {
+      "rationale": "Conditioning on one coordinate leaves each of the other two with the common marginal by pairwise independence; conditional Fréchet bounds integrate to \\(1/4\\le q_i\\le1/2\\). Pairwise comparison probabilities and total mass force reversal symmetry. The torus construction \\((U,V,(U+V)\\bmod1)\\) realizes a vertex with exact pairwise-product marginals; coordinate permutations give all three vertices, and mixing them preserves the identical pairwise-product marginals, so the full triangle is attained. The inspected rational-arithmetic artifact is consistent with these identities but is not needed for the proof.",
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The 2025 theorem gives broad sharp bounds for linear combinations of joint distribution/reliability functions of selected order statistics under \\(k\\)-independence, summarizing Kemperman’s earlier sorted-statistic bounds."
+        ],
+        "reasoning": "That broader-looking framework is permutation-symmetric in the sample values and therefore does not imply the label-sensitive six-order law.",
+        "searches": [
+          "Okolewski & Błażejczyk-Okolewska 2025 DOI 10.3390/e27121250 full text",
+          "Kemperman 1997 k-independent order statistics"
+        ]
+      },
+      "checked_sources": [
+        "Okolewski & Błażejczyk-Okolewska 2025 full OA text",
+        "Kemperman 1997 bibliographic theorem trail",
+        "Published SCOPE semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Knowing all sorted order-statistic distributions does not identify which label realizes each order; the audited extremal vector changes under label-specific dependence while the sorted-value functionals are symmetric."
+        ],
+        "reasoning": "The inspected prior theorem does not imply the label-sensitive conclusion.",
+        "searches": [
+          "Implication comparison with DOI 10.3390/e27121250"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "No distinct SCOPE theorem with the six labeled permutation probabilities was located.",
+          "The inspected 2025 order-statistic paper formulates events only in terms of sorted variables \\(X_{j:n}\\), not label-to-rank assignments."
+        ],
+        "reasoning": "Symmetric order-statistic laws lose label information and are not equivalent to the audited ordering polytope.",
+        "searches": [
+          "Published SCOPE search: three pairwise-independent common-marginal ordering probabilities labeled ranks reversal symmetry",
+          "Literature search: pairwise independent order patterns labeled ranks"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No exact table or database entry was found for the labeled six-pattern region."
+        ],
+        "reasoning": "The claim is an analytic feasible-polytope theorem; no known table mechanically supplies it.",
+        "searches": [
+          "Published SCOPE semantic search for pairwise-independent ranking polytope",
+          "Exact literature searches for six permutation probabilities under pairwise independence"
+        ]
+      },
+      "rationale": "The closest inspected primary literature treats symmetric order statistics—distributions of the sorted values and their joint reliability functions—under \\(k\\)-independence. The 2025 full text frames its optimization entirely through \\(X_{j:n}\\) and count vectors and does not encode which named observation occupies each rank. Published SCOPE searches found related pairwise-independence extremal problems but no theorem that implies this complete six-pattern labeled-order polytope.",
+      "residual_risks": [
+        "Kemperman (1997), Okolewski (2017), or older copula/order-pattern literature could contain an equivalent label-sensitive formulation under different terminology; their unavailable portions were not treated as proof of noncoverage."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING_LABEL_SENSITIVE_CLAIM",
+          "evidence": "The paper optimizes symmetric functions of sorted order statistics; it does not state the six probabilities for named labels occupying ranks.",
+          "identifier_or_url": "https://doi.org/10.3390/e27121250",
+          "material_read": "Open-access full text, including introduction, problem formulation in terms of \\(X_{j:n}\\), moment reduction, and explicit bounds section.",
+          "method": "Open full HTML text",
+          "title": "Tight Bounds for Joint Distribution Functions of Order Statistics Under k-Independence",
+          "trigger": "Closest recent primary theorem on order statistics under \\(k\\)-independence"
+        },
+        {
+          "assessment": "INACCESSIBLE_PLAUSIBLE_SOURCE",
+          "evidence": "The available description concerns moments/distributions of order statistics, not labeled permutation patterns; full theorem text remains a terminology risk.",
+          "identifier_or_url": "DOI 10.1007/978-94-011-5532-8_34",
+          "material_read": "Bibliographic/summary material as quoted and contextualized in the inspected 2025 full text; the 1997 chapter itself was not fully accessible.",
+          "method": "Secondary primary-literature trail",
+          "title": "Bounding Moments of an Order Statistic When Each K-Tuple is Independent",
+          "trigger": "Classical source cited as the origin of k-independent order-statistic bounds"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "rationale": "The complete labeled-rank identification region is a natural finite extremal problem under a standard limited-independence assumption, and its exact conformal/rank calibration consequence quantifies a concrete inferential failure mode. It is not merely a recomputation of sorted-order-statistic bounds.",
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "final_claim": "For three pairwise-independent real observations with one common atomless marginal law, the six labeled strict-order probabilities are exactly \\((a,b,c,b,c,a)\\) with \\(0\\le a,b,c\\le1/4\\) and \\(a+b+c=1/2\\), every such point is attainable, and the resulting maximum-rank and two-calibration-score rank envelopes are sharp.",
+  "limitations": [
+    "Specific to three observations and one common atomless marginal.",
+    "Sharp torus extremizers may be singular as three-dimensional laws.",
+    "Older label-sensitive copula/order-pattern terminology remains a residual originality risk."
+  ],
+  "record_id": "SCOPE-20260920-4209dad13b91"
+}

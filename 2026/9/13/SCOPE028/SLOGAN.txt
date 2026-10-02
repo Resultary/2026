@@ -1,1 +1,0 @@
-No U-polarized K3^[2] fourfold has holomorphic Lagrangian fibrations along both primitive isotropic rays: the (-2) wall f1-f2 strictly separates them, so the nef cone contains at most one.

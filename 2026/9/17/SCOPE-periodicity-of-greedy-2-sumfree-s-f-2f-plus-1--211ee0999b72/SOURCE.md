@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20260917-211ee0999b72`](https://github.com/SCOPE-Science/SCOPE2026/tree/a7cc69d784246a36eca421019db9c279a2c15a0e/2026/09/17/periodicity-of-greedy-2-sumfree-s-f-2f-plus-1--211ee0999b72)
+Original record: [`SCOPE-20260917-211ee0999b72`](https://github.com/SCOPE-Science/SCOPE2026/tree/546b088de5f5c33bf8a2fe5f69333a4156d5ca7b/2026/09/17/periodicity-of-greedy-2-sumfree-s-f-2f-plus-1--211ee0999b72)
 
 Imported into Resultary as `2026/9/17/SCOPE-periodicity-of-greedy-2-sumfree-s-f-2f-plus-1--211ee0999b72`. The finding, audit, and attached artifacts remain attributable to SCOPE.

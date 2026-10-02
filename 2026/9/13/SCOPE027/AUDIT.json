@@ -1,10 +1,128 @@
 {
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "previously_published_pending_reaudit": true,
+  "audited_at_utc": "2026-10-01T03:04:00Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "https://arxiv.org/abs/2401.13356",
+        "https://doi.org/10.1090/S0025-5718-1981-0616374-9",
+        "https://github.com/Resultary/2026/tree/main/2026/9/13/SCOPE027"
+      ],
+      "rationale": "A fresh exact-cover reconstruction of cyclic difference families on Z_21 reproduced 108 candidate full-orbit base triples, 224 raw three-block families, and seven multiplier classes. Expanding the seven representatives gives valid 70-block Steiner systems, and an independent six-subset recount reproduces Pasch counts 63,63,63,42,42,21,0. The source verifier’s all-point isomorphism search was inspected and the classical literature independently confirms that there are exactly seven cyclic STS(21) types.",
+      "residual_risks": [
+        "The exhaustive classification is computational; the audit independently rebuilt the finite difference-family enumeration but did not replace the package’s general 21-point isomorphism routine with a second full implementation."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "https://doi.org/10.1002/jcd.21757"
+        ],
+        "reasoning": "Anti-Pasch census work and broader STS(21) classifications cover related configuration questions but do not imply the exact maximum over the seven cyclic types.",
+        "searches": [
+          "https://doi.org/10.1002/jcd.21757"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2401.13356",
+        "https://doi.org/10.1090/S0025-5718-1981-0616374-9",
+        "https://github.com/Resultary/2026/tree/main/2026/9/13/SCOPE027"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "https://arxiv.org/abs/2401.13356"
+        ],
+        "reasoning": "Knowing there are seven cyclic types and that one is anti-Pasch does not imply the remaining six Pasch counts or the maximum 63.",
+        "searches": [
+          "https://arxiv.org/abs/2401.13356"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "https://arxiv.org/abs/2401.13356"
+        ],
+        "reasoning": "Modern STS(21) property surveys were compared for Pasch/maxi-Pasch formulations; they do not state the complete seven-value cyclic vector in the material inspected.",
+        "searches": [
+          "https://arxiv.org/abs/2401.13356"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "https://doi.org/10.1090/S0025-5718-1981-0616374-9"
+        ],
+        "reasoning": "The classical Mathon–Phelps–Rosa classification is the key plausible table source. Open-access retrieval failed and authorized retrieval found no verified PDF, so full-table comparison could not be completed.",
+        "searches": [
+          "https://doi.org/10.1090/S0025-5718-1981-0616374-9"
+        ]
+      },
+      "rationale": "Classical sources classify the seven cyclic STS(21) types and modern work records several Pasch-related properties, including the unique cyclic anti-Pasch type. The exact full Pasch-count vector and maximum 63 were not located in the accessible material or published-results corpus. A highly plausible 1981 classification paper was not available as verified full text; that source remains an explicit residual risk rather than being treated as novelty proof.",
+      "residual_risks": [
+        "The inaccessible classical classification may contain a table whose invariant notation encodes some or all of these Pasch counts; this is the main originality risk."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "PARTIAL_COVERAGE",
+          "evidence": "Confirms relevant classical context and a unique cyclic anti-Pasch type; does not state the complete vector in inspected material.",
+          "identifier_or_url": "https://arxiv.org/abs/2401.13356",
+          "material_read": "Accessible full text, including cyclic-system discussion and anti-Pasch statements",
+          "method": "full-text comparison",
+          "title": "Properties of Steiner triple systems of order 21",
+          "trigger": "Modern source on Pasch and cyclic STS(21) properties"
+        },
+        {
+          "assessment": "UNRESOLVED_SOURCE_RISK",
+          "evidence": "This is the main residual originality risk; no claim of exhaustive literature absence is made.",
+          "identifier_or_url": "https://doi.org/10.1090/S0025-5718-1981-0616374-9",
+          "material_read": "Abstract/index material; full PDF unavailable after open-access and authorized attempts",
+          "method": "access-limited primary-source comparison",
+          "title": "Small Steiner triple systems and their properties",
+          "trigger": "Classical classification of the seven cyclic systems"
+        },
+        {
+          "assessment": "SELF_MATCH_ONLY",
+          "evidence": "The exact indexed match was the record itself; no stronger indexed table was found.",
+          "identifier_or_url": "https://github.com/Resultary/2026/tree/main/2026/9/13/SCOPE027",
+          "material_read": "Record title and mathematical summary",
+          "method": "published-results comparison",
+          "title": "Published finding SCOPE027",
+          "trigger": "Exact published-results check"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "https://arxiv.org/abs/2401.13356",
+        "https://doi.org/10.1090/S0025-5718-1981-0616374-9",
+        "https://github.com/Resultary/2026/tree/main/2026/9/13/SCOPE027"
+      ],
+      "rationale": "Pasch configurations are a standard structural invariant in Steiner triple systems, and the seven cyclic STS(21) form a classical finite subclass. Determining the complete Pasch-count spectrum and exact maximum over that natural catalogued class is a motivated finite classification, with both maxi-Pasch and anti-Pasch boundary data.",
+      "residual_risks": [
+        "The result concerns only cyclic systems and does not control the much larger non-cyclic STS(21) universe."
+      ],
+      "status": "PASS"
+    }
+  },
+  "checked_sources": [
+    "https://arxiv.org/abs/2401.13356",
+    "https://doi.org/10.1090/S0025-5718-1981-0616374-9",
+    "https://github.com/Resultary/2026/tree/main/2026/9/13/SCOPE027"
+  ],
+  "disposition": "passed",
+  "final_claim": "Among cyclic Steiner triple systems of order 21, the maximum Pasch count is 63; the seven cyclic isomorphism types have Pasch counts 63,63,63,42,42,21,0.",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "Scope is cyclic STS(21)s admitting the regular translation group of Z_21 (Heffter difference families); non-cyclic STS(21)s excluded. Isomorphism completeness and Pasch counts established by exhaustive computation (backtracking search, all C(21,6) six-sets) rather than closed-form theory."
+  ],
+  "previously_published_pending_reaudit": false,
   "record_id": "SCOPE-20260913-027",
-  "review_type": "independent_audit_pending",
-  "schema_version": 1,
-  "verification_state": "awaiting_fresh_independent_audit"
+  "residual_risks": [
+    "The exhaustive classification is computational; the audit independently rebuilt the finite difference-family enumeration but did not replace the package’s general 21-point isomorphism routine with a second full implementation.",
+    "The inaccessible classical classification may contain a table whose invariant notation encodes some or all of these Pasch counts; this is the main originality risk.",
+    "The result concerns only cyclic systems and does not control the much larger non-cyclic STS(21) universe."
+  ],
+  "review_type": "independent_audit",
+  "schema_version": 1
 }

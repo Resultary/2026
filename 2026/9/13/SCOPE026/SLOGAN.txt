@@ -1,1 +1,0 @@
-Explicit Rédei certificate for {5,29,181}: pairwise Legendre symbols are +1 and the normalized (7,2,1) conic plus Frobenius residues 61,134 mod 181 gives [5,29,181]=-1; a mod-11 1+1+2 factorization repairs the D4-vs-C4 argument. No novelty, minimality, or exhaustive below-5000 census is claimed.
