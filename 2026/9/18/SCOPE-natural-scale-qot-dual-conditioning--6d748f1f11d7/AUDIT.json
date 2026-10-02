@@ -1,27 +1,143 @@
 {
+  "audited_at_utc": "2026-10-01T09:40:58Z",
   "axes": {
     "correctness": {
-      "rationale": "The proof reduces local dual curvature to a fixed positive-slack core. The sharp support paper supplies O(ell)-scale sections, O(ell^2) slack height, positive-slack inner balls, and nearby-row overlap. Conditioning on one endpoint converts the core form to a finite-range variance form, whose nonlocal Poincare scale is ell^(d+2)=epsilon. This gives epsilon-uniform strong concavity. Matching test directions establish the bottom and top Hessian scales, and a standalone periodic Fourier calculation reproduces the predicted conditioning law.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "Assigned RESULT.md at source tree 749133b8ff5640d2c3a1749e67ac771f5d0b96af",
+        "González-Sanz and Nutz, Geometry and Convergence of Quadratically Regularized Optimal Transport I, arXiv:2609.20400",
+        "González-Sanz, Nutz and Riveros Valdevenito, Polyak--Łojasiewicz Inequality for Quadratically Regularized Optimal Transport, arXiv:2605.27175",
+        "González-Sanz, Nutz and Riveros Valdevenito, Linear Convergence of Gradient Descent for Quadratically Regularized Optimal Transport, arXiv:2509.08547"
+      ],
+      "rationale": "The repaired claim was reconstructed without using the removed spectral theorem. The geometry input gives positive-slack row and column sections of radius \\(\\Theta(\\ell)\\), section masses \\(\\Theta(\\ell^d)\\), and overlap for nearby rows. Minimizing over the opposite endpoint converts the core quadratic form to a finite-range variance form; the finite-range Poincaré scale is \\(\\ell^{d+2}=\\varepsilon\\). The normalized core marginals have densities bounded above and below, so the mean direct-sum component is controlled at the same scale. Hence the core form is at least \\(c\\varepsilon\\|u\\oplus v\\|_2^2\\). If \\(\\|h-h_\\varepsilon\\|_\\infty\\le\\rho\\ell^2\\) with \\(\\rho\\) below the core slack threshold, that same core remains active along every segment in the neighborhood; integrating the almost-everywhere second derivative yields uniform strong concavity. The active sections remain \\(O(\\ell^d)\\), giving local smoothness \\(O(\\ell^{-2})\\). Strong concavity then gives the stated PL and quadratic-growth bounds.",
+      "residual_risks": [
+        "Full arXiv HTML for the three recent primary papers was unavailable through the web route in this run, so the exact geometry-lemma wording was cross-checked against the frozen assigned proof and the accessible abstracts rather than re-extracted from the PDFs."
+      ],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "The inspected PL and gradient-convergence papers establish local curvature and linear convergence but not the epsilon-uniform strong-concavity neighborhood or sharp small-epsilon Hessian condition number. The accessible Part I geometry paper explicitly suggests that its estimates can upgrade PL and algorithmic results but does not state the present theorem. Its bibliography cites an inaccessible 2026 working paper, Geometry and Convergence of Quadratically Regularized Optimal Transport II, which is the main unresolved contemporaneous-overlap risk. No accessible source inspected establishes the claimed result. Originality is only to the best of our knowledge.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "The earlier PL result has a more general setting but a smaller or degenerating certificate, while the geometry paper says its estimates can sharpen algorithmic analysis without stating this robust strong-concavity neighborhood."
+        ],
+        "reasoning": "Neither broad result mechanically gives persistence of a common active core throughout the claimed \\(L^\\infty\\) ball; that persistence is the extra structural step.",
+        "searches": [
+          "quadratically regularized optimal transport strong concavity neighborhood",
+          "QOT PL inequality small regularization",
+          "QOT gradient convergence local curvature"
+        ]
+      },
+      "checked_sources": [
+        "https://github.com/Resultary/2026/tree/main/2026/9/18/SCOPE-sharp-qot-dual-linearization-conditioning--e80a70cb7832",
+        "https://arxiv.org/abs/2609.20400",
+        "https://arxiv.org/abs/2605.27175",
+        "https://arxiv.org/abs/2509.08547"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The earlier spectral theorem proves optimizer coercivity and conditioning only at the optimizer.",
+          "Geometry I provides the geometric ingredients, but converting a positive-slack core into robust direct-sum coercivity and then into strong concavity is not one of its stated conclusions in the accessible material."
+        ],
+        "reasoning": "The prior spectral result does not imply the repaired claim because optimizer active-set coercivity alone does not persist after perturbing the potentials; the positive-slack core argument is essential.",
+        "searches": [
+          "earlier sharp-QOT linearization theorem versus repaired nonlinear-neighborhood theorem",
+          "Geometry I support lemmas versus uniform local strong concavity"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "A public 2026-09-18 result titled Sharp small-regularization conditioning of the QOT dual linearization gives the optimizer spectral scales but not a robust neighborhood theorem.",
+          "The geometry paper supplies the support scale, overlap, and localization inputs; the PL paper supplies a weaker local PL certificate; the linear-convergence paper studies optimizer linearization."
+        ],
+        "reasoning": "The repaired statement is not equivalent to the already-covered optimizer Hessian theorem: it requires one fixed positive-slack core to remain active throughout a natural-scale neighborhood and therefore controls nonlinear dual curvature away from the optimizer.",
+        "searches": [
+          "Resultary semantic search for natural-scale QOT strong concavity and Hessian conditioning",
+          "arXiv:2609.20400",
+          "arXiv:2605.27175",
+          "arXiv:2509.08547"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "The corpus contains the spectral-conditioning result and the assigned natural-scale record, but no earlier separate record with the repaired robust-neighborhood theorem."
+        ],
+        "reasoning": "No numerical database or table controls this infinite-dimensional analytic claim; the exact-database check is therefore a search for theorem-level duplicate records.",
+        "searches": [
+          "published mathematical corpus for QOT dual conditioning and strong concavity"
+        ]
+      },
+      "rationale": "The original package mixed a genuinely additional robust-neighborhood theorem with a spectral-conditioning statement already covered by an earlier public result. The repaired claim removes that covered part. Searches located no earlier theorem asserting the fixed positive-slack core coercivity together with \\(\\Theta(\\varepsilon^{2/(d+2)})\\)-radius uniform strong concavity and the resulting uniform local PL bound.",
+      "residual_risks": [
+        "The unavailable contemporaneous Part II working paper is a genuine residual overlap risk, but no public text was located and it does not override the resolved prior coverage of the spectral component.",
+        "Parallel very recent work may not yet be indexed."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Directly covers the original spectral-conditioning component; that component is removed from the repaired claim.",
+          "evidence": "The record states \\(\\lambda_{\\min}\\asymp1\\), \\(\\lambda_{\\max}\\asymp\\varepsilon^{-2/(d+2)}\\), and the matching condition number.",
+          "identifier_or_url": "https://github.com/Resultary/2026/tree/main/2026/9/18/SCOPE-sharp-qot-dual-linearization-conditioning--e80a70cb7832",
+          "material_read": "Complete public RESULT.md and METADATA.json.",
+          "method": "Direct full-text published-record comparison plus public commit chronology.",
+          "title": "Sharp small-regularization conditioning of the QOT dual linearization",
+          "trigger": "Same QOT optimizer and identical Hessian scaling from the original package."
+        },
+        {
+          "assessment": "Supplies the geometric inputs but no accessible statement of the repaired robust strong-concavity theorem.",
+          "evidence": "The abstract reports the \\(\\varepsilon^{1/(d+2)}\\) support scale and sharp potential geometry.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.20400",
+          "material_read": "Primary abstract and source-specific lemmas as quoted and applied in the frozen assigned package; direct arXiv HTML retrieval was unavailable.",
+          "method": "Primary-source lookup followed by theorem-to-proof comparison.",
+          "title": "Geometry and Convergence of Quadratically Regularized Optimal Transport I",
+          "trigger": "Primary source for the sharp support geometry used in the proof."
+        },
+        {
+          "assessment": "Provides a local PL result in a broader setting but not the repaired natural-scale uniform strong-concavity neighborhood.",
+          "evidence": "The prior theorem is explicitly a PL result rather than a fixed-core strong-concavity theorem.",
+          "identifier_or_url": "https://arxiv.org/abs/2605.27175",
+          "material_read": "Primary bibliographic/abstract material and the theorem comparison in the assigned package; direct arXiv HTML retrieval was unavailable.",
+          "method": "Direct source lookup and implication comparison.",
+          "title": "Polyak--Łojasiewicz Inequality for Quadratically Regularized Optimal Transport",
+          "trigger": "Closest prior local curvature theorem."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The theorem identifies the natural optimization scale induced by the new sharp support geometry: an O(1) local PL/strong-concavity modulus on an O(epsilon^(2/(d+2))) potential neighborhood, together with condition number Theta(epsilon^(-2/(d+2))). This explains that weak-regularization stiffness comes from growing maximal curvature rather than vanishing minimal curvature and yields a concrete local step-size law.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "arXiv:2609.20400 support-geometry motivation",
+        "arXiv:2605.27175 prior PL theorem",
+        "earlier public optimizer-conditioning theorem"
+      ],
+      "rationale": "After removing the covered spectral statement, the surviving theorem still identifies a natural \\(\\Theta(\\varepsilon^{2/(d+2)})\\) potential neighborhood on which the dual has an \\(\\varepsilon\\)-uniform curvature modulus. This is a motivated nonlinear optimization consequence of the new support geometry: it upgrades a local PL picture with deteriorating constants and supplies a robust region in which standard first-order analysis applies.",
+      "residual_risks": [
+        "The theorem remains local and does not establish that an algorithm enters the neighborhood."
+      ],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Same-model review: passed. Independent audit: not yet performed.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-18",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disclaimer": "This evidence-based scientific review is not peer review and is not a guarantee of first discovery.",
+  "disposition": "repaired",
+  "evidence": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "final_claim": "Under the smooth uniformly convex quadratic-cost hypotheses of González-Sanz and Nutz, let \\(\\ell=\\varepsilon^{1/(d+2)}\\). For all sufficiently small \\(\\varepsilon\\), a fixed positive-slack core has coercivity of order \\(\\varepsilon\\); consequently the quadratically regularized transport dual is uniformly strongly concave on an \\(L^\\infty\\) direct-sum neighborhood of radius \\(\\Theta(\\ell^2)\\), has local \\(L^2\\)-gradient Lipschitz scale \\(O(\\ell^{-2})\\), and satisfies an \\(\\varepsilon\\)-uniform local Polyak--Łojasiewicz inequality and quadratic growth there. The previously claimed optimizer Hessian condition-number asymptotics are removed because that spectral statement was already publicly covered by an earlier result.",
+  "historical_review_evidence": {
+    "correctness": {
+      "rationale": "The earlier scientific review accepted the core-coercivity and local-curvature derivation.",
+      "status": "PASS"
+    },
+    "originality": {
+      "rationale": "The earlier scientific review did not identify the separate public spectral-conditioning result as prior coverage of part of the package.",
+      "status": "PASS"
+    },
+    "value": {
+      "rationale": "The earlier scientific review found the natural optimization scales motivated.",
+      "status": "PASS"
+    }
+  },
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "previously_published_pending_reaudit": false,
+  "verification_state": "independently_reviewed"
 }

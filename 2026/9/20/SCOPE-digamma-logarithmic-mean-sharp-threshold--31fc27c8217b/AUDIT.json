@@ -1,32 +1,142 @@
 {
-  "correctness": {
-    "status": "PASS",
-    "summary": "After writing b=at, the known strict increase of U(a,t) in a reduces b<=alpha0 to a=alpha0/t. The known sign 5 psi'+3x psi''<0 below alpha0 gives logarithmic growth greater than 2/3 for P(alpha0 e^{-s}) with P=x psi', yielding a t^(1/3) comparison of adjacent digamma increments. The matching coefficient inequality follows from an elementary derivative factorization, so the boundary U is strictly negative. The known opposite-sign theorem above alpha0 proves sharpness."
+  "audited_at_utc": "2026-10-01T17:55:11Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "L. Matejíčka, Notes on three conjectures involving the digamma and generalized digamma functions, Journal of Inequalities and Applications 2018:342, full article inspected.",
+        "H. Alzer, M. K. Kwong, Mean Value Inequalities for the Digamma Function, Analysis Mathematica 49 (2023), full text inspected.",
+        "Published-record and web searches for the exact Matejíčka endpoint problem and the equation defining the transition constant."
+      ],
+      "rationale": "Writing \\(b=at\\) reduces the inequality to the normalized function \\(U(a,t)\\). The published strict increase of \\(U\\) in \\(a\\) reduces the region \\(at\\le\\alpha_0\\) to the boundary \\(a=\\alpha_0/t\\). The published sign \\(5\\psi'(x)+3x\\psi''(x)<0\\) below \\(\\alpha_0\\) implies logarithmic growth greater than \\(2/3\\) for \\(x\\psi'(x)\\) when moving toward zero, which compares the two adjacent logarithmic digamma increments by a factor greater than \\(t^{1/3}\\). The elementary logarithmic-mean coefficient inequality gives the opposite coefficient ratio strictly below \\(t^{1/3}\\), so the boundary value is negative. Alzer--Kwong's large-parameter theorem gives the opposite side and sharpness. Independent high-precision evaluation reproduces the stated root near \\(0.56155939968\\) and representative signs on both sides.",
+      "residual_risks": [
+        "The Alzer--Kwong monotonicity and sign lemmas are used as published inputs rather than reproved from first principles."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Matejíčka proves only a smaller small-parameter range.",
+          "Alzer--Kwong prove the sharp reversed inequality above the transition and the monotonicity/sign ingredients."
+        ],
+        "reasoning": "Neither inspected theorem dominates the new small-side endpoint; together they motivate but do not imply it without the additional adjacent-scale comparison.",
+        "searches": [
+          "Matejíčka 2018 full article",
+          "Alzer--Kwong 2023 full text"
+        ]
+      },
+      "checked_sources": [
+        "L. Matejíčka, Notes on three conjectures involving the digamma and generalized digamma functions, Journal of Inequalities and Applications 2018:342, full article inspected.",
+        "H. Alzer, M. K. Kwong, Mean Value Inequalities for the Digamma Function, Analysis Mathematica 49 (2023), full text inspected.",
+        "Published-record and web searches for the exact Matejíčka endpoint problem and the equation defining the transition constant."
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The known lemmas reduce the problem but do not themselves compare the two logarithmic increments with the required coefficient ratio.",
+          "The additional logarithmic-growth and elementary mean inequality close that gap."
+        ],
+        "reasoning": "The missing endpoint is not a mechanical restatement of the large-parameter theorem; a separate argument is required.",
+        "searches": [
+          "Alzer--Kwong monotonicity/sign lemmas versus audited boundary argument",
+          "Matejíčka stated bounds"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Matejíčka states the unresolved endpoint problem.",
+          "Alzer--Kwong identify the same transition constant for the large-parameter direction."
+        ],
+        "reasoning": "The audited result is equivalently the sharp determination of the missing small-parameter endpoint.",
+        "searches": [
+          "Search for Matejíčka Open Problem 2 with both endpoint constants",
+          "Search for the defining equation \\(5\\psi'(x)+3x\\psi''(x)=0\\) together with the logarithmic mean"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No independent published exact endpoint value was located.",
+          "Numerics only confirm the constant and cannot establish the global inequality."
+        ],
+        "reasoning": "This is a global analytic inequality rather than a table lookup; finite or numerical evidence is not a novelty or correctness substitute.",
+        "searches": [
+          "Exact-threshold web and published-record searches",
+          "Numerical root checks"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality passes. Matejíčka explicitly asks for both best endpoint constants. Alzer--Kwong determine the large-parameter endpoint and provide the structural lemmas used here, but the inspected full text does not supply the complementary all-small-parameter inequality. Searches for the exact threshold equation and problem formulation found no earlier statement identifying the missing endpoint with the same transition constant.",
+      "residual_risks": [
+        "A differently phrased or poorly indexed prior resolution of the small-parameter endpoint remains a best-of-knowledge risk.",
+        "The theorem does not classify the sign throughout the mixed region crossing the threshold."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Defines the target problem and does not solve the sharp endpoint.",
+          "evidence": "The paper asks for the largest small-side endpoint and the smallest large-side endpoint.",
+          "identifier_or_url": "https://doi.org/10.1186/s13660-018-1936-z",
+          "material_read": "Full primary article, including Open Problem 2 and the previously proved small-parameter range",
+          "method": "Primary full-text inspection",
+          "title": "Notes on three conjectures involving the digamma and generalized digamma functions",
+          "trigger": "Original named endpoint problem"
+        },
+        {
+          "assessment": "Covers the sharp large-side endpoint and ingredients, but not the audited small-side theorem.",
+          "evidence": "The inspected theorem gives positivity above the transition; the audited proof supplies negativity below it.",
+          "identifier_or_url": "https://doi.org/10.1007/s10476-023-0206-6",
+          "material_read": "Full relevant primary text, including the transition sign lemma, monotonicity result, and large-parameter theorem",
+          "method": "Primary full-text inspection",
+          "title": "Mean Value Inequalities for the Digamma Function",
+          "trigger": "Same inequality and transition constant"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "L. Matejíčka, Notes on three conjectures involving the digamma and generalized digamma functions, Journal of Inequalities and Applications 2018:342, full article inspected.",
+        "H. Alzer, M. K. Kwong, Mean Value Inequalities for the Digamma Function, Analysis Mathematica 49 (2023), full text inspected.",
+        "Published-record and web searches for the exact Matejíčka endpoint problem and the equation defining the transition constant."
+      ],
+      "rationale": "The theorem completes a named sharp-constant problem by showing the two endpoint constants coincide at the natural transition. The proof isolates a reusable logarithmic-growth comparison for digamma increments rather than merely extending a numerical bound.",
+      "residual_risks": [
+        "A differently phrased or poorly indexed prior resolution of the small-parameter endpoint remains a best-of-knowledge risk.",
+        "The theorem does not classify the sign throughout the mixed region crossing the threshold."
+      ],
+      "status": "PASS"
+    }
   },
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "limitations": [
-    "The published Alzer-Kwong sign and monotonicity lemmas are used as inputs rather than reproved.",
-    "The sign of F(a,b) is not classified throughout the mixed region a<alpha0<b.",
-    "A substantially differently phrased, poorly indexed, or unpublished prior result may exist.",
-    "Independent audit has not been performed."
+  "disposition": "passed",
+  "evidence": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
   ],
-  "originality": {
-    "scope": "to the best of our knowledge",
-    "status": "PASS",
-    "summary": "Matejicka (2018) explicitly asks for both endpoint constants. Alzer and Kwong (2023) determine the sharp large-parameter endpoint b1=alpha0 and prove the structural lemmas used here, but do not state the complementary all-b<=alpha0 inequality. Searches of the named problem, exact threshold equation, logarithmic-mean formulation, and subsequent digamma mean-value literature found no prior b0=alpha0 result. Differently phrased, poorly indexed, or unpublished prior coverage remains possible."
-  },
-  "phase": "II",
-  "previously_published_pending_reaudit": true,
+  "final_claim": "The two best endpoint constants in Matejíčka's digamma logarithmic-mean problem coincide at the unique positive zero \\(\\alpha_0\\) of \\(5\\psi'(x)+3x\\psi''(x)=0\\): the expression is negative for \\(0<a<b\\le\\alpha_0\\) and positive for \\(\\alpha_0\\le a<b\\).",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "The proof uses published sign and monotonicity lemmas as inputs; the mixed region crossing the threshold is not classified; originality is best-of-knowledge."
+  ],
+  "previously_published_pending_reaudit": false,
   "record_id": "SCOPE-20260920-31fc27c8217b",
-  "review_statement": "Same-model review: passed. Independent audit: not yet performed.",
-  "review_type": "same_model_review",
-  "same_model_review_status": "passed",
-  "scope_run_id": "8fe0b323-196e-43f3-a3c4-2902887f9d2d",
-  "value": {
-    "status": "PASS",
-    "summary": "The theorem completes a named 2018 open problem by showing b0=b1=alpha0 and sharpens the earlier small-parameter endpoint from 0.4 to the exact transition constant. The proof isolates a reusable logarithmic-growth mechanism for adjacent-scale special-function increments."
+  "review_type": "independent_audit",
+  "same_model_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "The original review accepted the monotonicity reduction, logarithmic-growth comparison, and sharpness argument.",
+        "status": "PASS"
+      },
+      "originality": {
+        "rationale": "The original review found the small-side endpoint absent from Matejíčka and Alzer--Kwong.",
+        "status": "PASS"
+      },
+      "value": {
+        "rationale": "The original review valued completion of the named endpoint problem.",
+        "status": "PASS"
+      }
+    },
+    "reviewed_at": "2026-09-20",
+    "status": "passed"
   },
-  "verification_state": "awaiting_fresh_independent_audit"
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

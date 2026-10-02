@@ -1,27 +1,120 @@
 {
+  "audited_at_utc": "2026-10-01T16:48:18Z",
   "axes": {
     "correctness": {
-      "rationale": "Normalized L^p means give termwise monotonicity in alpha. Explicit compressed logarithmic blocks lie in the Marcinkiewicz space, their nth block asymptotically dominates the sampled p_n-moment, and the remaining exponential factor is exp(-r_n^(gamma-alpha)/p_n), yielding the exact 0/e^{-1}/1 threshold. Huang's original f,g pair separately verifies the Hardy--Littlewood obstruction for every interior parameter.",
-      "verdict": "PASS"
+      "rationale": "PASS. For fixed \\(n\\), if \\(0<\\alpha<\\beta\\), then \\(p_n^{(\\alpha)}<p_n^{(\\beta)}\\), and monotonicity of normalized positive moments gives \\(A_n^{(\\alpha)}\\le A_n^{(\\beta)}\\), hence \\(\\Phi_\\alpha\\le\\Phi_\\beta\\). The compressed-block probe is also valid: its block mass is \\(r_n\\), its support endpoint satisfies \\(\\log R_n=L_n-r_n^\\gamma\\), and previous and next block contributions are asymptotically negligible. The normalized moment therefore has the factor \\(\\exp(-r_n^{\\gamma-\\alpha}/p_n+o(1))\\), giving exactly \\(0\\), \\(e^{-1}\\), or \\(1\\) according as \\(\\alpha<\\gamma\\), \\(\\alpha=\\gamma\\), or \\(\\alpha>\\gamma\\). Choosing \\(\\gamma\\) strictly between two parameters proves strict kernel inclusion. The Hardy--Littlewood obstruction for every interior parameter follows from Huang's \\(f,g\\) pair and the corresponding moment estimates.",
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Huang's current v1 defines the full alpha family but specializes only to alpha=1 and alpha=1/2 and does not state a nested kernel filtration or threshold probes. Targeted archive and literature searches did not locate the exact strict-filtration result. Earlier Kalton--Sukochev work on nonsymmetric singular functionals is treated as prior art; originality is limited to the parameter geometry of Huang's explicit family.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "The same-day phase-transition result classifies regimes according to \\(L_n(1-p_n)\\) and proves \\(\\alpha<1\\) kernels are not Hardy--Littlewood solid, but does not compare two interior alpha kernels.",
+          "Classical singular-functional work establishes the broad phenomenon of nonsymmetric behavior, not this parameter geometry."
+        ],
+        "reasoning": "The broader order-theoretic results do not dominate the strict continuum filtration.",
+        "searches": [
+          "Complete 2026/9/19 critical-scale phase-transition Resultary result",
+          "Kalton Sukochev nonsymmetric singular functionals Marcinkiewicz"
+        ]
+      },
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Huang proves \\(\\alpha=1\\) and \\(\\alpha=1/2\\) endpoint examples; the related record proves phase behavior but not pairwise strictness.",
+          "Pairwise strictness requires a new concentration-scale probe tuned to an intermediate \\(\\gamma\\)."
+        ],
+        "reasoning": "The claimed filtration is not obtained by merely substituting parameters into a prior closed formula.",
+        "searches": [
+          "Huang Propositions 3.1, 3.5, 3.6",
+          "Critical-scale phase transition in logarithmically monotone Marcinkiewicz renormings"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Huang's full paper contains the family but only two special parameter applications.",
+          "No earlier record states \\(X_\\beta\\subsetneq X_\\alpha\\) for every \\(0<\\alpha<\\beta<1\\) with threshold probes."
+        ],
+        "reasoning": "The strict filtration is equivalent to existence of a separator for every parameter pair; the explicit \\(h_\\gamma\\) supplies exactly that information and is absent from the inspected sources.",
+        "searches": [
+          "Resultary: Marcinkiewicz Huang logarithmically monotone alpha kernels strict filtration threshold probes",
+          "Huang 2609.20270 alpha parameter kernel"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "The audited record was the exact matching result; the nearest other record concerns a different critical-scale phase diagram."
+        ],
+        "reasoning": "No database/table is natural; theorem-level published-record comparison was performed.",
+        "searches": [
+          "Resultary semantic search for strict alpha filtration and \\(0/e^{-1}/1\\) probe"
+        ]
+      },
+      "rationale": "PASS to the best of current knowledge. Huang's complete 11-page primary paper was inspected. It defines the entire \\(\\alpha\\in(0,1]\\) family but specializes to \\(\\alpha=1\\) for a non-strongly-symmetric norm and \\(\\alpha=1/2\\) for a non-Hardy--Littlewood-solid kernel; it does not state monotone nesting, strictness, or the threshold probes. A highly relevant same-day published result on the general critical scale \\(L_n(1-p_n)\\) was also inspected in full: it proves a different phase diagram, including the \\(\\alpha>1\\) fully symmetric regime and order-theoretic behavior for \\(\\alpha<1\\), but it does not imply strict separation among distinct parameters in \\(0<\\alpha<1\\) or construct \\(h_\\gamma\\) with the \\(0/e^{-1}/1\\) response. No earlier exact strict-filtration theorem was found.",
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result identifies a continuum of distinct strongly symmetric, logarithmically solid but non-fully-symmetric ideals inside one fixed Marcinkiewicz space, and gives an exact concentration exponent that separates every pair of parameters.",
-      "verdict": "PASS"
+      "rationale": "PASS. The result shows that Huang's continuum of parameters is not redundant: it yields a strictly ordered continuum of distinct logarithmically solid kernels inside one fixed Marcinkiewicz space, with explicit probes that measure the concentration exponent separating any two parameters. That is a natural structural refinement of a new counterexample family.",
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, formal verification, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
+  "checked_sources": [
+    "Complete frozen/current package.",
+    "Independent moment-monotonicity and compressed-block asymptotic reconstruction.",
+    "Complete Huang primary paper and complete related same-day published phase-transition result.",
+    "Resultary and classical literature searches."
+  ],
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
   "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-19T09:31:25Z",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "previously_published_pending_reaudit": false,
+  "prior_scientific_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "The earlier scientific review accepted normalized-moment monotonicity, the compressed-block threshold asymptotics and the Hardy--Littlewood obstruction.",
+        "verdict": "PASS"
+      },
+      "originality": {
+        "rationale": "The earlier review found Huang did not state the filtration or probes and treated Kalton--Sukochev as background.",
+        "verdict": "PASS"
+      },
+      "value": {
+        "rationale": "The earlier review regarded the continuum concentration-scale hierarchy as valuable.",
+        "verdict": "PASS"
+      }
+    },
+    "reviewed_at": "2026-09-19",
+    "status": "passed"
+  },
+  "record_id": "SCOPE-20260919-a4c3b8aeff80",
+  "residual_risks": [
+    "Older singular-functional literature may contain an equivalent family-separation construction under different notation, though no exact match was located.",
+    "The theorem is specific to Huang's scales and does not classify arbitrary logarithmically monotone seminorm families."
+  ],
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "source_inspections": [
+    {
+      "assessment": "PRIMARY_SOURCE_NOT_STRICT_FILTRATION_COVERAGE",
+      "evidence": "The paper defines the alpha family but uses only alpha one and one-half for its two main counterexamples; it contains no pairwise nesting or threshold-probe theorem.",
+      "identifier_or_url": "https://arxiv.org/abs/2609.20270",
+      "material_read": "Complete 11-page primary paper, including the general alpha construction and Sections 3.2--3.3.",
+      "method": "Primary full-text inspection after ordinary access attempts.",
+      "title": "A logarithmically monotone symmetric norm which is not fully symmetric",
+      "trigger": "Exact source family."
+    },
+    {
+      "assessment": "OVERLAPPING_NOT_COVERING_STRICT_FILTRATION",
+      "evidence": "It identifies the \\(L_n(1-p_n)\\) phase boundary and the \\(\\alpha>1\\) regime but does not prove strict inclusion between distinct interior kernels.",
+      "identifier_or_url": "https://github.com/Resultary/2026/blob/main/2026/9/19/SCOPE-critical-scale-phase-transition-log-monotone-norms--d7fba80be965/RESULT.md",
+      "material_read": "Complete published result.",
+      "method": "Published-record semantic search followed by full file inspection.",
+      "title": "Critical-scale phase transition in logarithmically monotone Marcinkiewicz renormings",
+      "trigger": "Highly relevant published result on the same family."
+    }
+  ],
+  "verification_state": "independently_reviewed"
 }

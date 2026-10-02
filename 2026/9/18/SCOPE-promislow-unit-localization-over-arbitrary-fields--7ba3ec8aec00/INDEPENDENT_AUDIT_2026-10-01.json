@@ -1,0 +1,98 @@
+{
+  "audited_at_utc": "2026-10-01T10:00:52Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.17559",
+        "https://arxiv.org/abs/math/0305440",
+        "https://arxiv.org/abs/2106.02147"
+      ],
+      "rationale": "In \\(\\alpha\\beta=1\\), the identity product fiber has coefficient sum 1 and every other old fiber has sum 0. Tabei's compression preserves each old fiber as a monochromatic class and may only merge whole old fibers. Keeping the original coefficients therefore preserves every new product coefficient: nonidentity fibers sum zeros and the identity fiber is one plus zeros. The support realization is coefficient-independent and injective. Direct finiteness for the sofic Promislow group algebra upgrades the right inverse to a two-sided inverse. Over a finite field, bounded supports and finitely many coefficients make each fixed-support-size search finite; known positive-characteristic units make the minimum computable.",
+      "residual_risks": [
+        "Tabei's support-realization theorem is used as a published input rather than independently reproved."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Tabei proves the radius theorem over \\(\\mathbb F_2\\) and explicitly leaves coefficients over other fields untreated; property (U) has a different support-dependent form."
+        ],
+        "reasoning": "Neither broader framework supplies the same total-support-only radius over arbitrary fields.",
+        "searches": [
+          "Tabei Theorem 7.2 and Remark 7.3",
+          "property-(U) literature"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.17559",
+        "https://arxiv.org/abs/math/0305440",
+        "https://arxiv.org/abs/2106.02147",
+        "https://arxiv.org/abs/2303.02823",
+        "published scientific archive semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Direct finiteness and existence do not solve the coefficient obstruction in the compression."
+        ],
+        "reasoning": "The whole-fiber coefficient-sum observation is the missing implication.",
+        "searches": [
+          "comparison with Tabei compression, direct finiteness, and Murray existence"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "No matching arbitrary-field coefficient-transport result was found."
+        ],
+        "reasoning": "Both the field-independent theorem and weighted-fiber lemma were searched.",
+        "searches": [
+          "semantic search for arbitrary-field Promislow localization",
+          "search for coefficient-sum fiber coarsening"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No table mechanically yields the theorem or all-finite-field computability."
+        ],
+        "reasoning": "The result is structural/algorithmic.",
+        "searches": [
+          "search for finite-field minimum-support unit tables"
+        ]
+      },
+      "rationale": "The primary source explicitly isolates but does not solve the coefficient obstruction; coefficient transport through whole-fiber mergers supplies the missing bridge.",
+      "residual_risks": [
+        "An independent coefficient-based extension under other terminology may be unindexed."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "The source explicitly leaves the coefficient-bearing extension untreated while its geometry is coefficient-independent.",
+          "evidence": "Remark 7.3 identifies the coefficient obstruction.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.17559",
+          "material_read": "Relevant full-text Section 7, Theorem 7.2, Remark 7.3, and support-realization discussion.",
+          "method": "Full-text theorem/proof-structure comparison.",
+          "title": "Localizing the Gardam unit: the support geometry of units in F2[P] and its non-unique-product relatives",
+          "trigger": "Primary source for the localization theorem and stated characteristic-two limitation."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.17559"
+      ],
+      "rationale": "The theorem removes an explicit characteristic-two restriction without worsening the effective radius and extends finite-field minimum-support computability to every finite field.",
+      "residual_risks": [],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "final_claim_source": [
+    "RESULT.md",
+    "SLOGAN.txt"
+  ],
+  "limitations": "Originality is to the best of current knowledge. Tabei's localization over \\(\\mathbb F_2\\), the support compression and radius bound, Murray's positive-characteristic unit constructions, property (U), and direct finiteness are prior work. The source localization paper is recent. The finite-search decidability conclusion is asserted only for finite coefficient fields.",
+  "record_id": "SCOPE-20260918-7ba3ec8aec00",
+  "record_title": "Coefficient transport removes the characteristic-two restriction in Promislow unit localization",
+  "reproducibility": "The coefficient-sum coarsening and its application to the source compression were reconstructed algebraically; no finite experiment is needed.",
+  "verification_state": "independently_reviewed"
+}

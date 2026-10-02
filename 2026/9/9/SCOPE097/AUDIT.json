@@ -1,10 +1,110 @@
 {
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "previously_published_pending_reaudit": true,
+  "audited_at_utc": "2026-09-30T23:44:16Z",
+  "axes": {
+    "correctness": {
+      "rationale": "Assume semistable rank-3 degree-20 E has at least 7 sections. Paranjape-Ramanan with n=3,s=4 forces either a proper subbundle with excess sections or h0(det E)>=13. The latter is impossible because a degree-20 line bundle on genus 11 has h0<=11 by Riemann-Roch. A line witness is impossible: h0>=2 requires degree at least 7 on a general genus-11 curve, exceeding the semistable line-subbundle cap 6. Thus a saturated rank-2 witness N has h0(N)>=3 and degree 10..13. If N were unstable, its destabilizing line and quotient both have degree at most 6 and hence at most one section, contradiction. So N is semistable. Applying Paranjape-Ramanan to N gives h0(N)<=3 for degree 10..12 and <=4 at degree 13. The quotient line Q has degrees 10,9,8,7 with Brill-Noether section caps 3,2,2,2 respectively. Therefore h0(E)<=6 in every case, contradiction. The numerical rho=-28 and gamma=4 calculations are consistent.",
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The inspected genus-11 rank-3 source gives nearby degree-20 six-section results and general Clifford-index bounds, not this seven-section emptiness.",
+          "Farkas-Ortega concerns K3-section constructions and higher-rank BN phenomena; Bakker-Farkas is rank 2 and does not imply the rank-3 cell."
+        ],
+        "reasoning": "Known rank-2 Mercat results and nearby six-section existence do not mechanically settle the seven-section rank-3 cell.",
+        "searches": [
+          "Lange-Newstead rank-3 genus-11 literature / Paranjape-Ramanan lemma",
+          "Farkas-Ortega arXiv:1102.0276",
+          "Bakker-Farkas arXiv:1511.03253"
+        ]
+      },
+      "checked_sources": [
+        "Paranjape-Ramanan lemma in the inspected genus-11 rank-3 literature",
+        "Farkas-Ortega arXiv:1102.0276",
+        "Bakker-Farkas arXiv:1511.03253",
+        "Resultary published-record search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "These standard inputs do imply the result only after the multi-case semistability argument: a PR witness must be rank 2, has degree 10..13, must itself be semistable, and its section cap combined with the quotient line cap gives at most 6 sections. No checked source packaged that implication for this cell."
+        ],
+        "reasoning": "The result is a nontrivial but short deduction from standard inputs, not a mere one-line substitution.",
+        "searches": [
+          "Paranjape-Ramanan lemma as quoted in the genus-11 rank-3 literature",
+          "Classical line-bundle Brill-Noether thresholds"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Resultary returned this record as the exact-topic hit.",
+          "No checked source stated emptiness of the semistable coherent-system cell (3,20,7)."
+        ],
+        "reasoning": "The final claim is equivalent to emptiness of the semistable Brill-Noether/coherent-system locus with rank 3, degree 20, at least 7 sections on a general genus-11 curve.",
+        "searches": [
+          "Resultary semantic search: genus 11 rank 3 degree 20 seven sections semistable Mercat coherent system",
+          "Targeted search for B(3,20,7) genus 11"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No independent exact theorem/table for the cell was located."
+        ],
+        "reasoning": "This is best-of-knowledge evidence rather than a proof of novelty.",
+        "searches": [
+          "Resultary exact-topic search",
+          "Targeted web/literature search for rank 3 degree 20 h0=7 genus 11"
+        ]
+      },
+      "rationale": "The exact (3,20,7) emptiness statement was not found in the checked higher-rank Brill-Noether/Mercat literature. A primary genus-11 source constructs/controls nearby rank-3 degree-20 loci with six sections, while the audited seven-section exclusion requires the additional Paranjape-Ramanan/semistability argument given here.",
+      "residual_risks": [
+        "A specialized coherent-systems paper could contain the same one-cell deduction under different notation; none was identified in the targeted searches."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Does not state the seven-section emptiness; instead confirms that degree-20 rank-3 six-section behavior is the nearby natural boundary.",
+          "evidence": "The inspected theorem gives genus-11 rank-3 Clifford bounds and a nonempty (3,20,6) locus, while the PR lemma supplies the determinant-section alternative used in the audit.",
+          "identifier_or_url": "published/Cambridge full text; rank-3 genus-11 discussion",
+          "material_read": "Paranjape-Ramanan lemma and the genus-11 rank-3 theorem giving nearby degree-20 six-section information",
+          "method": "Full-text PDF inspection, including page screenshot for the relevant theorem page",
+          "title": "On an example of Mukai",
+          "trigger": "Same genus, rank and degree neighborhood; contains the Paranjape-Ramanan lemma used by the record"
+        },
+        {
+          "assessment": "K3-section constructions do not cover the general-curve (3,20,7) emptiness claim.",
+          "evidence": "Its results concern higher-rank bundles arising from K3 geometry, not this general-curve exclusion.",
+          "identifier_or_url": "arXiv:1102.0276",
+          "material_read": "Abstract and result scope",
+          "method": "Primary-source inspection",
+          "title": "Higher rank Brill-Noether theory on sections of K3 surfaces",
+          "trigger": "Primary Mercat/higher-rank BN source cited by the record"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Paranjape-Ramanan lemma in the inspected genus-11 rank-3 literature",
+        "Farkas-Ortega arXiv:1102.0276",
+        "Bakker-Farkas arXiv:1511.03253",
+        "Resultary published-record search"
+      ],
+      "rationale": "The seven-section cell is the immediate section-count boundary above a known natural degree-20 rank-3 six-section locus on genus-11 curves and directly tests the rank-3 Mercat inequality at gamma=4 versus Clifford index 5. A clean emptiness theorem at that boundary is a motivated exact fact likely useful in higher-rank Brill-Noether/coherent-system work.",
+      "residual_risks": [
+        "A specialized coherent-systems paper could contain the same one-cell deduction under different notation; none was identified in the targeted searches."
+      ],
+      "status": "PASS"
+    }
+  },
+  "evidence": [
+    "INDEPENDENT_AUDIT_2026-09-30.md",
+    "INDEPENDENT_AUDIT_2026-09-30.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "previously_published_pending_reaudit": false,
   "record_id": "SCOPE-20260909-097",
-  "review_type": "independent_audit_pending",
+  "review_type": "independent_audit",
   "schema_version": 1,
-  "verification_state": "awaiting_fresh_independent_audit"
+  "verification_state": "independently_reviewed"
 }

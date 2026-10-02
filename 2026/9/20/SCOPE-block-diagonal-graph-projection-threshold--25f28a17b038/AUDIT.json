@@ -1,26 +1,116 @@
 {
   "axes": {
     "correctness": {
-      "rationale": "The upper bound is furnished by an explicit threshold projection. For the lower bound, simultaneous coordinate-sign averaging preserves the graph and projection norm while eliminating off-diagonal blocks; the block equations A_n+λ_n B_n=I, together with the exact ℓ_q-to-ℓ_p block-multiplier norm, force the reciprocal tail estimate L_λ(2K)≤2K. Endpoint q=∞ uses the c_0-sum and the same finite-support multiplier argument.",
-      "verdict": "PASS"
+      "rationale": "The exact block-multiplier norm \\(\\|\\operatorname{diag}(T_n):X_q\\to X_p\\|=\\|(\\|T_n\\|)\\|_{\\ell_r}\\) follows from Hölder and finite-support near-attainment. The explicit threshold projection gives the upper bound. For the lower bound, finite simultaneous sign averaging kills off-diagonal blocks on finitely supported inputs; finite-support graph vectors are dense also in the \\(q=\\infty\\) case because the target is \\(c_0\\). The resulting block equations imply \\(|\\lambda_n|\\|A_n\\|\\le K\\) and \\(\\|(\\|B_n\\|)\\|_{\\ell_r}\\le K\\); on \\(|\\lambda_n|>2K\\), one has \\(|\\lambda_n|\\|B_n\\|>1/2\\), hence \\(L_\\lambda(2K)\\le2K\\). This yields \\(\\Theta(\\lambda)/2\\le\\pi_Z(G_\\lambda)\\le2^{1/p}\\Theta(\\lambda)\\) and the complementability criterion. Integral comparison then gives the stated power-weight phase diagram.",
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Classical qualitative splitting results for complemented unconditional subspaces of ℓ_p⊕ℓ_q are explicitly treated as prior art. Targeted searches did not locate the arbitrary-Banach-block two-sided threshold formula for the relative projection constant or the resulting sharp n^α finite-section phase diagram. Older direct-sum papers not inspected in full remain a documented residual risk.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "Accessible modern exposition attributes qualitative locally convex direct-sum splitting to the older papers.",
+          "The semantic archive also contains weighted block-identity results, but those concern compactness/strict singularity rather than graph complementability and projection constants."
+        ],
+        "reasoning": "No inspected broader result dominates the threshold formula or the power-weight finite-section rates.",
+        "searches": [
+          "DOI 10.4064/sm-56-3-263-276",
+          "DOI 10.4064/sm-62-2-193-201",
+          "arXiv:1909.06829",
+          "Resultary query for weighted block identities"
+        ]
+      },
+      "checked_sources": [
+        "arXiv:1909.06829",
+        "DOI 10.4064/sm-56-3-263-276",
+        "DOI 10.4064/sm-62-2-193-201",
+        "Resultary semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Qualitative splitting of unconditional bases does not by itself produce the two-sided projection-constant estimate for arbitrary Banach blocks.",
+          "The proof's sign-averaged block coefficient inequalities and reciprocal-tail bound are additional quantitative content."
+        ],
+        "reasoning": "The audited theorem is not a formal corollary of the statements visible in the inspected modern source.",
+        "searches": [
+          "arXiv:1909.06829 full text",
+          "1976/1978 Studia Mathematica article records"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The modern direct-sum paper describes the classical Edelstein--Wojtaszczyk theory as a splitting theorem for unconditional bases in finite direct sums.",
+          "The audited theorem instead quantifies the relative projection constant of a maximal diagonal operator graph by a reciprocal-tail functional."
+        ],
+        "reasoning": "The closest structural alias was checked and does not match the quantitative graph statement.",
+        "searches": [
+          "Resultary semantic query: block diagonal graph subspace projection constant l_p l_q reciprocal tail threshold complementability power weights",
+          "web search: graph of diagonal operator complemented l_p l_q projection",
+          "arXiv:1909.06829 full text"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No exact prior formula or rate table was located."
+        ],
+        "reasoning": "This theorem supplies a quantitative functional and asymptotic phase table, so exact-formula searches are directly relevant.",
+        "searches": [
+          "Resultary exact semantic lookup for the threshold functional and power weights",
+          "web searches for reciprocal-tail projection constants"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality passes, with an explicit older-literature access risk. The modern full-text source confirms that the classical direct-sum line concerns splitting unconditional bases; no inspected source states the quantitative graph projection threshold.",
+      "residual_risks": [
+        "The 1976 and 1978 Studia Mathematica papers could not be fully inspected despite lawful retrieval attempts. They are plausible sources for a scalar or qualitative equivalent, so originality remains best-of-knowledge rather than certified."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "QUALITATIVE_ANTECEDENT",
+          "evidence": "The main theorem splits unconditional bases across finite direct-sum components and identifies the older locally convex work; it does not state the graph threshold functional.",
+          "identifier_or_url": "arXiv:1909.06829",
+          "material_read": "Full 15-page preprint, with detailed inspection of the introduction and main theorem",
+          "method": "Open arXiv PDF",
+          "title": "Projections and unconditional bases in direct sums of ℓp spaces",
+          "trigger": "Modern source summarizing the classical direct-sum projection theory"
+        },
+        {
+          "assessment": "ACCESS_RISK",
+          "evidence": "Because the article itself was not fully read, no whole-document noncoverage claim is made.",
+          "identifier_or_url": "DOI 10.4064/sm-56-3-263-276",
+          "material_read": "Publisher metadata and modern full-text descriptions; the advertised free PDF returned an access error, and a lawful institutional retrieval found no verified PDF",
+          "method": "Publisher page plus authorized retrieval attempt",
+          "title": "On projections and unconditional bases in direct sums of Banach spaces",
+          "trigger": "Most plausible older source for an equivalent scalar complementability theorem"
+        },
+        {
+          "assessment": "ACCESS_RISK",
+          "evidence": "Potential qualitative or scalar overlap remains a stated risk.",
+          "identifier_or_url": "DOI 10.4064/sm-62-2-193-201",
+          "material_read": "Publisher metadata and modern citations; full text was not obtained",
+          "method": "Lawful public-source search",
+          "title": "On projections and unconditional bases in direct sums of Banach spaces II",
+          "trigger": "Classical sequel with plausible overlap"
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The theorem converts graph complementability into a scalar tail functional independent of block geometry, supplies quantitative projection-constant bounds, and exhibits a re-entrant power-weight transition with polynomial and critical logarithmic finite-dimensional growth.",
-      "verdict": "PASS"
+      "rationale": "The theorem converts complementability of a broad family of unbounded diagonal graphs into a scalar threshold law with block-independent constants and yields a re-entrant power-weight phase diagram. This is a natural structural result with quantitative consequences.",
+      "status": "PASS"
     }
   },
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-20T12:35:50Z",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "The 1976 and 1978 Studia Mathematica papers could not be fully inspected despite lawful retrieval attempts. They are plausible sources for a scalar or qualitative equivalent, so originality remains best-of-knowledge rather than certified."
+  ],
+  "previously_published_pending_reaudit": false,
+  "prior_review_evidence_preserved": true,
+  "prior_review_status": "passed",
+  "record_id": "SCOPE-20260920-25f28a17b038",
+  "review_type": "independent_mathematical_audit",
+  "reviewed_at": "2026-10-01T17:57:47.787665Z",
+  "verification_state": "independently_reviewed"
 }

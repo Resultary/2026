@@ -1,1 +1,0 @@
-Fixed-profile F2 floor-diagram census in class E+4F with E-profile (2)_moving gives 10 diagrams, complex count 12 and q=-1 signed count 8. The signed edge factor is w*=0 for even w and w*=(-1)^((w-1)/2) for odd w; the two weight-2 diagrams contribute 4 complex and 0 signed.

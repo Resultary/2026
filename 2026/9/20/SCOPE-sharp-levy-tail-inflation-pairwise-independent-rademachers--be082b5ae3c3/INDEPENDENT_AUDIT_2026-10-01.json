@@ -1,0 +1,142 @@
+{
+  "audited_at_utc": "2026-10-01T21:06:11.107600Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "assigned RESULT.md",
+        "assigned artifacts/verify.py",
+        "Révész-Wschebor 1964 full paper",
+        "Lê Vǎn Thành 2023"
+      ],
+      "rationale": "Pairwise independence and centering give \\(\\mathbb E S_n^2=n\\). For odd \\(n\\), the complement of \\(|S_n|\\ge2\\) has \\(S_n^2=1\\), while the tail has \\(S_n^2\\le n^2\\), so its probability is at least \\(1/(n+1)\\) and the ratio is at most \\(n+1\\). For \\(n=2^m-1\\), the nonzero characters of \\(\\mathbb F_2^m\\) are pairwise independent Rademachers. In the prescribed six-character prefix, avoiding level two would force three character products to equal \\(-1\\), although their three indexing vectors sum to zero, a contradiction. The complete character sum is \\(n\\) at the zero seed and \\(-1\\) otherwise, so the terminal tail has probability exactly \\(1/(n+1)\\). Thus equality holds for every \\(m\\ge4\\).",
+      "residual_risks": [
+        "The exhaustive artifact checks only \\(4\\le m\\le9\\); the proof, not the enumeration, establishes all \\(m\\ge4\\)."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The older papers cover pairwise-independent Walsh partial sums and maximal weak laws; the character construction gives the extremal terminal distribution."
+        ],
+        "reasoning": "These ingredients do not force a probability-one early excursion while preserving the terminal extremizer; the six-step obstruction is the extra structural lemma.",
+        "searches": [
+          "Révész-Wschebor, On the statistical properties of the Walsh functions (1964)",
+          "Lê Vǎn Thành, Comptes Rendus Mathématique 361 (2023) 577-585",
+          "standard finite-field/Walsh character construction"
+        ]
+      },
+      "checked_sources": [
+        "https://real.mtak.hu/189835/1/cut_MATKUTINT_1964_3_pp543_-_554.pdf",
+        "https://doi.org/10.5802/crmath.387",
+        "standard finite-field character construction",
+        "Resultary semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The standard character example fixes the terminal tail but is order-insensitive; it does not imply that some six-term prefix forces the maximal event for every seed."
+        ],
+        "reasoning": "The sharpness proof needs the new three-pair zero-sum contradiction, so the final claim is not a routine corollary of the terminal heavy-tail construction.",
+        "searches": [
+          "Compared the theorem with the natural-order Walsh partial-sum theorem and with the standard total-character-sum example"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "No earlier exact \\(n+1\\) ratio or six-character prefix was located.",
+          "The 1964 Walsh paper explicitly notes pairwise but not mutual independence and studies different partial-sum questions."
+        ],
+        "reasoning": "Known bad maximal behavior does not imply the exact extremal ratio with matching terminal law.",
+        "searches": [
+          "Resultary query: pairwise independent Rademacher Levy maximal inequality threshold 2 n+1 Walsh characters",
+          "searches for pairwise-independent Levy/Ottaviani inequality, Walsh maximal partial sums, and threshold-two terminal tails"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "Only the assigned theorem appeared as an exact match."
+        ],
+        "reasoning": "This supports, but does not by itself prove, originality; the full-text Walsh comparison supplies the substantive check.",
+        "searches": [
+          "Resultary exact semantic search on threshold 2, factor \\(n+1\\), and \\(2^m-1\\)"
+        ]
+      },
+      "rationale": "The finite-field character family and failures of classical maximal inequalities under pairwise independence are prior art, but the inspected Walsh paper studies natural/lacunary partial sums and the 2023 weak-law paper develops maximal weak laws without the Kolmogorov inequality. Neither gives the exact threshold-two maximal-to-terminal ratio or the six-character forcing prefix. Resultary found no earlier published SCOPE theorem with this exact factor/construction.",
+      "residual_risks": [
+        "Older orthogonal-system or Walsh literature may contain an equivalent extremal ordering under different terminology; no such statement was found in the directly relevant full text."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING",
+          "evidence": "It states Walsh functions are pairwise independent and studies bounded natural sums/lacunary subsequences, not the sharp threshold-two Levy ratio.",
+          "identifier_or_url": "https://real.mtak.hu/189835/1/cut_MATKUTINT_1964_3_pp543_-_554.pdf",
+          "material_read": "Full 12-page PDF, including introduction, natural partial-sum Theorem 1, lacunary setup, and later probabilistic sections.",
+          "method": "Primary full text with page images checked.",
+          "title": "On the statistical properties of the Walsh functions",
+          "trigger": "Closest classical same-family partial-sum paper."
+        },
+        {
+          "assessment": "NOT_COVERING",
+          "evidence": "It develops weak laws while avoiding Kolmogorov's maximal inequality; it does not give the finite exact ratio here.",
+          "identifier_or_url": "https://doi.org/10.5802/crmath.387",
+          "material_read": "Primary article abstract and scope.",
+          "method": "Primary open journal page.",
+          "title": "On weak laws of large numbers for maximal partial sums of pairwise independent random variables",
+          "trigger": "Modern maximal-sum work under pairwise independence."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "classical Levy inequality",
+        "Révész-Wschebor 1964",
+        "Lê Vǎn Thành 2023"
+      ],
+      "rationale": "This is a sharp, motivated boundary result for a classical inequality under the natural weakening from mutual to pairwise independence. It gives both the universal optimal order and an explicit infinite sharp family, exposing a linear rather than constant inflation mechanism.",
+      "residual_risks": [
+        "The theorem optimizes only threshold two and a sharp subsequence of lengths; arbitrary thresholds and lengths remain open."
+      ],
+      "status": "PASS"
+    }
+  },
+  "checked_sources": [
+    "https://real.mtak.hu/189835/1/cut_MATKUTINT_1964_3_pp543_-_554.pdf",
+    "https://doi.org/10.5802/crmath.387",
+    "standard finite-field character construction",
+    "Resultary semantic search"
+  ],
+  "disposition": "passed",
+  "limitations": [
+    "Sharp attainment is proved for \\(n=2^m-1\\), \\(m\\ge4\\), not every odd length.",
+    "Only threshold two is classified exactly.",
+    "No higher-wise-independence or general-marginal extension is claimed.",
+    "Originality remains best-of-knowledge against older Walsh terminology."
+  ],
+  "record_id": "SCOPE-20260920-be082b5ae3c3",
+  "record_title": "Sharp threshold-2 Levy inflation under pairwise-independent Rademacher increments",
+  "residual_risks": [
+    "Older orthogonal-system or Walsh literature may contain an equivalent extremal ordering under different terminology; no such statement was found in the directly relevant full text."
+  ],
+  "schema_version": 1,
+  "source_inspections": [
+    {
+      "assessment": "NOT_COVERING",
+      "evidence": "It states Walsh functions are pairwise independent and studies bounded natural sums/lacunary subsequences, not the sharp threshold-two Levy ratio.",
+      "identifier_or_url": "https://real.mtak.hu/189835/1/cut_MATKUTINT_1964_3_pp543_-_554.pdf",
+      "material_read": "Full 12-page PDF, including introduction, natural partial-sum Theorem 1, lacunary setup, and later probabilistic sections.",
+      "method": "Primary full text with page images checked.",
+      "title": "On the statistical properties of the Walsh functions",
+      "trigger": "Closest classical same-family partial-sum paper."
+    },
+    {
+      "assessment": "NOT_COVERING",
+      "evidence": "It develops weak laws while avoiding Kolmogorov's maximal inequality; it does not give the finite exact ratio here.",
+      "identifier_or_url": "https://doi.org/10.5802/crmath.387",
+      "material_read": "Primary article abstract and scope.",
+      "method": "Primary open journal page.",
+      "title": "On weak laws of large numbers for maximal partial sums of pairwise independent random variables",
+      "trigger": "Modern maximal-sum work under pairwise independence."
+    }
+  ]
+}

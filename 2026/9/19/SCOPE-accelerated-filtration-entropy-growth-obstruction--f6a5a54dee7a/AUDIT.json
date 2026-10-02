@@ -1,27 +1,106 @@
 {
+  "audited_at_utc": "2026-10-01T11:55:00Z",
   "axes": {
     "correctness": {
-      "rationale": "The accelerated degree thresholds are strictly increasing and superadditive, so they define finite-dimensional filtrations. Exact bounds on successive quotient dimensions give the prescribed entropy, while k[x] retains intrinsic linear growth and GK dimension one. The universal-quantifier repair follows from comparison with a finite generating space and submultiplicativity of standard-filtration dimensions.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "https://doi.org/10.1007/s00025-024-02198-0",
+        "https://github.com/Resultary/2026/tree/main/2026/9/18/SCOPE-accelerated-filtrations-break-growth-entropy-dichotomy--3c11c354c506"
+      ],
+      "rationale": "For every finite lambda, the degree cutoff f(n)=n+floor(exp(lambda*n)-1) is increasing and superadditive, so it defines a finite-dimensional exhaustive algebra filtration of \\(k[x]\\). Its successive quotient dimension is asymptotic to (exp(lambda)-1)exp(lambda*(n-1)), giving entropy lambda. The standard degree filtration gives zero, and replacing the exponential by \\(e^{n^2}\\) gives infinite entropy. Thus the extended nonnegative spectrum is exactly \\([0,\\infty]\\).",
+      "residual_risks": [],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Qualified to the best of our knowledge. The current v1 source states the unrestricted finite-dimensional-filtration claims corrected here. The 2024 defining paper establishes linear reindexing dependence and suggests, but does not prove, zero-entropy invariance. Targeted searches did not locate the full [0,infinity] spectrum on k[x], this explicit correction, or the every-filtration characterization. Classical filtered-GK hypotheses are treated as prior art.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "Bock et al. establish filtration dependence and linear rescaling; the earlier record exhibits a discrete exact family and general lower bounds. Neither states all values in \\([0,\\infty]\\)."
+        ],
+        "reasoning": "No inspected prior theorem dominates the repaired exact spectrum statement.",
+        "searches": [
+          "Bock et al. filtration dependence and linear reindexing",
+          "earlier universal acceleration record"
+        ]
+      },
+      "checked_sources": [
+        "https://github.com/Resultary/2026/tree/main/2026/9/18/SCOPE-accelerated-filtrations-break-growth-entropy-dichotomy--3c11c354c506",
+        "https://doi.org/10.1007/s00025-024-02198-0",
+        "https://arxiv.org/abs/2609.18144"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The prior exact examples realize \\(\\log b\\) for integers b>=2, which does not itself imply realization of arbitrary \\(\\lambda\\in(0,\\log2)\\) or arbitrary non-log-integer values."
+        ],
+        "reasoning": "The repaired statement requires the real-parameter floor construction and the separate divergent schedule; it is not a special case of the prior theorem.",
+        "searches": [
+          "Direct implication comparison with integer-base accelerated filtrations"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The earlier 2026-09-18 record gives exact \\(\\log b\\) only for integer \\(b\\ge2\\) and universal positive acceleration, not the full extended interval."
+        ],
+        "reasoning": "The repaired final claim is the exact spectrum classification, not the already-covered growth-detection counterexample or linear-control repair.",
+        "searches": [
+          "Resultary search for full entropy spectrum of \\(k[x]\\) under arbitrary finite-dimensional filtrations",
+          "search for nonlinear reindexing with prescribed entropy"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No exact spectrum table or classification was found."
+        ],
+        "reasoning": "This is an infinite exact classification rather than database lookup.",
+        "searches": [
+          "Resultary algebraic-entropy archive"
+        ]
+      },
+      "rationale": "After narrowing the final claim to the exact entropy spectrum of \\(k[x]\\), no earlier source located implies all finite values together with infinity. The broader growth-detection and linear-control claims are credited as prior and removed from the contribution.",
+      "residual_risks": [
+        "The construction is elementary, so an older equivalent prescribed-reindexing observation under different terminology remains a residual bibliographic risk."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Covers the counterexample mechanism and linear-control discussion, but not the exact full spectrum retained after repair.",
+          "evidence": "Exact values in the prior record are \\(\\log b\\) for integer \\(b\\ge2\\).",
+          "identifier_or_url": "https://github.com/Resultary/2026/tree/main/2026/9/18/SCOPE-accelerated-filtrations-break-growth-entropy-dichotomy--3c11c354c506",
+          "material_read": "Complete RESULT.md and METADATA.json.",
+          "method": "Statement and proof implication comparison.",
+          "title": "Accelerated filtrations break arbitrary-filtration entropy-growth implications",
+          "trigger": "Closest earlier published result."
+        },
+        {
+          "assessment": "Does not classify all entropy values on \\(k[x]\\).",
+          "evidence": "Its filtration-dependence results are substantially more general in setup but not an exact \\(k[x]\\) spectrum theorem.",
+          "identifier_or_url": "https://doi.org/10.1007/s00025-024-02198-0",
+          "material_read": "Open full-text filtration definition and entropy comparison discussion.",
+          "method": "Primary-source comparison.",
+          "title": "Algebraic Entropy of Path Algebras and Leavitt Path Algebras of Finite Graphs",
+          "trigger": "Primary definition and filtration-dependence source."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "A one-variable commutative example invalidates several central growth-detection statements in a current preprint, explains the missing associated-graded finiteness condition, realizes every possible entropy value on one polynomial algebra, and supplies a sharp corrected growth criterion.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "https://doi.org/10.1007/s00025-024-02198-0"
+      ],
+      "rationale": "Determining the complete range of a filtration-dependent invariant on the simplest infinite-dimensional affine algebra is a natural classification. It quantifies exactly how far the entropy can vary under the definition and is more informative than another isolated counterexample to filtration invariance.",
+      "residual_risks": [],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, formal verification, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-19T06:20:42Z",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disposition": "repaired",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": "The final claim is narrowed to the exact entropy spectrum \\([0,\\infty]\\) on \\(k[x]\\). Universal positive acceleration, growth-detection counterexamples, and linear-control repairs are prior and not claimed.",
+  "policy": "correctness-originality-scientific-value",
+  "previous_review_evidence": {
+    "correctness": "The accelerated degree thresholds are increasing and superadditive; quotient asymptotics give the stated entropies.",
+    "originality": "Earlier review treated the spectrum and correction as new to the best of its knowledge.",
+    "value": "Earlier review emphasized the explicit spectrum and growth-detection correction."
+  },
+  "record_id": "SCOPE-20260919-f6a5a54dee7a",
+  "review_type": "independent_audit",
+  "verification_state": "independently_reviewed"
 }

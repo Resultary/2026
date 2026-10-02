@@ -1,30 +1,117 @@
 {
+  "audited_at_utc": "2026-10-01T13:53:06Z",
   "axes": {
     "correctness": {
-      "rationale": "Direct reduction to one quadratic mode followed by exact Jury inequalities gives all three regions; derivative and asymptotic calculations give the sharp minima and stiff-friction limits, and direct eigenvalue checks agree on all tested points.",
-      "verdict": "PASS"
+      "rationale": "PASS. The three deterministic harmonic-mode matrices were reconstructed from the displayed schemes and checked with the real two-by-two Jury criterion. Symbolic simplification independently reproduces the determinant and all three Jury factors: for LC-UBU only the negative-one boundary remains and gives the hyperbolic-cotangent threshold; for LCT-UBU the second condition forces the strict friction barrier and the third gives the stated rational threshold; for LCP-UBU the third condition gives the sharp rational threshold while the determinant condition is weaker. Differentiation gives the stated minima, and the large-friction limits follow directly from the exact boundary equations. The saved 30,000-point eigenvalue replay agrees but is not used as the proof.",
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Generic harmonic Langevin stability analysis is known and excluded. No checked source states the exact LC-UBU/LCT-UBU/LCP-UBU phase diagram, Taylor z=2 barrier, Pade minimum, or the three-way stiff-friction scaling for the newly introduced schemes.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "General linear-analysis methodology predates the source schemes."
+        ],
+        "reasoning": "A generic criterion does not itself contain the new amplification matrices or their exact source-specific thresholds; those formulas require a fresh derivation.",
+        "searches": [
+          "Linear Analysis of Stochastic Verlet-Type Integrators for Langevin Equations",
+          "general Langevin harmonic stability"
+        ]
+      },
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The primary source supplies convergence results but not these stability boundaries; the generic prior literature supplies tools only."
+        ],
+        "reasoning": "Neither inspected source mechanically yields the final threshold functions without source-specific algebra.",
+        "searches": [
+          "arXiv:2609.20713",
+          "Journal of Statistical Physics 193 linear stochastic Verlet analysis"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "No earlier equivalent threshold record was returned.",
+          "The source defines the same schemes but does not state the harmonic Schur region in the inspected text."
+        ],
+        "reasoning": "Equivalent formulations as spectral-radius, Jury, and harmonic absolute-stability criteria were compared.",
+        "searches": [
+          "Resultary: LC-UBU LCT-UBU LCP-UBU harmonic Schur stability Taylor friction barrier Pade",
+          "arXiv:2609.20713 full-text search for stability/Jury"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No database/table is natural for a parameterized stability region; no earlier exact record was found."
+        ],
+        "reasoning": "The relevant exact comparison is theorem-level rather than tabular.",
+        "searches": [
+          "Resultary exact semantic search for S_E S_T S_P thresholds"
+        ]
+      },
+      "rationale": "PASS to the best of current knowledge. The primary 2026 ULMC source was inspected in full-text method and analysis sections; it introduces LC-UBU, LCT-UBU and LCP-UBU but does not state a Jury/Schur phase diagram, the Taylor friction barrier, the Padé minimum, or the three stiff-friction asymptotics. Published-record search returned this record as the exact match. General stochastic-Verlet linear analysis establishes the diagnostic methodology but does not mechanically imply these new source-specific threshold formulas without deriving the new matrices and applying the criterion.",
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result separates schemes that share the same formal convergence order but have opposite stiff-friction stability scaling, giving a sharp implementation-relevant diagnostic for the new low-cost UBU family.",
-      "verdict": "PASS"
+      "rationale": "PASS. The exact phase diagram materially distinguishes three newly proposed schemes that share the same formal convergence class: one gains a friction-expanded curvature window, one has a hard friction-step barrier, and one has a finite Padé limiting window. These boundaries are directly useful for selecting stable steps on stiff quadratic modes and are more than a routine single-instance check.",
+      "status": "PASS"
     }
   },
-  "disclaimer": "Same-model review: passed. Independent audit: not yet performed.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "phase": "II",
+  "checked_sources": [
+    "Complete assigned Git tree and verifier artifacts.",
+    "Independent symbolic Jury-factor calculation for all three matrices.",
+    "Published-record and primary-literature searches."
+  ],
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
   "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
+  "previously_published_pending_reaudit": false,
+  "prior_scientific_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "The earlier scientific review accepted the direct Jury reduction, derivative calculations and numerical spectral checks.",
+        "verdict": "PASS"
+      },
+      "originality": {
+        "rationale": "The earlier scientific review found no exact phase diagram in the source and treated generic Verlet stability as background only.",
+        "verdict": "PASS"
+      },
+      "value": {
+        "rationale": "The earlier scientific review emphasized the sharply different stiff-friction behavior of schemes with the same formal order.",
+        "verdict": "PASS"
+      }
+    },
+    "reviewed_at": "2026-09-19",
+    "status": "passed"
+  },
   "record_id": "SCOPE-20260919-4fc68d9c8d50",
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-19",
-  "same_model_review_status": "passed",
-  "scope_run_id": "4765396b-45d1-4cdb-94b1-b5ed6ec09de2",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "residual_risks": [
+    "A generic rational-integrator paper in another parameterization could contain an equivalent threshold after a nontrivial recasting; none was located.",
+    "The theorem is exact only for quadratic mean/finite-second-moment stability."
+  ],
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "source_inspections": [
+    {
+      "assessment": "PRIMARY_SOURCE_NOT_COVERING_PHASE_DIAGRAM",
+      "evidence": "The schemes and Wasserstein rates are present, but the inspected source does not give the exact harmonic stability regions.",
+      "identifier_or_url": "https://arxiv.org/abs/2609.20713",
+      "material_read": "Full-text method definitions and convergence-analysis sections, with targeted searches for harmonic stability, Schur/Jury and covariance terms.",
+      "method": "Primary full-text inspection.",
+      "title": "A Unified Framework for Wasserstein Convergence of ULMC Methods beyond Log-Concavity: Old and New",
+      "trigger": "Exact source of the three low-cost UBU variants."
+    },
+    {
+      "assessment": "GENERAL_METHOD_NOT_SOURCE_SPECIFIC_COVERAGE",
+      "evidence": "It supplies broad stochastic-Verlet linear analysis, not the newly introduced LC-UBU/LCT-UBU/LCP-UBU threshold formulas.",
+      "identifier_or_url": "https://doi.org/10.1007/s10955-025-03553-3",
+      "material_read": "Bibliographic and theorem-context material located by targeted literature search.",
+      "method": "Primary-literature search.",
+      "title": "Linear Analysis of Stochastic Verlet-Type Integrators for Langevin Equations",
+      "trigger": "Closest general linear-stability methodology cited by the record."
+    }
+  ],
+  "verification_state": "independently_reviewed"
 }

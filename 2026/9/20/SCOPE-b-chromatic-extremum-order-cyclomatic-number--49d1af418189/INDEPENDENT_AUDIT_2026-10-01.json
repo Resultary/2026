@@ -1,0 +1,112 @@
+{
+  "audited_at_utc": "2026-10-01T18:05:11.787582Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "assigned RESULT.md",
+        "assigned artifacts/verify.py",
+        "Irving-Manlove 1999",
+        "Jakovac-Peterin survey 2018"
+      ],
+      "rationale": "If a b-coloring uses \\(q\\) colors, at least \\(q\\) vertices have degree at least \\(q-1\\), and connectedness forces every other vertex to have degree at least one; hence \\(2m\\ge q(q-1)+(n-q)\\), yielding \\((q-1)^2\\le n+2r-1\\). The sparse construction completes any connected \\(k\\)-vertex core of cycle rank \\(r\\) with exactly the leaves needed to make each core vertex a b-vertex; the dense construction starts from \\(K_k\\) and adds edges while preserving a \\(k\\)-chromatic subgraph. Inverting the sharp bound gives the threshold formula, and equality in the sparse degree sum forces the stated leaf-completion structure. The finite atlas and witness checks agree with the symbolic proof.",
+      "residual_risks": [
+        "The dense-regime minimum-order equality graphs are not classified."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The literature gives general degree/size and independence/chromatic-number bounds."
+        ],
+        "reasoning": "Those broader b-chromatic bounds do not imply sharpness for every feasible \\((n,r)\\) or the minimum-order equality structure.",
+        "searches": [
+          "Irving-Manlove 1999",
+          "Kouider-Maheo 2002",
+          "Jakovac-Peterin 2018 survey",
+          "Zaker arXiv:2606.07461"
+        ]
+      },
+      "checked_sources": [
+        "https://doi.org/10.1016/j.dam.2017.08.008",
+        "https://doi.org/10.1016/S0166-218X(98)00146-2",
+        "https://doi.org/10.1016/S0012-365X(01)00469-1",
+        "https://arxiv.org/abs/2606.07461",
+        "Resultary semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The extra term \\(n-q\\) uses connectedness and yields \\(q\\le1+\\lfloor\\sqrt{n+2r-1}\rfloor\\), which is strictly stronger than the size-only estimate in sparse regimes; the sharp constructions are not supplied by those prior inequalities."
+        ],
+        "reasoning": "The final theorem is not mechanically implied by the cited prior bounds.",
+        "searches": [
+          "Compared the audited bound with the survey's \\(m(G)\\) and size-only bounds"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The only exact Resultary hit was the assigned record.",
+          "The survey's size-only bound follows from \\(2m\\ge b(b-1)\\) and does not include the additional positive-degree contribution from non-b-vertices."
+        ],
+        "reasoning": "No equivalent joint order-size or cycle-rank theorem was located.",
+        "searches": [
+          "Resultary: b-chromatic number exact maximum fixed n m order size cyclomatic number cycle rank excess",
+          "Jakovac-Peterin survey 2018"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No earlier exact extremum table or theorem was returned."
+        ],
+        "reasoning": "The result is a closed extremal formula, not a recomputation of a known table.",
+        "searches": [
+          "Resultary exact semantic search for fixed order and cyclomatic number"
+        ]
+      },
+      "rationale": "The primary survey records the Irving-Manlove high-degree bound and a classical size-only square-root bound, but not the connected joint order-size extremum. Resultary returned no earlier SCOPE record with the exact fixed-\\((n,r)\\) formula or threshold classification. The 2026 Zaker paper addresses independence/chromatic-number bounds rather than cycle rank.",
+      "residual_risks": [
+        "The full 2002 Kouider-Maheo article was not inspected in full; the relevant bounds were checked through the comprehensive 2018 survey."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING",
+          "evidence": "The survey gives the size-only square-root estimate and other bounds, but no exact connected fixed-order/fixed-cycle-rank extremum.",
+          "identifier_or_url": "https://doi.org/10.1016/j.dam.2017.08.008",
+          "material_read": "Full accessible Section 2 material on the Irving-Manlove \\(m(G)\\) bound and size/order bounds, plus surrounding context.",
+          "method": "Primary published full-text HTML.",
+          "title": "The b-chromatic number and related topics—A survey",
+          "trigger": "Comprehensive source for classical b-chromatic bounds and terminology."
+        },
+        {
+          "assessment": "NOT_COVERING",
+          "evidence": "Its bounds depend on independence and chromatic numbers, not cyclomatic number.",
+          "identifier_or_url": "https://arxiv.org/abs/2606.07461",
+          "material_read": "Primary arXiv abstract and theorem-level scope.",
+          "method": "Primary arXiv record.",
+          "title": "Improved bounds on the b-chromatic number using the independence and chromatic numbers",
+          "trigger": "Recent paper on improved b-chromatic bounds."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Jakovac-Peterin survey 2018",
+        "assigned RESULT.md"
+      ],
+      "rationale": "This is a natural exact two-parameter extremal problem for a standard graph-coloring invariant. The theorem gives the complete maximum for every feasible order/cycle-rank pair, an exact inverse realization threshold, and a sparse equality classification.",
+      "residual_risks": [
+        "The dense equality class remains open."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "limitations": [
+    "Dense-regime minimum-order extremals are not classified.",
+    "Originality is best-of-knowledge with residual risk from differently indexed older work."
+  ],
+  "record_id": "SCOPE-20260920-49d1af418189",
+  "record_title": "Sharp b-chromatic extremum at fixed order and cycle rank",
+  "schema_version": 1
+}

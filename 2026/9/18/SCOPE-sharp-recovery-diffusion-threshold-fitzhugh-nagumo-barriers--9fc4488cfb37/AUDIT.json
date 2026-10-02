@@ -1,27 +1,142 @@
 {
+  "audited_at_utc": "2026-10-01T10:51:34Z",
   "axes": {
     "correctness": {
-      "rationale": "For W=cV, the activator barrier conditions are exactly c<=c_*, while positive curvature reduces the recovery condition to kappa_delta<=gamma-1/c. Monotonicity in c gives the necessary-and-sufficient criterion. The source exponential tail attains c_*=1/tilde_gamma exactly, and the explicit example verifies sharp failure above the resulting threshold.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "Courdurier and Paduro, Propagation failure in heterogeneous FitzHugh-Nagumo systems via coupled upper and lower solutions, arXiv:2609.14944v1",
+        "Kajiwara, The sub-supersolution method for the FitzHugh-Nagumo type reaction-diffusion system with heterogeneity, DCDS 38 (2018)",
+        "Assigned threshold verifier and fresh algebraic replay",
+        "Resultary semantic search for proportional recovery-diffusion thresholds"
+      ],
+      "rationale": "For the proportional ansatz \\(W=cV\\), the activator inequalities reduce exactly to \\(c\\le c_*\\), while the recovery inequalities reduce on positive-curvature points to \\(\\kappa_\\delta\\le\\gamma-1/c\\). Since the right side is increasing in \\(c\\), existence is equivalent to the displayed two conditions and the optimal choice is \\(c=c_*\\). The exponential-tail saturation and constant-diffusion formula follow directly. The committed verifier and a fresh replay confirm the explicit threshold example and failure above it.",
+      "residual_risks": [
+        "The theorem is only for the fixed profile and constant-proportional recovery ansatz, exactly as stated."
+      ],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Qualified to the best of our knowledge. The source gives a global Lipschitz-based sufficient small-diffusion bound but not the exact fixed-profile proportional criterion, tail saturation, curvature ceiling, or unbounded conservatism example. Related heterogeneous FitzHugh--Nagumo sub/supersolution literature was identified and excluded from novelty; one especially relevant 2018 source was not completely inspected and remains a residual risk.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "Older work supplies general comparison/subsolution frameworks rather than the exact \\([V'']_+/V\\) budget for this source profile."
+        ],
+        "reasoning": "General existence machinery does not mechanically provide the stated profile-wise optimum without the additional reduction.",
+        "searches": [
+          "heterogeneous FitzHugh-Nagumo sub/supersolution methods",
+          "stationary pulse literature"
+        ]
+      },
+      "checked_sources": [
+        "Courdurier and Paduro, Propagation failure in heterogeneous FitzHugh-Nagumo systems via coupled upper and lower solutions, arXiv:2609.14944v1",
+        "Kajiwara, The sub-supersolution method for the FitzHugh-Nagumo type reaction-diffusion system with heterogeneity, DCDS 38 (2018)",
+        "Assigned threshold verifier and fresh algebraic replay",
+        "Resultary semantic search for proportional recovery-diffusion thresholds"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The source theorem's accessible description is sufficient-only, whereas the audited argument proves necessity and sufficiency within a specified ansatz and exhibits unbounded conservatism of the uniform estimate."
+        ],
+        "reasoning": "A sufficient global bound does not imply the exact profile threshold.",
+        "searches": [
+          "Source sufficient bound versus optimized proportional inequalities"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Resultary returned the assigned exact criterion as the only exact-topic finding.",
+          "Accessible source material describes propagation failure via coupled barriers and small recovery diffusion, not the optimized fixed-profile curvature threshold."
+        ],
+        "reasoning": "The proportional criterion is an optimization of the barrier inequalities, but the exact threshold and its saturation are stronger than a one-sided smallness condition.",
+        "searches": [
+          "Resultary: FitzHugh Nagumo proportional barrier recovery diffusion curvature threshold heterogeneous",
+          "arXiv:2609.14944",
+          "Kajiwara 2018 sub-supersolution FitzHugh-Nagumo"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No prior exact table/formula matching \\(D_\\sharp(V)\\) was located."
+        ],
+        "reasoning": "Search absence is only best-of-knowledge evidence.",
+        "searches": [
+          "Resultary exact threshold search",
+          "targeted source-title search with curvature and proportional recovery"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality passes for the exact fixed-profile proportional criterion, saturation formula and unbounded-conservatism example. The source theorem gives a global sufficient small-diffusion condition; no checked source states the necessary-and-sufficient profile curvature budget.",
+      "residual_risks": [
+        "The 2026 source full text was not retrievable in this run; the audit relies on the explicitly quoted stationary-barrier inequalities plus accessible source metadata for the surrounding theorem.",
+        "Kajiwara's older paper is adjacent; only its accessible abstract/metadata was inspected, so a more general theorem implying the exact proportional criterion remains a residual risk."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Supports the small-diffusion persistence context but leaves residual overlap risk for detailed barrier algebra.",
+          "evidence": "The accessible description gives propagation-failure barriers and small recovery diffusion rather than an exact profile threshold.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.14944",
+          "material_read": "Abstract and bibliographic metadata; full text retrieval failed after repeated access attempts",
+          "method": "Primary-source abstract inspection plus authorized-access attempt",
+          "title": "Propagation failure in heterogeneous FitzHugh-Nagumo systems via coupled upper and lower solutions",
+          "trigger": "Same barrier construction and recovery-diffusion perturbation"
+        },
+        {
+          "assessment": "General adjacent method; no accessible exact proportional-curvature criterion.",
+          "evidence": "The paper develops a sub-supersolution method and related stationary analysis.",
+          "identifier_or_url": "https://doi.org/10.3934/dcds.2018101",
+          "material_read": "Accessible abstract and bibliographic material",
+          "method": "Primary-source abstract inspection",
+          "title": "The sub-supersolution method for the FitzHugh-Nagumo type reaction-diffusion system with heterogeneity",
+          "trigger": "Closest older heterogeneous FitzHugh-Nagumo barrier literature"
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result replaces a qualitative sufficiently-small persistence condition by an exact computable threshold for the natural proportional barrier family, identifies the geometric bottleneck, and quantifies how conservative the source's uniform estimate may be.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "Courdurier and Paduro, Propagation failure in heterogeneous FitzHugh-Nagumo systems via coupled upper and lower solutions, arXiv:2609.14944v1",
+        "Kajiwara, The sub-supersolution method for the FitzHugh-Nagumo type reaction-diffusion system with heterogeneity, DCDS 38 (2018)",
+        "Assigned threshold verifier and fresh algebraic replay",
+        "Resultary semantic search for proportional recovery-diffusion thresholds"
+      ],
+      "rationale": "Within a natural barrier ansatz, the result replaces a qualitative sufficiently-small hypothesis by an exact computable boundary, identifies positive normalized curvature as the bottleneck, and quantifies that the previous uniform sufficient estimate can be arbitrarily conservative. This is a motivated boundary result rather than an arbitrary parameter slice.",
+      "residual_risks": [
+        "The 2026 source full text was not retrievable in this run; the audit relies on the explicitly quoted stationary-barrier inequalities plus accessible source metadata for the surrounding theorem.",
+        "Kajiwara's older paper is adjacent; only its accessible abstract/metadata was inspected, so a more general theorem implying the exact proportional criterion remains a residual risk."
+      ],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-18",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disposition": "passed",
+  "evidence": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "final_claim": "For a fixed positive activator profile in the stated heterogeneous FitzHugh-Nagumo barrier setting, a constant-proportional recovery profile exists exactly under the displayed \\(c_*\\) and positive-curvature budget conditions; for constant recovery diffusion this gives the exact profile threshold \\(D_\\sharp(V)=(\\gamma-1/c_*)/\\kappa_V\\), with the stated source-tail saturation and conservatism example.",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "Exact only for a fixed positive activator profile and constant-proportional recovery components; it is not a global propagation threshold and does not exclude nonproportional barriers."
+  ],
+  "previously_published_pending_reaudit": false,
+  "prior_scientific_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "The prior review reduced the proportional barrier inequalities to the stated curvature criterion.",
+        "verdict": "PASS"
+      },
+      "originality": {
+        "rationale": "The prior review did not find the exact fixed-profile threshold in the inspected literature.",
+        "verdict": "PASS"
+      },
+      "value": {
+        "rationale": "The prior review judged the exact profile threshold and conservatism comparison useful.",
+        "verdict": "PASS"
+      }
+    },
+    "reviewed_at": "2026-09-18",
+    "status": "passed"
+  },
+  "record_id": "SCOPE-20260918-9fc4488cfb37",
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

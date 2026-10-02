@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20260921-60f2286f9433`](https://github.com/SCOPE-Science/SCOPE2026/tree/a7cc69d784246a36eca421019db9c279a2c15a0e/2026/09/21/matrix-power-sum-conjecture-counterexample-f2--60f2286f9433)
+Original record: [`SCOPE-20260921-60f2286f9433`](https://github.com/SCOPE-Science/SCOPE2026/tree/51726c3565e8e2f501a0d315c3b944757d558bdb/2026/09/21/matrix-power-sum-conjecture-counterexample-f2--60f2286f9433)
 
 Imported into Resultary as `2026/9/21/SCOPE-matrix-power-sum-conjecture-counterexample-f2--60f2286f9433`. The finding, audit, and attached artifacts remain attributable to SCOPE.

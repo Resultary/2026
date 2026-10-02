@@ -1,33 +1,151 @@
 {
-  "correctness": {
-    "status": "PASS",
-    "summary": "The 4-e.c. transfer theorem is proved by explicit adjacency witnesses for every line and closed-neighborhood incomparability condition. The Paley corollary follows from a direct four-pattern character-sum count giving 16N >= p-38-11sqrt(p), positive for p>=193. P(17) is exhaustively checked by the included finite verifier."
+  "audited_at_utc": "2026-10-01T21:46:42Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "Chen, Huzhang, Miao and Yang, Graph metric with no proper inclusion between lines, Discrete Applied Mathematics 185 (2015), complete accessible text inspected.",
+        "Blass, Exoo and Harary, Paley graphs satisfy all first-order adjacency axioms, J. Graph Theory 5 (1981).",
+        "Ananchuen and Caccetta, On the adjacency properties of Paley graphs, Networks 23 (1993).",
+        "Cameron and Stark, A Prolific Construction of Strongly Regular Graphs with the n-e.c. Property, EJC 9 (2002).",
+        "Resultary semantic search for existential closure, Paley graphs and super geometric dominance.",
+        "Assigned P(17) verifier and independent exact replay."
+      ],
+      "rationale": "In a diameter-two graph, a third vertex lies on the metric line through two endpoints exactly when the induced triple has two edges. The 4-e.c. property realizes the explicit adjacency patterns needed to witness both directions of incomparability for any two lines, two closed neighborhoods, and a line versus a closed neighborhood, so the transfer theorem is valid. For Paley graphs the four-pattern character expansion gives \\(16N\\ge p-38-11\\sqrt p\\), positive at and above \\(193\\). A fresh exact replay of \\(P(17)\\) checked diameter two, all 136 line comparisons, all neighborhood comparisons and every line/neighborhood comparison, with line sizes \\(6\\) and \\(10\\) occurring 68 times each; the finite check supports only the small proposition.",
+      "residual_risks": [
+        "The general Paley theorem rests on the character-sum bound, not on the finite P(17) computation."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The 2015 source is broader on super geometric dominant graphs but uses random constructions.",
+          "Classical Paley papers are broader on adjacency-extension axioms but predate and do not discuss super geometric dominance."
+        ],
+        "reasoning": "Neither side alone mechanically yields the cross-theory transfer without the tight-triple argument.",
+        "searches": [
+          "Chen--Huzhang--Miao--Yang 2015 full text",
+          "Classical Paley adjacency-property papers"
+        ]
+      },
+      "checked_sources": [
+        "Chen, Huzhang, Miao and Yang, Graph metric with no proper inclusion between lines, Discrete Applied Mathematics 185 (2015), complete accessible text inspected.",
+        "Blass, Exoo and Harary, Paley graphs satisfy all first-order adjacency axioms, J. Graph Theory 5 (1981).",
+        "Ananchuen and Caccetta, On the adjacency properties of Paley graphs, Networks 23 (1993).",
+        "Cameron and Stark, A Prolific Construction of Strongly Regular Graphs with the n-e.c. Property, EJC 9 (2002).",
+        "Resultary semantic search for existential closure, Paley graphs and super geometric dominance.",
+        "Assigned P(17) verifier and independent exact replay."
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The 2015 discussion explicitly says no constructive family avoiding randomness was known.",
+          "Paley n-e.c. gives the input property but not the metric-line conclusion."
+        ],
+        "reasoning": "Composing the two literatures still requires proving that 4-e.c. realizes every antichain witness; that implication is the substantive new bridge.",
+        "searches": [
+          "2015 Definition 4 and Discussion Question 2 versus the audited theorem",
+          "Cameron--Stark/Paley n-e.c. results"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The assigned record was the only exact Resultary hit.",
+          "The 2015 paper contains no occurrence of an existential-closure transfer and explicitly records the constructive-family gap."
+        ],
+        "reasoning": "The aliases are 4-e.c./four-extension property and the antichain of generated metric lines plus closed neighborhoods; no equivalent bridge was found.",
+        "searches": [
+          "Resultary query: 4-existentially closed graphs super geometric dominant Paley graph metric lines neighborhoods antichain",
+          "Web query: super geometric dominant existentially closed; super geometric dominant Paley"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No prior exact Paley table was located.",
+          "The P(17) computation verifies the small example but is not treated as novelty proof."
+        ],
+        "reasoning": "The main claim is an infinite structural implication; no database lookup subsumes it.",
+        "searches": [
+          "Resultary search for Paley super geometric dominant examples",
+          "Assigned exact P(17) replay"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality passes. The 2015 primary source defines super geometric dominance, proves randomized existence, and explicitly says no constructive family without randomness was known. Classical Paley adjacency results give eventual existential-closure properties but predate the metric-line notion. The searched literature did not state the transfer from 4-e.c. to super geometric dominance or its deterministic Paley consequence.",
+      "residual_risks": [
+        "The threshold \\(193\\) is only sufficient and is not claimed optimal.",
+        "Differently indexed post-2015 work could contain the same transfer, although no such statement was located in the searches performed."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Does not cover the transfer; it explicitly records a constructive-family gap.",
+          "evidence": "The discussion says no constructive family of super geometric dominant graphs without random process was known.",
+          "identifier_or_url": "https://doi.org/10.1016/j.dam.2014.12.022",
+          "material_read": "Complete accessible article text, including Definition 4, Theorems 5--6, and the discussion questions",
+          "method": "Primary full-text web inspection",
+          "title": "Graph metric with no proper inclusion between lines",
+          "trigger": "Original definition of super geometric dominance and constructive-family question"
+        },
+        {
+          "assessment": "Provides adjacency-extension examples but not the metric-line antichain theorem.",
+          "evidence": "Its subject is the n-e.c. property of strongly regular graphs, not super geometric dominance.",
+          "identifier_or_url": "https://doi.org/10.37236/1647",
+          "material_read": "Primary bibliographic/theorem-level material relevant to the n-e.c. property",
+          "method": "Primary-source comparison",
+          "title": "A Prolific Construction of Strongly Regular Graphs with the n-e.c. Property",
+          "trigger": "Classical source for existentially closed Paley-type examples"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Chen, Huzhang, Miao and Yang, Graph metric with no proper inclusion between lines, Discrete Applied Mathematics 185 (2015), complete accessible text inspected.",
+        "Blass, Exoo and Harary, Paley graphs satisfy all first-order adjacency axioms, J. Graph Theory 5 (1981).",
+        "Ananchuen and Caccetta, On the adjacency properties of Paley graphs, Networks 23 (1993).",
+        "Cameron and Stark, A Prolific Construction of Strongly Regular Graphs with the n-e.c. Property, EJC 9 (2002).",
+        "Resultary semantic search for existential closure, Paley graphs and super geometric dominance.",
+        "Assigned P(17) verifier and independent exact replay."
+      ],
+      "rationale": "The transfer theorem converts a standard adjacency-extension property into the complete metric-line/closed-neighborhood antichain condition and immediately supplies an explicit deterministic infinite family answering a gap stated in the defining 2015 paper. The exact \\(P(17)\\) example also shows the sufficient hypothesis is not necessary.",
+      "residual_risks": [
+        "The threshold \\(193\\) is only sufficient and is not claimed optimal.",
+        "Differently indexed post-2015 work could contain the same transfer, although no such statement was located in the searches performed."
+      ],
+      "status": "PASS"
+    }
   },
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "limitations": [
-    "The 4-e.c. hypothesis is sufficient but not necessary.",
-    "The Paley threshold p>=193 is not claimed sharp and is restricted to prime order in the explicit proof.",
-    "No minimum-order classification of super geometric dominant graphs is claimed.",
-    "No extremal edge-count improvement is claimed.",
-    "Originality is to the best of our knowledge and retains residual risk from differently indexed later work."
+  "disposition": "passed",
+  "evidence": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
   ],
-  "originality": {
-    "scope": "to the best of our knowledge",
-    "status": "PASS",
-    "summary": "The 2015 source explicitly records the absence of a constructive nonrandom super-geometric-dominant family. Classical Paley adjacency results supply eventual extension properties but predate the metric-line notion, and targeted searches did not locate the 4-e.c.-to-super-geometric-dominant transfer or its Paley application. Residual risk remains from differently indexed later work."
-  },
-  "phase": "II",
-  "previously_published_pending_reaudit": true,
+  "final_claim": "Every 4-existentially closed graph is super geometric dominant; consequently every prime-order Paley graph \\(P(p)\\) with \\(p\\equiv1\\pmod4\\) and \\(p\\ge193\\) is super geometric dominant, while \\(P(17)\\) is an exact checked smaller example that is not 4-existentially closed.",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "The 4-e.c. hypothesis is sufficient but not necessary; the Paley threshold is not claimed sharp; no minimum-order or extremal-edge classification is claimed."
+  ],
+  "previously_published_pending_reaudit": false,
   "record_id": "SCOPE-20260921-424c9dd4cac4",
-  "review_statement": "Same-model review: passed. Independent audit: not yet performed.",
-  "review_type": "same_model_review",
-  "same_model_review_status": "passed",
-  "scope_run_id": "a25d15d6-2989-4fe8-a763-4c4db09f6e0e",
-  "value": {
-    "status": "PASS",
-    "summary": "The result converts a standard graph-extension property into the full metric-line and closed-neighborhood antichain condition, supplies an explicit infinite Paley family answering a stated constructive gap, and gives a small exact P(17) example outside the sufficient 4-e.c. class."
+  "review_type": "independent_audit",
+  "same_model_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "The original review accepted the explicit 4-e.c. witnesses, Paley character sum and P(17) finite check.",
+        "status": "PASS"
+      },
+      "originality": {
+        "rationale": "The original review found no prior bridge from existential closure or Paley graphs to super geometric dominance.",
+        "status": "PASS"
+      },
+      "value": {
+        "rationale": "The original review valued the deterministic family and small exact example.",
+        "status": "PASS"
+      }
+    },
+    "reviewed_at": "2026-09-21",
+    "status": "passed"
   },
-  "verification_state": "awaiting_fresh_independent_audit"
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

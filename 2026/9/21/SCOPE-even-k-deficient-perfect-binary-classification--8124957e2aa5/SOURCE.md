@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20260921-8124957e2aa5`](https://github.com/SCOPE-Science/SCOPE2026/tree/a7cc69d784246a36eca421019db9c279a2c15a0e/2026/09/21/even-k-deficient-perfect-binary-classification--8124957e2aa5)
+Original record: [`SCOPE-20260921-8124957e2aa5`](https://github.com/SCOPE-Science/SCOPE2026/tree/ccf87d8261009f61b156ef452a5e08abb42eb266/2026/09/21/even-k-deficient-perfect-binary-classification--8124957e2aa5)
 
 Imported into Resultary as `2026/9/21/SCOPE-even-k-deficient-perfect-binary-classification--8124957e2aa5`. The finding, audit, and attached artifacts remain attributable to SCOPE.

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/20/SCOPE-linear-wise-independent-rademacher-bounded-stopping-bias--ffc9773418a4",
   "resultary_record_key": "SCOPE-linear-wise-independent-rademacher-bounded-stopping-bias--ffc9773418a4",
-  "source_commit": "a7cc69d784246a36eca421019db9c279a2c15a0e",
-  "source_commit_time": "2026-09-30T19:52:54Z",
+  "source_commit": "21aa187d7655ad2ae28a95ebff0a58f6341b43d2",
+  "source_commit_time": "2026-10-02T09:03:37Z",
   "source_path": "2026/09/20/linear-wise-independent-rademacher-bounded-stopping-bias--ffc9773418a4",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260920-ffc9773418a4",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-01T08:22:11Z",
+  "synced_at": "2026-10-02T09:07:02Z",
   "time_standard": "UTC"
 }

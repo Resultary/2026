@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/21/SCOPE-erdos-nicolas-two-prime-power-reduction--fab5fef920f2",
   "resultary_record_key": "SCOPE-erdos-nicolas-two-prime-power-reduction--fab5fef920f2",
-  "source_commit": "a7cc69d784246a36eca421019db9c279a2c15a0e",
-  "source_commit_time": "2026-09-30T19:52:54Z",
+  "source_commit": "4174f50ee08b7cf3fba38950d79ce01e5be74310",
+  "source_commit_time": "2026-10-02T09:03:35Z",
   "source_path": "2026/09/21/erdos-nicolas-two-prime-power-reduction--fab5fef920f2",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260921-fab5fef920f2",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-01T08:22:11Z",
+  "synced_at": "2026-10-02T09:07:02Z",
   "time_standard": "UTC"
 }

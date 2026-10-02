@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20260917-31c741d42df0`](https://github.com/SCOPE-Science/SCOPE2026/tree/a7cc69d784246a36eca421019db9c279a2c15a0e/2026/09/17/gaussian-moment-deficit-correlation-obstruction--31c741d42df0)
+Original record: [`SCOPE-20260917-31c741d42df0`](https://github.com/SCOPE-Science/SCOPE2026/tree/85ed4e382fb243a9a1bf69d3a4d272425a4d445d/2026/09/17/gaussian-moment-deficit-correlation-obstruction--31c741d42df0)
 
 Imported into Resultary as `2026/9/17/SCOPE-gaussian-moment-deficit-correlation-obstruction--31c741d42df0`. The finding, audit, and attached artifacts remain attributable to SCOPE.

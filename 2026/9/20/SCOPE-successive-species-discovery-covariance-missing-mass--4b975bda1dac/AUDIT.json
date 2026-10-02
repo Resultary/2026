@@ -1,14 +1,126 @@
 {
-  "correctness": "PASS",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "limitations": "Adjacent discoveries only; no global covariance extremum is claimed; the diffuse-tail optimum is family-specific; an equivalent formula in older urn or occupancy literature remains the main originality risk.",
-  "originality": "PASS",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "same_model_review_status": "passed",
-  "scientific_summary": "For iid sampling from any countable species law, the covariance of two consecutive discovery indicators equals the variance of the current missing mass minus the exact one-step depletion term; finite laws realize both covariance signs at every burn-in n.",
-  "value": "PASS",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "M. Chebunin, S. Zuyev, Functional Central Limit Theorems for Occupancies and Missing Mass Process in Infinite Urn Models, J. Theor. Probab. 35 (2022), DOI:10.1007/s10959-020-01053-6.",
+        "A. Ben-Hamou, S. Boucheron, M. I. Ohannessian, Concentration inequalities in the infinite urn scheme for occupancy counts and the missing mass, Bernoulli 23 (2017), arXiv:1412.8652.",
+        "M. K. Clayton, E. W. Frees, Nonparametric Estimation of the Probability of Discovering a New Species, JASA 82 (1987), DOI:10.1080/01621459.1987.10478434.",
+        "I. J. Good, G. H. Toulmin, The Number of New Species, and the Increase in Population Coverage, When a Sample Is Increased, Biometrika 43 (1956), DOI:10.1093/biomet/43.1-2.45.",
+        "Resultary semantic search for adjacent discovery indicators, missing-mass covariance, and occupancy-process dependence."
+      ],
+      "rationale": "Conditioning on the first \\(n\\) draws gives the exact ordered-distinct-unseen probability \\(M_n^2-Q_n\\). Since \\(\\mathbb E Q_n=m_n-m_{n+1}\\), subtracting \\(m_nm_{n+1}\\) yields the stated covariance decomposition. The uniform law gives a strictly negative closed form. For one atom of mass \\(1-a\\) plus \\(K\\) atoms of mass \\(a/K\\), direct expansion gives a covariance tending to \\(a^{n+1}(1-a)^2(1-a^n)>0\\), so sufficiently large finite \\(K\\) gives positive covariance for every fixed \\(n\\). The package’s rational-arithmetic artifact was inspected as reproducibility evidence, but the proof rests on these analytic identities.",
+      "residual_risks": [],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Process CLTs and concentration inequalities are broader probabilistically but do not imply the exact adjacent-indicator decomposition.",
+          "Classical population-coverage prediction determines means, not the sign-reversal covariance theorem."
+        ],
+        "reasoning": "Broader missing-mass results were checked for whether their stated covariance structures logically specialize to the audited adjacent-discovery identity; the inspected material does not.",
+        "searches": [
+          "Chebunin–Zuyev full OA article",
+          "Ben-Hamou–Boucheron–Ohannessian arXiv:1412.8652",
+          "Good–Toulmin DOI:10.1093/biomet/43.1-2.45"
+        ]
+      },
+      "checked_sources": [
+        "M. Chebunin, S. Zuyev, Functional Central Limit Theorems for Occupancies and Missing Mass Process in Infinite Urn Models, J. Theor. Probab. 35 (2022), DOI:10.1007/s10959-020-01053-6.",
+        "A. Ben-Hamou, S. Boucheron, M. I. Ohannessian, Concentration inequalities in the infinite urn scheme for occupancy counts and the missing mass, Bernoulli 23 (2017), arXiv:1412.8652.",
+        "M. K. Clayton, E. W. Frees, Nonparametric Estimation of the Probability of Discovering a New Species, JASA 82 (1987), DOI:10.1080/01621459.1987.10478434.",
+        "I. J. Good, G. H. Toulmin, The Number of New Species, and the Increase in Population Coverage, When a Sample Is Increased, Biometrika 43 (1956), DOI:10.1093/biomet/43.1-2.45.",
+        "Resultary semantic search for adjacent discovery indicators, missing-mass covariance, and occupancy-process dependence."
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Conditioning on the current sample gives \\(\\Pr(D_{n+1}=D_{n+2}=1\\mid\\mathcal F_n)=M_n^2-Q_n\\), which is not supplied by the inspected prior theorems.",
+          "The finite one-heavy-plus-many-rare family proves positive covariance for every fixed \\(n\\), while the uniform family gives strict negativity; neither sign theorem follows from a mean-only discovery-probability formula."
+        ],
+        "reasoning": "The audited claim uses a distinct joint observable and derives a sign criterion that is not a mechanical corollary of the inspected concentration or CLT results.",
+        "searches": [
+          "conditional joint-discovery formula against prior missing-mass covariance work",
+          "classical discovery-probability estimation literature"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The full Chebunin–Zuyev article treats occupancies/missing-mass process covariances, not adjacent discovery indicators.",
+          "Clayton–Frees studies estimation of \\(m_n=\\sum_i p_i(1-p_i)^n\\), not the joint adjacent-discovery covariance.",
+          "No Resultary hit stated the audited identity or the both-sign result."
+        ],
+        "reasoning": "Searches used occupancy, missing mass, coverage, new-species probability, and dependence aliases to avoid relying on wording.",
+        "searches": [
+          "Resultary: successive discovery indicator covariance missing mass occupancy adjacent new species positive negative dependence",
+          "DOI:10.1007/s10959-020-01053-6",
+          "DOI:10.1080/01621459.1987.10478434"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No exact database/table classifies the sign of adjacent discovery covariance for arbitrary species laws.",
+          "The primary paper’s explicit covariance formulas concern occupancy/missing-mass processes, a different observable."
+        ],
+        "reasoning": "This is an analytic identity rather than a table lookup; exact published formulas and the record corpus are the relevant checks.",
+        "searches": [
+          "Resultary published-record semantic corpus",
+          "Chebunin–Zuyev appendix covariance formulas"
+        ]
+      },
+      "rationale": "The closest modern full-text source, Chebunin–Zuyev, develops process-level covariance formulas for occupancies and missing mass under regular variation but does not state the finite-sample covariance of two adjacent discovery indicators or the heterogeneity-minus-depletion decomposition. Classical discovery-probability papers estimate the one-step new-species probability rather than this dependence law. Resultary returned no stronger published SCOPE claim covering the identity and both-sign theorem.",
+      "residual_risks": [
+        "The adjacent-discovery identity is elementary enough that an equivalent formula may exist in older urn, occupancy, or species-sampling literature under different terminology; no such implication was located in the inspected sources."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING",
+          "evidence": "The paper derives process-level occupancy and missing-mass covariance formulas under regular variation but does not state the finite-sample adjacent discovery-indicator covariance identity or both-sign construction.",
+          "identifier_or_url": "DOI:10.1007/s10959-020-01053-6",
+          "material_read": "complete lawful open-access article, including introduction, covariance formulas and appendix material surfaced in the full text",
+          "method": "open-access publisher/author PDF inspection",
+          "title": "Functional Central Limit Theorems for Occupancies and Missing Mass Process in Infinite Urn Models",
+          "trigger": "same infinite-urn model, missing-mass process and explicit covariance calculations"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "M. Chebunin, S. Zuyev, Functional Central Limit Theorems for Occupancies and Missing Mass Process in Infinite Urn Models, J. Theor. Probab. 35 (2022), DOI:10.1007/s10959-020-01053-6.",
+        "A. Ben-Hamou, S. Boucheron, M. I. Ohannessian, Concentration inequalities in the infinite urn scheme for occupancy counts and the missing mass, Bernoulli 23 (2017), arXiv:1412.8652.",
+        "M. K. Clayton, E. W. Frees, Nonparametric Estimation of the Probability of Discovering a New Species, JASA 82 (1987), DOI:10.1080/01621459.1987.10478434.",
+        "I. J. Good, G. H. Toulmin, The Number of New Species, and the Increase in Population Coverage, When a Sample Is Increased, Biometrika 43 (1956), DOI:10.1093/biomet/43.1-2.45.",
+        "Resultary semantic search for adjacent discovery indicators, missing-mass covariance, and occupancy-process dependence."
+      ],
+      "rationale": "The identity separates two competing mechanisms—random missing-mass heterogeneity and deterministic depletion—and answers a natural dependence-sign question with explicit finite examples of both signs at every burn-in. It is a reusable structural relation in species sampling rather than a routine recomputation of a known table.",
+      "residual_risks": [
+        "The adjacent-discovery identity is elementary enough that an equivalent formula may exist in older urn, occupancy, or species-sampling literature under different terminology; no such implication was located in the inspected sources."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disclaimer": "Mathematical review only; not external peer review, formal verification, or a guarantee of priority.",
+  "independent_audit_date_utc": "2026-10-01",
+  "independent_audit_evidence": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "prior_scientific_review": {
+    "correctness": {
+      "rationale": "Historical review accepted the finite-sample covariance algebra and exact examples.",
+      "verdict": "PASS"
+    },
+    "originality": {
+      "rationale": "Historical review did not locate an equivalent adjacent-discovery identity in the checked species-sampling literature.",
+      "verdict": "PASS"
+    },
+    "value": {
+      "rationale": "Historical review viewed the exact sign criterion and sign-reversal construction as informative dependence structure.",
+      "verdict": "PASS"
+    }
+  },
+  "record_id": "SCOPE-20260920-4b975bda1dac",
+  "verification_state": "independently_reviewed"
 }

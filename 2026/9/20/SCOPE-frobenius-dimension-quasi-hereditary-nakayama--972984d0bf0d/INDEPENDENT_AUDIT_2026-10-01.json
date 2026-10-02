@@ -1,0 +1,122 @@
+{
+  "audited_at_utc": "2026-10-01T19:12:08.377982Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "assigned RESULT.md",
+        "https://arxiv.org/html/1811.05846v2",
+        "https://arxiv.org/abs/2607.15999"
+      ],
+      "rationale": "The interval description of uniserial Nakayama modules gives the stated Hom-count formula and writes Frobenius dimension as the sum of \\(n^2\\) injective-projective Hom dimensions. For a cyclic quasi-hereditary algebra, the primary Nakayama classification confirms both that some simple has projective dimension two and that \\(\\operatorname{pd}S_i=2\\) exactly when \\(c_{i+1}+1=c_i+c_{i+c_i}\\). After rotation this makes the endpoint sequence constant from indices \\(1\\) through \\(p=c_0\\); periodicity forces \\(p\\le n\\). The resulting length bounds make every Hom at most two, and the interval congruence shows that a two-dimensional Hom can occur only for \\(I_R=P_1\\). The displayed Kupisch family has every one of the \\(n^2\\) pairs nonzero and exactly that one double pair, hence \\(F(A)=n^2+1\\).",
+      "residual_risks": [
+        "The proof is specialized to connected basic Nakayama algebras over an algebraically closed field, exactly as stated."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Artenstein et al. prove \\(\\operatorname{Frobdim}(A)\\le(\\dim_kA-1)^2\\) and characterize equality, then treat bound/truncated quiver algebras.",
+          "Marczinzik-Rubey-Stump classify quasi-hereditary cyclic Nakayama algebras and give the projective-dimension-two Kupisch criterion."
+        ],
+        "reasoning": "These sources are broader in algebra class or homological classification, but neither determines the exact maximum at fixed number of simples.",
+        "searches": [
+          "Artenstein et al., Bounds on Frobenius dimension, arXiv:2607.15999, complete 24-page text",
+          "Marczinzik-Rubey-Stump, arXiv:1811.05846v2"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2607.15999",
+        "https://arxiv.org/html/1811.05846v2",
+        "https://mathoverflow.net/questions/351323/frobenius-dimensions-of-nakayama-algebras",
+        "https://doi.org/10.1080/00927872.2022.2063301",
+        "Resultary semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The general \\((\\dim A-1)^2\\) bound does not yield \\(n^2+1\\) because \\(\\dim A\\) varies widely at fixed \\(n\\).",
+          "The Nakayama criteria yield the plateau only after the audited argument and do not count the injective-projective Hom multiplicities."
+        ],
+        "reasoning": "The final bound and sharp family require the new endpoint-plateau/unique-double-Hom optimization and are not mechanical corollaries of the inspected results.",
+        "searches": [
+          "Compared the final theorem against arXiv:2607.15999 Theorems 22-29 and arXiv:1811.05846 Proposition 3.4 / Proposition 3.29"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The Resultary search returned the assigned record and a later-dated restatement, but no earlier independent theorem.",
+          "The MathOverflow question lists the initial maxima and conjectures the same formula rather than proving it."
+        ],
+        "reasoning": "No earlier equivalent theorem was located; the later restatement does not establish prior coverage of the 2026-09-20 claim.",
+        "searches": [
+          "Resultary semantic query: maximum Frobenius dimension quasi-hereditary Nakayama n^2+1 Hom(D(A),A) Kupisch",
+          "MathOverflow question 351323: Frobenius dimensions of Nakayama algebras"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "The exact numerical sequence appears on MathOverflow as experimental data and a conjecture, not a solved database theorem."
+        ],
+        "reasoning": "The object is an extremal theorem rather than a table lookup; conjectural tabulation does not cover the proof.",
+        "searches": [
+          "Resultary exact/semantic search on the formula \\(n^2+1\\), Frobenius dimension, and quasi-hereditary Nakayama algebras",
+          "MathOverflow question 351323"
+        ]
+      },
+      "rationale": "The complete 2026 Frobenius-dimension preprint was inspected and proves bounds in terms of total vector-space dimension plus formulas for truncated path algebras, but it does not state or imply the fixed-number-of-simples quasi-hereditary Nakayama extremum. The 2020 MathOverflow page explicitly poses and numerically conjectures the \\(n^2+1\\) maximum. The Nakayama classification provides the homological criterion used in the proof, not the Frobenius-dimension optimization.",
+      "residual_risks": [
+        "A very recent or poorly indexed independent solution of the MathOverflow extremal problem could exist, but no such source was located after inspecting the most plausible same-invariant preprint in full."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING",
+          "evidence": "No theorem treats quasi-hereditary Nakayama algebras at fixed number of simples or gives the \\(n^2+1\\) extremum.",
+          "identifier_or_url": "https://arxiv.org/abs/2607.15999",
+          "material_read": "Complete 24-page text: global bound, equality characterization, quiver refinements, and truncated path-algebra formulas.",
+          "method": "Full primary preprint text.",
+          "title": "Bounds on Frobenius dimension",
+          "trigger": "Most plausible same-invariant 2026 source."
+        },
+        {
+          "assessment": "COVERING_INGREDIENT",
+          "evidence": "It verifies the projective-dimension-two criterion and the quasi-hereditary cyclic criterion used by the proof, but contains no Frobenius-dimension extremum.",
+          "identifier_or_url": "https://arxiv.org/html/1811.05846v2",
+          "material_read": "Full HTML around the Kupisch setup, Proposition 3.4, Proposition 3.29, and quasi-hereditary classification.",
+          "method": "Primary arXiv full text.",
+          "title": "A combinatorial classification of 2-regular simple modules for Nakayama algebras",
+          "trigger": "Critical homological input and same algebra class."
+        },
+        {
+          "assessment": "OPEN_PROBLEM_SOURCE",
+          "evidence": "The page motivates exactly the maximum \\(n^2+1\\) and presents it as a conjectural pattern.",
+          "identifier_or_url": "https://mathoverflow.net/questions/351323/frobenius-dimensions-of-nakayama-algebras",
+          "material_read": "Question statement and displayed computed maxima/conjecture.",
+          "method": "Public problem statement.",
+          "title": "Frobenius dimensions of Nakayama algebras",
+          "trigger": "The record claims to answer its second question."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "https://mathoverflow.net/questions/351323/frobenius-dimensions-of-nakayama-algebras",
+        "https://arxiv.org/abs/2607.15999"
+      ],
+      "rationale": "This is an exact all-\\(n\\) answer to a motivated published extremal problem, with a structural explanation and an explicit sharp family. It is not a routine recomputation of small cases.",
+      "residual_risks": [
+        "The theorem does not address the separate lower-bound question for arbitrary finite-global-dimension Nakayama algebras."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "limitations": [
+    "The theorem is for connected basic finite-dimensional Nakayama algebras over an algebraically closed field.",
+    "It resolves the extremal quasi-hereditary question, not the separate finite-global-dimension lower-bound question.",
+    "Originality remains best-of-knowledge against very recent parallel work."
+  ],
+  "record_id": "SCOPE-20260920-972984d0bf0d",
+  "record_title": "Maximum Frobenius dimension of quasi-hereditary Nakayama algebras",
+  "schema_version": 1
+}

@@ -1,1 +1,0 @@
-No transfer-killed 2-torsion at five points on Theta_(2,3,4): the lifted two-dimensional Abrams model makes H_2(F_5;Z) torsion-free, so no Z/2 witness exists. Downstairs H_2(B_5;Z)=Z^3; current modular ranks only certify 3 <= rank H_2(F_5;Z) <= 189, not the previously asserted exact rank 189.

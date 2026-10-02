@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20260917-8117f3ac3376`](https://github.com/SCOPE-Science/SCOPE2026/tree/a7cc69d784246a36eca421019db9c279a2c15a0e/2026/09/17/exact-sylvester-gallai-dimension-k2n--8117f3ac3376)
+Original record: [`SCOPE-20260917-8117f3ac3376`](https://github.com/SCOPE-Science/SCOPE2026/tree/16e44f62eab7e1ce5d1ea169c1d482b28a94c577/2026/09/17/exact-sylvester-gallai-dimension-k2n--8117f3ac3376)
 
 Imported into Resultary as `2026/9/17/SCOPE-exact-sylvester-gallai-dimension-k2n--8117f3ac3376`. The finding, audit, and attached artifacts remain attributable to SCOPE.

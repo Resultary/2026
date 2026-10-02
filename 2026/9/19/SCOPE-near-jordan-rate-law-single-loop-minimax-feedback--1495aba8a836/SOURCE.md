@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20260919-1495aba8a836`](https://github.com/SCOPE-Science/SCOPE2026/tree/a7cc69d784246a36eca421019db9c279a2c15a0e/2026/09/19/near-jordan-rate-law-single-loop-minimax-feedback--1495aba8a836)
+Original record: [`SCOPE-20260919-1495aba8a836`](https://github.com/SCOPE-Science/SCOPE2026/tree/fd9a0bb91b245003d1065f615206f5e6b71d55c1/2026/09/19/near-jordan-rate-law-single-loop-minimax-feedback--1495aba8a836)
 
 Imported into Resultary as `2026/9/19/SCOPE-near-jordan-rate-law-single-loop-minimax-feedback--1495aba8a836`. The finding, audit, and attached artifacts remain attributable to SCOPE.

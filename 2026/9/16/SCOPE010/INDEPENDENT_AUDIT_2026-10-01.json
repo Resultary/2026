@@ -1,0 +1,117 @@
+{
+  "audited_at_utc": "2026-10-01T04:59:35Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "Assigned RESULT.md and cited package artifacts",
+        "Efficient edge domination in regular graphs",
+        "Locally Searching for Large Induced Matchings"
+      ],
+      "rationale": "The finite-field construction was rebuilt for q=3,5,7 from its coordinate definition. Independently constructed graphs had orders 30,90,182; were q-regular, connected, bipartite and C4-free; the local matching sizes were 5,9,13; the cross induced matchings had sizes 9,25,49; and the total-perfect-code ownership condition held. Cardoso et al. Theorem 2.1 then makes the cross matching maximum. Theorem 5 of Fürst--Leichter--Rautenbach gives |M|>=m/q² for locally stable matchings in {C3,C4}-free graphs. Combined with the regular conflict bound nu_s<=m/(2q-1), the exact ratio and integrality force |V|>=2q(2q-1).",
+      "residual_risks": [
+        "The fresh coordinate reconstruction explicitly replayed prime fields q=3,5,7; extension-field arithmetic was checked from the package implementation and the symbolic field argument, not independently enumerated for every prime power.",
+        "No exhaustive global classification of all equality graphs is claimed; only minimum order under the stated exact locality ratio is proved."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Cardoso et al. Theorem 2.1: every EEDS is a maximum induced matching; Section 3 gives |M|=|E|/(2p-1) in p-regular graphs.",
+          "Fürst--Leichter--Rautenbach Theorem 5(ii): a locally stable induced matching in a {C3,C4}-free graph has size at least m/d²."
+        ],
+        "reasoning": "These are the exact general inequalities used in the proof; neither implies existence or minimum order of the audited affine equality family.",
+        "searches": [
+          "efficient edge domination regular graphs Cardoso Cerdeira Delorme Silva",
+          "locally searching large induced matchings Theorem 5"
+        ]
+      },
+      "checked_sources": [
+        "Efficient edge domination in regular graphs",
+        "Locally Searching for Large Induced Matchings"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Prior results imply maximum status and a lower bound once a suitable graph/matching exists, but do not supply the finite-field construction, total-perfect-code local certificate, or divisibility-sharp order."
+        ],
+        "reasoning": "The claim uses prior theorems as ingredients but contains a nontrivial existence/equality construction not mechanically implied by them.",
+        "searches": [
+          "Cardoso Theorem 2.1 EEDS",
+          "Fürst Leichter Rautenbach Theorem 5 induced matching"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The q² cross edges form an efficient edge dominating set; the 2q-1 local matching is induced by a total perfect code."
+        ],
+        "reasoning": "These standard aliases were searched; prior theory supplies consequences of each certificate but not their coexistence in the displayed affine family.",
+        "searches": [
+          "dominating induced matching total perfect code affine graph",
+          "efficient edge domination affine incidence graph"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No independent exact family/table matching the full parameter tuple was located."
+        ],
+        "reasoning": "The target is a construction theorem; database non-hit is supporting evidence only.",
+        "searches": [
+          "published-results search exact ratio q²/(2q-1) affine locality induced matching"
+        ]
+      },
+      "rationale": "The two main ingredients are prior: efficient edge dominating sets are maximum induced matchings, and the local-search lower bound holds in triangle/4-cycle-free graphs. Neither inspected theorem constructs this affine two-copy family, the total-perfect-code matching of size 2q-1, or the simultaneous equality/divisibility benchmark. Searches under efficient edge domination, total perfect codes, affine incidence graphs, and local induced matching found no theorem implying the complete construction.",
+      "residual_risks": [
+        "The fresh coordinate reconstruction explicitly replayed prime fields q=3,5,7; extension-field arithmetic was checked from the package implementation and the symbolic field argument, not independently enumerated for every prime power.",
+        "No exhaustive global classification of all equality graphs is claimed; only minimum order under the stated exact locality ratio is proved."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "INGREDIENT ONLY",
+          "evidence": "Theorem 2.1 proves an EEDS is maximum; for p-regular graphs an EEDS has size |E|/(2p-1).",
+          "identifier_or_url": "https://doi.org/10.1016/j.dam.2008.01.021",
+          "material_read": "Open-access full text, especially Theorem 2.1 and Section 3/Theorem 3.1.",
+          "method": "Full-text PDF/HTML inspection.",
+          "title": "Efficient edge domination in regular graphs",
+          "trigger": "Load-bearing maximum-induced-matching certificate."
+        },
+        {
+          "assessment": "INGREDIENT ONLY",
+          "evidence": "Theorem 5(ii) states |M|>=m(G)/d² for the relevant locally searched matching in {C3,C4}-free graphs.",
+          "identifier_or_url": "https://arxiv.org/abs/1708.02028",
+          "material_read": "Full arXiv PDF around Theorem 5 and its proof.",
+          "method": "Full-text PDF inspection.",
+          "title": "Locally Searching for Large Induced Matchings",
+          "trigger": "Load-bearing local-search lower bound."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Efficient edge domination in regular graphs",
+        "Locally Searching for Large Induced Matchings"
+      ],
+      "rationale": "The record supplies an infinite prime-power family attaining a natural extremal equality case for a known local-search bound while simultaneously certifying the global induced-matching optimum. This is a reusable structural benchmark rather than an arbitrary parameter instance.",
+      "residual_risks": [
+        "The fresh coordinate reconstruction explicitly replayed prime fields q=3,5,7; extension-field arithmetic was checked from the package implementation and the symbolic field argument, not independently enumerated for every prime power.",
+        "No exhaustive global classification of all equality graphs is claimed; only minimum order under the stated exact locality ratio is proved."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "evidence_scope": {
+    "claim_file": "RESULT.md",
+    "replayed_checks": "Fresh coordinate graph reconstruction for prime q=3,5,7 plus symbolic proof reconstruction.",
+    "source_tree_sha": "bdb2580f442626d07002d89c30abe3fe53791ae4"
+  },
+  "independent": true,
+  "record_id": "SCOPE-20260916-010",
+  "record_title": "Order-Optimal Affine Locality Witnesses",
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "scientific_limitations": [
+    "The fresh coordinate reconstruction explicitly replayed prime fields q=3,5,7; extension-field arithmetic was checked from the package implementation and the symbolic field argument, not independently enumerated for every prime power.",
+    "No exhaustive global classification of all equality graphs is claimed; only minimum order under the stated exact locality ratio is proved."
+  ]
+}

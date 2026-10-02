@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/30/SCOPE-exact-first-order-saturation-for-a-triangle-plus-two-disjoint-ed--c34c946badaa",
   "resultary_record_key": "SCOPE-exact-first-order-saturation-for-a-triangle-plus-two-disjoint-ed--c34c946badaa",
-  "source_commit": "a7cc69d784246a36eca421019db9c279a2c15a0e",
-  "source_commit_time": "2026-09-30T19:52:54Z",
+  "source_commit": "e3c85f4cefa5e329f2ce7a82bf990c3ab131670b",
+  "source_commit_time": "2026-10-02T09:03:40Z",
   "source_path": "2026/09/30/exact-first-order-saturation-for-a-triangle-plus-two-disjoint-ed--c34c946badaa",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260930-c34c946badaa",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-01T08:22:11Z",
+  "synced_at": "2026-10-02T09:07:02Z",
   "time_standard": "UTC"
 }

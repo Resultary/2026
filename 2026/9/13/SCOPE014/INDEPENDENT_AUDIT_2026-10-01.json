@@ -1,0 +1,95 @@
+{
+  "audited_at_utc": "2026-10-01T02:59:19Z",
+  "axes": {
+    "correctness": {
+      "rationale": "The benchmark matrices/rates and Hou-Zong Proposition-1 LMI were reconstructed. Re-evaluation of the displayed 10-decimal P_i,Q_i,R_i matrices gives positive definite blocks and LMI maximum eigenvalues approximately -4.8118735e-4, -9.7227899e-5, and -9.5721048e-5; the tightest coupling margin is about -2.7141e-5. The dwell times computed from mu'=(3.0,1.6,0.64) and alpha=(2,2.6,-2) are (0.54930614,0.18077063,0.22314355), strictly improving the paper's reported benchmark values. The actual binary certificate exists at artifacts/cert_matrices.npz.",
+      "residual_risks": [
+        "Verification is floating-point rather than interval-rigorous, though the margins are many orders above ordinary eigensolver roundoff at this matrix scale."
+      ],
+      "sources": [
+        "https://doi.org/10.1109/ACCESS.2018.2886381",
+        "2026/09/13/014/artifacts/cert_matrices.npz"
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Hou-Zong Theorem 1 supplies the general sufficient-condition framework.",
+          "Later MDADT papers use related methods but do not provide this benchmark's improved certificate in the inspected material."
+        ],
+        "reasoning": "The general theorem tells how a feasible certificate implies stability but does not imply feasibility at the proposed smaller mu values.",
+        "searches": [
+          "Hou Zong Stability of Switched Time-Delay Systems via Mode-Dependent Average Dwell Time Switching",
+          "later MDADT switched delay literature"
+        ]
+      },
+      "checked_sources": [
+        "https://doi.org/10.1109/ACCESS.2018.2886381",
+        "Resultary published-findings semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The paper gives the LMI form, coupling orders, and tau_a_i*=ln(mu_i)/alpha_i relation, but not the new feasible matrices or mu'."
+        ],
+        "reasoning": "The certificate requires new feasibility evidence; it is not mechanically implied by the paper's reported point.",
+        "searches": [
+          "Hou-Zong Proposition 1, Theorem 1 and numerical example"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "No distinct exact Resultary finding was returned.",
+          "The Hou-Zong paper reports a different benchmark certificate."
+        ],
+        "reasoning": "The claim is equivalently a strict-feasibility witness for three per-mode LMIs plus 18 matrix-order constraints at a smaller dwell-time triple; no equivalent prior certificate was found.",
+        "searches": [
+          "Resultary semantic search: Hou Zong switched time-delay mode-dependent average dwell time benchmark improved mu dwell time LMI certificate",
+          "web search exact mu' 3.0 1.6 0.64 Hou Zong"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "The primary paper's numerical example reports the older tau values about 0.67, 0.21, 0.25.",
+          "No distinct published exact table with the audited triple was found."
+        ],
+        "reasoning": "The exact improvement is not a known table recomputation in the sources inspected.",
+        "searches": [
+          "Resultary exact benchmark search",
+          "Hou-Zong numerical-example table"
+        ]
+      },
+      "rationale": "The primary benchmark provides the original feasible parameters and theorem but not the improved mu' triple. Resultary returned only the record under audit as an exact match. The new result is the feasible certificate itself, which is not a symbolic corollary of the theorem without solving the coupled feasibility problem.",
+      "residual_risks": [
+        "The search cannot exclude an unindexed later optimization of the same benchmark."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "FOUND_GENERAL_FRAMEWORK_NOT_THE_NEW_CERTIFICATE",
+          "evidence": "The paper supplies the criterion and its older benchmark parameters; the audited mu' and P/Q/R certificate are not the reported example.",
+          "identifier_or_url": "https://doi.org/10.1109/ACCESS.2018.2886381",
+          "material_read": "accessible full-text Proposition 1 LMI, Theorem 1 coupling/dwell-time formulas, and the numerical example",
+          "method": "full-text web inspection",
+          "title": "Stability of Switched Time-Delay Systems via Mode-Dependent Average Dwell Time Switching",
+          "trigger": "same theorem and exact benchmark"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "rationale": "A componentwise 11–18% tightening of a published benchmark within exactly the paper's LMI class and rates, accompanied by a reusable feasibility witness, is a motivated finite optimization result. It measures conservatism of a standard sufficient-condition benchmark rather than reporting an arbitrary parameter slice.",
+      "residual_risks": [
+        "It does not establish global optimality of the LMI class."
+      ],
+      "sources": [
+        "https://doi.org/10.1109/ACCESS.2018.2886381"
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "final_claim": "For the Hou-Zong benchmark, the displayed P_i,Q_i,R_i matrices certify the same Proposition-1 LMI class at mu'=(3.0,1.6,0.64), yielding the componentwise improved MDADT triple (0.54930614,0.18077063,0.22314355).",
+  "record_id": "SCOPE-20260913-014",
+  "schema_version": 1,
+  "scientific_limitations": "Computational matrix verification rather than interval-rigorous certification; the tightest margins are about 1e-4 for the LMIs and 2.7e-5 for coupling. The delay derivative bound 0.2 is tied to the benchmark delay d(t)=0.2 sin(t)."
+}

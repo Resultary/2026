@@ -1,27 +1,142 @@
 {
+  "audited_at_utc": "2026-10-01T23:13:29.436856Z",
   "axes": {
     "correctness": {
-      "rationale": "The local 2-adic binomial lemma was rederived term by term; the mod-16 prime-power cases and Jacobi-symbol reduction were checked, and exact bounded computation found zero mismatches in 500,000 (n,r) tests.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "assigned RESULT.md",
+        "assigned artifacts/verify_sigma_r_mod8.py",
+        "OEIS A140480/A003601"
+      ],
+      "rationale": "The local identity for \\(F_N(1+8h)\\) follows by binomial expansion in \\(\\mathbf Q_2\\): the constant and linear terms give \\(1+4h(N-1)\\) modulo eight and every higher term has 2-adic valuation at least three. Multiplicativity then reduces the theorem to parity of the prime exponents and the supplementary law for \\((2/n)\\). The even-power corollary follows because every even power of an odd 2-adic unit is one modulo eight. The bounded script was inspected and is corroborative only.",
+      "residual_risks": [
+        "The theorem is restricted to odd \\(n\\); even RMS numbers require different 2-adic analysis.",
+        "The finite check through 200000 is not used as proof."
+      ],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "OEIS records the odd RMS residue pattern as an empirical observation and the sigma-r definition, but the inspected sources and synonymous searches did not reveal the proof or the general 2-adic congruence. The empirical observation itself is not claimed as new; originality is to the best of our knowledge.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "Oller-Marcén studies integrality of the ordinary divisor average \\(\\sigma(n)/\\tau(n)\\).",
+          "A003601 records generalized \\(\\sigma_r\\)-number terminology."
+        ],
+        "reasoning": "Neither inspected source gives the even-power 2-adic residue classification, so no broader implication was found.",
+        "searches": [
+          "A. M. Oller-Marcén, On arithmetic numbers, arXiv:1206.1823",
+          "OEIS A003601"
+        ]
+      },
+      "checked_sources": [
+        "OEIS A140480",
+        "OEIS A224988",
+        "OEIS A003601",
+        "arXiv:1206.1823",
+        "Resultary semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The assigned proof uses a local quotient expansion modulo eight and the Jacobi supplementary law; those implications are absent from the inspected prior statements."
+        ],
+        "reasoning": "The final theorem is not mechanically implied by the empirical sequence data or the r=1 arithmetic-number results.",
+        "searches": [
+          "Compared the local 2-adic lemma with the OEIS comments and Oller-Marcén's r=1 scope"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "A140480 contains the empirical residue comment rather than a proof.",
+          "The assigned result gives an exact Jacobi-symbol formula for every odd integer."
+        ],
+        "reasoning": "The empirical RMS pattern is prior art, but the theorem is a proof and a uniform generalization, not an equivalent restatement.",
+        "searches": [
+          "Resultary: odd divisor power mean sigma_r(n)/tau(n) mod 8 RMS numbers Jacobi symbol odd n even r",
+          "OEIS A140480",
+          "OEIS A003601"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "A140480 tabulates RMS numbers and notes the observed odd residue pattern; A224988 separately tabulates even RMS numbers."
+        ],
+        "reasoning": "The tabulation establishes examples and prior motivation, not the infinite congruence theorem.",
+        "searches": [
+          "OEIS A140480",
+          "OEIS A224988"
+        ]
+      },
+      "rationale": "OEIS A140480 records T. D. Noe's 2008 empirical observation that the displayed odd RMS terms appear to be \\(+1\\) or \\(-1\\) modulo eight, and A003601 records the generalized divisor-power-mean terminology. The inspected arithmetic-number literature concerns the first divisor mean. Resultary returned the assigned theorem as the only direct published result among the close hits. No inspected source supplies the proved all-odd-\\(n\\), all-even-\\(r\\) 2-adic formula.",
+      "residual_risks": [
+        "Informal sequence discussions or poorly indexed notes could contain a proof of the old RMS observation, but no concrete covering source emerged."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "PRIOR_EMPIRICAL_PATTERN",
+          "evidence": "The modulo-eight pattern is explicitly empirical prior art; no proof is stated there.",
+          "identifier_or_url": "https://oeis.org/A140480",
+          "material_read": "Entry definition, comments including T. D. Noe's 2008 modulo-eight observation, and links.",
+          "method": "Public sequence entry.",
+          "title": "RMS numbers",
+          "trigger": "Exact sequence named by the claim."
+        },
+        {
+          "assessment": "NOT_COVERING",
+          "evidence": "It treats the ordinary arithmetic mean of divisors rather than the assigned even-power 2-adic formula.",
+          "identifier_or_url": "https://arxiv.org/abs/1206.1823",
+          "material_read": "Abstract/available primary description of arithmetic-number integrality results.",
+          "method": "Primary preprint record.",
+          "title": "On arithmetic numbers",
+          "trigger": "Closest paper on divisor means."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result proves a longstanding recorded RMS residue pattern and replaces it with a uniform congruence theorem for all odd n and all even r, including a generalized perfect-power obstruction.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "OEIS A140480",
+        "OEIS A003601"
+      ],
+      "rationale": "The result supplies a proof of a long-recorded residue phenomenon and strengthens it to an exact natural 2-adic invariant for every odd integer and every even divisor-power mean. This is a motivated structural congruence, not merely a finite sequence check.",
+      "residual_risks": [
+        "For exponents divisible by four the congruence is always one and yields no restriction on \\(n\\)."
+      ],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Same-model review: passed. Independent audit: not yet performed.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
+  "disposition": "passed",
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "The residue obstruction is for odd \\(n\\).",
+    "For \\(r\\equiv0\\pmod4\\) the mean is always one modulo eight, so no residue restriction on \\(n\\) follows.",
+    "Originality is best-of-knowledge against incompletely indexed informal sequence discussion."
+  ],
   "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-21T08:06:01Z",
+  "previously_published_pending_reaudit": false,
+  "prior_same_model_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "The local 2-adic binomial lemma, prime-power cases, and Jacobi-symbol reduction were previously checked, with bounded computation as corroboration.",
+        "status": "PASS"
+      },
+      "originality": {
+        "rationale": "The prior review treated the OEIS residue pattern as empirical prior art and did not locate a published proof or general congruence.",
+        "status": "PASS"
+      },
+      "value": {
+        "rationale": "The prior review valued a proof of the recorded RMS pattern and its uniform even-power extension.",
+        "status": "PASS"
+      }
+    },
+    "reviewed_at": "2026-09-21T08:06:01Z"
+  },
+  "record_id": "SCOPE-20260921-3e49acbf49a0",
+  "review_type": "independent_audit",
   "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

@@ -1,1 +1,0 @@
-Maximum curves in the cell-polarization slow-flow are selected by Morse-Bott cap geometry: the limiting density is proportional to the inverse square root of the normal Hessian, curve maxima dominate isolated maxima, and the established concentration clock then gives t^(-2/3) threshold relaxation and t^(-1/3) normal localization.

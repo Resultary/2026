@@ -1,27 +1,139 @@
 {
+  "audited_at_utc": "2026-10-01T17:15:19.026518Z",
   "axes": {
     "correctness": {
-      "rationale": "In the source rank encodings, positive exact rank and exact-one increment are Sigma_2, while zero rank, equality and successor are Pi_1. Replacing the counter test not-equal-to-one by an existential two-witness test on the positive counter domain makes the complete deterministic step relation Sigma_2. The endpoint clauses are then Sigma_3, the universally closed local transition clause is Pi_3, and existential sequence parameters give an effective Sigma_4 halting sentence. The same syntactic profile is present in the source Section 4 LRS-function construction.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "assigned RESULT.md",
+        "assigned artifacts/prefix_audit.py",
+        "Karimov-Nieuwveld-Ouaknine arXiv:2609.20415 full text, Sections 3-5 and 8"
+      ],
+      "rationale": "The source counter-machine model uses positive counters, so the conditional branch 'counter greater than one' can be expressed by two positive witnesses rather than a negated exact-rank predicate. Exact positive rank and exact-one increment are \\(\\Sigma_2\\); zero rank, equality, and successor are \\(\\Pi_1\\); representative membership is quantifier-free in the arbitrary-permutation, selected-permutation with quantifier-free selector, and LRS-function encodings. A finite one-step disjunction is therefore \\(\\Sigma_2\\). Endpoint formulas are at worst \\(\\Sigma_3\\), and the universally closed local transition formula is \\(\\Pi_3\\). Standard prenexing of the existential sequence parameters, endpoints, and local clause gives an effective \\(\\exists^*\\forall^*\\exists^*\\forall^*\\) halting sentence. The package script verifies only the alternation bookkeeping; the semantic correctness comes from reconstructing the source encoding.",
+      "residual_risks": [
+        "The theorem gives an upper bound on alternation complexity, not optimality; \\(\\Sigma_3\\) undecidability may still hold by another encoding.",
+        "The selected-permutation extension requires a quantifier-free selector exactly as stated."
+      ],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "The motivating preprint was checked at the explicit halting formula and the relevant rank-predicate definitions. It states full first-order undecidability for the new function and LRS examples and separately cites the earlier three-block result for two power predicates, but the inspected text gives no finite-prefix bound for the new examples. Targeted web searches and SCOPE archive searches found no matching Sigma_4 refinement. Priority risk remains elevated because the preprint is extremely recent.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "The 2026 source covers many more structures semantically but leaves the quantifier complexity of its reductions unstated.",
+          "Hieronymi-Schulz prove undecidability for two recognizable predicates in multiplicatively independent bases, a different signature."
+        ],
+        "reasoning": "Broader semantic undecidability does not imply undecidability of a fixed finite quantifier fragment.",
+        "searches": [
+          "Karimov-Nieuwveld-Ouaknine, arXiv:2609.20415 full text",
+          "Hieronymi-Schulz, A strong version of Cobham's theorem"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.20415",
+        "https://arxiv.org/abs/2110.11858",
+        "Resultary semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The source gives all semantic ingredients but does not establish that its formulas can be uniformly prenexed into four alternating blocks; the audited positive-witness rewrite removes the negative exact-rank test that would otherwise obscure the bound."
+        ],
+        "reasoning": "The four-block consequence requires a genuine syntactic normalization argument beyond the source's unrestricted undecidability statement.",
+        "searches": [
+          "Compared source pages containing the counter-machine model, halting formula, arbitrary-permutation predicates, LRS predicates, and selected-permutation Lemma 37"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Resultary returned only the assigned record for the four-block refinement.",
+          "The source paper states full first-order undecidability and explicit formulas, not a four-block upper bound in the material inspected.",
+          "Earlier two-power-predicate work concerns a different expansion and does not cover the new one-function structures."
+        ],
+        "reasoning": "No equivalent bounded-prefix theorem was located.",
+        "searches": [
+          "Resultary: Sigma4 undecidability rich sequences totient sum divisors least prime factor LRS quantifier alternation",
+          "Web: Rich Sequences and Decidability of Arithmetic Theories quantifier alternation Sigma_4",
+          "Web: exists forall exists powers two three undecidable"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No independent exact fragment result was returned."
+        ],
+        "reasoning": "Quantifier-prefix complexity is not a tabulated invariant; the full-text syntactic comparison is the substantive evidence.",
+        "searches": [
+          "Resultary exact semantic search for the four-block prefix and each named structure"
+        ]
+      },
+      "rationale": "The full primary paper proves unrestricted first-order undecidability and gives the explicit counter-machine formulas, but the inspected text does not assign a bounded prenex class to those new one-function structures. It separately relies on earlier two-power-predicate work, which concerns a different structure. Resultary and web searches found no prior \\(\\Sigma_4\\) refinement for the totient, sum-of-divisors, least-prime-factor, or two-dominant-root LRS-function examples.",
+      "residual_risks": [
+        "The motivating preprint is extremely recent, so near-simultaneous quantifier-complexity refinements may be unindexed.",
+        "The four-block upper bound is not claimed optimal."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING",
+          "evidence": "The source proves full first-order undecidability and exposes the formulas, but the inspected text does not state the audited four-block prenex bound.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.20415",
+          "material_read": "Full primary text covering the positive-counter machine model, Theorem 2 halting formula, arbitrary-permutation definitions, LRS function predicates, selected-permutation Lemma 37, least-prime-factor selector, and totient/sum-of-divisors consequences.",
+          "method": "Authorized primary full-text extraction.",
+          "title": "Rich Sequences and Decidability of Arithmetic Theories",
+          "trigger": "Direct source of every semantic encoding used by the claim."
+        },
+        {
+          "assessment": "NOT_COVERING",
+          "evidence": "It addresses a different structure with two recognizable predicates and does not imply the one-function \\(\\Sigma_4\\) statements.",
+          "identifier_or_url": "https://arxiv.org/abs/2110.11858",
+          "material_read": "Primary abstract and publication metadata for the two multiplicatively independent recognizable-set expansion.",
+          "method": "Primary arXiv/publication records.",
+          "title": "A strong version of Cobham's theorem",
+          "trigger": "Earlier undecidability framework mentioned by the source and assigned record."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result localises several new natural-structure undecidability theorems to the fixed prefix exists-forall-exists-forall. It applies to Euler totient, sum of divisors, least prime factor via a quantifier-free selector, and the two-dominant-root LRS function construction, sharpening full first-order undecidability into a bounded-alternation statement and isolating the remaining Sigma_3 boundary.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.20415",
+        "https://arxiv.org/abs/2110.11858"
+      ],
+      "rationale": "Localizing new natural-structure undecidability results from unrestricted first-order logic to the fixed prefix \\(\\exists^*\\forall^*\\exists^*\\forall^*\\) materially sharpens their logical complexity. It also isolates a concrete lower-fragment boundary for future work, without claiming optimality.",
+      "residual_risks": [
+        "A future \\(\\Sigma_3\\) reduction would supersede the quantitative bound but would not make the current four-block theorem false."
+      ],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Same-model review: passed. Independent audit: not yet performed.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
+  "disposition": "passed",
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "The \\(\\Sigma_4\\) bound is not claimed optimal.",
+    "The selected-permutation extension requires a quantifier-free selector.",
+    "Predicate-valued LRS and square-free-number constructions are outside the stated four-block theorem."
+  ],
   "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-19",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "previously_published_pending_reaudit": false,
+  "prior_scientific_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "The prior scientific review stratified the rank predicates, positive two-witness branch, endpoint clauses, local transition clause, and four-block prenexing.",
+        "status": "PASS"
+      },
+      "originality": {
+        "rationale": "The prior review found no finite-prefix bound for the new one-function structures in the motivating paper.",
+        "status": "PASS"
+      },
+      "value": {
+        "rationale": "The prior review valued localization of several natural undecidability results to a fixed quantifier prefix.",
+        "status": "PASS"
+      }
+    },
+    "reviewed_at": "2026-09-19"
+  },
+  "record_id": "SCOPE-20260919-6d59c47d25e7",
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

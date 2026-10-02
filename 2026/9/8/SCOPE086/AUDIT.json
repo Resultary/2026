@@ -1,10 +1,29 @@
 {
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "previously_published_pending_reaudit": true,
+  "axes": {
+    "correctness": {
+      "rationale": "A fresh solver built directly from the graph-lift rules, using canonical unlabeled-tree memoization and exhaustive legal deletion moves, independently recomputed all 84 subdivided stars and 406 bistars for both games. It reproduced exactly the claimed P-counts: .07 gives 19 star and 69 bistar P-positions; .007 gives 11 star and 40 bistar P-positions. The complete star P-sets matched the record, all 28 symmetric bistars are N for .07, and the .007 symmetric-bistar P-set is exactly (0,0),(0,3),(0,6),(3,3),(3,6),(6,6).",
+      "status": "PASS"
+    },
+    "originality": {
+      "rationale": "The primary graph-octal paper located in the search introduces octal games on graphs and states a complete resolution for game 0.33 on subdivided stars and bistars, not for .07 or .007. Heap/path sources cover Dawson and Treblecross on paths. Resultary returned the audited record as the exact graph-family hit and no competing .07/.007 star/bistar classification. Thus, best-of-knowledge evidence supports originality of this finite graph-board classification and its structural symmetric-bistar lemmas.",
+      "status": "PASS"
+    },
+    "value": {
+      "rationale": "The two games are classical octal games, the graph lift is an established natural extension, and subdivided stars/bistars are exactly the canonical first branched tree families studied in that framework. A complete finite classification with winning witnesses plus symmetric-family lemmas is a motivated boundary dataset, not an arbitrary collection of positions.",
+      "status": "PASS"
+    }
+  },
+  "completed_at_utc": "2026-09-30T22:05:00Z",
+  "evidence": {
+    "json": "INDEPENDENT_AUDIT_2026-09-30.json",
+    "markdown": "INDEPENDENT_AUDIT_2026-09-30.md"
+  },
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "previously_published_pending_reaudit": false,
   "record_id": "SCOPE-20260908-086",
-  "review_type": "independent_audit_pending",
+  "review_type": "independent_audit",
   "schema_version": 1,
-  "verification_state": "awaiting_fresh_independent_audit"
+  "verification_state": "independently_reviewed"
 }

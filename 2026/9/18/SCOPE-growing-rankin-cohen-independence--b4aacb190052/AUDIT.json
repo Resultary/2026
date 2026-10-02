@@ -1,27 +1,139 @@
 {
   "axes": {
     "correctness": {
-      "rationale": "Takloo-Bighash's explicit normalized coefficient bound is uniform enough once r log(2r)=o(sqrt(ell)): the largest test prime satisfies P=O_D(r log r), hence P^2=o(ell), and Stirling makes the Fourier errors negligible even after determinant perturbation. Exact Vandermonde cancellation bounds every competing auxiliary determinant by P^(2r) times the main one, while the adjacent-prime exponential is suppressed by exp(-ell/P). All parity, nonvanishing-normalizer, and weight-range hypotheses persist for the growing block.",
-      "verdict": "PASS"
+      "rationale": "PASS. The argument correctly uniformizes Takloo-Bighash's explicit coefficient bound. If \\(P\\) is the \\(r\\)-th test prime then \\(P=O_D(r\\log(2r))\\); the hypothesis \\(r\\log(2r)=o(\\sqrt{\\ell})\\) gives \\(P^2=o(\\ell)\\), while Stirling makes the coefficient error superexponentially small relative to the determinant losses. The determinant without coefficient errors is a rank-one perturbation of the Vandermonde-type matrix: all terms with two constant columns vanish, the \\(p_r^{\\ell-1}\\Delta_r\\) term dominates the earlier-prime terms, and the exact determinant-ratio bounds are sufficient because \\(\\ell/(Pr\\log P)\to\\infty\\). The error perturbation remains negligible since \\(r^2(\\log(2r))^2=o(\\ell)\\). The repository script checks the finite Vandermonde-ratio identities, but the asymptotic inequalities themselves were reconstructed independently.",
+      "risks": [],
+      "sources": [
+        "Assigned RESULT.md and exact frozen tree",
+        "artifacts/verify_determinants.py and verify_output.txt",
+        "Takloo-Bighash primary abstract",
+        "Kayath et al. open-access full text",
+        "Resultary semantic search including the later 20 September stronger record"
+      ],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "The motivating preprint proves only fixed-r independence and explicitly does not optimize dependence on r. Kayath--Lane--Neifeld--Ni--Xue conjecture a much larger linear-size independent family but provide only finite computational checks, while Ni--Xue's related period theorem also fixes the number of periods. Searches did not identify a prior theorem allowing r to grow under r log r=o(sqrt(ell)) or an equivalent near-square-root initial block. The source is extremely recent, so unindexed contemporaneous work remains the main residual risk.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "The 2025 paper constructs spanning sets and states a conjectural independent block up to order \\(\\ell/6\\), supported by finite computations.",
+          "Takloo-Bighash proves only every fixed initial block for large weight."
+        ],
+        "reasoning": "A conjecture and finite verification do not cover the audited asymptotic theorem; fixed-\\(r\\) existence also does not imply a uniform growing block.",
+        "searches": [
+          "Kayath Lane Neifeld Ni Xue Rankin-Cohen linear independence conjecture",
+          "twisted central L-value nonvanishing dimension lower bounds"
+        ]
+      },
+      "checked_sources": [
+        "Assigned RESULT.md and exact frozen tree",
+        "artifacts/verify_determinants.py and verify_output.txt",
+        "Takloo-Bighash primary abstract",
+        "Kayath et al. open-access full text",
+        "Resultary semantic search including the later 20 September stronger record"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The fixed-\\(r\\) theorem has no uniform rate in its statement.",
+          "The audited proof extracts a quantitative rate directly from the explicit coefficient bound and determinant ratios."
+        ],
+        "reasoning": "The prior statements do not mechanically imply any unbounded \\(r(\\ell)\\); additional uniform estimates are essential.",
+        "searches": [
+          "arXiv:2609.19649",
+          "DOI 10.4153/S0008414X25101697"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The primary abstract says \\(r\\ge1\\) is fixed.",
+          "The audited determinant formulation is equivalent to independence of the first \\(r(\\ell)\\) traced brackets after normalizing nonzero coefficients."
+        ],
+        "reasoning": "The source theorem cannot be converted to a growing \\(r\\) by quantifier rearrangement; uniform error control is the new step.",
+        "searches": [
+          "Takloo-Bighash arXiv:2609.19649 fixed r Rankin-Cohen independence",
+          "growing Rankin-Cohen initial block determinant"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "The primary 2025 paper reports finite determinant checks; those do not cover all sufficiently large weights.",
+          "Resultary's stronger square-root record is dated 20 September 2026, later than the audited record."
+        ],
+        "reasoning": "Finite tables cannot establish the infinite asymptotic claim, and later work is not prior coverage of the 18 September result.",
+        "searches": [
+          "Resultary growing Rankin-Cohen independence",
+          "Rankin-Cohen determinant computational verification ell 1000"
+        ]
+      },
+      "rationale": "PASS to the best of current knowledge. Takloo-Bighash's primary theorem explicitly fixes \\(r\\), whereas the audited theorem allows \\(r\\) to grow almost at the square-root scale. Kayath–Lane–Neifeld–Ni–Xue give the spanning framework and conjecture a much larger linear-size independent block, with finite computations rather than a proof in the growing regime. Resultary found the same record and a stronger square-root result dated 20 September 2026, two days after this record; that later result does not establish earlier coverage. No pre-18-September theorem located in the inspected sources implies the stated \\(r\\log(2r)=o(\\sqrt{\\ell})\\) range.",
+      "residual_risks": [
+        "The Takloo-Bighash paper is extremely recent, and searchable full text of the entire preprint was not retrievable during this run; the fixed-\\(r\\) quantifier is explicit in the primary abstract.",
+        "A later 20 September record proves a stronger square-root-scale bound by a different refinement, so the audited theorem is not state of the art now even though it remains original relative to earlier sources."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "STRICTLY_WEAKER_FIXED_BLOCK",
+          "evidence": "The source proves independence for every fixed first \\(r\\) brackets, not for an unbounded \\(r(\\ell)\\).",
+          "identifier_or_url": "arXiv:2609.19649v1",
+          "material_read": "Primary arXiv abstract, which explicitly quantifies over fixed \\(r\\); the audited record's quoted explicit coefficient estimate was checked algebraically against the uniform argument.",
+          "method": "Primary-source inspection plus independent reconstruction of the displayed bound's use.",
+          "title": "Simultaneous nonvanishing of quadratic twists via Rankin-Cohen brackets",
+          "trigger": "Immediate predecessor theorem for the same traced brackets."
+        },
+        {
+          "assessment": "CONJECTURAL_BROADER_TARGET_NOT_COVERAGE",
+          "evidence": "It constructs the spanning family and reports finite computational verification of a linear-size determinant, but leaves general independence as a conjecture.",
+          "identifier_or_url": "DOI 10.4153/S0008414X25101697",
+          "material_read": "Open-access full text including Proposition 2.4 and Discussion/Conjecture 7.1.",
+          "method": "Primary full-text inspection.",
+          "title": "Subspaces spanned by eigenforms with nonvanishing twisted central L-values",
+          "trigger": "Spanning framework and conjectural larger independent family."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result upgrades a qualitative fixed-block theorem to an explicit growing family of size almost sqrt(ell)/log(ell), giving structural progress toward the conjectural linear-size Rankin-Cohen basis. The proof identifies a reusable quantitative mechanism: exact Vandermonde ratio control plus uniform Fourier-error decay. The novelty is not presented as a best possible L-value counting bound, especially in the untwisted D=1 case where stronger counting results are known.",
-      "verdict": "PASS"
+      "rationale": "PASS. This is a motivated quantitative strengthening of a fixed-block theorem toward an explicit basis/nonvanishing conjecture. It proves a genuinely growing family of independent Rankin–Cohen forms, isolates the uniform determinant mechanism, and supplies a nontrivial intermediate scale rather than an arbitrary finite instance. The record correctly limits its value claim: for \\(D=1\\) the numerical nonvanishing count is not best possible, while the explicit growing-block independence remains the substantive fact.",
+      "risks": [],
+      "sources": [
+        "Assigned RESULT.md and exact frozen tree",
+        "artifacts/verify_determinants.py and verify_output.txt",
+        "Takloo-Bighash primary abstract",
+        "Kayath et al. open-access full text",
+        "Resultary semantic search including the later 20 September stronger record"
+      ],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Same-model review: passed. Independent audit: not yet performed.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
+  "independent": true,
+  "independent_audit_evidence": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent_audit_status": "passed",
+  "independent_validation": true,
   "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-18",
+  "previously_published_pending_reaudit": false,
+  "record_id": "SCOPE-20260918-b4aacb190052",
+  "review_type": "independent_audit",
+  "reviewed_at_utc": "2026-10-01T08:48:00Z",
+  "same_model_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "Original same-model review passed correctness; its detailed rationale remains historically attributable to the pre-audit package.",
+        "status": "PASS"
+      },
+      "originality": {
+        "rationale": "Original same-model review passed originality under its then-recorded best-knowledge assessment.",
+        "status": "PASS"
+      },
+      "value": {
+        "rationale": "Original same-model review passed scientific value.",
+        "status": "PASS"
+      }
+    },
+    "status": "passed"
+  },
   "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

@@ -1,23 +1,100 @@
 {
-  "correctness": {
-    "rationale": "The exact reduction to a compatibility clique problem is proved by left normalization; the verifier builds all candidates and edges from definitions, uses a proper-coloring upper bound in exhaustive branch-and-bound, and returns M(3..6)=3,8,13,48. A second exhaustive Bron--Kerbosch routine certifies 26 normalized S5 maxima, 240 labeled maxima, and one left-right orbit; the displayed witness is checked pairwise.",
-    "status": "PASS"
+  "audited_at_utc": "2026-10-01T23:53:00Z",
+  "axes": {
+    "correctness": {
+      "rationale": "PASS on the repaired claim. After left-normalizing a family to contain the identity, the remaining permutations are exactly the \\(64\\) nonidentity permutations in \\(S_5\\) with an even number of fixed points, and compatibility is the exact pairwise even-agreement condition. Exhaustive clique search on this finite graph gives maximum normalized size \\(12\\), hence \\(M(5)=13\\). Complete enumeration gives \\(26\\) normalized maximum families; taking all left translates produces exactly \\(240\\) distinct labeled maximum families. Exhaustive application of the left-right \\(S_5\\times S_5\\) action to one maximum family produces exactly those same \\(240\\) families, so there is one orbit. The search logic was inspected and the \\(n=5\\) graph, clique number, family count and orbit equality were independently replayed.",
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The 2026 paper reports computational LP optimality at even \\(n=6,\\ldots,16\\) and a general odd lower construction; neither covers \\(n=5\\) exactly."
+        ],
+        "reasoning": "The repaired claim deliberately excludes the potentially overlapping even-order statements.",
+        "searches": [
+          "arXiv:2609.21645 pages 23--25 and 4",
+          "Cameron--Deza--Frankl sharp sets of permutations"
+        ]
+      },
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "General upper bounds and the odd construction do not force the exact value \\(13\\) or classify equality at \\(n=5\\)."
+        ],
+        "reasoning": "The finite extremal search supplies information not mechanically implied by the inspected prior results.",
+        "searches": [
+          "full Banerjee--Dewan--Mishra preprint",
+          "Cameron--Deza--Frankl general \\(L\\)-intersecting bounds"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The primary paper defines \\(M(n)\\) and gives general bounds/constructions but no exact \\(S_5\\) extremal classification.",
+          "The exact published-record search returned only the assigned finding for the \\(S_5\\) value/count/orbit."
+        ],
+        "reasoning": "Left-normalized clique language is equivalent to the permutation-family problem, but no inspected prior source contains the resulting \\(S_5\\) classification.",
+        "searches": [
+          "Resultary: even-intersecting permutations exact M(5) maximum families left-right orbit",
+          "Banerjee Dewan Mishra arXiv:2609.21645 full text"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No prior table or database with \\(M(5)=13\\) and its \\(240\\)-family orbit classification was located."
+        ],
+        "reasoning": "The result is a complete finite extremal classification, not merely a lookup from an established table.",
+        "searches": [
+          "Resultary semantic search for exact small-order even-intersecting permutation families"
+        ]
+      },
+      "rationale": "PASS on the repaired claim. The complete 31-page Banerjee--Dewan--Mishra preprint was inspected. It proves general asymptotic bounds, gives odd-order constructions, and reports Sage optimality checks for a dual linear program at even orders \\(6\\) through \\(16\\); it does not state \\(M(5)=13\\), count the \\(240\\) maximum \\(S_5\\) families, or classify them into one left-right orbit. Resultary searches found no earlier exact \\(S_5\\) classification. The original package's broader list of small-order values is therefore narrowed to the genuinely surviving \\(n=5\\) theorem.",
+      "status": "PASS"
+    },
+    "value": {
+      "rationale": "PASS. The first unresolved odd order beyond the elementary cases is a natural benchmark for the newly introduced even-intersection problem. Determining the exact maximum together with the complete extremal-family count and symmetry orbit is a natural finite classification rather than an arbitrary census.",
+      "status": "PASS"
+    }
   },
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "originality": {
-    "rationale": "Targeted literature-index and web searches for the exact values, agreement-parity synonyms, graph equivalences, and the 240-family orbit statement found no equal or stronger result. The closest source arXiv:2609.21645v1 publicly states only general bounds/constructions in the accessible material. The conclusion is best-of-knowledge, with residual risk from unavailable section-level full-text comparison explicitly recorded.",
-    "status": "PASS"
-  },
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "same_model_review_status": "passed",
+  "checked_sources": [
+    "Complete frozen/current Git package and exact verifier source/output.",
+    "Independent reconstruction and replay of the \\(n=5\\) normalized compatibility graph, maximum clique size, normalized maximum-family count and full left-right orbit.",
+    "Complete 31-page primary preprint.",
+    "Published-record searches."
+  ],
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "policy": "to-the-best-of-our-knowledge",
+  "previously_published_pending_reaudit": false,
+  "record_id": "SCOPE-20260930-0f0c08c901a7",
+  "residual_risks": [
+    "The \\(n=5\\) theorem is computer-assisted; correctness depends on exhaustive finite clique/orbit enumeration and the normalization reduction.",
+    "Older unindexed computations of this new problem could conceivably contain the same small-order datum, although no such source was located."
+  ],
+  "review_type": "independent_audit",
   "schema_version": 1,
-  "scope_run_id": "0f0c08c9-01a7-47b5-b134-899f0b4e4240",
-  "value": {
-    "rationale": "The exact finite window supplies concrete benchmarks for the new permutation-Eventown problem, proves sharpness of the even-order construction at n=4 and n=6, resolves the first nontrivial odd case n=5, and adds a complete labeled count and symmetry classification at that order.",
-    "status": "PASS"
-  },
-  "verification_state": "awaiting_fresh_independent_audit"
+  "source_inspections": [
+    {
+      "assessment": "PRIMARY_SOURCE_NOT_COVERING_REPAIRED_S5_CLASSIFICATION",
+      "evidence": "The paper contains no theorem or computation giving \\(M(5)=13\\), no count \\(240\\), and no left-right orbit classification.",
+      "identifier_or_url": "https://arxiv.org/abs/2609.21645",
+      "material_read": "Complete 31-page primary preprint, including the even-order linear program, the reported Sage checks at \\(n=6,\\ldots,16\\), and the odd-order constructions.",
+      "method": "Complete primary full-text inspection.",
+      "title": "Even-Intersecting Families of Permutations",
+      "trigger": "Exact primary source introducing the problem and its current general bounds."
+    },
+    {
+      "assessment": "NO_EARLIER_EXACT_S5_COVERAGE_FOUND",
+      "evidence": "No earlier record matching the repaired \\(S_5\\) value/count/orbit theorem was located.",
+      "identifier_or_url": "Resultary semantic search",
+      "material_read": "Ranked results for exact small-order even-intersecting permutation values and extremal-family classifications.",
+      "method": "Semantic published-record search.",
+      "title": "Published-record search for exact \\(S_5\\) even-intersecting families",
+      "trigger": "Check exact and equivalent published findings."
+    }
+  ],
+  "verification_state": "independently_reviewed"
 }

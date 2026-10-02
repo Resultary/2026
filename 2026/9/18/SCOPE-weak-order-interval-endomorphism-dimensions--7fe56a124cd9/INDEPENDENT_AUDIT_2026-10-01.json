@@ -1,0 +1,101 @@
+{
+  "audited_at_utc": "2026-10-01T11:49:15Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "T. Aoki, Interval endomorphism algebras of posets: Reedy structure, combinatorics, and homological theory, arXiv:2609.15927v1",
+        "Asashiba--Escolar--Nakashima--Yoshiwaki on interval resolutions",
+        "Published-record semantic search including the earlier extremal-global-dimension classification"
+      ],
+      "rationale": "Assuming Aoki's published saturated-pair global-dimension formula, the specialization is correct. In a weak order every multi-level interval has arbitrary nonempty endpoint pieces and all intermediate levels full. For any saturated pair, Max(C\\S) and Min(S\\C) lie on the top and bottom endpoint levels, giving the endpoint-size upper bound. Nonadjacent full endpoints attain n_i+n_j. For adjacent levels, an exhaustive classification of connected relative downsets/upsets yields exactly the piecewise F(a,b), with explicit saturated witnesses in every case. A fresh independent enumeration of small profiles reproduced the formula with no mismatches. The uniform-level and universal-bound equality corollaries follow directly.",
+      "residual_risks": [
+        "The full Aoki PDF could not be recovered through the available full-text channels in this run; the exact saturated-pair formula is therefore taken from the record's theorem citation together with the paper's public abstract describing the same saturated-pair Ext/global-dimension framework."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The earlier record classifies only the N-1 extremal cases; Aoki's explicit family is rectangular grids."
+        ],
+        "reasoning": "Neither broader result determines the full adjacent/nonadjacent maximum formula for arbitrary level profile.",
+        "searches": [
+          "Earlier extremal interval-endomorphism global-dimension record; Aoki grid theorem"
+        ]
+      },
+      "checked_sources": [
+        "T. Aoki, Interval endomorphism algebras of posets: Reedy structure, combinatorics, and homological theory, arXiv:2609.15927v1",
+        "Asashiba--Escolar--Nakashima--Yoshiwaki on interval resolutions",
+        "Published-record semantic search including the earlier extremal-global-dimension classification"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Aoki reduces the invariant to a maximum over saturated pairs; obtaining the record's formula requires a nontrivial family-specific classification and optimization."
+        ],
+        "reasoning": "The prior theorem is an input, not a mechanical parameter substitution.",
+        "searches": [
+          "Aoki saturated-pair theorem versus the record's weak-order optimization"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Aoki's public abstract gives the general formula and a grid application; no weak-order closed form appears in the checked material."
+        ],
+        "reasoning": "Weak orders and complete multipartite orders are equivalent formulations of the same poset family.",
+        "searches": [
+          "Aoki arXiv:2609.15927; weak order/ordinal sum of antichains/complete multipartite order plus interval endomorphism algebra; published semantic search"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No independent table or formula was located."
+        ],
+        "reasoning": "This supports best-of-knowledge originality but is not used as sole evidence.",
+        "searches": [
+          "Exact searches for F(a,b), two-level weak-order threshold, uniform 2r stabilization"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality passes. Aoki gives the general saturated-pair formula and works out rectangular grids, but the weak-order closed optimization requires a new classification of adjacent and nonadjacent saturated configurations. The earlier extremal record covers only the equality-at-N-1 slice, not the full formula.",
+      "residual_risks": [
+        "An equivalent weak-order computation could exist under different poset terminology; no such source was found."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "The accessible material confirms the general saturated-pair/global-dimension framework and grid application, but not a weak-order specialization.",
+          "evidence": "The abstract states an exact combinatorial global-dimension formula and the explicit grid formula.",
+          "identifier_or_url": "arXiv:2609.15927v1",
+          "material_read": "Abstract and bibliographic material; full PDF retrieval failed after open-access and authorized-access attempts",
+          "method": "Primary abstract plus failed full-text retrieval",
+          "title": "Interval endomorphism algebras of posets: Reedy structure, combinatorics, and homological theory",
+          "trigger": "Primary source for the general saturated-pair global-dimension theorem"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "T. Aoki, Interval endomorphism algebras of posets: Reedy structure, combinatorics, and homological theory, arXiv:2609.15927v1",
+        "Asashiba--Escolar--Nakashima--Yoshiwaki on interval resolutions",
+        "Published-record semantic search including the earlier extremal-global-dimension classification"
+      ],
+      "rationale": "The theorem gives an exact field-independent homological dimension for every finite weak order, isolates two distinct extremal mechanisms, yields a complete height-two formula, and shows immediate stabilization for uniform weak orders. These are natural structural invariants of a classical poset family.",
+      "residual_risks": [
+        "The formula is a specialization of Aoki's general machinery, not a new homological framework."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "final_claim": "For a finite weak order with level sizes n_1,...,n_h, the global dimension of its interval endomorphism algebra is the stated maximum of adjacent F(n_i,n_{i+1}) terms and nonadjacent n_i+n_j terms, with the stated two-level, uniform and extremal corollaries.",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "Best-of-knowledge originality remains subject to differently named weak-order calculations.",
+    "The Aoki full PDF was inaccessible in this run; the general saturated-pair framework was confirmed from primary metadata/abstract and the specialization was independently checked."
+  ],
+  "record_id": "SCOPE-20260918-7fe56a124cd9",
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
+}

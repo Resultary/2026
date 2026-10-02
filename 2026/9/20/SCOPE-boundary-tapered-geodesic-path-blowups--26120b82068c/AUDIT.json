@@ -1,33 +1,98 @@
 {
-  "correctness": {
-    "status": "PASS",
-    "summary": "The path-blow-up formula partitions endpoint pairs into distinct-layer and same-layer cases. The tapered-layer recurrence gives the stated closed form, and subtraction from the published G_{3,q} formula gives 10*3^(q-2)-15>0. Direct shortest-path counts agree in finite checks."
+  "audited_at_utc": "2026-10-01T17:49:46Z",
+  "axes": {
+    "correctness": {
+      "rationale": "PASS. The path-blow-up formula follows from a complete partition of endpoint pairs. Distinct layers contribute the product of intervening layer sizes; same-layer pairs contribute their common-neighbor count. This gives an infinite proof. A fresh implementation reproduced the tapered closed form and exact difference \\(10\\cdot3^{q-2}-15\\) for independent \\(q\\)-values; the repository BFS/enumeration is supporting evidence only.",
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Problem 14 explicitly asks for a graph larger than the equal-layer benchmark."
+        ],
+        "reasoning": "The primary source leaves exactly the construction gap filled here.",
+        "searches": [
+          "https://doi.org/10.1007/s00009-026-03159-3"
+        ]
+      },
+      "checked_sources": [
+        "Complete frozen/current Git package and both artifacts.",
+        "Fresh independent evaluation of the all-layer formula and tapered closed form.",
+        "Open-access primary article including Problem 14.",
+        "Published-record and web searches."
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The equal-layer formula does not imply the tapered gain."
+        ],
+        "reasoning": "The endpoint-pair count supplies new structural information.",
+        "searches": [
+          "Knor et al. Proposition 3",
+          "Knor et al. Problem 14"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The primary article gives only equal-layer \\(G_{k,t}\\); the current record is the only exact tapered match found."
+        ],
+        "reasoning": "No inspected equivalent formulation contains the unequal-layer formula.",
+        "searches": [
+          "Published-record query for geodesic subpath path blow-ups and unequal layers",
+          "Knor et al. full article Proposition 3 and Problem 14"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No earlier exact record or table entry was found."
+        ],
+        "reasoning": "The result quantifies an infinite graph family rather than recomputing a known table.",
+        "searches": [
+          "Published-record search for tapered path blow-ups"
+        ]
+      },
+      "rationale": "PASS to the best of current knowledge. The complete open-access Knor--Sedlar--Škrekovski--Zhang article was inspected at Proposition 3 and Problem 14. It treats equal-size sequential joins and explicitly asks for a graph beating the \\(G_{3,n/3}\\) benchmark. The tapered unequal-layer family answers that construction request for all \\(n=3q\\), \\(q\\ge3\\). Searches found no earlier unequal-layer formula or tapered witness.",
+      "residual_risks": [
+        "The invariant is very recent, so indexing delay remains possible.",
+        "No optimality is claimed among all path blow-ups or all connected graphs."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "PRIMARY_SOURCE_LEAVES_CLAIM_OPEN",
+          "evidence": "Problem 14 explicitly asks for a construction beating \\(G_{3,n/3}\\).",
+          "identifier_or_url": "https://doi.org/10.1007/s00009-026-03159-3",
+          "material_read": "Open-access full article at Proposition 3, concluding remarks, and Problem 14.",
+          "method": "Primary open-access full-text inspection.",
+          "title": "Counting Geodesic Paths in Graphs",
+          "trigger": "Primary source defining the invariant and open extremal problem."
+        },
+        {
+          "assessment": "NO_EARLIER_EXACT_COVERAGE_FOUND",
+          "evidence": "The audited record was the only exact match in the inspected results.",
+          "identifier_or_url": "Resultary published record index",
+          "material_read": "Ranked semantic results for unequal layers, path blow-ups, and Problem 14.",
+          "method": "Published-record search.",
+          "title": "Published-record search for tapered geodesic path blow-ups",
+          "trigger": "Check exact and equivalent coverage."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "rationale": "PASS. The theorem resolves the construction side of an explicit 2026 open problem on an infinite sequence of graph orders and improves the leading construction constant by \\(121/81\\). The general unequal-layer formula is independently reusable.",
+      "status": "PASS"
+    }
   },
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "limitations": [
-    "No optimality claim is made for the tapered family among all path blow-ups or all connected graphs.",
-    "Orders not divisible by three are not optimized here.",
-    "The universal upper bound is not improved.",
-    "The invariant is recent, so differently phrased or incompletely indexed follow-up work remains possible.",
-    "Originality is to the best of our knowledge."
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
   ],
-  "originality": {
-    "scope": "to the best of our knowledge",
-    "status": "PASS",
-    "summary": "The 2026 primary source explicitly leaves finding a construction larger than G_{3,n/3} as Problem 14. Searches of the exact invariant and equivalent layered/shortest-path terminology did not locate the arbitrary path-blow-up formula or the tapered family. Recency and indexing latency remain residual risks."
-  },
-  "phase": "II",
-  "previously_published_pending_reaudit": true,
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "policy": "to-the-best-of-our-knowledge",
+  "previously_published_pending_reaudit": false,
   "record_id": "SCOPE-20260920-26120b82068c",
-  "review_statement": "Same-model review: passed. Independent audit: not yet performed.",
-  "review_type": "same_model_review",
-  "same_model_review_status": "passed",
-  "scope_run_id": "68782898-c0a7-4620-a983-c315dd8eb3ba",
-  "value": {
-    "status": "PASS",
-    "summary": "The construction resolves the construction side of an explicit open problem on an infinite sequence of orders and improves the prior leading lower-bound constant by the factor 121/81. The general path-blow-up identity is also reusable."
-  },
-  "verification_state": "awaiting_fresh_independent_audit"
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

@@ -1,29 +1,115 @@
 {
+  "audited_at_utc": "2026-10-01T06:49:30Z",
   "axes": {
     "correctness": {
-      "assessor": "same_model_reviewer",
-      "rationale": "The de Finetti reduction, explicit least-concave-majorant proof, endpoint constructions, complement lower bound, strict finite-exchangeability comparison, and proportional-threshold limits were checked analytically; a compact standard-library verifier reproduces the envelope numerically.",
-      "verdict": "PASS"
+      "rationale": "De Finetti reduces the tail probability to \\(\\mathbb E g_{n,k}(\\Theta)\\) with \\(\\mathbb E\\Theta=p\\). For \\(2\\le k\\le n-1\\), \\(g''\\) changes sign exactly at \\((k-1)/(n-1)\\), and \\(h(\\theta)=\\theta g'(\\theta)-g(\\theta)\\) has a unique zero \\(\\tau\\) after that point. Therefore the tangent chord from the origin to \\((\\tau,g(\\tau))\\), followed by \\(g\\), is precisely the least concave majorant. Jensen gives the exact upper envelope and the displayed two-point directing measures attain it; complementing successes gives the lower envelope, and mixtures fill the interval. The proportional-threshold limits follow from Markov plus a two-point directing law just above the threshold. Independent numerical recomputation reproduced \\(\\tau_{10,6}=0.7443883029979592\\) and the upper value 0.3688182435706505; the inspected verifier also checks the majorant on a broad finite grid, but the proof does not depend on that grid.",
+      "status": "PASS"
     },
     "originality": {
-      "assessor": "same_model_reviewer",
-      "rationale": "Searches covered exact and synonymous exchangeability, mixed-binomial, concave-envelope, reliability, and concentration formulations. Closest finite-exchangeable and mixed-binomial prior art was explicitly reconciled; residual older-literature risks and incomplete access are documented in REVIEW.md.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "Zaigraev--Kaniovski and Di Cecco optimize arbitrary finite exchangeable Bernoulli laws, optionally with correlation. Misra--Singh--Harner study stochastic/variability orderings for binomial variables and mixtures."
+        ],
+        "reasoning": "The finite-exchangeable feasible set strictly contains the infinitely extendible binomial-mixture set, and mixture ordering does not give the exact fixed-mean threshold extremum.",
+        "searches": [
+          "Zaigraev and Kaniovski, Statistics & Probability Letters 80 (2010)",
+          "Di Cecco, Statistics & Probability Letters 81 (2011)",
+          "Misra, Singh and Harner, Statistics & Probability Letters 65 (2003)"
+        ]
+      },
+      "checked_sources": [
+        "https://doi.org/10.1016/j.spl.2010.02.023",
+        "https://doi.org/10.1016/j.spl.2010.11.016",
+        "https://doi.org/10.1016/j.spl.2003.07.002",
+        "Published-record semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "De Finetti reduces the feasible laws to binomial mixtures but does not by itself identify the least concave majorant. The inspected finite bounds are weaker; the ordering paper does not produce the tangent-chord optimizer."
+        ],
+        "reasoning": "The exact envelope requires solving the one-moment variational problem for the S-shaped binomial tail; it is not mechanically the same as the finite-exchangeable or ordering results.",
+        "searches": [
+          "Direct implication comparison via de Finetti, finite exchangeability bounds, and mixed-binomial convex ordering"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Searches found finite-exchangeable linear-programming bounds and general mixed-binomial ordering papers, but no matching exact one-moment binomial-mixture envelope."
+        ],
+        "reasoning": "By de Finetti the problem is a one-moment extremal mixed-binomial problem, so mixed-binomial and k-out-of-n formulations were explicitly treated as equivalent search targets.",
+        "searches": [
+          "Published-record semantic search: infinitely exchangeable Bernoulli exact tail envelope least concave majorant mixed binomial fixed mean",
+          "Web search: least concave majorant binomial tail mixed binomial fixed mean",
+          "Web search: infinitely extendible exchangeable Bernoulli exact k-out-of-n bounds"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No exact table of the tangent breakpoint \\(\\tau_{n,k}\\) or the two-sided infinitely extendible envelope was located."
+        ],
+        "reasoning": "The theorem supplies an analytic envelope for every \\(n,k,p\\), not a recomputation of a known table.",
+        "searches": [
+          "Published-record search for exact binomial-mixture threshold envelopes",
+          "Reliability/k-out-of-n searches for fixed-mean mixed-binomial tables"
+        ]
+      },
+      "rationale": "Finite-exchangeable sharp bounds of Zaigraev--Kaniovski and Di Cecco optimize a larger finite polytope, while mixed-binomial ordering results compare fixed and random parameters but do not state the exact fixed-mean threshold envelope located here. The audited least-concave-majorant formula, matching extremizing directing measures, two-sided interval, and proportional-threshold collapse were not found in the inspected prior sources.",
+      "residual_risks": [
+        "Classical moment-problem and reliability literature is broad; an older equivalent concave-envelope formulation may exist even though targeted synonymous searches did not locate one."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "FINITE_EXCHANGEABLE_BROADER_FEASIBLE_SET",
+          "evidence": "It optimizes arbitrary finite exchangeable Bernoulli laws, not the infinitely extendible binomial-mixture subset.",
+          "identifier_or_url": "https://doi.org/10.1016/j.spl.2010.02.023",
+          "material_read": "Abstract and accessible paper text describing the finite exchangeable linear-programming optimization.",
+          "method": "Lawful author-hosted/metadata inspection.",
+          "title": "Exact bounds on the probability of at least k successes in n exchangeable Bernoulli trials as a function of correlation coefficients",
+          "trigger": "Closest finite-exchangeable predecessor."
+        },
+        {
+          "assessment": "RELATED_ORDERING_NOT_EXACT_ENVELOPE",
+          "evidence": "The paper studies stochastic/variability comparisons, not the fixed-mean exact threshold envelope with tangent breakpoint.",
+          "identifier_or_url": "https://doi.org/10.1016/j.spl.2003.07.002",
+          "material_read": "PDF title page/abstract and relevant paper sections on mixed-binomial versus fixed-binomial stochastic and variability orderings.",
+          "method": "Lawful PDF inspection, including rendered page check.",
+          "title": "Stochastic comparisons of Poisson and binomial random variables with their mixtures",
+          "trigger": "Potential older mixed-binomial coverage."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "assessor": "same_model_reviewer",
-      "rationale": "The theorem gives an exact computable finite-sample effect of infinite extendibility and identifies a sharp asymptotic boundary showing that the improvement vanishes for proportional thresholds.",
-      "verdict": "PASS"
+      "rationale": "The result gives the exact finite-sample feasible tail interval under a natural probabilistic structural assumption and identifies precisely how the extendibility improvement disappears at proportional thresholds. Exact extremizers and the asymptotic boundary are useful for reliability and exchangeable-data analysis.",
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-17T15:09:05Z",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disposition": "passed",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": "Only infinite exchangeability and the one-dimensional marginal mean are constrained. Additional moments or finite extendibility lead to different feasible sets. Classical mixed-binomial and one-moment extremal literature is broad, so an older equivalent formulation remains a residual originality risk despite targeted searches and comparison with the closest finite-exchangeable and mixture-ordering papers.",
+  "record_id": "SCOPE-20260917-829140c11a96",
+  "review_type": "independent_audit",
+  "same_model_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "The de Finetti reduction, explicit least-concave-majorant proof, endpoint constructions, complement lower bound, strict finite-exchangeability comparison, and proportional-threshold limits were checked analytically; a compact standard-library verifier reproduces the envelope numerically.",
+        "status": "PASS"
+      },
+      "originality": {
+        "rationale": "Searches covered exact and synonymous exchangeability, mixed-binomial, concave-envelope, reliability, and concentration formulations. Closest finite-exchangeable and mixed-binomial prior art was explicitly reconciled; residual older-literature risks and incomplete access are documented in REVIEW.md.",
+        "status": "PASS"
+      },
+      "value": {
+        "rationale": "The theorem gives an exact computable finite-sample effect of infinite extendibility and identifies a sharp asymptotic boundary showing that the improvement vanishes for proportional thresholds.",
+        "status": "PASS"
+      }
+    },
+    "disclaimer": "Historical same-model scientific assessment preserved as evidence; it is not the independent audit.",
+    "reviewed_at": "2026-09-17T15:09:05Z",
+    "status": "passed"
+  },
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

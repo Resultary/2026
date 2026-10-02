@@ -1,10 +1,115 @@
 {
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "previously_published_pending_reaudit": true,
+  "audited_at_utc": "2026-10-01T02:59:19Z",
+  "axes": {
+    "correctness": {
+      "rationale": "The scalar reduction was independently reconstructed: with a=2x+1/(2x)+1/x², the reduced equation is u''=(a²+a'+1)u with Q=4x²+5+4/x-1/(4x²)-1/x³+1/x⁴. The only finite pole of Q is order 4 at 0 and deg(den)-deg(num)=-2 at infinity. The Case-1 local choices give m in {1/2,3/2}, p in {2,-2}, t1 in {3/4,-7/4}, hence candidate degrees {1/4,-9/4,-3/4,-13/4}, none a nonnegative integer. Kovacic Cases 2 and 3 already fail their necessary pole-order gates; the repository's exact scripts reproduce the negative degree tables. Therefore no Liouvillian solution exists and the determinant-one second-order equation is in Kovacic Case 4, so its differential Galois group is SL(2,C). The numerical Stokes-loop trace is corroboration only and is not needed for the conclusion.",
+      "residual_risks": [
+        "The phrase in the package calling infinity an 'ordinary point of Q' is potentially confusing: Q grows quadratically and infinity is irregular for the differential equation. The Kovacic degree convention used in the actual elimination is nevertheless the correct relevant datum."
+      ],
+      "sources": [
+        "https://doi.org/10.1016/S0747-7171(86)80010-4",
+        "2026/09/13/017/artifacts/kovacic_case2.py",
+        "2026/09/13/017/artifacts/kovacic_cases23.py"
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Kovacic provides the general decision algorithm.",
+          "Duval-Loday-Richaud explicitly studies families including Heun and confluent equations."
+        ],
+        "reasoning": "The general algorithms cover how to decide the point, but an algorithm is not itself a published answer for every rational parameter specialization.",
+        "searches": [
+          "Kovacic 1986 algorithm",
+          "Duval Loday-Richaud 1992 Kovacic Heun confluent equation"
+        ]
+      },
+      "checked_sources": [
+        "https://doi.org/10.1016/S0747-7171(86)80010-4",
+        "https://doi.org/10.1007/BF01268661",
+        "Resultary published-findings semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The accessible 1992 abstract says the algorithm is applied mainly to hypergeometric and Heun families, including confluent equations, but the material inspected did not provide a theorem mapping this exact doubly-confluent parameter point to a prior classification row."
+        ],
+        "reasoning": "With no decisive prior implication located, originality passes best-of-knowledge, with the inaccessible/full-comparison risk explicitly retained.",
+        "searches": [
+          "DOI 10.1007/BF01268661 Heun-family Liouvillian applications",
+          "Kovacic 1986"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Resultary returned this record itself as the exact match, with other SL2 Heun/Kovacic records at different equations.",
+          "No exact matching parameter equation was found in web search."
+        ],
+        "reasoning": "Equivalent formulations are absence of Liouvillian solutions for the reduced second-order equation, or full SL2 differential Galois group; no exact prior parameter match was located.",
+        "searches": [
+          "Resultary semantic search: doubly confluent Heun symmetric differential Galois group SL2 Kovacic Stokes monodromy",
+          "web search exact coefficient Q with terms 4x-squared, 4/x, -1/(4x-squared), -1/x-cubed, 1/x-fourth"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No distinct exact database row or table was found."
+        ],
+        "reasoning": "There is no exact parameter table identified in the inspected sources.",
+        "searches": [
+          "Resultary exact semantic search",
+          "exact Q coefficient search"
+        ]
+      },
+      "rationale": "Best-of-knowledge search found the general Kovacic algorithm and a broad 1992 application to Heun and confluent special-function families, but no source inspected stated or implied the exact SL(2,C) result for this rational parameter point. The 1992 paper remains a residual comparison risk because only its accessible abstract/bibliographic description, not a parameter-by-parameter full classification, was available in this run.",
+      "residual_risks": [
+        "A parameter-level theorem inside Duval-Loday-Richaud or another special-functions classification could subsume this point; the accessible material inspected in this run did not resolve that mapping."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "GENERAL_METHOD_NOT_EXACT_PARAMETER_RESULT",
+          "evidence": "The audit independently executes the relevant necessary conditions and degree obstruction at the assigned Q.",
+          "identifier_or_url": "https://doi.org/10.1016/S0747-7171(86)80010-4",
+          "material_read": "algorithmic case structure as represented in the cited primary result and cross-checked against the package's exact pole/degree elimination",
+          "method": "primary-source/web bibliographic inspection plus mathematical replay",
+          "title": "An algorithm for solving second order linear homogeneous differential equations",
+          "trigger": "the exact decision procedure used by the proof"
+        },
+        {
+          "assessment": "PLAUSIBLE_PRIOR_COMPARISON_NOT_RESOLVED_TO_THIS_EXACT_POINT",
+          "evidence": "The accessible material did not expose an exact theorem/table for the audited coefficient; this remains a residual originality risk.",
+          "identifier_or_url": "https://doi.org/10.1007/BF01268661",
+          "material_read": "accessible abstract/bibliographic material stating coverage of Heun and confluent families",
+          "method": "web inspection",
+          "title": "Kovacic's Algorithm and Its Application to Some Families of Special Functions",
+          "trigger": "highly relevant Heun/confluent-family application"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "rationale": "The parameter point is not presented as an arbitrary scan: it is a resonant symmetric boundary where the formal monodromy at the rank-1 irregular point is central, so a generic monodromy heuristic does not by itself decide reducibility. An exact no-Liouvillian/SL2 determination at that structurally delicate point is a motivated exact invariant and can serve as a boundary test for the doubly-confluent Heun family.",
+      "residual_risks": [
+        "The scientific value is local to a distinguished parameter point rather than a family-wide classification."
+      ],
+      "sources": [
+        "2026/09/13/017/RESULT.md",
+        "https://doi.org/10.1007/BF01268661"
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "evidence": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "previously_published_pending_reaudit": false,
   "record_id": "SCOPE-20260913-017",
-  "review_type": "independent_audit_pending",
+  "review_type": "independent_audit",
   "schema_version": 1,
-  "verification_state": "awaiting_fresh_independent_audit"
+  "verification_state": "independently_reviewed"
 }

@@ -1,34 +1,106 @@
 {
-  "correctness": {
-    "status": "PASS",
-    "summary": "Finite uniform perturbations preserve properness because each closed ball for one metric is a closed subset of a bounded-radius closed ball for the other compatible proper metric. Ishiki's density and G_delta theorems therefore restrict to proper metrics on strongly zero-dimensional locally compact Polish spaces. Algebraic independence injects unordered pairs into distance values, which forces every distance-preserving map on at least three points to be the inclusion. O'Hara's rational-independence reconstruction theorem then upgrades finite magnitude reconstruction from abstract isometry type to equality of ambient subsets."
+  "axes": {
+    "correctness": {
+      "rationale": "Finite uniform perturbation preserves properness for compatible metrics because every closed ball for the perturbed metric is a closed subset of a bounded-radius proper ball. Ishiki's density and G-delta statements therefore restrict to the proper-metric component. Algebraic independence makes the unordered-pair-to-distance map injective; this forces every distance-preserving map on at least three points to fix each point. O'Hara's rational-independence reconstruction theorem then upgrades abstract magnitude reconstruction to equality of ambient finite subsets.",
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "A same-day later record concerns algebraically independent distances only on a fixed countable skeleton and is not broader than full pairwise algebraic independence of the ambient metric.",
+          "Ishiki's proper result concerns rigidity, a weaker property than algebraic independence."
+        ],
+        "reasoning": "No earlier inspected theorem simultaneously dominates proper genericity, all-pair algebraic independence, and ambient magnitude injectivity.",
+        "searches": [
+          "published archive: algebraically independent metric skeletons",
+          "Ishiki rigid proper metrics"
+        ]
+      },
+      "checked_sources": [
+        "arXiv:2609.19773",
+        "DOI 10.19086/da.143788",
+        "arXiv:2401.00786",
+        "published archive search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The proper genericity is a short but nontrivial transfer from Ishiki because finite uniform distance preserves properness.",
+          "The ambient fingerprint follows after adding pair-distance injectivity, which O'Hara does not supply as an ambient statement."
+        ],
+        "reasoning": "The claim is implied by combining two published ingredients with the stated transfer and rigidity lemmas, but that synthesis is not itself already stated in the inspected prior sources.",
+        "searches": [
+          "Ishiki approximation plus properness",
+          "O'Hara rational independence theorem"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Ishiki states uniform density of algebraically independent metrics in the full compatible-metric space and a G-delta statement for sigma-compact spaces; the proper-algebraic intersection is not stated in the accessible abstract.",
+          "O'Hara gives reconstruction of a rationally independent finite metric space up to isometry, not ambient subset identity."
+        ],
+        "reasoning": "The final statement combines a relative proper-metric genericity transfer with pair-distance injectivity; neither inspected source states the ambient hereditary formulation.",
+        "searches": [
+          "published-archive semantic search: algebraically independent proper metrics ambient magnitude fingerprints",
+          "arXiv:2609.19773",
+          "arXiv:2401.00786"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No earlier exact database record with the same proper-generic plus ambient-fingerprint theorem was located."
+        ],
+        "reasoning": "This is a theorem rather than a tabulated invariant; exact-record search is the applicable database check.",
+        "searches": [
+          "published archive exact title/aliases",
+          "magnitude finite metric reconstruction"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality survives. The proof is a structural synthesis of recent genericity and finite-magnitude results, but the proper relative-genericity transfer and simultaneous ambient identification were not found as earlier stated results.",
+      "residual_risks": [
+        "The Ishiki full text was not available through the accessible text interfaces during this audit; a very recent revision could contain an equivalent corollary not visible in the abstract."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "SUPPORTING_NOT_COVERING",
+          "evidence": "Accessible text states full-space algebraic-independence density/G-delta results and a separate rigid-proper G-delta result, but not algebraically independent proper metrics or ambient magnitude fingerprints.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.19773",
+          "material_read": "abstract and accessible bibliographic description",
+          "method": "public source page",
+          "title": "Algebraically independent distances and rigid metrics",
+          "trigger": "same metric class and genericity hypotheses"
+        },
+        {
+          "assessment": "SUPPORTING_NOT_COVERING",
+          "evidence": "The source reconstructs rationally independent finite metric spaces up to isometry.",
+          "identifier_or_url": "https://doi.org/10.19086/da.143788",
+          "material_read": "journal editorial description and theorem summary; arXiv abstract",
+          "method": "open journal page and arXiv metadata",
+          "title": "Magnitude function determines generic finite metric spaces",
+          "trigger": "finite magnitude reconstruction used in the proof"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "rationale": "Proper metrics are the natural class for noncompact locally compact geometry, and the result simultaneously identifies a generic structural property and an ambient reconstruction consequence for every finite point cloud. It is more than a type check or isolated example.",
+      "status": "PASS"
+    }
   },
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "limitations": [
-    "Strong zero-dimensionality is required by the available approximation theorem.",
-    "No quantitative stability or conditioning for recovery from a perturbed magnitude function is proved.",
-    "Singleton subsets all have magnitude one and cannot be distinguished by this invariant.",
-    "The result is a structural synthesis and transfer theorem rather than a new construction of algebraically independent metrics.",
-    "The primary metric-genericity source is extremely recent, so later revisions or unindexed parallel observations remain a genuine originality risk.",
-    "Independent audit has not been performed."
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
   ],
-  "originality": {
-    "scope": "to the best of our knowledge",
-    "status": "PASS",
-    "summary": "The inspected Ishiki preprint gives algebraically independent genericity in the full compatible-metric space, relatively G_delta rigid proper metrics, and abstract finite-subspace reconstruction from magnitude; the inspected O'Hara paper concerns abstract finite metric spaces. Neither states dense G_delta algebraic independence inside proper metrics, ambient hereditary rigidity of all subspaces, or injectivity of magnitude on all finite ambient subsets. Targeted literature and current SCOPE overlap searches did not locate those statements. The main residual risk is the recency of Ishiki's preprint and the short deductive distance from its theorems."
-  },
-  "phase": "II",
-  "previously_published_pending_reaudit": true,
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "The Ishiki full text was not available through the accessible text interfaces during this audit; a very recent revision could contain an equivalent corollary not visible in the abstract."
+  ],
+  "previously_published_pending_reaudit": false,
   "record_id": "SCOPE-20260919-02c6f750a8ff",
-  "review_statement": "Same-model review: passed. Independent audit: not yet performed.",
-  "review_type": "same_model_review",
+  "review_type": "independent_audit",
+  "reviewed_at": "2026-10-01T13:56:20.018401Z",
+  "same_model_evidence_preserved": true,
   "same_model_review_status": "passed",
-  "scope_run_id": "c78593b9-4f5d-4bc3-879d-ba99468aa5e3",
-  "value": {
-    "status": "PASS",
-    "summary": "The result places algebraic genericity inside the natural proper-metric class and strengthens global rigidity to uniqueness of every isometric placement of every subspace with at least three points. Together with finite magnitude reconstruction, it makes magnitude an injective ambient fingerprint for every nontrivial finite point cloud simultaneously."
-  },
-  "verification_state": "awaiting_fresh_independent_audit"
+  "verification_state": "independently_reviewed"
 }

@@ -1,1 +1,0 @@
-Genus-2 SL2 Heegaard character-stack intersection with b1=2: the handlebody restriction maps are boundary Lagrangians, the separating twist dies after meridian killing, and at the trivial representation T Loc_G(M) has cohomology dimensions (3,6,6,3) and virtual dimension 0. No Tor- or Behrend invariant is inferred from these tangent dimensions.

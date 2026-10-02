@@ -1,0 +1,90 @@
+{
+  "audited_at_utc": "2026-10-01T14:49:05Z",
+  "axes": {
+    "correctness": {
+      "rationale": "PASS. The unit-group necessity follows by applying I-symmetry to a triple product equal to one: the transposed product is an invertible idempotent and hence one. For the converse, symmetry makes the idempotent \\(p=abc\\) central and forces \\(q=acb\\) into the corner \\(pRp\\). Reversibility makes this corner directly finite; from \\(ABC=p\\) the corner factors are units. Centrality embeds the corner unit group into \\(U(R)\\), so abelianness forces \\(ACB=ABC=p\\). Thus I-symmetry is exactly symmetry plus an abelian unit group. For a ring with involution, I-symmetry immediately implies pro-symmetry, while pro-symmetry supplies symmetry from Chen--Wang--Zou and supplies abelian units by the same triple-equals-one argument, giving the converse. The clean-ring, division-ring, and free-algebra examples follow correctly.",
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The strongest matching Han theorem adds abelian semiperfect hypotheses; Chen's theorems characterize pro-symmetry internally."
+        ],
+        "reasoning": "Neither prior theorem dominates the unrestricted class equivalence.",
+        "searches": [
+          "Han Lee Lee Symmetry on zero and idempotents full text",
+          "Chen Wang Zou pro-symmetric full text"
+        ]
+      },
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The two primary papers supply opposite-side ingredients but not the corner argument establishing the missing converse."
+        ],
+        "reasoning": "Combining the printed prior results alone does not mechanically yield I-symmetry from symmetry plus abelian units; the corner/direct-finiteness proof supplies that step.",
+        "searches": [
+          "Han Lemma 1.3 I-symmetric units Abelian",
+          "Chen Definition 4.5 pro-symmetric"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Han--Lee--Lee Lemma 1.3 gives both necessary conditions but no unrestricted converse; Chen--Wang--Zou develop the projection condition separately."
+        ],
+        "reasoning": "The exact unrestricted equivalence and class identification are not alternate wording of a theorem found in either full text.",
+        "searches": [
+          "I-symmetric ring symmetric abelian unit group unrestricted",
+          "pro-symmetric I-symmetric rings"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No data table is relevant; the exact theorem search returned the audited record."
+        ],
+        "reasoning": "This is a structural equivalence theorem.",
+        "searches": [
+          "Resultary semantic search pro-symmetric equals I-symmetric"
+        ]
+      },
+      "rationale": "PASS. Two highly relevant primary sources were read in full. Han--Lee--Lee prove that I-symmetric rings are symmetric and have abelian unit group, and prove the converse only under extra hypotheses such as abelian semiperfectness; their full 12-page paper does not state the unrestricted criterion. Chen--Wang--Zou introduce pro-symmetric rings, prove they are symmetric, and characterize the projection triple condition, but their full 11-page preprint neither cites I-symmetry nor identifies pro-symmetry with it. The audited theorem supplies the missing unrestricted converse and then links the two literatures. Resultary search found no earlier published record with this identification.",
+      "status": "PASS"
+    },
+    "value": {
+      "rationale": "PASS. Identifying a newly introduced involution-dependent-looking class with a pre-existing involution-free ring class is a natural classification result. It removes the involution from the property entirely and yields sharp consequences for clean rings and division rings; this is structurally more than a renamed definition.",
+      "status": "PASS"
+    }
+  },
+  "checked_sources": [
+    "Complete frozen/current Git package.",
+    "Independent corner/direct-finiteness and unit-group proof reconstruction.",
+    "Complete Han--Lee--Lee and Chen--Wang--Zou primary texts.",
+    "Resultary and web searches for aliases and stronger coverage."
+  ],
+  "disposition": "passed",
+  "limitations": "The theorem classifies the two symmetry notions but does not classify all symmetric rings with nonabelian unit group or provide a structure theorem beyond the stated consequences.",
+  "record_id": "SCOPE-20260919-9e94c21ce9af",
+  "record_title": "Pro-symmetric rings coincide with I-symmetric rings",
+  "residual_risks": [
+    "A still older source using different terminology could contain the unrestricted corner criterion, although targeted searches did not locate one."
+  ],
+  "schema_version": 1,
+  "source_inspections": [
+    {
+      "assessment": "CLOSEST_PRIOR_FULL_TEXT_NOT_COVERING_UNRESTRICTED_CONVERSE",
+      "evidence": "It proves I-symmetric implies symmetric and \\(U(R)\\) abelian, but the converse appears only in special settings such as abelian semiperfect rings.",
+      "identifier_or_url": "https://doi.org/10.1080/00927872.2022.2102177",
+      "material_read": "Complete 12-page primary article, including Lemma 1.3, Remark 3.1 and Theorem 3.3.",
+      "method": "Authorized institutional full-text retrieval after open-access attempts did not provide complete text.",
+      "title": "Symmetry on zero and idempotents",
+      "trigger": "Pre-existing I-symmetric class and closest unit-group results."
+    },
+    {
+      "assessment": "PRIMARY_PRO_SYMMETRIC_SOURCE_NOT_LINKED_TO_I_SYMMETRY",
+      "evidence": "It defines pro-symmetry and proves its internal triple-product characterizations but does not mention the I-symmetric class.",
+      "identifier_or_url": "https://arxiv.org/abs/2609.20084",
+      "material_read": "Complete 11-page primary preprint, especially Proposition 3.13 and Section 4.",
+      "method": "Authorized full-text retrieval.",
+      "title": "Transposed Triple Products and Pro-Symmetric Rings in star-Rings",
+      "trigger": "Definition and primary theory of pro-symmetric rings."
+    }
+  ]
+}

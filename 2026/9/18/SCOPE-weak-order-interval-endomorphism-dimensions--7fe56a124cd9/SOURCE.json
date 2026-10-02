@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/18/SCOPE-weak-order-interval-endomorphism-dimensions--7fe56a124cd9",
   "resultary_record_key": "SCOPE-weak-order-interval-endomorphism-dimensions--7fe56a124cd9",
-  "source_commit": "a7cc69d784246a36eca421019db9c279a2c15a0e",
-  "source_commit_time": "2026-09-30T19:52:54Z",
+  "source_commit": "d6729921000acb30e87d7282f3567e0026b71a3b",
+  "source_commit_time": "2026-10-02T09:03:37Z",
   "source_path": "2026/09/18/weak-order-interval-endomorphism-dimensions--7fe56a124cd9",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260918-7fe56a124cd9",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-01T08:22:11Z",
+  "synced_at": "2026-10-02T09:07:02Z",
   "time_standard": "UTC"
 }

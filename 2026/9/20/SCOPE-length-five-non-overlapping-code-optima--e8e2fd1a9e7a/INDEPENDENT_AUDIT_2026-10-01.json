@@ -1,0 +1,114 @@
+{
+  "audited_at_utc": "2026-10-01T18:41:11Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "Stanovnik, Moskon, and Mraz, In search of maximum non-overlapping codes, Designs, Codes and Cryptography 92 (2024), full open-access article.",
+        "Blackburn, Non-Overlapping Codes, IEEE Transactions on Information Theory 61 (2015).",
+        "Repository verifier verify_length5.py and verification_output.txt; SQN was independently replayed through alphabet size eight.",
+        "Published Resultary semantic search under non-overlapping, cross-bifix-free, mutually uncorrelated, and strong comma-free terminology."
+      ],
+      "rationale": "The published SQN formulation specializes to the variables used in the proof. Optimizing the final split and then the next split reduces the problem to the two displayed quadratic branches. The universal inequalities exclude non-Blackburn optima for alphabet size at least four, with the isolated threshold case checked directly; the two smaller alphabets are solved separately. Equality conditions plus Proposition 11 give the enumeration. An independent exact replay for alphabet sizes two through eight reproduced all claimed optima, and the package verifier extends the finite check through twelve.",
+      "residual_risks": [
+        "A near-identical published finding dated 2026-09-21 postdates this 2026-09-20 record; it is not prior coverage but indicates near-simultaneous overlap.",
+        "The theorem is specific to block length five and relies on the published SQN characterization."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The 2024 article supplies SQN and the counting theorem but says no simple formula is available for larger lengths.",
+          "Blackburn supplies the construction but not all-q optimality at length five."
+        ],
+        "reasoning": "The prior framework does not mechanically determine the symbolic length-five optimum or its equality cases.",
+        "searches": [
+          "Stanovnik--Moskon--Mraz 2024, Proposition 11 and Section 6",
+          "Blackburn 2015 construction and conjecture"
+        ]
+      },
+      "checked_sources": [
+        "Stanovnik, Moskon, and Mraz, In search of maximum non-overlapping codes, Designs, Codes and Cryptography 92 (2024), full open-access article.",
+        "Blackburn, Non-Overlapping Codes, IEEE Transactions on Information Theory 61 (2015).",
+        "Repository verifier verify_length5.py and verification_output.txt; SQN was independently replayed through alphabet size eight.",
+        "Published Resultary semantic search under non-overlapping, cross-bifix-free, mutually uncorrelated, and strong comma-free terminology."
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Proposition 11 counts codes only once the complete set of optimal SQN solutions is known.",
+          "The audited inequalities establish precisely that missing optimizer classification."
+        ],
+        "reasoning": "The final theorem requires a nontrivial optimization argument rather than a parameter substitution.",
+        "searches": [
+          "Proposition 11 versus the audited equality classification",
+          "Blackburn construction versus the audited SQN bound"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The assigned 2026-09-20 finding is the earliest exact-topic Resultary hit; the next close hit is dated 2026-09-21.",
+          "The 2024 paper explicitly lists the equivalent code terminology."
+        ],
+        "reasoning": "All standard aliases were searched and compared at the statement level.",
+        "searches": [
+          "Resultary query: length five non-overlapping code exact S(q,5) maximum cross-bifix-free Blackburn k=4 enumeration",
+          "Stanovnik--Moskon--Mraz 2024 under all four standard aliases"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "Finite length-five values are tabulated for small alphabets.",
+          "No earlier all-alphabet formula or complete maximum-code count was located."
+        ],
+        "reasoning": "Finite tabulation cannot imply the infinite symbolic classification.",
+        "searches": [
+          "Stanovnik--Moskon--Mraz finite tables",
+          "Resultary exact-topic search"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality passes at the record date. The 2024 primary paper states that no simple formula was available for larger codeword length and reports finite SQN computations rather than an all-alphabet length-five theorem. No earlier exact Resultary record was found; the close 2026-09-21 finding is later.",
+      "residual_risks": [
+        "A near-identical published finding dated 2026-09-21 postdates this 2026-09-20 record; it is not prior coverage but indicates near-simultaneous overlap.",
+        "The theorem is specific to block length five and relies on the published SQN characterization."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Framework and finite data are prior; the all-alphabet length-five formula is not.",
+          "evidence": "Section 6 says no simple formula was then available for larger codeword length.",
+          "identifier_or_url": "https://doi.org/10.1007/s10623-023-01344-z",
+          "material_read": "Full open-access article, including SQN, Proposition 11, the reduction section, Section 6, and finite tables",
+          "method": "Primary full-text inspection",
+          "title": "In search of maximum non-overlapping codes",
+          "trigger": "Exact optimization framework and finite length-five data"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Stanovnik, Moskon, and Mraz, In search of maximum non-overlapping codes, Designs, Codes and Cryptography 92 (2024), full open-access article.",
+        "Blackburn, Non-Overlapping Codes, IEEE Transactions on Information Theory 61 (2015).",
+        "Repository verifier verify_length5.py and verification_output.txt; SQN was independently replayed through alphabet size eight.",
+        "Published Resultary semantic search under non-overlapping, cross-bifix-free, mutually uncorrelated, and strong comma-free terminology."
+      ],
+      "rationale": "Length five is the first length beyond the published exact symbolic classifications. The theorem gives the complete all-alphabet optimum, the exact optimizer structure, the small-alphabet exceptions, and the count of all maximum codes.",
+      "residual_risks": [
+        "A near-identical published finding dated 2026-09-21 postdates this 2026-09-20 record; it is not prior coverage but indicates near-simultaneous overlap.",
+        "The theorem is specific to block length five and relies on the published SQN characterization."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "final_claim": "Maximum length-five non-overlapping codes have the stated exact sizes for all alphabet sizes, the unique Blackburn split from alphabet size four onward, and the stated complete enumeration.",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "Specific to block length five and dependent on the published SQN characterization. A near-identical 2026-09-21 result postdates this record."
+  ],
+  "record_id": "SCOPE-20260920-e8e2fd1a9e7a",
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
+}

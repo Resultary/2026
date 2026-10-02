@@ -1,35 +1,111 @@
 {
-  "correctness": {
-    "status": "PASS",
-    "summary": "Finite polynomial-avoidance conditions are open dense by perturbation inside the strict finite metric cone followed by exact metric interpolation; countability plus the Baire theorem gives the skeleton result. Fixed-dimensional Euclidean embeddability is closed via finite Gram-kernel rank conditions and nowhere dense via a nonzero Cayley-Menger determinant on m+2 points. The rigidity-matroid consequence follows because algebraic independence of raw distances implies algebraic independence of their squares."
+  "audited_at_utc": "2026-10-01T11:55:00Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.19773",
+        "https://arxiv.org/abs/2003.13227",
+        "https://arxiv.org/abs/2402.04565",
+        "https://doi.org/10.1137/21M1437986"
+      ],
+      "rationale": "For each finite set of skeleton edges and each nonzero rational polynomial, nonvanishing is open. Density follows by first perturbing the finite restriction into the strict finite metric cone, avoiding the polynomial zero set there, and then applying exact metric interpolation on the finite closed set. Countability and the Baire property give the dense G_delta theorem. The Euclidean strata are closed by finite Gram-kernel positivity and rank conditions and nowhere dense by perturbing an (m+2)-point Cayley--Menger determinant away from zero. Algebraic independence of raw distances also makes their squares algebraically independent, yielding the rigidity-matroid consequences.",
+      "residual_risks": [],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The interpolation and Baire theorems provide tools but do not state the fixed-skeleton algebraic-independence conclusion or the Euclidean-stratum theorem."
+        ],
+        "reasoning": "The audited result is a new Baire-category consequence with distinct quantifiers.",
+        "searches": [
+          "Ishiki algebraically independent metrics",
+          "Ishiki metric interpolation and Baire-space theorems",
+          "generic Euclidean nonembedding results"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.19773",
+        "https://arxiv.org/abs/2003.13227",
+        "https://arxiv.org/abs/2402.04565",
+        "https://doi.org/10.1137/21M1437986",
+        "published Resultary archive searches"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The interpolation theorem makes finite restrictions freely perturbable; combining it with countably many polynomial-avoidance conditions is required to obtain the skeleton theorem."
+        ],
+        "reasoning": "The exact final statements are not printed as corollaries in the inspected source material and are not covered by the stronger-looking full-distance result because that result has a restrictive topology hypothesis.",
+        "searches": [
+          "Direct comparison with Ishiki 2609.19773 and interpolation theorem 2003.13227"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The closest Ishiki result controls all distances only under strong zero-dimensionality; no arbitrary-topology fixed-skeleton theorem was located."
+        ],
+        "reasoning": "The audited quantifiers fix a countable skeleton and allow arbitrary metrizable topology, which is not equivalent to Ishiki’s full-distance theorem.",
+        "searches": [
+          "Resultary search for fixed countable skeleton algebraic independence of metric distances",
+          "web search for algebraically independent countable dense skeleton metrics"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No finite table applies to the quantified generic metric statements."
+        ],
+        "reasoning": "The claims are infinite topological theorems.",
+        "searches": [
+          "distance-geometry and rigidity databases"
+        ]
+      },
+      "rationale": "The closest primary result has a genuinely different quantifier/topology tradeoff, and the searched interpolation/rigidity literature did not supply the fixed-skeleton theorem or the full Euclidean-stratum package.",
+      "residual_risks": [
+        "The very recent Ishiki algebraic-independence manuscript was only accessible at abstract level in this run; a differently phrased corollary in the full text remains a residual risk."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Requires strong zero-dimensionality for density of full-distance algebraic independence and does not expose the arbitrary-topology fixed-skeleton theorem.",
+          "evidence": "The abstract explicitly states the strong zero-dimensionality hypothesis.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.19773",
+          "material_read": "Abstract and current version metadata.",
+          "method": "Primary-source statement comparison.",
+          "title": "Algebraically independent distances and rigid metrics",
+          "trigger": "Closest primary source on algebraic independence of compatible metrics."
+        },
+        {
+          "assessment": "Supports the finite-restriction extension step; it does not state the audited skeleton or Euclidean-stratum conclusions.",
+          "evidence": "The source presents a metric interpolation theorem for closed subsets and generic-property applications.",
+          "identifier_or_url": "https://arxiv.org/abs/2003.13227",
+          "material_read": "Primary abstract and theorem-level description of interpolation on closed subsets.",
+          "method": "Primary-source theorem comparison.",
+          "title": "An interpolation of metrics and spaces of metrics",
+          "trigger": "Critical interpolation input."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.19773"
+      ],
+      "rationale": "The result isolates a natural way to retain maximal algebraic freedom of distances on connected or positive-dimensional spaces, and it turns that freedom into exact finite-dimensional Euclidean and rigidity-matroid obstructions. The fixed-skeleton formulation is useful precisely where full algebraic independence is topologically unavailable.",
+      "residual_risks": [],
+      "status": "PASS"
+    }
   },
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "limitations": [
-    "Only distances on a fixed countable skeleton are controlled; full algebraic independence on positive-dimensional spaces is not proved.",
-    "Euclidean conclusions concern exact isometric embeddings, not approximate, bi-Lipschitz, coarse, or quasi-isometric embeddings.",
-    "Rigidity-matroid independence is necessary but not sufficient for Euclidean realizability.",
-    "The result is qualitative and provides no perturbation radius, prevalence estimate, or distortion bound.",
-    "The motivating preprint is very recent, and the broad interpolation framework creates residual originality risk for differently phrased corollaries.",
-    "Independent audit has not been performed."
-  ],
-  "originality": {
-    "scope": "to the best of our knowledge",
-    "status": "PASS",
-    "summary": "The 2026 Ishiki preprint treats algebraic independence of all distances under strong zero-dimensionality and does not state the fixed-countable-skeleton theorem or the Cayley-Menger/rigidity consequences found in the inspected text. Prior interpolation, Baire, generic metric-inequality, Gromov-Hausdorff genericity, and algebraic-rigidity results are explicitly treated as prior art. The recent source and broad interpolation framework leave residual reformulation risk."
+  "disposition": "passed",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": "Only a fixed countable skeleton is forced to have algebraically independent distances; Euclidean conclusions concern exact isometric embeddings; rigidity-matroid independence is necessary rather than sufficient; the result is qualitative.",
+  "policy": "correctness-originality-scientific-value",
+  "previous_review_evidence": {
+    "correctness": "Earlier review accepted polynomial avoidance, metric interpolation, Gram-kernel closedness and rigidity transfer.",
+    "originality": "Earlier review distinguished fixed-skeleton algebraic independence from Ishiki’s full-distance theorem.",
+    "value": "Earlier review valued arbitrary-topology skeleton freedom and Euclidean obstructions."
   },
-  "phase": "II",
-  "previously_published_pending_reaudit": true,
   "record_id": "SCOPE-20260919-1c2547e992d7",
-  "review_statement": "Same-model review: passed. Independent audit: not yet performed.",
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-19T22:03:49Z",
-  "same_model_review_status": "passed",
-  "scope_run_id": "9c2b68de-1b95-4199-a161-5756a4ef2c63",
-  "value": {
-    "status": "PASS",
-    "summary": "The result shows that arbitrary metrizable topologies, including connected positive-dimensional spaces, generically admit a prescribed countable distance skeleton with maximal algebraic freedom. It turns that freedom into exact Euclidean nonembedding and rigidity-matroid obstructions, while also identifying every fixed finite-dimensional Euclidean stratum as closed nowhere dense."
-  },
-  "verification_state": "awaiting_fresh_independent_audit"
+  "review_type": "independent_audit",
+  "verification_state": "independently_reviewed"
 }

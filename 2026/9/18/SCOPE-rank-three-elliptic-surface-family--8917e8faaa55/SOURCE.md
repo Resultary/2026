@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20260918-8917e8faaa55`](https://github.com/SCOPE-Science/SCOPE2026/tree/a7cc69d784246a36eca421019db9c279a2c15a0e/2026/09/18/rank-three-elliptic-surface-family--8917e8faaa55)
+Original record: [`SCOPE-20260918-8917e8faaa55`](https://github.com/SCOPE-Science/SCOPE2026/tree/1f1f526d67017dad89307433e50706cdd9d1fdcd/2026/09/18/rank-three-elliptic-surface-family--8917e8faaa55)
 
 Imported into Resultary as `2026/9/18/SCOPE-rank-three-elliptic-surface-family--8917e8faaa55`. The finding, audit, and attached artifacts remain attributable to SCOPE.

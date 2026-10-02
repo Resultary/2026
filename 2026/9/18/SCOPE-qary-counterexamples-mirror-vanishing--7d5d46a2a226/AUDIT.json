@@ -1,27 +1,114 @@
 {
+  "audited_at_utc": "2026-10-01T10:00:52Z",
   "axes": {
     "correctness": {
-      "rationale": "For C=span{u,v}, words with zero u-coefficient have weight d, while every word with nonzero u-coefficient has at least 2d+1-ceil(d/(q-1))=d+t+1 nonzero coordinates. Full-weight multiples of u remain, and k=n-2d+1=2, so the same-form mirror conclusion fails. The exact enumerator and edge cases were independently recomputed within the review, with supplementary exhaustive checks over several prime fields.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.20344",
+        "https://doi.org/10.1109/18.705584"
+      ],
+      "rationale": "Multiples of the second generator have weight \\(d\\). If the all-ones coefficient is nonzero, the last \\(d+1\\) coordinates stay nonzero and a scalar ratio can cancel at most \\(m=\\lceil d/(q-1)\\rceil\\) balanced first-block coordinates, so the weight is at least \\(d+t+1\\). Nonzero multiples of the all-ones vector have full weight \\(2d+1\\), and \\(k=2=n-2d+1\\). An independent exact enumeration reproduced the distribution for prime fields \\(q=3,5,7,11,13\\) and \\(2\\le d\\le14\\); the proof uses only \\(|\\mathbb F_q^*|=q-1\\) and covers every prime power.",
+      "residual_risks": [
+        "The finite replay is corroborative and covers prime fields only; the all-prime-power theorem rests on the proof."
+      ],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Qualified to the best of our knowledge. The 17 September 2026 source proves the binary theorem and discusses why its proof is binary-specific, but its MDS discussion does not satisfy the theorem's gap premise. Searches found no prior all-q>2 family satisfying the literal hypotheses while violating the conclusion. The elementary underlying code is not claimed as independently new; older catalogues and near-simultaneous responses remain residual risks.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "He identifies the proof obstruction but gives no hypothesis-satisfying all-\\(d\\) family; the same-day record gives only the smallest witness; the sharp classification is later."
+        ],
+        "reasoning": "No earlier inspected result dominates the all-\\(q>2\\), all-\\(d\\ge2\\) family.",
+        "searches": [
+          "He Section 3.4 nonbinary discussion",
+          "same-day conditional q-ary mirror-band record",
+          "later sharp dimension-two classification"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.20344",
+        "https://doi.org/10.1109/18.705584",
+        "published archive record SCOPE-qary-long-gap-mirror-band--69c27f4f7824",
+        "published archive record SCOPE-qary-mirror-vanishing-counterexamples--5db1acf1b471"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Neither the binary nonextension caveat nor the smallest witness mechanically implies the all-\\(d\\) family with unbounded gap."
+        ],
+        "reasoning": "The balanced-multiplicity construction is an additional quantified argument.",
+        "searches": [
+          "comparison with the binary theorem and same-day \\([5,2,2]_q\\) witness"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "A same-day record gives the smallest \\([5,2,2]_q\\) witness; a 2026-09-20 record gives the later sharp dimension-two classification."
+        ],
+        "reasoning": "The all-\\(d\\) family was separated from the smallest-instance and later-classification formulations.",
+        "searches": [
+          "semantic search for q-ary mirror-vanishing counterexamples",
+          "search for \\([2d+1,2,d]_q\\) local-gap/full-weight codes"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "Equivalent elementary codes may be catalogued, but no located table states the quantified mirror-vanishing counterexample theorem."
+        ],
+        "reasoning": "Catalogue equivalence would not itself supply the all-parameter implication.",
+        "searches": [
+          "searches for two-dimensional code catalogues/weight distributions"
+        ]
+      },
+      "rationale": "The contribution is the uniform all-nonbinary, all-distance family and linearly growing gap. The same-day small witness does not imply it; the stronger classification is later.",
+      "residual_risks": [
+        "Originality is not claimed for the isolated smallest witness already present in a same-day record.",
+        "Older code catalogues may contain equivalent constructions without this theorem."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "The paper recognizes the nonbinary proof obstruction but does not provide an all-nonbinary hypothesis-satisfying counterexample family.",
+          "evidence": "Its MDS discussion does not satisfy the local-gap premise.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.20344",
+          "material_read": "Full relevant theorem and Section 3.4 discussion of larger alphabets.",
+          "method": "Full-text hypothesis/conclusion comparison.",
+          "title": "A Mirror Vanishing Band for Weight Distributions of Binary Linear Codes",
+          "trigger": "Primary theorem whose literal q-ary extension is refuted."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The family supplies a genuine hypothesis-satisfying nonbinary counterexample, works over every q>2 and every d>=2, permits unbounded local-gap width for fixed q, and cleanly isolates the cancellation mechanism separating binary from nonbinary alphabets.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.20344"
+      ],
+      "rationale": "The family gives a clean, motivated boundary result for a new binary theorem: the literal statement fails over every nonbinary finite field, at equality in the dimension threshold, with an arbitrarily long initial gap for fixed \\(q\\).",
+      "residual_risks": [],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-18",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disposition": "passed",
+  "historical_review_assessment": {
+    "axes": {
+      "correctness": {
+        "rationale": "For the balanced two-generator code, words with zero all-ones coefficient have weight d, every word with nonzero all-ones coefficient has weight at least d+t+1, and full-weight multiples remain; k=n-2d+1=2.",
+        "status": "PASS"
+      },
+      "originality": {
+        "rationale": "The binary source explains why its proof is binary-specific but does not supply the all-q>2 hypothesis-satisfying family; the elementary code itself is not claimed as new.",
+        "status": "PASS"
+      },
+      "value": {
+        "rationale": "The family gives a genuine nonbinary counterexample for every q>2 and d>=2 with unbounded local-gap width for fixed q.",
+        "status": "PASS"
+      }
+    },
+    "reviewed_at": "2026-09-18"
+  },
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "policy": "correctness-originality-scientific-value",
+  "previously_published_pending_reaudit": false,
+  "record_id": "SCOPE-20260918-7d5d46a2a226",
+  "review_type": "independent_audit",
+  "verification_state": "independently_reviewed"
 }

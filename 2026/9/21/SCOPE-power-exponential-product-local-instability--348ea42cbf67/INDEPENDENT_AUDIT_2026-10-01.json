@@ -1,0 +1,112 @@
+{
+  "audited_at_utc": "2026-10-01T23:13:29.436856Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "assigned RESULT.md",
+        "Coronel--Huancas 2014 full accessible statement",
+        "assigned artifacts/verify_power_exponential_instability.py"
+      ],
+      "rationale": "Expanding \\(A=r\\sum x_i\\log x_i\\) and \\(B_i=rx_i\\sum_j\\log x_j\\) at a diagonal point cancels the constant and linear terms and factors the quadratic term into the variance form with coefficient \\(r/t-(nr^2/2)(\\log t)^2\\). Since \\(t(\\log t)^2\\) has maximum \\(4/e^2\\) at \\(t=e^{-2}\\), the exact transverse-Hessian threshold is \\(r=e^2/(2n)\\). The displayed one-coordinate factorization at the critical value gives the negative cubic coefficient for \\(n\\ge3\\), while \\(n=2\\) correctly remains undecided there. The numerical artifact is corroborative only.",
+      "residual_risks": [
+        "The stable side of the local Hessian threshold is not a global validity theorem."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The 2014 paper states Theorem 1.4 and Conjecture 3.3.",
+          "The earlier SCOPE record gives explicit counterexamples for Conjecture 3.3 only."
+        ],
+        "reasoning": "No inspected broader theorem implies the exact local threshold and critical cubic term.",
+        "searches": [
+          "Coronel--Huancas 2014",
+          "Matejíčka 2016 correction literature",
+          "published SCOPE 2026/09/20 fixed counterfamily"
+        ]
+      },
+      "checked_sources": [
+        "Coronel--Huancas 2014",
+        "published SCOPE 2026/09/20/coronel-huancas-conjecture-3-3-counterexamples--beb90a3a9bef",
+        "Matejíčka correction literature",
+        "Resultary semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The prior criterion proves existence of counterexamples at one parameter choice but gives neither necessity/sufficiency for diagonal transverse instability nor the critical endpoint cubic sign."
+        ],
+        "reasoning": "The surviving sharp local theorem and refutation of the published \\(r=1\\) all-\\(n\\) theorem require new calculations and are not mechanical corollaries of the prior counterfamily.",
+        "searches": [
+          "Compared the assigned second-variation theorem with the earlier 2026-09-20 two-level criterion"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The earlier record proves all-dimensional failure of Conjecture 3.3 by \\(r=8/3\\) examples but has no local diagonal second-variation theorem."
+        ],
+        "reasoning": "The prior counterfamily overlaps one consequence but is not equivalent to the sharp instability boundary or the \\(r=1\\) theorem refutation.",
+        "searches": [
+          "Resultary: Coronel Huancas power exponential product inequality diagonal second variation \\(e^2/(2n)\\) counterexample",
+          "published SCOPE 2026/09/20/coronel-huancas-conjecture-3-3-counterexamples--beb90a3a9bef"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "The only exact threshold hit was the assigned record; the earlier hit uses a different fixed \\(r=8/3\\) family."
+        ],
+        "reasoning": "The threshold is a derived analytic boundary, not a table value.",
+        "searches": [
+          "Resultary exact semantic search on \\(e^2/(2n)\\), diagonal instability, and Coronel--Huancas"
+        ]
+      },
+      "rationale": "An earlier 2026-09-20 SCOPE record already falsifies Coronel--Huancas Conjecture 3.3 in every \\(n\\ge2\\) using a fixed two-level counterexample family; that consequence is therefore prior and is not credited as new here. However, it does not address the published \\(r=1\\) Theorem 1.4, does not derive the exact diagonal Hessian boundary \\(e^2/(2n)\\), and does not identify the critical cubic instability. Searches centered on those sharper statements found the assigned result but no earlier covering theorem.",
+      "residual_risks": [
+        "A poorly indexed correction could contain an \\(r=1\\) counterexample or related expansion, but no concrete source was located.",
+        "The all-dimensional falsity of Conjecture 3.3 itself is prior in the earlier SCOPE record and is explicitly not treated as novel here."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "PARTIAL_COVERAGE",
+          "evidence": "It owns the dimension-wise falsity of Conjecture 3.3 but not the assigned sharp local boundary, critical cubic, or \\(r=1\\) theorem refutation.",
+          "identifier_or_url": "published SCOPE 2026/09/20/coronel-huancas-conjecture-3-3-counterexamples--beb90a3a9bef",
+          "material_read": "Full RESULT.md including the fixed \\(r=8/3\\) counterfamily and two-level criterion.",
+          "method": "Current repository blob at audited commit.",
+          "title": "Uniform counterexamples to Coronel--Huancas Conjecture 3.3",
+          "trigger": "Resultary found a closely related earlier record."
+        },
+        {
+          "assessment": "OPEN_CLAIM_SOURCE",
+          "evidence": "The assigned analysis refutes the all-\\(n\\) Theorem 1.4 for \\(n\\ge4\\) and sharpens the local parameter picture.",
+          "identifier_or_url": "https://doi.org/10.1186/1029-242X-2014-509",
+          "material_read": "Accessible full article/result statements including Theorem 1.4 and Conjecture 3.3.",
+          "method": "Primary journal full text.",
+          "title": "The proof of three power-exponential inequalities",
+          "trigger": "Primary source for the challenged statements."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Coronel--Huancas 2014",
+        "published SCOPE 2026/09/20 fixed counterfamily"
+      ],
+      "rationale": "The surviving contribution identifies a sharp local phase boundary for a natural published product inequality, refutes a stated theorem at its original parameter \\(r=1\\) in every dimension \\(n\\ge4\\), and resolves the critical local endpoint for \\(n\\ge3\\). Those are substantive corrections and structural boundary information even though a different counterfamily had already disproved the parameterized conjecture.",
+      "residual_risks": [
+        "The result does not decide global validity below the Hessian threshold or the critical \\(n=2\\) case."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "limitations": [
+    "The local nonnegative Hessian side does not prove the global inequality.",
+    "The critical case \\(n=2,\\ r=e^2/4\\) remains unresolved.",
+    "The global \\(r=1\\) cases \\(n=2,3\\) are not classified.",
+    "The prior 2026-09-20 record already owns the bare all-dimensional falsity of Conjecture 3.3."
+  ],
+  "record_id": "SCOPE-20260921-348ea42cbf67",
+  "record_title": "A diagonal-instability mechanism for a power-exponential product inequality",
+  "schema_version": 1
+}

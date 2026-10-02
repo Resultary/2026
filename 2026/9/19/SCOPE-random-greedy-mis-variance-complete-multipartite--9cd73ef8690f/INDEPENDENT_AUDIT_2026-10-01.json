@@ -1,0 +1,98 @@
+{
+  "audited_at_utc": "2026-10-01T15:01:02.571442Z",
+  "axes": {
+    "correctness": {
+      "rationale": "The first accepted vertex fixes the output part, so the size-biased law and all moments follow exactly. Conditioning on a largest part and applying the bounded-range variance inequality gives the sharp fixed-largest-part bound; equality forces every other part to be a singleton. The small-largest-part range is strictly dominated, and the exact first difference of the remaining one-variable polynomial has a unique integer maximizer. An independent exact enumeration of all multipartite partitions for orders three through fifteen reproduced that unique maximizer; the repository verifier source was also inspected, but its saved success log was not used as proof.",
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Shaikh's accessible abstract gives the sharp edge-sensitive triangle-free bound with stars as connected equality cases; it does not cover complete multipartite graphs having three or more nonempty parts, which contain triangles.",
+          "The 2024 paper develops local-limit methods and expectations for several graph families rather than a finite-order variance maximization over complete multipartite graphs."
+        ],
+        "reasoning": "Neither broader source implies the claimed all-connected-complete-multipartite extremum.",
+        "searches": [
+          "M. Shaikh, arXiv:2609.14826, triangle-free random-greedy MIS variance",
+          "Krivelevich--Mészáros--Michaeli--Shikhelman, Random Structures & Algorithms 64 (2024), random greedy MIS via local limits"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.14826",
+        "https://doi.org/10.1002/rsa.21200",
+        "Resultary published-finding semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Shaikh controls the complete-bipartite subfamily and recovers the star equality case there, but its hypothesis excludes the triangle-containing multipartite cases that determine the full optimization problem.",
+          "General local-limit expectation theory does not mechanically supply the exact variance objective or its discrete maximizer."
+        ],
+        "reasoning": "The claimed theorem is not a corollary of either inspected prior statement.",
+        "searches": [
+          "triangle-free variance theorem implication check on complete bipartite and multipartite graphs",
+          "local-limit theorem implication check"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The semantic search returned this record as the only exact match; no earlier equivalent finite-order extremal theorem was located.",
+          "The size-biased output law is immediate from the first vertex and is excluded from the novelty claim."
+        ],
+        "reasoning": "The originality question was compared at the level of the exact maximizing part partition and variance value, not merely by graph-family titles.",
+        "searches": [
+          "Resultary semantic search: random greedy maximal independent set variance complete multipartite split graph exact extremizer size-biased part sizes",
+          "web/literature search: random greedy MIS complete multipartite variance; random sequential adsorption complete multipartite"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No earlier published archive row with the same finite-order maximizer or the \\(27/256\\) asymptotic variance constant was located."
+        ],
+        "reasoning": "This is a theorem rather than a standard tabulated invariant; the applicable database check is the published theorem archive.",
+        "searches": [
+          "Resultary exact/semantic archive search on the formula and extremizer"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality passes for the sharp finite-order variance extremum and unique complete-split extremizer. The elementary size-biased law itself is not treated as novel.",
+      "residual_risks": [
+        "The full text of the very recent Shaikh preprint was not accessible during this audit; an unadvertised multipartite calculation remains a limited overlap risk.",
+        "Older random-sequential-adsorption terminology may hide related calculations not surfaced by the searches."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "RELATED_NOT_COVERING",
+          "evidence": "The accessible statement is restricted to triangle-free graphs and identifies stars as connected equality cases.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.14826",
+          "material_read": "accessible abstract and bibliographic record; full text could not be retrieved through the lawful routes attempted",
+          "method": "public source page and literature search",
+          "title": "Variance of random greedy independent sets in triangle-free graphs",
+          "trigger": "same random-greedy statistic with a sharp variance theorem"
+        },
+        {
+          "assessment": "RELATED_NOT_COVERING",
+          "evidence": "The paper develops local-limit and expectation results, not the exact finite-order complete-multipartite variance extremum.",
+          "identifier_or_url": "https://doi.org/10.1002/rsa.21200",
+          "material_read": "accessible full-text introduction and family/result sections",
+          "method": "open full-text web article",
+          "title": "Greedy maximal independent sets via local limits",
+          "trigger": "general random-greedy MIS theory"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "rationale": "The theorem gives a complete sharp finite-order extremal classification for a natural dense graph family, including uniqueness at every order and a nontrivial asymptotic constant. It is not merely a recomputation of the elementary output law.",
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "independent": true,
+  "limitations": [
+    "The full text of the very recent Shaikh preprint was not accessible during this audit; an unadvertised multipartite calculation remains a limited overlap risk.",
+    "Older random-sequential-adsorption terminology may hide related calculations not surfaced by the searches."
+  ],
+  "record_id": "SCOPE-20260919-9cd73ef8690f",
+  "record_title": "Sharp variance of random greedy maximal independent sets on complete multipartite graphs",
+  "review_type": "independent_audit",
+  "statement": "The final claim was independently reassessed for mathematical correctness, best-of-knowledge originality, and scientific value. This is not formal proof-assistant verification, expert attestation, or a guarantee of first discovery."
+}

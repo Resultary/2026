@@ -1,1 +1,0 @@
-Weibull branching random walk in a supercritical i.i.d. environment has an environment-centered Cox-cluster extremal limit; with the stated translation convention the cluster locations are iota_k + log(upsilon(Y^-) W), yielding the maximum law exp{-a upsilon(Y^-) W e^{-x}}. Deterministic centering is excluded at the a_n scale when log m_0 has nonzero finite variance.

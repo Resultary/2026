@@ -1,3 +1,0 @@
-sympy 1.14.0
-verified cases 402
-failures 0

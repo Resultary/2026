@@ -1,27 +1,111 @@
 {
+  "audited_at_utc": "2026-10-01T10:00:52Z",
   "axes": {
     "correctness": {
-      "rationale": "For the three-square rows, Gauss's class-number formula and genus theory force r_3(n)/8 to be even for every square-free composite in the relevant mod-8 classes, while the source proves oddness for primes. For the x^2+3y^2+5z^2 rows, a sign-orbit parity reduction plus exact representation multiplicities for the discriminants -12 and -60 gives composite evenness, including the separate 3m branch in the modulus-40 row. The result is also checked by exact integer enumeration through 100000, and explicit outside-row counterexamples confirm the scope is not being overgeneralized.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.19085",
+        "https://doi.org/10.1002/9781118400722"
+      ],
+      "rationale": "The proof was reconstructed row by row. For the three-square comparator, Gauss class-number formulas and genus theory yield the required composite evenness of \\(r_3(n)/8\\); the source prime lemmas give oddness at prime indices. For \\(x^2+3y^2+5z^2\\), the sign-orbit reduction and the class groups for discriminants \\(-12\\) and \\(-60\\) give the exact binary-representation parity, including the separate \\(n=3m\\) branch. An independent exact enumeration through 100000 reproduced 29,548 row-membership checks and the outside-row values at 39 and 111.",
+      "residual_risks": [
+        "Finite enumeration is corroborative only; the infinite claim rests on the proof."
+      ],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Im--Shin Proposition 7.1 gives the all-index coefficient congruences, but their parity lemmas and resulting theorem treat prime indices. Classical genus theory and binary-form representation facts supply the ingredients here, but searches found no statement synthesizing them into the prime-indicator parity law on all twelve comparison rows or the resulting one-extra-(1+i) divisibility for every square-free composite. The motivating preprint is extremely recent, so unindexed contemporaneous work remains the main residual risk.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "The source gives the all-index coefficient congruence and prime oddness, not composite parity."
+        ],
+        "reasoning": "The broader comparison framework does not imply the composite statement without the additional genus/binary-form argument.",
+        "searches": [
+          "Im--Shin Section 7, Proposition 7.1, Lemmas 7.2--7.3"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.19085",
+        "https://doi.org/10.1002/9781118400722",
+        "published scientific archive semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "No single inspected prior theorem yields the all-twelve-row prime-indicator identity."
+        ],
+        "reasoning": "The new synthesis is required.",
+        "searches": [
+          "direct implication comparison with the source prime lemmas and classical genus theory"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "No direct prior match other than the audited record was found."
+        ],
+        "reasoning": "The parity identity and its extra \\((1+i)\\)-divisibility formulation were compared as equivalents.",
+        "searches": [
+          "semantic search for Tunnell comparator parity on square-free composites",
+          "search for prime-indicator parity of the two ternary forms"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "The tables define the rows but do not contain the all-square-free theorem."
+        ],
+        "reasoning": "The final claim is quantified over infinitely many indices, not a table lookup.",
+        "searches": [
+          "Im--Shin Tables 8 and 9",
+          "search for tabulated composite parities"
+        ]
+      },
+      "rationale": "The source supplies the prime case and comparison mechanism, but the all-square-free prime-indicator theorem requires an additional genus-theoretic synthesis.",
+      "residual_risks": [
+        "The source is very recent, so concurrent unindexed work remains possible."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "The paper supplies the comparison congruences and prime oddness, not the all-square-free-composite theorem.",
+          "evidence": "The parity lemmas are prime-index statements.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.19085",
+          "material_read": "Relevant full-text Section 7, Proposition 7.1, Lemmas 7.2--7.3, and comparison tables.",
+          "method": "Full-text theorem/table comparison.",
+          "title": "Tunnell-type criteria for variants of the congruent number problem",
+          "trigger": "Same comparators and residue rows."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The theorem identifies a sharp structural limit of the published prime argument: its first mod-(1+i) comparison layer is exactly a primality detector on the relevant square-free progressions and therefore cannot certify any composite nonvanishing there. This rules out a natural extension route and isolates the genuinely new information required for composite results: higher (1+i)-adic data, different comparators, or direct Fourier-coefficient analysis.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.19085"
+      ],
+      "rationale": "The theorem gives a motivated structural boundary for the exact first congruence layer used in a current Tunnell-type method: it proves that the same layer cannot certify composite nonvanishing on the published rows.",
+      "residual_risks": [],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Same-model review: passed. Independent audit: not yet performed.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-18",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disposition": "passed",
+  "historical_review_assessment": {
+    "axes": {
+      "correctness": {
+        "rationale": "For the three-square rows, Gauss's class-number formula and genus theory force \\(r_3(n)/8\\) to be even for every square-free composite in the relevant mod-8 classes, while the source proves oddness for primes. For the \\(x^2+3y^2+5z^2\\) rows, a sign-orbit parity reduction plus exact representation multiplicities for the discriminants -12 and -60 gives composite evenness, including the separate \\(3m\\) branch in the modulus-40 row.",
+        "status": "PASS"
+      },
+      "originality": {
+        "rationale": "The source gives all-index coefficient congruences but its parity lemmas treat prime indices; the earlier review found no statement synthesizing the classical ingredients into the prime-indicator parity law on all twelve rows.",
+        "status": "PASS"
+      },
+      "value": {
+        "rationale": "The theorem identifies a sharp structural limit of the published first mod-(1+i) comparison layer for composite nonvanishing.",
+        "status": "PASS"
+      }
+    },
+    "reviewed_at": "2026-09-18"
+  },
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "policy": "correctness-originality-scientific-value",
+  "previously_published_pending_reaudit": false,
+  "record_id": "SCOPE-20260918-de58697f3e96",
+  "review_type": "independent_audit",
+  "verification_state": "independently_reviewed"
 }

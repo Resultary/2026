@@ -1,27 +1,141 @@
 {
+  "audited_at_utc": "2026-10-01T09:40:58Z",
   "axes": {
     "correctness": {
-      "rationale": "An explicit polynomial map on R^4 has a period-four orbit whose Jacobian cocycle has simple top Lyapunov exponent a>b>0, yet h_{2k}=a and h_{2k+1}=(a+b)/2 exactly. The matrix telescoping, spectral-radius parity formula, singular-value growth, and residue-class transversality calculation are analytic; the compact verification artifact reproduces the identities numerically.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "Assigned RESULT.md and verification artifact at source tree 8c8b9c00b51ced1da9f8c3a57eeddd19523f0c50",
+        "Sornette, Saiprasad and Troude, arXiv:2609.18017v1",
+        "Aoun and Sert, arXiv:1908.07469",
+        "N. Martínez Ramos, arXiv:2507.19624 / IMRN 2026"
+      ],
+      "rationale": "For the polynomial map in the package, the period-four orbit has block Jacobian with fiber steps \\(J_n=Q^{n+1}DQ^{-n}\\). Multiplication telescopes exactly to \\(P_n^{(L)}=Q^{n+L}D^LQ^{-n}\\). Singular values are therefore \\(e^{aL}\\) and \\(e^{bL}\\), giving simple top exponent \\(a\\). For even \\(L\\), \\(Q^L=\\pm I\\) and the spectral rate is \\(a\\); for odd \\(L\\), \\(Q^LD^L\\) has eigenvalue modulus \\(e^{(a+b)L/2}\\). The periodic residue-class formula \\(P_n^{(kp+r)}=A_{n,r}M_n^k\\) gives the stated nonzero left-right endpoint pairing criterion by the dominant rank-one term. Under a moving orthogonal frame, endpoint frames act on opposite sides rather than by similarity, so spectral radius need not be invariant. The inspected numerical artifact reproduces the exact parity identities for \\(a=2,b=1\\).",
+      "residual_risks": [
+        "The exact general-source wording was checked through the source abstract and the frozen cited formula/claim in the assigned package; a later source revision could amend the convergence statement."
+      ],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Qualified to the best of our knowledge and restricted to the source-specific correction. General failure of spectral-radius convergence is prior work, including Aoun-Sert and the literature summarized by Martinez Ramos. No located public correction to arXiv:2609.18017v1 gives this smooth deterministic counterexample or the endpoint-transversality/frame-dependence diagnosis.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "The broad literature provides both positive convergence theorems under extra hypotheses and counterexamples in more general stochastic settings."
+        ],
+        "reasoning": "No general theorem found mechanically yields this explicit smooth period-four source-specific correction; conversely the broad counterexamples do not supply the exact parity construction.",
+        "searches": [
+          "random matrix spectral radius law of large numbers",
+          "strongly irreducible locally constant cocycle spectral radius convergence"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.18017",
+        "https://arxiv.org/abs/1908.07469",
+        "https://arxiv.org/abs/2507.19624",
+        "published-result searches dated through 2026-10-01"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Aoun--Sert do not imply convergence from a simple top exponent in arbitrary cocycles; Martínez Ramos requires strong irreducibility and a specific symbolic setting.",
+          "The source's gap-only justification therefore lacks the hypotheses of the positive theorem, while the assigned smooth example lies directly in the deterministic tangent-map setting."
+        ],
+        "reasoning": "The prior results motivate the correction but do not subsume its exact construction and source-specific mechanism.",
+        "searches": [
+          "Aoun--Sert counterexamples versus deterministic tangent cocycle",
+          "Martínez Ramos convergence theorem versus source's gap-only statement"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Aoun--Sert establish spectral-radius laws for i.i.d. products and discuss failure in more general stationary settings.",
+          "Martínez Ramos proves convergence under strong irreducibility/local-constancy hypotheses rather than under a Lyapunov gap alone."
+        ],
+        "reasoning": "Those prior results show the broad issue, but they do not state the same smooth deterministic tangent-map example or the exact endpoint-pairing criterion.",
+        "searches": [
+          "spectral radius Lyapunov exponent nonconvergence cocycle",
+          "ordered-product growth h_L Sornette Saiprasad Troude",
+          "periodic cocycle spectral transversality"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "The corpus returns the assigned 2026-09-18 record; closely related smooth parity examples are dated 2026-09-19 and 2026-09-20."
+        ],
+        "reasoning": "No standard numerical table is relevant; the exact-corpus comparison establishes that the nearby explicit constructions found are later.",
+        "searches": [
+          "published mathematical corpus for ordered-product spectral-rate nonconvergence"
+        ]
+      },
+      "rationale": "General nonconvergence of normalized spectral radius is known, so that broad phenomenon is explicitly excluded from the originality claim. Searches found no earlier source-specific smooth deterministic period-four counterexample with the exact parity law, endpoint-transversality diagnosis, and moving-frame interpretation directed at the 2026 ordered-product diagnostic.",
+      "residual_risks": [
+        "The source preprint is very recent and may revise its theoretical statement.",
+        "Broad spectral-radius nonconvergence is prior mathematics and is not part of the novelty claim."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Provides the target statement; no counterexample is stated there.",
+          "evidence": "The abstract introduces ordered-product growth as the finite composition diagnostic.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.18017",
+          "material_read": "Primary abstract and the exact diagnostic/convergence claim as frozen in the assigned source comparison.",
+          "method": "Direct arXiv lookup and claim-level comparison.",
+          "title": "A New Route to Chaos through the Geometric Composition of Non-Normal Amplification",
+          "trigger": "Exact diagnostic and asymptotic interpretation being corrected."
+        },
+        {
+          "assessment": "Establishes broad prior art for spectral-radius asymptotics, so broad nonconvergence is not claimed as novel.",
+          "evidence": "The paper proves spectral-radius laws for i.i.d. random products and motivates the distinction from general stationary products.",
+          "identifier_or_url": "https://arxiv.org/abs/1908.07469",
+          "material_read": "Primary abstract and accessible result discussion.",
+          "method": "Direct primary-source lookup.",
+          "title": "Law of large numbers for the spectral radius of random matrix products",
+          "trigger": "Prior general theory and known failure outside the i.i.d. setting."
+        },
+        {
+          "assessment": "Requires strong irreducibility/local constancy; does not support the source's gap-only implication.",
+          "evidence": "The theorem proves convergence under additional structural hypotheses.",
+          "identifier_or_url": "https://arxiv.org/abs/2507.19624",
+          "material_read": "Primary abstract and theorem summary.",
+          "method": "Direct primary-source lookup.",
+          "title": "Asymptotic behavior of the spectral radius of locally constant strongly irreducible cocycles",
+          "trigger": "Closest positive convergence theorem for cocycles."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The source uses h_L as an interpolation toward Lyapunov growth and invokes the Lyapunov gap as the alignment scale. The counterexample shows that this implication does not follow from a non-degenerate top exponent, while also identifying a concrete condition that restores convergence on periodic residue classes and preserving the distinction between the source's empirical finite-L observations and the invalid general theorem claim.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "source ordered-product diagnostic",
+        "Aoun--Sert spectral-radius theory",
+        "Martínez Ramos convergence theorem"
+      ],
+      "rationale": "The result supplies a concrete smooth counterexample to a currently used asymptotic interpretation, separates spectral-radius growth from Oseledets singular-direction growth, and identifies an exact endpoint-pairing mechanism that explains when periodic residue classes recover the Lyapunov exponent. That is a motivated correction with reusable structural content.",
+      "residual_risks": [
+        "The correction does not invalidate the source's empirical observations on its specific Hénon and Ikeda data."
+      ],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-18",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disclaimer": "This evidence-based scientific review is not peer review and is not a guarantee of first discovery.",
+  "disposition": "passed",
+  "evidence": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "final_claim": "A smooth deterministic period-four Jacobian cocycle with a simple top Lyapunov exponent can have ordered-product spectral rate \\(h_{2k}=a\\) and \\(h_{2k+1}=(a+b)/2\\), so a Lyapunov gap alone does not force the spectral-radius diagnostic in arXiv:2609.18017v1 to converge. For periodic cocycles, a nonzero endpoint pairing supplies a sufficient residue-class convergence condition, and the example also shows finite-horizon spectral radius is moving-frame dependent.",
+  "historical_review_evidence": {
+    "correctness": {
+      "rationale": "The earlier scientific review accepted the exact telescoping cocycle and parity law.",
+      "status": "PASS"
+    },
+    "originality": {
+      "rationale": "The earlier scientific review restricted novelty to the source-specific smooth counterexample and mechanism.",
+      "status": "PASS"
+    },
+    "value": {
+      "rationale": "The earlier scientific review found the correction to the ordered-product interpretation substantive.",
+      "status": "PASS"
+    }
+  },
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "previously_published_pending_reaudit": false,
+  "verification_state": "independently_reviewed"
 }

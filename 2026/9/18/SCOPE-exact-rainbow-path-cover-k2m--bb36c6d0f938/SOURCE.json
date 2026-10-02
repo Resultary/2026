@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/18/SCOPE-exact-rainbow-path-cover-k2m--bb36c6d0f938",
   "resultary_record_key": "SCOPE-exact-rainbow-path-cover-k2m--bb36c6d0f938",
-  "source_commit": "a7cc69d784246a36eca421019db9c279a2c15a0e",
-  "source_commit_time": "2026-09-30T19:52:54Z",
+  "source_commit": "b8da863522d37d80417347f4ead7fd44f394761e",
+  "source_commit_time": "2026-10-02T09:03:36Z",
   "source_path": "2026/09/18/exact-rainbow-path-cover-k2m--bb36c6d0f938",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260918-bb36c6d0f938",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-01T08:22:11Z",
+  "synced_at": "2026-10-02T09:07:02Z",
   "time_standard": "UTC"
 }

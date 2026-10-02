@@ -1,0 +1,120 @@
+{
+  "audited_at_utc": "2026-10-01T19:12:08.377982Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "assigned RESULT.md",
+        "Beatson-zu Castell-Xu arXiv:1110.2437v1 full HTML",
+        "Lu, Journal of Approximation Theory 306 (2025) 106120 full PDF",
+        "Xu, Proc. AMS 146 (2018)"
+      ],
+      "rationale": "For every real \\(\\lambda>0\\), the Gegenbauer product formula defines the continuous hypergroup used in the cap convolution. The two-variable change of coordinates gives the cap self-convolution profile proportional to \\(\\int_{r/2}^{\\beta}(\\tan^2\\beta-\\tan^2 u)^\\lambda\\,du\\); its Gegenbauer coefficients are squares of cap coefficients and are positive except at finitely many cap radii. Lu's Lemma 3.3 is explicitly stated for arbitrary real \\(\\lambda>0\\) and supplies the required positive-mixture transfer for \\(0<\\beta<\\pi/2\\), while its complete-monotonicity part handles the endpoint regime. Full-support positive mixtures therefore give strict positivity of every boundary coefficient, and the beta convolution in the exponent extends it to every \\(\\delta>\\lambda+1\\).",
+      "residual_risks": [
+        "The proof imports Lu's complete-monotonicity lemmas rather than reproving their analytic derivative calculations from first principles; those lemmas were inspected in the primary full text."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Xu assumes \\(\u0007lpha,\beta\\in\\mathbb N_0\\).",
+          "Lu proves sphere theorems indexed by integer dimension but Lemma 3.3 itself is valid for arbitrary real positive exponent."
+        ],
+        "reasoning": "These papers provide discrete cases and analytic tools, not the continuous real Gegenbauer-parameter conclusion.",
+        "searches": [
+          "Xu, Positive definite functions on the unit sphere and integrals of Jacobi polynomials, DOI 10.1090/proc/13913",
+          "Lu, Strictly positive definite functions on spheres, JAT 306 (2025) 106120"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/html/1110.2437v1",
+        "https://doi.org/10.1090/proc/13913",
+        "https://doi.org/10.1016/j.jat.2024.106120",
+        "Resultary semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Xu's integer-parameter theorem cannot be interpolated to arbitrary Gegenbauer parameter by continuity because strict coefficient positivity is an infinite family of inequalities.",
+          "Lu's mixture lemmas require the audited continuous Gegenbauer hypergroup cap-convolution identity to transfer positivity at nonintegral \\(\\lambda\\)."
+        ],
+        "reasoning": "The final claim needs a new continuous-hypergroup convolution step and is not mechanically implied by either discrete theorem.",
+        "searches": [
+          "Compared the final theorem to Beatson Conjecture 1.4, Xu 2018, and Lu Theorem 3.5 / Lemma 3.3"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Conjecture 1.4 is exactly the same integral and literal real-parameter range, but it is posed as a conjecture; the paper states that only the sphere-relevant discrete parameters were needed."
+        ],
+        "reasoning": "The assigned theorem proves the sufficiency half of the literal all-real conjecture rather than renaming an established discrete-dimensional result.",
+        "searches": [
+          "Resultary semantic query: Gegenbauer Polya integral all real lambda boundary delta=lambda+1 continuous parameter positivity",
+          "Beatson-zu Castell-Xu Conjecture 1.4, arXiv:1110.2437v1"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "Only the assigned record was returned as an exact all-real boundary theorem; nearby hits concerned other ultraspherical questions."
+        ],
+        "reasoning": "No prior theorem table or database entry supplied the continuous parameter conclusion.",
+        "searches": [
+          "Resultary exact semantic search on \\(F_n^{\\lambda,\\lambda+1}\\), all real \\(\\lambda>0\\), and boundary positivity"
+        ]
+      },
+      "rationale": "Beatson–zu Castell–Xu explicitly formulate Conjecture 1.4 for arbitrary real \\(\\lambda>0\\), explicitly note that this is more general than their integer-dimensional sphere application, and prove only selected low-dimensional cases. Xu's 2018 theorem assumes integer Jacobi parameters. Lu's 2025 theorem is stated on ordinary spheres, so its spectral Gegenbauer parameter remains tied to integer dimension, even though the positive-mixture lemmas used here hold for real exponents. No inspected source states the literal continuous-real boundary theorem.",
+      "residual_risks": [
+        "A hypergroup-literature formulation equivalent to the all-real coefficient theorem could be poorly indexed, but the main conjecture paper, later Jacobi theorem, and modern positive-mixture paper were directly compared."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "OPEN_PROBLEM_SOURCE",
+          "evidence": "It states the all-real if-and-only-if conjecture and proves only selected low-dimensional cases.",
+          "identifier_or_url": "https://arxiv.org/html/1110.2437v1",
+          "material_read": "Full HTML around Theorem 1.3, Conjecture 1.4, and its note on greater generality.",
+          "method": "Primary arXiv full text.",
+          "title": "A Pólya criterion for (strict) positive definiteness on the sphere",
+          "trigger": "Original conjecture with the identical Gegenbauer integral."
+        },
+        {
+          "assessment": "NOT_COVERING",
+          "evidence": "Its theorem assumes nonnegative integer Jacobi parameters, so it does not cover arbitrary real Gegenbauer \\(\\lambda\\).",
+          "identifier_or_url": "https://doi.org/10.1090/proc/13913",
+          "material_read": "Primary theorem statement and parameter hypotheses.",
+          "method": "Primary journal HTML.",
+          "title": "Positive definite functions on the unit sphere and integrals of Jacobi polynomials",
+          "trigger": "Later paper often described as proving the Pólya conjecture."
+        },
+        {
+          "assessment": "COVERING_INGREDIENT",
+          "evidence": "The mixture lemmas hold for real positive exponents, but the main sphere theorem remains dimension-indexed and does not state the all-real Gegenbauer coefficient theorem.",
+          "identifier_or_url": "https://doi.org/10.1016/j.jat.2024.106120",
+          "material_read": "Full primary PDF, especially Lemmas 3.3-3.4 and Theorem 3.5.",
+          "method": "Primary author-hosted/journal PDF.",
+          "title": "Strictly positive definite functions on spheres",
+          "trigger": "Closest modern truncated-power positivity theorem and source of the mixture lemmas."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "https://arxiv.org/html/1110.2437v1",
+        "https://doi.org/10.1016/j.jat.2024.106120"
+      ],
+      "rationale": "The result settles the sufficiency boundary for the literal continuous-parameter version of a published conjecture and supplies a reusable hypergroup cap-convolution identity. This is a motivated analytic gap, not an arbitrary interpolation between integer dimensions.",
+      "residual_risks": [
+        "The necessity direction for \\(\\delta<\\lambda+1\\) remains open in the record."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "limitations": [
+    "The theorem proves the boundary and \\(\\delta\\ge\\lambda+1\\) sufficiency direction only; necessity below the boundary is not established.",
+    "The novelty is the continuous real Gegenbauer-parameter extension, not the previously known integer-dimensional sphere cases.",
+    "The proof legitimately imports Lu's positive-mixture lemmas."
+  ],
+  "record_id": "SCOPE-20260920-107c9b8148b4",
+  "record_title": "Boundary positivity for the Gegenbauer Pólya integral at every real parameter",
+  "schema_version": 1
+}

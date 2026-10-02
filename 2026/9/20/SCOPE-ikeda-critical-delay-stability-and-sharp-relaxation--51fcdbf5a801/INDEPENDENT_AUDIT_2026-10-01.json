@@ -1,0 +1,93 @@
+{
+  "audited_at_utc": "2026-10-01T18:48:48Z",
+  "axes": {
+    "correctness": {
+      "rationale": "PASS. For \\(0<\\mu<1\\), the scalar inequality \\(|\\sin u|\\le|u|\\) yields a Halanay estimate and global exponential decay. At \\(\\mu=1\\), direct differentiation of the stated Lyapunov–Krasovskii functional gives exactly \\(-\\tfrac12(x-\\sin y)^2-\\tfrac12(y^2-\\sin^2y)\\), so the largest invariant zero-dissipation set is the zero solution and global attraction follows. For \\(\\mu>1\\), the real characteristic equation has a positive root. At criticality the characteristic root \\(0\\) is simple, with center coordinate \\(u=Q/(1+h)\\) and \\(Q'=\\sin x(t-h)-x(t-h)\\); the odd center-manifold expansion therefore gives \\(u'=-u^3/(6(1+h))+O(u^5)\\), hence generic \\(\\sqrt t\\,x(t)\\to\\pm\\sqrt{3(1+h)}\\). The statement correctly separates the strong-stable exceptional set.",
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The 2020 source's public abstract studies bifurcations and normal forms near special equilibria; accessible earlier Ikeda literature concerns local stability and periodic/chaotic bifurcations."
+        ],
+        "reasoning": "No inspected theorem mechanically implies the global endpoint attraction and the stated asymptotic amplitude.",
+        "searches": [
+          "DOI 10.20537/nd200303",
+          "DOI 10.20537/nd180302",
+          "DOI 10.1103/PhysRevA.33.2465"
+        ]
+      },
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Accessible prior material does not state the exact global threshold or the generic \\(t^{-1/2}\\) coefficient."
+        ],
+        "reasoning": "The audited Lyapunov–Krasovskii identity supplies the global endpoint step, and the normalized center coordinate supplies the quantitative relaxation law.",
+        "searches": [
+          "Kubyshkin–Moriakova 2020 article page and abstract",
+          "targeted search for scalar delay \\(x'=-x+\\sin x_h\\) global stability"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "No earlier exact published record with the threshold plus critical relaxation coefficient was found."
+        ],
+        "reasoning": "The Lyapunov identity and the center-manifold coefficient are equivalent formulations of the critical boundary behavior, and no inspected source states both.",
+        "searches": [
+          "Resultary: Ikeda critical delay mu=1 global asymptotic stability sharp algebraic relaxation",
+          "\"x'(t) = -x(t) + sin(x(t-h))\" global asymptotic stability",
+          "\"Ikeda equation\" \"mu=1\" stability zero equilibrium delay"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No exact earlier record or data table was located."
+        ],
+        "reasoning": "The claim is a dynamical asymptotic theorem rather than a tabulated quantity.",
+        "searches": [
+          "Published-record semantic search for zero-phase Ikeda critical decay \\(\\sqrt{3(1+h)}\\)"
+        ]
+      },
+      "rationale": "PASS to the best of current knowledge. Published-record searches found no earlier result combining the exact delay-independent threshold, a global proof at the nonhyperbolic endpoint, and the sharp critical coefficient. Kubyshkin–Moriakova's 2020 Ikeda paper is the closest source located: its full public abstract describes local normal-form bifurcation analysis of special Ikeda cases and resonant characteristic roots, not a global critical-stability theorem. The public PDF link timed out, and a lawful institutional retrieval found no verified PDF, so the unread full text remains a material originality risk rather than evidence of noncoverage.",
+      "status": "PASS"
+    },
+    "value": {
+      "rationale": "PASS. Closing the stability boundary at the nonhyperbolic endpoint and identifying the exact \\(t^{-1/2}\\) relaxation amplitude are natural dynamical questions for a standard delay equation. The result distinguishes global attraction from exponential stability and supplies a quantitative critical-slowing law useful for numerical and bifurcation interpretation.",
+      "status": "PASS"
+    }
+  },
+  "checked_sources": [
+    "Complete frozen/current Git package.",
+    "Independent Halanay, Lyapunov–Krasovskii, characteristic-root, and center-coordinate calculations.",
+    "Published-record search and targeted exact-equation web searches.",
+    "Public source page and abstract for the closest 2020 same-equation paper."
+  ],
+  "disposition": "passed",
+  "limitations": "The theorem is restricted to the zero-phase scalar Ikeda equation. The sharp algebraic law describes generic critical trajectories; for positive delay the strong-stable set is exceptional and decays faster. No classification of the supercritical recurrent dynamics is claimed.",
+  "record_id": "SCOPE-20260920-51fcdbf5a801",
+  "record_title": "Ikeda critical delay stability and sharp relaxation law",
+  "residual_risks": [
+    "The complete 2020 Kubyshkin–Moriakova article could not be read in verified full text and is the principal originality risk.",
+    "General scalar-delay stability theory is broad, so an equivalent endpoint theorem under abstract feedback hypotheses may exist under different terminology."
+  ],
+  "schema_version": 1,
+  "source_inspections": [
+    {
+      "assessment": "INACCESSIBLE_PLAUSIBLE_PRIOR_SOURCE",
+      "evidence": "The abstract describes local bifurcation normal forms, resonant characteristic roots, and multistability, but does not expose the audited global endpoint theorem or critical amplitude.",
+      "identifier_or_url": "https://doi.org/10.20537/nd200303",
+      "material_read": "Complete public article page and abstract; the public full-text link timed out and no verified PDF was obtained through lawful institutional access.",
+      "method": "Primary-source inspection plus lawful full-text retrieval attempts.",
+      "title": "Analysis of Special Cases in the Study of Bifurcations of Periodic Solutions of the Ikeda Equation",
+      "trigger": "Closest same-equation normal-form study at special bifurcation cases."
+    },
+    {
+      "assessment": "BACKGROUND_LOCAL_BIFURCATION_SOURCE",
+      "evidence": "It concerns periodic-solution bifurcations and chaotic multistability rather than a global zero-equilibrium threshold theorem.",
+      "identifier_or_url": "https://doi.org/10.20537/nd180302",
+      "material_read": "Bibliographic and indexed abstract material.",
+      "method": "Targeted primary-literature search.",
+      "title": "Features of Bifurcations of Periodic Solutions of the Ikeda Equation",
+      "trigger": "Earlier same-equation bifurcation analysis."
+    }
+  ]
+}

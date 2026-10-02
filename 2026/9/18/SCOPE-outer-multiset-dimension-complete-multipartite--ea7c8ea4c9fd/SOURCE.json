@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/18/SCOPE-outer-multiset-dimension-complete-multipartite--ea7c8ea4c9fd",
   "resultary_record_key": "SCOPE-outer-multiset-dimension-complete-multipartite--ea7c8ea4c9fd",
-  "source_commit": "a7cc69d784246a36eca421019db9c279a2c15a0e",
-  "source_commit_time": "2026-09-30T19:52:54Z",
+  "source_commit": "f41ebe4248966b64f15d3a8af289a9b59a0b1c68",
+  "source_commit_time": "2026-10-02T09:03:37Z",
   "source_path": "2026/09/18/outer-multiset-dimension-complete-multipartite--ea7c8ea4c9fd",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260918-ea7c8ea4c9fd",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-01T08:22:11Z",
+  "synced_at": "2026-10-02T09:07:02Z",
   "time_standard": "UTC"
 }

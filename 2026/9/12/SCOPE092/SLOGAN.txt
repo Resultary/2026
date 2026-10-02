@@ -1,1 +1,0 @@
-On y^2=x^3+1, exact group law gives U=(2,3) order 6 and 3U=(-1,0); high-precision elliptic-dilogarithm numerics strongly reject the proposed 1/12 factor and suggest -4/27, but neither comparison is certified as an exact identity without rigorous error bounds.

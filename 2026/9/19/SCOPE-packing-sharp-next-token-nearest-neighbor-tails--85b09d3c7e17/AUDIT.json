@@ -1,34 +1,128 @@
 {
-  "correctness": {
-    "status": "PASS",
-    "summary": "The source nearest-neighbor deletion-stability argument is metric rather than order-specific. For replace-one stability, changed local indicators split into two opposite-sign classes, each a strict delta-packing in one radius-delta ball; cancellation yields B_f <= kappa+1. Radial projection identifies Euclidean kappa with the strict kissing number, and a tau=1 construction attains kappa+1, proving exact Euclidean sharpness. Substitution into the source general theorem yields the stated MSE bound and improves the real-line coefficient."
+  "audited_at_utc": "2026-10-01T14:46:33Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "M. Nakul, V. Muthukumar, A. Pananjady, Next-token functional estimation, arXiv:2609.19529v1 (2026), full text inspected including Corollary 3, Lemma 6 and Discussion",
+        "Classical nearest-neighbor graph/Stone-lemma packing literature linking Euclidean indegree to kissing-number bounds",
+        "Published-record semantic search for high-dimensional nearest-neighbor tail stability"
+      ],
+      "rationale": "The source proof was checked in full: it bounds the number of changed local indicators by 5 on the line via two type sets. The audited refinement keeps their signs. For j≠k, changes split into two opposite-sign classes A and B; each class is a strict delta-packing in a closed radius-delta ball because for j<j' the one-sided window puts j in I_{j'}\\{k}. Hence |A|,|B|≤kappa, while their contributions subtract, giving | |B|-|A| | plus at most one from index k, so B_f≤kappa+1. The deletion-stability argument from the source is metric and remains tau/n. Substitution in the source general theorem gives the displayed MSE. Radial projection proves Euclidean kappa equals the strict kissing number, and the tau=1 kissing configuration gives the matching lower sensitivity. The doubling bound is immediate from a radius-half cover.",
+      "residual_risks": [
+        "The exact lower bound concerns this estimator's replace-one sensitivity, not minimax risk."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The source theorem is one-dimensional with B_f=5; its Discussion explicitly asks for high dimensions.",
+          "Classical bounds control how many points can share a nearest neighbor but do not by themselves produce the opposite-sign cancellation bound."
+        ],
+        "reasoning": "No stronger inspected theorem mechanically implies the exact dependent-data MSE refinement.",
+        "searches": [
+          "Full text of arXiv:2609.19529",
+          "Classical nearest-neighbor graph packing literature"
+        ]
+      },
+      "checked_sources": [
+        "M. Nakul, V. Muthukumar, A. Pananjady, Next-token functional estimation, arXiv:2609.19529v1 (2026), full text inspected including Corollary 3, Lemma 6 and Discussion",
+        "Classical nearest-neighbor graph/Stone-lemma packing literature linking Euclidean indegree to kissing-number bounds",
+        "Published-record semantic search for high-dimensional nearest-neighbor tail stability"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Source Lemma 6 uses V≤1+|T_a|+|T_b| and obtains 5 in one dimension; the audited argument replaces union counting by signed cancellation and then generalizes the geometric packing."
+        ],
+        "reasoning": "The new conclusion requires an additional cancellation observation not present in the source proof.",
+        "searches": [
+          "Source Lemma 6 versus audited A/B decomposition"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Only the assigned exact-topic finding appeared in the published-record search.",
+          "Older nearest-neighbor literature confirms kissing-number indegree/packing control but not the audited estimator identity."
+        ],
+        "reasoning": "Equivalent formulations include signed sensitivity of the leave-a-window-out novelty indicator and local strict-packing control of changed witnesses.",
+        "searches": [
+          "Published-record semantic search for packing-sharp next-token nearest-neighbor tails",
+          "Web searches for nearest-neighbor replace-one stability and kissing numbers"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No distinct exact prior theorem or database entry was located."
+        ],
+        "reasoning": "Absence is used only as best-of-knowledge evidence.",
+        "searches": [
+          "Exact kappa+1 leave-window sensitivity",
+          "strict kissing number plus one bounded differences"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality passes for the signed-cancellation stability theorem and its dependent-data high-dimensional consequence. The primary source explicitly restricts the nearest-neighbor result to X⊂R, proves B_f=5, and lists the high-dimensional extension as an open question. Classical nearest-neighbor theory supplies packing/kissing bounds, but no inspected source combines them with this one-sided-window signed cancellation or proves the exact kappa+1 sensitivity here.",
+      "residual_risks": [
+        "Classical nearest-neighbor geometry contains closely related packing and indegree lemmas; no inspected source was found with the same signed-cancellation leave-a-window-out sensitivity theorem.",
+        "Exact strict kissing numbers are unknown in many dimensions; the theorem does not claim their numerical values there."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Provides the general framework and B_f=5 line proof, and explicitly leaves high dimensions open; does not contain the signed kappa+1 result.",
+          "evidence": "Lemma 6 counts two changed-index sets separately; Discussion asks whether the nearest-neighbor functional can be studied in high dimensions.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.19529",
+          "material_read": "Full relevant primary text: Theorem 1, Corollary 3, Appendix A.4/Lemma 6, and Discussion",
+          "method": "Full-text primary-source inspection",
+          "title": "Next-token functional estimation",
+          "trigger": "Exact estimator, MSE theorem and one-dimensional nearest-neighbor corollary"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "M. Nakul, V. Muthukumar, A. Pananjady, Next-token functional estimation, arXiv:2609.19529v1 (2026), full text inspected including Corollary 3, Lemma 6 and Discussion",
+        "Classical nearest-neighbor graph/Stone-lemma packing literature linking Euclidean indegree to kissing-number bounds",
+        "Published-record semantic search for high-dimensional nearest-neighbor tail stability"
+      ],
+      "rationale": "The theorem answers an explicit high-dimensional question in the primary paper, improves the already-published one-dimensional constant from 5 to the exact 3, and identifies a natural geometric invariant controlling dependent-data risk. The exact Euclidean lower construction also shows the dimension dependence is intrinsic to this estimator.",
+      "residual_risks": [
+        "Classical nearest-neighbor geometry contains closely related packing and indegree lemmas; no inspected source was found with the same signed-cancellation leave-a-window-out sensitivity theorem.",
+        "Exact strict kissing numbers are unknown in many dimensions; the theorem does not claim their numerical values there."
+      ],
+      "status": "PASS"
+    }
   },
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "limitations": [
-    "The result inherits stationarity, beta-mixing and Martonizability assumptions from the source framework.",
-    "Finite local strict packing is required for an n-independent bounded-differences constant.",
-    "The lower bound concerns this estimator's replace-one stability, not minimax statistical risk over all estimators.",
-    "The crude Euclidean 3^d upper bound is not claimed sharp and exact strict kissing numbers are unknown in many dimensions.",
-    "Older nearest-neighbor stability literature remains a residual originality risk.",
-    "Independent audit has not been performed."
+  "disposition": "passed",
+  "evidence": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
   ],
-  "originality": {
-    "scope": "to the best of our knowledge",
-    "status": "PASS",
-    "summary": "The 2026 source paper proves the real-line result with B_f=5 and explicitly asks about high dimensions. Classical nearest-neighbor theory already uses packing and dimension arguments, so novelty is restricted to the signed-cancellation stability bound, its exact Euclidean sharpness, the 5-to-3 one-dimensional improvement, and the resulting dependent-data metric/doubling-space extension. Older Stone-lemma and nearest-neighbor stability literature remains a material residual risk."
-  },
-  "phase": "II",
-  "previously_published_pending_reaudit": true,
+  "final_claim": "For the leave-a-window-out nearest-neighbor tail estimator on any metric space with finite local strict packing number, replace-one sensitivity is at most (kappa+1)/n; in Euclidean space the optimal constant is strict-kissing-number plus one, yielding the stated high-dimensional dependent-data MSE bound.",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": "The result inherits the source stationarity, beta-mixing and Martonizability assumptions; the lower bound is estimator-specific; exact strict kissing numbers are unknown in many dimensions.",
+  "previously_published_pending_reaudit": false,
   "record_id": "SCOPE-20260919-85b09d3c7e17",
-  "review_statement": "Same-model review: passed. Independent audit: not yet performed.",
-  "review_type": "same_model_review",
-  "same_model_review_status": "passed",
-  "scope_run_id": "de1872eb-ccbb-4e93-b372-8eef60f5264c",
-  "value": {
-    "status": "PASS",
-    "summary": "The result answers an explicit high-dimensional question from a current paper, strictly improves its existing one-dimensional constant, and shows via an exact geometric lower construction that dimension dependence is intrinsic to this estimator rather than only a proof artifact."
+  "review_type": "independent_audit",
+  "same_model_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "The original review accepted the signed packing bound, Euclidean sharpness and source-theorem substitution.",
+        "verdict": "PASS"
+      },
+      "originality": {
+        "rationale": "The original review limited novelty to signed cancellation, exact sharpness and the dependent-data extension.",
+        "verdict": "PASS"
+      },
+      "value": {
+        "rationale": "The original review valued the explicit high-dimensional extension and one-dimensional improvement.",
+        "verdict": "PASS"
+      }
+    },
+    "reviewed_at": "2026-09-19",
+    "status": "passed"
   },
-  "verification_state": "awaiting_fresh_independent_audit"
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

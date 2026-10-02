@@ -1,27 +1,116 @@
 {
+  "audited_at_utc": "2026-10-01T06:49:30Z",
   "axes": {
     "correctness": {
-      "rationale": "Karagulyan's logarithmic finite trigonometric maximal lower bound is transferred through Lewko's two-copy prescribed-pattern embedding after replacing the qualitative progression-free estimate by Gowers' explicit quantitative Szemeredi bound. The coloring entropy estimate yields a five-fold exponential size bound in the pattern length, arithmetic-progression modulation/dilation preserves the maximal-sum distribution, and padding extends the construction to every larger N, giving G(N) >= c log_(6) N.",
-      "verdict": "PASS"
+      "rationale": "The proof was reconstructed through the finite coloring estimate, the balanced-coloring averaging step, the quantitative progression bound, and the two-copy Fourier transfer. With \\(K=m^2\\), the bad-coloring exponent is \\(2\\log(m-1)-\\log K=2\\log(1-1/m)\\), while the chosen progression-free density makes the deletion entropy negligible compared with \\(1/m\\). Gowers' stated quantitative scale is five exponentials in \\(m\\); Karagulyan supplies a \\(c\\log m\\) finite trigonometric obstruction; the arithmetic-progression modulation/dilation and the two-copy restriction preserve that obstruction up to an absolute factor. Inverting the five-fold scale yields \\(G(N)\\gtrsim\\log_{(6)}N\\). A later, independently packaged 2026-09-20 derivation gives the same rate with more explicit constants and is consistent with these steps.",
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Qualified to the best of our knowledge. Lewko's September 2026 paper explicitly states that its proof gives no useful N-versus-H dependence and that the true finite growth rate is unknown. Searches around the new theorem, quantitative Garsia/Kolmogorov rearrangement bounds, Karagulyan's lower bound, and quantitative Szemeredi estimates found no prior extraction of this explicit iterated-log rate.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "Lewko states the qualitative two-copy construction and prescribed-pattern lemma; Karagulyan advertises a sharp logarithmic finite maximal lower bound; Gowers is the quantitative progression input; Bourgain supplies the known upper bound."
+        ],
+        "reasoning": "The audited theorem requires quantitative bookkeeping through Lewko’s counting argument and inversion of the resulting scale; it is not a stated special case of any single broader theorem inspected.",
+        "searches": [
+          "Mark Lewko, arXiv:2609.18491",
+          "G. A. Karagulyan, arXiv:2004.01003",
+          "W. T. Gowers, GAFA 11 (2001)",
+          "J. Bourgain, LNM 1376 (1989)"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.18491",
+        "https://arxiv.org/abs/2004.01003",
+        "https://doi.org/10.1007/s00039-001-0332-9",
+        "https://doi.org/10.1007/BFb0090057",
+        "Published SCOPE record dated 2026-09-20: quantitative-garsia-rearrangement-constant--4185b4e0fd93"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The ingredients jointly support a route to the result, but deriving the stated rate requires inserting an explicit density bound into Lewko’s exceptional-coloring estimate and controlling the balanced-coloring entropy before inverting a five-fold exponential scale."
+        ],
+        "reasoning": "The final quantitative theorem is a nontrivial synthesis of prior ingredients rather than a direct corollary already stated with the needed dependence.",
+        "searches": [
+          "Direct implication comparison: Lewko qualitative permutation embedding + Karagulyan logarithmic obstruction + Gowers quantitative Szemeredi"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The exact 2026-09-17 record and a later 2026-09-20 six-logarithm SCOPE formulation were found; no earlier equivalent theorem was located."
+        ],
+        "reasoning": "The later formulation changes notation and constants but states the same asymptotic rate; chronology makes it later duplication rather than prior coverage.",
+        "searches": [
+          "Published-record semantic search: explicit quantitative divergence rate finite Garsia rearrangement constant iterated logarithm Lewko Karagulyan Szemeredi",
+          "Web search: Lewko Garsia rearrangement quantitative lower bound iterated logarithm"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "A later 2026-09-20 SCOPE record states the same rate; no pre-2026-09-17 database/table entry with the theorem was found."
+        ],
+        "reasoning": "This is a theorem about an extremal operator constant, not a table lookup; the only exact record match found is later.",
+        "searches": [
+          "Published-record semantic search for Garsia six-logarithm lower bounds"
+        ]
+      },
+      "rationale": "Lewko supplies the qualitative two-copy pattern mechanism, Karagulyan the logarithmic finite Fourier obstruction, Gowers a quantitative Szemeredi bound, and Bourgain the upper bound; none of those inspected statements gives the six-fold iterated-log finite Garsia rate. A published-record search located a later 2026-09-20 SCOPE record with essentially the same six-logarithm theorem, but it postdates this 2026-09-17 record and therefore does not establish prior coverage of the audited claim.",
+      "residual_risks": [
+        "Lewko and the audited claim are extremely recent; unindexed contemporaneous observations may exist.",
+        "Lewko full PDF was not accessible through the available route, although the critical finite counting was reconstructed from the package and cross-checked against the later explicit derivation."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "INPUT_NOT_EXACT_RATE",
+          "evidence": "The abstract describes the qualitative construction and its use of Szemeredi plus counting, not a finite six-logarithm rate.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.18491",
+          "material_read": "Current arXiv abstract and theorem-level description of the two-copy trigonometric construction and prescribed-pattern lemma; direct PDF access was unavailable.",
+          "method": "Lawful arXiv abstract inspection.",
+          "title": "On Kolmogorov's rearrangement problem and Garsia's conjecture",
+          "trigger": "Primary source for the two-copy permutation-pattern mechanism."
+        },
+        {
+          "assessment": "INPUT_NOT_COMBINED_THEOREM",
+          "evidence": "It supplies the logarithmic obstruction but not the two-copy Garsia growth theorem.",
+          "identifier_or_url": "https://arxiv.org/abs/2004.01003",
+          "material_read": "ArXiv abstract describing the sharp logarithmic L2 lower bound for the rearranged trigonometric majorant operator.",
+          "method": "Lawful arXiv abstract inspection.",
+          "title": "On Weyl multipliers of the rearranged trigonometric system",
+          "trigger": "Primary source for the finite logarithmic Fourier obstruction."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result converts the new qualitative disproof of Garsia's conjecture into an explicit universal divergence rate and identifies the quantitative arithmetic-progression input as a direct bottleneck for stronger lower bounds.",
-      "verdict": "PASS"
+      "rationale": "Turning a new qualitative divergence theorem into the first explicit universal growth rate for the finite Garsia constant is mathematically substantive: it identifies an arithmetic-combinatorial bottleneck and yields a reusable quantitative benchmark even though the rate is far from sharp.",
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, formal verification, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-17T21:19:54Z",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disposition": "passed",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": "The lower rate is asymptotic with an enormous threshold and is not claimed sharp. The audit could inspect Lewko's current arXiv abstract but the arXiv PDF route was unavailable; the decisive finite counting argument was therefore reconstructed from the record itself and cross-checked against the later explicit 2026-09-20 derivation. Contemporaneous work on the very recent Lewko preprint remains the main originality risk.",
+  "record_id": "SCOPE-20260917-7325492acf77",
+  "review_type": "independent_audit",
+  "same_model_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "Karagulyan's logarithmic finite trigonometric maximal lower bound is transferred through Lewko's two-copy prescribed-pattern embedding after replacing the qualitative progression-free estimate by Gowers' explicit quantitative Szemeredi bound. The coloring entropy estimate yields a five-fold exponential size bound in the pattern length, arithmetic-progression modulation/dilation preserves the maximal-sum distribution, and padding extends the construction to every larger N, giving G(N) >= c log_(6) N.",
+        "status": "PASS"
+      },
+      "originality": {
+        "rationale": "Qualified to the best of our knowledge. Lewko's September 2026 paper explicitly states that its proof gives no useful N-versus-H dependence and that the true finite growth rate is unknown. Searches around the new theorem, quantitative Garsia/Kolmogorov rearrangement bounds, Karagulyan's lower bound, and quantitative Szemeredi estimates found no prior extraction of this explicit iterated-log rate.",
+        "status": "PASS"
+      },
+      "value": {
+        "rationale": "The result converts the new qualitative disproof of Garsia's conjecture into an explicit universal divergence rate and identifies the quantitative arithmetic-progression input as a direct bottleneck for stronger lower bounds.",
+        "status": "PASS"
+      }
+    },
+    "disclaimer": "Historical same-model scientific assessment preserved as evidence; it is not the independent audit.",
+    "reviewed_at": "2026-09-17T21:19:54Z",
+    "status": "passed"
+  },
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

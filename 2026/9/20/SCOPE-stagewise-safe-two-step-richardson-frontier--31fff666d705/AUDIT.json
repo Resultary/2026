@@ -1,36 +1,144 @@
 {
-  "correctness": {
-    "status": "PASS",
-    "summary": "Normalization reduces the problem to minimizing the sup norm of (1-u x)(1-v x) on [a,1] with u,v in [0,2]. The unconstrained Chebyshev solution is feasible exactly for kappa<=1+sqrt(2). In the complementary branch an endpoint lower bound is attained uniquely, up to order, by u=2 and v=2/(1+2a); its interior extremum remains below the endpoint level exactly in the stated regime. The general m-stage lower bound follows at lambda=mu, and deterministic checks reproduce the formulas and comparison identities."
+  "audited_at_utc": "2026-10-01T20:46:13Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "Assigned package RESULT.md and deterministic verifier at the assigned Git snapshot.",
+        "G. H. Golub, R. S. Varga, Chebyshev semi-iterative methods, successive overrelaxation iterative methods, and second order Richardson iterative methods, Parts I and II, Numerische Mathematik 3 (1961); both primary papers inspected in full from the author archive.",
+        "O. Axelsson, Milestones in the Development of Iterative Solution Methods (2010), historical discussion of factorized Chebyshev stages.",
+        "T. A. Manteuffel, Optimal Parameters for Linear Second-Degree Stationary Iterative Methods (1982).",
+        "Published-record semantic search for stagewise nonexpansive Richardson/Chebyshev frontiers."
+      ],
+      "rationale": "Normalization reduces the two-stage problem to minimizing \\(\\sup_{x\\in[a,1]}|(1-ux)(1-vx)|\\) over \\(u,v\\in[0,2]\\). The shifted degree-two Chebyshev roots are feasible exactly when \\(a\\ge\\sqrt2-1\\), equivalently \\(\\kappa\\le1+\\sqrt2\\). In the complementary branch the endpoint lower bound is attained uniquely by \\(u=2\\) and \\(v=2/(1+2a)\\), and its interior extremum stays below the endpoint level precisely on that branch. The general \\(m\\)-stage lower bound follows already at \\(\\lambda=\\mu\\). An independent dense-grid replay at six representative condition numbers reproduced both closed-form branches and the transition; the finite replay corroborates the exact minimax proof.",
+      "residual_risks": [],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The classical work is broader on Chebyshev acceleration but does not solve the imposed safety-constrained minimax problem.",
+          "Stationary second-degree recurrence optimization and implementation-stability discussions use different admissible classes."
+        ],
+        "reasoning": "No inspected stronger theorem mechanically implies the exact two-stage frontier or unique optimizer.",
+        "searches": [
+          "Golub--Varga Parts I and II",
+          "Manteuffel 1982",
+          "Axelsson 2010"
+        ]
+      },
+      "checked_sources": [
+        "Assigned package RESULT.md and deterministic verifier at the assigned Git snapshot.",
+        "G. H. Golub, R. S. Varga, Chebyshev semi-iterative methods, successive overrelaxation iterative methods, and second order Richardson iterative methods, Parts I and II, Numerische Mathematik 3 (1961); both primary papers inspected in full from the author archive.",
+        "O. Axelsson, Milestones in the Development of Iterative Solution Methods (2010), historical discussion of factorized Chebyshev stages.",
+        "T. A. Manteuffel, Optimal Parameters for Linear Second-Degree Stationary Iterative Methods (1982).",
+        "Published-record semantic search for stagewise nonexpansive Richardson/Chebyshev frontiers."
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The classical degree-two minimax polynomial supplies the unconstrained branch only.",
+          "The constrained branch requires a new endpoint lower bound and equality analysis; the general \\(m\\)-stage barrier uses the smallest spectral point under the factorwise constraint."
+        ],
+        "reasoning": "The final claim is not a corollary of unrestricted Chebyshev optimality because feasibility changes sharply at the stated threshold.",
+        "searches": [
+          "Classical Chebyshev minimax polynomial versus the safe constraint"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "No earlier published record with the exact constrained minimax frontier was located.",
+          "The classical papers optimize Chebyshev/semi-iterative methods and compare spectral norms, but the factorwise \\(0\\le\\tau_i\\le2/L\\) constraint is absent."
+        ],
+        "reasoning": "Equivalent formulations include constrained root-location minimax, per-factor nonexpansive gradient/Richardson schedules, and a no-square-root-acceleration theorem under factorwise safety.",
+        "searches": [
+          "Published-record semantic query: stagewise safe Richardson Chebyshev nonexpansive factors condition number transition",
+          "Full inspection of Golub--Varga Parts I and II"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No independent prior parameter table or formula containing \\(\\kappa_\\star=1+\\sqrt2\\) with the safe pair was located.",
+          "The package's numerical samples agree with the theorem but are not used as novelty evidence."
+        ],
+        "reasoning": "The claim is an analytic minimax theorem, not a finite-table inference.",
+        "searches": [
+          "Exact threshold and optimizer searches",
+          "Assigned deterministic verifier"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality passes. The full Golub--Varga Parts I and II develop unrestricted Chebyshev semi-iteration, cyclic variants, and spectral-norm comparisons, but do not impose or solve the interval-uniform constraint that every first-order Richardson factor itself be a Euclidean nonexpansion. The published-record search returned no earlier exact \\(1+\\sqrt2\\) transition, unique boundary pair, or all-stage \\(\\Theta(\\kappa)\\) barrier under this constraint.",
+      "residual_risks": [
+        "The theorem uses a deliberately strong factorwise Euclidean nonexpansiveness notion; it is not a floating-point stability theorem or a statement about stable three-term Chebyshev recurrences."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Covers unrestricted Chebyshev semi-iteration but not the factorwise nonexpansive minimax frontier.",
+          "evidence": "The paper derives Chebyshev semi-iterative polynomials and spectral convergence without the per-factor safety box.",
+          "identifier_or_url": "https://doi.org/10.1007/BF01386013",
+          "material_read": "Complete primary paper",
+          "method": "Primary full-text inspection",
+          "title": "Chebyshev semi-iterative methods, successive overrelaxation iterative methods, and second order Richardson iterative methods, Part I",
+          "trigger": "Foundational unrestricted Chebyshev/Richardson minimax theory"
+        },
+        {
+          "assessment": "Does not contain the assigned interval-uniform per-stage nonexpansiveness problem or threshold.",
+          "evidence": "It treats cyclic Chebyshev methods, spectral-norm comparisons, applications, and numerical experiments.",
+          "identifier_or_url": "https://www.math.kent.edu/~varga/pub/paper_18.pdf",
+          "material_read": "Complete 12-page primary paper",
+          "method": "Primary rendered-page inspection",
+          "title": "Chebyshev semi-iterative methods, successive overrelaxation iterative methods, and second order Richardson iterative methods, Part II",
+          "trigger": "Most plausible classical source for cyclic/order/stability restrictions"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Assigned package RESULT.md and deterministic verifier at the assigned Git snapshot.",
+        "G. H. Golub, R. S. Varga, Chebyshev semi-iterative methods, successive overrelaxation iterative methods, and second order Richardson iterative methods, Parts I and II, Numerische Mathematik 3 (1961); both primary papers inspected in full from the author archive.",
+        "O. Axelsson, Milestones in the Development of Iterative Solution Methods (2010), historical discussion of factorized Chebyshev stages.",
+        "T. A. Manteuffel, Optimal Parameters for Linear Second-Degree Stationary Iterative Methods (1982).",
+        "Published-record semantic search for stagewise nonexpansive Richardson/Chebyshev frontiers."
+      ],
+      "rationale": "The theorem gives a sharp, interpretable tradeoff between a natural factorwise safety requirement and acceleration: it identifies the exact two-step phase transition, the unique constrained optimizer beyond it, and proves that enforcing the same local safety at every stage destroys Chebyshev-order acceleration. This is a motivated structural boundary, not a routine restatement of classical Chebyshev theory.",
+      "residual_risks": [
+        "The theorem uses a deliberately strong factorwise Euclidean nonexpansiveness notion; it is not a floating-point stability theorem or a statement about stable three-term Chebyshev recurrences."
+      ],
+      "status": "PASS"
+    }
   },
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "limitations": [
-    "Exact arithmetic and symmetric positive-definite matrices only.",
-    "The criterion is uniform over a continuous spectral interval; a finite known spectrum may permit better tailored parameters.",
-    "Euclidean factorwise nonexpansiveness is a strong stability requirement and is not asserted to be necessary for floating-point stability.",
-    "Stable three-term Chebyshev recurrences and parameter orderings that allow temporary amplification are outside the imposed constraint.",
-    "No floating-point backward-stability or implementation-performance claim is made.",
-    "Nonsymmetric, indefinite, nonlinear, stochastic, adaptive, momentum, conjugate-gradient, and line-search methods are outside the claim.",
-    "Full theorem-level text of the 1961 Golub-Varga papers was not inspected, leaving residual originality risk.",
-    "Independent audit has not been performed."
+  "disposition": "passed",
+  "evidence": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
   ],
-  "originality": {
-    "scope": "to the best of our knowledge",
-    "status": "PASS",
-    "summary": "Classical sources establish unrestricted Chebyshev semi-iteration and discuss instability of individual factorized stages; related stationary second-degree, learned finite-step, and restricted-zero minimax problems were also checked. No checked source stated the exact interval-uniform two-stage minimax frontier under factorwise Euclidean nonexpansiveness, its kappa=1+sqrt(2) transition, the unique boundary pair, or the all-m no-Chebyshev-order barrier. Full theorem-level text of the 1961 Golub-Varga papers was not inspected and remains the principal residual coverage risk."
-  },
-  "phase": "II",
-  "previously_published_pending_reaudit": true,
+  "final_claim": "For SPD spectra in \\([\\mu,L]\\), the optimal two individually Euclidean-nonexpansive Richardson stages have the stated exact phase transition at \\(\\kappa=1+\\sqrt2\\), and requiring every first-order factor to be nonexpansive forces \\(\\Theta(\\kappa\\log(1/\\varepsilon))\\) rather than Chebyshev-order acceleration.",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "Exact arithmetic and SPD matrices only; the robust criterion is uniform over a continuous spectral interval and imposes Euclidean nonexpansiveness on every first-order Richardson factor. It does not cover floating-point stability, stable three-term Chebyshev recurrences, temporary amplification, or discrete-spectrum tailoring."
+  ],
+  "previously_published_pending_reaudit": false,
   "record_id": "SCOPE-20260920-31fff666d705",
-  "review_statement": "Same-model review: passed. Independent audit: not yet performed.",
-  "review_type": "same_model_review",
-  "same_model_review_status": "passed",
-  "scope_run_id": "9f9d5183-47b4-40be-bc0c-d20581dfec5f",
-  "value": {
-    "status": "PASS",
-    "summary": "The result gives a sharp quantitative tradeoff between factorwise stability and Chebyshev acceleration: safe variation strictly improves repeated optimal Richardson at two stages, but beyond a precise condition-number threshold it cannot match unrestricted Chebyshev, and enforcing the same safety at every stage loses square-root condition-number acceleration."
+  "review_type": "independent_audit",
+  "same_model_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "The prior review accepted the exact two-stage minimax proof and general stagewise lower bound.",
+        "status": "PASS"
+      },
+      "originality": {
+        "rationale": "The prior review found no exact factorwise-nonexpansive frontier in the checked literature.",
+        "status": "PASS"
+      },
+      "value": {
+        "rationale": "The prior review valued the sharp safety/acceleration tradeoff.",
+        "status": "PASS"
+      }
+    },
+    "reviewed_at": "2026-09-20",
+    "status": "passed"
   },
-  "verification_state": "awaiting_fresh_independent_audit"
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

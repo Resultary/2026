@@ -1,0 +1,108 @@
+{
+  "audited_at_utc": "2026-10-01T23:13:29.436856Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "assigned RESULT.md",
+        "Chen--Li arXiv:2605.07196",
+        "assigned artifacts/verify_inertia_ladder.py"
+      ],
+      "rationale": "The point--2-subset incidence matrix diagonalizes \\(KG(k,2)\\) into eigenvalues \\(\\binom{k-2}{2}\\), \\(3-k\\), and \\(1\\) on subspaces of dimensions one, \\(k-1\\), and \\(\\binom{k}{2}-k\\). Interlacing from \\(W_k\\) after deleting \\(t\\) point vertices forces at least \\(\\binom{k}{2}+1-t\\) positive eigenvalues, while the unchanged induced Kneser graph forces at least \\(k-1\\) negative eigenvalues. These counts exhaust the vertices and leave no zero eigenvalues. The connectivity and twin-free arguments are elementary and valid for \\(k\\ge5\\).",
+      "residual_risks": [
+        "The numpy census for \\(5\\le k\\le10\\) is only corroboration and is not used to prove the infinite family."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The first paper poses the infinite equality-family problem; the second disproves the inequality with \\(W_k\\)."
+        ],
+        "reasoning": "Neither primary source gives a broader theorem that dominates all point deletions.",
+        "searches": [
+          "Akbari--Elphick--Kumar--Pragada--Tang, A new conjecture on the inertia of graphs",
+          "Chen--Li, Counterexamples to a conjecture on graph inertia"
+        ]
+      },
+      "checked_sources": [
+        "arXiv:2605.07196",
+        "arXiv:2508.01163 / DOI 10.1016/j.disc.2025.114953",
+        "arXiv:2609.06319",
+        "Resultary semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The fixed induced Kneser subgraph supplies the missing lower bound on negative inertia uniformly in \\(t\\), which is not stated in the source."
+        ],
+        "reasoning": "The full ladder and interval-realization consequence require a new uniform implication; they are not mechanical from the isolated case.",
+        "searches": [
+          "Compared Chen--Li's \\(W_k\\) inertia and one \\(W_5-a_1\\) deletion to the assigned interlacing proof"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Chen--Li give \\(W_k\\) and a special \\(k=5,t=1\\) deletion, not the all-parameter formula."
+        ],
+        "reasoning": "The special deletion is one instance; it does not imply the all-\\(k\\), all-\\(t\\) inertia ladder without the interlacing argument.",
+        "searches": [
+          "Resultary: Chen Li graph W_k point deletion inertia reduced equality Problem 3.3",
+          "Chen--Li, arXiv:2605.07196"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No earlier Resultary entry with the all-parameter inertia formula was returned among the close hits."
+        ],
+        "reasoning": "This is an infinite structural theorem, not a known-table recomputation.",
+        "searches": [
+          "Resultary semantic search on W_k point deletion inertia"
+        ]
+      },
+      "rationale": "Chen and Li construct \\(W_k\\) and state its inertia, and they analyze the special deletion \\(W_5-a_1\\). Akbari et al. explicitly ask for an infinite family of reduced equality graphs. Resultary's direct search returned the assigned ladder but no earlier all-\\(k\\), all-\\(t\\) theorem. The general deletion ladder and resulting infinite equality family are therefore not covered by the inspected primary statements.",
+      "residual_risks": [
+        "Very recent differently indexed work on the same counterexample family could overlap, but no concrete source was found."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "PARTIAL_COVERAGE",
+          "evidence": "It owns the base family and one deletion but not the all-\\(t\\) ladder.",
+          "identifier_or_url": "https://arxiv.org/abs/2605.07196",
+          "material_read": "Primary abstract/result material identifying \\(W_k\\), its inertia, and the special deletion used for the \\(n^-=4\\) question.",
+          "method": "Primary arXiv source.",
+          "title": "Counterexamples to a conjecture on graph inertia",
+          "trigger": "Same graph family \\(W_k\\)."
+        },
+        {
+          "assessment": "OPEN_PROBLEM_SOURCE",
+          "evidence": "The assigned \\(t=1\\) family answers the stated problem.",
+          "identifier_or_url": "https://doi.org/10.1016/j.disc.2025.114953",
+          "material_read": "Problem statement and equality context, including Problem 3.3 asking for an infinite reduced equality family.",
+          "method": "Primary journal/publicly indexed statement.",
+          "title": "A new conjecture on the inertia of graphs",
+          "trigger": "Source of the equality-family question."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Akbari et al. Problem 3.3",
+        "Chen--Li arXiv:2605.07196"
+      ],
+      "rationale": "The theorem turns a counterexample construction into an exact deletion ladder, realizes an interval of inertia pairs, and supplies an infinite family answering a named problem. Those are motivated structural consequences rather than isolated numerics.",
+      "residual_risks": [
+        "It does not classify all equality graphs or solve the post-counterexample extremal problem."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "limitations": [
+    "The theorem does not determine maximal positive inertia for fixed negative inertia.",
+    "It does not classify all reduced equality graphs.",
+    "Originality is best-of-knowledge against very recent or differently indexed graph-inertia work."
+  ],
+  "record_id": "SCOPE-20260921-0ceea66ee9ab",
+  "record_title": "A point-deletion inertia ladder in the Chen--Li graphs",
+  "schema_version": 1
+}

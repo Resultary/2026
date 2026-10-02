@@ -1,0 +1,110 @@
+{
+  "audited_at_utc": "2026-10-02T00:16:07.579488Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "assigned RESULT.md",
+        "assigned artifacts/verify.py",
+        "Pach–Pinsker–Pluhár–Pongrácz–Szabó, arXiv:1111.7109",
+        "Pach–Pinsker–Pongrácz–Szabó, arXiv:1208.3504"
+      ],
+      "rationale": "Homogeneity identifies \\(\\operatorname{Aut}(\\mathbb P)\\)-orbits of injective ordered \\(k\\)-tuples with labeled \\(k\\)-element posets, giving \\(p_k\\). Order duality has exactly one fixed labeled poset, the antichain, so Burnside gives \\((p_k+1)/2\\) for \\(\\operatorname{Rev}\\). The finite rotation theorem gives, in every rotation class, a unique representative whose sole maximal element is a chosen label; deleting that greatest element bijects rotation classes with labeled posets on \\(k-1\\) labels, giving \\(p_{k-1}\\). Modding rotation classes by duality leaves only the antichain class fixed, yielding \\((p_{k-1}+1)/2\\) for \\(\\operatorname{Max}\\). Equality patterns then give the Stirling transform for all tuples.",
+      "residual_risks": [
+        "The finite verifier checks only low ranks; the general formulas depend on the published finite rotation theorem and its uniqueness statement."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The first paper classifies the closed supergroups; the second develops rotations and proves the finite local characterization and unique representative with prescribed sole maximum."
+        ],
+        "reasoning": "These results are broader structurally but do not themselves count all finite ordered-tuple orbits for each reduct; the audited bijections and Burnside steps extract new exact profiles.",
+        "searches": [
+          "arXiv:1111.7109",
+          "arXiv:1208.3504"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/1111.7109",
+        "https://arxiv.org/abs/1208.3504",
+        "https://arxiv.org/abs/1603.00082",
+        "published-result corpus search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The Turn formula follows only after using the unique-maximum representative to delete a greatest element; the Max formula further requires identifying the unique dual-fixed rotation class."
+        ],
+        "reasoning": "Those counting deductions are not stated by the inspected primary theorems and are not merely title/parameter matches.",
+        "searches": [
+          "comparison with the reduct classification and the rotation theorem's unique-maximum and triple-characterization statements"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The exact corpus hit was the assigned record; nearby results concerned other random structures.",
+          "The primary classification/rotation sources state the structural equivalence relations, not these orbit-count formulas."
+        ],
+        "reasoning": "No equivalent orbit-profile theorem was located.",
+        "searches": [
+          "published-corpus query: five reduct groups random partial order exact injective tuple orbit counts \\(p_k\\) \\((p_k+1)/2\\) \\(p_{k-1}\\)",
+          "literature query: random poset reduct oligomorphic orbit profile rotation classes"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No pre-existing orbit-profile table for all five groups was located."
+        ],
+        "reasoning": "The formulas are derived for every arity, with small enumerations only as checks.",
+        "searches": [
+          "published-corpus exact query on the five sequences and \\(p_{k-1}\\) rotation-class count"
+        ]
+      },
+      "rationale": "The reduct-classification and rotation papers provide the five groups, rotation equivalence, the three-point characterization, and the unique-maximum representative. Targeted exact-profile searches did not locate the resulting formulas \\(p_k,(p_k+1)/2,p_{k-1},(p_{k-1}+1)/2,1\\) or the observation that arity three separates all five groups.",
+      "residual_risks": [
+        "The relevant rotation theorem sections were inspected directly, but a separately indexed permutation-group paper could have tabulated the same profiles without being found by the targeted searches."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "COVERING_INGREDIENT",
+          "evidence": "It supplies the group classification but not the exact tuple-orbit profiles.",
+          "identifier_or_url": "https://arxiv.org/abs/1111.7109",
+          "material_read": "Primary full-text classification statements and definitions of the five reduct groups.",
+          "method": "Lawful open primary text.",
+          "title": "Reducts of the random partial order",
+          "trigger": "Defines and classifies exactly the five closed groups audited."
+        },
+        {
+          "assessment": "COVERING_INGREDIENT",
+          "evidence": "These theorems justify the rotation counting proof, but the exact five orbit profiles are not stated in the inspected sections.",
+          "identifier_or_url": "https://arxiv.org/abs/1208.3504",
+          "material_read": "Primary full-text theorem sections on the three finite rotation classes, local three-point characterization, and the unique rotation-equivalent representative with a prescribed sole maximum.",
+          "method": "Lawful open primary-text extraction of the relevant theorem sections.",
+          "title": "A new operation on partially ordered sets",
+          "trigger": "Critical source for finite rotation equivalence."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "arXiv:1111.7109",
+        "arXiv:1208.3504"
+      ],
+      "rationale": "Exact orbit profiles are natural invariants of oligomorphic groups. Computing all five reduct profiles and showing that ordered triples already distinguish them gives a compact quantitative complement to the reduct classification.",
+      "residual_risks": [
+        "The profile uses labeled-poset numbers \\(p_k\\), so it does not provide closed elementary asymptotics for those numbers."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "limitations": [
+    "The five groups are exactly the published closed reduct groups of the countable random partial order.",
+    "The injective formulas use labeled-poset counts \\(p_k\\); repetitions are handled by the Stirling transform.",
+    "The finite computational census is corroborative only."
+  ],
+  "record_id": "SCOPE-20260930-635ca0d5aff9",
+  "record_title": "Exact ordered-tuple orbit profiles of the five random-poset reduct groups",
+  "schema_version": 1
+}

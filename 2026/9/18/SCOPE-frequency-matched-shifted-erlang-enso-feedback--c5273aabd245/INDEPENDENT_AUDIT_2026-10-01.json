@@ -1,0 +1,112 @@
+{
+  "acceptance_rule": "Correctness, originality, and value must all pass.",
+  "audited_at_utc": "2026-10-01T08:40:37Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "Assigned RESULT.md at tree 14324f370f7c58b9f7d5ebbefd7e00af3b95f766",
+        "artifacts/verify_frequency_match.py blob 4c3a35008ba8da9d86364442dae38351f06515a5",
+        "Steele--Keane--Krauskopf, arXiv:2609.08127v1",
+        "Morărescu--Niculescu--Gu, SIAM JADS 2007"
+      ],
+      "rationale": "From G(iω)=exp(-iωτ_m)(1+iωΔ)^{-n}, its magnitude is q=(1+(ωΔ)^2)^{-n/2}. Linearization of the feedback therefore multiplies a sinusoid by Aκq, so the printed A=aq gives aκq^2 and exact amplitude compensation is A=a/q. The transfer phase gives τ_ph=τ_m+n arctan(ωΔ)/ω, and arctan x<x proves τ_ph<τ_m+nΔ for positive width. Substituting λ=iΩ into λ+aκ exp(-λτ_m)(1+λΔ)^{-n}=0 gives the package's amplitude and phase Hopf equations. An independent numerical recomputation reproduced q=0.784672478417 and 0.450424982227, the q^2 gain ratios, delay mismatches, and all quoted first Hopf branch values to the shown precision.",
+      "residual_risks": [
+        "The full source preprint was not retrievable through the available open-access route in this run, so the printed normalization formula was checked from the frozen assigned package while the source abstract independently confirms the attenuation-rescaling motivation."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Morărescu--Niculescu--Gu give general stability-crossing theory for shifted gamma delays.",
+          "That theory supplies the general transfer framework but does not compare or correct the specific normalization in the 2026 ENSO paper."
+        ],
+        "reasoning": "The broader literature does not imply that the source made this particular normalization error without substituting its printed parameter convention.",
+        "searches": [
+          "shifted gamma distributed delay stability crossing",
+          "ENSO distributed delay Hopf"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.08127",
+        "https://doi.org/10.1137/060670766",
+        "published semantic-result search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Direct substitution gives post-filter magnitude aκq^2, while matching aκ requires A=a/q.",
+          "The general Hopf theory does not itself state the source-specific reciprocal correction or its reported numerical consequences."
+        ],
+        "reasoning": "The correction is not a corollary of a prior claim that already used the same normalization; it is a contradiction obtained from the source's own transfer function.",
+        "searches": [
+          "source scaling A=aq versus transfer magnitude q",
+          "general shifted-gamma Hopf formula"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The source abstract describes rescaling feedback strength to account for attenuation as width increases.",
+          "No earlier record/source located identifies the printed scaling as reciprocal to amplitude compensation."
+        ],
+        "reasoning": "Equivalent frequency-response language was searched; the source-specific algebraic correction was not found elsewhere.",
+        "searches": [
+          "shifted Erlang ENSO attenuation compensation",
+          "arXiv:2609.08127 normalization",
+          "shifted gamma delay frequency response"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "The semantic published-result search returned the assigned record as the only close source-specific result."
+        ],
+        "reasoning": "No numerical database controls the claim; the relevant exact check is algebraic substitution into the source's transfer function.",
+        "searches": [
+          "published results for shifted-Erlang ENSO normalization"
+        ]
+      },
+      "rationale": "General shifted-gamma/Erlang transfer functions and stability-crossing theory are old and are not claimed as new. Searches found no prior source-specific correction showing that the particular 2026 ENSO paper's printed reciprocal scaling doubles attenuation, nor the combined corrected gain/phase comparison and source-parameter Hopf anchor. The published mathematical corpus returned only the assigned record for this specific normalization.",
+      "residual_risks": [
+        "The exact source formula could not be re-extracted from the primary PDF in this run; the assigned frozen package is therefore the formula-level evidence.",
+        "A later source revision could correct the normalization."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Confirms the attenuation-rescaling motivation; the package algebra shows the printed direction is opposite to amplitude compensation.",
+          "evidence": "The abstract states that feedback strength is rescaled to account for attenuation as kernel width increases.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.08127",
+          "material_read": "Primary abstract; full text retrieval failed in this run. The exact printed formula was inspected in the frozen assigned package.",
+          "method": "Direct source lookup plus frozen-source formula comparison.",
+          "title": "A distributed-delay model for the El Niño Southern Oscillation with a minimum delay: a case study of the shifted linear chain trick",
+          "trigger": "Exact model and normalization under audit."
+        },
+        {
+          "assessment": "General theory, not the source-specific normalization correction.",
+          "evidence": "The paper studies stability crossing curves for linear systems with gamma-distributed delay and a gap.",
+          "identifier_or_url": "https://doi.org/10.1137/060670766",
+          "material_read": "Publisher abstract and theorem-context material.",
+          "method": "Direct primary-source lookup.",
+          "title": "Stability Crossing Curves of Shifted Gamma-Distributed Delay Systems",
+          "trigger": "Closest general prior theory for shifted-gamma transfer and Hopf crossings."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "source attenuation-comparison motivation",
+        "independent recomputation of the reported transfer/Hopf values"
+      ],
+      "rationale": "This is more than a cosmetic normalization check: at the wider parameter example the printed convention leaves about 20.3% of the intended small-signal gain, while the mean/phase mismatch is about 24.5 days, and the exact Hopf anchor changes branch admissibility. Because the scaling underlies the paper's cross-width interpretation, identifying and quantifying the mismatch is a motivated mathematical correction.",
+      "residual_risks": [
+        "The result does not show that the source's numerical continuation itself is wrong; it corrects the interpretation of what the parameter scaling preserves."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "final_claim": "For the shifted-Erlang ENSO feedback normalization printed in arXiv:2609.08127v1, scaling the coefficient by \\(q=|G(i\\omega_f)|\\) applies the attenuation twice rather than compensating it; exact one-frequency amplitude matching requires multiplication by \\(q^{-1}\\), phase matching uses \\(\\tau_m+n\\arctan(\\omega\\Delta)/\\omega\\), and the same transfer function yields the stated autonomous Hopf anchor.",
+  "limitations": [
+    "The correction concerns the linear filter interpretation and the unforced equilibrium spectrum; it does not invalidate numerical continuation for the parameter family actually computed.",
+    "One-frequency matching does not produce global nonlinear equivalence of the seasonally forced systems."
+  ]
+}

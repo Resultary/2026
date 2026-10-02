@@ -1,27 +1,108 @@
 {
+  "audited_at_utc": "2026-10-01T11:38:10Z",
   "axes": {
     "correctness": {
-      "rationale": "The two-stage reproductive kernel gives exact planar moment equations; a coercive damped-mechanical Lyapunov function forces convergence to one of three equilibria, and the characteristic formula lifts this to L1 convergence of the full age density.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "assigned RESULT.md",
+        "Griette--Herrera 2026 full open-access article",
+        "finite-dimensional structured-population representation literature"
+      ],
+      "rationale": "The two kernel moments satisfy the exact planar equations. Eliminating one moment gives a damped second-order equation with strict Lyapunov energy; coercivity and LaSalle force convergence to the three equilibria. The characteristic formula lifts moment convergence to \\(L^1\\). Strong cooperativity and the unordered saddle stable manifold give the unique threshold crossing.",
+      "residual_risks": [
+        "Restricted to the stated two-stage class."
+      ],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "The 2026 source leaves threshold-solution asymptotics open and treats a different noncompact class. Classical linear-chain reduction is excluded from novelty; no located source states the resulting complete bistable threshold theorem for this boundary-feedback model. The inaccessible full text of a relevant 1979 Gurtin--MacCamy paper is retained as the main residual risk.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "General state-representation papers do not imply the source-specific Lyapunov structure or threshold limit."
+        ],
+        "reasoning": "General state-representation papers do not imply the source-specific Lyapunov structure or threshold limit.",
+        "searches": [
+          "stronger/general prior results"
+        ]
+      },
+      "checked_sources": [
+        "https://doi.org/10.1007/s10884-026-10527-w",
+        "https://doi.org/10.1007/s00285-019-01454-0",
+        "https://doi.org/10.1016/0025-5564(79)90049-X",
+        "Resultary semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The source gives threshold existence but withholds the limiting state; the new exact planar reduction plus phase-plane analysis is required."
+        ],
+        "reasoning": "The source gives threshold existence but withholds the limiting state; the new exact planar reduction plus phase-plane analysis is required.",
+        "searches": [
+          "direct implication comparison"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Equivalent phase-type/distributed-delay formulations provide finite-dimensional realization but not the audited basin classification."
+        ],
+        "reasoning": "Equivalent phase-type/distributed-delay formulations provide finite-dimensional realization but not the audited basin classification.",
+        "searches": [
+          "aliases and equivalent formulations in Resultary and primary literature"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No exact database/table applies to this analytic dynamics theorem."
+        ],
+        "reasoning": "No exact database/table applies to this analytic dynamics theorem.",
+        "searches": [
+          "published result/database check"
+        ]
+      },
+      "rationale": "The 2026 source explicitly leaves threshold-solution asymptotics open and its noncompact theorem treats an eventually-constant class different from this two-stage kernel. Classical linear-chain theory supplies reduction technology, not this global bistable threshold theorem.",
+      "residual_risks": [
+        "The 1979 full text was unavailable and remains a named residual risk."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING; threshold asymptotics explicitly open",
+          "material_read": "full open-access article including noncompact theorem and open-question discussion",
+          "source": "Griette--Herrera 2026"
+        },
+        {
+          "assessment": "reduction technology only",
+          "material_read": "open-access representation context",
+          "source": "Diekmann--Gyllenberg--Metz 2020"
+        },
+        {
+          "assessment": "residual risk; different formulation",
+          "material_read": "abstract/indexed description only",
+          "source": "Gurtin--MacCamy 1979"
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result completely resolves the threshold limit and all omega-limits for an explicit infinite-support fertility family, showing that noncompact support alone does not permit persistent threshold oscillation when reproductive memory has two-stage phase-type structure.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "Griette--Herrera open-question discussion"
+      ],
+      "rationale": "This resolves a source-explicit open asymptotic question for a natural infinite-support family and gives a complete basin/threshold description.",
+      "residual_risks": [
+        "Does not settle arbitrary noncompact fertility or higher-stage kernels."
+      ],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-18",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disclaimer": "This evidence-based scientific review is not peer review, formal verification, or a guarantee of first discovery.",
+  "evidence": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "historical_same_model_review": {
+    "note": "Prior same-model review evidence is preserved as historical evidence; this independent audit does not treat that prior verdict as current-round evidence.",
+    "status": "passed"
+  },
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "previously_published_pending_reaudit": false,
+  "review_type": "independent_audit",
+  "verification_state": "independently_reviewed"
 }

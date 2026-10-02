@@ -1,0 +1,146 @@
+{
+  "audited_at_utc": "2026-10-01T08:46:45Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "Lewko, On Kolmogorov's rearrangement problem and Garsia's conjecture, arXiv:2609.18491",
+        "Bourgain, On Kolmogorov's rearrangement problem for orthogonal systems and Garsia's conjecture, LNM 1376 (1989)",
+        "Dutkay–Han–Sun, Divergence of the mock and scrambled Fourier series on fractal measures, arXiv:1103.4380",
+        "Resultary 2026-09-17: An explicit iterated-log lower bound for the finite Garsia rearrangement constant"
+      ],
+      "rationale": "Lewko's finite two-ordering ingredients provide a bad \\(m\\)-term trigonometric block and a permutation \\(\\sigma\\) forcing the prescribed arithmetic-progression order inside either \\(\tau\\) or \\(\\sigma\\circ\tau\\). Sampling the open bad set on sufficiently fine prime cyclic groups preserves a fixed positive density. The block matrix with columns \\(u_n\\) and \\(v_n\\) is exactly orthonormal on \\(2M\\) atoms by cyclic-character orthogonality and the layer sign; all entries are \\(2M\\)-th roots. Restricting any full column ordering to the distinguished \\(u\\)-columns and assigning zeros elsewhere preserves the relevant partial sums, while primeness makes the progression step a permutation of the grid. This establishes the finite complete Butson basis claim.",
+      "residual_risks": [
+        "The proof is existential and gives no useful \\(M_0(H)\\)."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Both broader sources allow general finite systems; neither checked statement forces the complete \\(2M\\)-vector basis on \\(2M\\) atoms with root-of-unity entries."
+        ],
+        "reasoning": "No broader checked theorem mechanically gives the Butson restriction without the additional completion construction.",
+        "searches": [
+          "Lewko finite Garsia theorem",
+          "Resultary quantitative finite Garsia record"
+        ]
+      },
+      "checked_sources": [
+        "Lewko, On Kolmogorov's rearrangement problem and Garsia's conjecture, arXiv:2609.18491",
+        "Bourgain, On Kolmogorov's rearrangement problem for orthogonal systems and Garsia's conjecture, LNM 1376 (1989)",
+        "Dutkay–Han–Sun, Divergence of the mock and scrambled Fourier series on fractal measures, arXiv:1103.4380",
+        "Resultary 2026-09-17: An explicit iterated-log lower bound for the finite Garsia rearrangement constant"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Lewko supplies the bad block and permutation embedding; the assigned result adds discretization and a signed companion block to make a complete basis."
+        ],
+        "reasoning": "The added construction is short but is not stated or mechanically forced as a theorem in the checked sources.",
+        "searches": [
+          "Lewko Lemma 2 and Lemma 4 mechanism",
+          "finite cyclic character orthogonality"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Resultary's exact-topic hit is the assigned record; the earlier 2026-09-17 quantitative record uses Lewko's two-copy nonatomic finite system.",
+          "Lewko's finite theorem provides the obstruction ingredients but not the cyclic completion to a square finite basis.",
+          "Dutkay–Han–Sun concern specified scrambled Fourier orderings rather than every permutation of a complete finite basis."
+        ],
+        "reasoning": "The finite atomic completion is a stronger structural restriction than merely having a finite uniformly bounded orthonormal system.",
+        "searches": [
+          "Resultary: Garsia finite Butson Hadamard basis complete unimodular basis",
+          "Lewko arXiv:2609.18491 full text",
+          "Dutkay–Han–Sun scrambled Fourier"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No independent exact theorem or table with the complete Butson basis property was located."
+        ],
+        "reasoning": "This is supporting best-of-knowledge evidence only.",
+        "searches": [
+          "finite group Garsia counterexample Butson matrix",
+          "complex Hadamard Garsia rearrangement"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality passes for the finite complete Butson-Hadamard strengthening. Lewko proves the two-copy finite obstruction on a nonatomic torus and the negative solution of Garsia's conjecture, while the earlier quantitative Resultary record remains about finite bounded orthonormal systems and does not impose a square atomic complete basis or Butson matrix. No checked primary or Resultary source states the finite complete-basis strengthening.",
+      "residual_risks": [
+        "Lewko's construction is extremely recent, so a contemporaneous finite-cyclic/Butson completion could be unindexed.",
+        "No real ±1-Hadamard analogue is established."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Supplies the obstruction but not the finite atomic complete Butson-basis conclusion.",
+          "evidence": "The inspected finite construction is on two copies of the torus and does not state a square finite complete basis.",
+          "identifier_or_url": "arXiv:2609.18491",
+          "material_read": "Full-text theorem and finite permutation/Fourier lemmas used by the construction",
+          "method": "Full-text primary-source inspection",
+          "title": "On Kolmogorov's rearrangement problem and Garsia's conjecture",
+          "trigger": "Primary source of the two-copy obstruction used in the proof"
+        },
+        {
+          "assessment": "Quantifies the finite-system lower bound but does not require atomic completeness or Butson structure.",
+          "evidence": "Its system remains Lewko's \\(N\\)-term two-copy trigonometric system.",
+          "identifier_or_url": "https://github.com/Resultary/2026/tree/main/2026/9/17/SCOPE-quantitative-garsia-rearrangement-lower-bound--7325492acf77",
+          "material_read": "Complete RESULT.md",
+          "method": "Full repository record inspection",
+          "title": "An explicit iterated-log lower bound for the finite Garsia rearrangement constant",
+          "trigger": "Earlier SCOPE result on finite Garsia systems"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Lewko, On Kolmogorov's rearrangement problem and Garsia's conjecture, arXiv:2609.18491",
+        "Bourgain, On Kolmogorov's rearrangement problem for orthogonal systems and Garsia's conjecture, LNM 1376 (1989)",
+        "Dutkay–Han–Sun, Divergence of the mock and scrambled Fourier series on fractal measures, arXiv:1103.4380",
+        "Resultary 2026-09-17: An explicit iterated-log lower bound for the finite Garsia rearrangement constant"
+      ],
+      "rationale": "The restriction to a square complete unimodular basis is a natural boundary: it rules out incompleteness and nonatomicity as sources of the rearrangement obstruction and embeds the phenomenon in a rigid finite complex-Hadamard class. That is a motivated structural strengthening, not an arbitrary parameter slice.",
+      "residual_risks": [
+        "Lewko's construction is extremely recent, so a contemporaneous finite-cyclic/Butson completion could be unindexed.",
+        "No real ±1-Hadamard analogue is established."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "evidence": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "final_claim": "Garsia counterexamples among finite Butson-Hadamard bases",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "No quantitative dependence of matrix size on threshold is obtained.",
+    "The result is complex Butson-Hadamard, not a real ±1-Hadamard theorem.",
+    "Best-of-knowledge originality remains exposed to very recent parallel work."
+  ],
+  "previously_published_pending_reaudit": false,
+  "record_id": "SCOPE-20260918-5e0ce6e50d84",
+  "review_type": "independent_audit",
+  "same_model_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "Original review checked the cyclic discretization and signed companion completion.",
+        "verdict": "PASS"
+      },
+      "originality": {
+        "rationale": "Original review found no finite atomic complete-basis or Butson version.",
+        "verdict": "PASS"
+      },
+      "value": {
+        "rationale": "Original review viewed the complete-basis restriction as a meaningful strengthening.",
+        "verdict": "PASS"
+      }
+    },
+    "reviewed_at": "2026-09-18",
+    "status": "passed"
+  },
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
+}

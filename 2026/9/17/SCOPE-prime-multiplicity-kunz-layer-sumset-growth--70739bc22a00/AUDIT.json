@@ -1,27 +1,127 @@
 {
+  "audited_at_utc": "2026-10-01T06:51:54.979264Z",
   "axes": {
     "correctness": {
-      "rationale": "The sumset containment follows directly by adding representatives m and m+a from the first Kunz layer and bounding the carry count; Cauchy-Davenport gives the prime-multiplicity cardinality bound. Summing the forced cumulative layers in the exact left-element formula yields the stated Wilf lower bound, and the explicit example is independently checked by exact integer computation.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "2026/09/17/prime-multiplicity-kunz-layer-sumset-growth--70739bc22a00",
+        "artifacts/verify.py",
+        "artifacts/verify-output.txt"
+      ],
+      "rationale": "the Apéry/Kunz carry calculation shows that an h-fold sum of first-layer residues lands in cumulative layer at most 2h-1. Repeated Cauchy–Davenport at prime multiplicity gives the stated linear lower bound, and summing cumulative layers yields the conductor-depth Wilf inequality with the claimed monotonicity in the depth parameter. The worked semigroup was independently recomputed as multiplicity 29, conductor 218, q=8, rho=14, first-layer size 5, cumulative layers 5,7,13,16,21,24, left-elements count 107, and Wilf number 424.",
+      "residual_risks": [],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "The closest 2026 work supplies cumulative-layer formulas but does not derive higher layers from first-layer sumsets. Searches across Cauchy-Davenport, Apery/Kunz terminology, prime multiplicity, sumsets and earlier additive-combinatorial Wilf work found no matching propagation inequality or prime-multiplicity criterion. Originality remains to the best of our knowledge, with residual risk from very recent or incompletely indexed follow-up work.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "Yang–Zhang develops first/multi-layer bounds but the inspected text contains no Cauchy–Davenport/sumset propagation; older additive work uses different constructions."
+        ],
+        "reasoning": "No stronger theorem inspected dominates the propagation inequality and its prime-multiplicity consequence.",
+        "searches": [
+          "Yang–Zhang, Wilf's Conjecture from the First Kunz Layer",
+          "Eliahou 2018",
+          "Eliahou–Fromentin arXiv:1710.03623"
+        ]
+      },
+      "checked_sources": [
+        "https://www.preprints.org/manuscript/202604.0551",
+        "https://doi.org/10.1112/jlms/s1-10.37.30",
+        "https://github.com/Resultary/2026"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Cauchy–Davenport plus the new semigroup containment yields the prime bound; the containment itself is not supplied by the classical additive theorem or Yang–Zhang."
+        ],
+        "reasoning": "The final theorem needs the record's semigroup-specific bridge and is not a direct prior corollary.",
+        "searches": [
+          "Preprints.org 202604.0551",
+          "Cauchy–Davenport theorem"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Equivalent formulation: h-fold sums of first-layer residues force occupancy of cumulative odd Kunz layers."
+        ],
+        "reasoning": "No prior source located states this sumset-to-layer propagation.",
+        "searches": [
+          "Resultary: Kunz first layer sumset Cauchy Davenport prime multiplicity Wilf numerical semigroup",
+          "Preprints.org 202604.0551",
+          "arXiv:1710.03623"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "The multiplicity-29 example is illustrative; the main result is a uniform theorem and was not extracted from a table."
+        ],
+        "reasoning": "Exact-database coverage is inapplicable to the theorem; no table was used as novelty evidence.",
+        "searches": [
+          "Resultary prime multiplicity Kunz layer growth"
+        ]
+      },
+      "rationale": "the inspected 2026 Yang–Zhang first-Kunz-layer preprint develops first-layer and cumulative-layer Wilf bounds but its multilayer section does not contain the h-fold sumset/Cauchy–Davenport mechanism. Resultary searches for prime-multiplicity Kunz sumset growth returned this record and no earlier dominating theorem.",
+      "residual_risks": [
+        "Recent numerical-semigroup preprints may not yet be fully indexed.",
+        "The prime-multiplicity hypothesis is essential for the stated Cauchy–Davenport step and should not be generalized silently."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Compared against the final statement and implication scope.",
+          "evidence": "Primary full text inspected, including its multilayer cumulative-layer section; no sumset or Cauchy–Davenport argument was found.",
+          "identifier_or_url": "https://www.preprints.org/manuscript/202604.0551",
+          "material_read": "Primary full text inspected, including its multilayer cumulative-layer section; no sumset or Cauchy–Davenport argument was found.",
+          "method": "full text where stated; otherwise primary abstract/search result as stated",
+          "title": "Yang and Zhang, Wilf's Conjecture from the First Kunz Layer",
+          "trigger": "High relevance to the final claim or originality boundary."
+        },
+        {
+          "assessment": "Compared against the final statement and implication scope.",
+          "evidence": "Classical additive-combinatorics input used for the prime cyclic group.",
+          "identifier_or_url": "https://doi.org/10.1112/jlms/s1-10.37.30",
+          "material_read": "Classical additive-combinatorics input used for the prime cyclic group.",
+          "method": "full text where stated; otherwise primary abstract/search result as stated",
+          "title": "Cauchy–Davenport theorem",
+          "trigger": "High relevance to the final claim or originality boundary."
+        },
+        {
+          "assessment": "Compared against the final statement and implication scope.",
+          "evidence": "Searched Kunz first-layer, sumset, Cauchy–Davenport, prime multiplicity, and Wilf combinations.",
+          "identifier_or_url": "https://github.com/Resultary/2026",
+          "material_read": "Searched Kunz first-layer, sumset, Cauchy–Davenport, prime multiplicity, and Wilf combinations.",
+          "method": "full text where stated; otherwise primary abstract/search result as stated",
+          "title": "Resultary search",
+          "trigger": "High relevance to the final claim or originality boundary."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result gives a reusable bridge from first-layer residue structure to higher Kunz populations and turns it, at prime multiplicity, into explicit conductor-depth Wilf criteria. A multiplicity-29 example is certified although both closest first-layer tests fail.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "https://www.preprints.org/manuscript/202604.0551",
+        "https://doi.org/10.1112/jlms/s1-10.37.30",
+        "https://github.com/Resultary/2026"
+      ],
+      "rationale": "the claim links a motivated invariant from current Wilf-conjecture work to additive-combinatorial growth and yields a reusable sufficient criterion, rather than merely recomputing one semigroup.",
+      "residual_risks": [],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Same-model review: passed. Independent audit: not yet performed.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-17",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disposition": "passed",
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": "The explicit Cauchy–Davenport lower bound requires prime multiplicity; the sumset containment itself does not. The Wilf criterion is sufficient, not necessary, and does not resolve Wilf's conjecture in full. Very recent follow-up work may be incompletely indexed.",
+  "previously_published_pending_reaudit": false,
+  "reproducibility": "Independent exact arithmetic reproduced the record's worked example and the lower bound |L| >= 68 at H=3.",
+  "review_type": "independent_audit",
+  "same_model_review": {
+    "note": "The earlier same-model scientific assessment is preserved by its source blob identity and remains distinct from this fresh assessment.",
+    "source_audit_blob_sha": "4522cb8fa3cd2528f3a0879ad0eecdaac2496597",
+    "status": "passed"
+  },
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

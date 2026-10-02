@@ -1,0 +1,100 @@
+{
+  "acceptance_rule": "Correctness, originality, and value must all pass.",
+  "audited_at_utc": "2026-10-01T11:38:10Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "assigned RESULT.md",
+        "Griette--Herrera 2026 full open-access article",
+        "finite-dimensional structured-population representation literature"
+      ],
+      "rationale": "The two kernel moments satisfy the exact planar equations. Eliminating one moment gives a damped second-order equation with strict Lyapunov energy; coercivity and LaSalle force convergence to the three equilibria. The characteristic formula lifts moment convergence to \\(L^1\\). Strong cooperativity and the unordered saddle stable manifold give the unique threshold crossing.",
+      "residual_risks": [
+        "Restricted to the stated two-stage class."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "General state-representation papers do not imply the source-specific Lyapunov structure or threshold limit."
+        ],
+        "reasoning": "General state-representation papers do not imply the source-specific Lyapunov structure or threshold limit.",
+        "searches": [
+          "stronger/general prior results"
+        ]
+      },
+      "checked_sources": [
+        "https://doi.org/10.1007/s10884-026-10527-w",
+        "https://doi.org/10.1007/s00285-019-01454-0",
+        "https://doi.org/10.1016/0025-5564(79)90049-X",
+        "Resultary semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The source gives threshold existence but withholds the limiting state; the new exact planar reduction plus phase-plane analysis is required."
+        ],
+        "reasoning": "The source gives threshold existence but withholds the limiting state; the new exact planar reduction plus phase-plane analysis is required.",
+        "searches": [
+          "direct implication comparison"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Equivalent phase-type/distributed-delay formulations provide finite-dimensional realization but not the audited basin classification."
+        ],
+        "reasoning": "Equivalent phase-type/distributed-delay formulations provide finite-dimensional realization but not the audited basin classification.",
+        "searches": [
+          "aliases and equivalent formulations in Resultary and primary literature"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No exact database/table applies to this analytic dynamics theorem."
+        ],
+        "reasoning": "No exact database/table applies to this analytic dynamics theorem.",
+        "searches": [
+          "published result/database check"
+        ]
+      },
+      "rationale": "The 2026 source explicitly leaves threshold-solution asymptotics open and its noncompact theorem treats an eventually-constant class different from this two-stage kernel. Classical linear-chain theory supplies reduction technology, not this global bistable threshold theorem.",
+      "residual_risks": [
+        "The 1979 full text was unavailable and remains a named residual risk."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING; threshold asymptotics explicitly open",
+          "material_read": "full open-access article including noncompact theorem and open-question discussion",
+          "source": "Griette--Herrera 2026"
+        },
+        {
+          "assessment": "reduction technology only",
+          "material_read": "open-access representation context",
+          "source": "Diekmann--Gyllenberg--Metz 2020"
+        },
+        {
+          "assessment": "residual risk; different formulation",
+          "material_read": "abstract/indexed description only",
+          "source": "Gurtin--MacCamy 1979"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Griette--Herrera open-question discussion"
+      ],
+      "rationale": "This resolves a source-explicit open asymptotic question for a natural infinite-support family and gives a complete basin/threshold description.",
+      "residual_risks": [
+        "Does not settle arbitrary noncompact fertility or higher-stage kernels."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "final_claim": "For the explicit two-stage hypoexponential survival-weighted fertility class in the bistable Gurtin--MacCamy model, the PDE reduces to a damped cooperative planar system; every solution converges to an equilibrium and every nontrivial monotone-family threshold solution converges to the intermediate equilibrium.",
+  "limitations": [
+    "Two-stage class only; higher-stage phase-type kernels remain open.",
+    "The 1979 full text was unavailable."
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "audited_at_utc": "2026-10-01T21:46:42Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "Sparre Andersen, On the fluctuations of sums of random variables (1953) and On sums of symmetrically dependent random variables (1953).",
+        "Benjamini, Kozma and Romik, Random walks with k-wise independent increments, ECP 11 (2006).",
+        "Narayanan, Three-wise independent random walks can be slightly unbounded, RSA 61 (2022), accessible full article page inspected.",
+        "Berger and Béthencourt, An application of Sparre Andersen’s fluctuation theorem for exchangeable and sign-invariant random variables, arXiv:2304.09031.",
+        "Iľkovič and Yan, Extremal persistence probabilities of exchangeable sign-invariant random variables, arXiv:2609.05586.",
+        "Published finding dated 2026-09-20 on pure n-way dependence and Student t size, inspected through Resultary.",
+        "Assigned exact verifier and independent rational replay."
+      ],
+      "rationale": "Fair 3-wise independence annihilates every nonconstant Walsh coefficient of degree at most three, leaving exactly the degree-four coefficient \\(\\theta\\), so the sign mass function is \\(2^{-4}(1+\\theta\\prod_i e_i)\\). Under positive- and negative-parity conditioning, \\(b<2a\\) fixes the sign of every two-positive/one-negative three-step sum; the only remaining comparisons are between iid continuous quantities and therefore have probabilities \\(1/2\\) or \\(3/8\\). Summing the four positive-first patterns gives \\(15/64\\) and \\(5/16\\), hence the affine formula. The exact verifier confirms every proper sign marginal is uniform and independently reproduces these rational values; the analytic pattern argument establishes the theorem.",
+      "residual_risks": [],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Berger--Béthencourt prove Sparre-Andersen persistence under exchangeability plus global sign invariance.",
+          "Narayanan and Benjamini--Kozma--Romik show limited independence can change maxima or long-run behavior, not this exact four-step persistence law."
+        ],
+        "reasoning": "The prior results are broader in horizon or model but do not dominate the audited finite response because the crucial global symmetry hypothesis is absent.",
+        "searches": [
+          "Berger--Béthencourt arXiv:2304.09031",
+          "Narayanan 2022",
+          "Benjamini--Kozma--Romik 2006"
+        ]
+      },
+      "checked_sources": [
+        "Sparre Andersen, On the fluctuations of sums of random variables (1953) and On sums of symmetrically dependent random variables (1953).",
+        "Benjamini, Kozma and Romik, Random walks with k-wise independent increments, ECP 11 (2006).",
+        "Narayanan, Three-wise independent random walks can be slightly unbounded, RSA 61 (2022), accessible full article page inspected.",
+        "Berger and Béthencourt, An application of Sparre Andersen’s fluctuation theorem for exchangeable and sign-invariant random variables, arXiv:2304.09031.",
+        "Iľkovič and Yan, Extremal persistence probabilities of exchangeable sign-invariant random variables, arXiv:2609.05586.",
+        "Published finding dated 2026-09-20 on pure n-way dependence and Student t size, inspected through Resultary.",
+        "Assigned exact verifier and independent rational replay."
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The sign-invariant theorem is inapplicable because a nonzero degree-four parity tilt is not invariant under arbitrary coordinate sign flips.",
+          "The Student-t calculation concerns a different statistic even though it uses the same dependence family."
+        ],
+        "reasoning": "Neither result implies the stated persistence formula; the current calculation identifies the exact missing fourth-order information for this event.",
+        "searches": [
+          "Berger--Béthencourt theorem versus parity-tilted model",
+          "2026-09-20 Student-t pure-interaction finding"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The assigned record was the only exact persistence hit.",
+          "A 2026-09-20 finding applies pure n-way dependence to Student t size, showing the dependence gadget is prior but not this path probability."
+        ],
+        "reasoning": "Equivalent formulations are the projection of the persistence indicator onto the sole degree-four Walsh character and failure of proper-subset laws to determine persistence.",
+        "searches": [
+          "Resultary query: four-step Sparre Andersen persistence 3-wise independent signs fourth-order interaction parity conditioning proper-subset marginals",
+          "Searches of limited-independence random walks and exchangeable sign-invariant persistence"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No prior exact table of \\(15/64\\), \\(5/16\\), or the coefficient \\(-5/128\\) was located.",
+          "The verifier is used only for correctness, not as proof of novelty."
+        ],
+        "reasoning": "This finite invariant is motivated by the universality boundary; no known table mechanically supplies it.",
+        "searches": [
+          "Resultary exact-topic query",
+          "Exact verifier for the two parity classes"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality passes for the exact persistence response and proper-marginal indistinguishability statement. Limited-independence parity constructions and anomalous path statistics are known, and a 2026-09-20 published finding uses the same pure n-way dependence mechanism for Student t size, but that different statistic does not imply the four-step persistence coefficients. Berger--Béthencourt require global sign invariance, precisely the property the parity-tilted models violate.",
+      "residual_risks": [
+        "Older dependent-fluctuation literature is broad, and an equivalent four-step calculation under different terminology remains a best-of-knowledge risk.",
+        "The theorem is finite-horizon and assumes the independent sign-amplitude representation with \\(b<2a\\)."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Not covering: the audited models are exchangeable but intentionally fail global sign invariance.",
+          "evidence": "The source makes sign invariance an explicit hypothesis for its persistence conclusion.",
+          "identifier_or_url": "https://arxiv.org/abs/2304.09031",
+          "material_read": "Primary arXiv abstract/theorem description concerning exchangeable sign-invariant vectors and persistence",
+          "method": "Primary-source inspection",
+          "title": "An application of Sparre Andersen’s fluctuation theorem for exchangeable and sign-invariant random variables",
+          "trigger": "Closest modern universality theorem for dependent increments"
+        },
+        {
+          "assessment": "Shows anomalous maximal displacement under 3-wise independence, not the exact four-step persistence response.",
+          "evidence": "Its main statistic is expected maximum distance and related moment bounds.",
+          "identifier_or_url": "https://doi.org/10.1002/rsa.21075",
+          "material_read": "Accessible article page including abstract and references to the full result",
+          "method": "Primary full-text page inspection",
+          "title": "Three-wise independent random walks can be slightly unbounded",
+          "trigger": "Same limited-independence level and path functional"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Sparre Andersen, On the fluctuations of sums of random variables (1953) and On sums of symmetrically dependent random variables (1953).",
+        "Benjamini, Kozma and Romik, Random walks with k-wise independent increments, ECP 11 (2006).",
+        "Narayanan, Three-wise independent random walks can be slightly unbounded, RSA 61 (2022), accessible full article page inspected.",
+        "Berger and Béthencourt, An application of Sparre Andersen’s fluctuation theorem for exchangeable and sign-invariant random variables, arXiv:2304.09031.",
+        "Iľkovič and Yan, Extremal persistence probabilities of exchangeable sign-invariant random variables, arXiv:2609.05586.",
+        "Published finding dated 2026-09-20 on pure n-way dependence and Student t size, inspected through Resultary.",
+        "Assigned exact verifier and independent rational replay."
+      ],
+      "rationale": "The theorem gives a sharp finite-horizon information boundary for a classical persistence law: every proper subset can be exactly iid while a single invisible fourth-order coefficient moves the path probability by a fixed amount. This is a motivated counterexample/boundary result, not merely an arbitrary four-variable computation.",
+      "residual_risks": [
+        "Older dependent-fluctuation literature is broad, and an equivalent four-step calculation under different terminology remains a best-of-knowledge risk.",
+        "The theorem is finite-horizon and assumes the independent sign-amplitude representation with \\(b<2a\\)."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "evidence": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "final_claim": "For four fair 3-wise independent signs coupled to iid non-atomic positive amplitudes in \\([a,b]\\) with \\(b<2a\\), the sole fourth-order sign coefficient \\(\\theta\\) determines strong four-step persistence exactly as \\((35-5\\theta)/128\\); in particular the two parity-conditioned exchangeable continuous models have every proper subset iid but persistence \\(15/64\\) and \\(5/16\\).",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "Finite four-step horizon; independent sign-amplitude representation with \\(b<2a\\); parity conditioning and Walsh limited-independence constructions are prior art."
+  ],
+  "previously_published_pending_reaudit": false,
+  "record_id": "SCOPE-20260921-a412ed2dcdb6",
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
+}

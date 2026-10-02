@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/18/SCOPE-spectral-booksize-equality-balanced-multipartite--75d8398c42c7",
   "resultary_record_key": "SCOPE-spectral-booksize-equality-balanced-multipartite--75d8398c42c7",
-  "source_commit": "a7cc69d784246a36eca421019db9c279a2c15a0e",
-  "source_commit_time": "2026-09-30T19:52:54Z",
+  "source_commit": "e07956305f0ab2c128c181763a4c6660b60c0754",
+  "source_commit_time": "2026-10-02T09:03:34Z",
   "source_path": "2026/09/18/spectral-booksize-equality-balanced-multipartite--75d8398c42c7",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260918-75d8398c42c7",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-01T08:22:11Z",
+  "synced_at": "2026-10-02T09:07:02Z",
   "time_standard": "UTC"
 }

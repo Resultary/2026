@@ -1,27 +1,139 @@
 {
   "axes": {
     "correctness": {
-      "rationale": "Two explicit 2x2 compact H-operators are diagonalizable with real spectrum and satisfy the required resolvent estimate by similarity, while their sum has spectrum {2i,-2i}. The 2024 source itself requires a quasi-Banach linear ambient space for an approximation scheme, so the non-additive H-class cannot be that ambient space.",
-      "verdict": "PASS"
+      "rationale": "PASS. The two displayed \\(2\times2\\) matrices are each similar to a real diagonal matrix with eigenvalues \\(1\\) and \\(-1\\). Similarity therefore gives the required resolvent bound \\(C/|\\operatorname{Im}\\lambda|\\), and finite dimensionality gives compactness. Their sum has characteristic polynomial \\(t^2+4\\), hence spectrum \\(\\{2i,-2i\\}\\) and is not an H-operator. Consequently the class of compact H-operators is not additive and cannot itself be a quasi-Banach linear ambient space. The source approximation-scheme definition requires such a linear ambient space, so this is a genuine type obstruction. The separate observation about operators between unequal spaces is also correct: \\(T-\\lambda I\\) and an ordinary eigenvalue sequence are not canonically defined for a map \\(X\to Y\\) without identifying domain and codomain.",
+      "risks": [],
+      "sources": [
+        "Assigned RESULT.md and exact frozen tree",
+        "Direct matrix similarity/eigenvalue calculation",
+        "2024 primary article text and publication page",
+        "Targeted correction/erratum searches",
+        "2026 follow-up abstract",
+        "Resultary semantic search"
+      ],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Qualified to the best of our knowledge. Searches of the paper title, DOI, arXiv identifier, relevant definition/theorem labels, and synonymous H-operator/approximation-scheme terms found no prior correction or equivalent published objection. Only the abstract of the 2026 follow-up was inspected.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "General H-operator theory supplies resolvent estimates, but no inspected theorem asserts closure under addition; the explicit matrices disprove it."
+        ],
+        "reasoning": "Broader operator theory does not cover the paper-specific type correction or make it a known theorem.",
+        "searches": [
+          "H-operator linear space resolvent real spectrum",
+          "compact H-operator approximation spaces erratum"
+        ]
+      },
+      "checked_sources": [
+        "Assigned RESULT.md and exact frozen tree",
+        "Direct matrix similarity/eigenvalue calculation",
+        "2024 primary article text and publication page",
+        "Targeted correction/erratum searches",
+        "2026 follow-up abstract",
+        "Resultary semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The source definitions create the contradiction when combined with the explicit matrix pair.",
+          "The follow-up abstract advertises a quasi-Banach framework but does not expose enough theorem-level detail to decide whether it already contains this correction."
+        ],
+        "reasoning": "The objection is not stated or mechanically resolved in the inspected 2024 source; the 2026 follow-up remains an access-limited risk, not affirmative coverage.",
+        "searches": [
+          "Aksoy Thiong 2024 Definitions 3.1 3.2 5.1 Theorem 5.5",
+          "Thiong arXiv:2609.14381"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The source defines approximation schemes over quasi-Banach linear spaces and later takes the compact H-operator class as the ambient set."
+        ],
+        "reasoning": "Nonadditivity is exactly the obstruction to the source's ambient-space formulation; no equivalent correction was found.",
+        "searches": [
+          "\"Approximation spaces for H-operators\" compact H-operator quasi-Banach correction",
+          "H-operator non additive approximation scheme"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No correction or erratum entry was located."
+        ],
+        "reasoning": "This is not a database numerical claim; the database check is relevant only to whether a published correction already exists.",
+        "searches": [
+          "DOI 10.2140/involve.2024.17.709 correction erratum",
+          "arXiv:2306.03633 correction"
+        ]
+      },
+      "rationale": "PASS to the best of current knowledge. Targeted searches of the 2024 article, its title/DOI/arXiv identifier, the relevant definition/theorem labels, correction/erratum terms and the nonadditivity formulation did not locate an earlier published objection. The original article itself supplies the conflicting definitions but does not note the counterexample. The 2026 follow-up was available only at abstract level in this audit, so its detailed treatment could already repair the issue; that uncertainty is recorded as residual risk rather than used as novelty proof.",
+      "residual_risks": [
+        "Only the abstract of arXiv:2609.14381v1 was inspectable; its full definitions may already fix the issue.",
+        "The publisher PDF screenshot mechanism failed because the endpoint was returned as text/html; the article's searchable text was nevertheless inspected."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "SOURCE_CONTAINS_TYPE_MISMATCH",
+          "evidence": "The approximation scheme requires a quasi-Banach linear ambient space, while the H-operator definition imposes real spectrum/resolvent conditions not closed under addition.",
+          "identifier_or_url": "DOI 10.2140/involve.2024.17.709; arXiv:2306.03633",
+          "material_read": "Primary article text around the quasi-norm/approximation-scheme definitions and the H-operator approximation-space setup; the publisher PDF endpoint was also attempted through the PDF screenshot path but was served as HTML by the retrieval layer.",
+          "method": "Primary full-text/text inspection; PDF screenshot attempt failed because the endpoint was not exposed as application/pdf.",
+          "title": "Approximation spaces for H-operators",
+          "trigger": "Exact publication challenged by the record."
+        },
+        {
+          "assessment": "ACCESS_LIMITED_RESIDUAL_RISK",
+          "evidence": "The abstract describes a constructive quasi-Banach framework but does not expose enough definitions to establish whether it already incorporates the repair.",
+          "identifier_or_url": "arXiv:2609.14381v1",
+          "material_read": "Abstract only.",
+          "method": "Primary abstract inspection.",
+          "title": "H-Operator Approximation Spaces via Delayed Riesz Means and Quasi-Banach Moduli",
+          "trigger": "Recent follow-up by the same research line."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The dimension-two obstruction isolates a structural defect in a published approximation-space formulation, separates valid Markus spectral estimates from the invalid ambient linear-space assumption, and gives a direct repair through a genuine linear operator space.",
-      "verdict": "PASS"
+      "rationale": "PASS. This is an explicit two-dimensional counterexample to a published approximation-space setup, not a generic textbook observation presented without context. It pinpoints exactly which ambient-space assumption fails, explains why the representation proof uses unavailable subtraction/addition, preserves the valid set-theoretic eigenvalue estimates, and identifies a coherent repair through a genuine linear compact-operator space. That is a motivated boundary correction with clear future utility.",
+      "risks": [],
+      "sources": [
+        "Assigned RESULT.md and exact frozen tree",
+        "Direct matrix similarity/eigenvalue calculation",
+        "2024 primary article text and publication page",
+        "Targeted correction/erratum searches",
+        "2026 follow-up abstract",
+        "Resultary semantic search"
+      ],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
+  "independent": true,
+  "independent_audit_evidence": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent_audit_status": "passed",
+  "independent_validation": true,
   "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-18",
+  "previously_published_pending_reaudit": false,
+  "record_id": "SCOPE-20260918-6d33c793b99d",
+  "review_type": "independent_audit",
+  "reviewed_at_utc": "2026-10-01T08:48:00Z",
+  "same_model_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "Original same-model review passed correctness; its detailed rationale remains historically attributable to the pre-audit package.",
+        "status": "PASS"
+      },
+      "originality": {
+        "rationale": "Original same-model review passed originality under its then-recorded best-knowledge assessment.",
+        "status": "PASS"
+      },
+      "value": {
+        "rationale": "Original same-model review passed scientific value.",
+        "status": "PASS"
+      }
+    },
+    "status": "passed"
+  },
   "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

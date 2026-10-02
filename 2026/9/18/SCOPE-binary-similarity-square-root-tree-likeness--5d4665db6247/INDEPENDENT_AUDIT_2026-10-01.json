@@ -1,0 +1,112 @@
+{
+  "audited_at_utc": "2026-10-01T07:42:37Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "J.-H. Yim, A quantitative tree-likeness bound from average hyperbolicity, arXiv:2609.18023v2 (2026)",
+        "S. Chatterjee and L. Sloman, Average Gromov hyperbolicity and the Parisi ansatz, Adv. Math. 376 (2021)",
+        "Ailon--Charikar--Newman correlation-clustering pivot framework",
+        "Resultary semantic search for binary similarity / correlation clustering / square-root tree-likeness"
+      ],
+      "rationale": "The binary threshold argument is correct. Clipping a tree similarity to \\([0,b]\\) and integrating its threshold equivalence relations gives the lower bound \\(\\operatorname{Tree}(s)\\ge b\\operatorname{Clust}(A)\\); a one-level tree built from any finite-core clustering gives the reverse inequality. Binary hyperbolicity is exactly the oriented bad-triangle probability. The Poisson-pivot estimates sum to \\(3\\lambda\\beta+1/(e\\lambda)\\), whose optimization gives \\(2\\sqrt{3/e}\\sqrt\\beta\\). The graph normalizations \\(\\operatorname{Clust}=2k/n^2\\) and \\(\\beta=2p_3/n^3\\) yield the stated \\(e/6\\) inequality, and the disjoint-\\(K_{q,q}\\) family confirms quadratic-order sharpness.",
+      "residual_risks": [
+        "The theorem is restricted to reflexive two-valued similarities and finite-core clusterings exactly as stated."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The known general upper exponent is one third, weaker than the binary square-root bound.",
+          "Classical pivot clustering does not by itself identify Tree(s) exactly with a one-level clustering objective."
+        ],
+        "reasoning": "No checked broader theorem mechanically implies the exact identity and binary constant.",
+        "searches": [
+          "Yim general theorem",
+          "Chatterjee--Sloman qualitative theorem",
+          "correlation-clustering pivot literature"
+        ]
+      },
+      "checked_sources": [
+        "J.-H. Yim, A quantitative tree-likeness bound from average hyperbolicity, arXiv:2609.18023v2 (2026)",
+        "S. Chatterjee and L. Sloman, Average Gromov hyperbolicity and the Parisi ansatz, Adv. Math. 376 (2021)",
+        "Ailon--Charikar--Newman correlation-clustering pivot framework",
+        "Resultary semantic search for binary similarity / correlation clustering / square-root tree-likeness"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The source gives ingredients and an obstruction for multilevel similarities, but an additional exact threshold-layer identity and one-level optimization are needed for the final claim."
+        ],
+        "reasoning": "The prior results do not mechanically entail the full binary theorem.",
+        "searches": [
+          "Yim Proposition 4.2 and Proposition 5.1"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Yim's Proposition 4.2 supplies the multilevel pivot machinery and Proposition 5.1 supplies the binary lower family.",
+          "The assigned record's exact one-threshold equality and square-root upper theorem were not stated in the inspected source."
+        ],
+        "reasoning": "The binary one-threshold specialization removes the hierarchy/refinement loss rather than merely renaming Yim's general theorem.",
+        "searches": [
+          "Resultary: binary similarity tree fitting correlation clustering square root average hyperbolicity induced P3 cluster editing",
+          "Yim arXiv:2609.18023 Sections 4--5"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No independent exact table/theorem with the displayed constant was located."
+        ],
+        "reasoning": "This supports only best-of-knowledge originality.",
+        "searches": [
+          "exact induced P3 cluster-editing inequality e/6",
+          "binary average hyperbolicity square-root bound"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality passes. Yim proves the general cube-root upper bound, gives the binary family forcing exponent at most one half, and explicitly identifies the multilevel common-refinement loss; the checked paper does not state the one-threshold equality with correlation clustering or the binary square-root upper bound. Resultary found no stronger pre-existing record.",
+      "residual_risks": [
+        "Correlation clustering and cluster-editing literature is broad, so a differently phrased exact constant could be unindexed.",
+        "The square-root constant and the induced-P3 constant are not claimed optimal."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Highly relevant but not covering: it provides the general theorem and lower bound, not the binary square-root upper theorem or exact clustering identity.",
+          "evidence": "The paper's binary family forces the one-half exponent barrier while the general upper theorem remains at exponent one third.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.18023",
+          "material_read": "Full arXiv HTML sections containing the main cube-root theorem, Proposition 4.2 pivot estimates, Proposition 5.1 binary family, and the discussion of the square-root obstruction",
+          "method": "Primary full-text HTML inspection",
+          "title": "A quantitative tree-likeness bound from average hyperbolicity",
+          "trigger": "Same tree-fitting and average-hyperbolicity objects, including the binary lower family"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "J.-H. Yim, A quantitative tree-likeness bound from average hyperbolicity, arXiv:2609.18023v2 (2026)",
+        "S. Chatterjee and L. Sloman, Average Gromov hyperbolicity and the Parisi ansatz, Adv. Math. 376 (2021)",
+        "Ailon--Charikar--Newman correlation-clustering pivot framework",
+        "Resultary semantic search for binary similarity / correlation clustering / square-root tree-likeness"
+      ],
+      "rationale": "The result closes the exponent gap on the natural two-valued subclass, identifies the exact combinatorial optimization problem governing binary tree fitting, and yields a reusable finite-graph removal inequality. That is a motivated structural boundary result, not a routine parameter substitution.",
+      "residual_risks": [
+        "Correlation clustering and cluster-editing literature is broad, so a differently phrased exact constant could be unindexed.",
+        "The square-root constant and the induced-P3 constant are not claimed optimal."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "final_claim": "For reflexive two-valued similarities, mean tree-fitting error equals the scaled finite-core correlation-clustering optimum and obeys the stated square-root hyperbolicity bound; the finite graph specialization gives the stated induced-P3 lower bound.",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "Restricted to reflexive two-valued similarities and finite-core measurable equivalence relations.",
+    "The constants are not claimed optimal; originality is best-of-knowledge against broad clustering literature."
+  ],
+  "record_id": "SCOPE-20260918-5d4665db6247",
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
+}

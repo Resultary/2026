@@ -1,27 +1,118 @@
 {
+  "audited_at_utc": "2026-10-01T06:12:13.318800Z",
   "axes": {
     "correctness": {
-      "rationale": "For every connected H of order at least three, an independent set in C(H) contains a clique X of original vertices plus subdivision vertices corresponding only to edges of H-X; connectedness gives at least |X| edges incident with X, so alpha(C(H))=|E(H)|. Substituting this identity and the exact order-size formulas for a central graph into Theorem 2.12 of arXiv:2609.16357v1 simplifies exactly to i(C^k(G))=2|E(C^(k-2)(G))| for k>=3, with K2,k=3 checked separately through P3.",
-      "verdict": "PASS"
+      "rationale": "For a connected graph \\(H\\) of order at least three, any independent set in its central graph contains a clique \\(X\\) of original vertices and only subdivision vertices coming from edges of \\(H-X\\). Connectivity and the clique property imply that at least \\(|X|\\) edges of \\(H\\) are incident with \\(X\\), hence \\(|X|+|E(H-X)|\\le |E(H)|\\); all subdivision vertices attain equality, proving \\(\u0007lpha(C(H))=|E(H)|\\). Substituting this identity together with the exact order/size formulas for a central graph into the cited second-iterate formula simplifies algebraically to \\(i(C^k(G))=2|E(C^{k-2}(G))|\\); the \\(K_2,k=3\\) boundary case is checked separately.",
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Qualified to the best of our knowledge. The September 2026 source gives the exact second-iterate formula but does not state higher iterates. Searches for exact and synonymous higher-iterate formulations found no prior theorem implying the all-k identity. The elementary alpha(C(H)) lemma may be known separately, so the originality claim is centered on the higher-iterate independent-domination identity and its consequences.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "The source gives formulas/bounds for central graphs and the exact second-iterate formula used in the proof."
+        ],
+        "reasoning": "That result does not by itself remove dependence on \\(\u0007lpha(H)\\) at all subsequent iterates; the audited lemma supplies the collapsing substitution.",
+        "searches": [
+          "arXiv:2609.16357",
+          "search: central graph independence number edge count iterated central graphs"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.16357",
+        "Resultary semantic search for iterated central graphs"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The cited theorem becomes the audited formula only after proving \\(\u0007lpha(C(J))=|E(J)|\\) and substituting the central-graph order/size identities."
+        ],
+        "reasoning": "The final theorem is a short but nontrivial structural corollary once the new lemma is available.",
+        "searches": [
+          "Compared the theorem to Theorem 2.12 of arXiv:2609.16357"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Resultary returned this record and a later near-duplicate; no earlier equivalent theorem appeared.",
+          "The cited primary paper is about independent domination in central graphs and provides the second-iterate input."
+        ],
+        "reasoning": "No earlier equivalent all-\\(k\\) identity was located.",
+        "searches": [
+          "Resultary: iterated central graph independent domination edge count",
+          "arXiv:2609.16357"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No prior table or database entry supplied the all-iterate sequence; the only close Resultary entry with the same formula is later-dated."
+        ],
+        "reasoning": "The theorem is structural rather than a recomputation of known tabulated values.",
+        "searches": [
+          "Resultary exact semantic search"
+        ]
+      },
+      "rationale": "The cited September 2026 primary source supplies the second-iterate independent-domination formula, while targeted exact and synonymous searches did not locate a prior statement of the all-iterate collapse. The new structural ingredient is the central-graph independence identity and its iteration consequence.",
+      "residual_risks": [
+        "The full external text of the very recent source was not independently retrieved, so the exact scope of unpublished remarks beyond the quoted theorem remains a literature-access risk.",
+        "The elementary identity \\(\u0007lpha(C(H))=|E(H)|\\) may exist in older central-graph literature under different terminology."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "PARTIAL_ACCESS_NOT_DECISIVE",
+          "evidence": "The source is confirmed as the second-iterate independent-domination paper. The audit does not claim whole-document absence from an unread full text; residual access risk is recorded.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.16357",
+          "material_read": "Primary arXiv abstract/metadata and the theorem as quoted verbatim in the inspected record; the external full text was not obtainable in this run.",
+          "method": "Primary arXiv record plus exact repository proof text.",
+          "title": "Independent domination in central graphs",
+          "trigger": "The audited proof explicitly depends on Theorem 2.12."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The theorem determines every central iterate from the third onward and shows that all finer graph structure disappears from these values: the entire tail depends only on the starting order and size through a deterministic recurrence.",
-      "verdict": "PASS"
+      "rationale": "The theorem gives a natural complete tail formula for an iterated graph operator and shows that all finer structure disappears after two iterations. The independence-number lemma and the resulting all-iterate collapse are useful structural facts, not an arbitrary finite slice.",
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
+  "disposition": "passed",
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "The result concerns finite simple connected graphs.",
+    "It does not classify the minimum independent dominating sets.",
+    "Its proof uses the cited second-iterate formula as an external theorem."
+  ],
   "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-17",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "previously_published_pending_reaudit": false,
+  "prior_scientific_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "For every connected H of order at least three, an independent set in C(H) contains a clique X of original vertices plus subdivision vertices corresponding only to edges of H-X; connectedness gives at least |X| edges incident with X, so alpha(C(H))=|E(H)|. Substituting this identity and the exact order-size formulas for a central graph into Theorem 2.12 of arXiv:2609.16357v1 simplifies exactly to i(C^k(G))=2|E(C^(k-2)(G))| for k>=3, with K2,k=3 checked separately through P3.",
+        "verdict": "PASS"
+      },
+      "originality": {
+        "rationale": "Qualified to the best of our knowledge. The September 2026 source gives the exact second-iterate formula but does not state higher iterates. Searches for exact and synonymous higher-iterate formulations found no prior theorem implying the all-k identity. The elementary alpha(C(H)) lemma may be known separately, so the originality claim is centered on the higher-iterate independent-domination identity and its consequences.",
+        "verdict": "PASS"
+      },
+      "value": {
+        "rationale": "The theorem determines every central iterate from the third onward and shows that all finer graph structure disappears from these values: the entire tail depends only on the starting order and size through a deterministic recurrence.",
+        "verdict": "PASS"
+      }
+    },
+    "disclaimer": "Not independent validation, peer review, or a guarantee of first discovery.",
+    "evidence_file": "REVIEW.md",
+    "independent": false,
+    "independent_audit_status": "not_performed",
+    "independent_validation": false,
+    "policy": "to-the-best-of-our-knowledge",
+    "previously_published_pending_reaudit": true,
+    "review_type": "prior_scientific_review",
+    "reviewed_at": "2026-09-17",
+    "verification_state": "awaiting_fresh_independent_audit"
+  },
+  "review_type": "independent_audit",
+  "verification_state": "independently_reviewed"
 }

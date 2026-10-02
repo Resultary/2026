@@ -1,30 +1,103 @@
 {
   "axes": {
     "correctness": {
-      "rationale": "The exact defect formula follows from the product Fourier factorization and the same-sign quadrant multiplier of H1H2-I. The half-Sobolev limit is an extended-valued dominated-convergence/Fatou statement with J(s)<=s and J(s)/s->1. For finite-jump cutoffs, the distributional derivative gives the 1/xi Fourier tail; diagonal jump terms produce the logarithmic coefficient while cross terms are oscillatory lower-order terms.",
-      "verdict": "PASS"
+      "rationale": "Plancherel and the same-sign quadrant multiplier give the exact kernel identity. Since \\(0\\le J(s)\\le s\\) and \\(J(s)/s\\to1\\), dominated convergence gives the finite half-Sobolev limit and Fatou gives divergence outside the half-Sobolev class. For finitely many jumps, the distributional derivative has a finite atomic part; diagonal atomic terms contribute the logarithmic coefficient and off-diagonal terms are oscillatory lower order. The constants reduce correctly to the hard interval cutoff.",
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "The closest 2026 source gives only an upper-order estimate for one hard cutoff and does not state the arbitrary-cutoff kernel identity, the H^{1/2} characterization, the jump-count asymptotic, or the exact 2/pi leading constant. Targeted literature and SCOPE-archive searches did not locate equivalent coverage. The source is very recent and older product-Hardy-space terminology remains a residual risk.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "The 2026-09-18 prior is narrower in cutoff profile but covers the motivating indicator exactly.",
+          "A 2026-09-20 record has broader transverse-cutoff/perimeter information but postdates the audited record."
+        ],
+        "reasoning": "No earlier inspected result dominates the arbitrary-cutoff half-Sobolev characterization.",
+        "searches": [
+          "2026-09-18 sharp logarithmic strip record",
+          "2026-09-20 strip defect asymptotics"
+        ]
+      },
+      "checked_sources": [
+        "arXiv:2609.15155",
+        "published 2026-09-18 sharp strip record",
+        "published archive semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "An exact computation for one indicator does not imply the integral kernel for arbitrary cutoff functions, nor the if-and-only-if half-Sobolev threshold or general finite-jump coefficient."
+        ],
+        "reasoning": "The surviving functional law requires its own Fourier/Fatou and jump-asymptotic proof.",
+        "searches": [
+          "hard-strip expansion implication to arbitrary cutoff",
+          "source upper bound implication to H1/2 iff"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "A published 2026-09-18 record already gives the exact hard-strip leading constant and a convergent expansion.",
+          "The inspected source abstract introduces the approximate-eigenvector construction but does not state the arbitrary-cutoff half-Sobolev law."
+        ],
+        "reasoning": "The repaired claim removes the hard-strip constant from novelty and retains the arbitrary \\(L^2\\) cutoff kernel, iff threshold and general jump law.",
+        "searches": [
+          "published archive: double Hilbert strip defect H1/2 cutoff",
+          "arXiv:2609.15155"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "Exact archive search found prior coverage of the \\(2/\\pi\\) hard-strip constant, which is explicitly treated as prior in the repair."
+        ],
+        "reasoning": "This check forced a substantive originality repair.",
+        "searches": [
+          "published archive exact strip constant",
+          "published archive half-Sobolev eigenstrip"
+        ]
+      },
+      "rationale": "Originality passes only for the repaired arbitrary-cutoff half-Sobolev theorem and finite-jump law; the hard-strip leading constant is prior coverage.",
+      "residual_risks": [
+        "The very recent primary preprint full text was not accessible in the available text interface; overlap beyond the visible source description remains a stated risk."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "PARTIAL_COVERAGE",
+          "evidence": "It proves the exact hard-strip asymptotic and constant \\(2/\\pi\\), so those cannot be claimed as new here.",
+          "identifier_or_url": "https://github.com/Resultary/2026/tree/main/2026/9/18/SCOPE-sharp-logarithmic-defect-truncated-double-hilbert-strip--867a0fef0943",
+          "material_read": "complete result and proof",
+          "method": "published record full text",
+          "title": "Sharp logarithmic defect for a truncated double-Hilbert strip",
+          "trigger": "exact same hard cutoff and constant"
+        },
+        {
+          "assessment": "SUPPORTING",
+          "evidence": "The accessible text confirms finite-measure approximate eigenvectors and the surrounding invariant-set program; full text was not retrievable through the text interface during this audit.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.15155",
+          "material_read": "abstract and accessible paper preview",
+          "method": "public source pages",
+          "title": "Invariant sets of the double Hilbert transform",
+          "trigger": "primary source for the strip construction"
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result identifies the exact regularity threshold governing truncated eigenstrip defects, supplies a converse, distinguishes smooth and jump cutoffs, and sharpens the motivating construction to an explicit leading asymptotic.",
-      "verdict": "PASS"
+      "rationale": "The repaired result identifies the exact regularity threshold governing an entire natural cutoff family and explains the jump logarithm structurally. This is a reusable analytic law, not a recomputation of the already-known single indicator constant.",
+      "status": "PASS"
     }
   },
-  "disclaimer": "Same-model review: passed. Independent audit: not yet performed.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "phase": "II",
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "The very recent primary preprint full text was not accessible in the available text interface; overlap beyond the visible source description remains a stated risk."
+  ],
+  "previously_published_pending_reaudit": false,
   "record_id": "SCOPE-20260919-ba346044db55",
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-19",
+  "review_type": "independent_audit",
+  "reviewed_at": "2026-10-01T13:56:20.018401Z",
+  "same_model_evidence_preserved": true,
   "same_model_review_status": "passed",
-  "scope_run_id": "65bd9d24-b227-4fa0-9ee6-4dc302a8021b",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "verification_state": "independently_reviewed"
 }

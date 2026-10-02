@@ -1,27 +1,128 @@
 {
+  "audited_at_utc": "2026-10-01T06:51:54.979295Z",
   "axes": {
     "correctness": {
-      "rationale": "The two induced corner families cover all indecomposable projective Lambda-classes because Lambda=eLambda direct-sum fLambda. Inclusion-exclusion gives omega=|A|+|B|-|Lambda|, and the semisimple quotient identifies omega with mixed Wedderburn factors, yielding omega=0 exactly under radical-valued connecting maps. For a tau-rigid direct induction, adjunction identifies all projectives orthogonal to the induced module; inclusion-exclusion then gives |Z|+|P_Z^perp|=|A|+|B|-Delta. The tau-rigid-pair bound yields Delta>=omega, with equality exactly at the support tau-tilting count. The strict M_2(k) example and its finite direct products attain equality with the predicted defect.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "2026/09/17/projective-overlap-budget-for-morita-context-tau-tilting--f1048adac53c"
+      ],
+      "rationale": "the overlap identity follows by counting indecomposable projective classes induced from the two idempotent corners and using that every indecomposable projective of the Morita-context algebra occurs in at least one corner. Semisimple block analysis gives zero overlap exactly when both connecting images are radical. For the support tau-tilting criterion, adjunction identifies the corner projectives orthogonal to the induced module; inclusion-exclusion for duplicate induced modules and duplicate projectives gives the stated six-term deficit, and the standard summand bound for tau-rigid pairs gives the lower bound by the projective overlap, with equality exactly at support tau-tilting.",
+      "residual_risks": [],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "To the best of our knowledge, targeted searches found no prior six-term projective-overlap budget or arbitrary-connecting-map equality criterion for direct support tau-tilting induction. Zhang's 2026 preprint isolates the radical condition as a summand-count hypothesis and supplies the arbitrary-map tau-rigidity test plus an M_2(k) counterexample, but does not state this quantitative replacement. Classical Morita-context radical results are not claimed as novel.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "Zhang's accessible abstract states direct induction and necessity under a radical hypothesis; later Resultary work is subsequent, not prior. Classical Morita-context sources concern structure rather than this τ-tilting equality criterion."
+        ],
+        "reasoning": "No prior broader theorem inspected subsumes the arbitrary-connecting-map budget.",
+        "searches": [
+          "Zhang arXiv:2609.18746",
+          "Asefa–Xu 2024",
+          "Green–Psaroudakis arXiv:1303.2083",
+          "Resultary projective overlap search"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.18746",
+        "https://arxiv.org/abs/1210.1036",
+        "https://github.com/Resultary/2026"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The standard summand bound and Zhang's τ-rigidity criterion are ingredients, but the inclusion–exclusion overlap identity and six defect accounting are additional deductions not stated in the accessible prior material."
+        ],
+        "reasoning": "Best-of-knowledge not mechanically implied by the statements actually inspected; full Zhang text was inaccessible, leaving explicit residual risk.",
+        "searches": [
+          "Zhang arXiv:2609.18746 abstract",
+          "AIR arXiv:1210.1036"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The zero-overlap condition is equivalent to radical-valued connecting maps; the six-term deficit equality is equivalent to saturating the τ-rigid-pair summand bound."
+        ],
+        "reasoning": "No located source states the quantitative overlap budget in an equivalent form.",
+        "searches": [
+          "Resultary: Morita context support tau tilting projective overlap direct induction radical condition",
+          "Zhang arXiv:2609.18746",
+          "Adachi–Iyama–Reiten arXiv:1210.1036"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No database/table of overlap budgets is relevant or was found."
+        ],
+        "reasoning": "This is a structural theorem rather than table extraction.",
+        "searches": [
+          "Resultary support tau tilting Morita context overlap"
+        ]
+      },
+      "rationale": "Zhang's primary abstract says direct corner induction is characterized by two-sided compatibility conditions and that necessity is proved under radical-valued connecting maps. The present result identifies the missing general obstruction as projective overlap and gives an exact numerical budget outside the radical case. Resultary search found no prior equivalent overlap-budget formula; a later SCOPE record on full Morita corners is subsequent and does not constitute prior coverage.",
+      "residual_risks": [
+        "The full text of arXiv:2609.18746 was inaccessible during this run; the primary abstract and record's cited theorem statements were compared, leaving a nonzero risk that an uninspected passage already states an equivalent overlap formula.",
+        "Computing duplicate isomorphism classes in applications can itself be nontrivial."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Compared against the final statement and implication scope.",
+          "evidence": "Primary abstract inspected. Full text could not be retrieved in this run; this access limitation is explicitly retained as a risk rather than treated as novelty evidence.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.18746",
+          "material_read": "Primary abstract inspected. Full text could not be retrieved in this run; this access limitation is explicitly retained as a risk rather than treated as novelty evidence.",
+          "method": "full text where stated; otherwise primary abstract/search result as stated",
+          "title": "Yingying Zhang, Support tau-tilting modules over Morita context algebras: A bilateral approximation approach",
+          "trigger": "High relevance to the final claim or originality boundary."
+        },
+        {
+          "assessment": "Compared against the final statement and implication scope.",
+          "evidence": "Primary foundational source for support tau-tilting summand counts and tau-rigid pairs.",
+          "identifier_or_url": "https://arxiv.org/abs/1210.1036",
+          "material_read": "Primary foundational source for support tau-tilting summand counts and tau-rigid pairs.",
+          "method": "full text where stated; otherwise primary abstract/search result as stated",
+          "title": "Adachi, Iyama, Reiten, tau-tilting theory",
+          "trigger": "High relevance to the final claim or originality boundary."
+        },
+        {
+          "assessment": "Compared against the final statement and implication scope.",
+          "evidence": "Searched Morita context, support tau-tilting, projective overlap, direct induction, and radical-condition formulations.",
+          "identifier_or_url": "https://github.com/Resultary/2026",
+          "material_read": "Searched Morita context, support tau-tilting, projective overlap, direct induction, and radical-condition formulations.",
+          "method": "full text where stated; otherwise primary abstract/search result as stated",
+          "title": "Resultary search",
+          "trigger": "High relevance to the final claim or originality boundary."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result converts a qualitative failure of the newest converse theorem outside the radical case into an exact quantitative obstruction and a necessary-and-sufficient criterion. It separates corner support defects, failed projective-side compatibility, and duplicate induced summands, while recovering the radical-valued theorem as the zero-budget case and giving sharp non-radical families.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.18746",
+        "https://arxiv.org/abs/1210.1036",
+        "https://github.com/Resultary/2026"
+      ],
+      "rationale": "the theorem explains precisely why the radical-valued hypothesis is the zero-overlap regime and supplies a general exact criterion for direct induction, a natural structural question in support tau-tilting theory.",
+      "residual_risks": [
+        "The full text of arXiv:2609.18746 was inaccessible during this run; the primary abstract and record's cited theorem statements were compared, leaving a nonzero risk that an uninspected passage already states an equivalent overlap formula."
+      ],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, formal verification, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-17T20:23:50Z",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disposition": "passed",
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": "Originality is assessed to the best of current searches. The exact overlap-budget criterion was not found, while the zero-overlap/radical observation rests on standard semisimple-ring facts. The full text of the very recent Zhang preprint was not retrievable in this run, so the comparison used its primary abstract plus the precise theorem statements cited and reproduced in the record; this is retained as a residual originality risk.",
+  "previously_published_pending_reaudit": false,
+  "reproducibility": "The proof was reconstructed from the induced-projective union count, corner defect decomposition, adjunction for orthogonal projectives, and the tau-rigid pair summand inequality; the M2(k) example is consistent with one shared projective class.",
+  "review_type": "independent_audit",
+  "same_model_review": {
+    "note": "The earlier same-model scientific assessment is preserved by its source blob identity and remains distinct from this fresh assessment.",
+    "source_audit_blob_sha": "aa29ed477043600c4c0a772a9960fd76a728e7e9",
+    "status": "passed"
+  },
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

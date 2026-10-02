@@ -1,29 +1,123 @@
 {
+  "audited_at_utc": "2026-10-01T04:59:35Z",
   "axes": {
     "correctness": {
-      "assessor": "same_model_reviewer",
-      "rationale": "Reported same-model assessment; full reasoning and limitations in REVIEW.md.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "Assigned RESULT.md and cited package artifacts",
+        "The 2-burning number of a graph",
+        "The generalized burning number of graphs"
+      ],
+      "rationale": "The proof was reconstructed from the definitions. On each unchanged source-free arm, propagation can advance by at most one arm vertex per round after both universal vertices are blue, so its endpoint cannot be blue before round L+2. The two-source schedule proves b_2(H)=L+2 and t_2(H)=2. The displayed G schedule finishes by L+1, so every time-optimal G schedule must seed each of the k=q+2 unchanged arms, giving t_2(G)>=q+2. A fresh exhaustive seven-vertex implementation independently reproduced (b_2,t_2)=(4,2) for H and (3,3) for G.",
+      "residual_risks": [
+        "A related 2021 generalized-burning paper was not available in full text during this audit; no specific covering theorem was identified.",
+        "The correction is tied to the currently published 2024 article text inspected on 2026-10-01 UTC; a future erratum would change the historical framing."
+      ],
+      "status": "PASS"
     },
     "originality": {
-      "assessor": "same_model_reviewer",
-      "rationale": "Reported same-model assessment; full reasoning and limitations in REVIEW.md.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "Jacobs--Messinger--Trenk, Ars Combinatoria 161 (2024), Lemma 2.4 explicitly asserts both b_2 and t_2 monotonicity; its full current article was inspected.",
+          "The generalized-burning paper DOI 10.1016/j.amc.2021.126306 was identified as a related predecessor but no theorem implying this secondary optimum counterexample was located."
+        ],
+        "reasoning": "The directly relevant published theorem is contradicted, not a stronger covering theorem.",
+        "searches": [
+          "generalized burning number graphs Li Qin Li 2021",
+          "2-burning source number edge addition"
+        ]
+      },
+      "checked_sources": [
+        "The 2-burning number of a graph",
+        "The generalized burning number of graphs"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The published Lemma 2.4 says t_2(G)<=t_2(H) for H spanning G; the audited family gives t_2(G)-t_2(H)>=q for arbitrary q."
+        ],
+        "reasoning": "The claim is logically incompatible with the cited prior assertion and therefore cannot be a corollary of it; the new content is the correction and unbounded witness.",
+        "searches": [
+          "Jacobs Messinger Trenk Lemma 2.4 t_2"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The fixed-deadline quantity F_J(T) is monotone under edge addition, whereas t_2(J)=F_J(b_2(J)) changes the evaluation deadline."
+        ],
+        "reasoning": "The equivalent constrained-optimization formulation explains exactly why schedule transfer does not imply the published t_2 inequality and was not located as a prior counterexample.",
+        "searches": [
+          "2-burning source number spanning supergraph counterexample",
+          "fixed deadline minimum sources threshold-two burning"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "The only exact-hit finding was this record; no independent exact table/counterexample was returned."
+        ],
+        "reasoning": "This is a theorem/counterexample claim rather than a database lookup; absence of a hit is used only as supporting search evidence, not as novelty proof.",
+        "searches": [
+          "published-results semantic search for 2-burning t_2 edge addition unbounded gap"
+        ]
+      },
+      "rationale": "The current published source itself still states Lemma 2.4 claiming t_2 monotonicity under spanning supergraphs; its proof only transfers a schedule and therefore controls completion time, not the secondary optimum evaluated at the new minimum time. Searches for corrections, counterexamples, fixed-deadline formulations, generalized burning, and the exact universal-vertex/spider construction found no prior equivalent or stronger counterexample. The inspected parent-process paper remains a residual access risk rather than positive coverage evidence.",
+      "residual_risks": [
+        "A related 2021 generalized-burning paper was not available in full text during this audit; no specific covering theorem was identified.",
+        "The correction is tied to the currently published 2024 article text inspected on 2026-10-01 UTC; a future erratum would change the historical framing."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "COVERED ASSERTION, NOT COVERED CORRECTION",
+          "evidence": "Lemma 2.4 explicitly states both b_2 and t_2 monotonicity under spanning supergraphs; the proof transfers a sequence but does not preserve optimal completion time.",
+          "identifier_or_url": "https://doi.org/10.61091/ars161-16",
+          "material_read": "Current publisher HTML through Definitions 2.1--2.3, Lemma 2.4 and its proof, path/cycle consequences, and surrounding discussion.",
+          "method": "Full-text web inspection.",
+          "title": "The 2-burning number of a graph",
+          "trigger": "Direct source of the monotonicity assertion being corrected."
+        },
+        {
+          "assessment": "ACCESS RISK",
+          "evidence": "Related parent process; no concrete theorem implying the audited t_2 counterfamily was identified.",
+          "identifier_or_url": "https://doi.org/10.1016/j.amc.2021.126306",
+          "material_read": "Bibliographic/abstract-level material only; full theorem text was not available during this audit.",
+          "method": "Literature search.",
+          "title": "The generalized burning number of graphs",
+          "trigger": "Plausible predecessor for generalized burning terminology and graph operations."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "assessor": "same_model_reviewer",
-      "rationale": "Reported same-model assessment; full reasoning and limitations in REVIEW.md.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "The 2-burning number of a graph",
+        "The generalized burning number of graphs"
+      ],
+      "rationale": "An explicit unbounded counterfamily corrects a published comparison principle for a named parameter and isolates the changing-deadline mechanism. That is a motivated structural counterexample, not a tiny-instance anomaly.",
+      "residual_risks": [
+        "A related 2021 generalized-burning paper was not available in full text during this audit; no specific covering theorem was identified.",
+        "The correction is tied to the currently published 2024 article text inspected on 2026-10-01 UTC; a future erratum would change the historical framing."
+      ],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
+  "disclaimer": "Independent mathematical audit is not peer review or a guarantee of first discovery.",
+  "evidence_file": "INDEPENDENT_AUDIT_2026-10-01.md",
+  "evidence_json": "INDEPENDENT_AUDIT_2026-10-01.json",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
   "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-16T13:42:34Z",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "previously_published_pending_reaudit": false,
+  "review_type": "independent_audit",
+  "same_model_review": {
+    "evidence_file": "REVIEW.md",
+    "historical_axes": {
+      "correctness": "PASS",
+      "originality": "PASS",
+      "value": "PASS"
+    },
+    "note": "Retained as historical same-model evidence; it is distinct from the fresh independent assessment.",
+    "reviewed_at": "2026-09-16T13:42:34Z",
+    "status": "passed"
+  },
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

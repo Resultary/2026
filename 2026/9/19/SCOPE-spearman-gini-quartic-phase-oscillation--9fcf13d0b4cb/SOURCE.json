@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/19/SCOPE-spearman-gini-quartic-phase-oscillation--9fcf13d0b4cb",
   "resultary_record_key": "SCOPE-spearman-gini-quartic-phase-oscillation--9fcf13d0b4cb",
-  "source_commit": "a7cc69d784246a36eca421019db9c279a2c15a0e",
-  "source_commit_time": "2026-09-30T19:52:54Z",
+  "source_commit": "48cb684c85292f0f6f613a36baa8bd83a5dab14f",
+  "source_commit_time": "2026-10-02T09:03:34Z",
   "source_path": "2026/09/19/spearman-gini-quartic-phase-oscillation--9fcf13d0b4cb",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260919-9fcf13d0b4cb",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-01T08:22:11Z",
+  "synced_at": "2026-10-02T09:07:02Z",
   "time_standard": "UTC"
 }

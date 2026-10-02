@@ -1,23 +1,137 @@
 {
-  "correctness": {
-    "rationale": "For each fixed side pattern, the proof identifies the finite orbit problem with a translation action on an explicit binary matrix space. The action dimensions are 1, a, b, and a+b-1 for global complement, left switches, right switches, and two-sided switches, respectively; the formulas follow by orbit-space cardinality and summing over side assignments. Equality-pattern decomposition gives the Stirling transform. Exhaustive matrix-action checks on small rectangles and exact profile recomputation agree with every displayed formula.",
-    "status": "PASS"
+  "audited_at_utc": "2026-10-02T00:16:07.579488Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "assigned RESULT.md",
+        "assigned verify.py",
+        "Yun Lu, arXiv:1101.1947",
+        "Harman–Snowden, DOI:10.1007/s00222-026-01452-2"
+      ],
+      "rationale": "After fixing which \\(a\\) tuple coordinates lie on the left side and \\(b=k-a\\) on the right, homogeneity reduces the injective orbit problem to an \\(a\\times b\\) binary cross-edge matrix. Global complement, left switches, right switches, and two-sided switches translate by subspaces of dimensions \\(1\\), \\(a\\), \\(b\\), and \\(a+b-1\\), respectively, so the quotient counts are \\(2^{ab-1}\\), \\(2^{a(b-1)}\\), \\(2^{(a-1)b}\\), and \\(2^{(a-1)(b-1)}\\). Summing over side assignments and adding the all-left/all-right cases gives the five formulas. Equality-pattern decomposition gives the all-tuple Stirling transform, and balanced binomial summation gives the stated logarithmic growth rates.",
+      "residual_risks": [
+        "The finite matrix verifier checks only bounded rectangles and profile values; the general theorem rests on the switch-action quotient proof."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Lu gives the complete side-preserving reduct classification and finite parity/switch characterizations.",
+          "Harman–Snowden develop broad oligomorphic-group/tensor-category theory rather than these five explicit counts."
+        ],
+        "reasoning": "The audited formulas are quantitative consequences specialized to Lu's groups, not statements supplied by the broader theories.",
+        "searches": [
+          "arXiv:1101.1947",
+          "DOI:10.1007/s00222-026-01452-2"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/1101.1947",
+        "https://doi.org/10.1007/s00222-026-01452-2",
+        "published-result corpus search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Lu's finite switch operations determine which binary-matrix translations are allowed, but the quotient-space dimensions and sum over labeled side assignments are not stated there."
+        ],
+        "reasoning": "The orbit-profile theorem requires performing that quotient count and asymptotic analysis; it is not an immediate quoted classification result.",
+        "searches": [
+          "full-text comparison with Lu's switch definitions and parity characterizations"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The exact corpus hit was the assigned theorem; nearby hits concerned Rado-graph and random-poset reduct profiles.",
+          "Lu's classification contains the switch groups but no matching orbit-profile formulas in the inspected full text."
+        ],
+        "reasoning": "No equivalent finite-matrix quotient profile theorem was located.",
+        "searches": [
+          "published-corpus query: side preserving random bipartite graph reduct orbit profile row switch column switch exact formulas",
+          "literature query: random bipartite graph reduct oligomorphic orbit counts switch groups"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No earlier exact table with all five profiles or their all-arity collision was located."
+        ],
+        "reasoning": "The formulas explain and extend the finite values to every arity; the verifier is not the source of the theorem.",
+        "searches": [
+          "published-corpus queries on the initial profiles \\(1,2,4,14,82\\) and \\(1,2,4,11,46\\), plus the left/right collision"
+        ]
+      },
+      "rationale": "Lu's full primary text classifies the side-preserving reducts and gives the switch/parity descriptions needed to identify the finite translation actions. It does not state the exact ordered-tuple orbit formulas, their asymptotic growth, or the all-arity equality of the distinct left- and right-switch group profiles. Targeted corpus searches found no earlier equivalent formula.",
+      "residual_risks": [
+        "A model-theory source focused specifically on profile growth of these reducts could be poorly indexed; no such source was found in the targeted searches."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "COVERING_INGREDIENT",
+          "evidence": "It supplies the group and switch structure, not the five exact ordered-tuple profile formulas or left/right profile collision.",
+          "identifier_or_url": "https://arxiv.org/abs/1101.1947",
+          "material_read": "Full accessible arXiv text, including switch definitions, parity characterizations, and classification sections.",
+          "method": "Lawful open primary full text.",
+          "title": "Reducts of the random bipartite graph",
+          "trigger": "Exact primary classification of the five side-preserving groups."
+        },
+        {
+          "assessment": "NOT_COVERING",
+          "evidence": "The inspected material does not specialize to or compute Lu's five side-preserving random-bipartite orbit profiles.",
+          "identifier_or_url": "https://doi.org/10.1007/s00222-026-01452-2",
+          "material_read": "Accessible theorem/overview material concerning general oligomorphic groups and tensor categories.",
+          "method": "Publisher/open scholarly text.",
+          "title": "Oligomorphic groups and tensor categories",
+          "trigger": "Modern broad oligomorphic-group work cited as a possible stronger framework."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "arXiv:1101.1947",
+        "DOI:10.1007/s00222-026-01452-2"
+      ],
+      "rationale": "The result gives exact and asymptotic oligomorphic profiles across an entire natural reduct lattice and exhibits two distinct closed groups with identical profiles in every arity. That collision is a substantive limitation on the distinguishing power of orbit profiles.",
+      "residual_risks": [
+        "The result is restricted to side-preserving groups; groups interchanging the two sides are outside scope."
+      ],
+      "status": "PASS"
+    }
   },
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "originality": {
-    "rationale": "Targeted semantic searches before and after derivation, including exact formula/profile queries, found no matching published-finding corpus record. The closest literature classifies the reduct groups and gives switch/parity characterizations but does not state these orbit profiles or the all-arity collision between the left- and right-switch groups. Current general oligomorphic-group literature likewise does not supply the five formulas.",
-    "status": "PASS"
+  "disposition": "passed",
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-02.md",
+    "INDEPENDENT_AUDIT_2026-10-02.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "The named bipartition sides are preserved setwise.",
+    "Only the five groups in Lu's side-preserving classification are covered.",
+    "The finite verifier supports the matrix quotient arithmetic but does not replace the general proof."
+  ],
+  "policy": "best-of-knowledge scientific assessment",
+  "previously_published_pending_reaudit": false,
+  "prior_scientific_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "For each fixed side pattern the finite orbit problem is a binary-matrix translation quotient; the action dimensions yield the formulas and the Stirling transform.",
+        "status": "PASS"
+      },
+      "originality": {
+        "rationale": "The checked classification supplies switch definitions but did not state the orbit profiles or the left/right all-arity collision.",
+        "status": "PASS"
+      },
+      "value": {
+        "rationale": "The result gives closed profiles, asymptotic growth, and a concrete collision of tuple-orbit profiles for distinct closed groups.",
+        "status": "PASS"
+      }
+    },
+    "independent": false
   },
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "same_model_review_status": "passed",
+  "record_id": "SCOPE-20260930-f8b9342567cf",
+  "review_type": "independent_audit",
   "schema_version": 1,
-  "scope_run_id": "f8b93425-67cf-407b-8dc5-a163ebb84de7",
-  "value": {
-    "rationale": "The result gives closed formulas, full-tuple Stirling transforms, and asymptotic growth for an entire finite reduct lattice. The identical profiles of two distinct closed subgroups provide a concrete limitation of tuple-orbit profiles as group invariants, while the formulas also quantitatively separate the remaining growth regimes.",
-    "status": "PASS"
-  },
-  "verification_state": "awaiting_fresh_independent_audit"
+  "verification_state": "independently_reviewed"
 }

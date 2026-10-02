@@ -1,27 +1,117 @@
 {
+  "audited_at_utc": "2026-10-01T11:58:14Z",
   "axes": {
     "correctness": {
-      "rationale": "The lower bound follows from the monotone singular-support union law under unit-top multiplication, while projection forces the independent top relative-rank contribution; an explicit construction gives the matching upper bound. The iterated formula follows from the product formula for unit-group orbit counts. The smallest displayed counterexample was exhaustively verified.",
-      "verdict": "PASS"
+      "reason": "PASS. The two-factor formula was reconstructed from first principles. Projection to the top monoid forces the top relative-rank contribution. For unit-top generators, the singular support of a base tuple can only move inside unit-group orbits and singular defects cannot cancel, because a product in a finite monoid is a unit exactly when all factors are units. Producing a base element with one singular coordinate therefore requires at least the relative rank of the base monoid separately on each unit-group orbit. The matching upper bound is obtained from top lifts and local generators at orbit representatives. The iterated formula follows because unit-group orbit counts multiply. Independently, exhaustive enumeration of the supplied 12-element example gives exact relative rank four.",
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Qualified to the best of our knowledge. Targeted searches and inspection of the new source paper and closest indexed partition-rank literature did not locate the unit-orbit formula or the same correction. Older semigroup-generation literature remains a residual risk.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "Lu's current Lemma 3.2 assumes the unit group is transitive, and the older partition papers work in more specialized transformation settings."
+        ],
+        "reasoning": "Those results do not mechanically determine the contribution from several unit-group orbits.",
+        "searches": [
+          "Lu 2026 iterated wreath products full text",
+          "Araújo-Schneider uniform partition wreath rank",
+          "Araújo-Bentz-Mitchell-Schneider arbitrary partition rank"
+        ]
+      },
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The current source proves the one-orbit upper bound and its restricted iteration, not the arbitrary-orbit lower bound or exact equality."
+        ],
+        "reasoning": "Additional singular-support analysis is required to obtain the exact orbit-weighted formula.",
+        "searches": [
+          "Lu current Lemma 3.2 and Lemma 3.8",
+          "partition-semigroup relative-rank literature"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Published-record search found the audited result as the exact semantic match; the current Lu source gives only the transitive-unit-group special case."
+        ],
+        "reasoning": "Orbitwise transport by units is the natural equivalent formulation of the lower-bound obstruction; no inspected prior source states the resulting exact sum.",
+        "searches": [
+          "relative rank wreath product group of units orbit formula",
+          "finite transformation monoid wreath product relative generation"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No earlier exact record or table entry was located."
+        ],
+        "reasoning": "This is a theorem-level generation formula rather than a standard tabulated invariant.",
+        "searches": [
+          "published mathematical record semantic search for exact unit-orbit relative-rank formula"
+        ]
+      },
+      "reason": "PASS to the best of current knowledge. The current full text of Lu's preprint treats the transitive-unit-group case and the advertised full-transformation/symmetric-group iteration, but it does not state the exact arbitrary-orbit formula. The closest partition-rank literature concerns special full transformation monoids. A published-record semantic search returned the audited formula as the exact match and no earlier equivalent statement. The version-specific correction claim retains a bibliographic risk because the exact version-one text was not recovered in full.",
+      "status": "PASS"
     },
-    "value": {
-      "rationale": "The result replaces a false general transitivity lemma by a sharp equality, extends the iterated calculation to arbitrary finite transformation monoids, and explains exactly why the source paper's advertised main theorem survives.",
-      "verdict": "PASS"
+    "scientific_value": {
+      "reason": "PASS. The result replaces a fragile transitivity heuristic by the exact transport invariant, gives a sharp relative-rank formula for arbitrary finite transformation monoids, and explains when the motivating iterated calculation remains valid. The explicit small counterexample makes the boundary operationally clear.",
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, formal verification, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
+  "checked_sources": [
+    "Exact frozen/current package blobs and exact reconstructed package tree.",
+    "Independent exhaustive enumeration of the 12-element wreath-product example, obtaining minimum relative generator count four.",
+    "Full current Lu preprint and targeted published-record/partition-rank searches."
+  ],
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
   "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-18",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "previously_published_pending_reaudit": false,
+  "prior_scientific_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "The prior scientific review reported the singular-support lower bound, top projection, matching upper construction, iterated orbit count and finite counterexample as correct.",
+        "verdict": "PASS"
+      },
+      "originality": {
+        "rationale": "The prior scientific review reported no matching unit-orbit formula in its targeted searches, with older semigroup-generation literature as a risk.",
+        "verdict": "PASS"
+      },
+      "value": {
+        "rationale": "The prior scientific review valued the sharp repair of the transitivity condition and arbitrary-monoid extension.",
+        "verdict": "PASS"
+      }
+    },
+    "policy": "to-the-best-of-our-knowledge",
+    "reviewed_at": "2026-09-18"
+  },
+  "record_id": "SCOPE-20260918-1d4bcdcec1ba",
+  "residual_risks": [
+    "The exact version-one preprint text was not recovered; the current revision already uses unit-group transitivity, so the historical correction wording cannot be independently certified here.",
+    "Differently phrased older semigroup-generation literature remains a residual originality risk."
+  ],
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "source_inspections": [
+    {
+      "assessment": "SPECIAL_CASE_NOT_GENERAL_COVERAGE",
+      "evidence": "The current text assumes unit-group transitivity for the relevant upper-bound lemma and treats the restricted iterated setting; it does not give the arbitrary unit-orbit formula audited here.",
+      "identifier_or_url": "https://arxiv.org/abs/2609.20521",
+      "material_read": "Full current preprint, including Lemmas 2.1, 3.2, 3.4, 3.7 and 3.8 and the main theorem.",
+      "method": "Primary full-text inspection.",
+      "title": "Jiaping Lu, Generation of Iterated Wreath Products Constructed from Full Transformation Monoids and Symmetric Groups",
+      "trigger": "Direct motivating source and closest prior theorem."
+    },
+    {
+      "assessment": "SPECIALIZED_BACKGROUND",
+      "evidence": "The cited work concerns the special partition-preserving full-transformation setting rather than arbitrary finite transformation monoids with multiple unit orbits.",
+      "identifier_or_url": "https://arxiv.org/abs/0807.1214",
+      "material_read": "Published bibliographic and theorem context used by the motivating source.",
+      "method": "Primary-source context inspection.",
+      "title": "João Araújo and Csaba Schneider, The Rank of the Endomorphism Monoid of a Partition",
+      "trigger": "Closest older partition/wreath-product rank literature."
+    }
+  ],
+  "verification_state": "independently_reviewed"
 }

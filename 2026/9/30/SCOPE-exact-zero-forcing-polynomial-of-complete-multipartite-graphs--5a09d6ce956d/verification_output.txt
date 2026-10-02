@@ -1,3 +1,0 @@
-VERIFY_OK
-multipartite_types_checked=58
-orders_checked=2..8

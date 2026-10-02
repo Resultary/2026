@@ -1,27 +1,134 @@
 {
+  "audited_at_utc": "2026-10-01T16:48:18Z",
   "axes": {
     "correctness": {
-      "rationale": "Finite-field trace duality identifies the reused leakage functionals with the computation columns multiplied by a nonzero scalar, so their exact base-field rank is the computation generator's base-field column rank. The descent, no-amplification, full-disclosure, and random-systematic corollaries follow by linear algebra and were adversarially checked; finite-field sanity tests report PASS.",
-      "verdict": "PASS"
+      "rationale": "PASS. Finite-field trace duality identifies every nonzero \\(B\\)-linear functional \\(F\\to B\\) with \\(z\\mapsto\\operatorname{Tr}_{F/B}(\\beta z)\\), \\(\\beta\\ne0\\). Under the nondegenerate trace pairing on \\(F^K\\), the output leakage functionals correspond to the vectors \\(\\beta g_i\\). Multiplication by \\(\\beta\\) is a \\(B\\)-linear automorphism, so their exact functional rank is the \\(B\\)-dimension of the column span of \\(G\\). A \\(B\\)-basis of columns therefore generates the complete leakage transcript. If that rank is \\(K\\), the column span has a \\(B\\)-basis that is automatically \\(F\\)-independent, giving a change of input basis after which \\(G\\) is \\(B\\)-valued; conversely a \\(B\\)-valued full-rank generator has rank \\(K\\). Rank \\(Km\\) makes the local leakage map injective. For a systematic random generator, quotienting by \\(B^K\\) reduces full disclosure to full rank of \\(L\\) random vectors in a \\(D=K(m-1)\\)-dimensional \\(B\\)-space, yielding the stated product probability. The finite verifier agrees, but the theorem is proved algebraically rather than by enumeration.",
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "The inspected motivating preprint proves the identical-leakage obstruction for simple addition and informally suggests its extension to array summation, but does not state the exact subfield-rank law, the field-of-definition criterion, the full-disclosure endpoint, or the random-systematic threshold. Targeted external and SCOPE searches found no equivalent statement. Folklore and near-simultaneous priority risk remain material because the underlying rank notions are standard and the motivating preprint is recent.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "The primary source supplies the product-code LERS framework and identical-addition obstruction but no general exact reused-leakage dimension theorem.",
+          "Standard rank-metric and trace-duality theory supplies ingredients, not the source-specific leakage interpretation and corollaries."
+        ],
+        "reasoning": "No inspected broader theorem mechanically yields the full local rank/full-disclosure/random-threshold package.",
+        "searches": [
+          "arXiv:2609.19929 complete primary text",
+          "WCC 2026 subfield subcode LERS",
+          "rank-metric support finite fields trace duality"
+        ]
+      },
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The source proves simple addition only and reports simulations for more general relations.",
+          "The 18 September result directly covers only the no-amplification subfield case.",
+          "The minimum-rank obstruction gives a necessary compression theorem for attacks but does not determine the rank of the complete local reused-leakage map."
+        ],
+        "reasoning": "The exact local rank identity and maximal disclosure conclusion require a separate trace-dual identification of the output functionals with the computation columns.",
+        "searches": [
+          "Aoutouf--Augot Section 5 identical leakage full text",
+          "2026/9/18 stabilizer obstruction full result",
+          "2026/9/19 minimum subfield-rank obstruction full result"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The 18 September stabilizer result covers computations defined over the leakage subfield.",
+          "The other 19 September record uses the minimum subfield rank of computation-code words to derive a necessary repair obstruction, not the column-span rank of the generator as the exact local leakage dimension."
+        ],
+        "reasoning": "Rank weight of computation words and column-span rank of a generator are different invariants serving different statements; neither inspected prior theorem is equivalent to the exact local-map rank identity.",
+        "searches": [
+          "Resultary: identical leakage linear computations subfield column rank trace leakage secret sharing",
+          "Subfield-rank obstruction for identical leakage under linear computations",
+          "Identical linear leakage cannot exploit computations over its stabilizer field"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "Two nearby published records were found and inspected; neither contains the exact generator-column rank formula or random saturation theorem."
+        ],
+        "reasoning": "No numerical database is relevant; theorem-level published-record comparison was performed.",
+        "searches": [
+          "Resultary semantic search for exact subfield column-rank leakage law and random systematic threshold"
+        ]
+      },
+      "rationale": "PASS to the best of current knowledge with explicit partial prior coverage. Aoutouf--Augot's complete primary preprint was inspected through its general computation framework and identical-leakage section. It proves only the simple-addition no-improvement statement and says that array summation appears to extend, while simulations suggest extension-field weighted relations and LFSRs can benefit. A published 18 September result already proves the stabilizer-field obstruction and therefore covers the base-field no-amplification corollary. A separate 19 September published result gives a minimum subfield-rank obstruction for computation-code words and a quotient-space criterion for one extra output. Neither inspected prior result states the exact local identity \\(\\operatorname{rank}_B L_{G,\\lambda}=\\rho_B(G)\\), its generator-column descent equivalence, the maximal-rank full-disclosure theorem, or the random systematic saturation probability. Originality is therefore limited to that exact local rank law and its genuinely additional consequences; the base-field corollary is explicitly prior work.",
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The theorem replaces example-specific behavior by one exact invariant, proves the array-summation extension, distinguishes base-subfield coefficients from genuinely extension-field amplification, identifies complete local disclosure, and quantifies when random systematic computation layers reach that regime.",
-      "verdict": "PASS"
+      "rationale": "PASS. The exact local rank law replaces example-specific identical-leakage behavior by one natural invariant, distinguishes subfield-rational computations from genuine extension-field amplification, identifies the complete local-disclosure endpoint, and gives a sharp random saturation threshold. These facts are directly useful for deciding how much information repeated linear leakage creates before any global repair-code question is addressed.",
+      "status": "PASS"
     }
   },
-  "disclaimer": "Same-model review: passed. Independent audit: not yet performed.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
+  "checked_sources": [
+    "Complete frozen/current package and both verifier artifacts.",
+    "Independent trace-duality, descent, injectivity and random quotient-rank derivations.",
+    "Complete Aoutouf--Augot primary preprint and complete two closest published Resultary findings.",
+    "Targeted rank-metric and leakage literature searches."
+  ],
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
   "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-19",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "previously_published_pending_reaudit": false,
+  "prior_scientific_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "The earlier scientific review accepted the trace-dual rank identity, descent criterion, full-disclosure endpoint and random systematic formula.",
+        "verdict": "PASS"
+      },
+      "originality": {
+        "rationale": "The earlier review found no equivalent theorem but flagged standard rank notions and near-simultaneous priority risk.",
+        "verdict": "PASS"
+      },
+      "value": {
+        "rationale": "The earlier review regarded the exact invariant and its no-amplification/full-disclosure consequences as useful.",
+        "verdict": "PASS"
+      }
+    },
+    "reviewed_at": "2026-09-19",
+    "status": "passed"
+  },
+  "record_id": "SCOPE-20260919-231ee5b4c708",
+  "residual_risks": [
+    "The exact rank identity is short linear algebra once the right invariant is named, so folklore or near-simultaneous priority remains plausible.",
+    "One of the related rank-obstruction records is dated the same day; it is scientifically distinct but highlights contemporaneous discovery risk.",
+    "The theorem does not decide global LERS existence in the intermediate-rank regime."
+  ],
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "source_inspections": [
+    {
+      "assessment": "PRIMARY_SOURCE_PARTIAL_ONLY",
+      "evidence": "The paper proves identical leakage cannot exploit simple addition, suggests array summation, and reports simulations for weighted relations/LFSRs; it does not state the audited exact column-rank law.",
+      "identifier_or_url": "https://arxiv.org/abs/2609.19929",
+      "material_read": "Complete 23-page primary preprint, including Sections 4 and 5 on general linear computations and identical leakage.",
+      "method": "Primary full-text inspection after ordinary access attempts.",
+      "title": "On the Leakage of Massey Secret Sharing Schemes under Linear Computations",
+      "trigger": "Exact motivating product-code and identical-leakage model."
+    },
+    {
+      "assessment": "DECISIVE_PARTIAL_COVERAGE",
+      "evidence": "It proves the stabilizer-field/base-field no-amplification corollary but not the exact local subfield-rank dimension or full-disclosure/random threshold.",
+      "identifier_or_url": "https://github.com/Resultary/2026/blob/main/2026/9/18/SCOPE-identical-leakage-subfield-obstruction--7e9d9ede3eb3/RESULT.md",
+      "material_read": "Complete published result.",
+      "method": "Published-record semantic search followed by full file inspection.",
+      "title": "Identical linear leakage cannot exploit computations over its stabilizer field",
+      "trigger": "Earlier published no-amplification theorem."
+    },
+    {
+      "assessment": "RELATED_DIFFERENT_RANK_STATEMENT",
+      "evidence": "It uses minimum subfield rank of computation-code words to compress a global attack and gives a one-output quotient criterion; it does not state the generator-column span as the exact local leakage rank.",
+      "identifier_or_url": "https://github.com/Resultary/2026/blob/main/2026/9/19/SCOPE-subfield-rank-obstruction-identical-leakage--87665986b2bd/RESULT.md",
+      "material_read": "Complete published result.",
+      "method": "Published-record semantic search followed by full file inspection.",
+      "title": "Subfield-rank obstruction for identical leakage under linear computations",
+      "trigger": "Same-day published result using a related rank invariant."
+    }
+  ],
+  "verification_state": "independently_reviewed"
 }

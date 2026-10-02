@@ -1,27 +1,116 @@
 {
+  "audited_at_utc": "2026-10-01T07:11:57.147372Z",
   "axes": {
     "correctness": {
-      "rationale": "The tridiagonal generator differs from rho times its rho=1 Neumann generator plus a scalar shift by exactly two endpoint rank-one terms. DCT-II conjugation turns those terms into two boundary vectors whose parity signs cancel all cross-parity coupling, yielding two exact diagonal-plus-rank-one blocks. The odd DCT-VI/DCT-VIII form follows from the standard odd DCT-II parity split, and numerical checks agree to roundoff.",
-      "verdict": "PASS"
+      "rationale": "The identity is exact. Writing the normalized inverse covariance as \\(T_N(\\rho)=\\rho T_N(1)+(1-\\rho)^2I+\\rho(1-\\rho)(e_0e_0^T+e_{N-1}e_{N-1}^T)\\), DCT-II conjugation diagonalizes \\(T_N(1)\\) and maps the two endpoint vectors to \\(q\\) and \\(Sq\\). This gives the two parity-separated diagonal-plus-rank-one blocks for every \\(N\\ge2\\). The odd DCT-II parity split then gives the DCT-VI/DCT-VIII fixed cores. An independent numerical reconstruction over several sizes and correlations reproduced the full-order identity to about \\(2.3\\times10^{-15}\\), while the repository verifier independently checks additional parity and diagonalization residuals; the analytic proof does not depend on those finite tests.",
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "The recent fixed-core source arXiv:2609.20221 states and proves its diagonal-plus-rank-one factorization only for even order. The all-order source arXiv:2608.06522 treats odd order with recursive residual KLTs and an arrowhead stage. Searches found no published odd-order fixed-DCT rank-one completion; originality is asserted only to the best of our knowledge and simultaneous-work risk is explicitly retained.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "The first is broader on even-order implementation and the second is broader on all-order recursive factorization."
+        ],
+        "reasoning": "Their union still does not mechanically imply the stated nonrecursive odd fixed-DCT correction formula without the new generator decomposition.",
+        "searches": [
+          "Full text of arXiv:2609.20221",
+          "Full text of arXiv:2608.06522"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.20221",
+        "https://arxiv.org/abs/2608.06522",
+        "Resultary semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The all-order paper's odd branch diagonalizes a residual KLT and then an arrowhead; the fixed-core theorem does not cover odd length."
+        ],
+        "reasoning": "The final odd formula is not a special case of either published theorem.",
+        "searches": [
+          "Compared the odd theorem with the odd fold in arXiv:2608.06522 and the fixed-core theorem in arXiv:2609.20221"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The exact Resultary hit is this record; later AR(1) KLT records concern nonuniform endpoint limits rather than this factorization.",
+          "The fixed-core paper states its theorem for even \\(N\\); the all-order paper gives an odd residual-KLT plus arrowhead factorization."
+        ],
+        "reasoning": "No equivalent earlier odd fixed-core statement was located.",
+        "searches": [
+          "Resultary semantic search for all-order AR(1) KLT fixed DCT rank-one odd DCT-VI/DCT-VIII",
+          "Reznik arXiv:2609.20221",
+          "Reznik arXiv:2608.06522"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No independent database/table entry predating this record supplied the odd fixed-core rank-one formula."
+        ],
+        "reasoning": "This is a structural factorization rather than a table lookup.",
+        "searches": [
+          "Resultary exact semantic search"
+        ]
+      },
+      "rationale": "The two highly relevant 2026 primary papers were inspected in full. The fixed-core paper explicitly restricts its theorem to even order, whereas the all-order paper's odd factorization proceeds through the residual KLT and an arrowhead stage. Neither supplies the nonrecursive odd DCT-VI/DCT-VIII diagonal-plus-rank-one completion stated here.",
+      "residual_risks": [
+        "The two relevant preprints are very recent, so simultaneous work remains possible.",
+        "The factorization does not itself prove a new floating-point stability theorem for accelerated Cauchy application."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING_ODD_FIXED_CORE",
+          "evidence": "The fixed-core factorization is explicitly formulated for even \\(N\\).",
+          "identifier_or_url": "https://arxiv.org/abs/2609.20221",
+          "material_read": "Full primary text, especially the abstract, introduction, parity split, Lemma 4.1 and fixed-core theorem.",
+          "method": "Primary full text.",
+          "title": "Exact fast factorizations of the AR(1) Karhunen–Loève transform",
+          "trigger": "Closest same-object fixed-DCT factorization."
+        },
+        {
+          "assessment": "NOT_COVERING_NONRECURSIVE_ODD_CORE",
+          "evidence": "The odd theorem uses a residual KLT plus an arrowhead stage and remains recursive.",
+          "identifier_or_url": "https://arxiv.org/abs/2608.06522",
+          "material_read": "Full primary text through the even and odd factorization sections.",
+          "method": "Primary full text.",
+          "title": "Direct Factorization of the Karhunen–Loève Transform of AR(1) Sources",
+          "trigger": "Same object with an all-order factorization."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result supplies a uniform nonrecursive factorization for every transform length and removes the residual-KLT recursion and arrowhead from the odd-order representation, while preserving the same Cauchy-structured correction primitive used in the even case. The gain is structural rather than asymptotic.",
-      "verdict": "PASS"
+      "rationale": "The result gives a natural all-order structural completion of a newly introduced fast-factorization framework: odd lengths acquire the same fixed-transform plus structured-correction architecture as even lengths, eliminating the residual-KLT/arrowhead representation while retaining the exact transform.",
+      "status": "PASS"
     }
   },
-  "disclaimer": "Same-model review: passed. Independent audit: not yet performed.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
+  "disposition": "passed",
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": "The theorem treats real stationary AR(1) covariances with \\(0<\\rho<1\\). It is an exact algebraic factorization, not a floating-point backward-stability theorem; negative correlation, nonstationary models, and higher-order autoregressions are outside scope. The previously published recursive odd-order method already has the same asymptotic complexity, so the contribution is structural and nonrecursive.",
   "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-18",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "previously_published_pending_reaudit": false,
+  "prior_scientific_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "The tridiagonal generator differs from a scaled and shifted Neumann generator by two endpoint rank-one terms; DCT-II conjugation yields exact parity-separated diagonal-plus-rank-one blocks.",
+        "verdict": "PASS"
+      },
+      "originality": {
+        "rationale": "The contemporary fixed-core source states the diagonal-plus-rank-one construction only for even order, while the earlier all-order source treats odd order recursively with a residual KLT and arrowhead.",
+        "verdict": "PASS"
+      },
+      "value": {
+        "rationale": "The result supplies a uniform nonrecursive fixed-transform architecture for every length; the improvement is structural rather than asymptotic.",
+        "verdict": "PASS"
+      }
+    },
+    "reviewed_at": "2026-09-18"
+  },
+  "review_type": "independent_audit",
+  "verification_state": "independently_reviewed"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/19/SCOPE-maximal-outerplanar-degree-spread-two--7d1eeacc3f5d",
   "resultary_record_key": "SCOPE-maximal-outerplanar-degree-spread-two--7d1eeacc3f5d",
-  "source_commit": "a7cc69d784246a36eca421019db9c279a2c15a0e",
-  "source_commit_time": "2026-09-30T19:52:54Z",
+  "source_commit": "bb5ffad143e54714414e7915d5da4c44dcc698f6",
+  "source_commit_time": "2026-10-02T09:03:40Z",
   "source_path": "2026/09/19/maximal-outerplanar-degree-spread-two--7d1eeacc3f5d",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260919-7d1eeacc3f5d",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-01T08:22:11Z",
+  "synced_at": "2026-10-02T09:07:02Z",
   "time_standard": "UTC"
 }

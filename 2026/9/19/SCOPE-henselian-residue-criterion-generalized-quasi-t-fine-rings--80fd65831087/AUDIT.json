@@ -1,27 +1,118 @@
 {
+  "audited_at_utc": "2026-10-01T13:53:06Z",
   "axes": {
     "correctness": {
-      "rationale": "For local rings Q(R)=J(R), so the defining decomposition is exactly torsion-unit lifting modulo J. Hensel lifting of the simple roots X^n-1 proves sufficiency over commutative Henselian local rings with locally finite residue field, while periodicity of the residue multiplicative group proves necessity. The Z_(p), Z_p, and cyclotomic matrix arguments were checked separately, including the reduction of Phi_{d p^s} modulo p.",
-      "verdict": "PASS"
+      "rationale": "PASS. For a local ring, every radical element is quasinilpotent and any element outside the radical is a unit; taking its inverse in its centralizer shows it is not quasinilpotent, so the quasinilpotent set equals the Jacobson radical. The defining decomposition is therefore exactly surjectivity of torsion units onto the residue division group's nonzero classes. A division ring with torsion multiplicative group is a locally finite field by the classical periodic-division-ring theorem. In the commutative Henselian case, every nonzero element of a locally finite residue field has finite order prime to the residue characteristic, so its simple root of X^n-1 lifts to a torsion unit. The Z_(p)/Z_p contrast follows immediately. The matrix obstruction is also sound: reduction of the quasinilpotent summand is nilpotent, while a rational finite-order matrix has cyclotomic characteristic polynomial; modulo p, a single repeated root forces the prime-to-p cyclotomic index to have Euler phi equal to one, hence residue root plus or minus one, contradicting the chosen class for p at least five.",
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Qualified to the best of our knowledge. The full text of arXiv:2609.19882v1 gives examples and structural lemmas but not the torsion-lifting/Henselian characterization or the stated mixed-characteristic consequences. Targeted searches using equivalent residue-field, roots-of-unity, localization, completion, p-adic, and matrix formulations found no prior statement. Standard Hensel and periodic-division-ring results are treated as prior art.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "The primary abstract describes the broader new class and structural investigations; Hensel lifting and periodic division rings are classical ingredients."
+        ],
+        "reasoning": "Those standard ingredients do not themselves state the generalized quasi t-fine classification or mixed-characteristic matrix consequence.",
+        "searches": [
+          "arXiv:2609.19882v1",
+          "Stacks Henselian local rings",
+          "periodic division ring theorem"
+        ]
+      },
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Accessible source material does not expose a Henselian residue criterion; full text could not be obtained, so residual implication risk remains."
+        ],
+        "reasoning": "The local Q=J observation plus Hensel lifting gives a concise proof, but no inspected prior statement was found that packages or implies the full final classification and matrix obstruction.",
+        "searches": [
+          "Bien Danchev Ramezan-Nassab 2609.19882 accessible primary material",
+          "generalized quasi t-fine matrix rings mixed characteristic"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "No earlier published record with the torsion-lifting/Henselian equivalence was returned.",
+          "The defining local decomposition is equivalently surjectivity of torsion units modulo the Jacobson radical."
+        ],
+        "reasoning": "Equivalent residue-unit and roots-of-unity formulations were searched; no prior exact theorem was located.",
+        "searches": [
+          "Resultary: generalized quasi t-fine Henselian local ring residue torsion units Z_(p) matrix",
+          "web search: generalized quasi t-fine Henselian residue field torsion units"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No database/table is relevant; no earlier exact published theorem record was found."
+        ],
+        "reasoning": "This is a structural ring theorem, so theorem-level search is the applicable exact check.",
+        "searches": [
+          "Resultary exact semantic search for Z_(p), Z_p and generalized quasi t-fine"
+        ]
+      },
+      "rationale": "PASS to the best of current knowledge. Published-record semantic search found the audited record as the only exact Henselian/residue/torsion-lifting statement. The Bien–Danchev–Ramezan-Nassab preprint is the exact highly relevant source. Its accessible primary abstract states the new generalized quasi t-fine class, examples, and matrix/group-ring investigations but does not state a Henselian residue classification. Ordinary open full-text retrieval failed; an authorized institutional retrieval attempt did not yield readable full text in this run, so no whole-document noncoverage claim is made. That access risk is explicit. Standard Hensel theory and periodic-division-ring theorems are treated as prior ingredients, not novelty.",
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result resolves a broad local/Henselian portion of the characterization problem highlighted by the source, gives a sharp Z_(p) versus Z_p phase boundary, and proves that positive-characteristic matrix permanence cannot be naively extended to mixed characteristic.",
-      "verdict": "PASS"
+      "rationale": "PASS. The final claim gives a natural intrinsic classification on the important Henselian local subclass of a newly introduced ring property, together with a sharp localization-versus-completion boundary and a mixed-characteristic matrix obstruction. Although the Hensel-lifting step is short, the package organizes the property around residue torsion lifting and answers a motivated structural question rather than merely renaming a textbook lemma.",
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, formal verification, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
+  "checked_sources": [
+    "Complete assigned/current Git package.",
+    "Independent proof reconstruction of Q(R)=J(R) locally, torsion lifting, Henselian sufficiency, localization/completion examples and cyclotomic matrix obstruction.",
+    "Resultary semantic search and targeted primary/background literature searches."
+  ],
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
   "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-19T02:22:08Z",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "previously_published_pending_reaudit": false,
+  "prior_scientific_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "The earlier scientific review accepted the local torsion-lifting criterion, Hensel argument, periodic-division-ring input and cyclotomic matrix obstruction.",
+        "verdict": "PASS"
+      },
+      "originality": {
+        "rationale": "The earlier scientific review reported no Henselian classification in the then-inspected source and retained contemporaneous-source risk.",
+        "verdict": "PASS"
+      },
+      "value": {
+        "rationale": "The earlier scientific review viewed the Henselian classification and localization/completion/matrix consequences as a broad structural result.",
+        "verdict": "PASS"
+      }
+    },
+    "reviewed_at": "2026-09-19",
+    "status": "passed"
+  },
+  "record_id": "SCOPE-20260919-80fd65831087",
+  "residual_risks": [
+    "The full text of arXiv:2609.19882v1 could not be read in this run despite open and authorized access attempts; it remains a genuine originality risk.",
+    "The matrix argument relies on the source's stated quasinilpotent-reduction lemma as quoted in the assigned result; that lemma was not independently read from full source text in this run."
+  ],
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "source_inspections": [
+    {
+      "assessment": "INACCESSIBLE_HIGHLY_RELEVANT_PRIMARY_SOURCE",
+      "evidence": "The accessible material does not state the Henselian residue criterion, but whole-document noncoverage is not asserted.",
+      "identifier_or_url": "https://arxiv.org/abs/2609.19882v1",
+      "material_read": "Primary abstract and indexed descriptions stating the definitions, structural program, and matrix/group-ring investigations. Ordinary open full-text access failed, and a subsequent authorized institutional attempt did not produce readable text.",
+      "method": "Primary-source search followed by lawful access attempts.",
+      "title": "Generalized t-Fine and Quasi t-Fine Rings",
+      "trigger": "Exact source introducing the generalized quasi t-fine property."
+    },
+    {
+      "assessment": "STANDARD_BACKGROUND",
+      "evidence": "Used only for the simple-root lifting step; it does not mention the generalized quasi t-fine property.",
+      "identifier_or_url": "https://stacks.math.columbia.edu/tag/04GM",
+      "material_read": "Standard theorem context for Henselian lifting/complete local rings.",
+      "method": "Reference-source inspection.",
+      "title": "Henselian local rings",
+      "trigger": "Standard Hensel-lifting input and completeness implication."
+    }
+  ],
+  "verification_state": "independently_reviewed"
 }

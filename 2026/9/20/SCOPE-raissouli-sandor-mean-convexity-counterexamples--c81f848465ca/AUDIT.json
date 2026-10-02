@@ -1,32 +1,130 @@
 {
-  "correctness": {
-    "status": "PASS",
-    "summary": "For every 0<c<=1/8, the quartic-profile maps are strict means with uniformly positive coordinate derivatives, while the second derivative of x->M_c^±(x,1) changes sign at x=2+sqrt(3), so each is neither convex nor concave."
+  "audited_at_utc": "2026-10-01T19:46:56Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "M. Raïssouli and J. Sándor, Sub-super-stabilizability of certain bivariate means via mean-convexity, J. Inequalities Appl. 2016:273, complete open full text inspected.",
+        "M. Raïssouli and A. Rezgui, Characterization of homogeneous symmetric monotone bivariate means, J. Inequalities Appl. 2016:217, related characterization source.",
+        "Resultary semantic search for Problem 4(ii), strict monotone means, and order-versus-curvature counterexamples.",
+        "Independent symbolic differentiation of the two one-variable sections."
+      ],
+      "rationale": "For \\(0<c\\le1/8\\), the profile \\(q_c(t)=ct^2(2-t^2)\\) is positive off the diagonal and satisfies \\(q_c(t)<|t|\\), placing \\(M_c^-\\) and \\(M_c^+\\) strictly between the inputs. The coordinate derivative formula together with \\(|q_c'|\\le1/(3\\sqrt3)\\) yields a uniform positive lower bound, so both maps are strictly monotone. Independent symbolic differentiation gives \\(\\phi_+''(x)=-16c(x^2-4x+1)/(x+1)^5\\) and \\(\\phi_-''(x)=16c(x^2-4x+1)/(x+1)^5\\); the numerator changes sign at \\(2+\\sqrt3\\), so each mean is neither convex nor concave. The construction therefore answers both directions of the source problem negatively.",
+      "residual_risks": [],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The source provides examples motivating the conjecture and explicitly leaves Problem 4(ii) open.",
+          "The characterization work is broader on representing strict means but does not itself force curvature from order."
+        ],
+        "reasoning": "No broader inspected theorem covers the counterexamples.",
+        "searches": [
+          "Raïssouli--Sándor 2016 full text",
+          "Raïssouli--Rezgui 2016 characterization paper"
+        ]
+      },
+      "checked_sources": [
+        "M. Raïssouli and J. Sándor, Sub-super-stabilizability of certain bivariate means via mean-convexity, J. Inequalities Appl. 2016:273, complete open full text inspected.",
+        "M. Raïssouli and A. Rezgui, Characterization of homogeneous symmetric monotone bivariate means, J. Inequalities Appl. 2016:217, related characterization source.",
+        "Resultary semantic search for Problem 4(ii), strict monotone means, and order-versus-curvature counterexamples.",
+        "Independent symbolic differentiation of the two one-variable sections."
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The source contains no counterexample and explicitly asks for proof or disproof.",
+          "The audited family satisfies every listed hypothesis and violates each proposed conclusion."
+        ],
+        "reasoning": "The final theorem directly resolves the stated open implication rather than being a special case of a stronger known theorem.",
+        "searches": [
+          "Primary open problem versus audited family"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The source asks whether every such mean below \\(A\\) is strictly concave and every such mean above \\(A\\) strictly convex.",
+          "The assigned finding is the exact published-record hit."
+        ],
+        "reasoning": "Equivalent formulations include counterexamples to order-relative-to-arithmetic-mean forcing curvature and profile functions whose sign is fixed while their second derivative changes sign.",
+        "searches": [
+          "Resultary semantic search: Raissouli Sandor Problem 4(ii) monotone mean convex concave counterexample",
+          "Exact primary Problem 4(ii) text in the 2016 source"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No earlier exact family or database entry was located."
+        ],
+        "reasoning": "This is a constructive analytic counterexample, not a numerical table claim.",
+        "searches": [
+          "Resultary exact-topic search",
+          "Searches for quartic-profile mean counterexamples"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality passes. The complete 2016 source explicitly poses Problem 4(ii) in exactly the strict symmetric homogeneous monotone setting. Resultary searches returned the assigned finding as the only exact solution; the related 2016 characterization paper supplies a broad parametrization framework but no inspected statement that implies these order-curvature counterexamples.",
+      "residual_risks": [
+        "Terminology-equivalent prior counterexamples outside the indexed mean-inequality literature remain a best-of-knowledge risk."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "The problem is genuinely posed there and the audited counterexample family is not in the source.",
+          "evidence": "Problem 4(ii) asks precisely whether strict monotone symmetric homogeneous means below \\(A\\) must be concave and those above \\(A\\) convex.",
+          "identifier_or_url": "https://doi.org/10.1186/s13660-016-1212-z",
+          "material_read": "Complete open full text, including Sections 2--5 and the exact wording of Problem 4(ii)",
+          "method": "Primary full-text inspection",
+          "title": "Sub-super-stabilizability of certain bivariate means via mean-convexity",
+          "trigger": "Original source of Problem 4(ii)"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "M. Raïssouli and J. Sándor, Sub-super-stabilizability of certain bivariate means via mean-convexity, J. Inequalities Appl. 2016:273, complete open full text inspected.",
+        "M. Raïssouli and A. Rezgui, Characterization of homogeneous symmetric monotone bivariate means, J. Inequalities Appl. 2016:217, related characterization source.",
+        "Resultary semantic search for Problem 4(ii), strict monotone means, and order-versus-curvature counterexamples.",
+        "Independent symbolic differentiation of the two one-variable sections."
+      ],
+      "rationale": "The finding resolves both halves of an explicit published open problem with smooth one-parameter counterexample families and exposes the structural reason the conjecture fails: pointwise order is governed by the profile value while curvature is governed by its second derivative. This is a motivated analytic boundary result.",
+      "residual_risks": [
+        "Terminology-equivalent prior counterexamples outside the indexed mean-inequality literature remain a best-of-knowledge risk."
+      ],
+      "status": "PASS"
+    }
   },
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "limitations": [
-    "Problem 4(i) is not addressed.",
-    "No classification is proved for extra hypotheses that would restore an order-curvature implication.",
-    "Equivalent prior coverage under different mean parametrizations may have escaped the search.",
-    "Independent audit has not been performed."
+  "disposition": "passed",
+  "evidence": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
   ],
-  "originality": {
-    "scope": "to the best of our knowledge",
-    "status": "PASS",
-    "summary": "The 2016 source explicitly poses Problem 4(ii). Searches by the exact statement, source identifiers, strict-monotone mean terminology, curvature terminology, and quartic-profile equivalents did not locate these counterexamples or a stronger result implying them; differently parametrized or weakly indexed prior coverage remains a residual risk."
-  },
-  "phase": "II",
-  "previously_published_pending_reaudit": true,
+  "final_claim": "For every \\(0<c\\le1/8\\), the two quartic-profile maps \\(M_c^-\\) and \\(M_c^+\\) are smooth symmetric homogeneous strictly monotone means lying respectively below and above the arithmetic mean off the diagonal, while each is neither convex nor concave; hence both implications in Raïssouli--Sándor Problem 4(ii) are false.",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "The result answers only Problem 4(ii), does not classify extra hypotheses restoring an order-curvature implication, and retains best-of-knowledge risk from differently parametrized literature."
+  ],
+  "previously_published_pending_reaudit": false,
   "record_id": "SCOPE-20260920-c81f848465ca",
-  "review_statement": "Same-model review: passed. Independent audit: not yet performed.",
-  "review_type": "same_model_review",
-  "same_model_review_status": "passed",
-  "scope_run_id": "c0e2091e-0a01-4863-8d52-f8d5cac49355",
-  "value": {
-    "status": "PASS",
-    "summary": "The construction answers both halves of a published open problem negatively with one-parameter families of smooth strict-monotone counterexamples and isolates the mechanism separating order relative to A from curvature."
+  "review_type": "independent_audit",
+  "same_model_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "The prior scientific review accepted the mean bounds, strict monotonicity, and curvature sign change.",
+        "status": "PASS"
+      },
+      "originality": {
+        "rationale": "The prior review found Problem 4(ii) explicitly open and no stronger prior result implying the family.",
+        "status": "PASS"
+      },
+      "value": {
+        "rationale": "The prior review valued the two-sided counterexample families and structural order-curvature separation.",
+        "status": "PASS"
+      }
+    },
+    "reviewed_at": "2026-09-20",
+    "status": "passed"
   },
-  "verification_state": "awaiting_fresh_independent_audit"
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

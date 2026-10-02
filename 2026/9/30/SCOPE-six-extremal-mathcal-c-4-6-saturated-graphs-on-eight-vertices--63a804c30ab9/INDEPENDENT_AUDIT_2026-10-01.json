@@ -1,0 +1,105 @@
+{
+  "audited_at_utc": "2026-10-01T23:43:41Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "Liu--Wang--Gong, Minimizing the number of edges in \\(\\mathcal C_{[4,6]}\\)-saturated graphs, arXiv:2608.18551 (2026), primary abstract and bibliographic record inspected.",
+        "Published-record semantic search for eight-vertex nine-edge \\(\\mathcal C_{[4,6]}\\)-saturated classifications.",
+        "Fresh exact replay of the package C++ verifier over all \\(\\binom{28}{9}=6906900\\) labeled graphs.",
+        "Fresh auxiliary exact check that the seven-vertex minimum layer has one isomorphism class, so order eight is the first layer where equality structure branches."
+      ],
+      "rationale": "The source saturation theorem fixes the minimum at nine edges. For a nonedge \\(uv\\), adding it creates a forbidden cycle of length \\(4,5,6\\) exactly when the original graph has a simple \\(u\\)-to-\\(v\\) path of length \\(3,4,5\\). The actual C++ verifier was inspected and freshly replayed over all \\(6906900\\) labeled nine-edge graphs; it returned exactly \\(100800\\) saturated hits and six canonical degree-preserving isomorphism classes, with orbit sizes and representatives matching RESULT.md. Degree-preserving canonicalization is complete because every graph isomorphism preserves degrees.",
+      "residual_risks": [
+        "The infinite saturation-number theorem is used as a published input; the equality classification itself is a finite exhaustive result."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The source is stronger in order range for the minimum edge count but does not, in accessible material, provide the complete equality structure at order eight."
+        ],
+        "reasoning": "Knowing the optimum edge count does not determine all extremal graphs.",
+        "searches": [
+          "Liu--Wang--Gong 2026 saturation-number theorem"
+        ]
+      },
+      "checked_sources": [
+        "Liu--Wang--Gong, Minimizing the number of edges in \\(\\mathcal C_{[4,6]}\\)-saturated graphs, arXiv:2608.18551 (2026), primary abstract and bibliographic record inspected.",
+        "Published-record semantic search for eight-vertex nine-edge \\(\\mathcal C_{[4,6]}\\)-saturated classifications.",
+        "Fresh exact replay of the package C++ verifier over all \\(\\binom{28}{9}=6906900\\) labeled graphs.",
+        "Fresh auxiliary exact check that the seven-vertex minimum layer has one isomorphism class, so order eight is the first layer where equality structure branches."
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The prior theorem yields only that extremals have nine edges; it does not mechanically identify the six isomorphism classes."
+        ],
+        "reasoning": "A separate exhaustive equality analysis is necessary.",
+        "searches": [
+          "Saturation-number theorem versus equality classification"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The assigned record is the only exact semantic hit.",
+          "The primary abstract announces the saturation-number formula, not an isomorphism classification at \\(n=8\\)."
+        ],
+        "reasoning": "Equivalent formulations are an equality-case census at \\(n=8\\) and the six orbits totaling \\(100800\\) labelings; no earlier equivalent record was found.",
+        "searches": [
+          "Resultary query: C_[4,6] saturated graphs eight vertices nine edges six isomorphism classes",
+          "Primary arXiv:2608.18551 abstract"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No independent census/table was located."
+        ],
+        "reasoning": "The package computation is a fresh exhaustive certificate of correctness, not itself novelty proof.",
+        "searches": [
+          "Exact semantic search for 100800, six classes, and eight-vertex nine-edge saturation"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality passes. The primary 2026 paper establishes the saturation number \\(\\operatorname{sat}(n,\\mathcal C_{[4,6]})\\) but the accessible primary material does not state an eight-vertex six-class equality census. Exact semantic searches returned only the assigned classification. The full preprint was not accessible in this run, so no whole-document noncoverage claim is made and that source remains a residual risk.",
+      "residual_risks": [
+        "The inaccessible full preprint could contain small-order equality examples or appendices; no such coverage was established from accessible material."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Establishes the nine-edge threshold at order eight but is not used to assert whole-document noncoverage of the six-class census.",
+          "evidence": "The abstract states the closed saturation-number formula for \\(r=6\\).",
+          "identifier_or_url": "https://arxiv.org/abs/2608.18551",
+          "material_read": "Primary abstract and bibliographic record; full preprint text was not retrievable in this run",
+          "method": "Primary-source abstract inspection after open-access lookup",
+          "title": "Minimizing the number of edges in C_[4,6]-saturated graphs",
+          "trigger": "Same forbidden family and exact extremal edge count"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Liu--Wang--Gong, Minimizing the number of edges in \\(\\mathcal C_{[4,6]}\\)-saturated graphs, arXiv:2608.18551 (2026), primary abstract and bibliographic record inspected.",
+        "Published-record semantic search for eight-vertex nine-edge \\(\\mathcal C_{[4,6]}\\)-saturated classifications.",
+        "Fresh exact replay of the package C++ verifier over all \\(\\binom{28}{9}=6906900\\) labeled graphs.",
+        "Fresh auxiliary exact check that the seven-vertex minimum layer has one isomorphism class, so order eight is the first layer where equality structure branches."
+      ],
+      "rationale": "This is a natural equality-case classification attached to a newly determined saturation number. A fresh auxiliary check shows the seven-vertex minimum layer has a single isomorphism class, whereas order eight is the first layer where the equality structure branches into multiple types. The complete six-orbit census, automorphism data, and reproducible exhaustive certificate therefore provide a meaningful finite structural benchmark rather than an arbitrary isolated count.",
+      "residual_risks": [
+        "No classification for larger orders is claimed."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "final_claim": "Among eight-vertex graphs with the minimum nine edges for \\(\\mathcal C_{[4,6]}\\)-saturation, there are exactly six isomorphism classes, with the six representatives, automorphism orders, and total of \\(100800\\) labeled extremal graphs stated in RESULT.md.",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "Finite equality classification at order eight; the full 2026 saturation preprint was inaccessible in this audit, so possible appendix-level overlap remains a residual risk."
+  ],
+  "record_id": "SCOPE-20260930-63a804c30ab9",
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
+}

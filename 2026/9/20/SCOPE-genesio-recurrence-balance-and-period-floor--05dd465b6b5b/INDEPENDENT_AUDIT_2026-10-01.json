@@ -1,0 +1,120 @@
+{
+  "audited_at_utc": "2026-10-01T19:12:08.377982Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "assigned RESULT.md",
+        "assigned artifacts/verify_genesio_balance.py",
+        "Valls 2025 full text"
+      ],
+      "rationale": "Direct differentiation of \\(J=yz+\\frac a2y^2+\\frac c2x^2-\\frac13x^3\\) along the Genesio flow gives exactly \\(\\dot J=z^2-b y^2\\); the symbolic artifact independently reduces the residual to zero. Time averaging on bounded forward orbits gives the Cesàro balance, and integrating the generator against a compact invariant measure gives the same moment identity together with the stated mean constraints. For \\(b\\le0\\), \\(-J\\) is nonincreasing with derivative \\(-z^2+b y^2\\le0\\); LaSalle on a bounded omega-limit set leaves only equilibria, giving convergence to one equilibrium. For a nonconstant periodic orbit the balance and sharp Wirtinger inequality give \\(P\\ge2\\pi/\\sqrt b\\); equality forces a pure first harmonic, and substitution leaves a nonzero second harmonic \\(-R^2/2\\), so the inequality is strict.",
+      "residual_risks": [
+        "The convergence statement is conditional on forward boundedness and does not prove ultimate boundedness of arbitrary trajectories."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Valls gives a global Poincaré-sphere analysis, Hopf loci, and integrability results.",
+          "Umut's abstract says suitable Lyapunov functions are used to determine regions of attraction."
+        ],
+        "reasoning": "Neither inspected material implies the invariant-measure identities or the sharp strict period bound; Valls's local Hopf period instead confirms local sharpness of the constant.",
+        "searches": [
+          "Valls, Global dynamical aspects and integrability analysis of the Genesio system, DOI 10.3934/dcdsb.2025016",
+          "Umut, On the stability of Genesio system (2013)"
+        ]
+      },
+      "checked_sources": [
+        "https://doi.org/10.3934/dcdsb.2025016",
+        "Umut 2013 stability article abstract",
+        "Barbasin 1952 bibliographic record",
+        "Resultary semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "A local Hopf frequency does not imply a global lower bound for every periodic orbit.",
+          "A Lyapunov region-of-attraction result does not imply the compact invariant-measure moment balance."
+        ],
+        "reasoning": "The audited polynomial balance plus generator/Wirtinger arguments add genuinely different global consequences.",
+        "searches": [
+          "Compared the final theorem with Valls's Hopf and global-dynamics sections and Umut's stated stability scope"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "No earlier record or paper was located stating the compact invariant-measure RMS identity together with the strict universal period floor and \\(b\\le0\\) bounded-orbit convergence theorem."
+        ],
+        "reasoning": "The searched stability and Hopf results are not equivalent to these recurrence and invariant-measure statements.",
+        "searches": [
+          "Resultary semantic query: Genesio recurrence balance invariant measure minimum period \\(2\\pi/\\sqrt b\\) bounded orbit",
+          "web searches for Genesio \\(z^2-b y^2\\), Wirtinger, invariant measure, and minimum period"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "Only the assigned record was returned as the exact theorem; nearby dynamical-system hits did not contain the same invariant."
+        ],
+        "reasoning": "The result is analytic and dynamical rather than a tabulated quantity.",
+        "searches": [
+          "Resultary exact semantic search for the Genesio balance identity and period floor"
+        ]
+      },
+      "rationale": "The fully searchable Valls 2025 primary paper treats the phase portrait at infinity, Hopf bifurcations, and integrability and states the small-orbit Hopf period \\(2\\pi/\\sqrt b\\), but it contains no invariant-measure theorem, no Wirtinger minimum-period theorem, and no bounded-orbit \\(b\\le0\\) recurrence barrier. Umut 2013 is explicitly a stability/region-of-attraction paper; its full theorem text and Barbasin's 1952 Russian article were not accessible, so they remain named risks for an auxiliary Lyapunov identity, not decisive coverage of the new global consequences.",
+      "residual_risks": [
+        "Barbasin 1952 and the full Umut 2013 theorem text were not inspected and may contain an equivalent auxiliary Lyapunov identity.",
+        "The originality claim is centered on the combined Genesio-specific invariant-measure, bounded-recurrence, and strict period-floor consequences rather than priority for the raw polynomial identity alone."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING",
+          "evidence": "No invariant-measure, Wirtinger, or bounded-orbit recurrence theorem matching the assigned claim appears in the inspected text.",
+          "identifier_or_url": "https://doi.org/10.3934/dcdsb.2025016",
+          "material_read": "Full searchable article, including Hopf section, dynamics at infinity, integrability, and local period statement.",
+          "method": "Primary open full text.",
+          "title": "Global dynamical aspects and integrability analysis of the Genesio system",
+          "trigger": "Most relevant modern full treatment of the same ODE."
+        },
+        {
+          "assessment": "INACCESSIBLE_PLAUSIBLE_SOURCE",
+          "evidence": "It may contain a related Lyapunov identity, but the available description is about stability and attraction regions rather than the assigned invariant-measure and minimum-period conclusions.",
+          "identifier_or_url": "2013 Far East Journal of Dynamical Systems 23(1)",
+          "material_read": "Abstract and bibliographic description; full theorem text was not accessible.",
+          "method": "Primary/author-indexed abstract-level material.",
+          "title": "On the stability of Genesio system",
+          "trigger": "Named prior source using Lyapunov/Barbasin methods on the same ODE."
+        },
+        {
+          "assessment": "INACCESSIBLE_PLAUSIBLE_SOURCE",
+          "evidence": "A possible overlap in the auxiliary identity remains a risk, but it cannot override the absence of evidence for the Genesio-specific invariant-measure and sharp-period theorem.",
+          "identifier_or_url": "Barbasin, Prikl. Mat. Meh. 16 (1952), 629-632",
+          "material_read": "Bibliographic references and secondary descriptions only; full Russian text was not accessible.",
+          "method": "Bibliographic inspection.",
+          "title": "On the stability of the solution of a certain nonlinear equation of third order",
+          "trigger": "Classical source cited by Genesio stability literature and plausible source of an auxiliary polynomial identity."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "https://doi.org/10.3934/dcdsb.2025016",
+        "Umut 2013 stability article abstract"
+      ],
+      "rationale": "The theorem gives exact recurrence diagnostics for a standard chaotic model, a rigorous obstruction to non-equilibrium bounded recurrence for \\(b\\le0\\), and a strict universal period floor whose constant is attained asymptotically at the known Hopf frequency. These are motivated dynamical boundaries, not arbitrary calculations.",
+      "residual_risks": [
+        "The bounded-orbit convergence result is conditional on boundedness and therefore does not classify all forward trajectories."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "limitations": [
+    "The convergence theorem is conditional on forward boundedness and does not establish ultimate boundedness.",
+    "Compact support is required for the invariant-measure generator identities.",
+    "The full texts of Barbasin 1952 and Umut 2013 were not accessible, leaving a specific auxiliary-identity priority risk."
+  ],
+  "record_id": "SCOPE-20260920-05dd465b6b5b",
+  "record_title": "Exact recurrence balances and a sharp period floor for the Genesio system",
+  "schema_version": 1
+}

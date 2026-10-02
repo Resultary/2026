@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/19/SCOPE-quadratic-hausdorff-stability-planar-fractional-perimeter--3a652b674803",
   "resultary_record_key": "SCOPE-quadratic-hausdorff-stability-planar-fractional-perimeter--3a652b674803",
-  "source_commit": "a7cc69d784246a36eca421019db9c279a2c15a0e",
-  "source_commit_time": "2026-09-30T19:52:54Z",
+  "source_commit": "12ad380407a6a42752169ca3ada4be434374179d",
+  "source_commit_time": "2026-10-02T09:03:38Z",
   "source_path": "2026/09/19/quadratic-hausdorff-stability-planar-fractional-perimeter--3a652b674803",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260919-3a652b674803",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-01T08:22:11Z",
+  "synced_at": "2026-10-02T09:07:02Z",
   "time_standard": "UTC"
 }

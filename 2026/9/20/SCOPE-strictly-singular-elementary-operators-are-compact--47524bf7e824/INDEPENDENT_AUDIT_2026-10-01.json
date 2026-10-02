@@ -1,0 +1,138 @@
+{
+  "audited_at_utc": "2026-10-01T20:46:13Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "Assigned package RESULT.md at the assigned Git snapshot.",
+        "L. A. Fialkow, R. Loebl, Elementary mappings into ideals of operators, Illinois J. Math. 28 (1984); bibliographic and later-paper descriptions inspected, full text unavailable after open-access and authorized institutional attempts.",
+        "C. Apostol, L. Fialkow, Structural Properties of Elementary Operators, Canad. J. Math. 38 (1986), bibliographic/reference material inspected.",
+        "B. Magajna, A System of Operator Equations, Canad. Math. Bull. 30 (1987), bibliographic/full searchable material inspected.",
+        "Published 2026-09-20 finding on one-sided/two-sided multipliers on symmetric norm ideals, complete RESULT inspected.",
+        "Published-record semantic search for strictly singular elementary operators on norm ideals."
+      ],
+      "rationale": "The proof is internally sound. A fixed rank-one column is isometric to \\(H\\), and its image lies in a finite-support slice of the ideal where the ideal norm is equivalent to the Hilbert--Schmidt norm. Hence strict singularity makes each such restriction compact. Choosing a basis of the left-coefficient span whose Calkin classes are independent, compactness of every evaluated column restriction forces all corresponding right coefficients to vanish; this leaves a representation with compact left coefficients. The symmetric row argument then forces compact right coefficients. Compact--compact coefficients give a norm limit of finite-rank superoperators. Running the same reductions contrapositively produces a noncompact row or column restriction, which on Hilbert space is bounded below on an infinite-dimensional subspace; the rank-one slice is contractively complemented. Thus noncompactness contradicts strict singularity and yields the Bernstein-number witness.",
+      "residual_risks": [],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Older work concerns elementary maps into ideals, structural equations, or compactness; accessible material did not state the finite-sum ordinary strict-singularity collapse.",
+          "The one-term result is strictly narrower in both number of summands and ideal class."
+        ],
+        "reasoning": "No accessible broader theorem was found that mechanically implies the finite-sum Calkin-basis reduction.",
+        "searches": [
+          "Fialkow--Loebl 1984 bibliographic/later-source inspection",
+          "Apostol--Fialkow 1986",
+          "Magajna 1987",
+          "Same-date one-term multiplier theorem"
+        ]
+      },
+      "checked_sources": [
+        "Assigned package RESULT.md at the assigned Git snapshot.",
+        "L. A. Fialkow, R. Loebl, Elementary mappings into ideals of operators, Illinois J. Math. 28 (1984); bibliographic and later-paper descriptions inspected, full text unavailable after open-access and authorized institutional attempts.",
+        "C. Apostol, L. Fialkow, Structural Properties of Elementary Operators, Canad. J. Math. 38 (1986), bibliographic/reference material inspected.",
+        "B. Magajna, A System of Operator Equations, Canad. Math. Bull. 30 (1987), bibliographic/full searchable material inspected.",
+        "Published 2026-09-20 finding on one-sided/two-sided multipliers on symmetric norm ideals, complete RESULT inspected.",
+        "Published-record semantic search for strictly singular elementary operators on norm ideals."
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "For a single \\(AXB\\), compactness/strict-singularity behavior is already known or adjacent to prior art.",
+          "For a sum \\(\\sum A_jXB_j\\), cancellation requires the two Calkin-independence reductions used in the assigned proof."
+        ],
+        "reasoning": "The assigned theorem is not a mechanical corollary of the one-term case; the inaccessible 1984 primary source remains the specific unresolved comparison.",
+        "searches": [
+          "One-term multiplier theorem versus finite elementary sums",
+          "Apostol--Fialkow/Magajna structural literature"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The assigned finding was the only exact finite-sum collapse hit.",
+          "A published 2026-09-20 multiplier result covers only a single term on symmetrically normed ideals and explicitly treats its qualitative compact/SS consequence as prior-art-adjacent."
+        ],
+        "reasoning": "Equivalent formulations include compactness of every strictly singular finite elementary sum, compact-coefficient representability, and a complemented rank-one Hilbert witness for noncompactness.",
+        "searches": [
+          "Published-record semantic query: strictly singular elementary operators Banach norm ideals compact rank one witness",
+          "Web query: Elementary mappings into ideals of operators strictly singular",
+          "Web query: strictly singular elementary operator Schatten ideal compact"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No exact database theorem for all finite sums was located.",
+          "The one-term special case has flat \\(s\\)-number formulas but does not determine cancellation among multiple elementary terms."
+        ],
+        "reasoning": "No finite table is relevant; the comparison is by class and implication.",
+        "searches": [
+          "Published-record exact-topic search",
+          "Same-date multiplier quantitative result"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality passes, with a named access risk. The exact published-record search found no earlier theorem for finite elementary sums on arbitrary normalized Banach norm ideals. A same-date public finding proves the \\(m=1\\) multiplier case on symmetrically normed ideals, which is a genuine special case but does not imply the Calkin-reduction theorem for finite sums. The highly relevant Fialkow--Loebl 1984 paper could not be read in full after lawful access attempts, so it is retained as a residual risk rather than treated as noncovering.",
+      "residual_risks": [
+        "The 1984 Fialkow--Loebl paper is the strongest unresolved access risk: full text could not be obtained after open-access and authorized institutional attempts, so whole-document noncoverage is not asserted.",
+        "Older compact-elementary-operator literature may contain an equivalent result under different terminology; no decisive implication was found."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Plausible overlap risk, but inaccessible material alone is not treated as a novelty failure.",
+          "evidence": "Later papers cite it for elementary mappings into ideals; the accessible material did not expose a strict-singularity theorem for finite elementary sums.",
+          "identifier_or_url": "https://doi.org/10.1215/ijm/1256045966",
+          "material_read": "Bibliographic record and descriptions/citations in later primary papers; full article text was unavailable after open-access and authorized institutional attempts",
+          "method": "Primary-source access attempt plus later-source cross-check; no human-verification bypass",
+          "title": "Elementary mappings into ideals of operators",
+          "trigger": "Most plausible older primary source for elementary maps and operator ideals"
+        },
+        {
+          "assessment": "Relevant structural prior art, but no matching strict-singularity collapse was located in accessible statements.",
+          "evidence": "The paper develops structural properties of elementary operators and cites Fialkow--Loebl.",
+          "identifier_or_url": "https://doi.org/10.4153/CJM-1986-072-6",
+          "material_read": "Bibliographic/reference and accessible text material",
+          "method": "Primary-source search/inspection",
+          "title": "Structural Properties of Elementary Operators",
+          "trigger": "Broad structural source for finite elementary operators"
+        },
+        {
+          "assessment": "Covers the one-term multiplier special case only; it does not cover arbitrary finite sums.",
+          "evidence": "It states that a nonzero two-sided multiplier is compact/FSS/SS exactly when both coefficients are compact, with rank-one witnesses.",
+          "identifier_or_url": "https://github.com/Resultary/2026/tree/main/2026/9/20/SCOPE-one-sided-multiplier-flat-s-numbers--0a8586db5330",
+          "material_read": "Complete RESULT.md",
+          "method": "Published finding full-text inspection",
+          "title": "Flat classical s-number profiles for one-sided multiplication on symmetric norm ideals",
+          "trigger": "Same-day published special case for one elementary term"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Assigned package RESULT.md at the assigned Git snapshot.",
+        "L. A. Fialkow, R. Loebl, Elementary mappings into ideals of operators, Illinois J. Math. 28 (1984); bibliographic and later-paper descriptions inspected, full text unavailable after open-access and authorized institutional attempts.",
+        "C. Apostol, L. Fialkow, Structural Properties of Elementary Operators, Canad. J. Math. 38 (1986), bibliographic/reference material inspected.",
+        "B. Magajna, A System of Operator Equations, Canad. Math. Bull. 30 (1987), bibliographic/full searchable material inspected.",
+        "Published 2026-09-20 finding on one-sided/two-sided multipliers on symmetric norm ideals, complete RESULT inspected.",
+        "Published-record semantic search for strictly singular elementary operators on norm ideals."
+      ],
+      "rationale": "The finite-sum extension is mathematically motivated because cancellation between terms defeats reduction to the one-term multiplier case. The result gives a complete class-level compact/FSS/SS boundary and a complemented rank-one witness for every noncompact operator, with immediate quantitative Bernstein consequences. That is a substantive structural theorem if not already present in the inaccessible older source.",
+      "residual_risks": [
+        "The 1984 Fialkow--Loebl paper is the strongest unresolved access risk: full text could not be obtained after open-access and authorized institutional attempts, so whole-document noncoverage is not asserted.",
+        "Older compact-elementary-operator literature may contain an equivalent result under different terminology; no decisive implication was found."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "final_claim": "For finite elementary operators on any normalized Banach norm ideal of compact operators, compactness, finite strict singularity, strict singularity, and compact--compact coefficient representability are equivalent; every noncompact such operator is bounded below on a one-complemented infinite-dimensional rank-one Hilbert subspace.",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "Originality is best-of-knowledge. Full text of Fialkow--Loebl (1984) was unavailable after lawful open-access and authorized institutional attempts; possible differently phrased overlap therefore remains. The theorem is restricted to normalized Banach norm ideals of compact operators and finite elementary sums."
+  ],
+  "record_id": "SCOPE-20260920-47524bf7e824",
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
+}

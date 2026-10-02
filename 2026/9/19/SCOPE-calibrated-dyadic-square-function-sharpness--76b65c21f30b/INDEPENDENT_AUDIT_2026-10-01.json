@@ -1,0 +1,104 @@
+{
+  "audited_at_utc": "2026-10-01T12:12:53.903497Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "RESULT.md",
+        "artifacts/calibration_check.py",
+        "artifacts/calibration_check_output.txt",
+        "https://arxiv.org/abs/2609.14430"
+      ],
+      "rationale": "The exact dyadic state products show that the unique maximum of the first-phase products occurs at the terminal state, while every second-phase product is smaller, yielding the exact dyadic characteristic. The terminating-block weighted second moment simplifies to the displayed quantity, continuation rescales it by a constant factor, and summing the disjoint continuation levels gives the exact geometric-series norm formula; the final split adds the stated residual term. Expanding the defining quadratic gives the asserted asymptotics. The source's independent-sum theorem converges to the constant \\(3/8\\); for every fixed smaller threshold the conditional probability tends to one, and the exact exceptional weighted mass tends to \\(e^{-4}\\). Independent recomputation for several large orders reproduces the exact state maximum and the limits \\(0.43630416049\\) and \\(0.10656246660\\).",
+      "residual_risks": [
+        "The numerical constant is only a lower bound for the best universal normalized constant."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The source settles sharp order of growth and proves an explicit lower constant using coarse estimates.",
+          "Earlier papers establish upper bounds and noncritical weak-type estimates, but predate this construction."
+        ],
+        "reasoning": "Those broader theorems do not determine the exact numerical calibration of this newly constructed example.",
+        "searches": [
+          "Osękowski, arXiv:2609.14430v1.",
+          "Earlier weighted weak-type square-function papers cited by the source."
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.14430",
+        "https://doi.org/10.1112/blms/bdv090",
+        "https://arxiv.org/abs/1211.4219",
+        "https://doi.org/10.7153/mia-2020-23-21",
+        "semantic research-index search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The source provides the martingale transition data and the limiting random-sum theorem, but the exact characteristic requires optimizing all martingale states and the exact norm requires summing the continuation energies without the source's inequalities."
+        ],
+        "reasoning": "The source makes the calculation possible but does not mechanically imply the sharp calibrated constant through its stated results.",
+        "searches": [
+          "Compared every exact formula to the corresponding coarse estimate in the source construction."
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The semantic exact hit is the audited record.",
+          "The source proves only \\(2^{N-1}\\le [w]_{A_2^d}\\le 6\\cdot2^N\\), \\(\\|f\\|^2\\le8\\cdot2^N\\), and a coarse fixed tail fraction."
+        ],
+        "reasoning": "No equivalent exact calibration was located.",
+        "searches": [
+          "semantic research-index search for exact dyadic A2 characteristic, exact input norm, and the constant 0.1065624665 in Osękowski's construction.",
+          "Full-text search of arXiv:2609.14430v1."
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No independent table or prior record with the exact formulas was found."
+        ],
+        "reasoning": "This supports but does not by itself establish novelty; the decisive evidence is the source's explicit coarse bounds.",
+        "searches": [
+          "Semantic search for the exact formulas and decimal constant."
+        ]
+      },
+      "rationale": "The primary sharpness paper deliberately uses coarse characteristic, input-energy, and tail estimates to prove the logarithmic order is necessary. Its full text does not state the exact characteristic, exact weighted norm, full limiting tail mass, or the resulting calibrated normalized lower constant. Semantic search returned the audited calibration as the exact match and no earlier equivalent refinement.",
+      "residual_risks": [
+        "The source is very recent, so a contemporaneous unindexed recalibration remains possible."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING",
+          "evidence": "The paper proves sharp order with deliberately coarse bounds and gives the lower constant \\(e^{-2}/48\\); it does not state the audited exact characteristic, exact norm, or calibrated 0.1065624665 lower bound.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.14430",
+          "material_read": "Complete eleven-page primary preprint, including the construction, coarse A2 and L2 lemmas, tail lemma, and limiting random-sum proof.",
+          "method": "Complete primary preprint text.",
+          "title": "On the weighted weak-type constant for the dyadic square function",
+          "trigger": "Same critical example and all martingale parameters."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.14430",
+        "https://doi.org/10.1112/blms/bdv090",
+        "https://arxiv.org/abs/1211.4219"
+      ],
+      "rationale": "The exact calibration turns a qualitative sharpness construction into a quantitatively transparent extremal example, identifies the exact worst A2 state and full leading input energy, and improves the certified normalized universal lower bound by a large factor. This is a motivated exact invariant of the construction, not a claim of global optimality.",
+      "residual_risks": [
+        "It uses the source's limiting random-sum theorem and does not determine the full square-function distribution."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "limitations": [
+    "The numerical constant is only a lower bound for the best universal normalized constant.",
+    "The result calibrates one explicit dyadic construction and does not improve the already sharp order of growth.",
+    "It uses the source's limiting random-sum theorem and does not determine the full square-function distribution."
+  ],
+  "record_id": "SCOPE-20260919-76b65c21f30b",
+  "record_title": "Exact calibration of the critical dyadic square-function sharpness example",
+  "schema_version": 1
+}

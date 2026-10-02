@@ -1,27 +1,113 @@
 {
+  "audited_at_utc": "2026-10-01T06:49:30Z",
   "axes": {
     "correctness": {
-      "rationale": "The nilpotent rank-one shear has an explicitly invertible form. Its inverse norm reduces exactly to a two-dimensional ℓp shear norm; norm attainment would force a chosen James functional to attain its norm. Every compact perturbation is I plus compact after recentering, giving an exact envelope of 1, attained by cancelling the shear.",
-      "verdict": "PASS"
+      "rationale": "The rank-one map \\(N_c(z,y)=(c f(y)z_0,0)\\) satisfies \\(N_c^2=0\\), so \\(T_c^{-1}=I+N_c\\). Its norm is exactly the two-dimensional positive shear norm \\(\\kappa_p(c)\\): the triangle inequality gives the upper bound and a norming sequence for the non-norm-attaining James functional gives the reverse bound. Any norm-attaining vector would force \\(|f(y)|=\\|y\\|\\), impossible. Thus \\(m(T_c)=\\kappa_p(c)^{-1}\\) is not attained. For any compact \\(K\\), \\(T_c+K=I+(K-N_c)\\) and compact operators on infinite-dimensional spaces are not bounded below, so \\(m(T_c+K)\\le1\\); taking \\(K=N_c\\) attains 1. The endpoint formula \\(\\kappa_1(c)=\\kappa_\\infty(c)=1+c\\) and divergence as \\(c\\to\\infty\\) follow directly.",
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Qualified to the best of our knowledge. Han's 2026 direct-sum CPPm theorem requires distinct exponents p<q, while Raposo--Ribeiro's later diagonal theorem treats only a scalar ℓ∞ summand. Searches found no all-p diagonal version with arbitrary nonzero summand, exact compact envelope, and unbounded defect ratio.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "Raposo--Ribeiro state CPPm failure for \\(X=\\mathbb K\\oplus_\\infty Y\\) with non-reflexive \\(Y\\). Han introduces CPPm and treats other direct-sum regimes; James gives the non-norm-attaining functional criterion."
+        ],
+        "reasoning": "These sources cover a special endpoint, other direct-sum hypotheses, or a classical ingredient; none dominates the all-p diagonal result.",
+        "searches": [
+          "A. Raposo Jr. and G. Ribeiro, arXiv:2605.01397",
+          "M. Han, arXiv:2601.17316 / JMAA 562 (2026)",
+          "R. C. James, Studia Math. 23 (1964)"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2605.01397",
+        "https://arxiv.org/abs/2601.17316",
+        "https://doi.org/10.4064/sm-23-3-205-216",
+        "Published-record semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Raposo--Ribeiro gives the \\(p=\\infty\\), scalar-summand, essentially \\(c=1\\) case. The finite-p norm equality requires the scalar \\(\\ell_p^2\\) shear optimization used in the audited proof."
+        ],
+        "reasoning": "Prior special cases do not imply the finite-p diagonal theorem by a formal parameter substitution.",
+        "searches": [
+          "Direct comparison with Raposo--Ribeiro Theorem 2.1 and Han direct-sum statements"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The only exact published-record match was the audited record. Web results recovered the Raposo--Ribeiro scalar infinity-sum theorem, not the all-p diagonal statement."
+        ],
+        "reasoning": "The same nilpotent-shear idea appears in the prior infinity-sum case, but the finite-p norm identity and arbitrary complementary summand are additional quantified conclusions.",
+        "searches": [
+          "Published-record semantic search: compact perturbation property minimum modulus diagonal lp sum nonreflexive rank one shear",
+          "Web search: CPPm diagonal p sum non-reflexive rank-one shear"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No table or database source with the function \\(\\kappa_p(c)\\), envelope 1, and arbitrary \\(Z\\) was located."
+        ],
+        "reasoning": "The result is structural operator theory, not a database computation.",
+        "searches": [
+          "Published-record search for CPPm p-sum obstruction and compact-perturbation envelope"
+        ]
+      },
+      "rationale": "Raposo--Ribeiro prove the scalar \\(\\mathbb K\\oplus_\\infty Y\\) case, and Han's cited direct-sum obstruction uses distinct exponents. The audited all-\\(p\\) diagonal theorem with arbitrary nonzero \\(Z\\), exact compact-perturbation envelope, and unbounded defect ratio is not implied by the inspected prior statements without the new shear calculation.",
+      "residual_risks": [
+        "The CPPm literature is new and rapidly developing; later or not-yet-indexed diagonal formulations may exist."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "SPECIAL_CASE",
+          "evidence": "The source covers the infinity norm with scalar complementary summand, not all diagonal p-sums.",
+          "identifier_or_url": "https://arxiv.org/abs/2605.01397",
+          "material_read": "Abstract and accessible theorem-level text describing the constructive rank-one perturbation and the \\(\\mathbb K\\oplus_\\infty Y\\) non-reflexive theorem.",
+          "method": "Lawful web/full-page inspection.",
+          "title": "Weak Minimizing Property and the Compact Perturbation Property for the Minimum Modulus",
+          "trigger": "Closest primary CPPm shear obstruction."
+        },
+        {
+          "assessment": "RELATED_NOT_DOMINATING",
+          "evidence": "It does not state the audited all-p diagonal arbitrary-summand theorem.",
+          "identifier_or_url": "https://arxiv.org/abs/2601.17316",
+          "material_read": "Current abstract and bibliographic theorem context available through the source record.",
+          "method": "Lawful arXiv/source inspection.",
+          "title": "Weak minimizing property on pairs of classical Banach spaces",
+          "trigger": "Earlier source introducing CPPm and direct-sum obstructions."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result fills the diagonal finite-p direct-sum gap, unifies known ℓ1- and ℓ∞-type failures with one rank-one mechanism, and quantifies CPPm failure exactly with arbitrarily large perturbative amplification.",
-      "verdict": "PASS"
+      "rationale": "The theorem fills a natural diagonal direct-sum gap in the newly introduced CPPm property, works uniformly for every \\(p\\), and computes the exact perturbation envelope and arbitrarily large defect. This is a structural operator-theoretic statement rather than an isolated example.",
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-17",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disposition": "passed",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": "The result applies to spaces presented with the stated isometric decomposition \\(Z\\oplus_pY\\); it does not characterize CPPm under arbitrary equivalent renormings or for all non-reflexive Banach spaces. The exact all-\\(p\\) diagonal statement remains a best-of-knowledge originality conclusion.",
+  "record_id": "SCOPE-20260917-94018947361a",
+  "review_type": "independent_audit",
+  "same_model_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "The nilpotent rank-one shear has an explicitly invertible form. Its inverse norm reduces exactly to a two-dimensional ℓp shear norm; norm attainment would force a chosen James functional to attain its norm. Every compact perturbation is I plus compact after recentering, giving an exact envelope of 1, attained by cancelling the shear.",
+        "status": "PASS"
+      },
+      "originality": {
+        "rationale": "Qualified to the best of our knowledge. Han's 2026 direct-sum CPPm theorem requires distinct exponents p<q, while Raposo--Ribeiro's later diagonal theorem treats only a scalar ℓ∞ summand. Searches found no all-p diagonal version with arbitrary nonzero summand, exact compact envelope, and unbounded defect ratio.",
+        "status": "PASS"
+      },
+      "value": {
+        "rationale": "The result fills the diagonal finite-p direct-sum gap, unifies known ℓ1- and ℓ∞-type failures with one rank-one mechanism, and quantifies CPPm failure exactly with arbitrarily large perturbative amplification.",
+        "status": "PASS"
+      }
+    },
+    "disclaimer": "Historical same-model scientific assessment preserved as evidence; it is not the independent audit.",
+    "reviewed_at": "2026-09-17",
+    "status": "passed"
+  },
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

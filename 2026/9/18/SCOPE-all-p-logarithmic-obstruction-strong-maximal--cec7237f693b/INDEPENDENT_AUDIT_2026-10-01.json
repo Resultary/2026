@@ -1,0 +1,93 @@
+{
+  "audited_at_utc": "2026-10-01T07:11:57.147372Z",
+  "axes": {
+    "correctness": {
+      "rationale": "With \\(w=\\sigma^{-(p-1)}\\), the dual weight is exactly \\(\\sigma\\). Lerner's mass recurrence gives the anchored characteristic estimate with geometric ratio \\(3^{p-1}/2^{2p-1}<1\\) for every \\(p>1\\), while a two-cell rectangle gives the matching lower scale \\(\\theta^{-(p-1)}\\). Testing with \\(f=\\sigma\\mathbf 1_Q\\) normalizes the input exactly, and the hyperbolic set \\(rs\\le D\\) contributes order \\(\\theta^{-1}\\log(1/\\theta)\\) cells, yielding the claimed \\(p\\)-th-power lower bound. Reflection and product extension preserve the estimate in all dimensions.",
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Lerner supplies the recurrence and geometry at \\(p=2\\).",
+          "Ombrosi–Rey cover all \\(p\\) and dimensions only on the upper-bound side."
+        ],
+        "reasoning": "Neither prior result dominates the new lower-bound statement for \\(p\\ne2\\).",
+        "searches": [
+          "Lerner's strong-maximal counterexample",
+          "Ombrosi–Rey full primary upper-bound paper"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.14008",
+        "https://arxiv.org/abs/2609.17246",
+        "https://arxiv.org/abs/1512.01112",
+        "Resultary semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Replacing the reciprocal weight by \\(\\sigma^{-(p-1)}\\) changes both the rectangular characteristic and test-function norm in a coordinated way; that extension is not stated in the prior theorem."
+        ],
+        "reasoning": "The all-p lower obstruction is not mechanically implied by the published \\(p=2\\) theorem alone.",
+        "searches": [
+          "Compared the all-p construction with Lerner's \\(p=2\\) proof and Ombrosi–Rey's all-p estimates"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The exact all-p hit is this record; a stronger dimensional logarithmic exponent occurs in a later SCOPE record.",
+          "Lerner states the \\(p=2\\) lower bound; Ombrosi–Rey prove improved all-p upper bounds."
+        ],
+        "reasoning": "No earlier equivalent all-p lower statement was found.",
+        "searches": [
+          "Resultary semantic search for all-p logarithmic strong maximal lower obstruction",
+          "Lerner arXiv:2609.14008",
+          "Ombrosi–Rey arXiv:2609.17246"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No prior exact database/table entry was located; later stronger SCOPE work postdates this record."
+        ],
+        "reasoning": "The theorem is not a recomputation of tabulated constants.",
+        "searches": [
+          "Resultary exact semantic search"
+        ]
+      },
+      "rationale": "Lerner's primary lower obstruction is explicitly the two-dimensional \\(p=2\\) case. Ombrosi–Rey's all-\\(p\\) paper is an upper-bound theorem and cites the lower obstruction at \\(p=2\\); it does not state the all-\\(p\\) lower construction. Resultary finds this record as the first exact all-\\(p\\) logarithmic obstruction, with a stronger dimension-amplified result only appearing later.",
+      "residual_risks": [
+        "The two principal 2026 papers are recent, so unindexed simultaneous observations remain possible.",
+        "The logarithmic exponent supplied by this family is not claimed optimal."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING_ALL_P",
+          "evidence": "The published lower theorem is stated at \\(p=2\\).",
+          "identifier_or_url": "https://arxiv.org/abs/2609.14008",
+          "material_read": "Primary abstract and theorem-level material identifying the two-dimensional \\(p=2\\) lower obstruction.",
+          "method": "Primary source material.",
+          "title": "Failure of the linear A2 bound for the strong maximal operator",
+          "trigger": "Direct source of the construction extended by the record."
+        },
+        {
+          "assessment": "NOT_COVERING_LOWER_EXTENSION",
+          "evidence": "The paper proves improved all-p upper exponents; it does not provide the audited all-p logarithmic lower obstruction.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.17246",
+          "material_read": "Full primary text through the main theorems and proof setup.",
+          "method": "Primary full text.",
+          "title": "Improved weighted bounds for the strong maximal function",
+          "trigger": "Very recent all-p paper on the same operator and weight class."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "rationale": "The result answers a natural endpoint question uniformly over the whole \\(L^p\\) scale: the Buckley endpoint pure power fails for every \\(1<p<\\infty\\), not merely at \\(p=2\\). The explicit logarithmic loss gives a quantitative obstruction with direct relevance to the open sharp-dependence problem.",
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "limitations": "The theorem excludes the endpoint pure-power estimate but does not prove that the infimum power exponent exceeds \\(1/(p-1)\\), does not establish optimality of the logarithmic exponent \\(1/p\\), and makes no \\(p=1\\) claim. Lerner's \\(p=2\\) construction and recurrence are prior work.",
+  "record_id": "SCOPE-20260918-cec7237f693b",
+  "record_title": "All-p logarithmic obstruction to the Buckley endpoint power for the strong maximal operator",
+  "schema_version": 1
+}

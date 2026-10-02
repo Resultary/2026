@@ -1,27 +1,125 @@
 {
+  "audit_date_utc": "2026-10-01",
   "axes": {
     "correctness": {
-      "rationale": "The weak-test objective is exactly the quadratic form induced by the test-frame operator. In the explicit fixed-span two-test family, both tests have unit energy norm, ordinary Euclidean Gauss-Newton gives xi=1/epsilon exactly, and the true energy-error amplification is sqrt(1+epsilon^{-2}). The Gram spectrum gives the stated exact condition-number law, and the standalone artifact reproduces the formulas numerically.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "assigned RESULT.md",
+        "actual artifacts/verify_frame_obstruction.py and verification_output.txt",
+        "fresh independent two-dimensional calculation"
+      ],
+      "rationale": "With an energy-orthonormal pair \\((\\phi_1,\\phi_2)\\), the two unit tests are \\(z_1=\\phi_2\\) and \\(z_2=(\\varepsilon\\phi_1+\\phi_2)/\\sqrt{1+\\varepsilon^2}\\). Direct least squares gives \\(\\xi=(J^Tb)/(J^TJ)=1/\\varepsilon\\), decreases the measurement loss to \\(1\\), but changes the physical error norm from \\(1\\) to \\(\\sqrt{1+\\varepsilon^{-2}}\\). Diagonalizing the Gram matrix yields exactly \\(\\xi=\\tfrac12(\\sqrt\\kappa-1/\\sqrt\\kappa)\\) and amplification \\(\\tfrac12(\\sqrt\\kappa+1/\\sqrt\\kappa)\\). A fresh independent numerical reconstruction at five \\(\\varepsilon\\)-values reproduced these identities and zero Gram-weighted correction; the proof itself is algebraic, not empirical.",
+      "residual_risks": [],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "General basis dependence of variational residual losses, inverse-Gram discrete dual norms, minimum-residual methods, and tight-frame identities are prior knowledge and excluded from the novelty claim. The accepted contribution is narrowly source-specific: individual energy normalization in the 2026 weak Gauss-Newton construction still permits a fixed test span to produce an unboundedly harmful one-step correction, with an exact frame-conditioning amplification law. No equivalent public correction or overlapping SCOPE record was located.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "RVPINN lines on the classical loss say its stability depends on the basis and that inverse-Gram weighting yields a basis-independent dual norm; no inspected theorem gives the unit-normalized fixed-span \\(1/\\varepsilon\\) Gauss--Newton error blow-up.",
+          "The 2026 source abstract makes test choice an explicit design choice but does not state this obstruction."
+        ],
+        "reasoning": "The prior robust-loss theory covers the remedy and broad mechanism but does not, in the inspected material, dominate the exact one-step counterexample.",
+        "searches": [
+          "Rojas et al., arXiv:2308.16910 full text",
+          "Schwencke--Maier arXiv:2609.20641 abstract",
+          "Resultary query listed above"
+        ]
+      },
+      "checked_sources": [
+        "assigned package",
+        "actual verifier artifact",
+        "fresh independent calculation",
+        "arXiv:2308.16910 full text",
+        "arXiv:2609.20641 abstract",
+        "Resultary search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Basis dependence under arbitrary rescaling does not by itself force unbounded physical-error amplification when every test is individually normalized and the span is fixed. The explicit nearly parallel frame and Gauss--Newton tangent geometry provide that stronger statement."
+        ],
+        "reasoning": "The exact counterexample is not a literal corollary of the inspected RVPINN theorem statements without the additional construction.",
+        "searches": [
+          "direct implication comparison with arXiv:2308.16910 equations for classical and inverse-Gram losses"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "RVPINN full text explicitly states basis dependence of the classical loss and gives the loss \\(\\mathcal R^T G^{-1}\\mathcal R\\); the audited theorem instead fixes unit norms and the span and quantifies one-step Gauss--Newton energy amplification."
+        ],
+        "reasoning": "The standard frame-operator and dual-norm formulations were treated as equivalent background, while the claimed new object is the Gauss--Newton update/error amplification.",
+        "searches": [
+          "Resultary semantic search: weak Gauss Newton unit normalized test functions frame conditioning fixed span unbounded energy error Gram inverse Petrov Galerkin",
+          "RVPINN full-text search for basis dependence, Gram inverse, discrete dual norm"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "The audited record was the only direct match among returned published findings; nearby hits concerned different optimization algorithms."
+        ],
+        "reasoning": "This is an analytic counterexample rather than a tabulated invariant; database search was used only to locate prior published formulations.",
+        "searches": [
+          "Resultary query listed above"
+        ]
+      },
+      "rationale": "RVPINNs already establish that classical variational residual losses depend on the chosen basis and that inverse-Gram discrete-dual-norm weighting removes that coordinate dependence; those general facts are excluded from the claim. The audited result is narrower and source-specific: even after individual energy normalization and with the test span fixed, the particular Euclidean weak Gauss--Newton step can increase the physical energy error without bound, with an exact condition-number law. Resultary returned no earlier published SCOPE statement of this fixed-span unit-normalized one-step obstruction. The motivating 2026 Gauss--Newton preprint was available only at abstract level, so later/full-text overlap remains a residual risk.",
+      "residual_risks": [
+        "The full current arXiv:2609.20641 text was not retrievable through the available open route; a revision could discuss conditioning more explicitly."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "PARTIAL_COVERAGE",
+          "evidence": "Covers basis dependence and the inverse-Gram discrete dual norm, not the audited unit-normalized fixed-span Gauss--Newton amplification law.",
+          "identifier_or_url": "arXiv:2308.16910",
+          "material_read": "Full accessible HTML: introduction and Sections 2--3 through the classical loss, basis-dependence discussion, Riesz representative, Gram system, and \\(\\mathcal R^T G^{-1}\\mathcal R\\) formula",
+          "method": "Full-text web inspection",
+          "title": "Robust Variational Physics-Informed Neural Networks",
+          "trigger": "Closest prior for basis dependence and Gram-inverse remedy"
+        },
+        {
+          "assessment": "UNRESOLVED_FULLTEXT_RISK",
+          "evidence": "Abstract confirms finite linear measurements, test-function representation, Petrov--Galerkin Gauss--Newton, and weak elliptic formulations.",
+          "identifier_or_url": "arXiv:2609.20641",
+          "material_read": "Primary abstract; full arXiv page could not be fetched",
+          "method": "Open arXiv/web inspection",
+          "title": "Beyond PINNs: A Unified Gauss--Newton and Petrov--Galerkin Framework for Neural and Hybrid PDE Solvers",
+          "trigger": "Exact motivating method"
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The counterexample isolates test-frame conditioning, rather than individual test norms, as the quantity governing the geometry of ordinary Euclidean weak-residual Gauss-Newton. It supplies a concrete failure certificate for a very recent formulation and clarifies why unit normalization alone cannot provide basis robustness.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "motivating arXiv:2609.20641 abstract",
+        "RVPINN full text"
+      ],
+      "rationale": "This is a motivated counterexample/boundary for a new weak Gauss--Newton formulation: it shows that the seemingly natural safeguard of unit-normalizing tests does not control the algorithmic metric, and it quantifies the exact dependence on frame conditioning. It is not merely a restatement of the known Gram-inverse remedy.",
+      "residual_risks": [
+        "It is a worst-case two-dimensional model and does not establish failure of the reported numerical benchmarks."
+      ],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Same-model review: passed. Independent audit: not yet performed.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-19",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disclaimer": "Independent mathematical audit; not peer review, formal proof-assistant verification, or a guarantee of first discovery.",
+  "disposition": "passed",
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json",
+    "REVIEW.md"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "previously_published_pending_reaudit": false,
+  "record_id": "SCOPE-20260919-7915401e13af",
+  "record_title": "Unit-normalized weak Gauss–Newton can amplify energy error without bound",
+  "review_type": "independent_audit",
+  "same_model_review_evidence": {
+    "axes": {
+      "correctness": "The explicit two-test computation and frame identities were assessed as correct.",
+      "originality": "General basis dependence and Gram weighting were excluded; the source-specific one-step obstruction was judged new.",
+      "value": "The counterexample isolates test-frame conditioning as a practical failure mechanism."
+    },
+    "reviewed_at": "2026-09-19",
+    "status": "passed"
+  },
+  "verification_state": "independently_reviewed"
 }

@@ -1,26 +1,99 @@
 {
+  "audited_at_utc": "2026-10-01T17:49:46Z",
   "axes": {
     "correctness": {
-      "rationale": "The theorem follows from four exact differential identities. Forward completeness is obtained by a Gronwall bound; the d<0 escape and d=0 convergence arguments use monotonicity and integrability; the d>0 trajectory and invariant-measure identities follow by averaging exact generator balances. Symbolic verification gives zero residual for every algebraic identity used.",
-      "verdict": "PASS"
+      "rationale": "PASS. Fresh symbolic differentiation reproduces the exact quadratic balance laws. Their finite-time estimate gives forward completeness. Negative forcing makes the monotone balance force \\(z\\to-\\infty\\); zero forcing gives square-integrability, uniform continuity, stable-filter decay, and convergence to the equilibrium line. On bounded positive-forcing trajectories, dividing exact coboundaries by time gives the stated universal averages, and integrating the same generator identities yields the invariant-measure formulas and equilibrium-only equality case.",
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Prior Burke-Shaw work located includes temporal-asymptote studies, fractional-system surveys, and a mechanical torque decomposition. No located source states the combined forcing-sign trichotomy or the exact universal bounded-orbit/invariant-measure averages. Two uninspected full texts are recorded as explicit residual risks in REVIEW.md.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "Panchev's abstract mentions temporal asymptotes but no exact formulas are exposed; Shukla's abstract treats torque combinations for chaos."
+        ],
+        "reasoning": "No inspected theorem mechanically implies the full sign trichotomy.",
+        "searches": [
+          "Panchev et al. DOI 10.1016/j.chaos.2006.03.037",
+          "Shukla et al. DOI 10.5890/DNC.2026.03.007"
+        ]
+      },
+      "checked_sources": [
+        "Complete frozen/current Git package and symbolic artifacts.",
+        "Fresh symbolic differentiation and global-dynamics proof reconstruction.",
+        "Published-record and same-system literature searches.",
+        "Open-access attempts for the 2007 temporal-asymptote paper."
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The accessible material does not state \\(\\langle x^2\\rangle=d/g\\), the mean-height defect, zero-forcing convergence, or negative-forcing escape."
+        ],
+        "reasoning": "The exact coboundary mechanism supplies additional implications, subject to the explicit Panchev access risk.",
+        "searches": [
+          "Panchev 2007 abstract",
+          "Shukla 2026 public article abstract"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "No earlier exact trichotomy or stationary average identities were found; the accessible 2026 torque paper has a different qualitative focus."
+        ],
+        "reasoning": "Energy and torque formulations were considered; the inspected material does not provide the same generator balances.",
+        "searches": [
+          "Published-record query for Burke-Shaw forcing balances and invariant measures",
+          "web search for Burke-Shaw temporal asymptotes and torque analysis"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "The audited record was the only exact match in the inspected results."
+        ],
+        "reasoning": "This is a dynamical theorem rather than a table lookup.",
+        "searches": [
+          "Published-record semantic search for exact Burke-Shaw stationary balances"
+        ]
+      },
+      "rationale": "PASS to the best of current knowledge. Published-record search found no earlier exact forcing-sign trichotomy or invariant-measure average law for the Burke-Shaw system. Shukla et al. 2026 study a torque decomposition and qualitative chaos mechanism, not these balance consequences. Panchev--Spassova--Vitanov 2007 is a plausible risk because its abstract mentions temporal asymptotes; open full text was unavailable and a lawful full-text retrieval was interrupted by a human-verification barrier, so no whole-document noncoverage claim is made. No decisive implication appears in material actually read.",
+      "residual_risks": [
+        "Panchev--Spassova--Vitanov 2007 remains the main originality risk because full text could not be read.",
+        "No claim is made that every positive-forcing trajectory is bounded."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "INACCESSIBLE_PLAUSIBLE_PRIOR_SOURCE",
+          "evidence": "The abstract studies temporal asymptotes but does not expose the audited exact identities.",
+          "identifier_or_url": "https://doi.org/10.1016/j.chaos.2006.03.037",
+          "material_read": "Abstract and bibliographic material only; full text was not obtained.",
+          "method": "Open and lawful full-text search.",
+          "title": "Analytical and numerical investigation of two families of Lorenz-like dynamical systems",
+          "trigger": "Strongest older same-system source; abstract mentions temporal asymptotes."
+        },
+        {
+          "assessment": "RELATED_NOT_COVERING_IN_ACCESSED_MATERIAL",
+          "evidence": "It studies four torque types and their role in chaos rather than the audited global balance laws.",
+          "identifier_or_url": "https://doi.org/10.5890/DNC.2026.03.007",
+          "material_read": "Full public landing page and abstract.",
+          "method": "Primary-source web inspection.",
+          "title": "Mechanical Analysis of Burke-Shaw Chaotic System",
+          "trigger": "Recent same-system energy/forcing analysis."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result gives a sharp qualitative boundary at d=0 and exact parameter-level diagnostics for every bounded recurrent regime at d>0, including periodic and chaotic invariant measures, without assuming existence or structure of a particular attractor.",
-      "verdict": "PASS"
+      "rationale": "PASS. The theorem supplies a sharp forcing-sign boundary for global dynamics and exact long-time constraints applying uniformly to periodic, chaotic, and general compact stationary regimes. These are meaningful diagnostics for a standard chaotic flow.",
+      "status": "PASS"
     }
   },
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
   "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-20",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "previously_published_pending_reaudit": false,
+  "record_id": "SCOPE-20260920-b592d31467bb",
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

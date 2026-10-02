@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/21/SCOPE-two-commutator-transfer-factorization-ideals--9458e3357f6c",
   "resultary_record_key": "SCOPE-two-commutator-transfer-factorization-ideals--9458e3357f6c",
-  "source_commit": "a7cc69d784246a36eca421019db9c279a2c15a0e",
-  "source_commit_time": "2026-09-30T19:52:54Z",
+  "source_commit": "2d4cffde5c23be4170136f58a43a2bf81d3c77f5",
+  "source_commit_time": "2026-10-02T09:03:38Z",
   "source_path": "2026/09/21/two-commutator-transfer-factorization-ideals--9458e3357f6c",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260921-9458e3357f6c",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-01T08:22:11Z",
+  "synced_at": "2026-10-02T09:07:02Z",
   "time_standard": "UTC"
 }

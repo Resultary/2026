@@ -1,32 +1,123 @@
 {
-  "correctness": {
-    "status": "PASS",
-    "summary": "Using the structural conclusion in the proof of the current triangle-free Cartesian-product theorem, any hypothetical monophonic position set of size at least three in the product is layered over a leaf and projects to pairwise-distance-two vertices. For twice-subdivided trees these projected vertices share an original branch center, and an explicit 19-vertex induced path passes through any chosen triple. This forces the exact value two."
+  "audited_at_utc": "2026-10-01T22:43:52Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "Chandran, Klavžar, Neethu and Tuite, Computational and Applied Mathematics 46, article 44 (2027), published online 11 September 2026; open full text, Theorems 3.16 and 3.18 inspected.",
+        "Thomas, Chandran, Tuite and Di Stefano, Discrete Applied Mathematics 354 (2024); monophonic-position foundations.",
+        "Resultary semantic query for twice-subdivided tree Cartesian products and monophonic position; assigned finding was the exact hit.",
+        "Package obstruction verifier: 13 base trees, 169 ordered pairs, 1872 oriented local obstructions."
+      ],
+      "rationale": "The full proof of Theorem 3.18 in the primary product paper establishes that any maximum monophonic-position set of size at least three in connected triangle-free factors must be layered over a leaf and that its projection consists of pairwise distance-two vertices. In a tree, three pairwise distance-two vertices share one common neighbor. In a twice-subdivided tree, such a common neighbor of three projected vertices is an original branch vertex with three length-three arms, while a leaf of the other factor has a length-three inward chain. The displayed 19-vertex product path is then induced and contains any selected projected triple, contradicting monophonic position. The asymmetric path-factor corollary follows by the same obstruction or by impossibility of three pairwise distance-two vertices in a path. The package verifier checks the local path construction on 1872 bounded instances but is not used as an infinite proof.",
+      "residual_risks": [],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The source treats arbitrary Cartesian products and gives upper bounds.",
+          "Its star products can have large monophonic position, so the new twice-subdivision phenomenon is not forced by the broad theorem alone."
+        ],
+        "reasoning": "No inspected broader theorem determines the exact value two for all twice-subdivided tree pairs.",
+        "searches": [
+          "Theorems 3.16 and 3.18 of the 2026 product paper",
+          "Star-by-star sharpness example in that paper"
+        ]
+      },
+      "checked_sources": [
+        "Chandran, Klavžar, Neethu and Tuite, Computational and Applied Mathematics 46, article 44 (2027), published online 11 September 2026; open full text, Theorems 3.16 and 3.18 inspected.",
+        "Thomas, Chandran, Tuite and Di Stefano, Discrete Applied Mathematics 354 (2024); monophonic-position foundations.",
+        "Resultary semantic query for twice-subdivided tree Cartesian products and monophonic position; assigned finding was the exact hit.",
+        "Package obstruction verifier: 13 base trees, 169 ordered pairs, 1872 oriented local obstructions."
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Theorem 3.18 stops after converting the projection geometry into a maximum-degree bound.",
+          "The new argument uses the length-three subdivision arms in both factors to build an induced path through an arbitrary triple."
+        ],
+        "reasoning": "The exact collapse is not a mechanical numerical specialization of the source bound; it requires a new structural obstruction exploiting subdivision depth.",
+        "searches": [
+          "Primary pairwise-distance-two structure versus explicit 19-vertex obstruction"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The assigned record is the exact Resultary hit.",
+          "Theorem 3.18 gives only \\(\\operatorname{mp}(G\\square H)\\le\\max\\{2,\\sigma(G)\\Delta(H),\\sigma(H)\\Delta(G)\\}\\) for triangle-free factors."
+        ],
+        "reasoning": "The audited theorem is an exact collapse family extracted by combining the source structure with a new induced-path obstruction, not a renamed source bound.",
+        "searches": [
+          "Resultary query: monophonic position Cartesian product twice subdivided trees exact two induced path",
+          "Chandran--Klavžar--Neethu--Tuite Theorem 3.18"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No prior parameter table/classification for subdivided-tree products was located.",
+          "The finite census validates the explicit obstruction only."
+        ],
+        "reasoning": "There is no known table whose recomputation would make the result routine; the theorem is an infinite structural family.",
+        "searches": [
+          "Resultary exact-topic search",
+          "Bounded obstruction census in the package"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality passes. The very recent primary product paper supplies the layered/pairwise-distance-two structure and a maximum-degree upper bound, but it does not state the twice-subdivision collapse theorem; indeed its star-by-star example shows the same upper bound can be tight. No stronger Resultary finding or exact tree-subdivision specialization was located.",
+      "residual_risks": [
+        "The product paper is extremely recent; differently indexed contemporaneous follow-up work remains a residual priority risk.",
+        "The theorem is a sufficient infinite family, not a classification of all tree products with monophonic position two."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Supplies the structural reduction but not the twice-subdivision theorem.",
+          "evidence": "The proof shows the layered-over-a-leaf and pairwise-distance-two projection properties; the stated conclusion remains a maximum-degree upper bound.",
+          "identifier_or_url": "https://doi.org/10.1007/s40314-026-03901-3",
+          "material_read": "Open full text of the Cartesian-product section, including Theorems 3.16 and 3.18 and the complete proof of Theorem 3.18",
+          "method": "Primary full-text inspection",
+          "title": "Monophonic position sets of Cartesian and lexicographic products of graphs",
+          "trigger": "Immediate primary source for the Cartesian-product structure used in the proof"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Chandran, Klavžar, Neethu and Tuite, Computational and Applied Mathematics 46, article 44 (2027), published online 11 September 2026; open full text, Theorems 3.16 and 3.18 inspected.",
+        "Thomas, Chandran, Tuite and Di Stefano, Discrete Applied Mathematics 354 (2024); monophonic-position foundations.",
+        "Resultary semantic query for twice-subdivided tree Cartesian products and monophonic position; assigned finding was the exact hit.",
+        "Package obstruction verifier: 13 base trees, 169 ordered pairs, 1872 oriented local obstructions."
+      ],
+      "rationale": "The result gives a broad exact family parameterized by arbitrary tree pairs and demonstrates arbitrarily large slack in the current triangle-free maximum-degree bound despite both factors having leaves. The subdivision obstruction is a natural structural phenomenon likely useful in sharpening product bounds, not an arbitrary finite slice.",
+      "residual_risks": [
+        "The product paper is extremely recent; differently indexed contemporaneous follow-up work remains a residual priority risk.",
+        "The theorem is a sufficient infinite family, not a classification of all tree products with monophonic position two."
+      ],
+      "status": "PASS"
+    }
   },
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "limitations": [
-    "No classification of all tree pairs with monophonic position number two is claimed.",
-    "Exact twice-subdivision is a sufficient construction, not claimed necessary.",
-    "Finite verification is corroborative and not part of the proof.",
-    "Originality is to the best of our knowledge and retains residual risk from differently indexed recent work."
+  "disposition": "passed",
+  "evidence": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
   ],
-  "originality": {
-    "scope": "to the best of our knowledge",
-    "status": "PASS",
-    "summary": "The accessible primary Cartesian-product article and targeted searches under monophonic/induced-path position, tree, subdivision, 2-subdivision, spider, and product terminology did not locate this twice-subdivision theorem or an equivalent stronger statement. Residual risk remains from differently indexed or not-yet-indexed follow-up work."
-  },
-  "phase": "II",
-  "previously_published_pending_reaudit": true,
+  "final_claim": "For any two nontrivial finite trees \\(T_1,T_2\\), the Cartesian product of their twice-subdivisions has monophonic position number exactly two; likewise \\(P_m\\square S_2(T)\\) has value two for \\(m\\ge4\\).",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "The theorem is a sufficient family, not a classification. The Cartesian-product source is very recent, so differently indexed contemporaneous follow-up remains a residual originality risk."
+  ],
+  "previously_published_pending_reaudit": false,
   "record_id": "SCOPE-20260921-c9f8957aa251",
-  "review_statement": "Same-model review: passed. Independent audit: not yet performed.",
-  "review_type": "same_model_review",
-  "same_model_review_status": "passed",
-  "scope_run_id": "cd3ee49a-4912-419e-8b30-d49f333573e3",
-  "value": {
-    "status": "PASS",
-    "summary": "The theorem gives a broad exact family parameterized by arbitrary pairs of trees and shows that the existing triangle-free maximum-degree upper bound can have unbounded slack even when both factors are trees with leaves."
+  "review_type": "independent_audit",
+  "same_model_review": {
+    "scientific_evidence": {
+      "correctness": "Original review accepted the layered reduction and explicit induced-path obstruction.",
+      "originality": "Original review found no twice-subdivision specialization in the then-checked recent product literature.",
+      "value": "Original review valued the exact infinite family and unbounded slack phenomenon."
+    },
+    "status": "passed"
   },
-  "verification_state": "awaiting_fresh_independent_audit"
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

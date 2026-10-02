@@ -1,27 +1,147 @@
 {
+  "audited_at_utc": "2026-10-01T16:47:35Z",
   "axes": {
     "correctness": {
-      "rationale": "The spectral-subspace proof is dimensionally exact: the common kernel of the first m-1 leakage maps is nonzero under d>=m(k-1)+1, the final leakage then vanishes because their sum is zero, and the positive compressions yield the quadratic estimate needed for the 1/sqrt(m) bound. The explicit 3x3 matrices were checked through their 2x2 positive square-root formulas and Cauchy interlacing, and the direct-sum filler spectra give the stated sharpness dimensions.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "J.-C. Bourin, E.-Y. Lee, Triangle inequalities for the operator symmetric modulus, arXiv:2602.19607 (2026)",
+        "T. Zhang, Operator symmetric moduli and sharp triangle inequalities, arXiv:2603.01046 (2026)",
+        "M. A. Aouichaoui, E.-Y. Lee, Solutions to some open problems in matrix analysis, arXiv:2609.20094 (2026)",
+        "Resultary record SCOPE-polar-wandering-symmetric-modulus-von-neumann--66cc75173a62",
+        "Independent numerical replay of the explicit \\(3\\times3\\) sharp family"
+      ],
+      "rationale": "The dimension-leakage proof is correct. The low spectral subspace \\(E\\) has dimension \\(d-k+1\\); intersecting the kernels of the first \\(m-1\\) leakage maps loses at most \\((m-1)(k-1)\\) dimensions, so the hypothesis leaves a nonzero vector. The sum of leakage maps is zero because \\(E\\) is a spectral subspace of \\(Q\\), forcing the last leakage to vanish too. Positive compressions satisfy \\(0\\le C_j\\le cI\\), hence \\(C_j^2\\le cC_j\\), which gives \\(\\sum_j\\|X_jx\\|^2\\le c^2\\); expansivity and Cauchy--Schwarz give \\(1\\le mc^2\\). For the explicit sharp family I independently formed \\(|A_t|+|B_t|\\): its middle eigenvalue was 0.91268 at \\(t=1\\), 0.74072 at \\(t=10\\), 0.71062 at \\(t=100\\), and 0.707460 at \\(t=1000\\), converging to \\(1/\\sqrt2\\) as claimed. The direct-sum counting then gives the stated sharp odd and even dimensions.",
+      "residual_risks": [
+        "The general \\(m^{-1/2}\\) lower bound is only claimed under \\(d\\ge m(k-1)+1\\), and sharpness is not claimed for every triple."
+      ],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Bourin-Lee pose the ordinary-modulus median problem, Zhang gives a two-summand 3x3 example below 1, and Aouichaoui-Lee give a symmetric-modulus lower bound plus a three-summand ordinary-modulus counterexample. None of the inspected statements gives the two-summand 1/sqrt(2) lower bound or the general dimension-leakage theorem. Equivalent-formulation searches and the current SCOPE archive found no overlap. Classical spectral, rank-nullity, interlacing and direct-sum ingredients are excluded from the novelty claim.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "The first two sources study symmetric moduli; Aouichaoui--Lee's accessible abstract includes a three-summand ordinary-modulus inequality/counterexample context; the prior SCOPE result explicitly concerns symmetric moduli."
+        ],
+        "reasoning": "Symmetric-modulus bounds involve \\((|X|+|X^*|)/2\\) and do not mechanically control the ordinary sum \\(\\sum|X_j|\\) in the required direction. The three-summand result demonstrates a boundary rather than covering the two-summand theorem.",
+        "searches": [
+          "Bourin--Lee arXiv:2602.19607",
+          "Zhang arXiv:2603.01046",
+          "Aouichaoui--Lee arXiv:2609.20094",
+          "SCOPE-polar-wandering-symmetric-modulus-von-neumann--66cc75173a62"
+        ]
+      },
+      "checked_sources": [
+        "J.-C. Bourin, E.-Y. Lee, Triangle inequalities for the operator symmetric modulus, arXiv:2602.19607 (2026)",
+        "T. Zhang, Operator symmetric moduli and sharp triangle inequalities, arXiv:2603.01046 (2026)",
+        "M. A. Aouichaoui, E.-Y. Lee, Solutions to some open problems in matrix analysis, arXiv:2609.20094 (2026)",
+        "Resultary record SCOPE-polar-wandering-symmetric-modulus-von-neumann--66cc75173a62",
+        "Independent numerical replay of the explicit \\(3\\times3\\) sharp family"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The prior literature motivates middle-eigenvalue questions and supplies the contrasting three-summand behavior, but an additional common-kernel argument is needed to obtain the audited two-summand bound."
+        ],
+        "reasoning": "No inspected stronger theorem was found from which the final claim follows as a special case.",
+        "searches": [
+          "Bourin--Lee problem context",
+          "Aouichaoui--Lee three-summand ordinary-modulus result",
+          "Assigned dimension-leakage proof"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The assigned record was the only exact ordinary-modulus median hit. The strongest nearby SCOPE record concerns the symmetric modulus in von Neumann algebras."
+        ],
+        "reasoning": "The relevant aliases are middle eigenvalue/singular-value lower bounds for sums of ordinary moduli under an expansive total sum and leakage/rank-nullity formulations.",
+        "searches": [
+          "Resultary query: expansive ordinary modulus median eigenvalue two summands 1/sqrt(2)",
+          "Resultary query: ordinary operator modulus expansive sum eigenvalue median two matrices"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No prior exact table/formula for the two-summand ordinary-modulus median constant was located."
+        ],
+        "reasoning": "The sharpness statement is constructive and structural; search absence is only best-of-knowledge evidence.",
+        "searches": [
+          "Resultary exact ordinary-modulus searches",
+          "Targeted web searches for the Bourin--Lee/Zhang/Aouichaoui--Lee papers and the constant \\(1/\\sqrt2\\)"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality passes for the ordinary-modulus dimension-leakage theorem and sharp two-summand median consequence. The inspected primary abstracts concern symmetric moduli and three-summand ordinary-modulus counterexamples; Resultary's earlier polar-wandering theorem is also for symmetric moduli. Those statements do not imply a \\(1/\\sqrt2\\) lower bound for \\(|A|+|B|\\). No stronger ordinary-modulus result with the same dimension threshold was located.",
+      "residual_risks": [
+        "Older matrix-inequality literature may contain a differently phrased ordinary-modulus singular-value consequence; no such implication was located in the searches performed.",
+        "The exact two-summand median constant in dimension four remains open, as the record states."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Neighboring but not covering; its principal object is the symmetric modulus.",
+          "evidence": "The paper studies \\((|Z|+|Z^*|)/2\\) and broader symmetric-modulus triangle inequalities.",
+          "identifier_or_url": "https://arxiv.org/abs/2602.19607",
+          "material_read": "Primary abstract plus publicly available article summary/full-text excerpt",
+          "method": "Primary/authorized public-text inspection",
+          "title": "Triangle inequalities for the operator symmetric modulus",
+          "trigger": "Motivating median-eigenvalue questions and neighboring symmetric-modulus inequalities"
+        },
+        {
+          "assessment": "Provides the contrasting three-summand context, not the audited two-summand median theorem.",
+          "evidence": "The abstract states a sharp three-contraction inequality and an eigenvalue inequality involving the symmetric modulus.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.20094",
+          "material_read": "Primary abstract and bibliographic record",
+          "method": "Primary-source abstract inspection",
+          "title": "Solutions to some open problems in matrix analysis",
+          "trigger": "Recent solution paper containing three-summand ordinary-modulus phenomena"
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result supplies a sharp positive barrier for two-summand ordinary moduli in the principal median dimensions while explaining why the three-summand 3x3 obstruction can evade any positive bound. The general d,m,k criterion gives a reusable structural boundary and the explicit families establish sharpness in M_3, M_6, every odd median dimension at least 3, and every even median dimension at least 6.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "J.-C. Bourin, E.-Y. Lee, Triangle inequalities for the operator symmetric modulus, arXiv:2602.19607 (2026)",
+        "T. Zhang, Operator symmetric moduli and sharp triangle inequalities, arXiv:2603.01046 (2026)",
+        "M. A. Aouichaoui, E.-Y. Lee, Solutions to some open problems in matrix analysis, arXiv:2609.20094 (2026)",
+        "Resultary record SCOPE-polar-wandering-symmetric-modulus-von-neumann--66cc75173a62",
+        "Independent numerical replay of the explicit \\(3\\times3\\) sharp family"
+      ],
+      "rationale": "The theorem gives a sharp positive barrier in the two-summand case of a recent matrix-analysis question and explains, through an exact dimension threshold, why the corresponding three-summand critical example can collapse. The general leakage lemma and sharp families are reusable structural information, not merely a numerical improvement.",
+      "residual_risks": [
+        "Older matrix-inequality literature may contain a differently phrased ordinary-modulus singular-value consequence; no such implication was located in the searches performed.",
+        "The exact two-summand median constant in dimension four remains open, as the record states."
+      ],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, formal verification, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-19T14:38:58Z",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disposition": "passed",
+  "evidence": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "final_claim": "If \\(|\\sum_{j=1}^m X_j|\\ge I_d\\) and \\(d\\ge m(k-1)+1\\), then \\(\\lambda_k(\\sum_j|X_j|)\\ge m^{-1/2}\\); for two summands this gives the sharp \\(1/\\sqrt2\\) median barrier in the stated odd and even dimensions.",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "Originality is best-of-knowledge. The general \\(m^{-1/2}\\) bound is not claimed sharp for every admissible triple; the exact two-summand median constant in dimension four is not determined; no infinite-dimensional analogue is claimed."
+  ],
+  "previously_published_pending_reaudit": false,
+  "record_id": "SCOPE-20260919-7e7587cf813c",
+  "review_type": "independent_audit",
+  "same_model_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "The original review accepted the common-kernel leakage proof and sharp block families.",
+        "status": "PASS"
+      },
+      "originality": {
+        "rationale": "The original review distinguished the result from neighboring symmetric-modulus and three-summand literature.",
+        "status": "PASS"
+      },
+      "value": {
+        "rationale": "The original review valued the sharp two-summand barrier and general dimension threshold.",
+        "status": "PASS"
+      }
+    },
+    "reviewed_at": "2026-09-19T14:38:58Z",
+    "status": "passed"
+  },
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

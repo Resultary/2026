@@ -1,0 +1,128 @@
+{
+  "audited_at_utc": "2026-10-01T05:01:22Z",
+  "axes": {
+    "correctness": {
+      "rationale": "The eight-stage insertion proof was checked directly against the universal new-color quantifier. The switching lemma is valid because the old clique edge can be chosen with color different from the current new edge and the two switched cycles cannot both be spoiled by the same old/new collision under separate injectivity. Each later stage uses only edges inserted earlier. The construction ends at the complete graph and has exactly binomial(q,2)+6t initial edges. The inspected finite checker independently encodes the exact old/new collision predicate for representative small parameters, but the infinite theorem rests on the symbolic proof rather than those experiments.",
+      "residual_risks": [
+        "The finite checker is supplementary and does not itself prove the infinite family; the symbolic witness argument is the theorem-grade evidence."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The general bound of Bo–Lian–Liu specializes only to 4/3 for C₄; Li–Ma–Xie establishes existence/general bounds but not 6/5."
+        ],
+        "reasoning": "No broader inspected theorem dominates the 6/5 upper bound.",
+        "searches": [
+          "arXiv:2609.03823 Bo–Lian–Liu",
+          "arXiv:2401.11525 Li–Ma–Xie"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.03823",
+        "https://arxiv.org/abs/2401.11525",
+        "https://github.com/Resultary/2026/tree/main/2026/9/17/SCOPE001"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The prior coefficient is strictly larger and therefore does not imply the audited upper bound."
+        ],
+        "reasoning": "The improvement requires a different gadget-coupling argument.",
+        "searches": [
+          "Compare six-cycle proof with Bo–Lian–Liu cycle coefficient 4/3"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The exact search returns the audited record as the direct match.",
+          "Bo–Lian–Liu's abstract states the general cycle coefficient ell/(ell-1), which is 4/3 for ell=4."
+        ],
+        "reasoning": "Equivalent notation such as weak saturation with respect to rainbow copies does not produce another 6/5 statement in the inspected sources.",
+        "searches": [
+          "Resultary semantic search: weak rainbow saturation C4 six-cycle construction asymptotic coefficient 6/5",
+          "Web search for rwsat C4 coefficient 1.2 and 6/5"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No exact table/database is relevant; no independent exact 6/5 record was found."
+        ],
+        "reasoning": "The claim is an infinite constructive theorem rather than a finite database entry.",
+        "searches": [
+          "Published-results search for weak rainbow C4, K2,2, 6/5, 1.2"
+        ]
+      },
+      "rationale": "The nearest cycle result of Bo, Lian and Liu gives leading coefficient 4/3 for C₄ via its general cycle construction. The audited six-cycle coupling yields 6/5 and is not a parameter substitution into that bound. Current published-results search found no other 6/5 C₄ construction.",
+      "residual_risks": [
+        "The closest arXiv full text could not be fetched through the current web endpoint; comparison relies on the primary abstract plus the audited package's explicit construction and citations.",
+        "A later or unindexed contemporaneous improvement could exist."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING 6/5",
+          "evidence": "The abstract states coefficient ell/(ell-1), hence 4/3 for C₄.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.03823",
+          "material_read": "ArXiv abstract and theorem summary available through current retrieval; full HTML endpoint was unavailable in this run",
+          "method": "primary-source abstract inspection plus failed full-text endpoint",
+          "title": "Weak rainbow saturation numbers of paths, stars and cycles",
+          "trigger": "Closest prior C₄ upper bound"
+        },
+        {
+          "assessment": "NOT_COVERING 6/5",
+          "evidence": "General framework does not state the audited construction.",
+          "identifier_or_url": "https://arxiv.org/abs/2401.11525v1",
+          "material_read": "Bibliographic record and theorem descriptions; full text was not retrievable through the current web endpoint",
+          "method": "primary-source metadata/abstract comparison",
+          "title": "Weak Rainbow Saturation Numbers of Graphs",
+          "trigger": "Definition and general existence/bounds"
+        },
+        {
+          "assessment": "SELF_MATCH",
+          "evidence": "Exact same theorem.",
+          "identifier_or_url": "https://github.com/Resultary/2026/tree/main/2026/9/17/SCOPE001",
+          "material_read": "Title and summary",
+          "method": "semantic published-results search",
+          "title": "A six-cycle construction for weak rainbow saturation of C4",
+          "trigger": "Exact published-results hit"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "rationale": "Reducing the asymptotic upper coefficient for a natural weak-rainbow-saturation problem from 4/3 to 6/5 is a substantive quantitative advance and narrows the known asymptotic interval. The construction is uniform for all n at least 20, not a tiny-instance computation.",
+      "residual_risks": [
+        "The optimal coefficient remains undetermined."
+      ],
+      "status": "PASS"
+    }
+  },
+  "checked_sources": [
+    "https://arxiv.org/abs/2609.03823",
+    "https://arxiv.org/abs/2401.11525",
+    "https://github.com/Resultary/2026/tree/main/2026/9/17/SCOPE001"
+  ],
+  "disclaimer": "Independent scientific audit under the record audit protocol; not peer review or external certification.",
+  "disposition": "passed",
+  "final_claim": "For every q at least 5 and t at least 3, a rainbow K_q with t otherwise vertex-disjoint six-cycles sharing one clique vertex is weakly C₄-rainbow saturated; consequently rwsat(n,C₄) is at most 6n/5 plus 126/5 for every n at least 20.",
+  "independent": true,
+  "record_id": "SCOPE-20260917-001",
+  "residual_risks": {
+    "correctness": [
+      "The finite checker is supplementary and does not itself prove the infinite family; the symbolic witness argument is the theorem-grade evidence."
+    ],
+    "originality": [
+      "The closest arXiv full text could not be fetched through the current web endpoint; comparison relies on the primary abstract plus the audited package's explicit construction and citations.",
+      "A later or unindexed contemporaneous improvement could exist."
+    ],
+    "value": [
+      "The optimal coefficient remains undetermined."
+    ]
+  },
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "scientific_limitations": [
+    "The construction is an upper bound and does not determine the optimal coefficient.",
+    "Finite checker results are supplementary to the symbolic proof."
+  ]
+}

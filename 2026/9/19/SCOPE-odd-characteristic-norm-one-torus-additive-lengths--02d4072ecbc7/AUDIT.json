@@ -1,27 +1,131 @@
 {
+  "audited_at_utc": "2026-10-01T14:43:49Z",
   "axes": {
     "correctness": {
-      "rationale": "The two-sum criterion follows from the exact quadratic X^2-SX+S/bar(S), whose normalized discriminant is 1-4/N(S); conjugation distinguishes nonsquare, zero, and nonzero-square cases. Counting admissible norm fibers gives |T+T|, and a two-to-one norm map from T forces a two-summable remainder for every nonzero target, while zero is a three-sum exactly when chi(-3) is not 1. The exact length counts follow by norm-fiber counting.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "assigned RESULT.md at the frozen tree",
+        "artifacts/verify_torus_sums.py and verification.txt",
+        "Shi--Li--Xia--Helleseth--Ozbudak, arXiv:2609.20402"
+      ],
+      "rationale": "The two-sum criterion was reconstructed from the quadratic \\(X^2-SX+S/\\bar S\\): its normalized discriminant is \\(1-4/N(S)\\), and Frobenius conjugation gives exactly the zero-or-nonsquare condition. Norm fibers then give the two-sum cardinality. For three summands, the map \\(\\beta\\mapsto N(S-\\beta)\\) from \\(T\\) has fibers of size at most two, so its image of size at least \\((q+1)/2\\) must meet the equally large admissible norm set; zero is a three-sum exactly when \\(\\chi(-3)\ne1\\). The inspected verifier exhaustively checks the displayed formulas on many prime fields and on \\(q=9,25,49\\); these finite checks corroborate but do not replace the proof.",
+      "residual_risks": [
+        "The final congruence reformulation uses the standard quadratic-character identity for \\(-3\\), including characteristic three; no gap was found."
+      ],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "The closest inspected 2026 source proves the q=3^m case and explicitly names norm-one tori in other odd characteristics as a natural direction. Targeted searches and inspection of related generalized Zetterberg covering-radius work found no equivalent all-odd-q unweighted torus classification. Originality remains to the best of our knowledge, with material folklore and near-simultaneous risk.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "Known covering-radius-three results are broader in coding parameters but do not give the exact unweighted length partition or two-sum cardinality for this torus."
+        ],
+        "reasoning": "Those results do not mechanically imply the claimed norm-only classification because their allowed coefficients and syndrome model differ.",
+        "searches": [
+          "generalized Zetterberg covering radius odd characteristic",
+          "norm-one subgroup additive basis finite field"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.20402",
+        "https://doi.org/10.1109/TIT.2023.3296754",
+        "https://doi.org/10.1109/TIT.2025.3544025",
+        "published-results semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The characteristic-three proof uses \\(4=1\\) and a special signed-column relation; outside characteristic three the repeated-root norm \\(4\\) and the \\(\\chi(-3)\\) obstruction genuinely change the statement."
+        ],
+        "reasoning": "The checked prior theorems do not imply the final all-odd-\\(q\\) formula without new algebraic analysis.",
+        "searches": [
+          "characteristic-three theorem versus odd-characteristic proof",
+          "covering-radius-three implications"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The primary abstract states \\(q=3^m\\) and an exact additive-length theorem in that characteristic.",
+          "The 2023/2025 Zetterberg results concern covering radii of related codes with coefficient structure, not the exact unweighted torus sumsets used here."
+        ],
+        "reasoning": "Aliases through quadratic finite-field norm-one subgroups and Zetterberg-code covering radius were included; no statement-level equivalent all-odd-characteristic theorem was located.",
+        "searches": [
+          "arXiv:2609.20402 norm-one torus additive length",
+          "generalized Zetterberg odd characteristic covering radius",
+          "published-results semantic search for norm-one torus sums"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No table or database containing the all-\\(q\\) formula was located."
+        ],
+        "reasoning": "This is an infinite symbolic theorem; a finite table is not decisive beyond sanity checking.",
+        "searches": [
+          "published-result corpus for exact torus length distributions",
+          "finite-field sumset tables"
+        ]
+      },
+      "rationale": "The 2026 primary source explicitly treats \\(q=3^m\\). Searches covering norm-one torus sums, generalized Zetterberg covering radii, and equivalent additive-length language found no earlier all-odd-\\(q\\) unweighted classification with the discriminant \\(1-4/N(S)\\), the exact two-sum size, and the \\(q\\bmod3\\) three-sum endpoint.",
+      "residual_risks": [
+        "The full 2026 motivating preprint was not available for complete-text inspection.",
+        "A short finite-field argument of this kind may exist under older additive-combinatorics terminology that was not indexed by the searches."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Covers \\(q=3^m\\), not the all-odd-characteristic theorem.",
+          "evidence": "The abstract explicitly fixes \\(q=3^m\\) and identifies minimum additive length with the decoding quantity.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.20402",
+          "material_read": "Primary abstract and theorem summary; complete article text was not available through the accessible route.",
+          "method": "Direct primary-source lookup.",
+          "title": "Norm-One Torus Decompositions and Decoding of Gashkov-Sidel'nikov Codes",
+          "trigger": "Same torus and additive-length problem."
+        },
+        {
+          "assessment": "Related covering-radius theorem, but no exact unweighted norm-one-torus length distribution located.",
+          "evidence": "The result determines generalized Zetterberg covering radii rather than the torus sumsets in the audited statement.",
+          "identifier_or_url": "https://doi.org/10.1109/TIT.2025.3544025",
+          "material_read": "Abstract and indexed theorem description.",
+          "method": "Primary literature comparison.",
+          "title": "Determining the Covering Radius of All Generalized Zetterberg Codes in Odd Characteristic",
+          "trigger": "Strongest obvious odd-characteristic coding coverage."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result closes the stated odd-characteristic extension with exact additive lengths, a universal two-fold sumset size, a sharp q mod 3 obstruction for exact three-fold coverage, and the complete length distribution. It isolates precisely which characteristic-three simplifications survive and which fail.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "Shi et al. 2026 characteristic-three problem",
+        "generalized Zetterberg covering-radius literature"
+      ],
+      "rationale": "The theorem gives a complete exact additive invariant of a natural algebraic subgroup, resolves the explicitly motivated odd-characteristic extension, and exposes a genuine \\(q\\bmod3\\) boundary absent in characteristic three. Exact length distributions and sumset sizes are reusable in both finite-field additive geometry and coding interpretations.",
+      "residual_risks": [
+        "The result is structural and exact but does not by itself supply efficient decoding for every related code family."
+      ],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Same-model review: passed. Independent audit: not yet performed.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-19",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disclaimer": "This evidence-based scientific assessment is not peer review, formal verification, or a guarantee of first discovery.",
+  "historical_review_evidence": {
+    "correctness": {
+      "rationale": "The earlier scientific review recorded a passing correctness assessment for the original claim.",
+      "status": "PASS"
+    },
+    "originality": {
+      "rationale": "The earlier scientific review recorded a best-of-knowledge originality assessment before this independent reassessment.",
+      "status": "PASS"
+    },
+    "value": {
+      "rationale": "The earlier scientific review recorded a passing value assessment for the original claim.",
+      "status": "PASS"
+    }
+  },
+  "independent": true,
+  "independent_audit": {
+    "evidence": [
+      "INDEPENDENT_AUDIT_2026-10-01.md",
+      "INDEPENDENT_AUDIT_2026-10-01.json"
+    ]
+  },
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "previously_published_pending_reaudit": false,
+  "review_type": "independent_audit",
+  "verification_state": "independently_reviewed"
 }

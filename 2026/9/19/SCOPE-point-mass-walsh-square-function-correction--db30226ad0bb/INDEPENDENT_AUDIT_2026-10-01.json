@@ -1,0 +1,91 @@
+{
+  "audited_at_utc": "2026-10-01T14:49:05Z",
+  "axes": {
+    "correctness": {
+      "rationale": "PASS. The singleton identity was reconstructed directly from the Walsh difference definition. Writing the singleton indicator as the product of the coordinate factors shows that a distinct-index derivative survives exactly when every negative coordinate lies in the chosen index set, with magnitude \\(2^{-k}\\). Counting the surviving index sets at Hamming radius \\(r\\) gives the exact pointwise formula and, after shell counting, the exact \\(L_p\\) norm identity. Maximizing the exponent \\(r+(k-r)p/2\\) gives the three fixed-\\(p\\) regimes. Keeping \\(p=2+\\lambda/\\log n\\) in the same finite sum gives the displayed critical crossover. Most importantly, the primary source was read at Section 6.3: its Lemma 6.3 evaluates the same point as \\((-2)^k\\), whereas the direct calculation gives \\((-1)^k2^{-k}\\). The corrected \\(r=k\\) shell still yields growth of order \\(n^{k/p}\\), so the source exponent-sharpness conclusion survives although its normalization does not.",
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The source proves the higher-order estimate and claims exponent optimality, but its witness normalization is wrong and it does not state the exact repaired profile."
+        ],
+        "reasoning": "The source theorem supplies the upper estimate and intended sharp exponent, not the corrected witness computation or critical crossover.",
+        "searches": [
+          "Sharp Fractional Riesz Estimates on the Hypercube higher order exponent optimality",
+          "higher order Walsh square function singleton"
+        ]
+      },
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Pages 21--22 of the primary paper were inspected; its stated point value differs from the direct difference calculation by a large normalization factor."
+        ],
+        "reasoning": "The corrected formula is not mechanically implied by the erroneous prior computation, although the intended exponent follows after a different shell argument.",
+        "searches": [
+          "arXiv:2609.09040 Section 6.3 Lemma 6.3",
+          "published Resultary Walsh square function correction"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The exact published-record search returned the audited finding itself; the primary source Section 6.3 was read and contains only the incorrect point evaluation and its lower-bound consequence."
+        ],
+        "reasoning": "The shell-count formula, the fixed-exponent asymptotics, and the critical-window limit are equivalent ways of packaging the same singleton profile; none appears in the inspected prior source.",
+        "searches": [
+          "Walsh hypercube point mass distinct-index square function exact norm critical window",
+          "Lemma 6.3 Sharp Fractional Riesz Estimates on the Hypercube singleton"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No numerical database is relevant; theorem-level record search found no earlier exact profile."
+        ],
+        "reasoning": "This is an analytic identity rather than a tabulated invariant.",
+        "searches": [
+          "Resultary semantic search for exact singleton Walsh square function"
+        ]
+      },
+      "rationale": "PASS to the best of current knowledge. The exact Resultary search for the singleton Walsh-square-function profile and critical crossover returned this record as the only matching published finding. The primary Jiao--Luo--Zanin--Zhou paper was read in full at the relevant Section 6.3 and contains the erroneous normalization but not the corrected binomial profile or the \\(1/\\log n\\) crossover. Broader searches for higher-order Walsh/Riesz sharpness located the source theorem and general hypercube literature but no earlier statement of this exact correction. The formula is elementary enough that unindexed prior folklore remains a residual risk, but no inspected source implies the complete exact profile or critical-window limit.",
+      "status": "PASS"
+    },
+    "value": {
+      "rationale": "PASS. This is not merely a recomputation of a known constant: it corrects a numerical error in the published sharpness witness while proving that the intended exponent remains valid, and it replaces the flawed point estimate by an exact all-shell formula. The resulting phase transition at \\(p=2\\) and the explicit \\(1/\\log n\\) crossover are natural quantitative information about the standard sharpness example.",
+      "status": "PASS"
+    }
+  },
+  "checked_sources": [
+    "Complete frozen Git package and verifier source; current package blobs matched the frozen tree.",
+    "Independent Walsh-difference, shell-count, fixed-exponent, and critical-window calculations.",
+    "Primary full text of the source's Section 6.3.",
+    "Published-record and web literature searches."
+  ],
+  "disposition": "passed",
+  "limitations": "The exact profile concerns the singleton sharpness example for the distinct-index square function. It does not by itself determine optimal constants in the full higher-order Riesz inequality.",
+  "record_id": "SCOPE-20260919-db30226ad0bb",
+  "record_title": "Exact point-mass Walsh square functions and a correction to higher-order exponent sharpness",
+  "residual_risks": [
+    "The exact singleton identity is elementary, so older unindexed Walsh-analysis folklore could contain it even though no such source was located.",
+    "The audit does not re-prove the source paper's full higher-order upper theorem; it verifies the repaired sharpness witness and the resulting exponent obstruction."
+  ],
+  "schema_version": 1,
+  "source_inspections": [
+    {
+      "assessment": "PRIMARY_SOURCE_WITH_CONFIRMED_NORMALIZATION_ERROR",
+      "evidence": "Lemma 6.3 explicitly computes the singleton derivative at the \\(k\\)-negative point as \\((-2)^k\\); the independent Walsh-difference calculation gives \\((-1)^k2^{-k}\\).",
+      "identifier_or_url": "https://arxiv.org/abs/2609.09040",
+      "material_read": "Complete relevant primary full text, especially pages 21--22 containing Section 6.3, Lemma 6.3, and Lemma 6.4.",
+      "method": "Authorized full-text retrieval after ordinary access attempts failed.",
+      "title": "Sharp Fractional Riesz Estimates on the Hypercube",
+      "trigger": "Exact source of the higher-order sharpness witness."
+    },
+    {
+      "assessment": "NO_EARLIER_EXACT_COVERAGE_FOUND",
+      "evidence": "The audited record was the exact top match; no earlier result in the inspected set stated the same profile or crossover.",
+      "identifier_or_url": "Resultary semantic search",
+      "material_read": "Ranked semantic results for exact singleton, higher-order Walsh square functions, and critical crossover.",
+      "method": "Semantic published-record search.",
+      "title": "Published mathematical record search for the exact singleton profile",
+      "trigger": "Check aliases and earlier exact coverage."
+    }
+  ]
+}

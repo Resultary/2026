@@ -1,0 +1,101 @@
+{
+  "audited_at_utc": "2026-09-30T21:44:25Z",
+  "axes": {
+    "correctness": {
+      "rationale": "Fresh dynamic programming from the move set {1,8,27,64,125} reproduces the outcome cycle [1,1,0,1,0,1,0] from 263 and SG cycle [2,0,1,0,1,0,1] from 264, the last mismatch witnesses at 262/263, the complete [0,200] SG histogram (71,71,34,19,6), and the six SG=4 positions through 200. Direct checks verify the required 125-consecutive-equality windows; the max-move recurrence then proves the periodic tails.",
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Eppstein develops general algorithms and applies them to subtract-a-square, not this five-move cube set or its numerical eventual period.",
+          "General subtraction-game eventual periodicity/algorithms do not determine this game's least period and preperiod without the finite certificate."
+        ],
+        "reasoning": "The checked broader theory supplies methodology, not the claimed exact invariant.",
+        "searches": [
+          "Eppstein arXiv:1804.06515",
+          "general subtraction-game search",
+          "Resultary subtraction-game records"
+        ]
+      },
+      "checked_sources": [
+        "Eppstein, arXiv:1804.06515",
+        "Resultary published-record search",
+        "targeted web/OEIS searches"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The recurrence proves a periodic tail once a length-max(S) equality window is verified, but prior general results do not specify where that window first occurs for this S."
+        ],
+        "reasoning": "The numeric least-onset and census require the exact computation/certificate supplied here.",
+        "searches": [
+          "Eppstein 2018 subtraction-game algorithms",
+          "standard finite-subtraction recurrence"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Resultary's exact-topic hit is this record; the closest returned published SCOPE item is a census of primitive three-move games with max<=10, a different family."
+        ],
+        "reasoning": "Outcome P-positions, SG zeroes, and cube-difference-free cold positions were searched as equivalent descriptions of the same game.",
+        "searches": [
+          "Resultary semantic search for subtract-a-cube Sprague Grundy period 7 263 264",
+          "targeted web search for subtract-a-cube Sprague-Grundy"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No independent checked table with period 7 from 263/264 or the [0,200] cold census was located."
+        ],
+        "reasoning": "This supports best-of-knowledge originality only; absence of search results is not treated as proof.",
+        "searches": [
+          "Targeted web/OEIS searches for subtract a cube Grundy and losing positions",
+          "Resultary exact-topic search"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality passes after statement-level comparison; no checked source covers or mechanically implies the full final claim.",
+      "residual_risks": [
+        "Best-of-knowledge originality may miss an unindexed recreational-game table.",
+        "The claim concerns the fixed move set relevant through heap 200, not the infinite set of all cubes as heap size grows."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "General algorithmic background with an explicit subtract-a-square application; it does not state the subtract-a-cube values audited here.",
+          "evidence": "The abstract describes fast algorithms and experimental square-subtraction results.",
+          "identifier_or_url": "arXiv:1804.06515",
+          "material_read": "Abstract and application description",
+          "method": "Primary-source inspection",
+          "title": "Faster Evaluation of Subtraction Games",
+          "trigger": "Primary general subtraction-game source cited by the record"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Eppstein, arXiv:1804.06515",
+        "Resultary published-record search",
+        "targeted web/OEIS searches"
+      ],
+      "rationale": "Perfect-cube subtraction is a canonical analogue of the well-studied subtract-a-square game. Its exact least periodic tail, cold census, and maximal nimbers are natural invariants that a future study of polynomial subtraction sets can use as a benchmark.",
+      "residual_risks": [
+        "Best-of-knowledge originality may miss an unindexed recreational-game table.",
+        "The claim concerns the fixed move set relevant through heap 200, not the infinite set of all cubes as heap size grows."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "final_claim": "Subtract-a-cube Sprague–Grundy and outcome periodicity",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "The fixed set is exactly the cube moves applicable through heap 200; larger heaps would introduce additional cube moves if the game were redefined with all cubes.",
+    "Literature coverage is targeted rather than exhaustive."
+  ],
+  "record_id": "SCOPE-20260908-030",
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
+}

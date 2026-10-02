@@ -1,27 +1,114 @@
 {
+  "audited_at_utc": "2026-10-01T10:00:52Z",
   "axes": {
     "correctness": {
-      "rationale": "The exact product fibers of an original unit have coefficient sums 1 at the identity fiber and 0 elsewhere. Tabei's geometric compression preserves each old fiber as a monochromatic class but may merge classes; transporting the original coefficients makes every new fiber a union of zero-sum classes, except the identity fiber which also contains the 1-sum anchored class. Hence the compressed product remains 1. The coordinate compression and radius bound are coefficient-independent, support sizes are preserved by injectivity, and direct finiteness of the sofic Promislow group algebra upgrades the right inverse to a two-sided inverse.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.17559",
+        "https://arxiv.org/abs/math/0305440",
+        "https://arxiv.org/abs/2106.02147"
+      ],
+      "rationale": "In \\(\\alpha\\beta=1\\), the identity product fiber has coefficient sum 1 and every other old fiber has sum 0. Tabei's compression preserves each old fiber as a monochromatic class and may only merge whole old fibers. Keeping the original coefficients therefore preserves every new product coefficient: nonidentity fibers sum zeros and the identity fiber is one plus zeros. The support realization is coefficient-independent and injective. Direct finiteness for the sofic Promislow group algebra upgrades the right inverse to a two-sided inverse. Over a finite field, bounded supports and finitely many coefficients make each fixed-support-size search finite; known positive-characteristic units make the minimum computable.",
+      "residual_risks": [
+        "Tabei's support-realization theorem is used as a published input rather than independently reproved."
+      ],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Qualified to the best of our knowledge. Tabei's Remark 7.3 explicitly identifies the coefficient obstruction over F_p and leaves it untreated. Targeted searches found no prior coefficient-transport extension giving the same total-support-to-radius bound over arbitrary fields or finite-field minimum-support computability. Adjacent work on positive-characteristic units, property (U), arbitrary-field unit criteria, and direct finiteness is acknowledged and excluded from the novelty claim.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "Tabei proves the radius theorem over \\(\\mathbb F_2\\) and explicitly leaves coefficients over other fields untreated; property (U) has a different support-dependent form."
+        ],
+        "reasoning": "Neither broader framework supplies the same total-support-only radius over arbitrary fields.",
+        "searches": [
+          "Tabei Theorem 7.2 and Remark 7.3",
+          "property-(U) literature"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.17559",
+        "https://arxiv.org/abs/math/0305440",
+        "https://arxiv.org/abs/2106.02147",
+        "https://arxiv.org/abs/2303.02823",
+        "published scientific archive semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Direct finiteness and existence do not solve the coefficient obstruction in the compression."
+        ],
+        "reasoning": "The whole-fiber coefficient-sum observation is the missing implication.",
+        "searches": [
+          "comparison with Tabei compression, direct finiteness, and Murray existence"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "No matching arbitrary-field coefficient-transport result was found."
+        ],
+        "reasoning": "Both the field-independent theorem and weighted-fiber lemma were searched.",
+        "searches": [
+          "semantic search for arbitrary-field Promislow localization",
+          "search for coefficient-sum fiber coarsening"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No table mechanically yields the theorem or all-finite-field computability."
+        ],
+        "reasoning": "The result is structural/algorithmic.",
+        "searches": [
+          "search for finite-field minimum-support unit tables"
+        ]
+      },
+      "rationale": "The primary source explicitly isolates but does not solve the coefficient obstruction; coefficient transport through whole-fiber mergers supplies the missing bridge.",
+      "residual_risks": [
+        "An independent coefficient-based extension under other terminology may be unindexed."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "The source explicitly leaves the coefficient-bearing extension untreated while its geometry is coefficient-independent.",
+          "evidence": "Remark 7.3 identifies the coefficient obstruction.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.17559",
+          "material_read": "Relevant full-text Section 7, Theorem 7.2, Remark 7.3, and support-realization discussion.",
+          "method": "Full-text theorem/proof-structure comparison.",
+          "title": "Localizing the Gardam unit: the support geometry of units in F2[P] and its non-unique-product relatives",
+          "trigger": "Primary source for the localization theorem and stated characteristic-two limitation."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result removes an explicit characteristic-two restriction in a recent effective-localization theorem without worsening its bound, and promotes global minimum-support computability from F_2 to every finite field.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.17559"
+      ],
+      "rationale": "The theorem removes an explicit characteristic-two restriction without worsening the effective radius and extends finite-field minimum-support computability to every finite field.",
+      "residual_risks": [],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, formal verification, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-18T01:21:23Z",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disposition": "passed",
+  "historical_review_assessment": {
+    "axes": {
+      "correctness": {
+        "rationale": "Exact product fibers have coefficient sums one at the identity and zero elsewhere. The geometric compression preserves old fibers and only merges them, so transporting coefficients preserves the product; direct finiteness upgrades the right inverse.",
+        "status": "PASS"
+      },
+      "originality": {
+        "rationale": "Tabei explicitly identifies the coefficient obstruction over positive characteristic and leaves it untreated; earlier searches found no field-independent coefficient-transport extension with the same bound.",
+        "status": "PASS"
+      },
+      "value": {
+        "rationale": "The result removes the characteristic-two restriction without worsening the bound and extends minimum-support computability to every finite field.",
+        "status": "PASS"
+      }
+    },
+    "reviewed_at": "2026-09-18T01:21:23Z"
+  },
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "policy": "correctness-originality-scientific-value",
+  "previously_published_pending_reaudit": false,
+  "record_id": "SCOPE-20260918-7ba3ec8aec00",
+  "review_type": "independent_audit",
+  "verification_state": "independently_reviewed"
 }

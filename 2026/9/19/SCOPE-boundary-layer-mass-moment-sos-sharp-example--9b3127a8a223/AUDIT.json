@@ -1,30 +1,130 @@
 {
+  "audited_at_utc": "2026-10-01T12:12:53.903497Z",
   "axes": {
     "correctness": {
-      "rationale": "Exact logarithmic-derivative identities normalize the source weights; scaled Chebyshev root equations give the exterior/interior limits; an entire-product trace identity closes the limiting probability mass and first moment, with high-precision finite-r verification.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "RESULT.md",
+        "artifacts/verify_boundary_layer.py",
+        "artifacts/verification_output.txt",
+        "https://arxiv.org/abs/2609.20544"
+      ],
+      "rationale": "The source certificate is reconstructed from the roots of the Chebyshev combination and its positive weights. The logarithmic-derivative identities give exact normalization and the exact objective moment. Under the boundary scaling, the exterior root converges to the unique positive solution of \\(a\\tanh a=1\\), while fixed interior roots converge to the positive solutions of \\(z\\tan z=-1\\). The even entire characteristic function has one imaginary pair and the positive real pairs; its genus-zero product gives the two trace identities needed to show that the limiting masses sum to one and have the asserted first moment. Independent numerical reconstruction at moderate orders reproduces unit mass, the exact objective, and convergence of the exterior mass to approximately \\(0.9655400431\\).",
+      "residual_risks": [
+        "The result concerns one explicit optimal certificate and does not prove uniqueness of the SDP optimizer."
+      ],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "The source paper supplies the sharp example and atomic certificate, while related literature supplies pseudo-moment and special-polynomial context. No prior source-specific result was located for the persistent exterior mass, full r^2 boundary-layer law, and trace-identity explanation of the sharp gap.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "The primary paper proves the general univariate rate and the exact degree-four gap, and constructs the positive atomic dual certificate.",
+          "Those results stop at feasibility and exact gap; they do not give the rescaled limiting measure."
+        ],
+        "reasoning": "The broader moment-SOS results do not dominate the audited asymptotic certificate theorem.",
+        "searches": [
+          "Henrion and Safey El Din, arXiv:2609.20544.",
+          "Related exact Stengle certificate and pseudo-moment literature listed by the record."
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.20544",
+        "https://arxiv.org/abs/2512.19141",
+        "https://arxiv.org/abs/2509.01382",
+        "semantic research-index search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The source gives the root equation and weights, but obtaining the nonvanishing exterior mass and all limiting masses requires a new scaled root analysis and the product trace identities."
+        ],
+        "reasoning": "The final boundary-layer statement is not mechanically implied by the source theorem alone.",
+        "searches": [
+          "Compared the final claim to Theorem 2 and the atomic dual proof in arXiv:2609.20544."
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The exact semantic hit is the record under audit; nearby records concern a different Chebyshev desingularization problem.",
+          "The primary paper defines the roots and weights and proves the sharp gap but does not analyze their large-order boundary scaling."
+        ],
+        "reasoning": "No equivalent published formulation of the full limiting atomic law was located.",
+        "searches": [
+          "Semantic search for boundary-layer mass, atomic moment-SOS certificates, Chebyshev roots, and the equations a tanh(a)=1 and z tan(z)=-1.",
+          "Exact-source search within the primary sharp-example paper."
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No independent earlier database/table entry with the complete law was found."
+        ],
+        "reasoning": "This is an asymptotic theorem rather than a tabulated invariant; database absence is secondary evidence only.",
+        "searches": [
+          "Semantic research-record search for the exterior mass constant and root-scaling equations."
+        ]
+      },
+      "rationale": "The primary moment-SOS paper supplies the sharp atomic certificate and the exact relaxation gap, but not the boundary-layer scaling law, persistent infeasible mass, weak limiting law, or Sturm-Liouville trace explanation. The semantic research index returned the audited record as the exact match and no earlier stronger record.",
+      "residual_risks": [
+        "Classical asymptotics for zeros and Christoffel-type weights may contain component formulas in different notation, but no source-specific theorem implying the complete limiting law was located."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING",
+          "evidence": "The paper proves the exact gap and supplies the certificate but does not state its scaled boundary-layer law or limiting mass distribution.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.20544",
+          "material_read": "Full primary PDF around the exact gap theorem, Chebyshev polynomial definition, positive atomic weights, and dual objective calculation.",
+          "method": "Lawful open PDF; text and relevant pages inspected.",
+          "title": "Convergence rate of the moment-SOS hierarchy for univariate polynomial optimization",
+          "trigger": "Same degree-four sharp example and optimal atomic certificate."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result exposes a concrete mechanism behind the sharp O(r^-2) relaxation gap: order-one infeasible certificate mass persists at an O(r^-2) distance outside the feasible endpoint, despite weak convergence to the true minimizer.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.20544",
+        "https://arxiv.org/abs/2512.19141",
+        "https://arxiv.org/abs/2509.01382"
+      ],
+      "rationale": "The theorem explains the mechanism behind a sharp relaxation-rate example: almost all dual mass remains on a single infeasible atom whose distance to the feasible endpoint is exactly on the sharp order scale. The full limiting law and trace identities are a motivated structural analysis of the extremal certificate rather than a finite numerical refinement.",
+      "residual_risks": [
+        "The numerical checks corroborate, but do not replace, the analytic proof."
+      ],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Same-model review: passed. Independent audit: not yet performed.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "phase": "II",
+  "disposition": "passed",
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "The result concerns one explicit optimal certificate and does not prove uniqueness of the SDP optimizer.",
+    "It does not establish a general boundary-leakage theorem for moment-SOS hierarchies.",
+    "The numerical checks corroborate, but do not replace, the analytic proof."
+  ],
   "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
+  "previously_published_pending_reaudit": false,
+  "prior_scientific_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "Exact logarithmic-derivative identities normalize the source weights; scaled Chebyshev root equations give the exterior/interior limits; an entire-product trace identity closes the limiting probability mass and first moment, with high-precision finite-r verification.",
+        "verdict": "PASS"
+      },
+      "originality": {
+        "rationale": "The source paper supplies the sharp example and atomic certificate, while related literature supplies pseudo-moment and special-polynomial context. No prior source-specific result was located for the persistent exterior mass, full quadratic-scale boundary-layer law, and trace-identity explanation of the sharp gap.",
+        "verdict": "PASS"
+      },
+      "value": {
+        "rationale": "The prior review judged the persistent infeasible boundary mass at the sharp quadratic relaxation scale to be a meaningful mechanism.",
+        "verdict": "PASS"
+      }
+    },
+    "reviewed_at": "2026-09-19"
+  },
   "record_id": "SCOPE-20260919-9b3127a8a223",
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-19",
-  "same_model_review_status": "passed",
-  "scope_run_id": "7b87b3d1-3a66-4f92-bf48-eee2ed489544",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "record_title": "Boundary-layer concentration of the sharp univariate moment-SOS certificate",
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

@@ -1,0 +1,126 @@
+{
+  "acceptance_rule": "Correctness, originality, and value must all pass.",
+  "audited_at_utc": "2026-10-01T14:43:49Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "assigned RESULT.md at the frozen tree",
+        "Baltazar--Lopes--Morales, arXiv:2609.19470",
+        "Benkart--Lopes--Ondrus arbitrary-field \\(A_h\\) structure/derivation papers",
+        "Kaygorodov--Lopes--Mashurov 2021"
+      ],
+      "rationale": "In characteristic zero, the proof uses the known arbitrary-field automorphism description of \\(A_h\\) and the arbitrary-characteristic-zero classification of locally nilpotent derivations. Affine normalization is valid because the degree is invertible. Reconstructing the source degree comparison shows that unbounded triangular degree first forces \\(D(x)\\in k[x]\\), then forces \\(D(x)=0\\); the relation and the characteristic-zero centralizer give \\(D(t)\\in k[x]\\), hence local nilpotence. Conversely all such \\(D_g\\) commute with arbitrary triangular translations. In characteristic \\(p>0\\), \\(E(x)=x,E(t)=0\\) respects \\([t,x]=x\\), is locally finite but never locally nilpotent on \\(x\\), and commutes with \\(t\\mapsto t+r(x)\\) exactly when \\(xr'(x)=0\\), which includes all \\(r\\in k[x^p]\\) and yields unbounded degree.",
+      "residual_risks": [
+        "The characteristic-zero degree proof is source-specific and depends on nonconstant \\(h\\); no claim is made for the Weyl or quantum cases."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "These general structural theorems supply ingredients but do not themselves assert the isotropy/local-nilpotence equivalence.",
+          "Positive-characteristic automorphism theory describes additional Frobenius phenomena."
+        ],
+        "reasoning": "The ingredients are broad, but the audited boundary theorem requires checking that the recent isotropy proof descends and constructing a counterexample in every positive characteristic.",
+        "searches": [
+          "Benkart Lopes Ondrus automorphisms arbitrary field",
+          "Kaygorodov Lopes Mashurov \\(A_h\\) locally nilpotent derivations",
+          "Bavula prime-characteristic Ore automorphisms"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.19470",
+        "https://doi.org/10.2478/cm-2021-0024",
+        "https://arxiv.org/abs/1406.1508",
+        "https://arxiv.org/abs/1210.4631",
+        "published-results semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The source theorem cannot be applied directly to non-algebraically-closed fields. The audited proof rechecks the degree argument over \\(k\\) and uses no closure step.",
+          "In positive characteristic, the Euler derivation and \\(k[x^p]\\) translations explicitly violate the converse."
+        ],
+        "reasoning": "The final sharp if-and-only-if field boundary is not a formal special case of any checked theorem.",
+        "searches": [
+          "recent isotropy theorem plus older arbitrary-field structure",
+          "positive-characteristic Frobenius translations"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The source abstract explicitly assumes algebraically closed characteristic zero.",
+          "Earlier \\(A_h\\) papers explicitly advertise automorphism/derivation results over arbitrary fields and characteristic-zero \\(G_a\\) actions."
+        ],
+        "reasoning": "The audited statement is equivalent to removing algebraic closedness from the differential \\(A_h\\) branch and identifying characteristic as the exact boundary; no prior statement-level match was located.",
+        "searches": [
+          "Ore extension isotropy arbitrary field local nilpotence",
+          "positive characteristic \\(A_x\\) isotropy Euler derivation",
+          "arXiv:2609.19470 arbitrary field"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No finite table or database controls the quantified field-characteristic criterion."
+        ],
+        "reasoning": "A table check is inapplicable; coverage is theorem-level.",
+        "searches": [
+          "Ore-extension derivation classification tables"
+        ]
+      },
+      "rationale": "The motivating theorem is explicitly stated over algebraically closed characteristic-zero fields. Earlier \\(A_h\\) automorphism/derivation papers work over arbitrary fields, and the additive-group paper works over arbitrary characteristic-zero fields, but searches found no statement combining those inputs into the exact isotropy criterion over all characteristic-zero fields or giving the sharp positive-characteristic Euler/Frobenius counterexample.",
+      "residual_risks": [
+        "The complete 2026 isotropy preprint body was not available through the primary arXiv page during this review.",
+        "A later revision may remove algebraic closedness independently."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "States the \\(A_h\\) criterion under algebraically closed characteristic zero, not arbitrary fields.",
+          "evidence": "The abstract begins with that standing field hypothesis.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.19470",
+          "material_read": "Primary abstract and public theorem summary.",
+          "method": "Direct primary-source lookup.",
+          "title": "A Characterization of Local Nilpotence for Derivations of Ore Extensions",
+          "trigger": "Exact isotropy criterion being sharpened."
+        },
+        {
+          "assessment": "Provides arbitrary-characteristic-zero structural input, not the isotropy theorem.",
+          "evidence": "The paper establishes the \\(A_h\\) analogue of classical locally nilpotent derivation/action results over fields of characteristic zero.",
+          "identifier_or_url": "https://doi.org/10.2478/cm-2021-0024",
+          "material_read": "Open full-text/abstract material stating the field hypothesis and \\(A_h\\) results.",
+          "method": "Open-access primary-source inspection.",
+          "title": "Actions of the additive group Ga on certain noncommutative deformations of the plane",
+          "trigger": "Classification of \\(A_h\\) additive-group/LND behavior over characteristic zero."
+        },
+        {
+          "assessment": "Works over arbitrary fields and supplies ingredients; does not state the audited isotropy boundary.",
+          "evidence": "The abstract explicitly says the derivations are determined over an arbitrary field.",
+          "identifier_or_url": "https://arxiv.org/abs/1406.1508",
+          "material_read": "Primary abstract and accessible theorem excerpts.",
+          "method": "Primary-source inspection.",
+          "title": "A Parametric Family of Subalgebras of the Weyl Algebra III. Derivations",
+          "trigger": "Arbitrary-field derivation structure for \\(A_h\\)."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Baltazar--Lopes--Morales 2026",
+        "arbitrary-field \\(A_h\\) structure literature",
+        "positive-characteristic Ore-extension literature"
+      ],
+      "rationale": "The theorem isolates the exact field-characteristic boundary of a new isotropy criterion and shows that positive characteristic fails by a transparent Frobenius mechanism even for a locally finite derivation. This is a motivated structural boundary, not merely a cosmetic hypothesis deletion.",
+      "residual_risks": [
+        "The result does not address iterative higher derivations or classify all positive-characteristic isotropy groups."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "final_claim": "For differential Ore extensions \\(A_h=k[x][t;h(x)\\partial_x]\\) with nonconstant \\(h\\), the criterion 'a derivation is locally nilpotent iff its isotropy contains automorphisms of arbitrarily large degree' holds over every characteristic-zero field, while it fails in every positive characteristic already for the locally finite derivation \\(E(x)=x,E(t)=0\\) on \\(A_x\\).",
+  "limitations": [
+    "The theorem concerns only the differential Ore-extension family \\(A_h\\), not all algebras treated in the motivating paper.",
+    "The positive-characteristic result is a counterexample to the ordinary-derivation criterion and does not classify isotropy groups or iterative higher derivations.",
+    "The motivating preprint is very recent, so later revisions remain a priority risk."
+  ]
+}

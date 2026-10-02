@@ -1,0 +1,114 @@
+{
+  "audited_at_utc": "2026-10-01T18:05:11.787582Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "assigned RESULT.md",
+        "assigned artifacts/verify_recurrences.py",
+        "Shen arXiv:2609.16966",
+        "Shen-Wang arXiv:2606.28718"
+      ],
+      "rationale": "For \\(m=3\\), the four-decimation identities close the odd-part sequence on itself, its shift, and fixed automatic reductions of the 2-regular coefficient sequence. For \\(m=5,9\\), the exact valuation formulas remove precisely the powers of two from the published block recurrences, giving fixed integer recurrences in \\(r=\nu_2(n+1)\\). Modulo any fixed \\(2^s\\), companion-matrix powers are eventually periodic, while the finitely many initial slices are automatic reductions of 2-regular sequences; the odd-part substitution and valuation-depth control preserve a finite 2-kernel. The finite verifier confirms the identities and normalized recurrences on a large range, but is corroborative rather than exhaustive.",
+      "residual_risks": [
+        "The proof relies on the cited exact valuation formulas and block recurrences from Shen-Wang; those source statements were verified at primary abstract/theorem level but their full text could not be retrieved in this run."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "These sources provide the conjecture, regularity/recurrence background, and exact valuations."
+        ],
+        "reasoning": "They supply essential ingredients but not the finite-state lifting conclusion for \\(m=3,5,9\\).",
+        "searches": [
+          "Shen arXiv:2609.16966",
+          "Shen-Wang arXiv:2606.28718",
+          "Gawron-Miska-Ulas arXiv:1703.01955"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.16966",
+        "https://arxiv.org/abs/2606.28718",
+        "https://arxiv.org/abs/1703.01955",
+        "Resultary semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Exact valuations alone do not imply automaticity without the finite-state normalized recurrence argument; Shen's automaticity theorem does not cover these exponents."
+        ],
+        "reasoning": "The final claim requires a new combination of valuation-normalized recurrences and automatic-sequence closure.",
+        "searches": [
+          "Compared Shen's proved exponent families and Shen-Wang's valuation statements with the audited normalized recurrences"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The exact Resultary hit was the assigned record.",
+          "Shen's listed proved families omit 3,5,9.",
+          "Shen-Wang's primary statement concerns valuations, not automatic odd parts."
+        ],
+        "reasoning": "No equivalent prior automaticity theorem for these three exponents was located.",
+        "searches": [
+          "Resultary: Thue-Morse power coefficients automatic odd parts modulo powers of two exponents 3 5 9",
+          "arXiv:2609.16966",
+          "arXiv:2606.28718"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No earlier published database entry with the same three automaticity conclusions was returned."
+        ],
+        "reasoning": "The claim is structural, not a table lookup.",
+        "searches": [
+          "Resultary semantic search for the three exponents and automatic odd parts"
+        ]
+      },
+      "rationale": "Shen's September paper proves automatic odd parts for powers \\(2^r\\), for \\(3\\cdot2^r\\) with \\(r\\ge2\\), and for \\(m=6\\); its primary statement does not include \\(m=3,5,9\\). Shen-Wang's June paper proves exact valuations for the fifth and ninth powers but does not claim odd-part automaticity in its primary statement. Resultary found no earlier SCOPE result containing these three cases.",
+      "residual_risks": [
+        "Xinping Wang's May 2026 thesis was not inspected in full and remains a plausible source-access risk.",
+        "The conjecture paper is very recent, so concurrent unindexed work remains possible."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING_IN_MATERIAL_READ",
+          "evidence": "The stated proved families are \\(2^r\\), \\(3\\cdot2^r\\) for \\(r\\ge2\\), and \\(m=6\\), leaving 3,5,9 outside the listed theorem.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.16966",
+          "material_read": "Primary arXiv abstract/theorem-level statement listing the proved exponent families; the complete full text was not independently available during this audit.",
+          "method": "Primary arXiv record; complete full text was unavailable during this audit.",
+          "title": "Powers of the Thue-Morse Series: 2-Adic Valuations and Automatic Odd Parts",
+          "trigger": "Paper stating the conjecture and closest automaticity results."
+        },
+        {
+          "assessment": "INGREDIENT_NOT_COVERING",
+          "evidence": "The primary statement proves valuations and nonvanishing, not odd-part automaticity.",
+          "identifier_or_url": "https://arxiv.org/abs/2606.28718",
+          "material_read": "Primary arXiv abstract with the exact fifth- and ninth-power valuation formulas.",
+          "method": "Primary arXiv record.",
+          "title": "2-adic Valuations of Coefficients of the Fifth and Ninth Powers of the Thue-Morse Generating Function",
+          "trigger": "Source of the exact valuation formulas and recurrences used in the proof."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Shen arXiv:2609.16966",
+        "Shen-Wang arXiv:2606.28718"
+      ],
+      "rationale": "The theorem settles three genuinely missing cases of a newly stated automaticity conjecture, including cases with unbounded valuation depth, and isolates a reusable recurrence-to-automaticity mechanism. It is a motivated structural advance rather than a finite numerical check.",
+      "residual_risks": [
+        "The general conjecture remains open, including \\(m=7\\) among exponents at most 9."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "limitations": [
+    "Only \\(m=3,5,9\\) are proved; the all-exponent conjecture is not settled.",
+    "No minimal automata or state-complexity bounds are given.",
+    "Full text of the recent Shen conjecture paper was not independently retrieved during this audit."
+  ],
+  "record_id": "SCOPE-20260920-39839f2d9a7f",
+  "record_title": "Automatic odd parts for the cubic, fifth and ninth Thue-Morse powers",
+  "schema_version": 1
+}

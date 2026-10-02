@@ -1,1 +1,0 @@
-For the kappa=2 mosaic almost-Mathieu operator, the exact two-step reduction shows that every phase has no eigenvalue at energies 1<|lambda E|<exp(beta(2alpha)); spectral nonemptiness of that window must be checked separately.

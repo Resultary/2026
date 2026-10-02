@@ -1,34 +1,154 @@
 {
-  "correctness": {
-    "status": "PASS",
-    "summary": "An exact spectral-moment identity for each symmetric GMRES(1) step, combined with a scalar sum-of-squares certificate, proves the squared Euclidean solution-error ratio is at most 4/3. A two-eigenvalue indefinite construction attains equality and forms an exact two-step directional cycle. Separate moment, two-point, and nonsymmetric calculations verify the definite monotonicity, absence of a nontrivial absolute-condition-number safety window, and necessity of symmetry."
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "Y. He, The worst-case root-convergence factor of GMRES(1), arXiv:2501.10248 (2025).",
+        "G. Meurant, Estimates of the Norm of the Error in Solving Linear Systems with FOM and GMRES, SIAM J. Sci. Comput. 33 (2011), DOI:10.1137/100795565.",
+        "R. Weiss, Error-Minimizing Krylov Subspace Methods, SIAM J. Sci. Comput. 15 (1994), DOI:10.1137/0915034.",
+        "Y. Saad, Further Analysis of Minimum Residual Iterations, Numer. Linear Algebra Appl. 7 (2000), DOI:10.1002/(SICI)1099-1506(200003)7:2%3C67::AID-NLA186%3E3.0.CO;2-8.",
+        "V. M. Fridman, The method of minimum iterations with minimum errors for a system of linear algebraic equations with a symmetrical matrix, USSR Comput. Math. Math. Phys. (1963), DOI:10.1016/0041-5553(63)90412-9.",
+        "Resultary semantic search for GMRES(1)/MRI symmetric indefinite Euclidean solution-error amplification and sharp constants."
+      ],
+      "rationale": "Diagonalizing the symmetric matrix and writing squared error coordinates as weights gives \\(\\alpha=m_3/m_4\\) and the constraint \\(\\sum_iw_i z_i^3(1-z_i)=0\\) for \\(z_i=\\alpha\\lambda_i\\). The exact identity \\(4/3-(1-z)^2-12z^3(1-z)=(6z^2-3z-1)^2/3\\) then averages to the squared-error bound \\(4/3\\). Independent symbolic recomputation gave zero residual in this identity, reproduced \\(\\alpha_0=1\\), squared ratio \\(4/3\\), \\(\\alpha_1=-2\\), and the two-step factor \\(2/3\\) for the stated \\(\\sqrt{33}\\) witness. The definite and nonsymmetric boundary statements also follow from the displayed moment and triangular examples.",
+      "residual_risks": [],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The closest modern GMRES(1) theorem is broader about asymptotic residual behavior but does not dominate a one-step Euclidean solution-error theorem.",
+          "General GMRES error-estimation formulas do not mechanically imply the sharp dimension-free restart-one factor and equality classification.",
+          "The Fridman full text remains inaccessible after the authorized route hit human verification, so it is recorded as risk rather than treated as noncoverage."
+        ],
+        "reasoning": "Broader Krylov error theory was checked for actual logical implication of the exact per-cycle bound; none was established.",
+        "searches": [
+          "He 2025 complete arXiv HTML",
+          "Meurant 2011 author full text",
+          "Saad 2000 minimum residual iteration",
+          "Fridman 1963 historical minimum-error paper"
+        ]
+      },
+      "checked_sources": [
+        "Y. He, The worst-case root-convergence factor of GMRES(1), arXiv:2501.10248 (2025).",
+        "G. Meurant, Estimates of the Norm of the Error in Solving Linear Systems with FOM and GMRES, SIAM J. Sci. Comput. 33 (2011), DOI:10.1137/100795565.",
+        "R. Weiss, Error-Minimizing Krylov Subspace Methods, SIAM J. Sci. Comput. 15 (1994), DOI:10.1137/0915034.",
+        "Y. Saad, Further Analysis of Minimum Residual Iterations, Numer. Linear Algebra Appl. 7 (2000), DOI:10.1002/(SICI)1099-1506(200003)7:2%3C67::AID-NLA186%3E3.0.CO;2-8.",
+        "V. M. Fridman, The method of minimum iterations with minimum errors for a system of linear algebraic equations with a symmetrical matrix, USSR Comput. Math. Math. Phys. (1963), DOI:10.1016/0041-5553(63)90412-9.",
+        "Resultary semantic search for GMRES(1)/MRI symmetric indefinite Euclidean solution-error amplification and sharp constants."
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Prior results establish that residual minimization and solution error can differ, and quantify residual behavior, but do not imply a universal solution-error spike ceiling.",
+          "The audited SOS identity together with the moment constraint directly proves the sharp \\(4/3\\) squared-error bound and characterizes equality.",
+          "The exact two-step equality cycle is additional structure not supplied by the inspected sources."
+        ],
+        "reasoning": "The final claim is a new sharp extremal theorem about a different normed observable, not a restatement of the known residual convergence factor.",
+        "searches": [
+          "He 2025 residual recurrence and symmetric-indefinite factor-one theorem",
+          "Meurant 2011 solution-error formulas",
+          "Weiss 1994 residual/error separation"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "He 2025 treats residual dynamics and asymptotic/root convergence; its displayed one-step operator is applied to residuals, not the Euclidean solution error.",
+          "Meurant 2011 provides error formulas/estimators for full FOM/GMRES rather than a restart-one universal transient factor.",
+          "Weiss 1994 gives the qualitative residual/error mismatch and develops error-minimizing methods, not the audited sharp inequality."
+        ],
+        "reasoning": "The searches explicitly distinguished residual amplification/convergence from solution-error amplification, which is essential for equivalence testing here.",
+        "searches": [
+          "Resultary: GMRES(1) MRI symmetric indefinite Euclidean solution error amplification 2/sqrt(3)",
+          "arXiv:2501.10248",
+          "DOI:10.1137/100795565",
+          "DOI:10.1137/0915034"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No published SCOPE record or located primary theorem supplied the same exact constant/equality cycle.",
+          "The claim is an analytic extremal inequality, not a database/table lookup."
+        ],
+        "reasoning": "Exact-constant and equality-case searches are the relevant analogue of a table check for this extremal result.",
+        "searches": [
+          "Resultary published-record semantic corpus",
+          "exact constants \\(2/\\sqrt3\\), \\(4/3\\), and \\(\\sqrt{33}\\) searched in GMRES/MRI context"
+        ]
+      },
+      "rationale": "He’s full arXiv text analyzes GMRES(1) residual root/q-linear convergence and states worst-case factor one for symmetric indefinite systems; it does not give the Euclidean solution-error one-step bound. Meurant gives formulas and estimators for solution-error norms in full FOM/GMRES, and Weiss emphasizes that residuals may decrease while errors increase, but neither inspected source states the sharp \\(2/\\sqrt3\\) GMRES(1) transient bound or equality cycle. Resultary searches likewise found no covering record.",
+      "residual_risks": [
+        "Fridman’s 1963 paper is historically plausible but its full text could not be inspected: open routes yielded metadata only and the authorized institutional retrieval reached human verification. That verification block was not retried or bypassed.",
+        "Older minimum-error/minimum-residual literature could contain an equivalent one-step inequality under different terminology; no decisive implication was found in the material read."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING",
+          "evidence": "The paper studies residual root/q-linear convergence. For symmetric indefinite matrices it reports worst-case residual factor one, but it does not state the audited Euclidean solution-error transient bound.",
+          "identifier_or_url": "arXiv:2501.10248",
+          "material_read": "complete arXiv HTML through the introduction, algorithm, symmetric one-step section, nonlinear eigenvalue formulation, and stated worst-case residual convergence results",
+          "method": "lawful open-access arXiv inspection",
+          "title": "The worst-case root-convergence factor of GMRES(1)",
+          "trigger": "same algorithm, symmetric matrices, and sharp worst-case analysis"
+        },
+        {
+          "assessment": "PARTIAL_COVERAGE",
+          "evidence": "It provides error-norm formulas and estimators for FOM/GMRES but not the sharp one-step GMRES(1) factor or equality cycle.",
+          "identifier_or_url": "DOI:10.1137/100795565",
+          "material_read": "author-posted full-text abstract/introduction and publisher abstract/reference context",
+          "method": "lawful author/publisher web inspection",
+          "title": "Estimates of the Norm of the Error in Solving Linear Systems with FOM and GMRES",
+          "trigger": "directly studies GMRES solution-error norms"
+        },
+        {
+          "assessment": "INACCESSIBLE_PLAUSIBLE",
+          "evidence": "No theorem-level comparison is possible from the material obtained; this remains a residual originality risk rather than evidence of novelty.",
+          "identifier_or_url": "DOI:10.1016/0041-5553(63)90412-9",
+          "material_read": "bibliographic metadata and citation context only; no theorem text",
+          "method": "open-web search followed by one authorized institutional retrieval attempt; the latter was interrupted by human verification and was not retried",
+          "title": "The method of minimum iterations with minimum errors for a system of linear algebraic equations with a symmetrical matrix",
+          "trigger": "historically closest title combining symmetry, minimum iterations and errors"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Y. He, The worst-case root-convergence factor of GMRES(1), arXiv:2501.10248 (2025).",
+        "G. Meurant, Estimates of the Norm of the Error in Solving Linear Systems with FOM and GMRES, SIAM J. Sci. Comput. 33 (2011), DOI:10.1137/100795565.",
+        "R. Weiss, Error-Minimizing Krylov Subspace Methods, SIAM J. Sci. Comput. 15 (1994), DOI:10.1137/0915034.",
+        "Y. Saad, Further Analysis of Minimum Residual Iterations, Numer. Linear Algebra Appl. 7 (2000), DOI:10.1002/(SICI)1099-1506(200003)7:2%3C67::AID-NLA186%3E3.0.CO;2-8.",
+        "V. M. Fridman, The method of minimum iterations with minimum errors for a system of linear algebraic equations with a symmetrical matrix, USSR Comput. Math. Math. Phys. (1963), DOI:10.1016/0041-5553(63)90412-9.",
+        "Resultary semantic search for GMRES(1)/MRI symmetric indefinite Euclidean solution-error amplification and sharp constants."
+      ],
+      "rationale": "The theorem gives a sharp dimension-free cap on a practically important failure mode of residual minimization, with exact equality geometry and a recurring spike example. It cleanly separates residual contraction from solution-error transients and contrasts symmetric with nonsymmetric behavior, making it a motivated numerical-linear-algebra boundary theorem rather than a routine estimate.",
+      "residual_risks": [
+        "Fridman’s 1963 paper is historically plausible but its full text could not be inspected: open routes yielded metadata only and the authorized institutional retrieval reached human verification. That verification block was not retried or bypassed.",
+        "Older minimum-error/minimum-residual literature could contain an equivalent one-step inequality under different terminology; no decisive implication was found in the material read."
+      ],
+      "status": "PASS"
+    }
   },
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "limitations": [
-    "Exact arithmetic, real symmetric nonsingular matrices and the ordinary Euclidean norm only.",
-    "The iteration is MRI/GMRES(1), restarted after every one-dimensional Krylov correction; the bound is not asserted for consecutive full-MINRES or full-GMRES iterates.",
-    "The per-cycle bound does not imply global convergence on symmetric indefinite systems, where GMRES(1) may stagnate.",
-    "Arbitrary preconditioning, finite-precision effects and nonsymmetric matrices are outside the theorem; nonsymmetric one-step error amplification can be unbounded.",
-    "Older minimum-residual and minimum-error literature, especially Fridman (1963) and Saad (2000), leaves residual originality risk because complete theorem-level checking was not available.",
-    "Independent audit has not been performed."
+  "disclaimer": "Mathematical review only; not external peer review, formal verification, or a guarantee of priority.",
+  "independent_audit_date_utc": "2026-10-01",
+  "independent_audit_evidence": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
   ],
-  "originality": {
-    "scope": "to the best of our knowledge",
-    "status": "PASS",
-    "summary": "Classical and recent literature establishes residual minimization, qualitative residual/error mismatch, error estimators, and sharp residual convergence factors for GMRES(1). Searches under GMRES(1), MRI, Orthomin(1), minimal discrepancy, solution-error amplification and exact constant/equality formulations did not locate the 2/sqrt(3) Euclidean solution-error barrier, its equality classification, or the exact alternating equality cycle. Older minimum-error/minimum-residual literature remains a material historical-equivalence risk."
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "prior_scientific_review": {
+    "correctness": {
+      "rationale": "Historical review checked the spectral-moment/SOS proof and equality cycle.",
+      "verdict": "PASS"
+    },
+    "originality": {
+      "rationale": "Historical searches did not locate the sharp Euclidean solution-error factor and retained older minimum-error literature as a risk.",
+      "verdict": "PASS"
+    },
+    "value": {
+      "rationale": "Historical review identified a sharp dimension-free transient bound with a recurring equality example.",
+      "verdict": "PASS"
+    }
   },
-  "phase": "II",
-  "previously_published_pending_reaudit": true,
   "record_id": "SCOPE-20260920-89eb763dddfc",
-  "review_statement": "Same-model review: passed. Independent audit: not yet performed.",
-  "review_type": "same_model_review",
-  "same_model_review_status": "passed",
-  "scope_run_id": "88770670-5b63-4623-9c55-715717349932",
-  "value": {
-    "status": "PASS",
-    "summary": "The result gives a sharp dimension-free cap on how far residual minimization can move the Euclidean solution error in the wrong direction for symmetric systems, together with a recurring equality example, a definite/indefinite dichotomy, and a sharp contrast with unbounded nonsymmetric amplification."
-  },
-  "verification_state": "awaiting_fresh_independent_audit"
+  "verification_state": "independently_reviewed"
 }

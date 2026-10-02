@@ -1,33 +1,162 @@
 {
-  "correctness": {
-    "status": "PASS",
-    "summary": "The beta-gamma factorization reduces the equal-weight perturbation to a smooth scalar scale mixture. Its second and fourth beta moments give the stated quadratic and critical quartic coefficients by implicit quantile expansion. Conditioning at the two endpoints gives the first derivatives, and the source distributional representations yield the variance-gamma and McKay rates. Direct numerical inversion of exact one-dimensional cdf representations supports all displayed coefficients."
+  "audited_at_utc": "2026-10-01T13:45:01Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "Gaunt and Ouimet, Bounds for the median of the generalized hyperbolic and related distributions, arXiv:2609.20212",
+        "Bock, Diaconis, Huffer and Perlman, Inequalities for linear combinations of gamma random variables, Canadian Journal of Statistics 15 (1987)",
+        "Diaconis and Perlman, Bounds for tail probabilities of weighted sums of independent gamma random variables, 1988 technical report / 1990 proceedings",
+        "Yaming Yu, On the unique crossing conjecture of Diaconis and Perlman on convolutions of gamma random variables, arXiv:1607.02689",
+        "Published-findings semantic search for two-gamma quantile curvature and endpoint rates",
+        "Assigned Git package; fresh symbolic Taylor reconstruction of the quadratic and critical quartic coefficients"
+      ],
+      "rationale": "The beta-gamma factorization gives \\(Z_{1+\\varepsilon}=S(1+\\varepsilon V)\\) with the stated symmetric beta moments. A fresh symbolic expansion of \\(E[G_a(z/(1+\\varepsilon V))]\\), followed by implicit coefficient matching, independently reproduced \\(-m(a+1-m)/(2(a+1))\\) and the critical quartic coefficient \\((a+1)/(2(a+3))\\). Direct endpoint differentiation gives the stated one-sided derivatives. The committed numerical integrals converge to all displayed coefficients and the variance-gamma/McKay reparameterizations are consistent with the source family.",
+      "residual_risks": [
+        "The complete Bock et al. and Diaconis--Perlman texts were not accessible through the available lawful retrieval route; their abstracts and report summaries were inspected, so an unindexed local expansion remains a residual risk.",
+        "No global quantile-crossing theorem beyond prior work is claimed."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "These works are broader in weight-vector comparison and crossing structure.",
+          "Their accessible statements do not imply the exact local coefficient or critical quartic sign without carrying out new differentiation at the symmetric point."
+        ],
+        "reasoning": "General crossing theory constrains sign/order but does not mechanically supply the audited analytic expansion.",
+        "searches": [
+          "Bock et al. weighted-gamma majorization",
+          "Diaconis--Perlman unique crossing and crossing-location bounds",
+          "Yu 2017"
+        ]
+      },
+      "checked_sources": [
+        "Gaunt and Ouimet, Bounds for the median of the generalized hyperbolic and related distributions, arXiv:2609.20212",
+        "Bock, Diaconis, Huffer and Perlman, Inequalities for linear combinations of gamma random variables, Canadian Journal of Statistics 15 (1987)",
+        "Diaconis and Perlman, Bounds for tail probabilities of weighted sums of independent gamma random variables, 1988 technical report / 1990 proceedings",
+        "Yaming Yu, On the unique crossing conjecture of Diaconis and Perlman on convolutions of gamma random variables, arXiv:1607.02689",
+        "Published-findings semantic search for two-gamma quantile curvature and endpoint rates",
+        "Assigned Git package; fresh symbolic Taylor reconstruction of the quadratic and critical quartic coefficients"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The median theorem fixes global monotonicity for q one half and endpoint limits; it does not state rates.",
+          "The audited formulas follow from a fresh beta-gamma perturbation expansion, not from direct parameter substitution into the prior theorems."
+        ],
+        "reasoning": "No inspected prior implication dominates the final local-expansion claim.",
+        "searches": [
+          "comparison with Gaunt--Ouimet median theorem and classical crossing theorems"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The exact-topic published-findings search returned the assigned result; nearby records concern different variance-gamma large-noise asymptotics.",
+          "The primary 2026 abstract states median monotonicity and bounds, while classical abstracts state tail extremality/crossing results rather than local quantile Taylor laws."
+        ],
+        "reasoning": "Tail crossing/Schur-convexity and the audited second/fourth derivatives are related but not equivalent statements.",
+        "searches": [
+          "Resultary semantic search for two-gamma quantile curvature, quartic transition and endpoint derivatives",
+          "arXiv:2609.20212",
+          "Bock et al. 1987 and Diaconis--Perlman report summaries"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No independent exact database/table entry was located."
+        ],
+        "reasoning": "Search absence is retained only as best-of-knowledge evidence.",
+        "searches": [
+          "exact formulas `G_{2r}(2r+1)`, critical quartic coefficient, variance-gamma small-noise median coefficient and McKay endpoint rates"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality passes for the explicit local quantile curvature, exact transition quantile, positive quartic critical term and endpoint-rate formulas. Classical majorization/crossing results compare distribution tails globally, and the 2026 source establishes median monotonicity and endpoint limits; none of the inspected statements gives these local Taylor coefficients or mechanically determines them without an additional expansion.",
+      "residual_risks": [
+        "The complete Bock et al. and Diaconis--Perlman texts were not accessible through the available lawful retrieval route; their abstracts and report summaries were inspected, so an unindexed local expansion remains a residual risk.",
+        "No global quantile-crossing theorem beyond prior work is claimed."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Covers global median monotonicity and bounds but not the audited general-quantile curvature or rates in the accessible material.",
+          "evidence": "The abstract explicitly states monotonicity for medians of the same gamma sums and derived sharp bounds.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.20212",
+          "material_read": "Abstract and bibliographic record; complete text was not retrievable during this run",
+          "method": "Primary-source abstract inspection",
+          "title": "Bounds for the median of the generalized hyperbolic and related distributions",
+          "trigger": "Same two-gamma family and the variance-gamma/McKay median consequences"
+        },
+        {
+          "assessment": "Covers equal-weight extremality of tails, not the explicit local quantile expansion.",
+          "evidence": "The abstract states that upper and lower tails are smallest at equal weights.",
+          "identifier_or_url": "https://doi.org/10.2307/3315257",
+          "material_read": "Publisher abstract and bibliographic page",
+          "method": "Primary publication-page inspection",
+          "title": "Inequalities for linear combinations of gamma random variables",
+          "trigger": "Classical weighted-gamma tail majorization"
+        },
+        {
+          "assessment": "Covers crossing existence/bounds in special cases, not the displayed Taylor coefficients.",
+          "evidence": "The abstract states unique crossing in four cases and bounds/asymptotics for crossing location.",
+          "identifier_or_url": "https://statistics.stanford.edu/technical-reports/bounds-tail-probabilities-weighted-sums-independent-gamma-random-variables",
+          "material_read": "Technical-report abstract and metadata",
+          "method": "Primary institutional-record inspection",
+          "title": "Bounds for Tail Probabilities of Weighted Sums of Independent Gamma Random Variables",
+          "trigger": "Classical crossing-location theory for weighted gamma sums"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Gaunt and Ouimet, Bounds for the median of the generalized hyperbolic and related distributions, arXiv:2609.20212",
+        "Bock, Diaconis, Huffer and Perlman, Inequalities for linear combinations of gamma random variables, Canadian Journal of Statistics 15 (1987)",
+        "Diaconis and Perlman, Bounds for tail probabilities of weighted sums of independent gamma random variables, 1988 technical report / 1990 proceedings",
+        "Yaming Yu, On the unique crossing conjecture of Diaconis and Perlman on convolutions of gamma random variables, arXiv:1607.02689",
+        "Published-findings semantic search for two-gamma quantile curvature and endpoint rates",
+        "Assigned Git package; fresh symbolic Taylor reconstruction of the quadratic and critical quartic coefficients"
+      ],
+      "rationale": "The result identifies a natural local phase transition for all quantiles in a canonical weighted-gamma family, resolves the degenerate critical point at fourth order, and converts qualitative distributional limits into explicit endpoint rates for two named families. These are motivated analytic invariants with plausible reuse in quantile comparison and approximation.",
+      "residual_risks": [
+        "The complete Bock et al. and Diaconis--Perlman texts were not accessible through the available lawful retrieval route; their abstracts and report summaries were inspected, so an unindexed local expansion remains a residual risk.",
+        "No global quantile-crossing theorem beyond prior work is claimed."
+      ],
+      "status": "PASS"
+    }
   },
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "limitations": [
-    "Two iid gamma summands only.",
-    "Local parameter expansions; no new global quantile crossing theorem.",
-    "No uniform remainder bounds over q, r, or family parameters.",
-    "The complete Diaconis-Perlman (1990) and Bock et al. (1987) texts were not directly inspected.",
-    "Independent audit has not been performed."
+  "disposition": "passed",
+  "evidence": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
   ],
-  "originality": {
-    "scope": "to the best of our knowledge",
-    "status": "PASS",
-    "summary": "Gaunt and Ouimet (2026) prove global median monotonicity and endpoint limits but do not state the general-q local curvature, critical quartic refinement, or endpoint rates claimed here. Classical Bock et al., Diaconis-Perlman, and Yu results cover majorization and crossing phenomena and are not claimed. Searches found no equivalent explicit formulas. The full Bock et al. (1987) and Diaconis-Perlman (1990) texts were not directly inspected, leaving residual risk for the weighted-gamma component."
-  },
-  "phase": "II",
-  "previously_published_pending_reaudit": true,
+  "final_claim": "For two iid gamma variables on a fixed-sum weight line, the quantile has the displayed equal-weight quadratic curvature, an exact transition with positive quartic critical term, and the stated endpoint derivatives and variance-gamma/McKay median rates.",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "Two iid gamma summands and local parameter regimes only.",
+    "No uniform remainder bounds or new global crossing theorem.",
+    "Classical full texts not fully accessible remain a best-of-knowledge originality risk."
+  ],
+  "previously_published_pending_reaudit": false,
   "record_id": "SCOPE-20260919-bd16316e417a",
-  "review_statement": "Same-model review: passed. Independent audit: not yet performed.",
-  "review_type": "same_model_review",
-  "same_model_review_status": "passed",
-  "scope_run_id": "6d7cc80e-f5dc-4c10-9163-1053b7906c5a",
-  "value": {
-    "status": "PASS",
-    "summary": "The formulas identify an exact quantile phase transition in the local effect of weight imbalance, resolve the degenerate transition at fourth order, and sharpen qualitative variance-gamma and McKay median endpoint limits into explicit convergence rates."
+  "review_type": "independent_audit",
+  "same_model_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "The beta-gamma factorization reduces the equal-weight perturbation to a smooth scalar scale mixture. Its second and fourth beta moments give the stated quadratic and critical quartic coefficients by implicit quantile expansion. Conditioning at the two endpoints gives the first derivatives, and the source distributional representations yield the variance-gamma and McKay rates. Direct numerical inversion of exact one-dimensional cdf representations supports all displayed coefficients.",
+        "verdict": "PASS"
+      },
+      "originality": {
+        "rationale": "Gaunt and Ouimet (2026) prove global median monotonicity and endpoint limits but do not state the general-\\(q\\) local curvature, critical quartic refinement, or endpoint rates claimed here. Classical Bock et al., Diaconis-Perlman, and Yu results cover majorization and crossing phenomena and are not claimed. Searches found no equivalent explicit formulas. The full Bock et al. (1987) and Diaconis-Perlman (1990) texts were not directly inspected, leaving residual risk for the weighted-gamma component.",
+        "verdict": "PASS"
+      },
+      "value": {
+        "rationale": "The formulas identify an exact quantile phase transition in the local effect of weight imbalance, resolve the degenerate transition at fourth order, and sharpen qualitative variance-gamma and McKay median endpoint limits into explicit convergence rates.",
+        "verdict": "PASS"
+      }
+    },
+    "reviewed_at": "2026-09-19",
+    "status": "passed"
   },
-  "verification_state": "awaiting_fresh_independent_audit"
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

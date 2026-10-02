@@ -1,27 +1,120 @@
 {
+  "audit_date_utc": "2026-10-01",
   "axes": {
     "correctness": {
-      "rationale": "Necessity follows by applying pro-star-reversibility to u u^{-1}=1; sufficiency follows from central projection decomposition in a star-reversible ring and self-adjointness of two explicit units, yielding b^*a=ab for every projected product.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "assigned RESULT.md",
+        "earlier 2026/09/18 pro-star-reversible-semiperfect-rigidity RESULT.md",
+        "Chen--Wang--Zou arXiv:2609.20076 abstract"
+      ],
+      "rationale": "Necessity is immediate from \\(u u^{-1}=1\\): the resulting projection \\((u^*)^{-1}u\\) is a unit and hence equals \\(1\\). For sufficiency, \\(*\\)-reversibility implies reversibility, so the projection \\(p=ab\\) is central and \\(ba=p\\). The lifted corner elements \\(pa+(1-p)\\) and \\(pb+(1-p)\\) are inverse units and therefore self-adjoint. This gives the \\(p\\)-corner of \\(b^*a\\) equal to \\(p\\); applying \\(*\\)-reversibility to \\(((1-p)a)b=0\\) kills the complementary corner. Thus \\(b^*a=p\\). The unit-group, radical, clean/semiperfect, and division consequences then follow by direct standard arguments.",
+      "residual_risks": [],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Qualified to the best of our knowledge. The 2026 source introduces pro-star-reversibility but does not discuss units or invertibility, while the 2013 star-reversible literature predates this notion. No equivalent unit-group criterion was located in the inspected literature; concurrent or differently named coverage remains a residual risk.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "The 2026-09-18 record gives unit rigidity, semiperfect/local collapse, and a domain criterion, but does not prove that every \\(*\\)-reversible ring with all units fixed is pro-\\(*\\)-reversible.",
+          "The accessible primary abstract describes introduction and study of pro-\\(*\\)-reversibility but no unit-group equivalence."
+        ],
+        "reasoning": "The prior SCOPE theorem covers major consequences and one direction but does not dominate the global iff theorem.",
+        "searches": [
+          "2026/09/18/pro-star-reversible-semiperfect-rigidity--8cd8850c47f1 full RESULT.md",
+          "Chen--Wang--Zou arXiv:2609.20076"
+        ]
+      },
+      "checked_sources": [
+        "assigned package",
+        "2026/09/18 semiperfect-rigidity full RESULT.md",
+        "arXiv:2609.20076 abstract",
+        "Resultary index search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Unit rigidity alone is only the necessary direction. Local/semiperfect and domain converses do not imply the converse on arbitrary \\(*\\)-reversible rings."
+        ],
+        "reasoning": "The audited corner argument supplies a genuinely missing implication at the level of the general class.",
+        "searches": [
+          "direct comparison with the 2026-09-18 semiperfect/domain theorem"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Resultary returned the audited criterion, the later duplicate, and the prior semiperfect-rigidity result; no earlier full arbitrary-ring equivalence appeared."
+        ],
+        "reasoning": "Equivalent formulations through projection products and pointwise self-adjoint units were compared, not merely titles.",
+        "searches": [
+          "Resultary semantic search: pro-star-reversible rings unit group fixed by involution exact criterion star-reversible",
+          "web/arXiv search for arXiv:2609.20076 with unit/invertible terminology"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "Top matches were the audited criterion, the later alternate-proof record, and the earlier semiperfect-rigidity record."
+        ],
+        "reasoning": "No finite database/table determines this structural theorem; the index check was used to locate exact and stronger published SCOPE statements.",
+        "searches": [
+          "Resultary query listed above"
+        ]
+      },
+      "rationale": "An earlier 2026-09-18 published SCOPE record proves the necessary unit rigidity and local/semiperfect/domain consequences, but not the global converse for an arbitrary \\(*\\)-reversible ring. Resultary returns the audited exact criterion as the first full equivalence and a later same-day record explicitly marked as an alternate proof. The Chen--Wang--Zou accessible primary abstract introduces the notion and basic characterizations but does not expose the unit criterion. The source full HTML was unavailable, so an unadvertised equivalent statement there remains a residual risk rather than evidence of coverage.",
+      "residual_risks": [
+        "The full current Chen--Wang--Zou text could not be inspected through the available open route; because the proof is short, an equivalent unadvertised observation remains possible."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "PARTIAL_COVERAGE",
+          "evidence": "Contains necessity and several class-specific converses, not the arbitrary-ring converse.",
+          "identifier_or_url": "2026/09/18/pro-star-reversible-semiperfect-rigidity--8cd8850c47f1",
+          "material_read": "Full RESULT.md",
+          "method": "Read-only repository inspection at the frozen commit",
+          "title": "Pro-star reversibility collapses on semiperfect rings",
+          "trigger": "Closest earlier SCOPE theorem"
+        },
+        {
+          "assessment": "UNRESOLVED_FULLTEXT_RISK but no accessible covering statement",
+          "evidence": "Abstract says the notions and basic properties/characterizations are studied; it does not state the unit criterion.",
+          "identifier_or_url": "arXiv:2609.20076",
+          "material_read": "Primary abstract and accessible metadata; full HTML fetch failed",
+          "method": "Open arXiv/web inspection",
+          "title": "On *-Reversible and Generalized *-Reversible Rings",
+          "trigger": "Originating primary source for the notion"
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The criterion exactly identifies the obstruction separating star-reversibility from pro-star-reversibility and yields strong consequences for unit groups, Jacobson radicals, clean and semiperfect rings, local and Artinian rings, and division rings.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "earlier semiperfect-rigidity theorem",
+        "Chen--Wang--Zou abstract"
+      ],
+      "rationale": "The theorem gives an exact structural boundary between two recently distinguished ring-theoretic notions and immediately organizes several natural classes (clean, semiperfect, local, division) and the Jacobson radical. The general converse is not a mere renaming of the earlier semiperfect/domain special cases.",
+      "residual_risks": [],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, formal verification, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-19T10:44:16Z",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disclaimer": "Independent mathematical audit; not peer review, formal proof-assistant verification, or a guarantee of first discovery.",
+  "disposition": "passed",
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json",
+    "REVIEW.md"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "previously_published_pending_reaudit": false,
+  "record_id": "SCOPE-20260919-dcd6bac06405",
+  "record_title": "Unit groups exactly detect pro-star-reversibility",
+  "review_type": "independent_audit",
+  "same_model_review_evidence": {
+    "axes": {
+      "correctness": "Unit necessity and corner-decomposition sufficiency were assessed as correct.",
+      "originality": "No equivalent unit-group criterion was located in the source or older star-reversible literature.",
+      "value": "The criterion was judged structurally informative."
+    },
+    "reviewed_at": "2026-09-19T10:44:16Z",
+    "status": "passed"
+  },
+  "verification_state": "independently_reviewed"
 }

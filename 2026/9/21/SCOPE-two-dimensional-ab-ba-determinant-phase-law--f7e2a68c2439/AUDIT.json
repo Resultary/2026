@@ -1,28 +1,133 @@
 {
-  "axes": {
+  "audit_date_utc": "2026-10-01",
+  "audited_at_utc": "2026-10-01T22:52:03Z",
+  "disclaimer": "Mathematical audit; not formal proof-assistant verification and not a guarantee of priority.",
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json",
+    "REVIEW.md"
+  ],
+  "independent_assessment": {
     "correctness": {
-      "rationale": "After diagonalizing A, the two positive Gram matrices |AB|^2 and |BA|^2 have the same two-point spectrum. Two-dimensional functional calculus gives an exact divided-difference formula, and a direct determinant expansion yields a gap whose sign is exactly sign(kp), with the stated commutation equality case.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "M. M. Ghabries, H. Abbas, B. Mourad, On some open questions concerning determinantal inequalities, Linear Algebra and its Applications 596 (2020).",
+        "M. M. Ghabries, Contributions to Matrix Inequalities and Some Applications, PhD thesis (2022).",
+        "M. M. Ghabries, A log-majorization inequality for normal matrices with applications to determinantal inequalities and geometric means, arXiv:2607.21163.",
+        "Published-record semantic query: 2x2 determinant phase law AB BA matrices determinant trace orientation complex phase."
+      ],
+      "rationale": "After unitary diagonalization \\(A=\\operatorname{diag}(a,b)\\), the positive matrices \\(X=BA^2B\\) and \\(Y=AB^2A\\) are respectively \\((AB)^*(AB)\\) and \\((AB)(AB)^*\\), so they have the same two eigenvalues. In dimension two, \\(T^{p/2}=\\alpha_pT+\\beta_pI\\) for either matrix with the same divided difference \\(\\alpha_p\\). A direct determinant expansion then gives exactly \\(\\alpha_p|z|^2(b^2-a^2)(b^k-a^k)\\). Fresh numerical checks on noncommuting Hermitian examples with positive and negative exponents reproduced both the formula and the sign law to floating-point precision. The equality analysis also closes: spectral degeneracy together with the explicit \\(X-Y\\) formula forces commutation unless \\(A\\) is scalar.",
+      "residual_risks": [],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Prior work proves the k=2 Hermitian comparison and partial arbitrary-k parameter ranges, while the 2022 thesis explicitly leaves the broader comparison as a conjecture. Targeted searches, including the 2026 normal-matrix extension, did not locate the exact 2×2 all-real-exponent phase law. Residual risk from older low-dimensional matrix-inequality literature remains, so the claim is to the best of our knowledge.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "The closest broader sources cover ingredients, restricted parameter regimes, or background models but do not imply the audited final claim."
+        ],
+        "reasoning": "The primary determinant literature proves the \\(k=2\\) Hermitian inequality and several restricted exponent ranges. Ghabries’s 2022 thesis treats these questions and leaves the broader comparison conjectural, while the 2026 normal-matrix log-majorization extension proves a different higher-dimensional inequality. Targeted searches and the published-record corpus did not locate the exact two-dimensional all-real-exponent phase formula or a theorem implying it. The two-dimensional affine functional calculus is the key extra step, not a title-level reformulation of the known \\(k=2\\) result.",
+        "searches": [
+          "M. M. Ghabries, H. Abbas, B. Mourad, On some open questions concerning determinantal inequalities, Linear Algebra and its Applications 596 (2020).",
+          "M. M. Ghabries, Contributions to Matrix Inequalities and Some Applications, PhD thesis (2022).",
+          "M. M. Ghabries, A log-majorization inequality for normal matrices with applications to determinantal inequalities and geometric means, arXiv:2607.21163."
+        ]
+      },
+      "checked_sources": [
+        "M. M. Ghabries, H. Abbas, B. Mourad, On some open questions concerning determinantal inequalities, Linear Algebra and its Applications 596 (2020).",
+        "M. M. Ghabries, Contributions to Matrix Inequalities and Some Applications, PhD thesis (2022).",
+        "M. M. Ghabries, A log-majorization inequality for normal matrices with applications to determinantal inequalities and geometric means, arXiv:2607.21163.",
+        "Published-record semantic query: 2x2 determinant phase law AB BA matrices determinant trace orientation complex phase."
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The closest broader sources cover ingredients, restricted parameter regimes, or background models but do not imply the audited final claim."
+        ],
+        "reasoning": "The inspected prior statements do not mechanically imply the audited final claim; the additional argument identified in the correctness reconstruction is substantive enough for this claim.",
+        "searches": [
+          "M. M. Ghabries, H. Abbas, B. Mourad, On some open questions concerning determinantal inequalities, Linear Algebra and its Applications 596 (2020).",
+          "M. M. Ghabries, Contributions to Matrix Inequalities and Some Applications, PhD thesis (2022)."
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "No inspected exact source or database entry states the audited final claim in an equivalent formulation."
+        ],
+        "reasoning": "The primary determinant literature proves the \\(k=2\\) Hermitian inequality and several restricted exponent ranges. Ghabries’s 2022 thesis treats these questions and leaves the broader comparison conjectural, while the 2026 normal-matrix log-majorization extension proves a different higher-dimensional inequality. Targeted searches and the published-record corpus did not locate the exact two-dimensional all-real-exponent phase formula or a theorem implying it. The two-dimensional affine functional calculus is the key extra step, not a title-level reformulation of the known \\(k=2\\) result.",
+        "searches": [
+          "Published-record semantic query: 2x2 determinant phase law AB BA matrices determinant trace orientation complex phase.",
+          "M. M. Ghabries, H. Abbas, B. Mourad, On some open questions concerning determinantal inequalities, Linear Algebra and its Applications 596 (2020)."
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No decisive exact database/table coverage was found; where the claim is theorem-level, the primary literature comparison is the controlling check."
+        ],
+        "reasoning": "The primary determinant literature proves the \\(k=2\\) Hermitian inequality and several restricted exponent ranges. Ghabries’s 2022 thesis treats these questions and leaves the broader comparison conjectural, while the 2026 normal-matrix log-majorization extension proves a different higher-dimensional inequality. Targeted searches and the published-record corpus did not locate the exact two-dimensional all-real-exponent phase formula or a theorem implying it. The two-dimensional affine functional calculus is the key extra step, not a title-level reformulation of the known \\(k=2\\) result.",
+        "searches": [
+          "Published-record semantic corpus"
+        ]
+      },
+      "rationale": "The primary determinant literature proves the \\(k=2\\) Hermitian inequality and several restricted exponent ranges. Ghabries’s 2022 thesis treats these questions and leaves the broader comparison conjectural, while the 2026 normal-matrix log-majorization extension proves a different higher-dimensional inequality. Targeted searches and the published-record corpus did not locate the exact two-dimensional all-real-exponent phase formula or a theorem implying it. The two-dimensional affine functional calculus is the key extra step, not a title-level reformulation of the known \\(k=2\\) result.",
+      "residual_risks": [
+        "Older low-dimensional determinant-inequality literature could contain an equivalent formula under different notation; no such implication was found."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING",
+          "evidence": "The thesis records the broader determinant problem and partial ranges but not the audited all-real-exponent \\(2\\times2\\) phase identity.",
+          "identifier_or_url": "HAL thesis tel-03936351 / PhD thesis, 2022",
+          "material_read": "full thesis text around the determinant conjectures, Hermitian cases, exponent ranges, and open comparison statements",
+          "method": "lawful full-text inspection",
+          "title": "Contributions to Matrix Inequalities and Some Applications",
+          "trigger": "same determinant comparison family and closest comprehensive primary source"
+        },
+        {
+          "assessment": "DIFFERENT_IMPLICATION",
+          "evidence": "The normal-matrix result addresses a different determinant comparison and does not imply the exact \\(2\\times2\\) phase law for arbitrary real \\(k,p\\).",
+          "identifier_or_url": "arXiv:2607.21163",
+          "material_read": "abstract and theorem-level description of the normal-matrix extension",
+          "method": "lawful arXiv inspection",
+          "title": "A log-majorization inequality for normal matrices with applications to determinantal inequalities and geometric means",
+          "trigger": "recent plausible broader coverage"
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The theorem gives a sharp exact gap formula, simultaneously resolves the positive- and negative-exponent formulations in order two, and identifies commutation as the exact equality boundary.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "M. M. Ghabries, H. Abbas, B. Mourad, On some open questions concerning determinantal inequalities, Linear Algebra and its Applications 596 (2020).",
+        "M. M. Ghabries, Contributions to Matrix Inequalities and Some Applications, PhD thesis (2022).",
+        "M. M. Ghabries, A log-majorization inequality for normal matrices with applications to determinantal inequalities and geometric means, arXiv:2607.21163.",
+        "Published-record semantic query: 2x2 determinant phase law AB BA matrices determinant trace orientation complex phase."
+      ],
+      "rationale": "The theorem gives a sharp equality/sign boundary for a concrete open determinant-comparison family and resolves both positive and negative exponent regimes in dimension two. A complete low-dimensional boundary theorem for a live matrix inequality is mathematically motivated and useful even though it does not settle higher dimensions.",
+      "residual_risks": [],
+      "status": "PASS"
     }
   },
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "previously_published_pending_reaudit": false,
+  "prior_scientific_assessment": {
+    "axes": {
+      "correctness": {
+        "rationale": "After diagonalizing A, the two positive Gram matrices \\(|AB|^2\\) and \\(|BA|^2\\) have the same two-point spectrum. Two-dimensional functional calculus gives an exact divided-difference formula, and a direct determinant expansion yields a gap whose sign is exactly sign(kp), with the stated commutation equality case.",
+        "status": "PASS"
+      },
+      "originality": {
+        "rationale": "Prior work proves the k=2 Hermitian comparison and partial arbitrary-k parameter ranges, while the 2022 thesis explicitly leaves the broader comparison as a conjecture. Targeted searches, including the 2026 normal-matrix extension, did not locate the exact 2×2 all-real-exponent phase law. Residual risk from older low-dimensional matrix-inequality literature remains, so the claim is to the best of our knowledge.",
+        "status": "PASS"
+      },
+      "value": {
+        "rationale": "The theorem gives a sharp exact gap formula, simultaneously resolves the positive- and negative-exponent formulations in order two, and identifies commutation as the exact equality boundary.",
+        "status": "PASS"
+      }
+    },
+    "policy": "to-the-best-of-our-knowledge",
+    "reviewed_at": "2026-09-21",
+    "status": "passed"
+  },
   "record_id": "SCOPE-20260921-f7e2a68c2439",
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-21",
-  "same_model_review_status": "passed",
-  "scope_run_id": "25847d24-6fe6-4b5f-9ee2-7216b97a6a88",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "record_title": "A two-dimensional phase law for determinant comparisons of |AB| and |BA|",
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

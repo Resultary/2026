@@ -1,27 +1,124 @@
 {
+  "audited_at_utc": "2026-10-01T06:51:54.979279Z",
   "axes": {
     "correctness": {
-      "rationale": "The explicit 3 by 3 diagonal family makes the constrained and penalized dominant eigenvalue equal to M for every positive penalty, while the feasible non-dominant vector e2 makes all four published acceptance residuals vanish. The nearby-vector residual/error separation and the extremality-bracket repair follow by direct Rayleigh-quotient calculations. The included numerical artifact checks the identities.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "2026/09/17/projected-eigenpair-certification-false-positive--dc23fa36a6e4",
+        {
+          "path": "artifacts/verify_false_certificate.py",
+          "purpose": "Checks the exact diagonal counterexample and nearby-vector residual formula.",
+          "sha256": "722e1ad12cc0b1916c7b1517688eddeef17f98c53a035d40273e9c74aefd61de"
+        },
+        {
+          "path": "artifacts/verified_output.txt",
+          "purpose": "Recorded numerical replay for the example.",
+          "sha256": "2871eef5bdecfc6f7e384aaef56500c9852440ab63f4473f377e39750c29c3c1"
+        }
+      ],
+      "rationale": "for H=diag(0,0,M), A=(1,0,0), and positive penalty rho, the constrained maximum is M on e3 while e2 is a feasible non-dominant eigenvector. At e2 the penalized eigen-residual, projected feasibility residual, projected KKT residual, and repeated outer Rayleigh change are all exactly zero, while the extremal error equals M. A nearby feasible vector with e3 component delta has residual M delta sqrt(1-delta squared) and error tending to M. Independent numerical algebra at M=7, rho=0.3 reproduced these identities.",
+      "residual_risks": [],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Small residuals failing to identify extreme eigenvalues are classical prior art, so no novelty is claimed for that general principle. No located source gives the PSM-specific zero-residual counterexample, identifies the displayed initialization versus Split-Merge overlap-hypothesis gap, proves the robust PSM residual/error separation, or states the penalty-duality bracket repair. The claim is explicitly limited to the best of our knowledge.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "Classical literature says small Ritz residual need not identify an extreme eigenvalue, but it does not instantiate the PSM projected stopping suite or the penalty-duality repair."
+        ],
+        "reasoning": "General prior principles motivate the failure but do not cover the specific interface/certificate claim.",
+        "searches": [
+          "Parlett Lanczos misconvergence",
+          "van Dorsselaer–Hochstenbach–van der Vorst 2001",
+          "Resultary PSM residual search"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.18538",
+        "https://github.com/Resultary/2026"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The source algorithm permits an arbitrary unit initial vector, while the inner convergence guarantee assumes dominant overlap; the e2 construction exploits that documented gap."
+        ],
+        "reasoning": "The PSM-specific statement is not itself stated by the prior sources, although it uses a classical spectral-index principle.",
+        "searches": [
+          "Wang–Xia Algorithm 1 and equations defining four stopping tests",
+          "Split–Merge dominant-overlap condition"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The primary PSM full text was inspected at its projected residual definitions and Algorithm 1; the counterexample shows those tests certify stationarity but not the requested spectral index."
+        ],
+        "reasoning": "The exact PSM-specific zero-residual false certificate is the pertinent equivalent statement.",
+        "searches": [
+          "Resultary: PSM projected certification residual extremal eigenpair zero residual false positive",
+          "Wang–Xia arXiv:2609.18538",
+          "Split–Merge arXiv:2501.15131"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No exact database/table is relevant; the counterexample is symbolic for every M≥1."
+        ],
+        "reasoning": "Database/table comparison is specifically inapplicable.",
+        "searches": [
+          "Resultary constrained eigenvalue certification"
+        ]
+      },
+      "rationale": "the primary Wang–Xia paper was inspected through its full HTML text. Its projected certification explicitly accepts when the four residual tests pass, while its algorithm permits an arbitrary unit start; it does not include an extremal-index enclosure in the stopping test. Resultary searches found the present counterexample and later follow-up work but no earlier source stating this zero-residual PSM failure.",
+      "residual_risks": [
+        "The exact bad initialization is nongeneric under randomized starts.",
+        "A future revision of the source method could add a dominance certificate and remove this failure mode."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Compared against the final statement and implication scope.",
+          "evidence": "Primary full HTML inspected, especially Sections 4.1–4.4: equations (27), (33), (34) and Algorithm 1 show the residual acceptance suite and arbitrary unit initialization.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.18538",
+          "material_read": "Primary full HTML inspected, especially Sections 4.1–4.4: equations (27), (33), (34) and Algorithm 1 show the residual acceptance suite and arbitrary unit initialization.",
+          "method": "full text where stated; otherwise primary abstract/search result as stated",
+          "title": "Wang and Xia, The Projected Hessian Quantification Theorem: An Exact Duality for Constrained Eigenvalues",
+          "trigger": "High relevance to the final claim or originality boundary."
+        },
+        {
+          "assessment": "Compared against the final statement and implication scope.",
+          "evidence": "Searched PSM certification, residual, extremal index, and false-positive formulations; no prior covering result was found.",
+          "identifier_or_url": "https://github.com/Resultary/2026",
+          "material_read": "Searched PSM certification, residual, extremal index, and false-positive formulations; no prior covering result was found.",
+          "method": "full text where stated; otherwise primary abstract/search result as stated",
+          "title": "Resultary search",
+          "trigger": "High relevance to the final claim or originality boundary."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The source framework uses the four residual tests as projected certification and reports runs satisfying them as certified. The counterexample distinguishes local stationarity from the requested spectral index and supplies a direct index-sensitive repair compatible with the same penalty duality, which is consequential for a posteriori correctness claims in matrix-free extremal eigensolvers.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.18538",
+        "https://github.com/Resultary/2026"
+      ],
+      "rationale": "an exact counterexample to the stopping certificate of a newly proposed extremal-eigenpair method is a motivated boundary result. The accompanying extremality-bracket repair isolates what the residual suite does and does not certify.",
+      "residual_risks": [],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-17",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disposition": "passed",
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": "The exact trajectory uses an initialization orthogonal to the desired dominant eigenvector, a measure-zero event under an absolutely continuous random start. The result establishes deterministic certification failure and a residual-versus-extremality obstruction; it does not dispute projected-Hessian penalty duality or prove positive-probability failure under randomized initialization.",
+  "previously_published_pending_reaudit": false,
+  "reproducibility": "Independent algebra at M=7 and rho=0.3 gives zero inner and projected KKT residuals at e2, constrained-value error 7, and for delta=1e-8 residual 6.999999999999999e-8, matching M delta sqrt(1-delta squared).",
+  "review_type": "independent_audit",
+  "same_model_review": {
+    "note": "The earlier same-model scientific assessment is preserved by its source blob identity and remains distinct from this fresh assessment.",
+    "source_audit_blob_sha": "a8a64e6f45d0ffd899a26e71e262c37fcefbce68",
+    "status": "passed"
+  },
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

@@ -1,27 +1,142 @@
 {
+  "audited_at_utc": "2026-10-01T17:55:11Z",
   "axes": {
     "correctness": {
-      "rationale": "Parity makes n a square, the parameter prime is excluded from tau(n) by the quadratic nonresidue of -1, every other prime divisor of tau(n) forces exact multiplicative order 2 p^k, and the order-of-a-power formula bootstraps all exponents to divisibility by arbitrarily high powers of 2 p^k.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "M. Abel, H. Lauer, E. Redi, About the number of tau-numbers relative to polynomials with integer coefficients, ACUTM 25 (2021), full text inspected.",
+        "E.-M. Muttika, Results about tau-numbers relative to polynomials, University of Tartu thesis (2023), full text inspected.",
+        "Published-record semantic search for relative tau-numbers of cyclotomic polynomials and the polynomial \\(x^2-x+1\\)."
+      ],
+      "rationale": "If \\(\\tau(n)\\) divides \\(\\Phi_{2p^k}(n)\\), parity makes \\(\\tau(n)\\) odd and hence \\(n\\) a square. A common prime divisor of \\(n\\) and \\(\\tau(n)\\) is impossible because the cyclotomic value is one modulo that prime. If the parameter prime \\(p\\) divided \\(\\tau(n)\\), the cyclotomic reduction modulo \\(p\\) would force \\(n\\equiv-1\\pmod p\\), contradicting that \\(n\\) is a square when \\(p\\equiv3\\pmod4\\). Every other prime \\(\\ell\\mid\\tau(n)\\) gives exact order \\(2p^k\\) for \\(n\\) modulo \\(\\ell\\). This makes every exponent in \\(n\\) divisible by \\(2p^k\\); iterating the order-of-a-power formula forces divisibility by arbitrarily high powers and hence \\(n=1\\). The same prime-divisor argument applies to positive powers of the cyclotomic polynomial. A fresh bounded search over representative prime powers found no nontrivial counterexample.",
+      "residual_risks": [
+        "The finite search is only a consistency check; the infinite statement follows from the order bootstrap."
+      ],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "The 2021 source leaves x^2-x+1 at a finite computation through 10^8 and the 2023 thesis still treats the type-II problem as unresolved. Searches found no theorem covering Phi_{2 p^k} for p congruent to 3 mod 4. Originality is to the best of our knowledge; an unspecified in-preparation article mentioned in the 2023 thesis is a material residual risk.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "The 2021 theorem gives infinitely many relative tau-numbers when \\(|Q(0)Q(1)|\\ne1\\), whereas the current family lies in the complementary type-II regime.",
+          "The thesis continues to treat type-II behavior as unresolved."
+        ],
+        "reasoning": "The known general theorem applies to the opposite constant-term regime and therefore does not dominate this uniqueness theorem.",
+        "searches": [
+          "Abel--Lauer--Redi 2021 type-II classification discussion",
+          "Muttika 2023 thesis"
+        ]
+      },
+      "checked_sources": [
+        "M. Abel, H. Lauer, E. Redi, About the number of tau-numbers relative to polynomials with integer coefficients, ACUTM 25 (2021), full text inspected.",
+        "E.-M. Muttika, Results about tau-numbers relative to polynomials, University of Tartu thesis (2023), full text inspected.",
+        "Published-record semantic search for relative tau-numbers of cyclotomic polynomials and the polynomial \\(x^2-x+1\\)."
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Neither source supplies the infinite order-bootstrap argument.",
+          "The unnamed in-preparation article is too unspecified to establish actual mathematical coverage."
+        ],
+        "reasoning": "The final claim is not mechanically implied by the identified literature; the unidentified source remains an explicit residual risk rather than fabricated coverage or noncoverage.",
+        "searches": [
+          "2021 finite computation versus multiplicative-order bootstrap",
+          "2023 thesis open-problem discussion"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The exact published-record hit was the assigned finding.",
+          "The 2021 paper records the quadratic specialization only as a finite computation."
+        ],
+        "reasoning": "The quadratic divisibility problem is exactly the \\(p=3,k=1\\) member, so any prior proof there would cover a special case; no such proof was located.",
+        "searches": [
+          "Resultary semantic query: tau numbers relative to cyclotomic Phi doubled odd prime power unique n equals one",
+          "Searches for the specialization \\(\\tau(n)\\mid n^2-n+1\\)"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "The older table found no nontrivial solution for the quadratic example but did not prove impossibility.",
+          "The package computation similarly supplies only bounded corroboration."
+        ],
+        "reasoning": "Finite nonexistence tables cannot imply the universal uniqueness statement.",
+        "searches": [
+          "Abel--Lauer--Redi computational table through one hundred million",
+          "Package consistency search through one million for several parameter pairs"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality passes. Abel--Lauer--Redi explicitly report only a computation through one hundred million for \\(x^2-x+1\\) and leave the type-II behavior open. Muttika's later thesis still describes the general problem as unresolved, while flagging an unidentified article then in preparation. No identified indexed source covering the present cyclotomic family was found.",
+      "residual_risks": [
+        "The 2023 thesis mentions, without title, authors, identifier, or class description, an article then in preparation about a class of polynomials having only the relative tau-number one; possible overlap cannot be excluded.",
+        "No claim is made for primes congruent to one modulo four."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Does not cover the theorem; the quadratic case is computational only.",
+          "evidence": "The article reports no nontrivial relative tau-number for \\(x^2-x+1\\) up to one hundred million and does not prove uniqueness.",
+          "identifier_or_url": "https://doi.org/10.12697/ACUTM.2021.25.07",
+          "material_read": "Full primary article, including the type-II computation and open-problem discussion",
+          "method": "Primary full-text inspection",
+          "title": "About the number of tau-numbers relative to polynomials with integer coefficients",
+          "trigger": "Foundational paper stating the type-II problem and the exact quadratic example"
+        },
+        {
+          "assessment": "Confirms continued open status but introduces a material unidentified-source risk.",
+          "evidence": "The thesis says an article in preparation described some class with only the relative tau-number one, without identifying the class or publication.",
+          "identifier_or_url": "https://dspace.ut.ee/bitstreams/df20b790-5ecb-488b-99e6-202b65ac8a7a/download",
+          "material_read": "Full thesis, including its introductory literature note",
+          "method": "Primary full-text inspection",
+          "title": "Results about tau-numbers relative to polynomials",
+          "trigger": "Later work on the same unresolved type-II regime"
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The theorem proves the previously computational x^2-x+1 case and places it in an infinite cyclotomic family of nonconstant type-II polynomials with exactly one relative tau-number, using a reusable multiplicative-order bootstrap.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "M. Abel, H. Lauer, E. Redi, About the number of tau-numbers relative to polynomials with integer coefficients, ACUTM 25 (2021), full text inspected.",
+        "E.-M. Muttika, Results about tau-numbers relative to polynomials, University of Tartu thesis (2023), full text inspected.",
+        "Published-record semantic search for relative tau-numbers of cyclotomic polynomials and the polynomial \\(x^2-x+1\\)."
+      ],
+      "rationale": "The theorem upgrades a prominently reported finite computation for \\(x^2-x+1\\) to a proof and embeds it in an infinite cyclotomic family. The multiplicative-order bootstrap is a structural mechanism that can guide further type-II classification.",
+      "residual_risks": [
+        "The 2023 thesis mentions, without title, authors, identifier, or class description, an article then in preparation about a class of polynomials having only the relative tau-number one; possible overlap cannot be excluded.",
+        "No claim is made for primes congruent to one modulo four."
+      ],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Same-model review: passed. Independent audit: not yet performed.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-20",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disposition": "passed",
+  "evidence": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "final_claim": "For every odd prime \\(p\\equiv3\\pmod4\\) and every \\(k\\ge1\\), the cyclotomic polynomial \\(\\Phi_{2p^k}\\) has exactly one relative tau-number, namely \\(1\\); the same uniqueness holds for every positive power of that polynomial.",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "The theorem does not classify primes congruent to one modulo four. Originality is best-of-knowledge; a 2023 thesis mentions an unidentified article then in preparation about a possibly overlapping uniqueness class."
+  ],
+  "previously_published_pending_reaudit": false,
+  "record_id": "SCOPE-20260920-82452a44ee00",
+  "review_type": "independent_audit",
+  "same_model_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "The original review accepted the parity, multiplicative-order, and infinite divisibility bootstrap.",
+        "status": "PASS"
+      },
+      "originality": {
+        "rationale": "The original review distinguished the proof from the prior finite quadratic computation while retaining the unidentified-source risk.",
+        "status": "PASS"
+      },
+      "value": {
+        "rationale": "The original review valued the proof of the quadratic case and its infinite cyclotomic extension.",
+        "status": "PASS"
+      }
+    },
+    "reviewed_at": "2026-09-20",
+    "status": "passed"
+  },
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

@@ -1,0 +1,110 @@
+{
+  "acceptance_rule": "Correctness, originality, and value must all pass.",
+  "audited_at_utc": "2026-10-01T14:43:49Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "assigned RESULT.md at the frozen tree",
+        "artifacts/verify_arithmetic.py and verify_output.txt",
+        "Kobayashi--Lin--Swernofsky, arXiv:2609.20075"
+      ],
+      "rationale": "The reduction was reconstructed from the source construction. Padding the sparse tripartite instance by disjoint forced triangles to a prime part size \\(p\\) preserves the degree/incidence promises and triangle-partition feasibility. The source marker construction then uses \\(m_v\\), a product of one to three distinct marker primes \\(r_T>p\\), and periods \\(pm_v\\) and \\(3pm_v\\). These are odd, squarefree, and have at most four/five prime factors. Every marker occurs in some witness period, \\(3\\) occurs in cell periods, and witness periods omit \\(3\\), so the LCM is \\(3p\\prod_T r_T\\) and the GCD is \\(p\\). The per-vertex density is exactly \\(1/(3p)\\), and prime padding changes the source size only by a constant factor. The inspected arithmetic verifier confirms these identities on representative primes but is not used as the complexity proof.",
+      "residual_risks": [
+        "The argument assumes the sparse source instance has at least one triangle incident to every vertex, exactly as in the source promise."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Classical squarefree covering-system results concern existence/structure, often with distinct moduli, rather than scheduling NP-hardness.",
+          "The source hardness theorem permits arbitrary part-size factor \\(n\\)."
+        ],
+        "reasoning": "Neither source dominates the restricted arithmetic hardness theorem.",
+        "searches": [
+          "NP-hardness pinwheel bounded prime support",
+          "squarefree exact covering systems"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.20075",
+        "https://arxiv.org/abs/1901.11465",
+        "published-results semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The source reduction alone does not guarantee the factor \\(n\\) is odd or squarefree. The audited construction alters the source instance by forced dummy triangles to make \\(n=p\\) prime while preserving the decision problem."
+        ],
+        "reasoning": "This is a new reduction refinement, not a parameter substitution inside a fixed output instance.",
+        "searches": [
+          "Kobayashi--Lin--Swernofsky reduction plus prime padding"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The 2026 source abstract states unary NP-completeness from sparse tripartite triangle partition without these arithmetic restrictions.",
+          "A detailed public review of the source confirms the \\(m_v\\) marker products and periods \\(nm_v,3nm_v\\)."
+        ],
+        "reasoning": "Equivalent exact-covering-system language was searched; no hardness theorem with all audited restrictions was located.",
+        "searches": [
+          "Dense Pinwheel Packing odd squarefree periods",
+          "pinwheel exact covering odd moduli squarefree",
+          "source marker-prime reduction"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No finite database determines complexity under these infinite arithmetic restrictions."
+        ],
+        "reasoning": "The database/table check is inapplicable to a reduction theorem; only theorem-level coverage is relevant.",
+        "searches": [
+          "covering-system squarefree-moduli databases",
+          "pinwheel benchmark instances"
+        ]
+      },
+      "rationale": "The source hardness theorem establishes unary NP-completeness but does not state odd/squarefree or bounded-prime-support restrictions. Its published reduction exposes marker products \\(m_v\\) and periods \\(nm_v,3nm_v\\); the audited prime-padding step changes the source instance so that the common factor itself is a new odd prime. Searches for pinwheel hardness with odd/squarefree moduli and equivalent exact-covering restrictions found no earlier theorem.",
+      "residual_risks": [
+        "The source preprint is very recent and a later revision could independently add the same prime-padding observation."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Supplies the hardness backbone and periods \\(nm_v,3nm_v\\), but not the prime-padding arithmetic restriction.",
+          "evidence": "The public description defines \\(m_v\\) as a product of triangle marker primes and gives exactly those periods.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.20075",
+          "material_read": "Primary abstract plus detailed public exposition of the marker-prime reduction.",
+          "method": "Direct source lookup and reduction comparison.",
+          "title": "Dense Pinwheel Packing Is Strongly NP-Complete",
+          "trigger": "Exact source reduction being refined."
+        },
+        {
+          "assessment": "Structural covering-system theorem, not a pinwheel hardness result and typically concerns distinct moduli.",
+          "evidence": "It does not imply computational hardness for repeated-task explicit lists.",
+          "identifier_or_url": "https://arxiv.org/abs/1901.11465",
+          "material_read": "Abstract and theorem context.",
+          "method": "Literature comparison.",
+          "title": "The Erdős--Selfridge problem with square-free moduli",
+          "trigger": "Closest squarefree exact-covering literature."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Kobayashi--Lin--Swernofsky 2026",
+        "squarefree covering-system literature"
+      ],
+      "rationale": "The result removes three plausible arithmetic sources of hardness at once: parity, repeated prime powers, and large prime support. It places strong NP-completeness inside the divisor lattice of one odd squarefree integer with at most five prime coordinates per task, a natural structural boundary for the exact-covering interpretation.",
+      "residual_risks": [
+        "The constant five is not shown optimal, and equal task periods remain essential."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "final_claim": "Dense Pinwheel Packing remains NP-complete under unary encoding even when every period is odd and squarefree with at most five prime factors, the global least common multiple is odd and squarefree, and the global greatest common divisor is an odd prime.",
+  "limitations": [
+    "Equal periods remain allowed as distinct tasks, as in the source problem.",
+    "The result does not address distinct-modulus covering systems and does not prove that five prime factors is optimal.",
+    "The reduction is a refinement of a very recent hardness construction, so near-simultaneous priority is a material residual risk."
+  ]
+}

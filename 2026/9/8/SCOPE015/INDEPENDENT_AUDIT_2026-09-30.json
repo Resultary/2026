@@ -1,0 +1,101 @@
+{
+  "audited_at_utc": "2026-09-30T21:44:25Z",
+  "axes": {
+    "correctness": {
+      "rationale": "Independent enumeration of all 8! column permutations gives exactly 64 and 192 transversals for the two committed Latin squares. Independent ordered-triple K3,3-pattern checks give zero hits for each. The displayed eight transversal classes for each square partition all 64 cells, so the packing number attains the absolute upper bound 8 and the induced mate is orthogonal.",
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The primary paper's broader classification supplies the two classes but not the claimed refined table.",
+          "Later Resultary records concern other orders/classes and do not dominate this two-member order-8 refinement."
+        ],
+        "reasoning": "A classification of the underlying class does not mechanically imply transversal totals or mate existence without further enumeration.",
+        "searches": [
+          "Krotov–Krotov arXiv:2304.07157 sections on order-8 classes and orthogonal pairs",
+          "Resultary search for Latin-square mate/transversal censuses"
+        ]
+      },
+      "checked_sources": [
+        "Krotov–Krotov, arXiv:2304.07157",
+        "Resultary published-record search",
+        "targeted exact web search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The prior classification fixes the objects; the standard equivalence converts the newly exhibited partitions to mate existence but does not supply those partitions."
+        ],
+        "reasoning": "The prior results do not imply the specific counts or exhibit the required partitions.",
+        "searches": [
+          "Krotov–Krotov arXiv:2304.07157",
+          "standard mate iff disjoint-transversal partition theorem"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Resultary's exact-topic hit is this record; other returned records concern different Latin-square classes.",
+          "Krotov–Krotov identify exactly two order-8 K3,3-free main classes and display representatives; their discussion of transversals/orthogonal pairs does not state the 64/192 counts or these two mate verdicts."
+        ],
+        "reasoning": "The mate claim is equivalent to a partition into eight disjoint transversals, while the exact total transversal counts are stronger numerical invariants; both were compared directly.",
+        "searches": [
+          "Resultary semantic search: K3,3-free Latin squares order 8 transversal counts 64 192 orthogonal mate",
+          "Krotov–Krotov arXiv:2304.07157 full text"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No independent exact table with the pair 64/192 and both mates was located."
+        ],
+        "reasoning": "The exact numerical table appears absent from the checked sources; unsuccessful search is treated only as best-of-knowledge evidence.",
+        "searches": [
+          "Exact web search: K3,3-free orthogonal mate Latin square order 8",
+          "Resultary exact-topic search"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality passes after statement-level comparison; no checked source covers or mechanically implies the full final claim.",
+      "residual_risks": [
+        "The representatives were reconstructed from a published figure rather than machine files; the audit verifies the committed arrays themselves.",
+        "Best-of-knowledge originality cannot exclude an unindexed table."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Provides class completeness and representatives; no checked passage gives the 64/192 transversal table or both mate verdicts.",
+          "evidence": "The paper states exactly two order-8 K3,3-free main classes and separately discusses orthogonal pairs for the order-16 construction.",
+          "identifier_or_url": "arXiv:2304.07157",
+          "material_read": "Abstract, order-8 classification discussion, Figure-1 locator, transversal discussion, and orthogonal-pair section",
+          "method": "Full-text PDF inspection",
+          "title": "Do K3,3-free Latin squares exist?",
+          "trigger": "Same objects and complete order-8 classification"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Krotov–Krotov, arXiv:2304.07157",
+        "Resultary published-record search",
+        "targeted exact web search"
+      ],
+      "rationale": "The two squares are the complete exceptional order-8 K3,3-free class, so determining both their exact transversal counts and mate existence gives natural structure on a motivated finite classification, rather than an arbitrary slice.",
+      "residual_risks": [
+        "The representatives were reconstructed from a published figure rather than machine files; the audit verifies the committed arrays themselves.",
+        "Best-of-knowledge originality cannot exclude an unindexed table."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "final_claim": "Transversal packing and mates for the two K3,3-free order-8 Latin squares",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "Array-conditional verification is exact; identification with the published representatives relies on the figure reconstruction.",
+    "Class completeness is taken from Krotov–Krotov rather than re-proved."
+  ],
+  "record_id": "SCOPE-20260908-015",
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
+}

@@ -1,0 +1,145 @@
+{
+  "audit_date_utc": "2026-10-01",
+  "audited_at_utc": "2026-10-01T22:52:03Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "M. M. Ghabries, H. Abbas, B. Mourad, On some open questions concerning determinantal inequalities, Linear Algebra and its Applications 596 (2020).",
+        "M. M. Ghabries, Contributions to Matrix Inequalities and Some Applications, PhD thesis (2022).",
+        "M. M. Ghabries, A log-majorization inequality for normal matrices with applications to determinantal inequalities and geometric means, arXiv:2607.21163.",
+        "Published-record semantic query: 2x2 determinant phase law AB BA matrices determinant trace orientation complex phase."
+      ],
+      "rationale": "After unitary diagonalization \\(A=\\operatorname{diag}(a,b)\\), the positive matrices \\(X=BA^2B\\) and \\(Y=AB^2A\\) are respectively \\((AB)^*(AB)\\) and \\((AB)(AB)^*\\), so they have the same two eigenvalues. In dimension two, \\(T^{p/2}=\\alpha_pT+\\beta_pI\\) for either matrix with the same divided difference \\(\\alpha_p\\). A direct determinant expansion then gives exactly \\(\\alpha_p|z|^2(b^2-a^2)(b^k-a^k)\\). Fresh numerical checks on noncommuting Hermitian examples with positive and negative exponents reproduced both the formula and the sign law to floating-point precision. The equality analysis also closes: spectral degeneracy together with the explicit \\(X-Y\\) formula forces commutation unless \\(A\\) is scalar.",
+      "residual_risks": [],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The closest broader sources cover ingredients, restricted parameter regimes, or background models but do not imply the audited final claim."
+        ],
+        "reasoning": "The primary determinant literature proves the \\(k=2\\) Hermitian inequality and several restricted exponent ranges. Ghabries’s 2022 thesis treats these questions and leaves the broader comparison conjectural, while the 2026 normal-matrix log-majorization extension proves a different higher-dimensional inequality. Targeted searches and the published-record corpus did not locate the exact two-dimensional all-real-exponent phase formula or a theorem implying it. The two-dimensional affine functional calculus is the key extra step, not a title-level reformulation of the known \\(k=2\\) result.",
+        "searches": [
+          "M. M. Ghabries, H. Abbas, B. Mourad, On some open questions concerning determinantal inequalities, Linear Algebra and its Applications 596 (2020).",
+          "M. M. Ghabries, Contributions to Matrix Inequalities and Some Applications, PhD thesis (2022).",
+          "M. M. Ghabries, A log-majorization inequality for normal matrices with applications to determinantal inequalities and geometric means, arXiv:2607.21163."
+        ]
+      },
+      "checked_sources": [
+        "M. M. Ghabries, H. Abbas, B. Mourad, On some open questions concerning determinantal inequalities, Linear Algebra and its Applications 596 (2020).",
+        "M. M. Ghabries, Contributions to Matrix Inequalities and Some Applications, PhD thesis (2022).",
+        "M. M. Ghabries, A log-majorization inequality for normal matrices with applications to determinantal inequalities and geometric means, arXiv:2607.21163.",
+        "Published-record semantic query: 2x2 determinant phase law AB BA matrices determinant trace orientation complex phase."
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The closest broader sources cover ingredients, restricted parameter regimes, or background models but do not imply the audited final claim."
+        ],
+        "reasoning": "The inspected prior statements do not mechanically imply the audited final claim; the additional argument identified in the correctness reconstruction is substantive enough for this claim.",
+        "searches": [
+          "M. M. Ghabries, H. Abbas, B. Mourad, On some open questions concerning determinantal inequalities, Linear Algebra and its Applications 596 (2020).",
+          "M. M. Ghabries, Contributions to Matrix Inequalities and Some Applications, PhD thesis (2022)."
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "No inspected exact source or database entry states the audited final claim in an equivalent formulation."
+        ],
+        "reasoning": "The primary determinant literature proves the \\(k=2\\) Hermitian inequality and several restricted exponent ranges. Ghabries’s 2022 thesis treats these questions and leaves the broader comparison conjectural, while the 2026 normal-matrix log-majorization extension proves a different higher-dimensional inequality. Targeted searches and the published-record corpus did not locate the exact two-dimensional all-real-exponent phase formula or a theorem implying it. The two-dimensional affine functional calculus is the key extra step, not a title-level reformulation of the known \\(k=2\\) result.",
+        "searches": [
+          "Published-record semantic query: 2x2 determinant phase law AB BA matrices determinant trace orientation complex phase.",
+          "M. M. Ghabries, H. Abbas, B. Mourad, On some open questions concerning determinantal inequalities, Linear Algebra and its Applications 596 (2020)."
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No decisive exact database/table coverage was found; where the claim is theorem-level, the primary literature comparison is the controlling check."
+        ],
+        "reasoning": "The primary determinant literature proves the \\(k=2\\) Hermitian inequality and several restricted exponent ranges. Ghabries’s 2022 thesis treats these questions and leaves the broader comparison conjectural, while the 2026 normal-matrix log-majorization extension proves a different higher-dimensional inequality. Targeted searches and the published-record corpus did not locate the exact two-dimensional all-real-exponent phase formula or a theorem implying it. The two-dimensional affine functional calculus is the key extra step, not a title-level reformulation of the known \\(k=2\\) result.",
+        "searches": [
+          "Published-record semantic corpus"
+        ]
+      },
+      "rationale": "The primary determinant literature proves the \\(k=2\\) Hermitian inequality and several restricted exponent ranges. Ghabries’s 2022 thesis treats these questions and leaves the broader comparison conjectural, while the 2026 normal-matrix log-majorization extension proves a different higher-dimensional inequality. Targeted searches and the published-record corpus did not locate the exact two-dimensional all-real-exponent phase formula or a theorem implying it. The two-dimensional affine functional calculus is the key extra step, not a title-level reformulation of the known \\(k=2\\) result.",
+      "residual_risks": [
+        "Older low-dimensional determinant-inequality literature could contain an equivalent formula under different notation; no such implication was found."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING",
+          "evidence": "The thesis records the broader determinant problem and partial ranges but not the audited all-real-exponent \\(2\\times2\\) phase identity.",
+          "identifier_or_url": "HAL thesis tel-03936351 / PhD thesis, 2022",
+          "material_read": "full thesis text around the determinant conjectures, Hermitian cases, exponent ranges, and open comparison statements",
+          "method": "lawful full-text inspection",
+          "title": "Contributions to Matrix Inequalities and Some Applications",
+          "trigger": "same determinant comparison family and closest comprehensive primary source"
+        },
+        {
+          "assessment": "DIFFERENT_IMPLICATION",
+          "evidence": "The normal-matrix result addresses a different determinant comparison and does not imply the exact \\(2\\times2\\) phase law for arbitrary real \\(k,p\\).",
+          "identifier_or_url": "arXiv:2607.21163",
+          "material_read": "abstract and theorem-level description of the normal-matrix extension",
+          "method": "lawful arXiv inspection",
+          "title": "A log-majorization inequality for normal matrices with applications to determinantal inequalities and geometric means",
+          "trigger": "recent plausible broader coverage"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "M. M. Ghabries, H. Abbas, B. Mourad, On some open questions concerning determinantal inequalities, Linear Algebra and its Applications 596 (2020).",
+        "M. M. Ghabries, Contributions to Matrix Inequalities and Some Applications, PhD thesis (2022).",
+        "M. M. Ghabries, A log-majorization inequality for normal matrices with applications to determinantal inequalities and geometric means, arXiv:2607.21163.",
+        "Published-record semantic query: 2x2 determinant phase law AB BA matrices determinant trace orientation complex phase."
+      ],
+      "rationale": "The theorem gives a sharp equality/sign boundary for a concrete open determinant-comparison family and resolves both positive and negative exponent regimes in dimension two. A complete low-dimensional boundary theorem for a live matrix inequality is mathematically motivated and useful even though it does not settle higher dimensions.",
+      "residual_risks": [],
+      "status": "PASS"
+    }
+  },
+  "checked_sources": [
+    "M. M. Ghabries, H. Abbas, B. Mourad, On some open questions concerning determinantal inequalities, Linear Algebra and its Applications 596 (2020).",
+    "M. M. Ghabries, Contributions to Matrix Inequalities and Some Applications, PhD thesis (2022).",
+    "M. M. Ghabries, A log-majorization inequality for normal matrices with applications to determinantal inequalities and geometric means, arXiv:2607.21163.",
+    "Published-record semantic query: 2x2 determinant phase law AB BA matrices determinant trace orientation complex phase."
+  ],
+  "disclaimer": "Mathematical audit; not formal proof-assistant verification and not a guarantee of priority.",
+  "disposition": "passed",
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json",
+    "REVIEW.md"
+  ],
+  "record_id": "SCOPE-20260921-f7e2a68c2439",
+  "record_title": "A two-dimensional phase law for determinant comparisons of |AB| and |BA|",
+  "residual_risks": [
+    "Older low-dimensional determinant-inequality literature could contain an equivalent formula under different notation; no such implication was found."
+  ],
+  "schema_version": 1,
+  "scientific_limitations": [
+    "The theorem is genuinely two-dimensional and does not settle the higher-dimensional conjecture.",
+    "Older low-dimensional determinant-inequality literature could contain an equivalent formula under different notation; no such implication was found."
+  ],
+  "source_inspections": [
+    {
+      "assessment": "NOT_COVERING",
+      "evidence": "The thesis records the broader determinant problem and partial ranges but not the audited all-real-exponent \\(2\\times2\\) phase identity.",
+      "identifier_or_url": "HAL thesis tel-03936351 / PhD thesis, 2022",
+      "material_read": "full thesis text around the determinant conjectures, Hermitian cases, exponent ranges, and open comparison statements",
+      "method": "lawful full-text inspection",
+      "title": "Contributions to Matrix Inequalities and Some Applications",
+      "trigger": "same determinant comparison family and closest comprehensive primary source"
+    },
+    {
+      "assessment": "DIFFERENT_IMPLICATION",
+      "evidence": "The normal-matrix result addresses a different determinant comparison and does not imply the exact \\(2\\times2\\) phase law for arbitrary real \\(k,p\\).",
+      "identifier_or_url": "arXiv:2607.21163",
+      "material_read": "abstract and theorem-level description of the normal-matrix extension",
+      "method": "lawful arXiv inspection",
+      "title": "A log-majorization inequality for normal matrices with applications to determinantal inequalities and geometric means",
+      "trigger": "recent plausible broader coverage"
+    }
+  ],
+  "verification_state": "independently_reviewed"
+}

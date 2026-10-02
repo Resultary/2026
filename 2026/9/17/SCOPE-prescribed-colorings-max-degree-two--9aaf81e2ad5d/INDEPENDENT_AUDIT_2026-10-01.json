@@ -1,0 +1,135 @@
+{
+  "audit_date_utc": "2026-10-01",
+  "audited_at_utc": "2026-10-01T06:51:54.979238Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "2026/09/17/prescribed-colorings-max-degree-two--9aaf81e2ad5d",
+        "artifacts/check_degree2_prescribed.py",
+        "artifacts/check_degree2_prescribed.out"
+      ],
+      "rationale": "the component lemma for paths and cycles realizes every multiplicity vector bounded by the component independence number. The global max-flow reduction has singleton cuts equal to the independence bound, two-color cuts equal to the total order minus the number of odd-cycle components, and all larger cuts automatic. An independent exhaustive check over every unlabeled path/cycle component multiset through order 9 tested 3,885 graph/partition cases and matched the theorem in every case.",
+      "residual_risks": [],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Birken gives skewed-colouring sufficient conditions; the related SCOPE result covers the bipartite Δ≤2 special case; neither implies the full odd-cycle pair constraint."
+        ],
+        "reasoning": "Closest coverage is weaker or restricted, not dominating.",
+        "searches": [
+          "Birken arXiv:2609.18629",
+          "Matherne–Morales–Selover arXiv:2201.07333",
+          "Resultary SCOPE-skewed-hajnal-szemeredi-maximum-degree-two"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.18629",
+        "https://doi.org/10.1006/aima.1995.1020",
+        "https://github.com/Resultary/2026"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "General CSF/Newton-polytope language does not yield the two obstructions; the max-flow proof supplies the missing sufficiency."
+        ],
+        "reasoning": "The claim is not mechanically implied by the inspected general frameworks.",
+        "searches": [
+          "Stanley chromatic symmetric function framework",
+          "arXiv:2201.07333",
+          "arXiv:2609.18629"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The theorem is equivalent to an exact stable-partition/monomial-support criterion for Δ≤2 graphs."
+        ],
+        "reasoning": "No prior source located gives the same two-inequality characterization including odd-cycle components.",
+        "searches": [
+          "Resultary: maximum degree two graph prescribed color class sizes chromatic symmetric function stable partition support",
+          "arXiv:2609.18629",
+          "arXiv:2201.07333"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No exact database/table of all feasible profiles was found; the claim is uniform over all finite Δ≤2 graphs."
+        ],
+        "reasoning": "Not a known-table recomputation.",
+        "searches": [
+          "Resultary stable partition support maximum degree two"
+        ]
+      },
+      "rationale": "Birken's recent skewed Hajnal–Szemerédi theorem gives a sufficient bounded-class condition, not this exact if-and-only-if support description. A related same-day SCOPE result isolates the bipartite maximum-degree-two special case; it does not imply the odd-cycle pair obstruction or the full stable-partition support. Targeted Resultary and web searches found no earlier equivalent characterization.",
+      "residual_risks": [
+        "The originality search can miss older literature phrased in terms of stable partitions rather than prescribed color classes."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Compared against the final statement and implication scope.",
+          "evidence": "Primary metadata/abstract inspected; it gives the recent general sufficient prescribed-size theorem motivating the record.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.18629",
+          "material_read": "Primary metadata/abstract inspected; it gives the recent general sufficient prescribed-size theorem motivating the record.",
+          "method": "full text where stated; otherwise primary abstract/search result as stated",
+          "title": "Birken, A Hajnal-Szemerédi Theorem for Skewed Colorings",
+          "trigger": "High relevance to the final claim or originality boundary."
+        },
+        {
+          "assessment": "Compared against the final statement and implication scope.",
+          "evidence": "Primary background source for the chromatic symmetric function.",
+          "identifier_or_url": "https://doi.org/10.1006/aima.1995.1020",
+          "material_read": "Primary background source for the chromatic symmetric function.",
+          "method": "full text where stated; otherwise primary abstract/search result as stated",
+          "title": "Stanley, A Symmetric Function Generalization of the Chromatic Polynomial of a Graph",
+          "trigger": "High relevance to the final claim or originality boundary."
+        },
+        {
+          "assessment": "Compared against the final statement and implication scope.",
+          "evidence": "Searched exact prescribed-coloring, stable-partition, and maximum-degree-two formulations; related records were compared by implication.",
+          "identifier_or_url": "https://github.com/Resultary/2026",
+          "material_read": "Searched exact prescribed-coloring, stable-partition, and maximum-degree-two formulations; related records were compared by implication.",
+          "method": "full text where stated; otherwise primary abstract/search result as stated",
+          "title": "Resultary search",
+          "trigger": "High relevance to the final claim or originality boundary."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.18629",
+        "https://doi.org/10.1006/aima.1995.1020",
+        "https://github.com/Resultary/2026"
+      ],
+      "rationale": "the theorem gives a complete feasibility criterion for an entire natural graph class, converts it into the exact stable-partition support of the chromatic symmetric function, and settles the maximum-degree-two instance of the motivating prescribed-coloring question.",
+      "residual_risks": [],
+      "status": "PASS"
+    }
+  },
+  "checked_sources": [
+    {
+      "inspection": "Primary metadata/abstract inspected; it gives the recent general sufficient prescribed-size theorem motivating the record.",
+      "title": "Birken, A Hajnal-Szemerédi Theorem for Skewed Colorings",
+      "url": "https://arxiv.org/abs/2609.18629"
+    },
+    {
+      "inspection": "Primary background source for the chromatic symmetric function.",
+      "title": "Stanley, A Symmetric Function Generalization of the Chromatic Polynomial of a Graph",
+      "url": "https://doi.org/10.1006/aima.1995.1020"
+    },
+    {
+      "inspection": "Searched exact prescribed-coloring, stable-partition, and maximum-degree-two formulations; related records were compared by implication.",
+      "title": "Resultary search",
+      "url": "https://github.com/Resultary/2026"
+    }
+  ],
+  "disposition": "passed",
+  "limitations": "The theorem is restricted to finite simple graphs of maximum degree at most two. Originality is assessed against the documented searches and inspected recent skewed-coloring work; unrelated formulations could remain under different terminology.",
+  "record_id": "SCOPE-20260917-9aaf81e2ad5d",
+  "reproducibility": "Independent exhaustive enumeration through n=9 covered 189 path/cycle graph types and 3,885 graph/partition cases with no mismatch against the stated inequalities.",
+  "residual_risks": [
+    "The originality search can miss older literature phrased in terms of stable partitions rather than prescribed color classes."
+  ],
+  "schema_version": 1,
+  "status": "passed"
+}

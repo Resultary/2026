@@ -1,27 +1,125 @@
 {
+  "audit_date_utc": "2026-10-01",
   "axes": {
     "correctness": {
-      "rationale": "Primitive divisors at distinct Fibonacci indices provide distinct primes with known ranks of apparition. Lengyel's valuation formula allows their exponent parities to be independently made odd in a common Kishi index, while 5 also occurs to odd exponent. Gauss genus theory then gives the stated 2-rank bound. A Fibonacci gcd argument plus valuation stability reduces any hypothetical finite-field repetition to a fixed squarefree part, and the Fibonacci-Lucas identity then contradicts Siegel finiteness on a nonsingular quartic.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "assigned RESULT.md at the frozen tree",
+        "Kishi 2008 abstract (DOI 10.1016/j.jnt.2008.02.016)",
+        "Chakraborty--Rao--Dabhole arXiv:2609.16678 abstract",
+        "Lengyel valuation formula and Carmichael primitive-divisor theorem as cited in the package"
+      ],
+      "rationale": "For distinct primitive divisors \\(q_i\\mid F_{25r_i}\\), ranks of apparition are the distinct indices \\(25r_i\\). The chosen parity corrections in \\(U_R\\) make each \\(v_{q_i}(F_{25U_RQ})\\) odd, while \\(v_5(F_{25U_RQ})=3\\). Thus the squarefree kernel has at least \\(R+1\\) distinct odd prime divisors and genus theory gives \\(\\operatorname{rk}_2\\operatorname{Cl}\\ge R\\). Since \\(25U_RQ\\equiv25\\pmod{50}\\), Kishi's five-divisibility applies. The infinitude argument is also valid: finite repetition forces a fixed squarefree kernel, whence the Fibonacci--Lucas identity gives infinitely many integral points on a fixed nonsingular genus-one quartic, contradicting Siegel.",
+      "residual_risks": [
+        "Full Kishi 2008 text could not be inspected because institutional retrieval stopped at human verification; this access limitation is not used as novelty evidence."
+      ],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "The inspected 2026 preprint obtains only one genus-theoretic factor of 2 in this Kishi family by forcing 5 and 3001 into the squarefree part. Searches for arbitrary 2-rank, powers-of-two class-number divisibility, and equivalent squarefree-kernel formulations in the same Fibonacci family found no prior coverage. Kishi's 2008 full text was not inspected and remains the principal residual source risk, although its abstract and its main results as reported in later work do not indicate the present theorem.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "Kishi abstract: class numbers of \\(\\mathbf Q(\\sqrt{-F_{50s+25}})\\) are divisible by five; arXiv:2609.16678 abstract: Kishi family is one ingredient in a biquadratic large-class-number construction."
+        ],
+        "reasoning": "Neither accessible statement dominates an arbitrary \\(2\\)-rank lower bound within the Kishi family.",
+        "searches": [
+          "Y. Kishi, J. Number Theory 128 (2008), DOI 10.1016/j.jnt.2008.02.016",
+          "P. Rao, K. Chakraborty, A. Dabhole, arXiv:2609.16678"
+        ]
+      },
+      "checked_sources": [
+        "Kishi 2008 DOI abstract",
+        "arXiv:2609.16678 abstract",
+        "published SCOPE/Resultary index search",
+        "assigned package proof at frozen tree"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Five-divisibility supplies odd-primary information and does not imply unbounded genus-theoretic \\(2\\)-rank. A construction of biquadratic fields from the Kishi family likewise does not, from its accessible statement, imply arbitrary \\(2\\)-rank of the Kishi quadratic factor."
+        ],
+        "reasoning": "No inspected prior statement logically implies the audited theorem.",
+        "searches": [
+          "direct implication comparison with Kishi five-divisibility and the recent biquadratic-family abstract"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The top Resultary match was the audited record itself; no equivalent squarefree-kernel/genus-theory theorem for arbitrary rank appeared in the returned published findings."
+        ],
+        "reasoning": "The claim was compared both as class-group 2-rank and as forcing arbitrarily many independent ramified prime discriminants in squarefree Fibonacci kernels.",
+        "searches": [
+          "Resultary semantic search: Fibonacci imaginary quadratic fields unbounded 2-rank Kishi class number five primitive divisors genus theory",
+          "web search: Kishi Fibonacci 2-rank unbounded squarefree kernel genus theory"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No exact database/table entry giving arbitrary 2-rank in this family was returned."
+        ],
+        "reasoning": "This is not a finite-table claim; database checking was used to detect prior published formulations, not to infer novelty from absence alone.",
+        "searches": [
+          "Resultary query listed above",
+          "targeted web searches for exact family \\(F_{50s+25}\\) with 2-rank/class-group rank"
+        ]
+      },
+      "rationale": "The exact audited claim is an unbounded \\(2\\)-rank theorem inside the same Kishi Fibonacci family, not merely five-divisibility. The accessible Kishi abstract states universal divisibility by five and an unramified quintic extension, while the 2026 Chakraborty--Rao--Dabhole abstract describes use of Kishi's family in a biquadratic construction. Targeted Resultary and literature searches found no earlier arbitrary-rank statement or a stronger theorem implying it. Because Kishi's full article was inaccessible, this remains a best-of-knowledge PASS with a named residual risk.",
+      "residual_risks": [
+        "Kishi 2008 full text was not available for inspection after the authorized retrieval reached human verification."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING on the material actually read; full-text risk remains",
+          "evidence": "Abstract states universal five-divisibility and an unramified cyclic quintic extension, not a 2-rank theorem.",
+          "identifier_or_url": "DOI 10.1016/j.jnt.2008.02.016",
+          "material_read": "Abstract and bibliographic material; full text retrieval could not proceed past human verification",
+          "method": "Open-access search followed by authorized institutional retrieval attempt",
+          "title": "A new family of imaginary quadratic fields whose class number is divisible by five",
+          "trigger": "Same Fibonacci family and principal residual-priority risk"
+        },
+        {
+          "assessment": "NOT_COVERING on accessible material",
+          "evidence": "Abstract describes composition with Kishi family to obtain biquadratic fields with large class numbers.",
+          "identifier_or_url": "arXiv:2609.16678",
+          "material_read": "Primary arXiv abstract",
+          "method": "Open web/arXiv metadata",
+          "title": "An infinite family of imaginary biquadratic fields with a large class number",
+          "trigger": "Recent work using the same Kishi family"
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result upgrades a recent divisibility-by-10 subfamily to infinite subfamilies with arbitrarily large 2-rank and class number divisible by 5*2^R, while preserving the specific Fibonacci-parametrized Kishi family and proving that the constructed fields are genuinely infinite and distinct.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "Kishi family motivation in the 2008 abstract",
+        "recent arXiv:2609.16678 use of the same family"
+      ],
+      "rationale": "The result concerns an already-motivated explicit Fibonacci family with a known uniform class-number divisibility phenomenon and strengthens its \\(2\\)-primary information from a fixed factor to arbitrarily large class-group \\(2\\)-rank on infinite subfamilies. This is a natural structural refinement, not an arbitrary finite computation.",
+      "residual_risks": [
+        "No density or optimal-size statement is proved; value rests on the unbounded structural rank phenomenon itself."
+      ],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Same-model review: passed. Independent audit: not yet performed.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-19",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disclaimer": "Independent mathematical audit; not peer review, formal proof-assistant verification, or a guarantee of first discovery.",
+  "disposition": "passed",
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json",
+    "REVIEW.md"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "previously_published_pending_reaudit": false,
+  "record_id": "SCOPE-20260919-da564dfc32a5",
+  "record_title": "Unbounded 2-rank inside Kishi's Fibonacci class-number-five family",
+  "review_type": "independent_audit",
+  "same_model_review_evidence": {
+    "axes": {
+      "correctness": "Primitive divisors, valuation parity, genus theory, and the fixed-quartic infinitude argument were assessed as supporting the claim.",
+      "originality": "No prior arbitrary-rank result was located; Kishi full text remained a risk.",
+      "value": "Unbounded 2-rank in the fixed Fibonacci family was judged substantial."
+    },
+    "reviewed_at": "2026-09-19",
+    "status": "passed"
+  },
+  "verification_state": "independently_reviewed"
 }

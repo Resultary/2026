@@ -1,10 +1,29 @@
 {
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "previously_published_pending_reaudit": true,
+  "axes": {
+    "correctness": {
+      "rationale": "The final repaired claim was reconstructed from the stated consecutive-prime definition. A fresh odd-only Eratosthenes sieve through 50,000,000 independently produced 3,001,134 primes, last prime 49,999,991, and the little-endian uint32 prime-list SHA-256 76f37eb58a4ca6daf73a49a8c174ed0c05772ef59b3c95caa4df88e16f8bb22d. Independent aggregation reproduced the complete mod-10 and mod-3 transition matrices and the uniform chi-square values exactly. The published logarithmic-integral value in the source package was incorrect: Lemke Oliver–Soundararajan define li as the integral from 2 to x, which at 50,000,000 is 3001556.381537921..., not 3001562.6973931813. Re-evaluating their displayed Conjecture 1.1 with the correct convention gives diagonal/symmetrised predictions 138333.30996 and 408037.19028 for modulus 10, and 673892.43658 and 1653771.50838 for modulus 3. The repaired RESULT and stats file use those values; the collapsed chi-square values remain 6365.6 and 1815.7 when rounded to one decimal.",
+      "status": "PASS"
+    },
+    "originality": {
+      "rationale": "Best-of-knowledge comparison found prior residue-transition data and the general conjectural asymptotics, but not this exact cutoff matrix. Lemke Oliver–Soundararajan tabulate mod-3 pairs among the first million primes, mod-10 pairs among the first hundred million primes, and later comparisons at much larger cutoffs; their general formulas do not imply the exact finite 50,000,000 matrix. Resultary returned this record as the exact SCOPE hit. The repaired claim explicitly treats the Hardy–Littlewood formulas as prior work and claims originality only for the exact finite benchmark and its evaluated comparison.",
+      "status": "PASS"
+    },
+    "value": {
+      "rationale": "An exact, byte-replayable transition matrix at a natural intermediate cutoff supplies a reproducible finite benchmark for a well-studied bias phenomenon and quantifies how much of the uniform discrepancy is captured by the established conjectural secondary terms. This is a motivated finite invariant rather than an arbitrary slice.",
+      "status": "PASS"
+    }
+  },
+  "completed_at_utc": "2026-09-30T22:05:00Z",
+  "evidence": {
+    "json": "INDEPENDENT_AUDIT_2026-09-30.json",
+    "markdown": "INDEPENDENT_AUDIT_2026-09-30.md"
+  },
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "previously_published_pending_reaudit": false,
   "record_id": "SCOPE-20260908-082",
-  "review_type": "independent_audit_pending",
+  "review_type": "independent_audit",
   "schema_version": 1,
-  "verification_state": "awaiting_fresh_independent_audit"
+  "verification_state": "independently_reviewed"
 }

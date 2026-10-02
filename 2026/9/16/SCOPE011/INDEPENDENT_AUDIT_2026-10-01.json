@@ -1,0 +1,131 @@
+{
+  "audited_at_utc": "2026-10-01T04:59:35Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "Assigned RESULT.md and cited package artifacts",
+        "Saturation numbers for joins of graphs and characterization of extremal graphs",
+        "A lower bound on the saturation number, and graphs for which it is sharp",
+        "Some results on the saturation number of graphs"
+      ],
+      "rationale": "The proof was reconstructed in three stages. The displayed cone is H_{t,q}-free and saturation follows by using a new cross-component edge plus one edge from each of t-1 triangles. For any saturated graph with at most n+3t-4 edges, the degree budget forces a leaf and then forces its neighbor to be universal when q>=4t. Deleting that universal vertex yields a tK2-saturated graph with at most 3t-3 edges and an isolated vertex; Tutte--Berge forces a disjoint union of odd cliques, whose edge minimum is t-1 triangles. Fresh finite checks independently verified the claimed construction and saturation at (t,q,n)=(3,12,19),(3,13,20),(4,16,25).",
+      "residual_risks": [
+        "The 2025 Hu--Ji--Zhang paper is a plausible covering source whose full text was not obtained; this is the main residual originality risk.",
+        "The threshold q>=4t is sufficient, not claimed sharp; the proof does not settle smaller q."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Hua--Peng's abstract states exact results for K2 union qK1 and 2K2 union qK1 for all q, stopping before t>=3.",
+          "Cameron--Puleo supplies sat(n,K1∨F)<=n-1+sat(n-1,F).",
+          "Hu--Ji--Zhang 2025 was identified as plausible broader coverage but its full theorem was not obtained."
+        ],
+        "reasoning": "The accessible stronger/general sources do not cover t>=3; the inaccessible 2025 paper is disclosed as residual risk rather than treated as negative evidence.",
+        "searches": [
+          "Hua Peng saturation joins isolated vertices 2K2 qK1",
+          "Cameron Puleo cone saturation upper bound",
+          "generalized friendship saturation Hu Ji Zhang"
+        ]
+      },
+      "checked_sources": [
+        "Saturation numbers for joins of graphs and characterization of extremal graphs",
+        "A lower bound on the saturation number, and graphs for which it is sharp",
+        "Some results on the saturation number of graphs"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The t=2 theorem and general upper bound give the construction-side scale but do not imply the universal-vertex lower bound or uniqueness for t>=3."
+        ],
+        "reasoning": "The audited theorem strictly extends the known petal count in an infinite parameter range and supplies new structure needed for the lower bound.",
+        "searches": [
+          "Hua Peng K1 join 2K2 plus qK1",
+          "Cameron Puleo saturation cone"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The forbidden graph is equivalently a t-triangle friendship graph with q leaves at the common hub, or K1 joined to tK2 union qK1."
+        ],
+        "reasoning": "Both formulations were searched because isolated vertices below a join become pendant vertices above it.",
+        "searches": [
+          "friendship fan pendant edges saturation",
+          "K1 join tK2 plus q isolates saturation"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No independent exact table or theorem with the same all-t large-q formula was located."
+        ],
+        "reasoning": "The result is theorem-level; non-hit is not used by itself to establish novelty.",
+        "searches": [
+          "published-results search exact n+3t-4 pendant fan saturation q>=4t"
+        ]
+      },
+      "rationale": "Hua--Peng's 2026 paper explicitly treats K2 plus isolates and 2K2 plus isolates, not tK2 plus isolates for t>=3, and motivates the isolated-vertex join problem. Cameron--Puleo gives the cone upper bound but not equality/uniqueness here. Searches of later fan/friendship and matching-saturation work did not locate a theorem implying the q>=4t result. A 2025 Discrete Applied Mathematics paper on generalized friendship saturation remains a concrete access risk; authorized retrieval was interrupted by human-verification expiry, so no NOT_COVERING claim is made for that paper.",
+      "residual_risks": [
+        "The 2025 Hu--Ji--Zhang paper is a plausible covering source whose full text was not obtained; this is the main residual originality risk.",
+        "The threshold q>=4t is sufficient, not claimed sharp; the proof does not settle smaller q."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT COVERING THE t>=3 CLAIM",
+          "evidence": "The abstract gives exact results for F=K2 union qK1 and F=2K2 union qK1 for every q, but no tK2 result for t>=3.",
+          "identifier_or_url": "https://arxiv.org/abs/2606.22011",
+          "material_read": "Primary arXiv abstract and bibliographic record; exact families treated were compared.",
+          "method": "Primary-source inspection.",
+          "title": "Saturation numbers for joins of graphs and characterization of extremal graphs",
+          "trigger": "Direct predecessor on joins with isolated vertices."
+        },
+        {
+          "assessment": "INGREDIENT ONLY",
+          "evidence": "Gives the general cone upper bound, not the exact large-q equality and uniqueness here.",
+          "identifier_or_url": "https://arxiv.org/abs/2004.05410",
+          "material_read": "Relevant theorem descriptions and implications as cited in the package were checked against the accessible preprint record.",
+          "method": "Primary-source comparison.",
+          "title": "A lower bound on the saturation number, and graphs for which it is sharp",
+          "trigger": "General cone upper bound and linear saturation framework."
+        },
+        {
+          "assessment": "ACCESS LIMITATION",
+          "evidence": "Potentially relevant generalized friendship results; operative singleton-clique hypotheses could not be verified.",
+          "identifier_or_url": "https://doi.org/10.1016/j.dam.2025.04.038",
+          "material_read": "Bibliographic/abstract-level material only; full-text institutional retrieval was interrupted by an expired human-verification step.",
+          "method": "OA search followed by authorized retrieval attempt.",
+          "title": "Some results on the saturation number of graphs",
+          "trigger": "Highest-risk plausible generalized-friendship coverage."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Saturation numbers for joins of graphs and characterization of extremal graphs",
+        "A lower bound on the saturation number, and graphs for which it is sharp",
+        "Some results on the saturation number of graphs"
+      ],
+      "rationale": "The theorem gives an exact saturation number and unique extremal graph on an infinite large-pendant range of a natural friendship/fan family, addressing a published extension problem. The universal-vertex forcing lemma is structural and the result is not a finite census.",
+      "residual_risks": [
+        "The 2025 Hu--Ji--Zhang paper is a plausible covering source whose full text was not obtained; this is the main residual originality risk.",
+        "The threshold q>=4t is sufficient, not claimed sharp; the proof does not settle smaller q."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "evidence_scope": {
+    "claim_file": "RESULT.md",
+    "replayed_checks": "Fresh construction/saturation checks at three theorem cells plus full proof reconstruction.",
+    "source_tree_sha": "4748ab8a73bf7cd41c5e32fe9c5d4f138c0b6210"
+  },
+  "independent": true,
+  "record_id": "SCOPE-20260916-011",
+  "record_title": "Saturation of fans with sufficiently many pendant edges",
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "scientific_limitations": [
+    "The 2025 Hu--Ji--Zhang paper is a plausible covering source whose full text was not obtained; this is the main residual originality risk.",
+    "The threshold q>=4t is sufficient, not claimed sharp; the proof does not settle smaller q."
+  ]
+}

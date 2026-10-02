@@ -1,0 +1,121 @@
+{
+  "audited_at_utc": "2026-10-01T14:19:47.879090Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "assigned RESULT.md",
+        "Qin arXiv:2609.20555",
+        "published SCOPE 2026-09-18 all-Schatten refinement"
+      ],
+      "rationale": "The Gaussian transfer formula identifies each block with a scalar multiple of a linear-composition adjoint. Its singular values show all-Schatten membership exactly when all coordinate contractions are strict. Quaternionic coefficient cancellation persists under the deformation. At zero active damping the symbols remain bounded and nondecaying while active composition remains contractive; zero passive damping in higher dimension tensors a nonzero active factor with the identity and is noncompact. The exponential-polynomial argument excludes finite rank.",
+      "residual_risks": [
+        "No optimal quasi-norm formula for the four-term sums is claimed."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "These sources cover zero products and the decaying all-Schatten interior case."
+        ],
+        "reasoning": "No material read covers the nondecaying endpoint together with the passive damping boundary.",
+        "searches": [
+          "Qin arXiv:2609.20555",
+          "Bauer-Le 2011",
+          "Published SCOPE all-Schatten refinement"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.20555",
+        "published SCOPE 2026-09-18 all-Schatten result",
+        "https://doi.org/10.1016/j.jfa.2011.07.006",
+        "Resultary semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "All-Schatten at a decaying interior point does not imply persistence when active symbol damping is removed, nor tensor noncompactness at zero passive damping."
+        ],
+        "reasoning": "The boundary statements require a new deformation analysis.",
+        "searches": [
+          "Comparison of the deformed transfer matrix with Qin's original block and earlier SCOPE Schatten calculation"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Earlier SCOPE covers the strongly decaying interior point only.",
+          "Qin's symbols in dimension at least two are Schwartz."
+        ],
+        "reasoning": "The assigned endpoint is not an equivalent restatement of the prior decaying case.",
+        "searches": [
+          "Resultary search for Fock Toeplitz bounded nondecaying Schatten zero products",
+          "Published SCOPE 2026-09-18 all-Schatten refinement",
+          "Qin arXiv:2609.20555"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "Resultary distinguishes the assigned endpoint record from the earlier decaying all-Schatten record."
+        ],
+        "reasoning": "This is not a table lookup.",
+        "searches": [
+          "Resultary semantic search"
+        ]
+      },
+      "rationale": "An earlier SCOPE result already proves that Qin's original decaying pair lies in every Schatten ideal, but it does not cover the bounded nondecaying active endpoint or the exact passive noncompact/all-Schatten transition. No inspected source dominates those two boundary statements.",
+      "residual_risks": [
+        "Bauer-Le (2011) full text remains unverified.",
+        "General weighted-composition recognition is prior and is not claimed as new."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "COVERING_INGREDIENT",
+          "evidence": "Provides bounded Schwartz zero-product symbols, hence a decaying interior point.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.20555",
+          "material_read": "Primary arXiv abstract and construction scope.",
+          "method": "Primary source.",
+          "title": "Zero-product problem for Toeplitz operators on the Fock space",
+          "trigger": "Source construction."
+        },
+        {
+          "assessment": "COVERING_INGREDIENT",
+          "evidence": "Proves all-Schatten membership for Qin's original decaying pair, not the nondecaying endpoint.",
+          "identifier_or_url": "https://github.com/Resultary/2026/tree/main/2026/9/18/SCOPE-fock-toeplitz-zero-divisors-all-schatten--1095c1bf378e",
+          "material_read": "Full published RESULT.md.",
+          "method": "Published SCOPE full text.",
+          "title": "Two-factor Fock Toeplitz zero divisors in every Schatten ideal",
+          "trigger": "Earlier same construction refinement."
+        },
+        {
+          "assessment": "INACCESSIBLE_PLAUSIBLE_SOURCE",
+          "evidence": "Historical overlap with the endpoint could not be fully excluded.",
+          "identifier_or_url": "https://doi.org/10.1016/j.jfa.2011.07.006",
+          "material_read": "Abstract/secondary descriptions; authorized full-text attempt interrupted by expired human verification.",
+          "method": "OA search then authorized institutional access.",
+          "title": "Algebraic properties and the finite rank problem for Toeplitz operators on the Segal-Bargmann space",
+          "trigger": "Closest older zero-product source."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Qin arXiv:2609.20555",
+        "published SCOPE all-Schatten refinement"
+      ],
+      "rationale": "The bounded nondecaying all-Schatten endpoint and sharp passive damping transition expose a substantive separation between symbol decay and operator smoothing, a natural structural boundary in the zero-product construction.",
+      "residual_risks": [
+        "The result is limited to the explicit family in dimension at least two."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "limitations": [
+    "Dimension at least two only.",
+    "The one-dimensional two-bounded-symbol problem remains open.",
+    "Bauer-Le full-text overlap remains an explicit risk."
+  ],
+  "record_id": "SCOPE-20260919-c8def62ac799",
+  "record_title": "Nonvanishing bounded symbols yield all-Schatten zero divisors on Fock space",
+  "schema_version": 1
+}

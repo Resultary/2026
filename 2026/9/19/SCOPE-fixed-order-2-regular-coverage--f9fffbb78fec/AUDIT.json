@@ -1,33 +1,137 @@
 {
-  "correctness": {
-    "status": "PASS",
-    "summary": "The finite-order upper bound follows from the cut-edge omission estimate used in the recent odd-degree k=2 theorem together with the sharp O-West bridge bound, and extends componentwise. Sharpness at every admissible order is proved by variable-order one-deficient Walecki blocks attached to a bridge-tree core; the block Hamilton cycles cover exactly all non-core vertices. A standalone construction verifier matched the stated degree, connectivity, bridge, and coverage properties on 565 parameter cases and checked the cubic specialization through order 498."
+  "audited_at_utc": "2026-10-01T13:18:12.002998Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "assigned RESULT.md",
+        "assigned artifacts/verify_constructions.py",
+        "arXiv:2609.19777v1 full text"
+      ],
+      "rationale": "The source finite-order upper inequality gives the claimed deficiency floor. The all-orders construction is valid: for every odd block order N at least r+2, a Walecki decomposition yields a one-deficient block with one vertex of degree r-1, all others degree r, and a spanning Hamilton cycle. Attaching (r-2)t+2 such blocks to a t-vertex core path makes a connected simple r-regular graph. The baseline order is \\((r^2-3)t+2(r+2)\\), and the even excess below \\(r^2-3\\) can be absorbed by enlarging one odd block. All core and attachment edges are bridges, so core vertices are omitted by every 2-regular subgraph, while block Hamilton cycles cover every non-core vertex. Independent arithmetic checks reproduced the admissible-excess conditions.",
+      "residual_risks": [
+        "The finite verifier samples constructions; the proof, not the sample sweep, establishes all orders."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Sivashankar proves the finite upper mechanism and sharp asymptotic result, with equality construction on one arithmetic progression.",
+          "Choi et al. determine the exact fixed-order function for cubic graphs."
+        ],
+        "reasoning": "Neither source dominates the claimed general odd-r fixed-order interpolation.",
+        "searches": [
+          "Sivashankar, Nearly Spanning Regular Subgraphs, arXiv:2609.19777v1, Section 4",
+          "Choi-Kim-Kostochka-Park-West, arXiv:1903.08795"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.19777",
+        "https://arxiv.org/abs/1903.08795",
+        "https://doi.org/10.1002/jgt.20443",
+        "Resultary semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The source attaches fixed-size one-deficient blocks and realizes only baseline orders. The audited construction proves a variable-order block lemma and absorbs every even residue into one block."
+        ],
+        "reasoning": "The every-order sharpness does not follow from the source endpoint examples without the additional variable-order construction.",
+        "searches": [
+          "Compared the final construction with Section 4.3 of arXiv:2609.19777v1"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The exact Resultary hit is the assigned record.",
+          "The cubic paper determines the r=3 fixed-order case only."
+        ],
+        "reasoning": "No earlier equivalent all-r, all-admissible-n formula was located.",
+        "searches": [
+          "Resultary: odd regular fixed order largest 2-regular subgraph every admissible n Walecki blocks",
+          "Web: fixed-order largest 2-regular subgraph odd regular graph exact order"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No independent earlier table or record with the general odd-r every-order formula was found."
+        ],
+        "reasoning": "The exact function is not a known table lookup in the sources inspected.",
+        "searches": [
+          "Resultary semantic search for exact M_r(n) formula and N_r(t) threshold"
+        ]
+      },
+      "rationale": "The full primary paper proves the sharp asymptotic proportion and, in its sharpness section, constructs equality examples only at orders \\((r^2-3)t+2(r+2)\\). It does not interpolate every admissible order. The cubic case is already exact in prior work. Resultary search found no earlier all-orders odd-degree formula beyond the assigned record.",
+      "residual_risks": [
+        "Older factor-theory literature may contain an equivalent interpolation under different terminology; no such result was located."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING",
+          "evidence": "The source gives the finite upper inequality and examples at orders \\((r^2-3)t+2(r+2)\\), but not equality at every admissible order.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.19777",
+          "material_read": "Full primary paper, especially Section 4.1 through 4.3 and the sharp construction.",
+          "method": "Primary full text.",
+          "title": "Nearly Spanning Regular Subgraphs",
+          "trigger": "Same r-regular 2-regular coverage problem and sharp asymptotic theorem."
+        },
+        {
+          "assessment": "COVERING_SPECIAL_CASE",
+          "evidence": "This covers r=3, which the audited record explicitly credits, but not general odd r.",
+          "identifier_or_url": "https://arxiv.org/abs/1903.08795",
+          "material_read": "Abstract and theorem-level statement of the exact cubic extremal function.",
+          "method": "Primary publication metadata and preprint record.",
+          "title": "Largest 2-Regular Subgraphs in 3-Regular Graphs",
+          "trigger": "Exact fixed-order result in the cubic specialization."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.19777",
+        "https://arxiv.org/abs/1903.08795"
+      ],
+      "rationale": "The result converts a sharp asymptotic theorem and sparse equality examples into the exact extremal function at every admissible order for a natural graph invariant. The variable-order block lemma gives a reusable mechanism for filling all residue classes, so this is a motivated complete finite-order classification rather than an arbitrary computation.",
+      "residual_risks": [
+        "The cubic specialization and upper bound are prior; value lies in the general every-order sharpness."
+      ],
+      "status": "PASS"
+    }
   },
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "limitations": [
-    "The theorem treats 2-regular subgraphs, not exact fixed-order k-regular coverage for k>=3.",
-    "The finite-order upper inequality and the cubic specialization are prior results and are explicitly credited.",
-    "Older factor-theory literature under different terminology and very recent parallel work remain residual originality risks.",
-    "Finite verification supports but does not replace the proof.",
-    "Independent audit has not been performed."
+  "disposition": "passed",
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
   ],
-  "originality": {
-    "scope": "to the best of our knowledge",
-    "status": "PASS",
-    "summary": "The 2026 Sivashankar preprint already contains the finite-order upper inequality in the proof of its sharp asymptotic odd-degree k=2 result and gives equality constructions on the arithmetic progression (r^2-3)t+2(r+2); these are not claimed new. The cubic fixed-order function is also known from Choi-Kim-Kostochka-Park-West. Searches of the recent 2-factor literature and equivalent fixed-order/cut-edge formulations found no general odd-degree construction filling every admissible order. The originality claim is the all-orders interpolation and resulting exact fixed-order function; older differently phrased factor literature and very recent parallel work remain residual risks."
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "The exact every-order law is for 2-regular subgraphs of simple regular graphs.",
+    "The cubic specialization and the finite upper inequality are prior results.",
+    "No corresponding exact fixed-order theorem for k at least 3 is claimed."
+  ],
+  "policy": "to-the-best-of-our-knowledge",
+  "previously_published_pending_reaudit": false,
+  "prior_scientific_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "Prior review checked the finite upper bound and Walecki-block interpolation construction.",
+        "status": "PASS"
+      },
+      "originality": {
+        "rationale": "Prior review distinguished the every-order interpolation from prior asymptotic and cubic results.",
+        "status": "PASS"
+      },
+      "value": {
+        "rationale": "Prior review valued an exact fixed-order function at all admissible orders.",
+        "status": "PASS"
+      }
+    }
   },
-  "phase": "II",
-  "previously_published_pending_reaudit": true,
   "record_id": "SCOPE-20260919-f9fffbb78fec",
-  "review_statement": "Same-model review: passed. Independent audit: not yet performed.",
-  "review_type": "same_model_review",
-  "same_model_review_status": "passed",
-  "scope_run_id": "71a01c3e-d7c7-44b7-999c-2e4b4616afe8",
-  "value": {
-    "status": "PASS",
-    "summary": "The result converts a sharp asymptotic theorem and sparse endpoint examples into a closed exact extremal function at every admissible order, with connected extremizers and an explicit order cost for each forced omitted vertex."
-  },
-  "verification_state": "awaiting_fresh_independent_audit"
+  "record_title": "Exact fixed-order 2-regular coverage in regular graphs",
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

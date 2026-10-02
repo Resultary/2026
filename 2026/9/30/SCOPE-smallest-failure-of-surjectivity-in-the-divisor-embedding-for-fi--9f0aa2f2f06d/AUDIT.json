@@ -1,23 +1,125 @@
 {
-  "correctness": {
-    "rationale": "The complete published folding classification yields the full congruence lists through L_5. Direct exhaustive enumeration of all set partitions through six vertices independently reproduces those lists, verifies refinement relations and frequencies, and finds exactly the two claimed nonsurjective intervals. The unique frequency-2 relation separates the central-rest frequency-4 interval from the two side-rest intervals.",
-    "status": "PASS"
+  "audited_at_utc": "2026-10-01T23:43:41Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "Areces--Campercholi--Penazzi--Sánchez Terraf, The Lattice of Congruences of a Finite Line Frame, arXiv:1504.01789 / J. Logic Comput. 27 (2017), complete 31-page primary PDF inspected.",
+        "Published-record semantic search for frequency-embedding surjectivity, missing divisor two, and the six-vertex obstruction.",
+        "Fresh replay of the package exhaustive set-partition verifier through \\(L_5\\)."
+      ],
+      "rationale": "The complete folding classification from the primary source gives the possible congruences and frequencies through \\(L_5\\). The source theorem gives gcd/lcm behavior of frequencies, hence the divisor-lattice embedding. A fresh replay of the actual set-partition verifier directly tested every bisimulation equivalence through six vertices and returned exactly two defects: \\(\\langle1;1\\rangle\\) and \\(\\langle1;3\\rangle\\), each with image \\(\\{1,4\\}\\) and missing divisor \\(2\\). It also verified surjectivity through \\(L_4\\) and the unique frequency-two congruence \\(\\langle2;2\\rangle\\), which is incomparable with the two defective congruences.",
+      "residual_risks": [
+        "The finite minimality statement is completely exhausted through \\(L_5\\); no claim is made about all larger lines."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The source is broader on the full congruence lattice and frequency arithmetic but stops at an embedding theorem."
+        ],
+        "reasoning": "A lattice embedding can have a proper image; the source theorem does not imply surjectivity or its minimal failure.",
+        "searches": [
+          "Areces--Campercholi--Penazzi--Sánchez Terraf complete classification and Theorem 40"
+        ]
+      },
+      "checked_sources": [
+        "Areces--Campercholi--Penazzi--Sánchez Terraf, The Lattice of Congruences of a Finite Line Frame, arXiv:1504.01789 / J. Logic Comput. 27 (2017), complete 31-page primary PDF inspected.",
+        "Published-record semantic search for frequency-embedding surjectivity, missing divisor two, and the six-vertex obstruction.",
+        "Fresh replay of the package exhaustive set-partition verifier through \\(L_5\\)."
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The source theorem permits proper sublattices of the divisor lattice and gives no converse existence for every divisor."
+        ],
+        "reasoning": "The audited claim is a sharp boundary counterexample to a natural strengthening, not a corollary of the embedding statement.",
+        "searches": [
+          "Primary embedding theorem versus audited sharpness result"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The assigned finding is the only exact semantic hit.",
+          "The source states “embeds into” the divisor lattice and Theorem 40 gives gcd/lcm formulas."
+        ],
+        "reasoning": "Equivalent formulations are the missing-divisor obstruction, a failure of interval/divisor-lattice isomorphism, and the two mirror side-rest cases; none was located as prior theorem.",
+        "searches": [
+          "Resultary query: finite line frame divisor embedding frequency surjectivity L5",
+          "Full-text inspection of arXiv:1504.01789"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No prior exact table identifying the two \\(L_5\\) defects was found.",
+          "Fresh exhaustive enumeration independently reproduces the claimed first failure."
+        ],
+        "reasoning": "The finite enumeration proves the small cutoff, while novelty rests on source comparison and searches.",
+        "searches": [
+          "Source classification plus exhaustive small-line table"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality passes. The complete 31-page primary paper was inspected: it proves that each principal interval embeds into the divisor lattice and develops the frequency gcd/lcm formulas, but does not state that the embedding is always surjective or identify the first failure. Semantic searches found no earlier six-vertex obstruction or stronger surjectivity criterion covering it.",
+      "residual_risks": [
+        "A differently phrased later note on the same lattice remains a best-of-knowledge risk."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Provides all structural inputs but not the first nonsurjectivity result.",
+          "evidence": "The abstract states only an embedding into a divisor lattice; Theorem 40 gives join/meet frequency formulas.",
+          "identifier_or_url": "https://arxiv.org/abs/1504.01789",
+          "material_read": "Complete 31-page primary PDF, including the folding classification and Theorem 40 on frequency gcd/lcm",
+          "method": "Primary full-text and rendered-page inspection",
+          "title": "The Lattice of Congruences of a Finite Line Frame",
+          "trigger": "Exact classification and frequency embedding theorem"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Areces--Campercholi--Penazzi--Sánchez Terraf, The Lattice of Congruences of a Finite Line Frame, arXiv:1504.01789 / J. Logic Comput. 27 (2017), complete 31-page primary PDF inspected.",
+        "Published-record semantic search for frequency-embedding surjectivity, missing divisor two, and the six-vertex obstruction.",
+        "Fresh replay of the package exhaustive set-partition verifier through \\(L_5\\)."
+      ],
+      "rationale": "The result answers a natural sharpness question left by a structural embedding theorem: it identifies the smallest line where “embedding” cannot be strengthened to “onto” and completely classifies the first obstruction. Such a minimal counterexample and boundary classification are independently useful even without a general all-\\(n\\) criterion.",
+      "residual_risks": [
+        "The result does not classify nonsurjective intervals for larger lines."
+      ],
+      "status": "PASS"
+    }
   },
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "originality": {
-    "rationale": "The primary source states a lattice embedding into divisors but not surjectivity or its failure. Exact and semantic searches for the L_5 side-rest examples, missing divisor 2, and a smallest nonsurjectivity counterexample found no equivalent or stronger result; the current and prior private ledgers contain no overlapping claim.",
-    "status": "PASS"
+  "disposition": "passed",
+  "evidence": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "final_claim": "The divisor-lattice frequency embedding for proper congruences of a finite reflexive line first fails to be surjective on \\(L_5\\); exactly the two side-rest congruences \\(\\langle1;1\\rangle\\) and \\(\\langle1;3\\rangle\\) fail there, each missing divisor \\(2\\).",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "Minimality is only by line size through the first failure; no all-larger-lines surjectivity criterion is claimed; originality is best-of-knowledge."
+  ],
+  "previously_published_pending_reaudit": false,
+  "record_id": "SCOPE-20260930-9f0aa2f2f06d",
+  "review_type": "independent_audit",
+  "same_model_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "The original review accepted the folding classification and exhaustive set-partition check.",
+        "status": "PASS"
+      },
+      "originality": {
+        "rationale": "The original review found the source embedding theorem but no smallest nonsurjectivity obstruction.",
+        "status": "PASS"
+      },
+      "value": {
+        "rationale": "The original review valued the sharp smallest counterexample.",
+        "status": "PASS"
+      }
+    },
+    "status": "passed"
   },
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "same_model_review_status": "passed",
   "schema_version": 1,
-  "scope_run_id": "9f0aa2f2-f06d-4cd2-9eb1-001f25c98036",
-  "value": {
-    "rationale": "The result gives a sharp smallest counterexample to a natural strengthening of a published structural theorem and completely classifies the obstruction at the first possible size, distinguishing two mirror side-rest congruences from the surjective central-rest congruence of the same frequency.",
-    "status": "PASS"
-  },
-  "verification_state": "awaiting_fresh_independent_audit"
+  "verification_state": "independently_reviewed"
 }

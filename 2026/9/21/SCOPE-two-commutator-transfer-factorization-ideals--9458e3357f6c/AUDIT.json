@@ -1,28 +1,133 @@
 {
-  "axes": {
+  "audit_date_utc": "2026-10-01",
+  "audited_at_utc": "2026-10-01T22:52:03Z",
+  "disclaimer": "Mathematical audit; not formal proof-assistant verification and not a guarantee of priority.",
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json",
+    "REVIEW.md"
+  ],
+  "independent_assessment": {
     "correctness": {
-      "rationale": "The decomposition follows from two explicit algebraic identities: a factorization commutator R-VCU and a shift-corner commutator for VCU. Domain/codomain compatibility and factor-through-ideal membership of all four factors were checked explicitly.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "N. J. Laustsen, Commutators of operators on Banach spaces, Journal of Operator Theory 48 (2002), 503–514.",
+        "D. Dosev, Commutators on Banach Spaces, PhD thesis, Texas A&M University (2009).",
+        "D. Dosev and W. B. Johnson, Commutators on \\(\\ell_\\infty\\), Bulletin of the London Mathematical Society 42 (2010), 155–169.",
+        "Published-record semantic query: factorization ideal two commutators self-similar Banach James weakly compact three commutator."
+      ],
+      "rationale": "The proof reconstructs exactly. Writing \\(R=ST\\), choosing a complemented copy of a countable self-sum \\(E\\cong Y\\), and using first-coordinate maps \\(U,V\\) gives one commutator \\(R-VCU=[SU,VT]\\), where \\(C=TS\\). On \\(E\\), the unilateral shift identity gives the corner \\(\\iota_0C\\pi_0=[L,R_+\\widetilde C]\\), hence \\(VCU\\) is a second commutator after conjugation through the complement. Domain/codomain compatibility and factor-through-\\(Y\\) membership of all four factors were checked from the actual source package. No computation log is needed for this algebraic proof.",
+      "residual_risks": [],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Laustsen's three-commutator theorem and open optimality question, Dosev's corner mechanism, and later three-commutator applications are prior art and are acknowledged. No checked source states the two-commutator transfer or explicit James-space resolution; the main residual risk is an equivalent short synthesis elsewhere in older commutator literature.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "The closest broader sources cover ingredients, restricted parameter regimes, or background models but do not imply the audited final claim."
+        ],
+        "reasoning": "Laustsen’s 2002 primary paper proves a general \\(N+1\\)-commutator transfer from the factor space and specifically obtains three commutators for weakly compact operators on James space, then asks whether two always suffice. Full-text inspection of that paper and Dosev’s self-similar shift/corner work did not locate this two-commutator ideal-preserving transfer. The audited proof uses the known corner mechanism but couples it to the factorization decomposition in a way that answers the cited two-versus-three question rather than merely renaming a prior theorem.",
+        "searches": [
+          "N. J. Laustsen, Commutators of operators on Banach spaces, Journal of Operator Theory 48 (2002), 503–514.",
+          "D. Dosev, Commutators on Banach Spaces, PhD thesis, Texas A&M University (2009).",
+          "D. Dosev and W. B. Johnson, Commutators on \\(\\ell_\\infty\\), Bulletin of the London Mathematical Society 42 (2010), 155–169."
+        ]
+      },
+      "checked_sources": [
+        "N. J. Laustsen, Commutators of operators on Banach spaces, Journal of Operator Theory 48 (2002), 503–514.",
+        "D. Dosev, Commutators on Banach Spaces, PhD thesis, Texas A&M University (2009).",
+        "D. Dosev and W. B. Johnson, Commutators on \\(\\ell_\\infty\\), Bulletin of the London Mathematical Society 42 (2010), 155–169.",
+        "Published-record semantic query: factorization ideal two commutators self-similar Banach James weakly compact three commutator."
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The closest broader sources cover ingredients, restricted parameter regimes, or background models but do not imply the audited final claim."
+        ],
+        "reasoning": "The inspected prior statements do not mechanically imply the audited final claim; the additional argument identified in the correctness reconstruction is substantive enough for this claim.",
+        "searches": [
+          "N. J. Laustsen, Commutators of operators on Banach spaces, Journal of Operator Theory 48 (2002), 503–514.",
+          "D. Dosev, Commutators on Banach Spaces, PhD thesis, Texas A&M University (2009)."
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "No inspected exact source or database entry states the audited final claim in an equivalent formulation."
+        ],
+        "reasoning": "Laustsen’s 2002 primary paper proves a general \\(N+1\\)-commutator transfer from the factor space and specifically obtains three commutators for weakly compact operators on James space, then asks whether two always suffice. Full-text inspection of that paper and Dosev’s self-similar shift/corner work did not locate this two-commutator ideal-preserving transfer. The audited proof uses the known corner mechanism but couples it to the factorization decomposition in a way that answers the cited two-versus-three question rather than merely renaming a prior theorem.",
+        "searches": [
+          "Published-record semantic query: factorization ideal two commutators self-similar Banach James weakly compact three commutator.",
+          "N. J. Laustsen, Commutators of operators on Banach spaces, Journal of Operator Theory 48 (2002), 503–514."
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No decisive exact database/table coverage was found; where the claim is theorem-level, the primary literature comparison is the controlling check."
+        ],
+        "reasoning": "Laustsen’s 2002 primary paper proves a general \\(N+1\\)-commutator transfer from the factor space and specifically obtains three commutators for weakly compact operators on James space, then asks whether two always suffice. Full-text inspection of that paper and Dosev’s self-similar shift/corner work did not locate this two-commutator ideal-preserving transfer. The audited proof uses the known corner mechanism but couples it to the factorization decomposition in a way that answers the cited two-versus-three question rather than merely renaming a prior theorem.",
+        "searches": [
+          "Published-record semantic corpus"
+        ]
+      },
+      "rationale": "Laustsen’s 2002 primary paper proves a general \\(N+1\\)-commutator transfer from the factor space and specifically obtains three commutators for weakly compact operators on James space, then asks whether two always suffice. Full-text inspection of that paper and Dosev’s self-similar shift/corner work did not locate this two-commutator ideal-preserving transfer. The audited proof uses the known corner mechanism but couples it to the factorization decomposition in a way that answers the cited two-versus-three question rather than merely renaming a prior theorem.",
+      "residual_risks": [
+        "Because the proof is short and uses classical shift identities, an equivalent observation under older terminology remains a residual priority risk."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING_AND_OPEN_QUESTION",
+          "evidence": "The source proves three commutators for the weakly compact James ideal and explicitly raises the two-commutator issue.",
+          "identifier_or_url": "Journal of Operator Theory 48 (2002), 503–514",
+          "material_read": "full primary PDF, including the transfer lemma, James-space theorem, and question on whether two commutators suffice",
+          "method": "lawful journal-hosted full-text inspection",
+          "title": "Commutators of operators on Banach spaces",
+          "trigger": "exact source of the three-commutator James result and its optimality question"
+        },
+        {
+          "assessment": "INGREDIENT_ONLY",
+          "evidence": "The shift/corner construction is prior art, but the inspected text did not state the factorization-ideal two-commutator transfer.",
+          "identifier_or_url": "Texas A&M University PhD thesis, 2009",
+          "material_read": "full dissertation sections on self-similar Banach-space commutator constructions",
+          "method": "lawful institutional-repository full-text inspection",
+          "title": "Commutators on Banach Spaces",
+          "trigger": "closest primary source for the self-similar shift/corner commutator mechanism"
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The transfer settles the published James-space upper-bound question and simultaneously improves two later three-commutator ideal bounds while keeping every factor in the relevant ideal.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "N. J. Laustsen, Commutators of operators on Banach spaces, Journal of Operator Theory 48 (2002), 503–514.",
+        "D. Dosev, Commutators on Banach Spaces, PhD thesis, Texas A&M University (2009).",
+        "D. Dosev and W. B. Johnson, Commutators on \\(\\ell_\\infty\\), Bulletin of the London Mathematical Society 42 (2010), 155–169.",
+        "Published-record semantic query: factorization ideal two commutators self-similar Banach James weakly compact three commutator."
+      ],
+      "rationale": "The result closes an explicit published upper-bound question for weakly compact James-space operators and simultaneously improves the same structural mechanism for the cited WCG and Loy–Willis ideals while keeping every commutator factor inside the factorization ideal. That is a motivated structural lemma with downstream use, not an arbitrary slice.",
+      "residual_risks": [],
+      "status": "PASS"
     }
   },
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "previously_published_pending_reaudit": false,
+  "prior_scientific_assessment": {
+    "axes": {
+      "correctness": {
+        "rationale": "The decomposition follows from two explicit algebraic identities: a factorization commutator R-VCU and a shift-corner commutator for VCU. Domain/codomain compatibility and factor-through-ideal membership of all four factors were checked explicitly.",
+        "status": "PASS"
+      },
+      "originality": {
+        "rationale": "Laustsen's three-commutator theorem and open optimality question, Dosev's corner mechanism, and later three-commutator applications are prior art and are acknowledged. No checked source states the two-commutator transfer or explicit James-space resolution; the main residual risk is an equivalent short synthesis elsewhere in older commutator literature.",
+        "status": "PASS"
+      },
+      "value": {
+        "rationale": "The transfer settles the published James-space upper-bound question and simultaneously improves two later three-commutator ideal bounds while keeping every factor in the relevant ideal.",
+        "status": "PASS"
+      }
+    },
+    "policy": "to-the-best-of-our-knowledge",
+    "reviewed_at": "2026-09-21",
+    "status": "passed"
+  },
   "record_id": "SCOPE-20260921-9458e3357f6c",
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-21",
-  "same_model_review_status": "passed",
-  "scope_run_id": "1941acfe-e513-4369-b98b-5eac2201e071",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "record_title": "Two-commutator transfer for self-similar factorization ideals",
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

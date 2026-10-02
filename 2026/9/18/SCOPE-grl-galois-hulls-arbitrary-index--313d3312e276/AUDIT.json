@@ -1,27 +1,137 @@
 {
   "axes": {
     "correctness": {
-      "rationale": "The full-field Lagrange coefficients are all -1, so normalization by -1 avoids any nontrivial root extraction. The published GRL hull criterion then yields an exact h-dimensional polynomial space in the strict range; a scalar extension matrix handles the unique possible degree boundary. The published s=2 subset-sum criterion gives the AMDS/NMDS distance, and exhaustive GF(8) and GF(27) checks confirm representative hulls and distances.",
-      "verdict": "PASS"
+      "rationale": "PASS. For the full evaluation set, \\(P(x)=x^q-x\\) gives \\(P'(a)=-1\\) at every \\(a\\in\\mathbb F_q\\), hence every Lagrange coefficient is \\(-1\\). With \\(Q=p^\\ell\\), choose a multiplier \\(\beta\\) satisfying \\(\beta^{Q+1}\ne1\\); for \\(q>4\\) such a choice exists because \\(q-1>Q+1\\) for \\(1\\le\\ell<e\\), apart from the excluded \\(q=4\\) equality case. In the strict degree range, root counting forces \\(g=-f^Q\\), the extension tail kills the top \\(s\\) coefficients, and the \\(z=k-s-h\\) scaled evaluation points impose exactly \\(z\\) distinct roots, leaving dimension \\(h\\). At the single boundary \\(Q(k-1)=q-k\\), the scalar extension matrix with \\(\\mu^{Q+1}\ne1\\) kills the one possible surviving tail coefficient and restores the same argument. The \\(s=2\\) distance criterion and the EAQECC conversion are then used exactly within their published domains. The supplied GF(8) and GF(27) program is a finite consistency check, not the proof.",
+      "risks": [],
+      "sources": [
+        "Assigned RESULT.md and exact frozen tree",
+        "artifacts/verify_examples.py",
+        "Wu et al. primary arXiv full text",
+        "Wan–Zhu primary arXiv abstract",
+        "Resultary semantic search"
+      ],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Qualified to the best of our knowledge. The 17 September 2026 motivating preprint imposes 2 ell | e in its full-evaluation hull and AMDS constructions. Targeted literature and database searches found no prior arbitrary-index full-evaluation GRL theorem of this form. Earlier literature covers arbitrary Galois indices for GRS/EGRS MDS codes and Hermitian Roth--Lempel variants, which are explicitly excluded from the novelty claim. The recency of the source creates a material near-simultaneous-discovery risk.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "Wan–Zhu cover GRS/EGRS MDS codes at all indices, a different code family and length structure.",
+          "Earlier Roth–Lempel results located in the record concern Hermitian/special-index hulls."
+        ],
+        "reasoning": "Those broader coding-theory results do not imply the GRL full-evaluation theorem because the appended extension coordinates change the hull equations and distance criteria.",
+        "searches": [
+          "Wan Zhu arXiv:2412.05011 all Galois indices hull arbitrary dimensions",
+          "Roth–Lempel Hermitian hull Galois"
+        ]
+      },
+      "checked_sources": [
+        "Assigned RESULT.md and exact frozen tree",
+        "artifacts/verify_examples.py",
+        "Wu et al. primary arXiv full text",
+        "Wan–Zhu primary arXiv abstract",
+        "Resultary semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The GRL source's full-evaluation construction retains \\(2\\ell\\mid e\\), while the general hull criterion itself does not.",
+          "The audited proof replaces the source's root-extraction step by \\(u_a=-1\\) and supplies a separate boundary argument."
+        ],
+        "reasoning": "No inspected prior theorem mechanically implies existence of these GRL codes at the excluded indices; a new specialization argument is required.",
+        "searches": [
+          "Wu–Liu–Chen–Zhou arXiv:2609.20453v1 Propositions II.8, IV.1, VI.2 and Theorem IV.6",
+          "Wan–Zhu arXiv:2412.05011"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The source's Proposition II.8 is the hull-equation formulation used by the proof; its explicit construction theorems subsequently invoke root-normalization hypotheses."
+        ],
+        "reasoning": "The audited statement is not merely a rephrasing of Proposition II.8: it supplies multipliers and extension matrices proving existence for indices excluded from the source constructions.",
+        "searches": [
+          "arXiv:2609.20453 full evaluation generalized Roth–Lempel Galois hull",
+          "GRL arbitrary Galois index full field"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No earlier exact theorem/table with the same full-field GRL parameters was located."
+        ],
+        "reasoning": "This is a parametric theorem, not a finite database row; search failure alone is not novelty proof and is treated only as supporting evidence.",
+        "searches": [
+          "Resultary full-field generalized Roth-Lempel arbitrary indices",
+          "length q+2 GRL hull arbitrary ell"
+        ]
+      },
+      "rationale": "PASS to the best of current knowledge. The motivating GRL paper gives the general hull criterion for arbitrary Galois index but imposes \\(2\\ell\\mid e\\) on its explicit normalized-root constructions, including its full-evaluation theorem. The audited argument uses the special full-field identity \\(u_a=-1\\) to remove that root-existence requirement and handles the boundary separately. Wan–Zhu treat arbitrary indices for GRS/EGRS MDS codes, not generalized Roth–Lempel extensions of length \\(q+s\\). Resultary found the same record and a later characteristic-two generalization, but no earlier GRL theorem dominating the full-field all-index statement. The source preprint is extremely recent, so near-simultaneous unindexed work remains a real risk.",
+      "residual_risks": [
+        "The motivating preprint appeared one day before the record, so unindexed near-simultaneous work is plausible.",
+        "The finite GF(8) and GF(27) examples do not prove the parametric theorem; correctness rests on the polynomial root-count argument."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "FRAMEWORK_WITH_PARAMETER_GAP",
+          "evidence": "The general hull criterion is index-general, but the explicit construction section retains the \\(2\\ell\\mid e\\) normalization hypothesis; the full-evaluation theorem does not cover all indices.",
+          "identifier_or_url": "arXiv:2609.20453v1",
+          "material_read": "Primary arXiv HTML around Proposition II.8, Lemma II.9, Proposition IV.1, Theorem IV.6, and Proposition VI.2.",
+          "method": "Primary full-text inspection.",
+          "title": "Galois Hulls of Generalized Roth-Lempel Codes and Their Applications to EAQECCs",
+          "trigger": "Exact code family and hull criterion."
+        },
+        {
+          "assessment": "DIFFERENT_CODE_FAMILY",
+          "evidence": "It treats GRS/EGRS MDS constructions, not generalized Roth–Lempel codes with appended extension coordinates.",
+          "identifier_or_url": "arXiv:2412.05011",
+          "material_read": "Primary arXiv abstract describing all Galois indices and arbitrary hull dimensions via GRS/EGRS MDS codes.",
+          "method": "Primary literature inspection.",
+          "title": "Galois self-orthogonal MDS codes with large dimensions",
+          "trigger": "Closest all-index Galois-hull literature."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result removes all divisibility assumptions between ell and e for the full-field GRL family, including cases ell does not divide e, preserves the full prescribed-hull range, gives exact length-q+2 AMDS/NMDS parameters, and yields corresponding EAQECC families.",
-      "verdict": "PASS"
+      "rationale": "PASS. The claim closes an explicit divisibility gap in a natural recent GRL hull construction rather than selecting an arbitrary parameter point: it covers every Galois index for the full evaluation set, preserves all hull dimensions in the stated range, and yields the length-\\(q+2\\) AMDS/NMDS and EAQECC consequences. The full-field normalization is elementary, but the resulting removal of an otherwise global hypothesis is a useful structural boundary.",
+      "risks": [],
+      "sources": [
+        "Assigned RESULT.md and exact frozen tree",
+        "artifacts/verify_examples.py",
+        "Wu et al. primary arXiv full text",
+        "Wan–Zhu primary arXiv abstract",
+        "Resultary semantic search"
+      ],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
+  "independent": true,
+  "independent_audit_evidence": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent_audit_status": "passed",
+  "independent_validation": true,
   "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-18",
+  "previously_published_pending_reaudit": false,
+  "record_id": "SCOPE-20260918-313d3312e276",
+  "review_type": "independent_audit",
+  "reviewed_at_utc": "2026-10-01T08:48:00Z",
+  "same_model_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "Original same-model review passed correctness; its detailed rationale remains historically attributable to the pre-audit package.",
+        "status": "PASS"
+      },
+      "originality": {
+        "rationale": "Original same-model review passed originality under its then-recorded best-knowledge assessment.",
+        "status": "PASS"
+      },
+      "value": {
+        "rationale": "Original same-model review passed scientific value.",
+        "status": "PASS"
+      }
+    },
+    "status": "passed"
+  },
   "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

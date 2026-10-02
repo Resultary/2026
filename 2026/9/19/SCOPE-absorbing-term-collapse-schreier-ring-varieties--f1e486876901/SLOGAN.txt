@@ -1,1 +1,0 @@
-The 2023 locally finite Schreier recovery principle forces ring multiplication to vanish. Its exact ring corollary is that the nontrivial locally finite Schreier ring varieties are precisely zero-multiplication rings of exponent p for a prime p; unital versions are trivial, with the analogous finite-field classification for fixed-field algebras.

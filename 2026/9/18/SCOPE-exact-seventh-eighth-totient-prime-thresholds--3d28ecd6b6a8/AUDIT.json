@@ -1,27 +1,125 @@
 {
+  "audited_at_utc": "2026-10-01T08:23:38.851470Z",
   "axes": {
     "correctness": {
-      "rationale": "Each threshold is proved by an explicit boundary failure, exhaustive exact treatment of the only remaining high-support finite range, primorial extremality on the adjacent interval, and an analytic tail from Axler and Rosser--Schoenfeld bounds. The finite certificate verifies all support cases and positive comparison margins, while the tail quotient is proved monotone in the required range.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "2026 package RESULT.md",
+        "2026 package artifacts/verify.py",
+        "https://arxiv.org/abs/2609.13852"
+      ],
+      "rationale": "The proof separates boundary failure, finite exhaustive support ranges, adjacent primorial strata, and an analytic tail. The inspected verifier enumerates 2,202 admissible level-7 values and 19,710 level-8 values, with strictly positive explicit-bound margins. The boundary factorizations and totients agree with the theorem, and the monotone tail quotient closes every larger integer. This proves exactly \\(N_7=M_6=290239045397854538365381\\) and \\(N_8=M_7=4015602312602016465554214991\\), not the all-level conjecture.",
+      "residual_risks": [
+        "The finite certificate checks the stated reduced ranges; its mathematical force depends on the separately reconstructed support-reduction lemmas and explicit prime-counting bounds."
+      ],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "The motivating preprint determines N_1 through N_6 and M_1 through M_5 and states the general equality M_k=N_{k+1} as a conjecture. Searches for the two exact boundary integers, N_7, N_8, M_6=N_7, M_7=N_8, and equivalent totient-versus-prime-counting threshold formulations found no prior determination of either new pair. Classical explicit inequalities and primorial extremality are not claimed as new. Originality remains to the best of our knowledge because the motivating preprint is recent.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "The paper proves the general comparison M_k <= N_(k+1), develops the finite support reduction, and computes earlier thresholds, but leaves M_k=N_(k+1) as Conjecture 3.5."
+        ],
+        "reasoning": "Those general tools do not determine the exact seventh and eighth thresholds without the new finite and analytic work.",
+        "searches": [
+          "Fatehizadeh, Prime and Nonprime Totatives: A Sharp Construction and Exact Thresholds, arXiv:2609.13852."
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.13852",
+        "https://arxiv.org/abs/1703.08032",
+        "https://doi.org/10.1215/ijm/1255631807"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The prior reduction framework narrows the search but does not imply where the last level-7 or level-8 failures occur."
+        ],
+        "reasoning": "The audited pairs are not corollaries of the earlier theorem; they require the new exhaustive reduced searches and tail checks.",
+        "searches": [
+          "Compared the final threshold statement with Theorem 3.4, Proposition 3.1, Lemmas 3.2-3.3, and Conjecture 3.5 of arXiv:2609.13852."
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "No independent exact-text hit was returned by the project search.",
+          "The motivating paper's Theorem 3.4 ends at N_6 and M_5."
+        ],
+        "reasoning": "No equivalent prior formulation was found; the originality conclusion rests primarily on the inspected source's explicit scope rather than on an unsuccessful search.",
+        "searches": [
+          "Semantic search for N_7, N_8, M_6, M_7 and totient-versus-prime-counting threshold aliases; the semantic index was unavailable during this run.",
+          "Exact-text project search for the boundary integers and equality pairs."
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No independent table containing the two audited threshold pairs was located."
+        ],
+        "reasoning": "Absence from a table is supporting evidence only; the decisive comparison is with the theorem and conjecture in the motivating primary paper.",
+        "searches": [
+          "Exact boundary-integer and threshold-pair searches in the published project corpus."
+        ]
+      },
+      "rationale": "The motivating primary paper determines only the first six totient-prime thresholds and first five nonprime-totative thresholds, then states the general equality as a conjecture. Full-text inspection of its threshold theorem and conjecture does not contain the two audited pairs.",
+      "residual_risks": [
+        "The motivating threshold paper is very recent, so an unindexed contemporaneous calculation remains possible.",
+        "The semantic literature index was unavailable during this audit; primary-source and exact-text searches were used instead."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING",
+          "evidence": "Theorem 3.4 lists N_1 through N_6 and M_1 through M_5; Conjecture 3.5 asks for the general equality.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.13852",
+          "material_read": "Full text around Lemmas 3.2-3.3, Theorem 3.4, and Conjecture 3.5.",
+          "method": "Primary preprint full text.",
+          "title": "Prime and Nonprime Totatives: A Sharp Construction and Exact Thresholds",
+          "trigger": "Same thresholds, definitions, support reduction, and conjecture."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result extends a newly stated exact-threshold conjecture by two consecutive cases, identifies the exact last failures and their factorizations, and provides a reproducible finite certificate together with an analytic proof of the infinite tails.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.13852"
+      ],
+      "rationale": "These are natural exact threshold invariants already motivated by a published conjecture. Two consecutive new cases, exact last failures, and a reproducible finite reduction are a meaningful finite extension rather than an arbitrary numerical slice.",
+      "residual_risks": [
+        "The result is finite and does not establish the conjecture for arbitrary k."
+      ],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Same-model review: passed. Independent audit: not yet performed.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
+  "disposition": "passed",
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "The theorem settles only the two additional cases M_6=N_7 and M_7=N_8.",
+    "It does not prove the threshold-equality conjecture for every level.",
+    "Best-of-knowledge originality remains subject to very recent parallel work."
+  ],
   "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-18",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "previously_published_pending_reaudit": false,
+  "prior_scientific_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "The prior scientific review checked the boundary failures, finite high-support ranges, primorial extremality, and analytic tails from explicit prime-counting and totient bounds.",
+        "verdict": "PASS"
+      },
+      "originality": {
+        "rationale": "The prior review compared the motivating threshold paper, which stopped at N_6 and M_5, and did not locate the two later exact pairs.",
+        "verdict": "PASS"
+      },
+      "value": {
+        "rationale": "The prior review judged two consecutive exact cases of the motivating threshold conjecture to be mathematically worthwhile.",
+        "verdict": "PASS"
+      }
+    },
+    "reviewed_at": "2026-09-18"
+  },
+  "record_id": "SCOPE-20260918-3d28ecd6b6a8",
+  "record_title": "Exact seventh and eighth totient-prime thresholds",
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

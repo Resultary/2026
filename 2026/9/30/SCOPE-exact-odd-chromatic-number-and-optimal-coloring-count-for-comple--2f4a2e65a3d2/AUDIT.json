@@ -1,23 +1,140 @@
 {
-  "correctness": {
-    "rationale": "A proper coloring of a complete multipartite graph uses disjoint palettes on distinct parts. The odd-neighborhood condition is therefore equivalent to having at least two parts with an odd-sized color class. This equivalence yields the three parity cases and the counting formulas. Exhaustive replay verifies minimality and counts on 32 small instances.",
-    "status": "PASS"
+  "audited_at_utc": "2026-10-02T00:16:07.579488Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "assigned RESULT.md",
+        "assigned verify.py",
+        "Petruševski–Škrekovski, arXiv:2112.13710",
+        "Caro–Petruševski–Škrekovski, arXiv:2201.03608"
+      ],
+      "rationale": "Every proper color class lies inside one multipartite part. Calling a part active when it contains an odd-sized color class, the odd-neighborhood condition for every vertex is equivalent to having at least two active parts. Every odd-order part is automatically active; an even part is inactive when monochromatic and can be activated with exactly one extra color by an odd-odd bipartition. This proves \\(\\chi_o(K_{n_1,\\ldots,n_r})=r+\\max\\{0,2-o\\}\\). Optimality then forces exactly the stated active parts, and an even \\(n_i\\)-set has \\(2^{n_i-2}\\) unordered odd-odd bipartitions, giving the three exact formulas for \\(U(G)\\) and the labeled factor \\(k!\\).",
+      "residual_risks": [
+        "The bounded exhaustive checker covers only small multipartite instances and is corroborative; the all-size theorem rests on the active-part proof."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "These sources provide the definition, general properties, graph-product results, or exact values for selected Cartesian-product families."
+        ],
+        "reasoning": "Those broader thematic results do not imply the audited active-part reduction or the optimal-coloring count for arbitrary complete multipartite graphs.",
+        "searches": [
+          "arXiv:2112.13710",
+          "arXiv:2201.03608",
+          "arXiv:2202.12882",
+          "DOI:10.3934/math.2026056"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2112.13710",
+        "https://arxiv.org/abs/2201.03608",
+        "https://arxiv.org/abs/2202.12882",
+        "https://doi.org/10.3934/math.2026056",
+        "published-result corpus search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The prior statements do not force that a complete multipartite coloring is odd exactly when at least two parts are active; that equivalence is the key new reduction."
+        ],
+        "reasoning": "Once the active-part equivalence is proved, the chromatic number and counts follow sharply; the inspected prior theorems do not supply that equivalence.",
+        "searches": [
+          "comparison with the definitions and main theorem statements in arXiv:2112.13710 and arXiv:2201.03608"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The closest corpus hit was the assigned record itself; nearby records concerned unrelated complete-multipartite invariants.",
+          "The foundational odd-coloring papers define the same neighborhood-parity notion but do not state the audited multipartite formula in the inspected material."
+        ],
+        "reasoning": "No equivalent reformulation of the same complete-multipartite classification was located.",
+        "searches": [
+          "published-corpus query: odd chromatic number complete multipartite graph exact formula optimal coloring count neighborhood parity",
+          "literature query: \"odd chromatic number\" \"complete multipartite\""
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No earlier table or exact-sequence record with the displayed formula or the \\(U(G)\\) enumeration was located."
+        ],
+        "reasoning": "The result is an all-parameter structural theorem, not a recomputation of a finite table.",
+        "searches": [
+          "published-corpus exact query on \\(\\chi_o(K_{n_1,\\ldots,n_r})\\) and the parity parameter \\(o\\)"
+        ]
+      },
+      "rationale": "The foundational neighborhood-parity papers define the notion and develop general structural bounds, and later work treats products and other graph classes. Direct statement/implication searches found no earlier complete-multipartite theorem with the three parity cases, nor the exact optimal-coloring enumeration. The bipartite special cases follow from the audited general theorem, not vice versa.",
+      "residual_risks": [
+        "Originality is best-of-knowledge; an unindexed graph-class note using different terminology could contain an equivalent formula."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "BACKGROUND_NOT_COVERING",
+          "evidence": "The inspected statements introduce odd coloring and general bounds but do not give the arbitrary complete-multipartite classification or enumeration.",
+          "identifier_or_url": "https://arxiv.org/abs/2112.13710",
+          "material_read": "Accessible full article sections containing the definition, examples, and main general bounds/results.",
+          "method": "Lawful open full text.",
+          "title": "Colorings with neighborhood parity condition",
+          "trigger": "Primary source introducing the exact coloring notion."
+        },
+        {
+          "assessment": "BACKGROUND_NOT_COVERING",
+          "evidence": "No theorem matching or implying the complete-multipartite active-part formula was found in the inspected text.",
+          "identifier_or_url": "https://arxiv.org/abs/2201.03608",
+          "material_read": "Accessible full-text definitions and main structural statements.",
+          "method": "Lawful open full text.",
+          "title": "Remarks on odd colorings of graphs",
+          "trigger": "Same invariant and natural structural follow-up."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "arXiv:2112.13710",
+        "arXiv:2201.03608"
+      ],
+      "rationale": "Complete multipartite graphs are a standard infinite family, and the result gives both the exact neighborhood-parity chromatic number and a complete count of optimal color-class partitions. The active-part characterization is a reusable structural reduction rather than a small-instance computation.",
+      "residual_risks": [
+        "The result is family-specific and does not directly extend to arbitrary multipartite subgraphs."
+      ],
+      "status": "PASS"
+    }
   },
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "originality": {
-    "rationale": "Targeted searches of current scholarly sources and the published-finding corpus found the foundational odd-coloring papers and later product/sparse/complexity work but no equivalent or stronger complete-multipartite parity formula or optimal-coloring enumeration. This remains a best-of-knowledge assessment, not a proof of novelty.",
-    "status": "PASS"
+  "disposition": "passed",
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-02.md",
+    "INDEPENDENT_AUDIT_2026-10-02.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "Graphs are finite simple complete multipartite graphs with at least two nonempty parts.",
+    "The exact count is for optimal color-class partitions, with labeled palettes obtained by multiplying by \\(k!\\).",
+    "The finite verifier is corroborative only; the proof establishes the infinite family."
+  ],
+  "policy": "best-of-knowledge scientific assessment",
+  "previously_published_pending_reaudit": false,
+  "prior_scientific_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "A proper coloring of a complete multipartite graph uses disjoint palettes on distinct parts. The odd-neighborhood condition is therefore equivalent to having at least two parts with an odd-sized color class. This yields the parity cases and counting formulas; small exhaustive replay corroborated them.",
+        "status": "PASS"
+      },
+      "originality": {
+        "rationale": "Targeted contemporary searches found the foundational odd-coloring literature but no equivalent complete-multipartite formula or optimal-coloring enumeration.",
+        "status": "PASS"
+      },
+      "value": {
+        "rationale": "The result gives an exact closed form and complete optimal-coloring enumeration for an infinite classical family.",
+        "status": "PASS"
+      }
+    },
+    "independent": false
   },
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "same_model_review_status": "passed",
+  "record_id": "SCOPE-20260930-2f4a2e65a3d2",
+  "review_type": "independent_audit",
   "schema_version": 1,
-  "scope_run_id": "2f4a2e65-a3d2-485f-8bea-f1cf321ca55b",
-  "value": {
-    "rationale": "The result gives an exact closed form and complete optimal-coloring enumeration for an infinite classical family, including a sharp parity classification for every complete bipartite graph, with a reusable active-part reduction.",
-    "status": "PASS"
-  },
-  "verification_state": "awaiting_fresh_independent_audit"
+  "verification_state": "independently_reviewed"
 }

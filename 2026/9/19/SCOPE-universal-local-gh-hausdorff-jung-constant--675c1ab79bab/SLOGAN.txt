@@ -1,1 +1,0 @@
-Building on the earlier SCOPE deleted-ball cubic asymptotic, this record proves the genuinely broader statement: every sufficiently dense compact subset of a closed Riemannian n-manifold satisfies a scale-sensitive lower bound whose leading coefficient is the Euclidean Jung constant. Thus the local infimum of d_GH/d_H tends universally to sqrt((n+1)/(2n)).

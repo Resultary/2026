@@ -1,0 +1,99 @@
+{
+  "audited_at_utc": "2026-10-01T17:57:47.787665Z",
+  "axes": {
+    "correctness": {
+      "rationale": "The derivative reduction was reconstructed from the modified-Bessel recurrence. At \\(\\nu=-15/16\\) and \\(x=2\\), the exact identity becomes \\(F''(2)/F(2)=841/256-(39/16)r(2)\\), where \\(r=I_{1/16}/I_{-15/16}\\). Independent rational series bounds reproduce the committed certificate: \\(A_4=2131411/82467\\), \\(B_4=356659/162435\\), \\(A<A_{\\rm upper}=658737071/25482303\\), hence \\(r(2)>58189629168/42817909615>841/624\\) and therefore \\(F''(2)/F(2)<0\\). This single negative second derivative disproves complete monotonicity at that order; continuity in the order parameter gives an open failure neighborhood. It does not classify the whole interval.",
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Recent Bessel-ratio and complete-monotonicity papers found in the searches concern different ratio families or nonnegative-order regimes.",
+          "No located theorem covers the entire Baricz part-(b) interval in a way that mechanically implies this rational witness."
+        ],
+        "reasoning": "No broader earlier covering theorem was located.",
+        "searches": [
+          "Resultary search for Bessel complete-monotonicity classifications",
+          "Web search for complete classifications over \\((-1,-1/2]\\)",
+          "arXiv:2607.05538"
+        ]
+      },
+      "checked_sources": [
+        "DOI 10.1017/S0013091508001016",
+        "DOI 10.1016/j.jmaa.2013.05.070",
+        "arXiv:2607.05538",
+        "Resultary semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The positive-order and neighboring monotonicity results in the primary paper do not imply a negative second derivative in the open interval.",
+          "The rational tail estimate is a new certificate relative to the inspected prior statements."
+        ],
+        "reasoning": "The counterexample is not a corollary of the positive monotonicity theorems that motivated the question.",
+        "searches": [
+          "Baricz 2010 full paper",
+          "searches for later Bessel monotonicity refinements"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Baricz's Section 2 explicitly asks whether \\(x^{\\nu+1}e^{-x}I_\\nu(x)\\) is strictly completely monotone for every \\(\\nu\\in(-1,-1/2]\\).",
+          "No earlier searched source stated a counterexample or an equivalent sign failure for the second derivative at \\(\\nu=-15/16\\)."
+        ],
+        "reasoning": "The audited claim is precisely a negative answer to part (b) of the primary open problem, not a title-level similarity.",
+        "searches": [
+          "Resultary semantic query: modified Bessel complete monotonicity x^(nu+1)e^-x I_nu counterexample Baricz Section 2(b) nu -15/16",
+          "Web search: exact function with complete monotonicity aliases",
+          "DOI 10.1017/S0013091508001016"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "The only exact archive hit was the audited record itself; no earlier table/database entry supplied this sign certificate."
+        ],
+        "reasoning": "This is an analytic counterexample rather than a tabulated invariant; exact-record search is the relevant database check.",
+        "searches": [
+          "Resultary exact semantic lookup for the problem and witness",
+          "Published mathematical archive search by function/order"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality survives. The exact problem is explicitly posed in the primary 2010 article, and the semantic/archive and primary-literature searches located no earlier counterexample at this order or equivalent negative second-derivative certificate.",
+      "residual_risks": [
+        "A differently phrased or poorly indexed prior counterexample could exist; the literature search cannot prove first discovery."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "OPEN_PROBLEM_CONFIRMED",
+          "evidence": "Part (b) asks exactly whether \\(x^{\\nu+1}e^{-x}I_\\nu(x)\\) is SCM for every \\(\\nu\\in(-1,-1/2]\\).",
+          "identifier_or_url": "DOI 10.1017/S0013091508001016",
+          "material_read": "Full 25-page article, with detailed inspection of the definitions, Section 2 discussion, and the open problems on printed page 587",
+          "method": "Lawful publisher PDF",
+          "title": "Bounds for modified Bessel functions of the first and second kinds",
+          "trigger": "Primary source posing the exact complete-monotonicity question"
+        },
+        {
+          "assessment": "NOT_COVERING_IN_MATERIAL_READ",
+          "evidence": "The located later work treats other Bessel-ratio inequalities and does not expose this part-(b) counterexample.",
+          "identifier_or_url": "arXiv:2607.05538 and linked literature",
+          "material_read": "Accessible abstract/metadata and search-result scientific summaries",
+          "method": "Open web and semantic archive search",
+          "title": "A rational-order counterexample search in later Bessel literature",
+          "trigger": "Possible later resolution"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "rationale": "The result gives a rigorous exact counterexample to a long-standing explicitly posed special-function monotonicity question, with a short rational certificate and an open failure neighborhood. It is a motivated boundary result, not an arbitrary parameter check.",
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "limitations": [
+    "A differently phrased or poorly indexed prior counterexample could exist; the literature search cannot prove first discovery."
+  ],
+  "record_id": "SCOPE-20260920-ac079dddc4e2",
+  "record_title": "A rational-order counterexample to a Bessel complete-monotonicity problem",
+  "review_type": "independent_mathematical_audit",
+  "statement": "The final scientific claim was independently reconstructed and assessed on correctness, originality, and scientific value. This is not formal proof-assistant verification and is not a guarantee against undiscovered prior art."
+}

@@ -1,27 +1,98 @@
 {
+  "audited_at_utc": "2026-10-01T14:49:05Z",
   "axes": {
     "correctness": {
-      "rationale": "The upper bound follows from Taylor-polynomial approximations to disk automorphisms tested on a single basis vector, giving an exact powered coefficient sum and hence the Kayumov-Ponnusamy infimum obstruction. The p-to-p' symmetry is obtained from Banach adjoint duality together with equality of unilateral forward/backward polynomial-shift norms via bilateral translation. Endpoint norms, strictness away from p=2, and the Hilbert-point asymptotics were checked separately.",
-      "verdict": "PASS"
+      "rationale": "PASS. The norm transference step is valid: a finite polynomial of either unilateral shift is a compression of the corresponding bilateral convolution operator, while finitely supported bilateral test vectors can be translated away from the boundary, so the unilateral and bilateral polynomial norms coincide. Banach adjoint duality therefore gives \\(R_p=R_{p'}\\). Testing Taylor truncations of the disk automorphism \\(\\phi_a(z)=(a-z)/(1-az)\\) on a far basis vector produces disjoint coordinates and exactly the stated powered coefficient sum, yielding the \\(\beta_q\\) upper bound. The endpoint \\(\\ell_1\\) and \\(\\ell_\\infty\\) norms reduce exactly to the classical Bohr sum, while \\(p=2\\) is von Neumann's inequality. The two first-order expansions around \\(q=2\\) correctly bracket the linear defect by \\((\\log2)/2\\) and \\((\\log3)/2\\).",
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Kania supplies the shift-radius definition and interpolation lower bound, while Kayumov-Ponnusamy supply the scalar powered Bohr theorem. Searches by source title, shift polynomial calculus, powered Bohr radius, dual exponents, and equivalent unilateral Toeplitz/convolution formulations found no prior statement transferring the powered Bohr obstruction to this shift radius or deriving the resulting duality, strictness, endpoint limits, and linear Hilbert-point separation. Known scalar Bohr theory and standard shift transference are excluded from the novelty claim.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "Kania supplies the shift setting and lower bound; Kayumov--Ponnusamy supply the scalar obstruction."
+        ],
+        "reasoning": "Neither inspected statement dominates the combined duality and operator upper-bound theorem.",
+        "searches": [
+          "Kania spectral constants algebraic numerical ranges canonical left shift",
+          "Kayumov Ponnusamy powered Bohr inequality"
+        ]
+      },
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The two prior ingredients live in distinct operator and scalar settings."
+        ],
+        "reasoning": "The Möbius-truncation test and unilateral/bilateral duality bridge are additional arguments; the final bounds are not a mere parameter substitution.",
+        "searches": [
+          "arXiv:2609.18963 shift interpolation radius",
+          "doi:10.5186/aasfm.2019.4416 powered Bohr"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The exact semantic search returned the audited record; scalar Bohr results concern coefficient sums rather than operator norms."
+        ],
+        "reasoning": "The bilateral-convolution formulation is equivalent to the shift formulation but does not turn the scalar powered-Bohr theorem into the claimed operator statement without the new test/transference argument.",
+        "searches": [
+          "ell_p unilateral shift contractivity radius powered Bohr duality",
+          "R_p R_p' canonical shift polynomial calculus"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No table/database is natural for this analytic radius; no earlier exact published record was found."
+        ],
+        "reasoning": "The relevant check is theorem-level literature comparison.",
+        "searches": [
+          "Resultary semantic search powered Bohr ell_p shift radius"
+        ]
+      },
+      "rationale": "PASS to the best of current knowledge. Kania's recent primary paper supplies the shift construction and the interpolation lower bound but its accessible primary statement does not contain the dual-exponent identity, powered-Bohr obstruction, endpoint limits, or Hilbert-point linear defect. Kayumov--Ponnusamy's 2019 primary paper was inspected through its journal page and full-document metadata: it proves the scalar powered Bohr radius for Schur functions, not an operator \\(\\ell_p\\)-shift radius. Resultary searches for the operator radius, duality and powered-Bohr transfer returned this record as the only exact match. The Kania PDF could not be retrieved in verified full text during this run, so an unindexed overlap inside that very recent paper remains an explicit residual risk.",
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result turns a lower-bound-only quantitative question into a two-sided theory, identifies p=2 as the unique full-radius exponent, proves exact dual-exponent symmetry, determines the non-Hilbert endpoint limits, and establishes the exact linear order of the contractivity defect near p=2.",
-      "verdict": "PASS"
+      "rationale": "PASS. The result turns a one-sided interpolation estimate for a newly introduced shift radius into a quantitative two-sided theory, identifies the Hilbert exponent as the unique full-radius point, gives exact duality and endpoint limits, and pins down the first-order scale of the defect near \\(p=2\\). Those are natural structural properties of the new invariant rather than arbitrary evaluations.",
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, formal verification, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
+  "checked_sources": [
+    "Complete frozen/current Git package.",
+    "Independent unilateral/bilateral transference, adjoint-duality, Möbius-test and endpoint calculations.",
+    "Published-record search and primary-source searches."
+  ],
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
   "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-19T12:40:12Z",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "previously_published_pending_reaudit": false,
+  "record_id": "SCOPE-20260919-1b567bc40ed8",
+  "residual_risks": [
+    "The full Kania PDF was not obtained in verified text during this run, so hidden overlap in that extremely recent preprint remains possible.",
+    "The exact interior value of \\(R_p\\) remains open; the audit validates only the stated bounds and limiting geometry."
+  ],
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "source_inspections": [
+    {
+      "assessment": "PLAUSIBLE_PRIMARY_SOURCE_WITH_ACCESS_LIMITATION",
+      "evidence": "The accessible statement describes the canonical left-shift construction and contractive polynomial calculus but not the audited powered-Bohr/duality theorem.",
+      "identifier_or_url": "https://arxiv.org/abs/2609.18963",
+      "material_read": "Primary abstract/indexed statement; repeated full-text retrieval attempts did not yield a verified PDF.",
+      "method": "Primary-source search plus authorized retrieval attempt.",
+      "title": "Spectral constants for algebraic numerical ranges",
+      "trigger": "Source of the canonical shift setting and interpolation lower bound."
+    },
+    {
+      "assessment": "SCALAR_PRIOR_INGREDIENT_NOT_OPERATOR_COVERAGE",
+      "evidence": "The paper concerns Schur-function coefficient sums for exponents between one and two, not the \\(\\ell_p\\) unilateral-shift contractivity radius.",
+      "identifier_or_url": "https://doi.org/10.5186/aasfm.2019.4416",
+      "material_read": "Journal landing page, abstract, and public PDF metadata identifying the powered coefficient sum and exact automorphism radius problem.",
+      "method": "Primary journal/OA search.",
+      "title": "On a powered Bohr inequality",
+      "trigger": "Exact scalar powered-Bohr ingredient."
+    }
+  ],
+  "verification_state": "independently_reviewed"
 }

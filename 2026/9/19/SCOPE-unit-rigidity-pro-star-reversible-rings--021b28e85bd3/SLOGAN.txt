@@ -1,1 +1,0 @@
-This later record gives an alternate proof of the already-established SCOPE unit-group criterion for pro-star-reversibility: among star-reversible rings, pro-star-reversibility is exactly pointwise fixation of every unit. It is retained as a corroborating proof and consequence package, not as a separate discovery.

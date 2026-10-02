@@ -1,27 +1,133 @@
 {
+  "audited_at_utc": "2026-10-01T08:40:37Z",
   "axes": {
     "correctness": {
-      "rationale": "The binary proof was checked lemma by lemma. In the local bubble lemma, the two binary boundary symbols need only be unequal to the edited symbol, so arbitrary q-ary run boundaries work. The remaining alphabet-dependent counts replace 2^d by q^d and one recorded bit by one recorded q-ary symbol; for fixed q these change only constants. The witness, hashing, support-component and bipartition arguments are alphabet-independent, yielding redundancy (2t-1) log_q n + O_{q,t}(log log n).",
-      "verdict": "PASS"
+      "checked_sources": [
+        "Assigned RESULT.md at tree f484e96594997bfa5c2512e8e914687a37522c7a",
+        "E. En Gad, arXiv:2609.19493",
+        "W. Song and K. Cai, arXiv:2210.14006",
+        "published corroborating derivation dated 2026-09-18"
+      ],
+      "rationale": "The extension-specific proof was reconstructed from the assigned result. The collision probability for two q-ary length-k windows is exactly q^{-k}, including overlaps, so the chosen k leaves a constant-density k-unique family. The de Bruijn-spectrum argument is alphabet-independent. In the local bubble lemma the binary complement is not used: disjointness only needs the two run-boundary symbols to differ from the edited symbol. Exceptional alignments acquire only a q^d factor, and witness recovery acquires only q^{O_t(R)} local choices; for fixed q,t these are absorbed into the hash-label constant without changing the positional exponent (2t-1)R. These are exactly the alphabet-sensitive points needed to transfer the established binary witness argument.",
+      "residual_risks": [
+        "The full text of the very recent En Gad preprint could not be retrieved through the available open-access route in this run; the binary theorem itself was therefore treated as the cited prior theorem while the q-ary transfer steps were checked from the assigned proof."
+      ],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Qualified to the best of our knowledge. En Gad's 16 September 2026 preprint proves the coefficient 2t-1 for binary codes and explicitly asks whether it holds for fixed larger alphabets. Exact and synonymous searches found no prior fixed-q theorem with this coefficient. Earlier q-ary two-deletion constructions found in the search have larger leading redundancy. The recency of the motivating preprint leaves a substantial simultaneous-work risk.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "Existing q-ary constructions and general deletion bounds found do not imply the fixed-q (2t-1) existential upper bound.",
+          "The binary En Gad theorem does not itself imply the larger-alphabet result without the transfer of the bubble and witness counts."
+        ],
+        "reasoning": "No stronger pre-record theorem located dominates the claim.",
+        "searches": [
+          "q-ary multiple-deletion codes",
+          "nonbinary two-deletion redundancy",
+          "all-distance deletion codes"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.19493",
+        "https://arxiv.org/abs/2210.14006",
+        "published corroborating record dated 2026-09-18",
+        "published q-ary generalization dated 2026-09-19"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The later corroborating record states that the assigned record entered earlier on 2026-09-18 and explicitly treats itself as non-original corroboration.",
+          "The binary proof supplies the mechanism but leaves the alphabet-sensitive steps to be proved; those steps are the content of the audited claim."
+        ],
+        "reasoning": "No checked prior implication mechanically yields the q-ary theorem without those new transfer steps.",
+        "searches": [
+          "En Gad binary theorem versus fixed-q transfer",
+          "later 2026-09-18 corroborating record chronology"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The semantic search returned this record, a later same-day corroborating derivation, and a 2026-09-19 generalization; no earlier equivalent fixed-q theorem was found.",
+          "Song--Cai gives a q-ary two-deletion construction with leading coefficient 5, not 3."
+        ],
+        "reasoning": "Equivalent terminology such as q-ary insertion/deletion codes and edit-distance codes was included; no earlier statement with the same asymptotic coefficient was located.",
+        "searches": [
+          "Resultary semantic search: fixed q-ary deletion coefficient 2t-1",
+          "arXiv:2609.19493",
+          "arXiv:2210.14006"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No exact database/table entry controls an all-n asymptotic existence theorem."
+        ],
+        "reasoning": "This check is inapplicable as a tabular lookup; the relevant comparison is theorem-level asymptotic coverage.",
+        "searches": [
+          "published mathematical records for q-ary deletion-code redundancy coefficients"
+        ]
+      },
+      "rationale": "The exact fixed-q coefficient was not located before this record. The motivating En Gad paper proves the binary coefficient only. A later same-day corroborating record explicitly identifies this assigned record as the earlier occurrence, and the next-day broader q-ary record postdates it. Earlier q-ary two-deletion constructions located in the primary literature have larger leading redundancy.",
+      "residual_risks": [
+        "The source binary preprint is recent and its full text was unavailable in this run.",
+        "Parallel work not indexed by the searched corpus may exist."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Establishes the binary (2t-1) theorem but not the audited q-ary statement.",
+          "evidence": "The abstract states the binary t-deletion redundancy coefficient (2t-1).",
+          "identifier_or_url": "https://arxiv.org/abs/2609.19493",
+          "material_read": "Primary abstract; full text retrieval failed in this run.",
+          "method": "Direct arXiv lookup.",
+          "title": "Polynomially larger deletion codes by linear hashing of substring counts",
+          "trigger": "Exact binary antecedent and motivating open extension."
+        },
+        {
+          "assessment": "Gives larger redundancy and therefore does not cover the audited coefficient.",
+          "evidence": "The abstract reports 5 log n plus lower-order terms for q-ary two-deletion codes.",
+          "identifier_or_url": "https://arxiv.org/abs/2210.14006",
+          "material_read": "Primary abstract.",
+          "method": "Direct literature lookup.",
+          "title": "Non-binary Two-Deletion Correcting Codes and Burst-Deletion Correcting Codes",
+          "trigger": "Closest earlier q-ary two-deletion construction."
+        },
+        {
+          "assessment": "Explicitly says it is later corroboration and that the assigned record appeared earlier the same day.",
+          "evidence": "Its provenance correction identifies the assigned record as the earlier theorem.",
+          "identifier_or_url": "published record dated 2026-09-18",
+          "material_read": "Complete RESULT.md and metadata.",
+          "method": "Direct full-text repository inspection.",
+          "title": "Corroborating derivation of the fixed-alphabet q-ary deletion coefficient 2t-1",
+          "trigger": "Near-identical theorem in the published mathematical corpus."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result closes an explicit open extension question and shows that the new one-power-of-n gain is not binary-specific. For t=2 it gives fixed-q existential codes with leading redundancy 3 log_q n instead of the classical greedy coefficient 4.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "En Gad 2026 binary theorem",
+        "Song--Cai q-ary two-deletion construction"
+      ],
+      "rationale": "The theorem answers a natural fixed-alphabet extension of a new deletion-code coefficient improvement and shows that the one-power-of-n gain is not binary-specific. For t=2 it changes the fixed-q existential leading coefficient from the generic 4-style scale to 3, while keeping the proof mechanism structurally transparent.",
+      "residual_risks": [
+        "The construction is existential and does not improve efficient q-ary code constructions."
+      ],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-18",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disclaimer": "This evidence-based scientific review is not peer review and is not a guarantee of first discovery.",
+  "evidence": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "final_claim": "For every fixed alphabet size \\(q\\ge2\\) and fixed \\(t\\ge2\\), there exist \\(q\\)-ary length-\\(n\\) codes correcting \\(t\\) deletions with redundancy \\((2t-1)\\log_q n+O_{q,t}(\\log_q\\log n)\\).",
+  "historical_review_evidence": {
+    "correctness": "Binary proof checked with q-ary bookkeeping changes; verdict PASS.",
+    "originality": "Historical review found no fixed-q theorem and treated the motivating preprint as leaving the extension open; verdict PASS.",
+    "value": "Historical review treated the fixed-alphabet extension as worthwhile; verdict PASS."
+  },
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "previously_published_pending_reaudit": false,
+  "review_type": "independent_audit",
+  "verification_state": "independently_reviewed"
 }

@@ -1,27 +1,128 @@
 {
+  "audited_at_utc": "2026-10-01T18:48:48Z",
   "axes": {
     "correctness": {
-      "rationale": "The Heron-formula reduction, primitive normalization, parity and gcd steps, the mod-8 obstruction, and the converse scaling family were rederived. A separate exact-integer scan over 4,498,500 parameter pairs found 44 predicted two-prime-support cases and zero mismatches.",
-      "verdict": "PASS"
+      "rationale": "PASS. For sides \\((b-d,b,b+d)\\), Heron's formula gives the exact reduction to \\(b=2x\\) and \\(x^2-d^2=3y^2\\), with area \\(K=3xy\\). Removing the common side gcd yields coprime \\(X,Y,D\\) with \\(X^2-D^2=3Y^2\\), \\(D\\) odd, and \\(X,Y\\) of opposite parity. Since every Heronian area here is divisible by \\(6\\), two-prime support forces support exactly \\(\\{2,3\\}\\). Then \\(3\\nmid X\\), so \\(X=2^A\\), while coprimality forces \\(Y=3^B\\). If \\(B\\ge1\\), the square equation is impossible modulo \\(8\\) for \\(A\\ge2\\), and negative for \\(A=1\\). Hence \\(B=0\\), and \\((2^A-D)(2^A+D)=3\\) gives \\(A=1,D=1\\), namely the primitive \\(3,4,5\\) triangle. Scaling preserves exactly two area primes precisely for \\(t=2^u3^v\\). The bounded scan is supporting evidence only.",
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "MacDougall's available full text, Bailey-Gosnell bibliographic material, Read's publisher extract and references, OEIS A387908, synonymous prime-support searches, and current SCOPE records were checked. No equivalent area-prime-support classification was located. Originality is to the best of our knowledge; the uninspected full text of Read (2025) is the principal residual risk.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "The inspected full texts classify HAP shapes and their areas; none gives the claimed smooth-area classification."
+        ],
+        "reasoning": "A general parameterization is an ingredient, not a theorem that mechanically eliminates every other two-prime-support case.",
+        "searches": [
+          "MacDougall Heron triangles with sides in arithmetic progression",
+          "DOI 10.1017/mag.2025.10079",
+          "Bailey Gosnell Heronian triangles arithmetic progression"
+        ]
+      },
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The prior formulas reduce the problem to explicit coprime parameters, but the exact prime-support conclusion is not printed and is not a mere substitution."
+        ],
+        "reasoning": "The audited modular and factorization argument supplies a genuine additional implication.",
+        "searches": [
+          "Full Read 2025 Theorems 4-7 and Corollary 2",
+          "MacDougall 2003 parameterization"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Read's full article gives the primitive HAP parameterization and exact area formula but no two-prime-support theorem."
+        ],
+        "reasoning": "Prime support can be expressed through Read's parameters, but completing that reformulation requires the additional coprime and modulo-\\(8\\) argument in the audited proof.",
+        "searches": [
+          "Heronian triangle arithmetic progression area exactly two prime divisors 3 4 5",
+          "HAP triangle minimal prime support smooth area",
+          "Read 2025 On HAP triangles area formula"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "Available enumerations list examples but do not establish the quantified all-triangle classification."
+        ],
+        "reasoning": "Finite tables cannot prove the claimed infinite exclusion; the proof supplies that step.",
+        "searches": [
+          "OEIS A387908 HAP perimeter data",
+          "published-record semantic search for HAP area prime support"
+        ]
+      },
+      "rationale": "PASS to the best of current knowledge. MacDougall's arithmetic-progression parameterization and Read's complete 2025 HAP treatment were both inspected in full. Read gives a complete primitive parameterization and the exact area formula, and also proves that \\(3,4,5\\) is the only primitive right triangle in the class, but neither source states or implies without an additional Diophantine argument that exactly two distinct area primes force the \\(3,4,5\\) similarity class. Published-record and targeted searches found no earlier exact prime-support classification.",
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The theorem completely classifies the minimum possible distinct-prime support of the area in the classical family of arithmetic-progression Heronian triangles, yielding a unique primitive core and an explicit full scaling family without a size cutoff.",
-      "verdict": "PASS"
+      "rationale": "PASS. Minimal prime support of the integer area is a natural arithmetic invariant of a classical Diophantine family. The theorem gives a complete infinite classification, identifies a unique primitive shape, and converts a broad HAP parameterization into a sharp smoothness statement rather than reporting a bounded census.",
+      "status": "PASS"
     }
   },
-  "disclaimer": "Same-model review: passed. Independent audit: not yet performed.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
+  "checked_sources": [
+    "Complete frozen/current Git package and both exact-integer verifier artifacts.",
+    "Independent Diophantine proof from Heron's formula through the coprime square equation and modulo-\\(8\\) obstruction.",
+    "Complete Read 2025 article and the MacDougall parameterization.",
+    "Published-record, database, and primary-literature searches."
+  ],
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
   "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-20",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "previously_published_pending_reaudit": false,
+  "prior_scientific_assessment": {
+    "axes": {
+      "correctness": {
+        "rationale": "The earlier review accepted the Diophantine reduction and exact bounded verification.",
+        "verdict": "PASS"
+      },
+      "originality": {
+        "rationale": "It found no exact two-prime-support classification but had not read the complete 2025 HAP article.",
+        "verdict": "PASS"
+      },
+      "value": {
+        "rationale": "It viewed the unique primitive minimal-support classification as worthwhile.",
+        "verdict": "PASS"
+      }
+    },
+    "reviewed_at": "2026-09-20",
+    "status": "passed"
+  },
+  "record_id": "SCOPE-20260920-e6685b98bbd6",
+  "residual_risks": [
+    "Older recreational-number-theory literature could contain the same smooth-area observation under different terminology, although the two comprehensive HAP sources inspected do not."
+  ],
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "source_inspections": [
+    {
+      "assessment": "CLOSEST_FULL_TEXT_NOT_COVERING_PRIME_SUPPORT",
+      "evidence": "The paper parametrizes every primitive HAP triangle and gives its area, but does not classify the number of distinct prime divisors of that area.",
+      "identifier_or_url": "https://doi.org/10.1017/mag.2025.10079",
+      "material_read": "Complete 10-page primary article, including Theorems 4-7, the primitive parameterization, the area formula, and Corollary 2.",
+      "method": "Lawful full-text inspection after ordinary source discovery.",
+      "title": "On HAP triangles",
+      "trigger": "Most recent comprehensive treatment of Heronian arithmetic-progression triangles."
+    },
+    {
+      "assessment": "GENERAL_PARAMETERIZATION_NOT_EXACT_COVERAGE",
+      "evidence": "It reduces HAP triangles to a quadratic Diophantine equation but does not state the audited prime-support classification.",
+      "identifier_or_url": "https://www.researchgate.net/publication/242732258_Heron_Triangles_With_Sides_in_Arithmetic_Progression",
+      "material_read": "Full accessible article and its Diophantine parameterization.",
+      "method": "Primary-literature inspection.",
+      "title": "Heron triangles with sides in arithmetic progression",
+      "trigger": "Classical full parameterization of the same triangle family."
+    },
+    {
+      "assessment": "FINITE_DATA_NOT_COMPLETENESS",
+      "evidence": "The data are useful for examples but cannot establish the all-parameter prime-support theorem.",
+      "identifier_or_url": "https://oeis.org/A387908",
+      "material_read": "Sequence description and finite entries.",
+      "method": "Database check.",
+      "title": "OEIS A387908",
+      "trigger": "Exact-data check for arithmetic-progression Heronian triangles."
+    }
+  ],
+  "verification_state": "independently_reviewed"
 }

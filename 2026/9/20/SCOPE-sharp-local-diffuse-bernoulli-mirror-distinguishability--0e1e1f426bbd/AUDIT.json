@@ -1,35 +1,126 @@
 {
-  "correctness": {
-    "status": "PASS",
-    "summary": "The total variation of the mirror products is the L1 norm of an odd Walsh polynomial. Orthogonality bounds the nonlinear remainder by O(v^(3/2)), while the pure-state distinguishability is sqrt(v)(1+O(v)), proving the uniform local expansion. Sharp Khintchine constants give the local interval. For diffuse finite signal, the exact log-likelihood ratio satisfies a triangular-array CLT with limiting N(v,v), and the product overlap converges to exp(-v/2), yielding the explicit efficiency curve; its monotonicity follows from an elementary hyperbolic-sine inequality."
+  "audited_at_utc": "2026-10-01T21:06:11.107600Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "repaired RESULT.md proof",
+        "assigned artifacts/verify_mirror_tv.py",
+        "published 2026-09-19 weak-signal mirror record",
+        "Smirnov arXiv:2609.19222 abstract"
+      ],
+      "rationale": "For the repaired claim, let \\(S_n=\\sum_i\\operatorname{atanh}(a_{n,i})\\varepsilon_i\\) under the positive mirror law. Its mean is \\(v+o(1)\\), variance is \\(v+o(1)\\), and the largest centered summand tends to zero when \\(\\max_i a_{n,i}\\to0\\), so Lindeberg gives \\(S_n\\Rightarrow N(v,v)\\). The likelihood-ratio sign identity then gives \\(\\tau_n\\to2\\Phi(\\sqrt v)-1\\). Also \\(\\log\\prod_i(1-a_{n,i}^2)\\to-v\\), so \\(\\Delta_n\\to\\sqrt{1-e^{-v}}\\). For \\(t=\\sqrt v\\), differentiating \\(I(t)/\\sqrt{1-e^{-t^2}}\\) reduces strict monotonicity to \\(2\\sinh(t^2/2)>tI(t)\\), which follows from \\(2\\sinh(t^2/2)>t^2\\) and \\(I(t)<t\\).",
+      "residual_risks": [
+        "The artifact numerically illustrates homogeneous convergence but is not the proof.",
+        "The primary Smirnov full text was not available through the current access route; its abstract and the earlier published comparison were inspected."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The earlier record gives all weak-signal subsequential efficiencies and the diffuse endpoint \\(\\sqrt{2/\\pi}\\).",
+          "Classical LAN supplies the Gaussian limiting mechanism."
+        ],
+        "reasoning": "Those ingredients motivate but do not already state the exact finite-signal mirror efficiency curve and its global monotonic interpolation.",
+        "searches": [
+          "published record 2026/09/19/sharp-weak-signal-mirror-bernoulli-profiles--80bd8eba23bd",
+          "classical triangular-array CLT / LAN",
+          "Smirnov arXiv:2609.19222"
+        ]
+      },
+      "checked_sources": [
+        "published SCOPE 2026/09/19/sharp-weak-signal-mirror-bernoulli-profiles--80bd8eba23bd",
+        "https://arxiv.org/abs/2609.19222",
+        "https://arxiv.org/abs/2602.21828",
+        "Resultary semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The earlier theorem controls \\(v\\to0\\); it cannot determine the numerator at fixed \\(v>0\\). The repaired proof must analyze the full log-likelihood ratio and the exact product overlap at finite aggregate signal."
+        ],
+        "reasoning": "Although the proof uses standard CLT/LAN tools, the source-specific closed profile and strict monotonicity are additional statements rather than a restatement of the local theorem.",
+        "searches": [
+          "Compared the repaired theorem against the 2026-09-19 theorem and Smirnov's stated constant-factor result"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The 2026-09-19 SCOPE theorem gives the weak-signal profile only as \\(v\\to0\\).",
+          "No earlier source located the fixed-positive-\\(v\\) ratio \\((2\\Phi(\\sqrt v)-1)/\\sqrt{1-e^{-v}}\\) or its monotonicity."
+        ],
+        "reasoning": "The repaired theorem is not equivalent to the local result because \\(v\\) remains bounded away from zero.",
+        "searches": [
+          "Resultary query: Bernoulli mirror finite signal diffuse efficiency curve 2 Phi(sqrt v)-1 sqrt(1-e^-v)",
+          "Resultary query: mirror product diffuse finite-signal total variation N(v,v) efficiency curve strictly increasing",
+          "Smirnov arXiv:2609.19222"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No separate published record with the same curve was located."
+        ],
+        "reasoning": "Absence is supporting evidence only; the decisive comparison is with the earlier same-object weak-signal theorem.",
+        "searches": [
+          "Resultary exact semantic searches on the closed curve and fixed positive signal"
+        ]
+      },
+      "rationale": "The original record overclaimed local weak-signal results already published on 2026-09-19. The repaired claim removes those covered statements and retains only the fixed-positive-signal diffuse limit and its strictly increasing efficiency curve. Resultary searches for that curve returned the repaired record and the earlier weak-signal record; the earlier theorem assumes total squared signal tending to zero and does not contain the fixed \\(v\\in(0,\\infty)\\) curve. The accessible Smirnov primary abstract states constant-factor Bernoulli-product bounds but not this asymptotic profile.",
+      "residual_risks": [
+        "The unavailable full text of Smirnov's very recent preprint could contain a related asymptotic not visible in the abstract.",
+        "Older binary-experiment/LAN literature could contain an equivalent formula in different notation; no source-specific mirror formulation was located."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "PARTIAL_COVERAGE",
+          "evidence": "It covers the original record's Theorems 1-2, which are removed by repair, but not the fixed-positive-signal curve.",
+          "identifier_or_url": "published record 2026/09/19/sharp-weak-signal-mirror-bernoulli-profiles--80bd8eba23bd",
+          "material_read": "Full RESULT.md, including uniform local expansion, complete subsequential weak-signal law, and diffuse local endpoint.",
+          "method": "Current published repository blob.",
+          "title": "Sharp weak-signal profiles for mirror Bernoulli products",
+          "trigger": "Closest earlier same-object theorem."
+        },
+        {
+          "assessment": "INACCESSIBLE_PLAUSIBLE_SOURCE",
+          "evidence": "The accessible statement gives constant-factor upper/lower bounds, not the repaired finite-signal curve; full-text noncoverage is not asserted.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.19222",
+          "material_read": "Primary arXiv abstract; full text was not available through the current protected access route.",
+          "method": "Primary metadata/abstract plus explicit access limitation.",
+          "title": "TV between Bernoulli products, up to constants",
+          "trigger": "Primary source introducing the mirror-product comparison."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "published 2026-09-19 weak-signal mirror theorem",
+        "Smirnov arXiv:2609.19222"
+      ],
+      "rationale": "After removing the covered local theorem, the fixed-positive-signal curve remains a natural quantitative invariant of the mirror experiment: it gives the complete diffuse efficiency interpolation from \\(\\sqrt{2/\\pi}\\) to one and proves the interpolation is strictly monotone. This directly sharpens interpretation of a motivated recent comparison, rather than selecting an arbitrary parameter slice.",
+      "residual_risks": [
+        "The derivation uses standard LAN machinery, so its value is the exact source-specific profile rather than a new central-limit theorem."
+      ],
+      "status": "PASS"
+    }
   },
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "limitations": [
-    "The sharp interval is local in the total squared signal.",
-    "The finite-signal curve assumes the largest coordinate tends to zero.",
-    "No quantitative convergence rate is claimed for the finite-signal triangular array.",
-    "The globally optimal constant in Smirnov's mirror-product theorem is not resolved.",
-    "Classical LAN, Gaussian test power, and sharp Khintchine constants are prior art.",
-    "Older binary-experiment and Riesz-product literature was not exhaustively inspected.",
-    "Independent audit has not been performed."
+  "disposition": "repaired",
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
   ],
-  "originality": {
-    "scope": "to the best of our knowledge",
-    "status": "PASS",
-    "summary": "Smirnov's recent mirror-product theorem proves only an unspecified absolute-constant lower comparison; Haagerup's Khintchine constants and local asymptotic normality are classical prior art. Searches did not locate the uniform mirror-product local identity, the complete sharp weak-signal efficiency interval, or the explicit diffuse finite-signal efficiency curve. An equivalent formulation in older binary-experiment or Riesz-product literature remains the main residual risk, so no novelty is claimed for LAN or Khintchine theory themselves."
-  },
-  "phase": "II",
-  "previously_published_pending_reaudit": true,
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "The repaired theorem requires \\(\\max_i a_{n,i}\\to0\\) and \\(\\sum_i a_{n,i}^2\\to v\\in(0,\\infty)\\).",
+    "It does not re-claim the already-published weak-signal interval or diffuse local constant.",
+    "No quantitative convergence rate is proved.",
+    "The globally optimal all-signal comparison constant is not determined."
+  ],
+  "policy": "to-the-best-of-our-knowledge",
+  "previously_published_pending_reaudit": false,
   "record_id": "SCOPE-20260920-0e1e1f426bbd",
-  "review_statement": "Same-model review: passed. Independent audit: not yet performed.",
-  "review_type": "same_model_review",
-  "same_model_review_status": "passed",
-  "scope_run_id": "f8738e2c-6495-4a08-8f25-656535a51fb5",
-  "value": {
-    "status": "PASS",
-    "summary": "The result sharpens a new constant-factor Bernoulli-product reduction by identifying its exact weak-signal measurement loss, separating concentrated from diffuse signal geometry, and providing a closed-form efficiency curve from sqrt(2/pi) to one."
-  },
-  "verification_state": "awaiting_fresh_independent_audit"
+  "record_title": "Diffuse finite-signal efficiency for Bernoulli mirror products",
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

@@ -1,10 +1,114 @@
 {
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "previously_published_pending_reaudit": true,
+  "audited_at_utc": "2026-10-01T02:59:19Z",
+  "axes": {
+    "correctness": {
+      "rationale": "The filed proof omits the possibility that a sampled boundary vertex is already initially infected, so its event F_v alone is not a one-step failure event. The claim is nevertheless repairable with the same stated constant. Let H_v be the event that v is initially healthy and at most d-1 of its 2d-1 non-slab neighbours are initially infected. For d>=16, 1-p>=1/4. The filed point-mass calculation gives P(F_v)>=exp(-6)/(4 sqrt(d)), hence P(H_v)>=exp(-6)/(16 sqrt(d))>=exp(-8)/(4 sqrt(d)). A spacing-4 packing makes the H_v events independent. Whole-layer success excludes every H_v, proving the same bound as the m-th power of (1-c/sqrt(d)), with c=exp(-8)/4. The repaired RESULT states this missing healthy-vertex factor explicitly.",
+      "residual_risks": [
+        "The numerical artifact checks the binomial tail and packing scale; it does not itself encode the repaired healthy-vertex factor, which is proved analytically in the replacement RESULT."
+      ],
+      "sources": [
+        "2026/09/13/013/RESULT.md",
+        "2026/09/13/013/artifacts/emergent_check.py"
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "arXiv:2406.17486 gives broad threshold/window results including tori.",
+          "arXiv:math/0702373 gives the high-dimensional majority-bootstrap phase transition on the hypercube."
+        ],
+        "reasoning": "These broader results concern eventual bootstrap percolation, not the probability that an entire conditioned boundary layer advances in one update, so they do not imply the obstruction.",
+        "searches": [
+          "Collares Erde Geisler Kang majority bootstrap high-dimensional geometric graphs tori",
+          "Balogh Bollobas Morris majority bootstrap hypercube"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2406.17486",
+        "https://arxiv.org/abs/math/0702373",
+        "Resultary published-findings semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The inspected 2024 paper discusses global threshold behavior and did not present the conditioned slab one-update estimate.",
+          "The hypercube paper does not imply this torus slab packing calculation."
+        ],
+        "reasoning": "No inspected prior theorem implies the repaired one-step obstruction; the proof uses a direct independent packing and binomial point mass.",
+        "searches": [
+          "arXiv:2406.17486 full-text inspection for slab/layer mechanism",
+          "arXiv:math/0702373"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The exact Resultary match was the record under audit; no distinct equivalent theorem was returned.",
+          "Collares-Erde-Geisler-Kang treat majority-bootstrap thresholds on high-dimensional geometric graphs, not this one-step layer event."
+        ],
+        "reasoning": "Equivalent formulations are a simultaneous one-update infection of an adjacent layer, or absence of any initially healthy locally-under-supported vertex in a separated packing; no prior exact formulation was found.",
+        "searches": [
+          "Resultary semantic search: strict-majority bootstrap percolation high-dimensional torus thickness-2 slab one-step whole-layer advance failure first-passage coupling",
+          "web search: one-step slab majority bootstrap torus"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No distinct prior exact row or table was returned."
+        ],
+        "reasoning": "There is no relevant finite database row; the claim is an asymptotic probability bound.",
+        "searches": [
+          "Resultary exact semantic search for thickness-2 slab one-step advance"
+        ]
+      },
+      "rationale": "Best-of-knowledge search found broad majority-bootstrap critical-window results for high-dimensional geometric graphs, including tori, but no primary source implying this particular one-step thickness-2 slab obstruction. The finding is an obstruction to a proof mechanism, not a new critical-window theorem.",
+      "residual_risks": [
+        "No novelty search proves absence from all bootstrap-percolation literature; the PASS is best-of-knowledge and narrowly scoped to the one-step slab obstruction."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING the one-step slab claim",
+          "evidence": "The paper establishes global critical-window behavior for a broad graph class including tori; no conditioned thickness-2 slab whole-layer one-update theorem was found.",
+          "identifier_or_url": "https://arxiv.org/abs/2406.17486",
+          "material_read": "abstract and accessible full-text portions concerning the threshold/window and searches for slab/layer terminology",
+          "method": "web full-text inspection",
+          "title": "Universal behaviour of majority bootstrap percolation on high-dimensional geometric graphs",
+          "trigger": "same process and tori among the graph families"
+        },
+        {
+          "assessment": "NOT_COVERING the one-step torus slab mechanism",
+          "evidence": "It concerns the global phase transition on the hypercube.",
+          "identifier_or_url": "https://arxiv.org/abs/math/0702373",
+          "material_read": "abstract/result description",
+          "method": "web inspection",
+          "title": "Majority bootstrap percolation on the hypercube",
+          "trigger": "foundational high-dimensional majority-bootstrap result cited by the package"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "rationale": "The result addresses a specific proposed mechanism for proving slab invasion and gives a structural reason it cannot work: an exponentially large independent packing of initially healthy under-supported vertices blocks simultaneous one-step advance. This is a motivated boundary/counterexample to a proof route, not an arbitrary numerical slice, and it clearly states that multi-round cleanup and the full window law remain open.",
+      "residual_risks": [
+        "Its value is methodological rather than a resolution of the global percolation threshold."
+      ],
+      "sources": [
+        "2026/09/13/013/RESULT.md",
+        "https://arxiv.org/abs/2406.17486"
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "repaired",
+  "evidence": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "previously_published_pending_reaudit": false,
   "record_id": "SCOPE-20260913-013",
-  "review_type": "independent_audit_pending",
+  "review_type": "independent_audit",
   "schema_version": 1,
-  "verification_state": "awaiting_fresh_independent_audit"
+  "verification_state": "independently_reviewed"
 }

@@ -1,1 +1,0 @@
-For the Cartan group C≅R^5, any proper branched self-cover with compact branch set is a homeomorphism, hence has degree ±1; this is a direct application of Kauranen-Luisto-Tengvall Proposition 4.3, not a new topological theorem.

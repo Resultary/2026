@@ -1,27 +1,101 @@
 {
+  "audited_at_utc": "2026-10-01T09:45:00Z",
   "axes": {
     "correctness": {
-      "rationale": "The cut lower bound gives cp >= q^2+3q. A quadratic-character split of K_q and invertible maps T_r({x,y})={x+ry,rx+y} pair the four cellwise internal-edge classes into q(q-1) edge-disjoint K4 blocks; the nonsquare factor guarantees that no crossing edge repeats. Exactly 4q crossing edges remain as K2 blocks, giving equality. The cc=4 proof uses the four natural cell cliques and an induced K_{2,2} witness. The k == 3 (mod 4) obstruction follows from equality cases of both oriented cut inequalities and the handshake lemma.",
-      "verdict": "PASS"
+      "rationale": "The finite-field construction and obstruction are correct. For prime powers congruent to one modulo four, nonsquare multipliers with both square and nonsquare values of one minus the multiplier exist by the quadratic-character count. The linear edge maps are invertible and send each Paley edge class to the required target class; the nonsquare factor prevents crossing-edge reuse. The resulting edge-disjoint four-vertex cliques cover all internal edges and all but exactly four times the field size crossing edges, attaining the cut lower bound. Independent prime-field spot checks reproduced the character counts, edge bijections, and crossing uniqueness. The congruence-three obstruction follows from the equality cases of both oriented cut inequalities and the handshake lemma.",
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Qualified to the best of our knowledge. The direct 2026 source arXiv:2608.11536 determines G_{h,k} exactly for even k with h >= k-1, while this result treats h=2 and odd prime powers q == 1 (mod 4). Exact, synonymous, finite-field, and design-language searches found no prior statement of the formula or congruence obstruction. Older design literature remains a residual equivalence risk.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "Neither checked theorem applies to two copies of an odd complete graph of order at least five."
+        ],
+        "reasoning": "The Paley construction fills a parameter regime outside the hypotheses of the broader repeated-copy formula.",
+        "searches": [
+          "Ning arXiv:2608.11536",
+          "Resultary exact clique partitions for joins of repeated graph copies"
+        ]
+      },
+      "checked_sources": [
+        "arXiv:2608.11536",
+        "Erdos--Faudree--Ordman 1988 cut inequality",
+        "Resultary repeated-graph theorem",
+        "Resultary exact-topic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Their hypotheses exclude the assigned odd two-copy regime."
+        ],
+        "reasoning": "The final claim is not a special case of the checked prior theorems.",
+        "searches": [
+          "Ning balanced even-order formula",
+          "repeated-graph chromatic-index theorem"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Ning's 2026 theorem treats balanced cluster joins in the even-clique regime with sufficiently many clusters.",
+          "The same-day repeated-graph theorem found in Resultary requires the number of copies on each side to be at least the chromatic index, which fails for two copies when the clique order is at least five and odd."
+        ],
+        "reasoning": "The assigned case is a low-copy regime requiring a different finite-field edge pairing.",
+        "searches": [
+          "two-cluster clique partition Paley pairing",
+          "clique partition (2K_q) join (2K_q) odd prime power"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No prior exact formula or congruence-three obstruction for this two-cluster family was located."
+        ],
+        "reasoning": "The exact value and obstruction are not printed in the checked broader sources.",
+        "searches": [
+          "Resultary exact-topic search",
+          "targeted Paley finite-field clique partition searches"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality passes for the two-cluster odd-prime-power attainment and complementary congruence obstruction.",
+      "residual_risks": [
+        "Older design-theoretic literature may encode the same finite-field pairing under different terminology."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Covers the even-order sufficiently-many-clusters regime, not the assigned two-copy odd-prime-power regime.",
+          "evidence": "The checked theorem does not reach two clusters when the clique order is odd and at least five.",
+          "identifier_or_url": "arXiv:2608.11536",
+          "material_read": "Abstract and the result context for balanced cluster joins",
+          "method": "Primary-source inspection",
+          "title": "On the difference between clique partition and clique covering numbers of graphs",
+          "trigger": "Direct source for the cluster-join family"
+        },
+        {
+          "assessment": "Its sufficient condition is minimum copy count at least the edge-chromatic number, excluding the assigned two-copy odd case.",
+          "evidence": "For an odd complete graph, the edge-chromatic number equals its order, which is greater than two.",
+          "identifier_or_url": "Resultary 2026/9/18/SCOPE-clique-partitions-joins-repeated-graphs--40b72bad9da8",
+          "material_read": "Complete RESULT.md",
+          "method": "Full-text repository inspection",
+          "title": "Exact clique partitions for joins of repeated graph copies",
+          "trigger": "Potential same-day broader coverage"
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result gives an exact infinite family in a regime omitted by the newest construction, introduces a different finite-field mechanism, and proves a complementary parity obstruction showing that cut-bound attainment at h=2 has genuine arithmetic structure.",
-      "verdict": "PASS"
+      "rationale": "The result gives an exact infinite family in a parameter regime omitted by the newest general constructions and pairs it with a sharp arithmetic obstruction, showing that cut-bound attainment at two clusters has genuine congruence structure.",
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-18",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disposition": "passed",
+  "evidence": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "final_claim": "For every prime power at least five congruent to one modulo four, the two-cluster join has clique covering number four and clique partition number equal to the field-size square plus three times the field size; for odd orders congruent to three modulo four the cut lower bound is unattainable.",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "previously_published_pending_reaudit": false,
+  "record_id": "SCOPE-20260918-e80e8b6f3ec9",
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

@@ -1,0 +1,106 @@
+{
+  "audited_at_utc": "2026-10-01T06:12:13.318800Z",
+  "axes": {
+    "correctness": {
+      "rationale": "The estimator error identity is exact: each summand is a centered Bernoulli variable multiplied by a coefficient \\(d_i/[\\pi_i(1-\\pi_i)]\\), where \\(d_i=(1-\\pi_i)Y_i(1)+\\pi_iY_i(0)-m_i\\). The attainable set of \\(d_i\\) is exactly the interval \\([a_i-m_i,b_i-m_i]\\), and convexity of the Bernoulli log-mgf in \\(d_i\\) puts the worst case at an endpoint. Independence makes the supremum separable. Reflection through the unitwise midpoint exchanges upper and lower endpoint deviations, so convexity of the two-sided envelope proves pointwise midpoint minimaxity. At the all-upper-endpoint configuration the variance is exactly \\(V_n\\); the no-dominant-unit condition \\(M_n/\\sqrt{V_n}\to0\\) implies Lindeberg and yields the claimed endpoint CLT.",
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Freidling covers heterogeneous Bernoulli concentration bounds; Aronow-Lopatto and Hull cover minimax estimation/design under bounded outcomes and squared-error criteria."
+        ],
+        "reasoning": "These are broader in design or decision-theoretic scope but do not imply the exact cgf envelope/minimax statement because the optimized loss functional is different.",
+        "searches": [
+          "arXiv:2609.18586",
+          "arXiv:2605.20572",
+          "arXiv:2608.09812"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.18586",
+        "https://arxiv.org/abs/2605.20572",
+        "https://arxiv.org/abs/2608.09812",
+        "Resultary semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Hoeffding/Bernstein inequalities upper-bound the same variables but do not recover the exact endpoint log-mgf; squared-error midpoint minimaxity does not imply cgf minimaxity."
+        ],
+        "reasoning": "The final claim is not mechanically implied by the inspected prior results.",
+        "searches": [
+          "Compared the final theorem to the concentration and minimax-MSE results above"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Resultary returned this record as the exact hit; a similar SATE record is dated later.",
+          "Freidling develops concentration-based randomization intervals; Aronow-Lopatto study midpoint-differenced Horvitz-Thompson under worst-case squared error."
+        ],
+        "reasoning": "Neither accessible primary statement is equivalent to pointwise minimization of the exact two-sided bounded-outcome cgf.",
+        "searches": [
+          "Resultary semantic search: exact heterogeneous Bernoulli Horvitz-Thompson cgf midpoint Chernoff",
+          "arXiv:2609.18586",
+          "arXiv:2605.20572"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No earlier independent database/table entry with the same theorem was found; the closest Resultary record was later-dated."
+        ],
+        "reasoning": "The result is analytic rather than a table lookup.",
+        "searches": [
+          "Resultary semantic search for the exact theorem"
+        ]
+      },
+      "rationale": "The primary contemporary comparison sources use related concentration or midpoint ideas under different criteria, but the inspected material does not state the combined exact heterogeneous endpoint cgf, pointwise midpoint minimax theorem for the two-sided cgf, and matching endpoint rate obstruction.",
+      "residual_risks": [
+        "The full text of Freidling's very recent preprint was not available through the inspected primary-text path, so the strongest NOT_COVERING statement is limited to material actually read.",
+        "Older survey-sampling or Poisson-sampling literature may encode an equivalent endpoint-cgf observation under different notation."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING",
+          "evidence": "The accessible statement gives concentration-based intervals and heterogeneous-propensity treatment, not the record's exact endpoint cgf and cgf-minimax centering theorem.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.18586",
+          "material_read": "Abstract and accessible theorem-level summary describing concentration-based finite-sample intervals for Bernoulli and related designs.",
+          "method": "Primary arXiv record and indexed primary-source text.",
+          "title": "Randomization Inference with Concentration Inequalities",
+          "trigger": "Closest contemporary heterogeneous Bernoulli randomization-inference source cited by the record."
+        },
+        {
+          "assessment": "NOT_COVERING",
+          "evidence": "The optimized criterion is squared error, not the two-sided cumulant-generating-function envelope.",
+          "identifier_or_url": "https://arxiv.org/abs/2605.20572",
+          "material_read": "Abstract and theorem-level description of minimax worst-case squared-error estimation.",
+          "method": "Primary arXiv record.",
+          "title": "Minimax unbiased estimation for finite populations with bounded outcomes",
+          "trigger": "Same midpoint-differenced Horvitz-Thompson estimator under a minimax criterion."
+        },
+        {
+          "assessment": "NOT_COVERING",
+          "evidence": "The result concerns minimax estimation/design under bounded outcomes rather than exact Chernoff envelopes.",
+          "identifier_or_url": "https://arxiv.org/abs/2608.09812",
+          "material_read": "Abstract and theorem-level description of minimax design and midpoint-centered estimation.",
+          "method": "Primary arXiv record.",
+          "title": "Optimal Experimental Design and Estimation when Potential Outcomes are Bounded",
+          "trigger": "Plausible stronger bounded-outcome minimax design/estimation result."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "rationale": "The exact exponential envelope is a natural inferential object, gives an immediately computable finite-sample confidence certificate under genuinely heterogeneous propensities, and identifies a matching worst-case rate scale. This is not merely a numerical sharpening of a constant.",
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "limitations": [
+    "Independent Bernoulli assignment and deterministic outcome bounds are essential.",
+    "Midpoint optimality is only within the stated centered Horvitz-Thompson family and for the two-sided cgf criterion.",
+    "Exactness is for the worst-case cgf, not exact finite-sample tails or shortest intervals."
+  ],
+  "record_id": "SCOPE-20260917-40d55355f1a6",
+  "record_title": "Exact Chernoff envelopes for heterogeneous Bernoulli randomization",
+  "schema_version": 1
+}

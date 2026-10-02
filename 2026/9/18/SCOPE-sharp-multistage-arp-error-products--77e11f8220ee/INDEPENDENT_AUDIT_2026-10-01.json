@@ -1,0 +1,111 @@
+{
+  "audited_at_utc": "2026-10-01T10:51:34Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "Grigori and Xue, Incremental Column Subset Selection via Conditional Determinantal Point Processes, arXiv:2609.20556",
+        "Cortinovis and Kressner, Adaptive Randomized Pivoting for Column Subset Selection, DEIM, and Low-Rank Approximation",
+        "Assigned exact verifier and fresh independent codimension-one projection replay",
+        "Resultary search for multistage ARP product sharpness"
+      ],
+      "rationale": "The codimension-one projection-DPP identity was re-derived from \\(VV^T=I-zz^T\\). The explicit two-stage expectation follows exactly from conditional omission probabilities. The recursive null-vector extension multiplies the preceding supremum in the small-tail limit. Independently replaying the orthogonal CSS construction verified the formula \\(1/(z_j^2+\\delta^2(1-z_j^2))\\) for every omitted coordinate in a fresh numerical example, so the transfer from the oblique surrogate is genuine.",
+      "residual_risks": [
+        "The sharpness is a supremum attained only in a singular leverage-score limit; the claim correctly states this."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Classical results cover one-shot factors; the new construction concerns nested irrevocable conditional sampling and actual CSS error."
+        ],
+        "reasoning": "One-shot lower bounds do not dominate the multistage product claim.",
+        "searches": [
+          "classical volume-sampling sharpness",
+          "one-shot ARP bounds",
+          "Grigori-Xue multistage upper bounds"
+        ]
+      },
+      "checked_sources": [
+        "Grigori and Xue, Incremental Column Subset Selection via Conditional Determinantal Point Processes, arXiv:2609.20556",
+        "Cortinovis and Kressner, Adaptive Randomized Pivoting for Column Subset Selection, DEIM, and Low-Rank Approximation",
+        "Assigned exact verifier and fresh independent codimension-one projection replay",
+        "Resultary search for multistage ARP product sharpness"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The accessible source material establishes the problem and upper guarantees but does not state that the bound is attained for every stage partition."
+        ],
+        "reasoning": "An additional nested codimension-one construction is required to obtain the final lower bound.",
+        "searches": [
+          "arXiv:2609.20556 abstract",
+          "conditional DPP one-stage equality versus general product sharpness"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The assigned record is the first exact-topic 2026-09-18 hit; two essentially matching Resultary records are dated 2026-09-19.",
+          "The source abstract describes MSARP and expected-error guarantees, not a matching lower construction."
+        ],
+        "reasoning": "Conditional one-stage equality and an unconditional product upper bound do not imply that a single nested distribution asymptotically realizes the whole product.",
+        "searches": [
+          "Resultary: multistage adaptive randomized pivoting conditional DPP product sharpness nested worst case",
+          "arXiv:2609.20556"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No pre-2026-09-18 exact table/theorem was found; later 2026-09-19 records repeat the phenomenon."
+        ],
+        "reasoning": "The later duplicates support reproducibility but are not prior coverage.",
+        "searches": [
+          "Resultary exact product-factor sharpness",
+          "staged-versus-one-shot exponential separation"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality passes. The accessible source description gives multistage guarantees but does not state unconditional all-stage product sharpness, the orthogonal-CSS transfer, or the exponential staged-versus-one-shot separation; no earlier Resultary record with those conclusions was located.",
+      "residual_risks": [
+        "The source preprint is extremely recent and its full text was not retrievable in this run; its public abstract does not advertise product-factor sharpness.",
+        "Later 2026-09-19 records independently state essentially the same sharpness, so simultaneous follow-up risk remains."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Confirms the multistage algorithm and guarantees but leaves residual risk about details not visible in the abstract.",
+          "evidence": "No accessible abstract statement gives unconditional product sharpness.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.20556",
+          "material_read": "Abstract and bibliographic metadata; full text could not be retrieved in this run",
+          "method": "Primary-source abstract inspection plus authorized-access attempt",
+          "title": "Incremental Column Subset Selection via Conditional Determinantal Point Processes",
+          "trigger": "Same algorithm and product upper bound"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Grigori and Xue, Incremental Column Subset Selection via Conditional Determinantal Point Processes, arXiv:2609.20556",
+        "Cortinovis and Kressner, Adaptive Randomized Pivoting for Column Subset Selection, DEIM, and Low-Rank Approximation",
+        "Assigned exact verifier and fresh independent codimension-one projection replay",
+        "Resultary search for multistage ARP product sharpness"
+      ],
+      "rationale": "Showing that the potentially exponential multistage factor is a real worst-case phenomenon, and quantifying its rare-event mechanism and gap from one-shot selection on the same final subspace, is a natural and useful boundary result for an incremental randomized algorithm.",
+      "residual_risks": [
+        "The source preprint is extremely recent and its full text was not retrievable in this run; its public abstract does not advertise product-factor sharpness.",
+        "Later 2026-09-19 records independently state essentially the same sharpness, so simultaneous follow-up risk remains."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "final_claim": "For every positive stage partition, the MSARP expected-error product factor \\(\\prod_i(k_i+1)\\) is worst-case sharp as a supremum, including for actual orthogonal CSS error, and singleton staging can approach a \\(2^d/(d+1)\\) expected-error ratio relative to one-shot ARP on the same final subspace.",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "Worst-case supremum through increasingly imbalanced leverage scores; no average-case or high-probability claim. Orthogonal-CSS sharpness uses a small trailing singular-value limit."
+  ],
+  "record_id": "SCOPE-20260918-77e11f8220ee",
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
+}

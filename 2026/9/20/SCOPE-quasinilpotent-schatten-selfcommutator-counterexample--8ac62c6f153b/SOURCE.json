@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/20/SCOPE-quasinilpotent-schatten-selfcommutator-counterexample--8ac62c6f153b",
   "resultary_record_key": "SCOPE-quasinilpotent-schatten-selfcommutator-counterexample--8ac62c6f153b",
-  "source_commit": "a7cc69d784246a36eca421019db9c279a2c15a0e",
-  "source_commit_time": "2026-09-30T19:52:54Z",
+  "source_commit": "caa6beb4a329b334d9967fb2c42faaf071d1eb7d",
+  "source_commit_time": "2026-10-02T09:03:37Z",
   "source_path": "2026/09/20/quasinilpotent-schatten-selfcommutator-counterexample--8ac62c6f153b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260920-8ac62c6f153b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-01T08:22:11Z",
+  "synced_at": "2026-10-02T09:07:02Z",
   "time_standard": "UTC"
 }

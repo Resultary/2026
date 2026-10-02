@@ -1,29 +1,146 @@
 {
+  "audited_at_utc": "2026-10-01T05:01:22Z",
   "axes": {
     "correctness": {
-      "assessor": "same_model_reviewer",
-      "rationale": "Reported same-model assessment; full reasoning and limitations in REVIEW.md.",
-      "verdict": "PASS"
+      "rationale": "The shell count 6 times binomial(5,r) per landmark follows by projecting each of the six parallel edge directions to Q₅. Summing the weighted histogram therefore forces total weight 84m. A fresh exact enumeration of all six-component histograms with total m and the only active capacities h₀,h₅ at most 2 reproduced the weight counts for m=6 as 7,12,27,36,54,60 and for m=7 as 8,14,32,44,68,80, giving minimum total weights 670 and 612 for 192 distinct histograms, respectively. These exceed the forced totals 504 and 588, ruling out m=6,7. Combined with the prior lower bound excluding smaller sets, this proves edim_m(Q₆) at least 8.",
+      "residual_risks": [
+        "The proof uses the previously published lower bound of 6 to dispose of m below 6; that prior result was checked at the primary-source level."
+      ],
+      "status": "PASS"
     },
     "originality": {
-      "assessor": "same_model_reviewer",
-      "rationale": "Qualified to the best of our knowledge; full search scope and limitations in REVIEW.md.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "The primary hypercube paper covers existence and the lower bound 6 at Q₆, not 8.",
+          "A later SCOPE Q₇–Q₁₀ weighted-histogram record is adjacent, not dominating Q₆."
+        ],
+        "reasoning": "No general theorem inspected forces the Q₆ lower bound 8.",
+        "searches": [
+          "arXiv:2608.09983 The edge multiset dimension of hypercubes",
+          "arXiv:2607.10311 edge multiset dimension survey"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2608.09983",
+        "https://arxiv.org/abs/2607.10311",
+        "https://github.com/Resultary/2026/tree/main/2026/9/17/SCOPE008",
+        "https://github.com/Resultary/2026/tree/main/2026/9/17/SCOPE009"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Lower bound 6 does not imply exclusion of resolving sets of size 6 or 7."
+        ],
+        "reasoning": "The new global weight invariant supplies the missing two exclusions.",
+        "searches": [
+          "Compare Allikvere lower bound 6 with the weighted-histogram obstruction"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The exact Q₆ lower-bound hit is the audited record; Allikvere's arXiv abstract states only lower bound 6."
+        ],
+        "reasoning": "Distance-histogram and edge-multiset representations are the same invariant under the stated definition; no separate equivalent stronger result was found.",
+        "searches": [
+          "Resultary semantic search: Q6 edge multiset dimension hypercube lower bound 8 weighted histogram 192 edges",
+          "Web search for edim_m(Q6) 8 and edge multiset dimension Q6"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No external table of these weighted histogram counts was found."
+        ],
+        "reasoning": "The counts were independently regenerated rather than read from a table.",
+        "searches": [
+          "Search exact counts 670,504,612,588 with Q6 edge multiset"
+        ]
+      },
+      "rationale": "Allikvere's primary preprint explicitly reports only edim_m(Q₆) at least 6 while giving a 15-landmark upper certificate. The audited weighted-histogram argument raises the lower bound to 8. Published-results search found the audited Q₆ result and a related Q₇–Q₁₀ extension, but no earlier stronger Q₆ bound.",
+      "residual_risks": [
+        "A very recent or unindexed improvement to the Q₆ lower bound could exist; no such source was located."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING lower bound 8",
+          "evidence": "Abstract explicitly states lower bound edim_m(Q₆) at least 6 and explicit resolving sets for Q₆ through Q₁₀.",
+          "identifier_or_url": "https://arxiv.org/abs/2608.09983",
+          "material_read": "Primary abstract and result summary; full HTML endpoint unavailable in this run",
+          "method": "primary-source abstract inspection plus independent proof reconstruction",
+          "title": "The edge multiset dimension of hypercubes",
+          "trigger": "Direct prior Q₆ result"
+        },
+        {
+          "assessment": "SELF_MATCH",
+          "evidence": "Exact same lower bound.",
+          "identifier_or_url": "https://github.com/Resultary/2026/tree/main/2026/9/17/SCOPE008",
+          "material_read": "Title and summary",
+          "method": "semantic published-results search",
+          "title": "A weighted-histogram lower bound for the edge multiset dimension of the 6-cube",
+          "trigger": "Exact published-results hit"
+        },
+        {
+          "assessment": "NOT_COVERING Q₆",
+          "evidence": "Applies to dimensions 7 through 10.",
+          "identifier_or_url": "https://github.com/Resultary/2026/tree/main/2026/9/17/SCOPE009",
+          "material_read": "Title and summary",
+          "method": "semantic published-results search",
+          "title": "Weighted-histogram certificates for the edge multiset dimension of Q7–Q10",
+          "trigger": "Potential broader same-family result"
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "assessor": "same_model_reviewer",
-      "rationale": "Reported same-model assessment; full reasoning and limitations in REVIEW.md.",
-      "verdict": "PASS"
+      "rationale": "Q₆ is the first finite-dimensional hypercube case after the infinite-dimension transition established in the primary work. Raising its lower bound from 6 to 8 narrows a natural exact invariant and introduces a reusable weighted-histogram obstruction that extends to higher cubes.",
+      "residual_risks": [
+        "The exact value remains open between 8 and 15."
+      ],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-17T07:42:37.090618Z",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "final_claim": "The edge multiset dimension of the six-dimensional hypercube satisfies edim_m(Q₆) at least 8; together with the known 15-landmark certificate, the current bracket is 8 through 15.",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "previously_published_pending_reaudit": false,
+  "record_id": "SCOPE-20260917-008",
+  "review_type": "independent_audit",
+  "same_model_review": {
+    "axes": {
+      "correctness": {
+        "assessor": "same_model_reviewer",
+        "rationale": "Reported same-model assessment; full reasoning and limitations in REVIEW.md.",
+        "verdict": "PASS"
+      },
+      "originality": {
+        "assessor": "same_model_reviewer",
+        "rationale": "Qualified to the best of our knowledge; full search scope and limitations in REVIEW.md.",
+        "verdict": "PASS"
+      },
+      "value": {
+        "assessor": "same_model_reviewer",
+        "rationale": "Reported same-model assessment; full reasoning and limitations in REVIEW.md.",
+        "verdict": "PASS"
+      }
+    },
+    "disclaimer": "Not independent validation, peer review, or a guarantee of first discovery.",
+    "evidence_file": "REVIEW.md",
+    "independent": false,
+    "independent_audit_status": "not_performed",
+    "independent_validation": false,
+    "policy": "to-the-best-of-our-knowledge",
+    "previously_published_pending_reaudit": true,
+    "review_type": "same_model_review",
+    "reviewed_at": "2026-09-17T07:42:37.090618Z",
+    "verification_state": "awaiting_fresh_independent_audit"
+  },
+  "schema_version": 1,
+  "scientific_limitations": [
+    "The exact value is not determined.",
+    "The package contains no standalone verifier artifact, so the finite histogram calculation was independently regenerated."
+  ],
+  "verification_state": "independently_reviewed"
 }

@@ -1,33 +1,129 @@
 {
-  "correctness": {
-    "status": "PASS",
-    "summary": "Double-counting the inclusion graph between s-component and (s-1)-component forests gives a general lower bound (n-s+1)/(m-n+s). In K_n, every s-forest has at least C(n,2)-C(n-s+1,2) valid one-edge extensions, yielding the matching complete-graph upper bound. The missing-edge hypothesis compares these denominators exactly. Equality cases are separated by the alternate component profile (n-s,2,1,...) and the top two ranks. Direct graph-atlas verification found no counterexample."
+  "audited_at_utc": "2026-10-01T12:55:45Z",
+  "axes": {
+    "correctness": {
+      "rationale": "PASS. Double-counting the inclusion graph between s-component and (s-1)-component forests gives the lower bound (n-s+1)/(m-n+s). For the complete graph, minimizing the number of valid one-edge extensions over component-size profiles gives the matching upper bound with denominator D_{n,s}. The missing-edge hypothesis is exactly the comparison m-n+s <= D_{n,s}. The strictness argument correctly separates interior ranks from the top two ranks. This is an infinite proof; the atlas enumeration is only supporting evidence.",
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The primary preprint presents the consecutive ratio as conjectural beyond its proved special case; the earlier published record proves only a boundary layer/top ranks."
+        ],
+        "reasoning": "No inspected stronger theorem covers all component levels for every graph with m<=3n-6.",
+        "searches": [
+          "arXiv:2609.18611 Bencs Csikvari forest-tree ratio Conjecture 5.8",
+          "Resultary 2026/9/18 spanning-forest-ratio-square-root-boundary"
+        ]
+      },
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The inspected recent work does not state the missing-edge comparison. Older sources were only partially accessible and are retained as risks."
+        ],
+        "reasoning": "The present double-counting comparison supplies a new sufficient condition rather than a parameter substitution into an inspected prior formula.",
+        "searches": [
+          "Myrvold 1992 Counting k-component forests",
+          "Teranishi 2005 number of spanning forests",
+          "Bencs Csikvari 2609.18611"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The exact current record is the only matching missing-edge theorem found.",
+          "The inspected 18 September record uses k=n-s and n>=3k^2 instead of an edge-density hypothesis."
+        ],
+        "reasoning": "The two results overlap near the top of the forest poset but neither formulation reduces the present sparse-graph criterion to the earlier square-root boundary theorem.",
+        "searches": [
+          "Resultary semantic search: consecutive spanning forest ratios missing edges planar graphs Bencs Csikvari",
+          "forest component ratio normalized matching missing edges"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "Complete-graph forest counts may be tabulated, but the claim is a cross-graph inequality under a sparsity hypothesis, not a new numerical row."
+        ],
+        "reasoning": "A database cannot imply the theorem because the key statement quantifies over all connected graphs in a structural class.",
+        "searches": [
+          "OEIS A083483 complete-graph forest sequence",
+          "published mathematical record search for planar consecutive forest ratios"
+        ]
+      },
+      "rationale": "PASS to the best of current knowledge. The directly motivating Bencs-Csikvari preprint states the consecutive-ratio assertion as a conjecture and supplies the universal s=2 case. A full published 18 September 2026 record on the same conjecture was inspected and proves a different high-component square-root boundary layer plus the first fixed top ranks; it does not imply the present edge-density criterion or the all-level sparse/planar corollary. Searches found no earlier theorem asserting the missing-edge condition or the m <= 3n-6 consequence. Older forest-enumeration sources and an unpublished monotonicity manuscript remain explicit residual risks because full text was not obtained.",
+      "status": "PASS"
+    },
+    "value": {
+      "rationale": "PASS. The result proves a current graph-theoretic conjecture on a broad natural class: every connected graph with at most 3n-6 edges, hence every connected planar graph, while also giving a sharper levelwise missing-edge criterion. That is a motivated structural regime, not an arbitrary finite slice.",
+      "status": "PASS"
+    }
   },
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "limitations": [
-    "The edge threshold is sufficient and is not claimed necessary or sharp.",
-    "Low-component ratios of denser graphs remain unresolved except for the known universal s=2 case.",
-    "Teranishi (2005) and the unpublished Eaton--Kook--Thoma monotonicity manuscript were not fully inspected.",
-    "Finite verification supports but does not replace the proof.",
-    "Independent audit has not been performed."
+  "checked_sources": [
+    "Complete frozen and current Git package tree and verifier artifacts.",
+    "Independent proof reconstruction of both inclusion double counts and equality cases.",
+    "Complete earlier 18 September published result on the same conjecture.",
+    "Resultary semantic search and targeted primary-literature searches."
   ],
-  "originality": {
-    "scope": "to the best of our knowledge",
-    "status": "PASS",
-    "summary": "The September 2026 Bencs--Csikvari preprint states the consecutive-ratio assertion as Conjecture 5.8 and proves the s=2 case, but the inspected text does not give the missing-edge threshold, the m <= 3n-6 regime, or the planar consequence. Exact and synonymous searches found no equivalent statement. Residual risk comes from older forest-enumeration literature and an unpublished Eaton--Kook--Thoma monotonicity manuscript that may overlap with the complete-graph sequence ingredient."
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "policy": "to-the-best-of-our-knowledge",
+  "previously_published_pending_reaudit": false,
+  "prior_scientific_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "The earlier scientific review accepted both inclusion double-counts, denominator comparison and equality cases.",
+        "verdict": "PASS"
+      },
+      "originality": {
+        "rationale": "The earlier review found the conjecture open in the recent source and no exact missing-edge theorem.",
+        "verdict": "PASS"
+      },
+      "value": {
+        "rationale": "The earlier review viewed the sparse and planar resolution as a meaningful partial theorem.",
+        "verdict": "PASS"
+      }
+    },
+    "reviewed_at": "2026-09-19",
+    "status": "passed"
   },
-  "phase": "II",
-  "previously_published_pending_reaudit": true,
   "record_id": "SCOPE-20260919-d226c0815caa",
-  "review_statement": "Same-model review: passed. Independent audit: not yet performed.",
-  "review_type": "same_model_review",
-  "same_model_review_status": "passed",
-  "scope_run_id": "7c23d062-2736-4cf4-ad80-85fbf714a1fb",
-  "value": {
-    "status": "PASS",
-    "summary": "The result proves the recent stronger spanning-forest ratio conjecture for every connected graph with at most 3n-6 edges, hence for every connected planar graph, and gives a sharper levelwise criterion for arbitrary graphs in terms of their number of missing edges."
-  },
-  "verification_state": "awaiting_fresh_independent_audit"
+  "residual_risks": [
+    "Myrvold (1992), Teranishi (2005), and the unpublished Eaton-Kook-Thoma monotonicity manuscript were not inspected in full text.",
+    "The edge threshold is sufficient and is not claimed necessary or optimal."
+  ],
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "source_inspections": [
+    {
+      "assessment": "MOTIVATING_OPEN_PROBLEM",
+      "evidence": "Available material and the audited citation identify the consecutive-ratio statement as the stronger conjectural direction, with the s=2 case previously established.",
+      "identifier_or_url": "https://arxiv.org/abs/2609.18611",
+      "material_read": "Indexed primary-source statement context; full text was not retrievable through the available source interface during this run.",
+      "method": "Targeted primary-source search.",
+      "title": "An inequality for the number of independent sets of matroids with an application to the forest-tree ratio of graphs",
+      "trigger": "Exact motivating consecutive-ratio conjecture."
+    },
+    {
+      "assessment": "OVERLAPPING_NOT_COVERING",
+      "evidence": "It proves n>=3k^2 and all ranks n-s<=3, but not the missing-edge criterion or the all-level planar conclusion.",
+      "identifier_or_url": "https://github.com/Resultary/2026/blob/main/2026/9/18/SCOPE-spanning-forest-ratio-square-root-boundary--843428753b02/RESULT.md",
+      "material_read": "Complete published RESULT.md.",
+      "method": "Published-record semantic search followed by full file inspection.",
+      "title": "A square-root boundary layer for the consecutive spanning-forest ratio conjecture",
+      "trigger": "Highly relevant earlier published result on the same conjecture."
+    },
+    {
+      "assessment": "INACCESSIBLE_RESIDUAL_RISK",
+      "evidence": "No exact missing-edge theorem was located, but full text was not read.",
+      "identifier_or_url": "https://doi.org/10.1002/net.3230220704",
+      "material_read": "Bibliographic/abstract-level material only.",
+      "method": "Targeted literature search.",
+      "title": "Counting k-component forests of a graph",
+      "trigger": "Older k-component forest literature."
+    }
+  ],
+  "verification_state": "independently_reviewed"
 }

@@ -1,0 +1,111 @@
+{
+  "acceptance_rule": "Correctness, originality, and scientific value must all pass.",
+  "audited_at_utc": "2026-10-01T09:40:58Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "Assigned RESULT.md and artifacts/verify.py at source tree d5dbba8010eb32096bd768b9eeb6127654114b33",
+        "R. Mizhaev, Integer Realization of an Equivelar Octahedron of Genus 3, arXiv:2609.17700",
+        "Earlier public record Affine-integer grid radius 84 for Mizhaev's genus-3 equivelar octahedron, dated 2026-09-17"
+      ],
+      "rationale": "The assigned exact certificate was independently reconstructed. The difference lattice has index \\(60\\), so every coordinate row of an affine integer copy is a dual-lattice covector \\(q^TA\\). The exact short-width bound reduces every row of any hypothetical radius-below-\\(90\\) copy to five projective integer directions with widths \\(156\\) or \\(168\\). There are exactly eight linearly independent unordered triples of those directions; exact rational conjugation of the published generator \\(T(x,y,z)=(y,-x,-z)\\) is non-orthogonal for every triple. Row signs and permutations preserve that conclusion. The displayed linear map \\(C\\) sends all vertices to integers, has radius \\(90\\), commutes with \\(T\\), and therefore attains the lower bound.",
+      "residual_risks": [
+        "The older 2020 precursor to Mizhaev's construction was not read in full; no accessible evidence found there states a symmetry-preserving affine-radius theorem."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "No broader theorem located converts unrestricted affine box optimality into Euclidean-symmetry-preserving optimality.",
+          "The source abstract establishes only existence and exact \\(C_4\\) symmetry."
+        ],
+        "reasoning": "The Euclidean-conjugacy constraint is genuinely additional and requires checking orthogonality for the short dual-lattice bases.",
+        "searches": [
+          "equivelar octahedron integer realization symmetry-preserving affine coordinates",
+          "polyhedral integer realization C4 minimal coordinates"
+        ]
+      },
+      "checked_sources": [
+        "https://github.com/Resultary/2026/tree/main/2026/9/17/SCOPE-affine-grid-optimal-equivelar-octahedron--5ecb04caa0a4",
+        "https://arxiv.org/abs/2609.17700",
+        "https://doi.org/10.31219/osf.io/hvtey"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The prior theorem shows only that arbitrary affine integer copies need radius at least \\(84\\). It does not rule out a radius between \\(84\\) and \\(89\\) under the Euclidean-symmetry constraint.",
+          "The repaired proof needs the complete enumeration of all width-below-\\(180\\) covector directions and their conjugated symmetry matrices."
+        ],
+        "reasoning": "Neither prior implication yields the value \\(90\\); the extra finite classification is load-bearing.",
+        "searches": [
+          "prior radius-84 theorem versus symmetry-preserving radius-90 theorem",
+          "Mizhaev C4 source theorem versus constrained affine optimization"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The 2026-09-17 record proves exactly the unrestricted affine-integer radius \\(84\\).",
+          "Mizhaev's source gives the integer realization and its \\(C_4\\) symmetry but not affine coordinate minimality."
+        ],
+        "reasoning": "The repaired claim is the constrained optimization problem in which the conjugated source symmetry must remain Euclidean; that condition is absent from the prior radius-84 theorem.",
+        "searches": [
+          "Resultary semantic search for Mizhaev affine grid radius and C4 symmetry",
+          "arXiv:2609.17700",
+          "2026-09-17 affine-grid-optimal record"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "The exact database search returns the prior radius-84 record, the assigned record, and later 2026-09-19 box-profile work; no earlier radius-90 symmetry-preserving result was found."
+        ],
+        "reasoning": "This finite exact invariant is not present in a standard external table; the relevant database comparison is the published record corpus.",
+        "searches": [
+          "published mathematical corpus for Mizhaev radius 84, radius 90, C4-preserving"
+        ]
+      },
+      "rationale": "The original package's unrestricted radius-\\(84\\) theorem is directly covered by a public record dated 2026-09-17 and is therefore removed from the repaired claim. Searches did not locate a prior theorem for the additional Euclidean-\\(C_4\\)-preserving radius constraint or the sharp value \\(90\\).",
+      "residual_risks": [
+        "The 2020 precursor was not available in full during this audit; it remains a limited historical-risk source, but accessible metadata did not indicate the affine-symmetry optimum."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Directly covers the unrestricted radius-84 theorem; that component is removed in the repair.",
+          "evidence": "The prior record states \\(R_{\\rm aff}=84\\) for the same realization and gives a sharp lattice-width proof.",
+          "identifier_or_url": "https://github.com/Resultary/2026/tree/main/2026/9/17/SCOPE-affine-grid-optimal-equivelar-octahedron--5ecb04caa0a4",
+          "material_read": "Complete public RESULT.md and METADATA.json.",
+          "method": "Direct full-text comparison.",
+          "title": "Affine-integer grid radius 84 for Mizhaev's genus-3 equivelar octahedron",
+          "trigger": "Same vertex set and original package's Theorem 1."
+        },
+        {
+          "assessment": "Supplies the object and symmetry but not the repaired optimality theorem.",
+          "evidence": "The abstract states a 24-vertex integer realization with exact \\(C_4\\) symmetry.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.17700",
+          "material_read": "Primary abstract and the exact coordinate/symmetry data reproduced in the assigned package.",
+          "method": "Direct source lookup and data comparison.",
+          "title": "Integer Realization of an Equivelar Octahedron of Genus 3",
+          "trigger": "Primary source for the 24 vertices and published \\(C_4\\) symmetry."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Mizhaev 2026 source symmetry statement",
+        "prior radius-84 theorem",
+        "assigned exact short-covector certificate"
+      ],
+      "rationale": "The repaired theorem isolates the exact coordinate cost of preserving a natural geometric structure already emphasized by the source: its order-four Euclidean symmetry. The jump from the known unrestricted optimum \\(84\\) to the constrained optimum \\(90\\) is a sharp boundary proved by a complete finite dual-lattice classification, not an arbitrary coordinate tweak.",
+      "residual_risks": [
+        "The result is specific to one affine orbit and one distinguished symmetry generator."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "repaired",
+  "final_claim": "For Mizhaev's published 24-vertex genus-three \\(\\{9,3\\}\\) integer realization, among affine integer copies for which the conjugated published \\(C_4\\) generator remains a Euclidean isometry, the sharp centered \\(\\ell_\\infty\\) grid radius is \\(90\\). An explicit radius-\\(90\\) copy attains the bound. The previously claimed unrestricted affine radius \\(84\\) is removed as a new claim because it had already been publicly established.",
+  "limitations": [
+    "The radius \\(90\\) is optimal only inside the affine-integer orbit of Mizhaev's specific realization and under the requirement that the published order-four generator remain Euclidean after conjugation.",
+    "The result does not assert global coordinate minimality among non-affinely-equivalent realizations of the abstract surface."
+  ]
+}

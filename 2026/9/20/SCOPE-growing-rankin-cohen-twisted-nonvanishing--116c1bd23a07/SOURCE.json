@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/20/SCOPE-growing-rankin-cohen-twisted-nonvanishing--116c1bd23a07",
   "resultary_record_key": "SCOPE-growing-rankin-cohen-twisted-nonvanishing--116c1bd23a07",
-  "source_commit": "a7cc69d784246a36eca421019db9c279a2c15a0e",
-  "source_commit_time": "2026-09-30T19:52:54Z",
+  "source_commit": "d5f1bc679c3b82ef47ad8c1bdb63987af9e23926",
+  "source_commit_time": "2026-10-02T09:03:34Z",
   "source_path": "2026/09/20/growing-rankin-cohen-twisted-nonvanishing--116c1bd23a07",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260920-116c1bd23a07",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-01T08:22:11Z",
+  "synced_at": "2026-10-02T09:07:02Z",
   "time_standard": "UTC"
 }

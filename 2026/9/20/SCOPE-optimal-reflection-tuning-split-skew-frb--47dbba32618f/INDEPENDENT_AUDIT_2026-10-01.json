@@ -1,0 +1,113 @@
+{
+  "audited_at_utc": "2026-10-01T20:13:40.771389Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "assigned RESULT.md",
+        "assigned artifacts/verify_split_skew_reflection.py",
+        "https://arxiv.org/abs/2609.15936",
+        "https://arxiv.org/abs/2609.18373"
+      ],
+      "rationale": "Dividing the exact split-skew recurrence by \\(1+i\\gamma\\tau\\) gives the stated quadratic. The two Schur-Cohn inequalities simplify to the displayed factorization; for \\(\\theta>1/2\\) the second inequality is exactly the finite threshold when \\(0\\le\\gamma<2\\theta+1\\) and is positive for every finite \\(\\tau\\) when \\(\\gamma\\ge2\\theta+1\\). The first Schur inequality is weaker on the finite-threshold region. Differentiating the exact threshold function gives the two competing minima; at \\(\\theta=(1+\\sqrt3)/4\\) they tie at \\(\\gamma=0\\) and \\(\\gamma=1/2\\), and the one-sided test functions prove global max-min optimality. The committed root checker independently verifies boundary moduli, representative phase points, the \\(\\theta=1\\) reduction, and the numerical constant.",
+      "residual_risks": [
+        "The theorem is exact only for the planar split-skew family; it is not a universal convergence theorem for arbitrary monotone inclusions."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Ou-Themelis-Latafat prove a broad convergence theorem and the sharp coefficient threshold using \\(A=0\\) skew rotation.",
+          "Shehu proves the exact standard-reflection split-skew threshold \\(\\tau^2=1/((1+\\gamma)(3-\\gamma))\\)."
+        ],
+        "reasoning": "These sources dominate individual slices but neither implies the all-reflection split-skew threshold or its global tuning optimum.",
+        "searches": [
+          "Ou-Themelis-Latafat, arXiv:2609.15936 full text",
+          "Shehu, arXiv:2609.18373 full text"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.15936",
+        "https://arxiv.org/abs/2609.18373",
+        "https://arxiv.org/abs/1908.05699",
+        "https://arxiv.org/abs/2509.02005",
+        "published record 2026/09/19/rate-optimal-frb-skew-rotations--689d5e743c56"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The prior results fix respectively \\(\\gamma=0\\) or \\(\\theta=1\\).",
+          "A two-variable rational threshold and its max-min optimizer are not determined by those two slices."
+        ],
+        "reasoning": "The final claim requires solving the full Schur-Cohn inequalities with both parameters free and then performing a nontrivial global minimax calculation.",
+        "searches": [
+          "Compared the audited characteristic polynomial and threshold against Ou-Themelis-Latafat Example 2.5 and Shehu's split-skew theorem"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The constant-reflection paper's pure-forward example is exactly the \\(\\gamma=0\\) slice of the audited phase diagram.",
+          "The 2026-09-19 rate-optimal record fixes standard reflection and optimizes spectral rate rather than the reflection coefficient's worst stability ceiling."
+        ],
+        "reasoning": "No located equivalent formulation contains the joint \\((\\theta,\\gamma)\\) phase diagram or the equioscillating max-min constant.",
+        "searches": [
+          "constant reflection forward reflected backward split skew optimal theta gamma Schur stability max min tuning",
+          "published record 2026/09/19/rate-optimal-frb-skew-rotations--689d5e743c56"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "The assigned finding was the only exact match; nearby findings concerned standard-reflection rate tuning or different reflected-gradient families."
+        ],
+        "reasoning": "No existing exact table or published finding located contains the audited optimizer.",
+        "searches": [
+          "published-finding semantic search for the exact constants \\((1+\\sqrt3)/4\\), \\(0.575860290886\\), and split-skew reflection tuning"
+        ]
+      },
+      "rationale": "The directly relevant constant-reflection paper has now been read in full: it proves the admissible coefficient range \\(\\theta>1/2\\), a general sufficient step bound, and the sharp pure-forward rotation slice, but it does not analyze the nonzero split-skew resolvent family or optimize the worst split-skew ceiling over \\(\\theta\\). Shehu gives the exact split-skew threshold only at standard reflection \\(\\theta=1\\). The closest published record located for the same skew family optimizes convergence rate at \\(\\theta=1\\), a different objective.",
+      "residual_risks": [
+        "Very recent parallel work could exist, but the most direct constant-reflection and split-skew primary sources were inspected in full."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING",
+          "evidence": "It covers the coefficient range and \\(\\gamma=0\\) slice but not the nonzero split-skew phase diagram or max-min tuning.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.15936",
+          "material_read": "Full HTML theorem/proof material defining the parameterized method, the \\(\\theta>1/2\\) coefficient range, the global sufficient step bound, and the sharp pure-forward skew example.",
+          "method": "Primary preprint full text.",
+          "title": "An Adaptive Linesearch-free Method for Monotone Variational Inequalities under Local Lipschitz Continuity",
+          "trigger": "Same algorithm with a constant reflection coefficient."
+        },
+        {
+          "assessment": "COVERING_SLICE",
+          "evidence": "It gives the \\(\\theta=1\\) threshold recovered by the audited formula, not the reflection-parameter optimization.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.18373",
+          "material_read": "Full primary theorem material for the \\(\\theta=1\\) split-skew family.",
+          "method": "Primary preprint full text.",
+          "title": "The sharp step-size constant for one-call reflection splittings on monotone inclusions",
+          "trigger": "Exact standard-reflection split-skew threshold."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.15936",
+        "https://arxiv.org/abs/2609.18373"
+      ],
+      "rationale": "The result identifies the exact obstruction surface for a canonical two-parameter monotone-inclusion test family and shows that standard reflection is not robustly optimal even within that family. The explicit equioscillating optimizer raises the exact split-skew ceiling by about 15.17%, giving a mathematically motivated target for sharper general convergence or obstruction results.",
+      "residual_risks": [
+        "The value is as an exact obstruction/tuning theorem; no universal convergence improvement is proved."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "limitations": [
+    "The theorem is exact for \\(A=\\gamma L J\\) and \\(B=LJ\\) in the plane.",
+    "It gives necessary obstruction ceilings for universal theorems, not a universal sufficient step-size theorem.",
+    "Finite-precision numerical behavior is not part of the claim."
+  ],
+  "record_id": "SCOPE-20260920-47dbba32618f",
+  "record_title": "Optimal reflection tuning against split-skew FRB obstructions",
+  "schema_version": 1
+}

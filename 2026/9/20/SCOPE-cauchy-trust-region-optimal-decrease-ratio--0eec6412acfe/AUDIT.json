@@ -1,34 +1,101 @@
 {
-  "correctness": {
-    "status": "PASS",
-    "summary": "A two-regime proof establishes the fixed-gradient factor 1/[(u^TBu)(u^TB^{-1}u)] for every trust radius. The boundary regime reduces the desired domination to an affine function of normalized radius whose endpoints follow from Cauchy-Schwarz and AM-GM. Kantorovich gives the sharp condition-number envelope, and explicit two-dimensional equality families plus deterministic numerical checks verify sharpness and limiting cases."
+  "audited_at_utc": "2026-10-01T17:49:46Z",
+  "axes": {
+    "correctness": {
+      "rationale": "PASS. The two-radius-regime proof is correct. When the Cauchy point is untruncated, the unconstrained Newton decrease gives the fixed-gradient factor. In the boundary regime the domination inequality is affine in normalized radius, so endpoint checks suffice; weighted Cauchy--Schwarz and AM--GM prove the nontrivial endpoint. Kantorovich gives the sharp condition-number envelope, and the two-eigenspace family attains it. Fresh calculations reproduced the equality factor for multiple condition numbers.",
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The standard literature gives Cauchy decrease estimates and exact-minimizer context, and explicitly distinguishes stronger fraction-of-optimal decrease."
+        ],
+        "reasoning": "No inspected theorem dominates the fixed-gradient \\(1/K\\) guarantee for every radius.",
+        "searches": [
+          "Conn--Gould--Toint Trust Region Methods Chapter 7",
+          "Conn--Scheinberg--Vicente DOI 10.1137/060673424",
+          "Nocedal--Wright trust-region chapter"
+        ]
+      },
+      "checked_sources": [
+        "Complete frozen/current Git package and deterministic artifacts.",
+        "Independent two-regime proof reconstruction and fresh equality-family calculation.",
+        "Standard trust-region monograph/article material.",
+        "Published-record and web searches."
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The prior results do not convert fraction-of-Cauchy decrease sharply to exact trust-region optimal decrease under SPD conditioning."
+        ],
+        "reasoning": "The affine-radius proof supplies the missing implication.",
+        "searches": [
+          "SIAM Trust Region Methods Chapter 7",
+          "Conn--Scheinberg--Vicente fraction-of-optimal discussion"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Standard sources define both notions but do not state the sharp SPD conversion; no earlier exact record was found."
+        ],
+        "reasoning": "The radius-uniform trust-region claim is stronger than the classical unconstrained steepest-descent/Newton ratio.",
+        "searches": [
+          "fraction of optimal decrease Cauchy point trust region SPD Kantorovich",
+          "fraction-of-Cauchy versus fraction-of-optimal trust region",
+          "published-record query for sharp Cauchy-to-optimal ratio"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No earlier exact record was found."
+        ],
+        "reasoning": "This is a quantified optimization inequality, not a table invariant.",
+        "searches": [
+          "Published-record semantic search for the sharp Cauchy-to-optimal ratio"
+        ]
+      },
+      "rationale": "PASS to the best of current knowledge. Classical trust-region sources distinguish the Cauchy point, exact model minimizer, fraction-of-Cauchy decrease, and the stronger fraction-of-optimal condition. Conn--Scheinberg--Vicente explicitly say fraction-of-optimal decrease is stronger than their Cauchy/eigenstep condition but do not provide this SPD conversion. Conn--Gould--Toint likewise present the Cauchy point and model minimizer as extremes without the sharp radius-uniform ratio. Searches for the fixed-gradient and condition-number factors found no earlier theorem.",
+      "residual_risks": [
+        "Broad classical trust-region literature leaves residual historical-equivalence risk.",
+        "The result does not extend with a positive condition-independent factor to indefinite quadratic models."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "STANDARD_BASELINE_NOT_EXACT_COVERAGE",
+          "evidence": "The chapter presents the Cauchy point and exact minimizer as opposite extremes without the audited sharp SPD ratio.",
+          "identifier_or_url": "https://doi.org/10.1137/1.9780898719857.ch7",
+          "material_read": "Accessible chapter text around the Cauchy point and exact model minimizer.",
+          "method": "Primary monograph chapter inspection.",
+          "title": "Trust Region Methods, Chapter 7: The Trust-Region Subproblem",
+          "trigger": "Authoritative treatment of Cauchy and exact model-minimizing steps."
+        },
+        {
+          "assessment": "DIRECT_CONTEXT_NOT_EXACT_COVERAGE",
+          "evidence": "It distinguishes the notions but gives no sharp SPD conversion factor.",
+          "identifier_or_url": "https://doi.org/10.1137/060673424",
+          "material_read": "Accessible full-text excerpt containing the fraction-of-Cauchy assumption and statement that fraction-of-optimal decrease is stronger.",
+          "method": "Primary article excerpt inspection.",
+          "title": "Global Convergence of General Derivative-Free Trust-Region Algorithms to First- and Second-Order Critical Points",
+          "trigger": "Direct comparison of sufficient-decrease notions."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "rationale": "PASS. The result quantitatively connects two standard sufficient-decrease notions with a sharp radius-independent constant in the uniformly SPD regime, including equality classification and a fixed-metric transfer.",
+      "status": "PASS"
+    }
   },
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "limitations": [
-    "Exact arithmetic and real SPD quadratic models only.",
-    "The guarantee concerns predicted quadratic model reduction, not actual reduction of a nonlinear objective or closeness of the steps.",
-    "Indefinite models admit no analogous positive universal factor; a negative-curvature counterexample is given.",
-    "Exact trust-region, dogleg, Steihaug-CG, Lanczos and related solvers may outperform the Cauchy point; no runtime superiority is claimed.",
-    "Broad classical trust-region monographs and older literature leave residual originality risk under different terminology.",
-    "Independent audit has not been performed."
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
   ],
-  "originality": {
-    "scope": "to the best of our knowledge",
-    "status": "PASS",
-    "summary": "Checked trust-region sources treat the Cauchy point, fraction-of-Cauchy decrease, exact trust-region minimization, and fraction-of-optimal decrease, while Kantorovich gives the classical unconstrained steepest-descent factor. Searches under exact, synonymous, and condition-number formulations did not locate the radius-uniform sharp ratio or the resulting sharp SPD conversion from fraction-of-Cauchy to fraction-of-optimal decrease. Broad classical monographs and older Powell-era literature remain a material residual historical-equivalence risk."
-  },
-  "phase": "II",
-  "previously_published_pending_reaudit": true,
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "policy": "to-the-best-of-our-knowledge",
+  "previously_published_pending_reaudit": false,
   "record_id": "SCOPE-20260920-0eec6412acfe",
-  "review_statement": "Same-model review: passed. Independent audit: not yet performed.",
-  "review_type": "same_model_review",
-  "same_model_review_status": "passed",
-  "scope_run_id": "88a5988a-d456-4a96-a6e9-faa96e38baa8",
-  "value": {
-    "status": "PASS",
-    "summary": "The theorem provides a sharp radius-independent certificate against the exact SPD trust-region optimum and turns the standard fraction-of-Cauchy condition into a sharp fraction-of-optimal condition whenever the quadratic model is uniformly SPD. It also extends directly to fixed SPD trust-region metrics by a change of variables."
-  },
-  "verification_state": "awaiting_fresh_independent_audit"
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

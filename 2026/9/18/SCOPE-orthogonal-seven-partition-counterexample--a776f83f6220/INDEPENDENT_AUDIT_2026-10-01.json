@@ -1,0 +1,100 @@
+{
+  "acceptance_rule": "Correctness, originality, and scientific value must all pass.",
+  "audited_at_utc": "2026-10-01T09:40:58Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "Assigned RESULT.md and artifacts/verify.py at source tree 9a3a4c6e2f6d3ae4f88d0b27a4d4e90bfe7833b5",
+        "Leonardo Martínez-Sandoval, Counterexamples and symmetry for uneven orthogonal mass partitions in the plane, arXiv:2609.16757v1"
+      ],
+      "rationale": "The finite reduction was independently replayed from the 70 listed integer points. Projection orders can change only when the line direction is parallel or perpendicular to a point difference. After projectivizing by central symmetry, there are exactly 2450 critical rays and 2450 open chambers. Exact integer sorting gives \\(q=8\\) in 2351 open chambers and \\(q=9\\) in 99; exhaustive tied-cutoff enumeration on critical rays gives 2331 rays with \\(\\{8\\}\\), 79 with \\(\\{9\\}\\), and 40 with \\(\\{8,9\\}\\). Thus the required \\(q=7\\) never occurs even under weak boundary assignment. The replay also verifies 70 distinct points and no collinear triple.",
+      "residual_risks": [
+        "The exhaustive certificate proves only this finite configuration and this target parameter; it does not address lower parameters."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The source proves \\(k=1\\) always solvable and supplies \\(k=8\\) failure; no broader theorem located rules in a \\(k=7\\) failure automatically."
+        ],
+        "reasoning": "The \\(k=8\\) existence theorem does not imply \\(k=7\\); the target counts and cutoff combinatorics change with \\(k\\).",
+        "searches": [
+          "orthogonal mass partition finite point sets",
+          "centrally symmetric discrete perpendicular-line partitions"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.16757",
+        "public open-problem rendering for the source's smallest-k question",
+        "published-result search for orthogonal seven-partition counterexamples"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The source's k=8 witness has different size and counts and explicitly leaves k=2 through 7 open.",
+          "The assigned 70-point set must be checked independently at the k=7 cutoff; the exact sweep supplies that missing witness."
+        ],
+        "reasoning": "No checked prior implication produces the k=7 counterexample.",
+        "searches": [
+          "source k=8 construction versus k=7 target",
+          "finite critical-direction reduction at k=7"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The source abstract states the 96-point \\(k=8\\) counterexample.",
+          "An accessible rendering of the source open problem asks for the smallest \\(k\\) and specifically whether a counterexample exists for \\(2\\le k\\le7\\)."
+        ],
+        "reasoning": "The audited object is exactly the first next unresolved parameter singled out by the source, not a renaming of the \\(k=8\\) example.",
+        "searches": [
+          "orthogonal 7 partition counterexample 70 points",
+          "uneven orthogonal mass partitions discrete k=7",
+          "Martínez-Sandoval Problem 8.4"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "The semantic corpus returns the assigned 2026-09-18 record as the direct match and no earlier exact record."
+        ],
+        "reasoning": "This is a finite exact witness, so a database search for the same parameter and object is relevant; no known-table entry was found.",
+        "searches": [
+          "published mathematical corpus for orthogonal seven-partition counterexample"
+        ]
+      },
+      "rationale": "The motivating primary paper gives a 96-point \\(k=8\\) counterexample and explicitly asks whether any counterexample exists for \\(2\\le k\\le7\\). Searches of the published mathematical corpus found the assigned 70-point \\(k=7\\) record but no earlier \\(k=7\\) construction or stronger theorem implying one.",
+      "residual_risks": [
+        "The primary preprint is very recent, so parallel unindexed constructions remain possible."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Leaves the audited parameter open and supplies the finite-reduction framework, not the 70-point witness.",
+          "evidence": "The abstract gives a 96-point \\(8,8,40,40\\) counterexample; the open problem asks whether any counterexample exists for \\(2\\le k\\le7\\).",
+          "identifier_or_url": "https://arxiv.org/abs/2609.16757",
+          "material_read": "Primary abstract plus the exact open-problem text available through a public problem rendering; the assigned package reproduces the finite reduction from the source appendix.",
+          "method": "Direct primary-source lookup and theorem/open-problem comparison.",
+          "title": "Counterexamples and symmetry for uneven orthogonal mass partitions in the plane",
+          "trigger": "Exact discrete partition problem and previous k=8 boundary."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Martínez-Sandoval 2026 open problem",
+        "exact 70-point certificate"
+      ],
+      "rationale": "This is a motivated finite cutoff: it answers the explicit next-range existence question posed by the source and improves the known counterexample parameter from \\(8\\) to \\(7\\). The complete exact critical-direction sweep makes the witness self-contained even though lower parameters remain open.",
+      "residual_risks": [
+        "The result is an upper-bound improvement on the smallest parameter rather than a complete classification."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "final_claim": "There exists a centrally symmetric 70-point integer set with no weak orthogonal \\(7\\)-partition into cyclic class sizes \\(7,7,28,28\\); hence the smallest counterexample parameter in the discrete orthogonal-partition problem is at most \\(7\\), improving the previously explicit value \\(8\\).",
+  "limitations": [
+    "The construction does not decide whether counterexamples exist for \\(k=2,3,4,5,6\\).",
+    "It does not prove 70 points are minimal for \\(k=7\\), nor uniqueness of the configuration.",
+    "The certificate is an exact finite enumeration rather than a formal proof-assistant artifact."
+  ]
+}

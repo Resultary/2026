@@ -1,0 +1,95 @@
+{
+  "audited_at_utc": "2026-10-01T20:50:53Z",
+  "axes": {
+    "correctness": {
+      "rationale": "PASS. The sufficiency is exactly Theorem 2.1 of Sangal--Swaminathan for \\(\u0007lpha,\beta\\ge0\\) and \\(\\lambda+\\mu\\ge1\\). For \\(s=\\lambda+\\mu<1\\), pairing consecutive terms in the even alternating sum is an alternating Riemann-sum identity. Applied to \\(u^{1-s}\\), it gives the endpoint slope coefficient \\(-1/2\\); the shifted-coefficient correction is lower order. Applied to \\(u^{-s}\\sin(yu)\\), whose derivative is integrable at zero for \\(s<1\\), the same pairing gives \\(n^sS_n(\\pi-y/n)\to-\tfrac12\\sin y\\). Thus every fixed \\(0<y<\\pi\\) yields negative even partial sums for large \\(n\\). These are infinite asymptotic arguments, not finite experiments.",
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The inspected broader literature treats other coefficient families or sufficient positivity refinements."
+        ],
+        "reasoning": "No inspected stronger theorem specializes to the exact shifted-power threshold and boundary-layer profile.",
+        "searches": [
+          "arXiv:1607.08314 Kwong nonnegative sine polynomials",
+          "DOI 10.1002/mana.200810029 Vietoris refinement",
+          "Sangal--Swaminathan references on positive trigonometric sums"
+        ]
+      },
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The prior sufficient theorem does not imply failure below the threshold, and the general criterion alone does not supply the shifted-family asymptotics."
+        ],
+        "reasoning": "The paired alternating Riemann-sum argument supplies the missing implication and quantitative profile.",
+        "searches": [
+          "Sangal--Swaminathan Theorem 2.1 and Belov criterion in its preliminaries",
+          "Kwong 2016 sine-polynomial family"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The primary theorem proves only the sufficient range \\(\\lambda+\\mu\\ge1\\).",
+          "No inspected source states the alternating-slope asymptotic or the scaled endpoint profile."
+        ],
+        "reasoning": "Belov's alternating criterion is an equivalent route to necessity, but applying it to this regularly varying shifted family requires the new asymptotic calculation.",
+        "searches": [
+          "arXiv:1705.03759 full text",
+          "search: shifted Vietoris coefficients sharp threshold lambda plus mu necessity",
+          "Resultary: shifted Vietoris sine threshold boundary layer"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No exact prior theorem or data table was located."
+        ],
+        "reasoning": "This is an analytic asymptotic theorem rather than a numerical-table question.",
+        "searches": [
+          "Published-record semantic search for the coefficient family and threshold",
+          "search for the asymptotic coefficient -1/2 with shifted Vietoris sums"
+        ]
+      },
+      "rationale": "PASS to the best of current knowledge. The complete Sangal--Swaminathan primary text was inspected. It proves positivity for the shifted-power family when \\(\\lambda+\\mu\\ge1\\) and cites Belov's endpoint criterion, but contains no necessity theorem, no below-threshold failure result and no \\(1/n\\) boundary-layer limit. Searches in Vietoris refinements, Kwong's nonnegative-sine-polynomial work, and published mathematical records found no earlier theorem giving this exact shifted-family threshold or universal profile.",
+      "status": "PASS"
+    },
+    "value": {
+      "rationale": "PASS. The result makes the exponent hypothesis of a published Vietoris-type theorem exact and explains the failure mechanism quantitatively on the natural endpoint scale. The universal leading profile, independent of the shifts, is a structural sharpening rather than a routine parameter check.",
+      "status": "PASS"
+    }
+  },
+  "checked_sources": [
+    "Complete frozen/current Git package.",
+    "Independent reconstruction of both paired alternating asymptotics and the shift-error estimate.",
+    "Complete relevant Sangal--Swaminathan primary text.",
+    "Published-record and targeted positive-trigonometric-sum searches."
+  ],
+  "disposition": "passed",
+  "limitations": "The result classifies the sine family and simultaneous sine/cosine positivity, not cosine positivity alone below the threshold. Only the leading fixed-\\(y\\) endpoint profile is derived. A differently phrased theorem for regularly varying coefficients remains a residual originality risk.",
+  "record_id": "SCOPE-20260920-df20aa3dc998",
+  "record_title": "Sharp exponent threshold and endpoint boundary layer for shifted Vietoris sine sums",
+  "residual_risks": [
+    "A general regularly-varying-coefficient theorem could imply the converse under terminology not found in the searches.",
+    "No claim is made about the optimal cosine-only threshold below \\(s=1\\)."
+  ],
+  "schema_version": 1,
+  "source_inspections": [
+    {
+      "assessment": "PRIMARY_SOURCE_PROVES_SUFFICIENCY_ONLY",
+      "evidence": "Theorem 2.1 proves sine positivity for \\(\u0007lpha,\beta\\ge0\\) and \\(\\lambda+\\mu\\ge1\\); no sharp converse or endpoint asymptotic is stated.",
+      "identifier_or_url": "https://arxiv.org/abs/1705.03759",
+      "material_read": "Complete primary text around the coefficient definition, Belov criterion, Theorem 2.1 and the sine/cosine positivity results.",
+      "method": "Primary full-text inspection.",
+      "title": "Vietoris type theorem related to positivity of trigonometric polynomials",
+      "trigger": "Exact primary source for the shifted coefficient family."
+    },
+    {
+      "assessment": "RELATED_DIFFERENT_FAMILY",
+      "evidence": "The paper concerns different sine-polynomial coefficient patterns and does not state the shifted-power threshold or the claimed scaled endpoint limit.",
+      "identifier_or_url": "https://arxiv.org/abs/1607.08314",
+      "material_read": "Primary abstract and accessible manuscript material describing its different coefficient families and low-degree classifications.",
+      "method": "Primary-source comparison.",
+      "title": "A New Family of Nonnegative Sine Polynomials",
+      "trigger": "Highly relevant positive-sine-polynomial literature and endpoint-obstruction context."
+    }
+  ]
+}

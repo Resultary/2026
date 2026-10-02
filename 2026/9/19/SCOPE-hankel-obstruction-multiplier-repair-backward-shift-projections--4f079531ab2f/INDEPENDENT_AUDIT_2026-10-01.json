@@ -1,0 +1,96 @@
+{
+  "audited_at_utc": "2026-10-01T13:56:20.018401Z",
+  "axes": {
+    "correctness": {
+      "rationale": "The repaired final claim excludes the already-covered Hankel/BMOA correction from novelty. For \\(f\\in H^\\infty\\), coefficient comparison gives \\(L_g f=M_{f^\\sharp}^*g\\) and the multiplier norm bound. For \\(B=S^*\\otimes I_K\\), minimality makes every nonzero coefficient map injective on a minimal invariant subspace. If two nonzero coefficient-image closures differ, Beurling's description of a proper \\(S^*\\)-invariant subspace as \\(K_\\theta\\), together with invariance under \\(M_\\theta^*\\otimes I_K\\), produces a nonzero vector killed by one coefficient map, contradicting injectivity. Hence all nonzero coefficient shadows have one common model space.",
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "No earlier published archive hit stated the arbitrary-multiplicity/all-directions theorem. Classical Beurling theory supplies a proof ingredient rather than a dominating theorem."
+        ],
+        "reasoning": "No inspected earlier source subsumes the repaired theorem.",
+        "searches": [
+          "vector-valued Hardy space model spaces minimal invariant subspace common shadow",
+          "published archive backward shift multiplicity"
+        ]
+      },
+      "checked_sources": [
+        "published 2026-09-18 BMOA-boundary record",
+        "arXiv:2609.19311",
+        "published archive semantic search",
+        "classical Beurling model-space theorem"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The BMOA obstruction alone does not imply the common-shadow result. The source's visible coordinate-projection statement does not mechanically imply equality for every coefficient functional in every Hilbert multiplicity."
+        ],
+        "reasoning": "The repaired theorem needs the minimality, multiplier-invariance and model-space argument given in the record.",
+        "searches": [
+          "coordinate projection common structure implication to arbitrary coefficient directions",
+          "BMOA obstruction implication to multiplier repair"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The 2026-09-18 BMOA record covers only the obstruction/boundedness part.",
+          "The source abstract states a common structure for nonzero coordinate projections in the bidisk setting, but the repaired theorem treats arbitrary Hilbert multiplicity and arbitrary coefficient functionals with a direct multiplier proof."
+        ],
+        "reasoning": "The repaired claim is the general common-shadow theorem, not the covered Hankel boundary.",
+        "searches": [
+          "published archive: minimal backward shift arbitrary Hilbert multiplicity common coefficient shadows",
+          "arXiv:2609.19311"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "Exact search found the prior BMOA correction but no earlier exact record for the arbitrary-multiplicity common-shadow theorem."
+        ],
+        "reasoning": "The database check supports narrowing away from the covered theorem and retaining the distinct repair.",
+        "searches": [
+          "published archive exact Hankel repair record",
+          "arXiv 2609.19311 projection rigidity"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality passes for the repaired arbitrary-multiplicity common-shadow theorem. The covered BMOA correction is treated solely as prior input.",
+      "residual_risks": [
+        "The full 2026 source text was not accessible in the available text interface; an equivalent arbitrary-multiplicity lemma could be implicit in older vector-valued model-space literature not found by the searches."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "COVERS_REMOVED_PART",
+          "evidence": "The earlier record already gives the BMOA threshold and explicit source correction.",
+          "identifier_or_url": "https://github.com/Resultary/2026/tree/main/2026/9/18/SCOPE-bmoa-boundary-backward-shift-hankel-operator--a39ad574fb44",
+          "material_read": "complete result and proof",
+          "method": "published record full text",
+          "title": "The sharp BMOA boundary for a backward-shift Hankel operator",
+          "trigger": "overlap with Theorem 1 of the original record"
+        },
+        {
+          "assessment": "RELATED_NOT_DECISIVE",
+          "evidence": "The abstract states common invariant structure for nonzero projections in the bidisk but does not expose the arbitrary-multiplicity/all-coefficient theorem in the accessible material.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.19311",
+          "material_read": "abstract and accessible metadata",
+          "method": "public source page",
+          "title": "Projections and minimal invariant subspaces in the Hardy space over the bidisk",
+          "trigger": "primary source whose intended rigidity is repaired"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "rationale": "The repaired theorem salvages the motivating projection-rigidity phenomenon without the invalid synthesis step and strengthens it to arbitrary Hilbert multiplicity and arbitrary coefficient directions. This is a natural reusable structural lemma.",
+      "status": "PASS"
+    }
+  },
+  "disposition": "repaired",
+  "independent": true,
+  "limitations": [
+    "The full 2026 source text was not accessible in the available text interface; an equivalent arbitrary-multiplicity lemma could be implicit in older vector-valued model-space literature not found by the searches."
+  ],
+  "record_id": "SCOPE-20260919-4f079531ab2f",
+  "record_title": "Hankel obstruction and multiplier repair for minimal backward-shift projections",
+  "review_type": "independent_audit",
+  "statement": "This assessment is an independent mathematical review of the final claim. It is not formal proof-assistant verification or a guarantee of first discovery."
+}

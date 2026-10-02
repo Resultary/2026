@@ -1,34 +1,107 @@
 {
-  "correctness": {
-    "status": "PASS",
-    "summary": "The signed topological-order encoding is well defined for complete multipartite graphs, sink-layer inclusion-exclusion gives the inverse-series identity, and the even/odd algebra reduces the matching-deleted family to perfect-matchings among doubleton parts. Coefficient extraction gives the stated factorial values. A standalone exhaustive verifier checks all 28 parameter pairs with 2<=n<=9."
+  "audited_at_utc": "2026-10-01T11:55:00Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.02249",
+        "https://doi.org/10.61091/um125-02",
+        "independent exact enumeration through n=8"
+      ],
+      "rationale": "The signed orientation algebra is well defined because adjacent incomparable vertices in a linear extension lie in one multipartite part and commute. Sink-set inclusion-exclusion gives \\(FC=1\\). Splitting the independent-set series into even central terms and odd anticommuting terms yields the stated rational identity; coefficient extraction reduces to ordered perfect matchings and gives \\((-1)^k(2k)!\\) on every selected \\(2k\\)-set. This produces the factorial formula in all s cases. An independent brute-force implementation, separate from the committed verifier, reproduced all 23 parameter pairs with \\(2\\le n\\le8\\), including signature 24 for \\(K_8\\) minus a perfect matching.",
+      "residual_risks": [],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Mühlherr--Poullot provide the general -1 Hamiltonicity obstruction; Carballosa--Khera--Reyes give unsigned complete-multipartite counts and encodings."
+        ],
+        "reasoning": "Neither inspected source computes the signed edge-disagreement evaluation for K_n minus a matching.",
+        "searches": [
+          "Mühlherr--Poullot acyclic-polynomial paper",
+          "Carballosa--Khera--Reyes complete-multipartite enumeration"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.02249",
+        "https://doi.org/10.61091/um125-02",
+        "published Resultary archive searches"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The general obstruction requires knowing the nonzero value at -1, while unsigned counts do not determine it."
+        ],
+        "reasoning": "The factorial evaluation supplies the missing signed information rather than being a corollary of the cited sources.",
+        "searches": [
+          "Implication comparison against the general -1 obstruction and unsigned enumeration formulas"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The published archive returned this record but no earlier matching-complement signature formula."
+        ],
+        "reasoning": "Searches covered the parity-imbalance formulation as well as the acyclic-polynomial formulation.",
+        "searches": [
+          "Resultary query for acyclic signature, acyclic polynomial at -1, cocktail-party graph, complete graph minus matching",
+          "web searches for even/odd acyclic orientation imbalance"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "Published complete-multipartite tables count orientations, not their parity relative to a reference orientation."
+        ],
+        "reasoning": "Unsigned counts do not mechanically determine the signed signature.",
+        "searches": [
+          "complete multipartite acyclic-orientation enumerations and tables"
+        ]
+      },
+      "rationale": "No equivalent or stronger signed evaluation was found. The closest sources give either the general parity obstruction or unsigned complete-multipartite enumeration, neither of which implies the factorial signature.",
+      "residual_risks": [
+        "The full current Mühlherr--Poullot manuscript could not be read in this run; older Gray-code or arrangement literature may use different terminology."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Supplies the general obstruction but no exposed matching-complement factorial formula.",
+          "evidence": "The accessible source says nonvanishing at -1 obstructs Hamiltonicity.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.02249",
+          "material_read": "Abstract and indexed statement material; the full current text was not retrievable through the attempted route.",
+          "method": "Primary-source statement comparison.",
+          "title": "Hamiltonicity of graphs of acyclic orientations and acyclic polynomials",
+          "trigger": "Primary source defining the acyclic-polynomial Hamiltonicity obstruction."
+        },
+        {
+          "assessment": "Covers unsigned enumeration, source-removal encodings and longest paths, not parity signatures.",
+          "evidence": "No parity/signature treatment appears in the accessible article.",
+          "identifier_or_url": "https://doi.org/10.61091/um125-02",
+          "material_read": "Full accessible HTML, including Sections 2-4 and the complete multipartite formulas.",
+          "method": "Full-text search and theorem inspection.",
+          "title": "Encoding and Enumerating Acyclic Orientations of Graphs",
+          "trigger": "Primary complete-multipartite enumeration source."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.02249"
+      ],
+      "rationale": "The formula gives an exact infinite family of large parity imbalances and converts them into explicit non-Hamiltonicity results for cocktail-party and near-cocktail acyclic-orientation graphs. It is a natural structural evaluation, not an arbitrary finite census.",
+      "residual_risks": [],
+      "status": "PASS"
+    }
   },
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "limitations": [
-    "The full acyclic polynomial is not determined; only its value at -1 is evaluated.",
-    "A zero signature does not imply Hamiltonicity.",
-    "The full current v2 text of arXiv:2609.02249 was not completely inspected; its accessible abstract and indexed material were checked.",
-    "Older Gray-code, hyperplane-arrangement, or trace-monoid literature using different terminology and very recent parallel work remain residual originality risks.",
-    "Finite computation supports but does not replace the proof.",
-    "Independent audit has not been performed."
-  ],
-  "originality": {
-    "scope": "to the best of our knowledge",
-    "status": "PASS",
-    "summary": "The new 2026 acyclic-polynomial source, the complete-multipartite orientation-enumeration literature, the classical acyclic-orientation Gray-code paper, and exact/synonymous searches were checked. No equivalent signature formula for K_n minus a matching or cocktail-party graphs was found. The full current v2 text of arXiv:2609.02249 was not completely inspected and remains the main explicit residual risk."
+  "disposition": "passed",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": "The theorem evaluates the acyclic polynomial only at t=-1. A zero signature does not imply Hamiltonicity. The full current Mühlherr--Poullot manuscript was not retrievable in this audit, leaving a source-access originality risk.",
+  "policy": "correctness-originality-scientific-value",
+  "previous_review_evidence": {
+    "correctness": "Earlier review verified the signed algebra and finite checker.",
+    "originality": "Earlier review found no matching-complement signature formula in its searches.",
+    "value": "Earlier review valued the factorial imbalance and Hamiltonicity obstruction."
   },
-  "phase": "II",
-  "previously_published_pending_reaudit": true,
   "record_id": "SCOPE-20260919-c164cb9690e5",
-  "review_statement": "Same-model review: passed. Independent audit: not yet performed.",
-  "review_type": "same_model_review",
-  "same_model_review_status": "passed",
-  "scope_run_id": "6e0df33a-a2f1-44f7-8a4f-c4c5311806c4",
-  "value": {
-    "status": "PASS",
-    "summary": "The result gives an exact factorial even/odd imbalance for all cocktail-party graphs and a parity-sensitive near-perfect-matching formula, yielding an infinite dense family of explicit non-Hamiltonian acyclic-orientation graphs and a reusable signed cancellation mechanism."
-  },
-  "verification_state": "awaiting_fresh_independent_audit"
+  "review_type": "independent_audit",
+  "verification_state": "independently_reviewed"
 }

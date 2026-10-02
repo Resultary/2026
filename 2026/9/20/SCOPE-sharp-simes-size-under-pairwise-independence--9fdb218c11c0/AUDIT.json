@@ -1,14 +1,113 @@
 {
-  "correctness": "PASS",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "limitations": "Specific to three exactly uniform null p-values; equivalent older formulations under different terminology remain a residual originality risk.",
-  "originality": "PASS",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "same_model_review_status": "passed",
-  "scientific_summary": "Exact piecewise worst-case Simes rejection probability for three pairwise-independent Uniform(0,1) p-values, with finite dual certificates and explicit continuous extremizers.",
-  "value": "PASS",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "audited_at_utc": "2026-10-01T20:50:53Z",
+  "axes": {
+    "correctness": {
+      "rationale": "PASS. The Simes event depends only on the four interval labels \\(A,B,C,D\\) with widths \\(r,r,r,1-3r\\), where \\(r=\u0007lpha/3\\). Pairwise independence fixes all ten second factorial moments of the occupancy counts. The three displayed dual coefficient vectors were independently checked on all 20 occupancy types and give the three polynomial upper bounds. The three exchangeable count distributions were independently rechecked for normalization, all ten pair laws and their rejection polynomials. Conditional independent uniform draws inside the assigned intervals then produce exactly uniform continuous marginals while preserving pairwise independence. The branch crossings occur at \\(r=1/5\\) and \\(r=1/4\\), giving the stated \\(\u0007lpha=3/5\\) and \\(\u0007lpha=3/4\\) breakpoints. This is a finite exact certificate embedded in a complete probabilistic reduction, not a heuristic computation.",
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Hommel gives sharp arbitrary-dependence bounds for different harmonic-adjusted procedures; Ramachandra--Natarajan treat one-threshold Bernoulli sums under pairwise independence."
+        ],
+        "reasoning": "Neither broader theory mechanically gives the simultaneous three-threshold Simes event with exact uniform marginals.",
+        "searches": [
+          "DOI 10.1002/bimj.19830250502 full text",
+          "DOI 10.1093/biomet/83.4.928",
+          "arXiv:2006.00516 full text"
+        ]
+      },
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Hommel's method 3.3 uses critical levels proportional to \\(k/(nC_n)\\), not \\(k/n\\); the pairwise-Bernoulli paper fixes one threshold \\(k\\) at a time rather than the union of Simes thresholds."
+        ],
+        "reasoning": "The occupancy LP and compatible continuous extremizers provide additional structure not implied by those prior results.",
+        "searches": [
+          "Hommel 1983 Sections 3--6",
+          "Ramachandra--Natarajan 2022/2023 threshold-event bounds",
+          "Samuel-Cahn 1996 abstract"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "No earlier exact three-variable piecewise envelope was found.",
+          "Under the global null, BH rejects at least one hypothesis on exactly the Simes event, so that equivalent formulation was included."
+        ],
+        "reasoning": "The BH-global-null and Simes formulations are equivalent here; neither search produced stronger prior coverage.",
+        "searches": [
+          "search: Simes pairwise independent p-values exact size three",
+          "Resultary: Simes pairwise independence three uniforms sharp",
+          "search: Benjamini-Hochberg global null pairwise independence three"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No tabulated critical-value result or earlier exact theorem with the three polynomial branches was located."
+        ],
+        "reasoning": "The object is an extremal distribution problem, so theorem/coupling search is the relevant exact comparison.",
+        "searches": [
+          "Published-record semantic search for pairwise-independent Simes size",
+          "multiple-testing search for exact three-p-value envelope"
+        ]
+      },
+      "rationale": "PASS to the best of current knowledge. Simes proves exact size under mutual independence. Hommel's complete 1983 paper was inspected in full: its arbitrary-dependence sharp method uses harmonic-adjusted ordered critical levels, not the unadjusted Simes event under pairwise independence. Samuel-Cahn studies anticonservativeness under dependence classes but does not provide the pairwise-independent three-uniform envelope in its accessible statement. Ramachandra--Natarajan's complete arXiv paper gives sharp or improved bounds for single-threshold sums of pairwise-independent Bernoulli variables; it does not treat the multilevel Simes rejection event. No inspected source states or implies the assigned piecewise envelope.",
+      "status": "PASS"
+    },
+    "value": {
+      "rationale": "PASS. Pairwise independence is a natural intermediate dependence model, and the theorem exactly quantifies how far a canonical multiple-testing procedure can exceed nominal level in the smallest nontrivial case. The exact sharp envelope and continuous extremizers are reusable in limited-independence multiple testing and are not a routine numerical check.",
+      "status": "PASS"
+    }
+  },
+  "checked_sources": [
+    "Complete frozen/current Git package and exact-certificate artifacts.",
+    "Independent enumeration of all 20 occupancy inequalities and independent polynomial checks of all three extremal constructions.",
+    "Complete Hommel 1983 article and complete Ramachandra--Natarajan arXiv text.",
+    "Targeted Simes, BH, arbitrary-dependence and limited-independence literature searches."
+  ],
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "policy": "to-the-best-of-our-knowledge",
+  "previously_published_pending_reaudit": false,
+  "record_id": "SCOPE-20260920-9fdb218c11c0",
+  "residual_risks": [
+    "Older Bonferroni/coupling literature may encode the same three-variable LP under different terminology.",
+    "The result does not extend automatically to \\(m\\ge4\\) or to super-uniform nonuniform nulls."
+  ],
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "source_inspections": [
+    {
+      "assessment": "ARBITRARY_DEPENDENCE_DIFFERENT_CRITICAL_LEVELS",
+      "evidence": "The sharp arbitrary-dependence procedure uses harmonic-adjusted critical levels and does not state the pairwise-independent Simes envelope.",
+      "identifier_or_url": "https://doi.org/10.1002/bimj.19830250502",
+      "material_read": "Complete eight-page primary article, including all three overall-test procedures, sharpness discussion and appendix.",
+      "method": "Primary full-text inspection.",
+      "title": "Tests of the Overall Hypothesis for Arbitrary Dependence Structures",
+      "trigger": "Classical sharp arbitrary-dependence overall-test bounds and a close ordered-p-value predecessor."
+    },
+    {
+      "assessment": "SINGLE_THRESHOLD_BERNOULLI_RESULTS_NOT_SIMES_ENVELOPE",
+      "evidence": "The paper optimizes probabilities that a Bernoulli sum exceeds one fixed threshold; it does not encode the three nested Simes thresholds or continuous uniform marginal structure.",
+      "identifier_or_url": "https://arxiv.org/abs/2006.00516",
+      "material_read": "Complete accessible primary text, including the Bernoulli threshold formulation, exact union bound and higher-threshold sections.",
+      "method": "Primary full-text inspection.",
+      "title": "Tight Probability Bounds with Pairwise Independence",
+      "trigger": "Closest general extremal-probability work under pairwise independence."
+    },
+    {
+      "assessment": "DEPENDENCE_CLASS_RESULTS_NOT_PAIRWISE_EXACT_ENVELOPE",
+      "evidence": "The paper studies positive/negative bivariate-normal dependence and cites attainable arbitrary-dependence bounds; the accessible statement does not give the assigned pairwise-independent piecewise law.",
+      "identifier_or_url": "https://doi.org/10.1093/biomet/83.4.928",
+      "material_read": "Primary abstract and indexed result statement.",
+      "method": "Primary-source comparison.",
+      "title": "Is the Simes improved Bonferroni procedure conservative?",
+      "trigger": "Direct classical study of Simes anticonservativeness under dependence."
+    }
+  ],
+  "verification_state": "independently_reviewed"
 }

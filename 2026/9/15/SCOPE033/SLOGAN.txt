@@ -1,1 +1,0 @@
-In Dodson's Section 10 bookkeeping, the filed term-B residual exponent drops below the quadratic absorption threshold at d=16; the particular nonnegative cutoff-deficit knob can only worsen it. This is a method-local barrier, not a universal no-go theorem.

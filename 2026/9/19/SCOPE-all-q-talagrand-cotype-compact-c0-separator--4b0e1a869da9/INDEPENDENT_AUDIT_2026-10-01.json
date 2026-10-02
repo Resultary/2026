@@ -1,0 +1,113 @@
+{
+  "audited_at_utc": "2026-10-01T11:55:00Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.19731",
+        "https://github.com/Resultary/2026/tree/main/2026/9/18/SCOPE-walsh-hadamard-operator-cotype-all-q--8d7e06d62b42",
+        "https://doi.org/10.4064/sm-118-2-101-115",
+        "https://doi.org/10.1007/BF01231344"
+      ],
+      "rationale": "The repaired claim uses the already-established all-q finite-dimensional gap only as input. For a fixed q, normalize a subsequence so Gaussian cotype and the (q,1)-summing norm are at most one while Rademacher cotype grows at least \\(4^k\\). Weighting the block maps by \\(2^{-k}\\) on the c0-direct sum gives an operator-norm limit of finite-rank block truncations, hence a compact operator. The \\(q\\)-power sum bounds give finite Gaussian cotype and finite (q,1)-summing norm, while tests supported on one block force the Rademacher cotype constant to exceed \\(2^k\\) for every k. Each finite block embeds isometrically into an l_infinity block, so the c0-sum domain is a closed subspace of c0.",
+      "residual_risks": [],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The earlier all-q record provides finite-dimensional blocks; the classical positive theorems apply to C(K) or Banach-lattice domains rather than arbitrary closed subspaces of c0."
+        ],
+        "reasoning": "None of the inspected sources states a compact separator with all three ideal properties.",
+        "searches": [
+          "Wu q=2 counterexample",
+          "earlier all-q Walsh--Hadamard record",
+          "Junge C(K) comparison",
+          "Talagrand cotype/(q,1)-summing theory"
+        ]
+      },
+      "checked_sources": [
+        "https://github.com/Resultary/2026/tree/main/2026/9/18/SCOPE-walsh-hadamard-operator-cotype-all-q--8d7e06d62b42",
+        "https://github.com/Resultary/2026/tree/main/2026/9/19/SCOPE-talagrand-operator-cotype-counterexamples-all-finite-q--875f1cfe053c",
+        "https://arxiv.org/abs/2609.19731",
+        "https://doi.org/10.4064/sm-118-2-101-115",
+        "https://doi.org/10.1007/BF01231344",
+        "published Resultary archive searches"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The compact result is obtained by a normalization/subsequence/c0 gluing step that is not stated in that prior record."
+        ],
+        "reasoning": "The finite-dimensional separation is prior input, but compactness plus finite good ideals and infinite bad cotype on one operator is an additional infinite-dimensional conclusion.",
+        "searches": [
+          "Direct comparison with the 2026-09-18 all-q finite-dimensional theorem"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The archive finds the earlier all-q finite-dimensional separation but no earlier compact c0 gluing theorem."
+        ],
+        "reasoning": "The repaired claim excludes the already-published finite-dimensional all-q bound and retains only the compact qualitative separator.",
+        "searches": [
+          "Resultary search for compact c0 separator with finite Gaussian cotype and (q,1)-summing norm but infinite Rademacher cotype",
+          "web search for compact operator cotype separators in c0 subspaces"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No database/table result is relevant."
+        ],
+        "reasoning": "The claim is a qualitative infinite-dimensional construction.",
+        "searches": [
+          "operator-ideal archive and Resultary semantic search"
+        ]
+      },
+      "rationale": "The original finite-dimensional all-q claim is covered by an earlier published record. After repair, the final claim is only the compact qualitative separator; no earlier equivalent or dominating statement was located.",
+      "residual_risks": [
+        "Older operator-ideal literature is extensive, and an equivalent compact gluing result under different terminology remains a residual bibliographic risk."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Covers the entire finite-dimensional all-q separation, so that portion is credited as prior in the repaired result.",
+          "evidence": "The same Walsh--Hadamard bounds and logarithmic factor are stated there one day earlier.",
+          "identifier_or_url": "https://github.com/Resultary/2026/tree/main/2026/9/18/SCOPE-walsh-hadamard-operator-cotype-all-q--8d7e06d62b42",
+          "material_read": "Complete RESULT.md and METADATA.json.",
+          "method": "Statement and proof implication comparison.",
+          "title": "A single Walsh-Hadamard family separates operator cotype for every finite q",
+          "trigger": "Decisive prior coverage of the original record’s Theorem 1."
+        },
+        {
+          "assessment": "States a negative answer already at q=2; it does not expose the compact c0 separator.",
+          "evidence": "The accessible abstract is explicitly q=2.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.19731",
+          "material_read": "Current abstract and source metadata.",
+          "method": "Primary-source comparison.",
+          "title": "A Counterexample to Talagrand’s Operator Cotype Problem",
+          "trigger": "Primary source for the q=2 finite-dimensional block construction."
+        },
+        {
+          "assessment": "Treats operators on C(K), not arbitrary closed subspaces of c0, and does not supply the compact separator.",
+          "evidence": "The domain hypothesis in the abstract is C(K).",
+          "identifier_or_url": "https://doi.org/10.4064/sm-118-2-101-115",
+          "material_read": "Publisher abstract and theorem summary.",
+          "method": "Primary-source comparison.",
+          "title": "Comparing gaussian and Rademacher cotype for operators on the space of continuous functions",
+          "trigger": "Closest classical positive-domain comparison."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "https://doi.org/10.4064/sm-118-2-101-115",
+        "https://doi.org/10.1007/BF01231344"
+      ],
+      "rationale": "The compact separator turns a sequence of finite-dimensional quantitative counterexamples into one compact operator with a clean ideal-theoretic separation on a separable c0-type setting. It marks a natural boundary against positive C(K)/Banach-lattice results and is not merely another finite-dimensional parameter instance.",
+      "residual_risks": [],
+      "status": "PASS"
+    }
+  },
+  "disposition": "repaired",
+  "final_claim": "For every fixed finite \\(q\\ge2\\), there is a compact operator from a closed subspace of \\(c_0\\) into \\(c_0\\) with finite Gaussian cotype \\(q\\) and finite \\((q,1)\\)-summing norm but infinite Rademacher cotype \\(q\\).",
+  "limitations": "The repaired result retains only the compact qualitative separator. The all-q finite-dimensional Walsh--Hadamard gap is prior. The construction is real, fixed-q, and does not determine optimal constants or a finer compact ideal.",
+  "record_id": "SCOPE-20260919-4b0e1a869da9"
+}

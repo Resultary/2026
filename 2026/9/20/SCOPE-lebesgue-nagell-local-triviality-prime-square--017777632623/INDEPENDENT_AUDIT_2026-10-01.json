@@ -1,0 +1,114 @@
+{
+  "audited_at_utc": "2026-10-01T18:41:11Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "Katz and Pratt, On the Lebesgue--Nagell equation x^2-2=y^p, Ramanujan Journal 69 (2026), arXiv:2507.12397v3.",
+        "Chen, On the equations a^2-2b^6=c^p and a^2-2=c^p, LMS Journal of Computation and Mathematics 15 (2012).",
+        "Repository verifier verify.py and verification.txt; the 84 residual exponents were also independently replayed with exact quadratic-ring arithmetic.",
+        "Published Resultary semantic search for Lebesgue--Nagell local triviality, prime-square congruences, and the Katz--Pratt Thue equation."
+      ],
+      "rationale": "The Thue polynomial reduces modulo p to one affine residue line, and every first partial derivative is divisible by p, so its value modulo p squared is constant on residue classes modulo p. An independent exact replay over all 84 residual primes reproduced exactly the stated 31 unique classes. The Katz--Pratt normalization and congruence theorems then convert that unique class into the claimed congruences for x and y, including the prime-square upgrade for x.",
+      "residual_risks": [
+        "The Katz--Pratt source was revised recently, so near-simultaneous follow-up work remains possible.",
+        "The theorem is local and covers 31 residual exponents; it does not rule out nontrivial global solutions."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "These theorems supply normalization and downstream congruence implications but do not supply the 31-prime residue collapse.",
+          "Chen resolves different congruence classes globally."
+        ],
+        "reasoning": "No inspected broader theorem mechanically implies the finite local classification.",
+        "searches": [
+          "Katz--Pratt Theorems 2.3, 5.3, 7.7, and 10.1",
+          "Chen 2012"
+        ]
+      },
+      "checked_sources": [
+        "Katz and Pratt, On the Lebesgue--Nagell equation x^2-2=y^p, Ramanujan Journal 69 (2026), arXiv:2507.12397v3.",
+        "Chen, On the equations a^2-2b^6=c^p and a^2-2=c^p, LMS Journal of Computation and Mathematics 15 (2012).",
+        "Repository verifier verify.py and verification.txt; the 84 residual exponents were also independently replayed with exact quadratic-ring arithmetic.",
+        "Published Resultary semantic search for Lebesgue--Nagell local triviality, prime-square congruences, and the Katz--Pratt Thue equation."
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The prime-square theorem upgrades x only after the local y congruence is known.",
+          "The new modulo-p-squared Thue test supplies that missing implication on 31 exponents."
+        ],
+        "reasoning": "The final claim is not a corollary of the cited source without the new residue-class argument.",
+        "searches": [
+          "Katz--Pratt Conjecture 8.1 versus the prime-square rigidity lemma",
+          "Katz--Pratt Theorem 2.3"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The exact Resultary match is the assigned finding.",
+          "Conjecture 8.1 remains a conjecture in the residual range; Proposition 8.2 gives only nonvanishing modulo p."
+        ],
+        "reasoning": "Equivalent formulations through the Thue residue class, local triviality, and the prime-square x congruence were compared.",
+        "searches": [
+          "Resultary query: Lebesgue Nagell x^2-2=y^p local triviality p^2 Katz Pratt Thue 31 primes",
+          "Katz--Pratt arXiv:2507.12397v3, Sections 5, 7, 8, and 10"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No prior exact table of the 31 unique prime-square branches was located.",
+          "The package enumeration was independently reproduced but is correctness evidence, not novelty evidence."
+        ],
+        "reasoning": "The finite certificate is attached to a proved reduction, not inferred from search absence.",
+        "searches": [
+          "Katz--Pratt computations and local-count theorem",
+          "Resultary exact-topic search"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality passes. Katz--Pratt explicitly formulate local triviality as Conjecture 8.1 and prove only weaker general restrictions; their current full text does not identify the 31 unique prime-square branches. The published-record search returned no earlier exact statement.",
+      "residual_risks": [
+        "The Katz--Pratt source was revised recently, so near-simultaneous follow-up work remains possible.",
+        "The theorem is local and covers 31 residual exponents; it does not rule out nontrivial global solutions."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Highly relevant but not covering the 31-prime classification.",
+          "evidence": "The paper leaves local triviality conjectural in the residual range.",
+          "identifier_or_url": "https://arxiv.org/abs/2507.12397",
+          "material_read": "Current full arXiv v3 sections containing Theorems 2.3, 5.3, 7.7, Conjecture 8.1, Proposition 8.2, and Theorem 10.1",
+          "method": "Primary full-text inspection",
+          "title": "On the Lebesgue--Nagell equation x^2-2=y^p",
+          "trigger": "Same equation, residual exponents, Thue reduction, and local-triviality conjecture"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Katz and Pratt, On the Lebesgue--Nagell equation x^2-2=y^p, Ramanujan Journal 69 (2026), arXiv:2507.12397v3.",
+        "Chen, On the equations a^2-2b^6=c^p and a^2-2=c^p, LMS Journal of Computation and Mathematics 15 (2012).",
+        "Repository verifier verify.py and verification.txt; the 84 residual exponents were also independently replayed with exact quadratic-ring arithmetic.",
+        "Published Resultary semantic search for Lebesgue--Nagell local triviality, prime-square congruences, and the Katz--Pratt Thue equation."
+      ],
+      "rationale": "The result resolves a named local-triviality conjecture for 31 of the 84 exponents left by the global reductions and gives a reusable exact prime-square criterion. The finite list is mathematically motivated by the residual problem rather than an arbitrary census.",
+      "residual_risks": [
+        "The Katz--Pratt source was revised recently, so near-simultaneous follow-up work remains possible.",
+        "The theorem is local and covers 31 residual exponents; it does not rule out nontrivial global solutions."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "final_claim": "Prime-square local rigidity holds for the stated 31 residual exponents of the Lebesgue--Nagell equation: every integer solution has the locally trivial y residue and the corresponding x residue modulo the prime square.",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "Partial local result for 31 residual exponents; no global nonexistence theorem is claimed. Originality remains best-of-knowledge against a recently revised primary source."
+  ],
+  "record_id": "SCOPE-20260920-017777632623",
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
+}

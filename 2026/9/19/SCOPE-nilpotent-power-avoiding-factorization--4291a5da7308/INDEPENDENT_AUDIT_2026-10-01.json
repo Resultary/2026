@@ -1,0 +1,118 @@
+{
+  "audited_at_utc": "2026-10-01T14:19:47.879090Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "assigned RESULT.md",
+        "assigned artifacts/verify_cyclic_prime.py"
+      ],
+      "rationale": "The Hall-product proof reconstructs correctly: the primary power map has one rooted component at the identity, the coprime Hall power map is a permutation, and each cycle carries identical primary rooted trees. Optimizing root selection on each cycle gives the claimed factorization; grouping cycles by element order gives the order-spectrum formula. The cyclic-prime alternating-level matching is valid. The exact verifier independently checks 600 cyclic cases but is not used as the general proof.",
+      "residual_risks": [
+        "The finite computation verifies only the cyclic subformula on its tested range."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Available material covers nilpotent or abelian power-map graph structure."
+        ],
+        "reasoning": "The structural theory is broader at graph level but does not, in the material read, compute this independence number.",
+        "searches": [
+          "Fernandes-Reis, Discrete Mathematics 347 (2024), 114000",
+          "Qureshi-Reis arXiv:2107.00584v2"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.18513v1",
+        "https://arxiv.org/abs/2107.00584v2",
+        "https://doi.org/10.1016/j.disc.2024.114000",
+        "Resultary semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Component structure alone does not determine the per-cycle optimum without the additional root-selection argument."
+        ],
+        "reasoning": "The final theorem is not mechanically implied by the inspected statements.",
+        "searches": [
+          "Comparison with power-map graph decomposition literature"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Resultary returned the assigned finding as the only exact factorization hit among inspected results.",
+          "The primary papers cover the extremal parameter or functional-graph structure, not this optimization formula."
+        ],
+        "reasoning": "No equivalent prior statement was located.",
+        "searches": [
+          "Resultary semantic search for nilpotent power-avoiding independence factorization",
+          "Blackburn-Hart-McVeagh arXiv:2609.18513",
+          "Qureshi-Reis arXiv:2107.00584v2"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No independent earlier table/finding with the exact formula appeared."
+        ],
+        "reasoning": "The result is a structural optimization rather than a table lookup.",
+        "searches": [
+          "Resultary exact semantic search"
+        ]
+      },
+      "rationale": "Published work supplies the power-map functional-graph structure but no inspected source states the exact nilpotent independent-set factorization or closed cyclic-prime formula. The most plausible 2024 nilpotent power-map paper remained inaccessible in full text after lawful access attempts, so it is a named residual risk rather than novelty evidence.",
+      "residual_risks": [
+        "Fernandes-Reis (2024) full text remains unverified.",
+        "McVeagh's 2026 thesis was not inspected in full."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING_IN_MATERIAL_READ",
+          "evidence": "The inspected scope concerns large subsets and small defect.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.18513",
+          "material_read": "Primary abstract and scope.",
+          "method": "Primary source.",
+          "title": "Finite groups with large power-avoiding subsets",
+          "trigger": "Same extremal parameter."
+        },
+        {
+          "assessment": "COVERING_INGREDIENT",
+          "evidence": "Graph decomposition, not independent-set optimization.",
+          "identifier_or_url": "https://arxiv.org/abs/2107.00584v2",
+          "material_read": "Primary abstract and structural scope.",
+          "method": "Primary source.",
+          "title": "On the functional graph of the power map over finite groups",
+          "trigger": "Same functional graph."
+        },
+        {
+          "assessment": "INACCESSIBLE_PLAUSIBLE_SOURCE",
+          "evidence": "Exact overlap could not be ruled out.",
+          "identifier_or_url": "https://doi.org/10.1016/j.disc.2024.114000",
+          "material_read": "Abstract-level material; full text not obtained. Authorized download was interrupted by expired human verification.",
+          "method": "OA search then authorized institutional access.",
+          "title": "Digraphs of power maps over finite nilpotent groups",
+          "trigger": "Closest same-object structural source."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.18513"
+      ],
+      "rationale": "An exact reduction for every finite nilpotent group, together with a closed cyclic-prime formula, is a natural structural result for a newly studied extremal invariant.",
+      "residual_risks": [
+        "The nonabelian primary-tree statistics are not reduced further."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "limitations": [
+    "Functional-graph structure is prior art.",
+    "The general nonabelian primary factor remains encoded by rooted-tree statistics.",
+    "The Fernandes-Reis access gap remains an originality risk."
+  ],
+  "record_id": "SCOPE-20260919-4291a5da7308",
+  "record_title": "Exact power-avoiding factorization for finite nilpotent groups",
+  "schema_version": 1
+}

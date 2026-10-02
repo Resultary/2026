@@ -1,32 +1,99 @@
 {
-  "correctness": {
-    "status": "PASS",
-    "summary": "After normalizing to zero-balanced hypergeometric functions, monotonicity in a reduces p>=2 to a=1/2. A sharp logarithmic-derivative lemma for B_{1/2}=arctanh(sqrt x)/sqrt x, transferred coefficientwise to b<=1/2, makes the Riccati residual strictly negative; a first-crossing argument proves the power bound."
+  "audited_at_utc": "2026-10-01T19:56:19Z",
+  "axes": {
+    "correctness": {
+      "rationale": "PASS. After the standard zero-balanced hypergeometric normalization, coefficient monotonicity in \\(a=1-1/p\\) reduces \\(p\\ge2\\) to \\(a=1/2\\). The endpoint logarithmic-derivative estimate for \\(B_{1/2}\\) transfers coefficientwise to \\(b=1/q\\le1/2\\). Substituting this estimate into the Riccati equation gives a strictly negative residual for the comparison exponent \\(d=(1+b)/2\\); a first-crossing argument then proves the claimed power inequality. The key algebraic residual was independently symbolically reduced to \\(b^2/2-dH_b/2\\), confirming the sign mechanism.",
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The sources cover broad monotonicity and sharp inequalities but do not dominate the claimed power lower bound."
+        ],
+        "reasoning": "The audited theorem strengthens, rather than merely instantiates, the closest prior inequalities.",
+        "searches": [
+          "DOI 10.1155/2019/4752856 full text",
+          "DOI 10.5802/crmath.119 open-access article",
+          "generalized elliptic inequalities literature cited by Wang--Qi"
+        ]
+      },
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The first source leaves the target open; the second supplies related monotonicity/lower-bound information but not the stronger audited exponent."
+        ],
+        "reasoning": "The endpoint derivative lemma and Riccati comparison provide an additional implication absent from the inspected prior results.",
+        "searches": [
+          "Dou--Yin--Lin Remark 5",
+          "Wang--Qi Theorem 2 and Corollary 3 context"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The 2019 full text poses the target as an open question; the 2020 same-function paper gives related but weaker inequalities."
+        ],
+        "reasoning": "The hypergeometric reformulation is equivalent, and no inspected theorem yields the stronger exponent.",
+        "searches": [
+          "Dou Yin Lin 2019 Remark 5 complete (p,q)-elliptic arctanh lower bound",
+          "zero-balanced hypergeometric power lower bound \\(K_{p,q}\\) arctanh"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No earlier exact published record was found."
+        ],
+        "reasoning": "This is a continuous analytic inequality, not a table lookup.",
+        "searches": [
+          "Resultary semantic search for \\((q+1)/(2q)\\) complete (p,q)-elliptic arctanh bound"
+        ]
+      },
+      "rationale": "PASS to the best of current knowledge. Dou--Yin--Lin's complete 2019 article explicitly poses the weaker target inequality as Remark 5. Wang--Qi's 2020 open-access article studies the same \\((p,q)\\)-elliptic and generalized hyperbolic-tangent functions and proves sharp inequalities, but the closest located lower bound is weaker than the exponent \\((q+1)/(2q)\\). Published-record and equivalent-hypergeometric searches found no earlier statement of the audited bound.",
+      "status": "PASS"
+    },
+    "value": {
+      "rationale": "PASS. The result resolves a named published open inequality over its full requested range and strictly improves the closest located general lower bound. The endpoint reduction and Riccati comparison are reusable analytic mechanisms rather than a numerical special case.",
+      "status": "PASS"
+    }
   },
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "limitations": [
-    "The exponent (q+1)/(2q) is not claimed optimal for fixed parameters.",
-    "The result is restricted to p,q>=2.",
-    "A substantially differently phrased or poorly indexed prior hypergeometric theorem may exist.",
-    "Independent audit has not been performed."
+  "checked_sources": [
+    "Complete frozen/current Git package.",
+    "Independent reconstruction of the parameter reduction, logarithmic-derivative transfer, Riccati comparison, and first-crossing argument.",
+    "Complete 2019 open-problem source and the 2020 open-access same-function article.",
+    "Published-record and equivalent hypergeometric searches."
   ],
-  "originality": {
-    "scope": "to the best of our knowledge",
-    "status": "PASS",
-    "summary": "Dou-Yin-Lin (2019) explicitly posed the weaker target inequality. Wang-Qi (2020) obtained exponent 1/2, whereas the present exponent (q+1)/(2q) is larger and implies the 2019 exponent for p,q>=2. Searches of the exact equation, equivalent hypergeometric form, source papers, and later generalized-elliptic literature found no prior coverage; differently phrased or poorly indexed coverage remains possible."
-  },
-  "phase": "II",
-  "previously_published_pending_reaudit": true,
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "policy": "to-the-best-of-our-knowledge",
+  "previously_published_pending_reaudit": false,
   "record_id": "SCOPE-20260920-1a6f3dc3d0f7",
-  "review_statement": "Same-model review: passed. Independent audit: not yet performed.",
-  "review_type": "same_model_review",
-  "same_model_review_status": "passed",
-  "scope_run_id": "21914ea7-eb11-4578-8d4a-f43a926dd39d",
-  "value": {
-    "status": "PASS",
-    "summary": "The result closes a named 2019 open problem and strengthens the closest located 2020 lower bound over the full requested parameter range, using a reusable endpoint-parameter reduction plus Riccati comparison."
-  },
-  "verification_state": "awaiting_fresh_independent_audit"
+  "residual_risks": [
+    "A differently phrased theorem in the extensive zero-balanced hypergeometric literature could have escaped the searches; no such implication was located."
+  ],
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "source_inspections": [
+    {
+      "assessment": "PRIMARY_SOURCE_EXPLICITLY_LEAVES_TARGET_OPEN",
+      "evidence": "Remark 5 asks whether the relevant lower inequality holds for \\(p,q\\ge2\\).",
+      "identifier_or_url": "https://doi.org/10.1155/2019/4752856",
+      "material_read": "Complete open-access article, including Theorem 2, Corollary 3, Theorem 4, and Remark 5.",
+      "method": "Primary full-text inspection.",
+      "title": "Functional Inequalities for Generalized Complete Elliptic Integrals with Two Parameters",
+      "trigger": "Exact source of the named open inequality."
+    },
+    {
+      "assessment": "RELATED_WEAKER_PRIOR",
+      "evidence": "The paper establishes monotonicity and sharp bounds involving \\(K_{p,q}\\) and \\(\\operatorname{arctanh}_q\\), but no inspected statement gives the audited stronger exponent.",
+      "identifier_or_url": "https://doi.org/10.5802/crmath.119",
+      "material_read": "Open-access article text, theorem context, and references.",
+      "method": "Primary open-access inspection.",
+      "title": "Monotonicity and sharp inequalities related to complete (p,q)-elliptic integrals of the first kind",
+      "trigger": "Closest later primary paper on the same functions."
+    }
+  ],
+  "verification_state": "independently_reviewed"
 }

@@ -1,27 +1,139 @@
 {
+  "audited_at_utc": "2026-10-01T10:51:34Z",
   "axes": {
     "correctness": {
-      "rationale": "The Fourier constants were checked directly from the strip indicator and the double-Hilbert quadrant multiplier. Abel-regularized differentiation gives an exact formula for J''; the Frullani identity then yields a convergent power series whose twice-integrated coefficients reproduce the stated defect expansion and leading constant 2/pi. Positive-dilation covariance gives the slope/cutoff extension.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "Abakumov, Domelevo, Petermichl and Poltoratski, Invariant sets of the double Hilbert transform, arXiv:2609.15155v1",
+        "Published record: Exact elliptic quasi-eigenvectors and sharp strip leakage for the double Hilbert transform",
+        "Resultary semantic searches for truncated-strip defect asymptotics and logarithmic leakage"
+      ],
+      "rationale": "The Fourier normalization, bad-quadrant multiplier and reduction to the scalar integral were reconstructed. Abel differentiation gives the stated formula for the second derivative, the Frullani step integrates to the displayed convergent series, and independent numerical quadrature of the original integral agreed with the series at representative values. The dilation reduction uses only positive coordinate dilations, so its stated domain is correct.",
+      "residual_risks": [
+        "The numerical replay is only a check; correctness rests on the analytic derivation and Abel regularization."
+      ],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Qualified to the best of our knowledge. The inspected arXiv:2609.15155v1 proves only an upper bound of order sqrt(epsilon |log epsilon|) for the continuous strip and gives an exact no-log dyadic defect. Exact and synonymous searches found no prior matching lower asymptotic, leading constant, or convergent expansion, and no SCOPE overlap was found. The source preprint is very recent, so unindexed contemporaneous observations remain the principal residual risk.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "The same-date ellipse record proves only the leading strip law; later records generalize the asymptotic to broader cutoff classes."
+        ],
+        "reasoning": "The broader later results do not establish pre-existing coverage of the assigned all-orders expansion.",
+        "searches": [
+          "Exact elliptic quasi-eigenvectors and sharp strip leakage for the double Hilbert transform",
+          "later half-Sobolev and general-cutoff strip records"
+        ]
+      },
+      "checked_sources": [
+        "Abakumov, Domelevo, Petermichl and Poltoratski, Invariant sets of the double Hilbert transform, arXiv:2609.15155v1",
+        "Published record: Exact elliptic quasi-eigenvectors and sharp strip leakage for the double Hilbert transform",
+        "Resultary semantic searches for truncated-strip defect asymptotics and logarithmic leakage"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Accessible primary metadata describes the approximate-eigenvector construction; the inspected related full record attributes only an upper bound to the source and derives the matching leading asymptotic separately."
+        ],
+        "reasoning": "No checked stronger prior theorem mechanically implies every coefficient of the convergent expansion.",
+        "searches": [
+          "arXiv:2609.15155 source theorem versus exact series",
+          "same-date ellipse record full RESULT"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The closest same-date published record gives the leading sharp asymptotic and a different ellipse theorem, but its inspected full text does not give this record's all-orders convergent strip expansion.",
+          "Later 2026-09-19 and 2026-09-20 Resultary records contain broader strip laws but postdate the assigned 2026-09-18 finding."
+        ],
+        "reasoning": "The leading asymptotic is equivalent across the two same-date records, but the exact convergent expansion is a strictly stronger numerical statement.",
+        "searches": [
+          "Resultary: sharp logarithmic defect truncated double Hilbert strip epsilon log epsilon approximate eigenvector",
+          "arXiv:2609.15155"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No earlier exact database or table with the coefficients of the displayed convergent series was located."
+        ],
+        "reasoning": "Search absence is used only as supporting best-of-knowledge evidence.",
+        "searches": [
+          "Resultary exact-topic search",
+          "targeted exact-series searches around arXiv:2609.15155"
+        ]
+      },
+      "rationale": "Best-of-knowledge originality passes for the full exact expansion. A related published record on the same date independently contains the leading \\((2/\\pi)\\sqrt{\\varepsilon\\log(1/\\varepsilon)}\\) asymptotic but not the complete convergent series and coefficients claimed here; later records broaden the asymptotic after this date.",
+      "residual_risks": [
+        "The source preprint is very recent and its full text could not be recovered in this run after open-access and authorized-access attempts; only its abstract/metadata and independently published related records were available.",
+        "Contemporaneous unindexed calculations could contain the same full convergent series."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Highly relevant; inaccessible full text remains a residual risk but no accessible evidence showed the exact series.",
+          "evidence": "The public abstract concerns invariant/approximate-invariant sets; the independently inspected related record attributes only the upper strip estimate to this source.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.15155",
+          "material_read": "Abstract and bibliographic metadata; full text retrieval failed in both open-access and authorized-access attempts",
+          "method": "Primary-source abstract inspection plus access attempts",
+          "title": "Invariant sets of the double Hilbert transform",
+          "trigger": "Same truncated-strip family"
+        },
+        {
+          "assessment": "Covers the leading asymptotic but not the assigned convergent series.",
+          "evidence": "Its strip theorem is \\(R^2=(4/\\pi^2)\\varepsilon\\log(1/\\varepsilon)+O(\\varepsilon)\\), without the all-orders series.",
+          "identifier_or_url": "https://github.com/Resultary/2026/tree/main/2026/9/18/SCOPE-log-free-elliptic-double-hilbert-quasi-eigenvectors--d45af12fa2b8",
+          "material_read": "Complete RESULT and metadata",
+          "method": "Full public record inspection",
+          "title": "Exact elliptic quasi-eigenvectors and sharp strip leakage for the double Hilbert transform",
+          "trigger": "Same strip and same leading constant"
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The calculation resolves a quantitative feature explicitly highlighted by the source paper: the continuous logarithm is intrinsic, not a proof artifact. It gives the sharp constant, all small-width correction terms through a convergent series, and an asymptotically growing continuous/dyadic defect separation at matched width.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "Abakumov, Domelevo, Petermichl and Poltoratski, Invariant sets of the double Hilbert transform, arXiv:2609.15155v1",
+        "Published record: Exact elliptic quasi-eigenvectors and sharp strip leakage for the double Hilbert transform",
+        "Resultary semantic searches for truncated-strip defect asymptotics and logarithmic leakage"
+      ],
+      "rationale": "The source construction explicitly raises the continuous-versus-dyadic logarithmic contrast. Determining the exact continuous defect and all correction coefficients resolves whether the logarithm is intrinsic to that natural truncation and supplies a reusable benchmark.",
+      "residual_risks": [
+        "The source preprint is very recent and its full text could not be recovered in this run after open-access and authorized-access attempts; only its abstract/metadata and independently published related records were available.",
+        "Contemporaneous unindexed calculations could contain the same full convergent series."
+      ],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Same-model review: passed. Independent audit: not yet performed.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-18",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disposition": "passed",
+  "evidence": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "final_claim": "For the bounded diagonal strip, the normalized double-Hilbert defect has the displayed all-orders convergent expansion and in particular is asymptotic to \\((2/\\pi)\\sqrt{\\varepsilon\\log(1/\\varepsilon)}\\); positive coordinate dilations reduce the stated sloped strips to the same dimensionless formula.",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "Specific truncated-strip family and positive-dilation images only; no global optimality among approximate invariant sets. The source preprint is very recent, so contemporaneous unindexed overlap remains possible."
+  ],
+  "previously_published_pending_reaudit": false,
+  "prior_scientific_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "The Fourier constants, quadrant multiplier, Abel-regularized differentiation and convergent integration were checked in the prior scientific review.",
+        "verdict": "PASS"
+      },
+      "originality": {
+        "rationale": "The prior review found the source upper bound and dyadic comparison but not the matching exact series, with recent-source risk noted.",
+        "verdict": "PASS"
+      },
+      "value": {
+        "rationale": "The prior review judged the sharp continuous/dyadic logarithmic contrast mathematically useful.",
+        "verdict": "PASS"
+      }
+    },
+    "reviewed_at": "2026-09-18",
+    "status": "passed"
+  },
+  "record_id": "SCOPE-20260918-867a0fef0943",
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

@@ -1,0 +1,125 @@
+{
+  "audit_date_utc": "2026-10-01",
+  "audited_at_utc": "2026-10-01T20:44:27Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "G. Borooah, A. J. Diesl, T. J. Dorsey, Strongly clean matrix rings over commutative local rings, J. Pure Appl. Algebra 212 (2008), DOI:10.1016/j.jpaa.2007.05.020.",
+        "G. Borooah, A. J. Diesl, T. J. Dorsey, Strongly clean triangular matrix rings over local rings, J. Algebra 312 (2007), DOI:10.1016/j.jalgebra.2006.10.029.",
+        "X. Yang, Y. Zhou, Strong cleanness of the 2×2 matrix ring over a general local ring, J. Algebra 320 (2008), arXiv:0805.0359, DOI:10.1016/j.jalgebra.2008.06.012.",
+        "G. Tang, Y. Zhou, An embedding theorem on triangular matrix rings, Linear Multilinear Algebra 65 (2017), DOI:10.1080/03081087.2016.1211083.",
+        "Resultary semantic search for strong cleanness, triangular descent, local rings, and \\(M_2(R)\\) versus \\(T_2(R)\\)."
+      ],
+      "rationale": "Reducing a strong-clean decomposition modulo the Jacobson radical forces the commuting idempotent to be the complement of the mixed-residue triangular matrix. Its image or kernel is then a rank-one free invariant summand; after normalizing a generator to \\((t,1)^T\\), invariance gives \\(at+b=tc\\), exactly the equation needed to build an upper-triangular commuting idempotent whose difference from \\(A\\) has unit diagonal. Both mixed cases and the two trivial-unit cases are covered. The argument uses only standard projective-freeness over a local ring and proves the stated arbitrary-local-ring theorem.",
+      "residual_risks": [],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The triangular-ring paper gives criteria for \\(T_n(R)\\) and examples, not the implication from an elementwise \\(M_2(R)\\) decomposition.",
+          "Yang–Zhou characterizes strong cleanness of \\(M_2(R)\\) at ring level for a general local ring; the inspected accessible material did not yield the elementwise triangular-descent implication.",
+          "Tang–Zhou works under bleaching/embedding hypotheses, whereas the audited theorem uses no bleaching assumption."
+        ],
+        "reasoning": "Potentially broader ring-level and embedding results were checked for logical domination; none of the inspected statements covers the arbitrary-local-ring elementwise theorem.",
+        "searches": [
+          "DOI:10.1016/j.jalgebra.2006.10.029",
+          "DOI:10.1016/j.jalgebra.2008.06.012",
+          "DOI:10.1080/03081087.2016.1211083"
+        ]
+      },
+      "checked_sources": [
+        "G. Borooah, A. J. Diesl, T. J. Dorsey, Strongly clean matrix rings over commutative local rings, J. Pure Appl. Algebra 212 (2008), DOI:10.1016/j.jpaa.2007.05.020.",
+        "G. Borooah, A. J. Diesl, T. J. Dorsey, Strongly clean triangular matrix rings over local rings, J. Algebra 312 (2007), DOI:10.1016/j.jalgebra.2006.10.029.",
+        "X. Yang, Y. Zhou, Strong cleanness of the 2×2 matrix ring over a general local ring, J. Algebra 320 (2008), arXiv:0805.0359, DOI:10.1016/j.jalgebra.2008.06.012.",
+        "G. Tang, Y. Zhou, An embedding theorem on triangular matrix rings, Linear Multilinear Algebra 65 (2017), DOI:10.1080/03081087.2016.1211083.",
+        "Resultary semantic search for strong cleanness, triangular descent, local rings, and \\(M_2(R)\\) versus \\(T_2(R)\\)."
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The prior commutative theorem does not cover noncommutative local rings.",
+          "Ring-level strong cleanness of all of \\(M_2(R)\\) is not the same assertion as descent for one given triangular element.",
+          "Bleaching-based triangular embedding is a stronger hypothesis on the ring and therefore does not imply the no-bleaching theorem for every local ring."
+        ],
+        "reasoning": "At implication level, the audited theorem supplies a missing arbitrary-local-ring elementwise bridge, rather than a relabeling of the commutative or bleaching results.",
+        "searches": [
+          "Problem 49 implication chain in DOI:10.1016/j.jpaa.2007.05.020",
+          "general-local-ring \\(M_2(R)\\) criteria arXiv:0805.0359",
+          "triangular embedding DOI:10.1080/03081087.2016.1211083"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Borooah–Diesl–Dorsey explicitly formulate Problem 49 as the same elementwise descent question.",
+          "The commutative factorization results concern commutative local rings; the audited theorem allows arbitrary local rings.",
+          "No Resultary hit other than the audited record stated an equivalent arbitrary-local-ring \\(2\\times2\\) descent theorem."
+        ],
+        "reasoning": "Equivalent formulations were compared through the open-problem statement, invariant-decomposition formulations, and the later \\(2\\times2\\) matrix criteria rather than by title matching.",
+        "searches": [
+          "Resultary: strong cleanness descends M2 T2 local rings triangular matrix strongly clean elementwise descent",
+          "DOI:10.1016/j.jpaa.2007.05.020 Problem 49",
+          "arXiv:0805.0359"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "Problem 49 is an explicit literature problem rather than a table/database invariant.",
+          "No exact classification table or published-record entry was found that resolves the \\(n=2\\) arbitrary-local-ring case."
+        ],
+        "reasoning": "No canonical numerical database is relevant; the exact literature problem list and published-record corpus are the pertinent exact checks.",
+        "searches": [
+          "Resultary published-record semantic corpus",
+          "Borooah–Diesl–Dorsey Section 7 open-problem list"
+        ]
+      },
+      "rationale": "The 2008 Borooah–Diesl–Dorsey paper explicitly poses the elementwise question whether a matrix in \\(T_n(R)\\) that is strongly clean in \\(M_n(R)\\) must already be strongly clean in \\(T_n(R)\\). Its commutative theory and later general-local-ring matrix criteria do not, from the inspected statements, imply the audited arbitrary-local-ring \\(n=2\\) descent theorem. Targeted Resultary and literature searches found no stronger published theorem covering that implication.",
+      "residual_risks": [
+        "The complete Yang–Zhou (2008) and Tang–Zhou (2017) theorem texts were not both available through the inspected open routes; an equivalent arbitrary-local-ring elementwise implication hidden there remains a residual originality risk."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "OPEN_PROBLEM_SOURCE",
+          "evidence": "Problem 49 asks exactly whether strong cleanness of \\(\\varphi\\in T_n(R)\\) inside \\(M_n(R)\\) descends to \\(T_n(R)\\); the paper does not solve the arbitrary-local-ring \\(n=2\\) case.",
+          "identifier_or_url": "DOI:10.1016/j.jpaa.2007.05.020",
+          "material_read": "publisher HTML introduction and Section 7, including Problems 48–51 and the surrounding \\(2\\times2\\) discussion",
+          "method": "lawful publisher HTML inspection",
+          "title": "Strongly clean matrix rings over commutative local rings",
+          "trigger": "contains the exact open elementwise triangular-descent question"
+        },
+        {
+          "assessment": "PLAUSIBLE_NOT_DECISIVE",
+          "evidence": "The accessible material describes a characterization of rings for which \\(M_2(R)\\) is strongly clean, not the elementwise \\(T_2\\subset M_2\\) descent implication.",
+          "identifier_or_url": "arXiv:0805.0359 / DOI:10.1016/j.jalgebra.2008.06.012",
+          "material_read": "abstract, bibliographic record, and accessible theorem descriptions from citing literature",
+          "method": "lawful open-access metadata/abstract inspection; direct arXiv HTML retrieval was unavailable",
+          "title": "Strong cleanness of the 2×2 matrix ring over a general local ring",
+          "trigger": "same matrix size and arbitrary local rings"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "G. Borooah, A. J. Diesl, T. J. Dorsey, Strongly clean matrix rings over commutative local rings, J. Pure Appl. Algebra 212 (2008), DOI:10.1016/j.jpaa.2007.05.020.",
+        "G. Borooah, A. J. Diesl, T. J. Dorsey, Strongly clean triangular matrix rings over local rings, J. Algebra 312 (2007), DOI:10.1016/j.jalgebra.2006.10.029.",
+        "X. Yang, Y. Zhou, Strong cleanness of the 2×2 matrix ring over a general local ring, J. Algebra 320 (2008), arXiv:0805.0359, DOI:10.1016/j.jalgebra.2008.06.012.",
+        "G. Tang, Y. Zhou, An embedding theorem on triangular matrix rings, Linear Multilinear Algebra 65 (2017), DOI:10.1080/03081087.2016.1211083.",
+        "Resultary semantic search for strong cleanness, triangular descent, local rings, and \\(M_2(R)\\) versus \\(T_2(R)\\)."
+      ],
+      "rationale": "The theorem resolves the first nontrivial dimension of an explicit published elementwise descent problem without commutativity, bleaching, completeness, or finiteness assumptions. The invariant-summand mechanism is a reusable structural explanation, so the contribution is mathematically motivated rather than a routine parameter specialization.",
+      "residual_risks": [
+        "The complete Yang–Zhou (2008) and Tang–Zhou (2017) theorem texts were not both available through the inspected open routes; an equivalent arbitrary-local-ring elementwise implication hidden there remains a residual originality risk."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disclaimer": "Mathematical review only; not external peer review, formal verification, or a guarantee of priority.",
+  "disposition": "passed",
+  "final_claim": "Let \\(R\\) be any local ring. Every \\(A\\in T_2(R)\\) that is strongly clean as an element of \\(M_2(R)\\) is strongly clean in \\(T_2(R)\\); hence strong cleanness of \\(M_2(R)\\) implies strong cleanness of \\(T_2(R)\\).",
+  "record_id": "SCOPE-20260920-72f274369f61",
+  "record_title": "Strong cleanness descends from M2 to T2 over local rings",
+  "schema_version": 1,
+  "scientific_limitations": [
+    "The complete Yang–Zhou (2008) and Tang–Zhou (2017) theorem texts were not both available through the inspected open routes; an equivalent arbitrary-local-ring elementwise implication hidden there remains a residual originality risk."
+  ]
+}

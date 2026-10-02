@@ -1,27 +1,137 @@
 {
+  "audited_at_utc": "2026-10-01T17:15:19.026518Z",
   "axes": {
     "correctness": {
-      "rationale": "The Komarova--Rivin compression has spectrum {0,critical points}; splitting D-PDP into QD+PDQ and using AQ=QA=0 leaves exactly m-1 rank-one trace terms after extracting the normalized zero moment. Each has trace modulus at most one, and the exact normalization identity gives the stated coefficient. Translation/dilation, the repeated-root equality family, and the analytic-test summation were checked separately. The m=1 case reduces to exact equality of the normalized centroids.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "assigned RESULT.md",
+        "Zhang arXiv:2609.20256 full text, Lemma 2.5",
+        "Komarova-Rivin differentiator representation"
+      ],
+      "rationale": "After translation and dilation, let \\(D=\\operatorname{diag}(\\lambda_i)\\), \\(Q=uu^*\\), \\(P=I-Q\\), and \\(A=PDP\\). The Komarova-Rivin differentiator gives spectrum \\(\\{0,\\xi_1,\\ldots,\\xi_{n-1}\\}\\) for \\(A\\). Splitting \\(D-A=QD+PDQ\\) inside the telescoping trace formula, \\(AQ=QA=0\\) kills the endpoint and all but \\(m-1\\) rank-one trace terms; each surviving term has modulus at most one. The normalization identity then yields \\((m-1)/(n-1)\\). For \\(f(z)=((z-c)^m-R^m)^{n/m}\\), direct differentiation gives equality whenever \\(m\\mid n\\), proving sharpness for each fixed \\(m\\).",
+      "residual_risks": [
+        "The equality construction establishes the sharp universal coefficient for each fixed \\(m\\) along infinitely many degrees, not a classification of extremizers for every pair \\((n,m)\\)."
+      ],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Zhang arXiv:2609.20256v1 states 5m/n, not (m-1)/(n-1), and its proof uses a rank-two perturbation estimate rather than the rank-one cancellation here. Searches of polynomial critical-point moments, power sums, empirical measures, differentiator matrices, rank-one compressions, and current SCOPE records found no equivalent theorem. Residual risk remains from older matrix/operator or coefficient-theory literature under different terminology.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "Zhang gives a broader-use but weaker explicit \\(5m/n\\) comparison.",
+          "Schmeisser gives weak majorization for moduli and convex radial tests."
+        ],
+        "reasoning": "Neither theorem implies the signed/complex centered power-moment discrepancy at the audited sharp constant.",
+        "searches": [
+          "Zhang, arXiv:2609.20256, Lemma 2.5",
+          "Schmeisser, Majorization of the Critical Points of a Polynomial by Its Zeros"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.20256",
+        "https://doi.org/10.1007/BF03321027",
+        "Resultary semantic search"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Zhang bounds \\(\\operatorname{rank}(D-PDP)\\le2\\) term-by-term and loses the cancellations \\(AQ=QA=0\\) exploited here."
+        ],
+        "reasoning": "The prior proof does not mechanically yield the \\(m-1\\) surviving-term count or the equality family.",
+        "searches": [
+          "Compared the rank-two proof in Zhang with the audited rank-one cancellation and the classical majorization statement"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "No independent exact theorem was returned.",
+          "Zhang's explicit bound is \\(5m/n\\), not the audited coefficient.",
+          "Schmeisser controls sums of moduli under convex functions, a different implication."
+        ],
+        "reasoning": "No equivalent normalized complex-moment inequality with the sharp coefficient was found.",
+        "searches": [
+          "Resultary: polynomial zeros critical points normalized power moments sharp (m-1)/(n-1) differentiator compression",
+          "Web: critical points power sums polynomial zeros derivative differentiator Komarova Rivin",
+          "Web: zeros and critical points moment n-1 polynomial"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "Only the assigned record matched the exact constant/equality pattern."
+        ],
+        "reasoning": "The quantity is an analytic inequality rather than a tabulated invariant; this supports but does not alone prove novelty.",
+        "searches": [
+          "Resultary exact semantic search for the coefficient and equality family"
+        ]
+      },
+      "rationale": "Zhang's primary Lemma 2.5 proves only \\(|E\\lambda^m-E\\xi^m|\\le5m/n\\), using a rank-two perturbation estimate; the fresh full-text inspection confirms that statement and proof. Schmeisser's classical theorem weakly majorizes the moduli of zeros and critical points and therefore does not imply a centered complex power-sum discrepancy. Searches over critical-point moments, differentiator compressions, power sums, and empirical measures did not locate the sharp normalized coefficient \\((m-1)/(n-1)\\).",
+      "residual_risks": [
+        "An equivalent trace inequality may exist in older matrix or coefficient-theory literature under different terminology."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING",
+          "evidence": "Lemma 2.5 gives \\(5m/n\\) by a rank-two norm/rank estimate; it does not give the audited sharp coefficient.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.20256",
+          "material_read": "Full primary text of Section 2, especially Lemmas 2.3-2.5 and the proof of the \\(5m/n\\) bound.",
+          "method": "Primary preprint full text.",
+          "title": "Sendov's conjecture holds for every degree n >= 10^200000",
+          "trigger": "Direct source of the moment comparison being sharpened."
+        },
+        {
+          "assessment": "NOT_COVERING",
+          "evidence": "Radial weak majorization does not control complex centered power-sum differences with cancellations.",
+          "identifier_or_url": "https://doi.org/10.1007/BF03321027",
+          "material_read": "Primary article abstract and theorem statement on weak majorization of moduli and convex radial transforms.",
+          "method": "Primary publication page.",
+          "title": "Majorization of the Critical Points of a Polynomial by Its Zeros",
+          "trigger": "Plausible classical stronger coverage."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result sharpens a recent explicit moment comparison to a coefficient attained for every fixed m along infinitely many degrees, exposes the cancellation mechanism, and yields a deterministic O(1/n) discrepancy estimate for analytic test functions.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.20256",
+        "assigned RESULT.md"
+      ],
+      "rationale": "The result replaces a coarse \\(O(m/n)\\) estimate used in an active polynomial-critical-point argument by a sharp coefficient with explicit equality families. The rank-one cancellation is structural and the analytic-test consequence gives a natural deterministic \\(O(1/n)\\) comparison.",
+      "residual_risks": [
+        "The analytic-test corollary is not claimed optimal for every prescribed function class."
+      ],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Same-model review: passed. Independent audit: not yet performed.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
+  "disposition": "passed",
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "The sharp coefficient is universal, but equality is exhibited only on the stated divisible-degree family.",
+    "No exact extremizer classification for every \\((n,m)\\) is claimed.",
+    "Originality remains subject to older trace-inequality literature under alternate terminology."
+  ],
   "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-19",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "previously_published_pending_reaudit": false,
+  "prior_scientific_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "The prior scientific review checked the differentiator compression, rank-one cancellation, normalization, equality family, and analytic-test corollary.",
+        "status": "PASS"
+      },
+      "originality": {
+        "rationale": "The prior review distinguished the sharp coefficient from Zhang's \\(5m/n\\) comparison.",
+        "status": "PASS"
+      },
+      "value": {
+        "rationale": "The prior review valued the sharp coefficient and deterministic \\(O(1/n)\\) analytic-test consequence.",
+        "status": "PASS"
+      }
+    },
+    "reviewed_at": "2026-09-19"
+  },
+  "record_id": "SCOPE-20260919-93c4d53b8501",
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

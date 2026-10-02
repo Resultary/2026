@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/20/SCOPE-uniform-maximizes-three-point-minmax-correlation--92f0f4188ee4",
   "resultary_record_key": "SCOPE-uniform-maximizes-three-point-minmax-correlation--92f0f4188ee4",
-  "source_commit": "a7cc69d784246a36eca421019db9c279a2c15a0e",
-  "source_commit_time": "2026-09-30T19:52:54Z",
+  "source_commit": "e7d9a5be5b945284679e8ca841ac2a0b3d9fc911",
+  "source_commit_time": "2026-10-02T09:03:40Z",
   "source_path": "2026/09/20/uniform-maximizes-three-point-minmax-correlation--92f0f4188ee4",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260920-92f0f4188ee4",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-01T08:22:11Z",
+  "synced_at": "2026-10-02T09:07:02Z",
   "time_standard": "UTC"
 }

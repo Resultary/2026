@@ -1,0 +1,115 @@
+{
+  "audited_at_utc": "2026-10-01T20:13:40.771389Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "assigned RESULT.md",
+        "Gregory Zaverucha, 2010 thesis, Section 3.1.2, pp. 39-41",
+        "Martirosyan-van Trung 2008 perfect-hash recurrence"
+      ],
+      "rationale": "The construction uses one duplicated source column in the top block and \\(x\\) fresh constant symbols in the bottom block. If selected special columns meet at most one target class, projecting them to the source column and padding that single projected class preserves disjointness and fits because \\(n\\ge W\\). If they meet at least two classes, choosing any two such classes lowers their required ordinary sizes by one each; the actual ordinary sets can be padded to the corresponding pair-residual type inside the \\(n-1\\) ordinary columns, and the pair-residual auxiliary separates them while the \\(x\\) distinct special symbols separate all selected specials. Zero residual parts and the one-part vacuous case are consistent, and the symbol budget is exactly at most \\(m\\).",
+      "residual_risks": [
+        "A compound pair-residual auxiliary can require more rows than a full-type auxiliary in some numerical regimes; the theorem claims weaker separation strength, not universal row savings."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Zaverucha Theorem 3.14 covers arbitrary types only with full-strength auxiliary \\(T\\).",
+          "Zaverucha Theorem 3.16 covers arbitrary duplication width only with full-strength auxiliary \\(T\\).",
+          "The perfect-hash recurrence reduces strength by two because every pair residual is the same singleton type pattern."
+        ],
+        "reasoning": "The audited theorem combines the arbitrary-type and reduced-strength features without assuming the perfect-hash symmetry that makes the residual unique.",
+        "searches": [
+          "Gregory Zaverucha, Hash Families and Cover-Free Families with Cryptographic Applications, 2010, Section 3.1.2",
+          "Martirosyan and van Trung, Explicit constructions for perfect hash families, 2008"
+        ]
+      },
+      "checked_sources": [
+        "https://uwspace.uwaterloo.ca/items/73fdcd45-2ba4-4d2b-851c-e5ec75e05ad6",
+        "https://doi.org/10.1007/s10623-007-9138-6",
+        "https://doi.org/10.1016/j.jcta.2010.11.006",
+        "https://doi.org/10.1137/15M103827X",
+        "https://doi.org/10.1016/j.tcs.2019.10.014",
+        "https://doi.org/10.1016/j.jcta.2025.106075"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Zaverucha's arbitrary-type proof invokes a full-type auxiliary precisely in the case where two duplicated columns land in different target classes.",
+          "In that case only the two affected classes lose one ordinary column, which is the pair-residual observation not encoded in the prior theorem statement."
+        ],
+        "reasoning": "The new conclusion is a natural strengthening of the prior construction but is not the prior theorem itself; it replaces a full-strength compound requirement by the exact family of strength-\\(W-2\\) residual requirements.",
+        "searches": [
+          "Compared the two proof cases in the audited theorem against Zaverucha Theorems 3.13, 3.14, and 3.16"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "No independent published finding matching the pair-residual theorem was returned by the semantic search.",
+          "The thesis's relevant theorem sequence was read directly and does not state the compound pair-residual auxiliary."
+        ],
+        "reasoning": "No equivalent formulation was found; the closest source explicitly identifies the unreduced auxiliary as a deficiency.",
+        "searches": [
+          "separating hash family pair residual columns increase recurrence reduced strength",
+          "Zaverucha thesis Section 3.1.2 Theorems 3.13-3.16"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "Only the assigned finding matched the pair-residual formulation; the primary thesis provides the neighboring recurrences but not this one."
+        ],
+        "reasoning": "The claim is a construction theorem rather than a database invariant; exact theorem-level comparison is decisive.",
+        "searches": [
+          "published-finding semantic search for pair residual separating hash family columns increase",
+          "exact theorem search for Zaverucha Theorems 3.13-3.16"
+        ]
+      },
+      "rationale": "The primary thesis section has been inspected directly. Its Theorem 3.13 gives the reduced one-column construction only for two-class types; Theorem 3.14 treats arbitrary type but explicitly keeps the full original type in the auxiliary; Theorem 3.15 gives the strength-two reduction for perfect hash families; and Theorem 3.16 gives arbitrary-width column increase for arbitrary separating type but again with a full-type auxiliary, followed by the statement that improvements should be possible. The audited pair-residual compound auxiliary is exactly the missing arbitrary-type reduction and extends the two-class reduced mechanism to arbitrary duplication width.",
+      "residual_risks": [
+        "Equivalent recursive constructions may exist under compound-type or distributing-hash terminology, but the primary predecessor and later broad SHF searches did not locate one."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING",
+          "evidence": "Theorem 3.13 has the reduced two-class case; Theorem 3.14 says the arbitrary-type auxiliary is unfortunately not reduced; Theorem 3.16 retains full type for arbitrary width and explicitly notes room for improvement.",
+          "identifier_or_url": "https://uwspace.uwaterloo.ca/items/73fdcd45-2ba4-4d2b-851c-e5ec75e05ad6",
+          "material_read": "Full primary PDF text for Section 3.1.2, especially Theorems 3.13-3.16 and their proofs on pages 39-41.",
+          "method": "Primary doctoral thesis full-text extraction.",
+          "title": "Hash Families and Cover-Free Families with Cryptographic Applications",
+          "trigger": "Primary source explicitly named as the closest columns-increase predecessor."
+        },
+        {
+          "assessment": "COVERING_SPECIAL_CASE",
+          "evidence": "It covers perfect-hash types, where all pair residuals coincide, not arbitrary separating types.",
+          "identifier_or_url": "https://doi.org/10.1007/s10623-007-9138-6",
+          "material_read": "The recurrence as reproduced in the inspected thesis and publication metadata.",
+          "method": "Primary publication plus exact theorem reproduction in the thesis.",
+          "title": "Explicit constructions for perfect hash families",
+          "trigger": "Perfect-hash strength-two reduction cited in the thesis."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Zaverucha thesis Section 3.1.2",
+        "Martirosyan-van Trung 2008"
+      ],
+      "rationale": "The theorem fills an explicit structural gap in a standard recursive construction: for arbitrary separating type it lowers every required auxiliary residual from total strength \\(W\\) to \\(W-2\\), recovers known special cases, and yields concrete small-row auxiliaries such as the logarithmic type \\(\\{1,1,2\\}\\) case. This is a motivated construction lemma rather than an arbitrary parameter tweak.",
+      "residual_risks": [
+        "The weaker residual requirement does not guarantee a numerical row-count improvement for every parameter set."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "limitations": [
+    "The theorem weakens the auxiliary separation requirement but does not guarantee fewer rows in every parameter regime.",
+    "A vertical stack for several residual types may be nonoptimal.",
+    "The frameproof lifting is a corollary; the principal contribution is the arbitrary-type pair-residual construction."
+  ],
+  "record_id": "SCOPE-20260920-7fa8a0b6736e",
+  "record_title": "Pair-residual columns increase for separating hash families",
+  "schema_version": 1
+}
