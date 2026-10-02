@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/30/SCOPE-fragile-pmu-optimal-complete-multipartite-placement--23cbdb64e7b4",
   "resultary_record_key": "SCOPE-fragile-pmu-optimal-complete-multipartite-placement--23cbdb64e7b4",
-  "source_commit": "a7cc69d784246a36eca421019db9c279a2c15a0e",
-  "source_commit_time": "2026-09-30T19:52:54Z",
+  "source_commit": "e6fd605697e9f3813137bf317139d57ad5fe274c",
+  "source_commit_time": "2026-10-02T09:28:56Z",
   "source_path": "2026/09/30/fragile-pmu-optimal-complete-multipartite-placement--23cbdb64e7b4",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260930-23cbdb64e7b4",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-01T08:22:11Z",
+  "synced_at": "2026-10-02T09:33:55Z",
   "time_standard": "UTC"
 }

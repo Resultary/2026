@@ -1,0 +1,104 @@
+{
+  "audit_date_utc": "2026-10-01",
+  "axes": {
+    "correctness": {
+      "rationale": "For \\(a_0=1\\), submultiplicativity makes each Wallen ratio block admissible. At every finite extension, only finitely many new crossing products involve the newly inserted positive bridge, so that bridge can be chosen small enough to preserve every required upper bound. Repeating longer prefixes arbitrarily far out gives \\(\\|W^n\\|=a_n\\) and supplies an orthonormal weakly null sequence on which \\(W^n\\) has norm \\(a_n\\); compact operators vanish on that sequence, hence \\(\\|W^n\\|_e=a_n\\). Positive weights make the unilateral shift irreducible. For \\(a_n=\\rho_n^n\\) with \\(\\rho_n\\) nonincreasing, submultiplicativity is immediate and both spectral-radius formulas have the prescribed exact root values.",
+      "verdict": "PASS"
+    },
+    "originality": {
+      "checked_sources": [
+        "Halmos, A Hilbert Space Problem Book, Solution 92 attribution to Wallen",
+        "Allen L. Shields, DOI:10.1090/surv/013/02",
+        "N. J. Young, DOI:10.1017/S0305004100057406",
+        "Resultary semantic search"
+      ],
+      "checks": {
+        "broader_coverage": {
+          "evidence": [
+            "Shields is the principal classical weighted-shift survey identified by the record; complete text was not available for inspection in this audit.",
+            "Young establishes arbitrarily slow spectral-radius convergence in a broad Banach-algebra setting, not exact prescribed ordinary-and-essential rates for one irreducible unilateral weighted shift."
+          ],
+          "reasoning": "The broader classical sources motivate the problem but do not, in the material available for inspection, dominate the simultaneous ordinary/essential profile theorem.",
+          "searches": [
+            "Allen L. Shields, Weighted shift operators and analytic function theory, DOI:10.1090/surv/013/02",
+            "N. J. Young, Norm and spectral radius for algebraic elements of a Banach algebra, DOI:10.1017/S0305004100057406"
+          ]
+        },
+        "claim_vs_prior_implication": {
+          "evidence": [
+            "Wallen supplies only the ordinary power-norm realization.",
+            "The recurrent-prefix construction supplies infinitely recurring norming products, which is the extra fact needed for every essential-norm lower bound.",
+            "Young does not imply exact rate realization inside irreducible unilateral weighted shifts."
+          ],
+          "reasoning": "The audited conclusion does not follow from Wallen alone: the original realizing shift may attain a norm only near the initial coordinates and therefore need not have the same essential norm. The recurrent-prefix modification is a substantive additional construction. The incomplete Shields inspection remains a stated residual risk rather than novelty evidence.",
+          "searches": [
+            "Classical Wallen power-norm characterization as attributed in Halmos, A Hilbert Space Problem Book, Solution 92",
+            "Shields 1974 survey metadata and access attempt",
+            "Young 1980 spectral-radius-rate result"
+          ]
+        },
+        "equivalent_formulations": {
+          "evidence": [
+            "The Resultary search returned the present record as the only close match for simultaneous ordinary and essential power-norm realization.",
+            "Classical references located for Wallen/Shields concern ordinary weighted-shift power norms; no inspected source stated simultaneous essential-norm equality with irreducibility."
+          ],
+          "reasoning": "The classical Wallen realization and the audited theorem have the same input sequence, but the audited conclusion adds recurrent norming blocks at arbitrarily large indices, exact Calkin norms for every power, and irreducibility. Those additions are not equivalent to the ordinary realization statement.",
+          "searches": [
+            "Resultary semantic query: weighted shift prescribed power norms essential norms irreducible submultiplicative sequence",
+            "Literature query: Wallen weighted shift power norms submultiplicative sequence essential norm"
+          ]
+        },
+        "exact_database_or_table": {
+          "evidence": [
+            "No earlier Resultary entry was found that states the simultaneous profile theorem or exact essential-spectral-radius rate consequence."
+          ],
+          "reasoning": "There is no finite classification table governing the claim; the relevant research-record database was searched for equivalent statements.",
+          "searches": [
+            "Resultary semantic query: weighted shift prescribed power norms essential norms irreducible submultiplicative sequence"
+          ]
+        }
+      },
+      "rationale": "The ordinary norm-profile half is classical and is excluded from the novelty claim. Targeted research-record and literature searches found no statement of the simultaneous ordinary/essential profile with irreducibility or its exact-rate consequence. The principal classical survey could not be fully inspected, so older equivalent coverage remains a declared risk.",
+      "residual_risks": [
+        "The complete Shields 1974 survey was not available for inspection; an equivalent observation may occur there or in older weighted-shift literature under different terminology."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "PLAUSIBLE_PRIOR_SOURCE_NOT_FULLY_INSPECTED",
+          "evidence": "No accessible inspected material stated simultaneous ordinary and essential power-norm realization; the access limitation remains a residual risk.",
+          "identifier_or_url": "DOI:10.1090/surv/013/02",
+          "material_read": "Bibliographic metadata and secondary references to the survey; complete survey text was not available for inspection.",
+          "method": "Bibliographic and lawful full-text access attempt.",
+          "title": "Weighted shift operators and analytic function theory",
+          "trigger": "Most relevant classical survey on scalar weighted shifts and a source explicitly identified by the record."
+        },
+        {
+          "assessment": "ORDINARY_NORM_PRECURSOR",
+          "evidence": "The classical result characterizes ordinary power-norm profiles by submultiplicativity; the audited originality claim expressly excludes that part.",
+          "identifier_or_url": "DOI:10.1007/978-1-4684-9330-6",
+          "material_read": "The attributed theorem statement as reported in the audited record and corroborating bibliographic search.",
+          "method": "Bibliographic comparison.",
+          "title": "A Hilbert Space Problem Book, Solution 92",
+          "trigger": "The record attributes the ordinary power-norm characterization to Wallen through Halmos."
+        },
+        {
+          "assessment": "BROADER_RATE_CONTEXT_NOT_COVERING",
+          "evidence": "The result concerns possible convergence behavior in Banach algebras, not exact prescribed rates simultaneously in operator and Calkin norms for one irreducible shift.",
+          "identifier_or_url": "DOI:10.1017/S0305004100057406",
+          "material_read": "Bibliographic record and theorem context identified by targeted search.",
+          "method": "Literature comparison.",
+          "title": "Norm and spectral radius for algebraic elements of a Banach algebra",
+          "trigger": "Closest cited prior result on arbitrarily slow spectral-radius convergence."
+        }
+      ],
+      "verdict": "PASS"
+    },
+    "value": {
+      "rationale": "The theorem preserves a complete arbitrary power profile while simultaneously controlling the Calkin norm and irreducibility, and it yields exact prescribed convergence rates for both spectral-radius formulas, including irreducible non-power-compact Riesz examples. This is a natural structural strengthening of a classical realization theorem rather than a parameter renaming or finite recomputation.",
+      "verdict": "PASS"
+    }
+  },
+  "final_claim": "Every strictly positive submultiplicative sequence with initial value one is simultaneously the operator-norm and essential-norm power profile of an irreducible unilateral weighted shift; every positive nonincreasing root-rate is therefore realized exactly in both spectral-radius formulas.",
+  "independent_audit_status": "passed",
+  "independent_validation": true
+}

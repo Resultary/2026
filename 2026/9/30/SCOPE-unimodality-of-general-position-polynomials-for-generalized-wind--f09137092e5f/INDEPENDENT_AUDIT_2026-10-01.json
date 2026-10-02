@@ -1,0 +1,114 @@
+{
+  "audit_date_utc": "2026-10-01",
+  "correctness": {
+    "checked_sources": [
+      "V. Iršič, S. Klavžar, G. Rus, J. Tuite, General position polynomials, arXiv:2401.05696; Results in Mathematics (2024).",
+      "B. A. Rather, Explicit Formulas and Unimodality Phenomena for General Position Polynomials, arXiv:2603.06930 (2026).",
+      "Published-record semantic query: generalized windmill general position polynomial unimodal K1 join n Km friendship."
+    ],
+    "rationale": "The general-position sets are characterized exactly: without the hub every subset of the outer vertices is in general position, while a set containing the hub may use outer vertices from only one petal. This gives the displayed polynomial and coefficients. The symbolic proof then treats the exhaustive regimes \\(m=1\\), \\(n=2,m\\ge2\\), and \\(n\\ge3,m\\ge2\\), controlling the only possible negative petal correction and the transition where that correction vanishes. A fresh finite sweep of the exact coefficient formula for \\(2\\le n\\le30\\), \\(1\\le m\\le30\\) found no failure; that experiment is only support for the all-parameter symbolic inequalities.",
+    "residual_risks": [],
+    "status": "PASS"
+  },
+  "disposition": "passed",
+  "final_claim": "For every \\(n\\geq2\\) and \\(m\\geq1\\), the generalized windmill \\(W_{n,m}=K_1\u000bee nK_m\\) has general-position polynomial \\(\\psi(W_{n,m};x)=(1+x)^{nm}+x+n x((1+x)^m-1)\\), and its coefficient sequence is unimodal.",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "originality": {
+    "broader_coverage": {
+      "evidence": [
+        "The primary sources discuss joins and unimodality phenomena in other structured families but do not furnish a theorem that implies unimodality for every \\(K_1\u000bee nK_m\\)."
+      ],
+      "reasoning": "No broader theorem located dominates the audited family.",
+      "searches": [
+        "arXiv:2401.05696",
+        "arXiv:2603.06930"
+      ]
+    },
+    "checked_sources": [
+      "V. Iršič, S. Klavžar, G. Rus, J. Tuite, General position polynomials, arXiv:2401.05696; Results in Mathematics (2024).",
+      "B. A. Rather, Explicit Formulas and Unimodality Phenomena for General Position Polynomials, arXiv:2603.06930 (2026).",
+      "Published-record semantic query: generalized windmill general position polynomial unimodal K1 join n Km friendship."
+    ],
+    "claim_vs_prior_implication": {
+      "evidence": [
+        "The join formula determines coefficients but does not itself imply unimodality; the audited proof supplies nontrivial coefficient inequalities over all parameter ranges."
+      ],
+      "reasoning": "The known polynomial formula is an input, not a stronger theorem covering the unimodality conclusion.",
+      "searches": [
+        "Iršič–Klavžar–Rus–Tuite 2024 join formula",
+        "Rather 2026 unimodality study"
+      ]
+    },
+    "equivalent_formulations": {
+      "evidence": [
+        "The join formula specializes to the displayed polynomial, but no inspected source states the all-parameter windmill unimodality theorem."
+      ],
+      "reasoning": "The formula is prior; the unimodality theorem is the final claim being assessed for novelty.",
+      "searches": [
+        "V. Iršič, S. Klavžar, G. Rus, J. Tuite, General position polynomials, arXiv:2401.05696",
+        "B. A. Rather, Explicit Formulas and Unimodality Phenomena for General Position Polynomials, arXiv:2603.06930",
+        "Published-record semantic query: generalized windmill general position polynomial unimodal K1 join n Km friendship"
+      ]
+    },
+    "exact_database_or_table": {
+      "evidence": [
+        "No exact table or family classification stating the theorem was found."
+      ],
+      "reasoning": "This is a parametric graph-family theorem rather than a finite lookup invariant; exact-family literature and theorem corpus were searched.",
+      "searches": [
+        "Published-record semantic corpus",
+        "Targeted literature search under windmill, friendship, clique-star, block-graph, and general-position-polynomial terminology"
+      ]
+    },
+    "rationale": "The exact polynomial is not new: it is a specialization of the published join formula of Iršič–Klavžar–Rus–Tuite. The audited novelty is only the all-parameter unimodality theorem. Full inspection of that paper and the relevant portions of Rather’s 2026 explicit-formula/unimodality paper found no generalized-windmill, friendship, or equivalent \\(K_1\u000bee nK_m\\) unimodality theorem. Published-record semantic search returned this record and no prior equivalent or stronger theorem.",
+    "residual_risks": [
+      "The polynomial formula itself is prior and is not treated as an originality contribution.",
+      "An equivalent unimodality observation could exist in block-graph literature under different terminology; no such source was located."
+    ],
+    "source_inspections": [
+      {
+        "assessment": "FORMULA_COVERED_UNIMODALITY_NOT_COVERED",
+        "evidence": "The join framework yields the exact polynomial, but no generalized-windmill unimodality theorem was found.",
+        "identifier_or_url": "arXiv:2401.05696",
+        "material_read": "full accessible text around the join formula and the paper’s unimodality discussion",
+        "method": "lawful arXiv full-text inspection",
+        "title": "General position polynomials",
+        "trigger": "primary source of the general join formula from which the polynomial specializes"
+      },
+      {
+        "assessment": "NEARBY_FAMILIES_NOT_COVERING",
+        "evidence": "The inspected text treats other families such as complete multipartite and corona constructions; no windmill/friendship all-parameter theorem was located.",
+        "identifier_or_url": "arXiv:2603.06930",
+        "material_read": "full accessible text around its principal structured-family formulas, unimodality statements, and open questions",
+        "method": "lawful arXiv full-text inspection",
+        "title": "Explicit Formulas and Unimodality Phenomena for General Position Polynomials",
+        "trigger": "closest recent paper focused explicitly on formulas and unimodality"
+      }
+    ],
+    "status": "PASS"
+  },
+  "prior_scientific_assessment": {
+    "correctness": "The prior assessment checked the exact set characterization, coefficient formula, and the three symbolic parameter regimes.",
+    "originality": "The prior assessment explicitly excluded the known polynomial formula from novelty and claimed only the all-parameter unimodality theorem.",
+    "value": "The prior assessment viewed generalized windmills as a natural positive family for an active unimodality question."
+  },
+  "record_id": "SCOPE-20260930-f09137092e5f",
+  "schema_version": 1,
+  "title": "Unimodality of general position polynomials for generalized windmill graphs",
+  "value": {
+    "checked_sources": [
+      "V. Iršič, S. Klavžar, G. Rus, J. Tuite, General position polynomials, arXiv:2401.05696; Results in Mathematics (2024).",
+      "B. A. Rather, Explicit Formulas and Unimodality Phenomena for General Position Polynomials, arXiv:2603.06930 (2026).",
+      "Published-record semantic query: generalized windmill general position polynomial unimodal K1 join n Km friendship."
+    ],
+    "rationale": "Unimodality is an active structural question for general-position polynomials and is not automatic even for simple graph families. Generalized windmills are a natural infinite block/chordal family simultaneously containing all stars and friendship graphs, so an all-parameter theorem with an exact coefficient-transition proof is a motivated structural result.",
+    "residual_risks": [
+      "The polynomial formula itself is prior and is not treated as an originality contribution.",
+      "An equivalent unimodality observation could exist in block-graph literature under different terminology; no such source was located."
+    ],
+    "status": "PASS"
+  },
+  "verification_state": "independently_reviewed"
+}

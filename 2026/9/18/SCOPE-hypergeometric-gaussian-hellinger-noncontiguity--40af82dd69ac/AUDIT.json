@@ -1,27 +1,112 @@
 {
+  "audited_at_utc": "2026-10-01T08:54:30Z",
   "axes": {
     "correctness": {
-      "rationale": "The beta-precision density, uniform crossover-tail asymptotics, central Hellinger bound, tensorization constant, critical maximum law, triangular empirical-process limit, and explicit maximum witness for root-n noncontiguity were checked against the source parameterization and limiting regimes.",
-      "verdict": "PASS"
+      "rationale": "The beta-precision representation gives a uniform algebraic survival tail on the logarithmic crossover windows. Splitting at squared radii \\(2L+2\\log L\\) and \\(2L+6\\log L\\), with \\(L=\\log(1/a)\\), makes the central Hellinger contribution lower order and leaves tail mass \\(a/(2L)\\). Exact affinity tensorization then yields the iid boundary. The maximum law follows from \\(nP_{a_n}(|X|>\\sqrt{2y\\log n})\\to\\kappa/(2y)\\). The empirical-CDF argument below the root-n scale does not require likelihood contiguity. Independent numerical quadrature for decreasing \\(a\\) showed the slowly converging ratio in the direction predicted by the asymptotic; it was treated only as a sanity check.",
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "The recent hypergeometric-family paper, general sparse-mixture detection theory, and heavy-tailed-impurity extreme-value theory were checked. The general mechanisms are prior art, but no inspected source states the sharp H^2 ~ a/[2 log(1/a)] law, the resulting (log n)/n iid boundary, or the CDF-local versus experiment-local separation for this beta-precision hypergeometric path.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "These sources give general detection/extreme-value mechanisms."
+        ],
+        "reasoning": "They do not mechanically supply the beta-precision crossover calculation or its constant.",
+        "searches": [
+          "Cai and Wu sparse mixture detection",
+          "Morozova Panov heavy-tailed impurity maxima"
+        ]
+      },
+      "checked_sources": [
+        "arXiv:2609.20393",
+        "DOI:10.1109/TIT.2014.2304295",
+        "DOI:10.3390/math9182208"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The source states non-DQM and develops root-n minimum-distance local power; it does not derive the Hellinger boundary."
+        ],
+        "reasoning": "The new result requires a tail/central Hellinger decomposition and exact tensorization; it is not a parameter substitution into the source theorem.",
+        "searches": [
+          "Lawford arXiv:2609.20393 full text"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "No earlier equivalent published record was located."
+        ],
+        "reasoning": "Equivalent formulations would assert the same Hellinger modulus or product-affinity boundary; none was found.",
+        "searches": [
+          "Resultary: Gaussian boundary hypergeometric Hellinger detection noncontiguity",
+          "web: exact a/(2 log(1/a)) Hellinger hypergeometric Gaussian boundary"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "The 2026-09-18 record itself was the only exact hit."
+        ],
+        "reasoning": "The claim is analytic rather than tabular.",
+        "searches": [
+          "Resultary exact-family query"
+        ]
+      },
+      "rationale": "The motivating Lawford paper supplies the family, mixture representation, algebraic tails, non-DQM observation and a root-n minimum-distance theory, but the inspected full text does not state the sharp \\(a/[2\\log(1/a)]\\) Hellinger law, the \\((\\log n)/n\\) product boundary, or the CDF-local versus experiment-local separation. General sparse-mixture and heavy-impurity theory supplies mechanisms rather than this exact family-specific constant and implication. Resultary and targeted web searches found no earlier equivalent published SCOPE record.",
+      "residual_risks": [
+        "The first-order Hellinger asymptotic converges slowly numerically; correctness rests on the analytic uniform bounds, not the finite numerical check.",
+        "A differently parameterized normal-scale-mixture theorem could contain an abstract implication not found by the targeted searches."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "NOT_COVERING exact Hellinger/product boundary",
+          "id": "arXiv:2609.20393",
+          "material": "full open-access text: mixture representation, non-DQM discussion, local-power/contiguity argument",
+          "title": "Gaussian Boundary Inference in a Hypergeometric Heavy-Tailed Family"
+        },
+        {
+          "assessment": "BROADER MECHANISM, NOT exact claim",
+          "id": "DOI:10.1109/TIT.2014.2304295",
+          "material": "published theorem/abstract-level comparison",
+          "title": "Optimal detection of sparse mixtures against a given null distribution"
+        },
+        {
+          "assessment": "BROADER MECHANISM, NOT exact claim",
+          "id": "DOI:10.3390/math9182208",
+          "material": "published heavy-impurity extreme-value results",
+          "title": "Extreme Value Analysis for Mixture Models with Heavy-Tailed Impurity"
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result quantitatively resolves the source paper's non-DQM Gaussian boundary, identifies a much sharper information-theoretic detection scale than its root-n CDF theory, and proves that the root-n hypergeometric alternatives are noncontiguous while the Hellinger-critical alternatives remain first-order invisible to the minimum-distance statistic.",
-      "verdict": "PASS"
+      "rationale": "This identifies the experiment-level detection scale of a newly introduced nonregular family and exposes a substantive distinction between root-n CDF locality and likelihood/contiguity locality. The exact boundary and explicit critical maximum profile are motivated statistical structure, not an arbitrary finite computation.",
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-18",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disclaimer": "Independent mathematical audit of the stated claim; not peer review, formal verification, or a guarantee of first discovery.",
+  "disposition": "passed",
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "policy": "correct-original-valuable",
+  "previously_published_pending_reaudit": false,
+  "same_model_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "The beta-precision density, uniform crossover-tail asymptotics, central Hellinger bound, tensorization constant, critical maximum law, triangular empirical-process limit, and explicit maximum witness for root-n noncontiguity were checked against the source parameterization and limiting regimes.",
+        "status": "PASS"
+      },
+      "originality": {
+        "rationale": "The recent hypergeometric-family paper, general sparse-mixture detection theory, and heavy-tailed-impurity extreme-value theory were checked. The general mechanisms are prior art, but no inspected source states the sharp squared-Hellinger asymptotic law, the resulting (log n)/n iid boundary, or the CDF-local versus experiment-local separation for this beta-precision hypergeometric path.",
+        "status": "PASS"
+      },
+      "value": {
+        "rationale": "The result quantitatively resolves the source paper's non-DQM Gaussian boundary, identifies a much sharper information-theoretic detection scale than its root-n CDF theory, and proves that the root-n hypergeometric alternatives are noncontiguous while the Hellinger-critical alternatives remain first-order invisible to the minimum-distance statistic.",
+        "status": "PASS"
+      }
+    },
+    "independent": false,
+    "status": "passed"
+  }
 }

@@ -1,23 +1,100 @@
 {
+  "audit_date_utc": "2026-10-01",
   "correctness": {
-    "rationale": "Both inclusions in the spectrum identity follow directly from effective access to the unary component tags. One direction splits any oracle-computable tagged copy into oracle-computable component copies; the other varies one component copy at a time and restricts the tagged-union isomorphism. Upward closure then identifies finite spectrum intersection with the cone above the Turing join, and rigidity is componentwise. Exhaustive finite structural replay passed.",
+    "checked_sources": [
+      "I. Sh. Kalimullin, Notes on degrees of relative computable categoricity, arXiv:2207.08316v3.",
+      "Published-record semantic query: relative computable categoricity spectra tagged disjoint union intersection finite Turing joins rigid witnesses."
+    ],
+    "rationale": "Both spectrum inclusions follow directly from the quantifiers. Tags make every component of an oracle-computable copy uniformly oracle-computable; component isomorphisms can therefore be combined. Conversely, replacing one component by an arbitrary oracle-computable copy and keeping the others computable forces any tagged-union isomorphism to restrict to the required component isomorphism. Upward closure then turns finite intersection of principal cones into the cone above the finite Turing join, and tag-preserving automorphisms are componentwise. An independent 65,536-case finite structural analogue reproduced product isomorphism counts and rigidity, but that finite check is only supporting evidence for the symbolic proof.",
+    "residual_risks": [],
     "status": "PASS"
   },
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
+  "disposition": "passed",
+  "final_claim": "For every finite nonempty family of computable structures in disjoint renamed relational languages, the tagged disjoint union has relative categoricity spectrum equal to the intersection of the component spectra; when the component spectra have least degrees, the least degree of the union is their finite Turing join, and rigidity is preserved.",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
   "originality": {
-    "rationale": "The 2022 source defines and studies relative categoricity spectra but does not state the tagged-disjoint-union intersection law. Targeted literature searches and repeated semantic overlap searches found no equivalent or stronger finite-intersection or finite-join closure theorem. The assessment remains best-of-knowledge rather than exhaustive.",
+    "broader_coverage": {
+      "evidence": [
+        "The source supplies the framework and general realization results, not a theorem whose consequence is this exact finite tagged-sum identity."
+      ],
+      "reasoning": "The inspected broader results do not mechanically imply the audited composition law.",
+      "searches": [
+        "arXiv:2207.08316v3",
+        "Published-record semantic corpus"
+      ]
+    },
+    "checked_sources": [
+      "I. Sh. Kalimullin, Notes on degrees of relative computable categoricity, arXiv:2207.08316v3.",
+      "Published-record semantic query: relative computable categoricity spectra tagged disjoint union intersection finite Turing joins rigid witnesses."
+    ],
+    "claim_vs_prior_implication": {
+      "evidence": [
+        "Definitions of relative categoricity and its spectra are prior; the two-direction tagged-sum argument is additional."
+      ],
+      "reasoning": "The prior definitions do not by themselves state the theorem, and no stronger theorem was located that mechanically yields it.",
+      "searches": [
+        "arXiv:2207.08316v3"
+      ]
+    },
+    "equivalent_formulations": {
+      "evidence": [
+        "The inspected source defines relative categoricity spectra but contains no tagged-disjoint-union or finite-join spectrum theorem."
+      ],
+      "reasoning": "No equivalent formulation was located; the theorem is reconstructed directly from the definitions.",
+      "searches": [
+        "I. Sh. Kalimullin, Notes on degrees of relative computable categoricity, arXiv:2207.08316v3",
+        "Published-record semantic query: relative computable categoricity spectra tagged disjoint union intersection finite Turing joins rigid witnesses"
+      ]
+    },
+    "exact_database_or_table": {
+      "evidence": [
+        "No exact theorem/database entry matching the spectrum-intersection law was located."
+      ],
+      "reasoning": "This is not a finite invariant ordinarily tabulated; the relevant exact-source check is the published theorem corpus.",
+      "searches": [
+        "Published-record semantic corpus"
+      ]
+    },
+    "rationale": "Kalimullin defines and studies relative categoricity spectra and least relative categoricity degrees, but the inspected full text does not state a tagged-disjoint-union intersection theorem or finite-join closure. Semantic search of published findings returned the audited record and no earlier equivalent or stronger theorem. The construction is compatible with standard many-sorted/tagged-sum ideas, so an unlocated folklore formulation remains a residual priority risk, but no inspected source implies the stated spectrum identity.",
+    "residual_risks": [
+      "An equivalent tagged-sum closure observation may exist as folklore under many-sorted or disjoint-union terminology; no such source was located.",
+      "Only finite tagged unions are proved; countable families require additional uniformity."
+    ],
+    "source_inspections": [
+      {
+        "assessment": "FRAMEWORK_NOT_COVERING",
+        "evidence": "The paper defines the spectrum and least relative categoricity degree; searches within the full text did not locate disjoint-union or finite-join closure statements.",
+        "identifier_or_url": "arXiv:2207.08316v3",
+        "material_read": "full accessible text around the definitions, spectrum notation, least-degree framework, and relevant results",
+        "method": "lawful arXiv full-text inspection",
+        "title": "Notes on degrees of relative computable categoricity",
+        "trigger": "primary source for the spectrum definition and surrounding theory"
+      }
+    ],
     "status": "PASS"
   },
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "same_model_review_status": "passed",
+  "previously_published_pending_reaudit": false,
+  "prior_scientific_assessment": {
+    "correctness": "Both inclusions in the spectrum identity follow from effective access to the unary tags; the least-degree and rigidity consequences are componentwise.",
+    "originality": "The prior assessment found no tagged-disjoint-union spectrum theorem in the 2022 source.",
+    "value": "The prior assessment viewed the exact spectrum composition law and rigid-witness join closure as structurally useful."
+  },
+  "record_id": "SCOPE-20260930-93ae1c88a87e",
   "schema_version": 1,
-  "scope_run_id": "93ae1c88-a87e-4e02-9308-afe169a777d3",
+  "title": "Tagged disjoint unions turn relative categoricity spectra into intersections",
   "value": {
-    "rationale": "The result provides an exact compositional operation on arbitrary relative categoricity spectra, yields finite Turing-join closure for least relative categoricity degrees, and preserves rigid witnesses. It also isolates named tags and finite uniformity as the precise ingredients used by the construction.",
+    "checked_sources": [
+      "I. Sh. Kalimullin, Notes on degrees of relative computable categoricity, arXiv:2207.08316v3.",
+      "Published-record semantic query: relative computable categoricity spectra tagged disjoint union intersection finite Turing joins rigid witnesses."
+    ],
+    "rationale": "This is a natural compositional law for an established spectrum invariant: it gives exact finite intersection at the spectrum level, finite Turing-join closure for least degrees, and preservation of rigid witnesses. The tags and finite-uniformity hypotheses identify the exact mechanism and boundary, so the result is a motivated structural lemma rather than an arbitrary reformulation.",
+    "residual_risks": [
+      "An equivalent tagged-sum closure observation may exist as folklore under many-sorted or disjoint-union terminology; no such source was located.",
+      "Only finite tagged unions are proved; countable families require additional uniformity."
+    ],
     "status": "PASS"
   },
-  "verification_state": "awaiting_fresh_independent_audit"
+  "verification_state": "independently_reviewed"
 }
