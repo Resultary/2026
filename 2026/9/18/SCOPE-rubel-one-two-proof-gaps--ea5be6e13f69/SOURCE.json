@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/18/SCOPE-rubel-one-two-proof-gaps--ea5be6e13f69",
   "resultary_record_key": "SCOPE-rubel-one-two-proof-gaps--ea5be6e13f69",
-  "source_commit": "a7cc69d784246a36eca421019db9c279a2c15a0e",
-  "source_commit_time": "2026-09-30T19:52:54Z",
+  "source_commit": "3f8faeaaa1d00e787a29ac8ffbb189189d6a9e7b",
+  "source_commit_time": "2026-10-02T11:47:43Z",
   "source_path": "2026/09/18/rubel-one-two-proof-gaps--ea5be6e13f69",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260918-ea5be6e13f69",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-01T08:22:11Z",
+  "synced_at": "2026-10-02T11:48:10Z",
   "time_standard": "UTC"
 }
