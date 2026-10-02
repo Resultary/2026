@@ -1,1 +1,0 @@
-Corroborating, not separately original: this later SCOPE record independently rederives the fixed-q theorem that t-deletion codes attain redundancy (2t-1) log_q n + O_{q,t}(log log n); the same result had already entered the repository about fifteen hours earlier.
