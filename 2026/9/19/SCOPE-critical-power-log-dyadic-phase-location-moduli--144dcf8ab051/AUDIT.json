@@ -1,33 +1,88 @@
 {
-  "correctness": {
-    "status": "PASS",
-    "summary": "Endpoint analysis of the square-root density gives the sharp Hellinger constants under the stated half-integral convention, with a Fisher-information transition at kappa=1. Regular variation of endpoint quantiles yields the dyadic asymptotics and universal ratio. An exact geometric sum and exact Laplace Hellinger affinity establish the lattice-phase interval."
+  "audited_at_utc": "2026-10-01T12:59:57Z",
+  "axes": {
+    "correctness": {
+      "reason": "For the repaired final claim, the endpoint quantile inversion gives the stated dyadic gap scale; summing the geometric dyadic energy yields the universal ratio \\(\\Delta(p)/\\omega(p)\\to(\\sqrt2-1)\\sqrt{\\log2}\\) throughout the critical infinite-information side. The exact Laplace quantile formula gives the fixed-grid phase interval, and the phase-averaging identity follows by integrating one dyadic cell. The committed numerical script is consistent with these derivations but is corroborative only.",
+      "risks": [
+        "The proof uses standard slowly-varying endpoint asymptotics; no formal verification is supplied."
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2609.20749"
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Wang--Gao prove only constant-factor equivalence of their dyadic functional to the inverse Hellinger modulus and illustrate noncritical power-log examples."
+        ],
+        "reasoning": "Their theorem does not imply the exact universal ratio or the Laplace lattice-phase interval because those require sharp constants and floor-phase tracking.",
+        "searches": [
+          "Published archive search for stronger Wang--Gao functional asymptotics and exact phase laws"
+        ]
+      },
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The prior Hellinger record implies the three Hellinger regimes but not the dyadic-functional constants; Wang--Gao supplies the functional but not the sharp critical evaluation."
+        ],
+        "reasoning": "After repair, neither prior source implies the final claim without the new endpoint inversion and phase computation.",
+        "searches": [
+          "Implication comparison against the 2026-09-18 Hellinger record and Wang--Gao"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "A 2026-09-18 published result already covers the alpha=1 Hellinger trichotomy; no prior exact dyadic-functional sharp constant or regular fixed-grid lattice-phase theorem was located."
+        ],
+        "reasoning": "The original filing mixed a covered Hellinger theorem with a new dyadic-functional refinement. The repaired final claim removes novelty attribution from the Hellinger trichotomy and retains only the implication-independent sharp dyadic and phase statements.",
+        "searches": [
+          "Resultary semantic search for critical power-log Hellinger transition, dyadic quantile functional and lattice phase",
+          "Primary Wang--Gao full-text comparison"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No tabular prior claim was identified."
+        ],
+        "reasoning": "Not applicable beyond checking the published archive for exact constants.",
+        "searches": [
+          "No exact database/table is relevant; the result is an analytic asymptotic theorem."
+        ]
+      },
+      "status": "PASS"
+    },
+    "value": {
+      "reason": "The repaired claim quantifies the exact efficiency of the new multiscale dyadic functional at a natural critical boundary and identifies a genuine fixed-grid lattice effect in the regular regime. These are structural calibration and boundary facts for a newly introduced estimator functional, not an arbitrary finite slice.",
+      "risks": [
+        "The result is specialized to this power-log family and the displayed dyadic grid."
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2609.20749"
+      ],
+      "status": "PASS"
+    }
   },
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
+  "disposition": "repaired",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
   "limitations": [
-    "The critical power-log asymptotics are local as the shift tends to zero.",
-    "No remainder uniform in kappa is proved.",
-    "The finite-Fisher phase profile is not claimed nonconstant for every compact-support member; exact nonconstancy is shown for Laplace.",
-    "The phase-averaging identity is structural and has no estimator or optimality theorem attached.",
-    "Independent audit has not been performed."
+    "The proof uses standard slowly-varying endpoint asymptotics; no formal verification is supplied.",
+    "The result is specialized to this power-log family and the displayed dyadic grid."
   ],
-  "originality": {
-    "scope": "to the best of our knowledge",
-    "status": "PASS",
-    "summary": "The classical critical linear-boundary rate and nonregular Hellinger methodology are prior art and are not claimed. Searches found no prior explicit critical power-log kappa trichotomy, no sharp asymptotic constants for the Wang--Gao dyadic functional on this endpoint family, and no exact Laplace phase interval for that newly introduced functional. Older nonregular-location literature remains a residual risk for the slowly varying Hellinger refinement alone."
-  },
-  "phase": "II",
-  "previously_published_pending_reaudit": true,
+  "policy": "correctness-originality-scientific-value",
+  "previously_published_pending_reaudit": false,
   "record_id": "SCOPE-20260919-144dcf8ab051",
-  "review_statement": "Same-model review: passed. Independent audit: not yet performed.",
-  "review_type": "same_model_review",
-  "same_model_review_status": "passed",
-  "scope_run_id": "eafc6618-de8e-422f-b9a6-c86934ded4a0",
-  "value": {
-    "status": "PASS",
-    "summary": "The result fills the missing critical endpoint of a recent power-log example, reveals a second logarithmic phase transition, sharpens a new Hellinger--quantile relation on the infinite-information side, and identifies an exact regular-model obstruction to a single fixed-grid asymptotic efficiency constant."
-  },
-  "verification_state": "awaiting_fresh_independent_audit"
+  "review_type": "independent_audit",
+  "source_inspections": [
+    {
+      "inspection": "Primary full text inspected. The paper defines the multiscale dyadic quantile functional and proves constant-factor Hellinger/quantile equivalence; its numerical power-log example uses exponent alpha in (0,1), not the critical alpha=1 sharp constants audited here.",
+      "url": "https://arxiv.org/abs/2609.20749"
+    },
+    {
+      "inspection": "Published prior result located by semantic search. It already states the alpha=1 Hellinger trichotomy for kappa<1, kappa=1 and kappa>1; that component is therefore treated as prior input in the repaired claim.",
+      "url": "https://github.com/Resultary/2026/tree/main/2026/9/18/SCOPE-critical-power-log-location-hellinger-transition--92a2596e06eb"
+    }
+  ],
+  "verification_state": "independently_reviewed"
 }

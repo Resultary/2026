@@ -1,1 +1,0 @@
-Feng et al. v2 now owns the generalized-chi track decomposition; the surviving classification result is that the complete nondegenerate family has exactly tau(n0)-1 affine classes indexed by the odd block length, and its normalized maximum Walsh correlation is exactly that of the corresponding ordinary chi block.

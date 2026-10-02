@@ -1,0 +1,143 @@
+{
+  "audit_date_utc": "2026-10-01",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "Gutiérrez–Nevanlinna, A Weak Topology on Metric Spaces, arXiv:2609.19368.",
+        "Gutiérrez–Nevanlinna, Metric functionals and weak convergence, Z. Anal. Anwend. (2026), arXiv:2506.04154.",
+        "Walsh, Hilbert and Thompson geometries isometric to infinite-dimensional Banach spaces, Ann. Inst. Fourier 68 (2018).",
+        "Earlier published record: Extreme-dual recovery of the classical weak topology from metric functionals (2026-09-18).",
+        "Published-record semantic search for metric-functional topology on C(K)."
+      ],
+      "rationale": "The repaired proof is self-contained: every infinite compact Hausdorff space has countably many pairwise-disjoint nonempty open sets; normality supplies supported bumps. For any internal metric functional \\(h_w\\), a norm-attainment point lies in at most one support, so \\(h_w(f_n)\\ge0\\) except possibly once. Pointwise limits inherit this property, giving d-weak convergence for arbitrary amplitudes. The finite case follows from the already-known finite-dimensional topology equality.",
+      "residual_risks": [],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Prior record covers general topology comparison; source preprint gives C[0,1] unbounded sequence."
+        ],
+        "reasoning": "Neither broader statement found implies arbitrary profiles on every infinite compact Hausdorff K.",
+        "searches": [
+          "published record 2026/09/18/extreme-dual-recovery...",
+          "Gutiérrez–Nevanlinna 2026 topology preprint"
+        ]
+      },
+      "checked_sources": [
+        "Gutiérrez–Nevanlinna, A Weak Topology on Metric Spaces, arXiv:2609.19368.",
+        "Gutiérrez–Nevanlinna, Metric functionals and weak convergence, Z. Anal. Anwend. (2026), arXiv:2506.04154.",
+        "Walsh, Hilbert and Thompson geometries isometric to infinite-dimensional Banach spaces, Ann. Inst. Fourier 68 (2018).",
+        "Earlier published record: Extreme-dual recovery of the classical weak topology from metric functionals (2026-09-18).",
+        "Published-record semantic search for metric-functional topology on C(K)."
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The earlier result stops at C[0,1] for strict inclusion; the repaired proof requires the all-compact-Hausdorff disjoint-open-set argument."
+        ],
+        "reasoning": "The repaired theorem is not a formal corollary of the prior general sandwich or the single-space C[0,1] example.",
+        "searches": [
+          "complete earlier published RESULT.md",
+          "arXiv:2609.19368 scope"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The earlier 2026-09-18 record covers the general sandwich/equality criterion but not the all-K arbitrary-profile theorem."
+        ],
+        "reasoning": "The repaired claim is the C(K) dichotomy, not the already-covered general topology theorem.",
+        "searches": [
+          "published-record search for metric-functional topology C(K)",
+          "arXiv:2609.19368"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No earlier all-K classification located; exact prior overlap was separately identified and removed."
+        ],
+        "reasoning": "Database search is supportive only; novelty rests on implication comparison with inspected sources.",
+        "searches": [
+          "published-record semantic search for C(K) metric-functional dichotomy"
+        ]
+      },
+      "rationale": "An earlier 2026-09-18 published result already proves the general weak-topology sandwich, extreme-dual span criterion, finite-dimensional equality and strictly-convex-dual equality, so those claims are removed from the repaired novelty claim. Gutiérrez–Nevanlinna's 2026 topology preprint states an unbounded d-weak-null sequence only in \\(C[0,1]\\). No inspected source or published-record search supplied the all-compact-Hausdorff \\(C(K)\\) dichotomy or arbitrary positive norm profiles.",
+      "residual_risks": [
+        "The repaired construction is conceptually close to the recent \\(C[0,1]\\) disjoint-support counterexample, so parallel or subsequent generalization is a material residual risk."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "COVERS_ORIGINAL_THEOREM_1_AND_COROLLARY_2",
+          "evidence": "It already proves \\(\\tau_\\diamond\\subseteq\\tau_w\\), extreme-dual continuity, the span criterion, finite-dimensional equality and strictly-convex-dual equality; these are removed from the repaired novelty claim.",
+          "identifier_or_url": "published record 2026/09/18/extreme-dual-recovery-metric-functional-weak-topology--4bfe5c340ddd",
+          "material_read": "complete RESULT.md at the frozen repository commit",
+          "method": "full-source inspection",
+          "title": "Extreme-dual recovery of the classical weak topology from metric functionals",
+          "trigger": "semantic search found an earlier near-exact theorem"
+        },
+        {
+          "assessment": "CLOSE_BUT_NOT_KNOWN_TO_COVER_REPAIRED_CK_THEOREM",
+          "evidence": "The accessible source states existence of an unbounded d-weak-null sequence in \\(C[0,1]\\), not the all-\\(K\\) arbitrary-profile theorem.",
+          "identifier_or_url": "arXiv:2609.19368",
+          "material_read": "arXiv/ArcXiv abstract and indexed scope; complete paper text was not available through the inspected route",
+          "method": "open-web inspection",
+          "title": "A Weak Topology on Metric Spaces",
+          "trigger": "primary source introducing the topology and the C[0,1] counterexample"
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "Gutiérrez–Nevanlinna, A Weak Topology on Metric Spaces, arXiv:2609.19368.",
+        "Gutiérrez–Nevanlinna, Metric functionals and weak convergence, Z. Anal. Anwend. (2026), arXiv:2506.04154.",
+        "Walsh, Hilbert and Thompson geometries isometric to infinite-dimensional Banach spaces, Ann. Inst. Fourier 68 (2018).",
+        "Earlier published record: Extreme-dual recovery of the classical weak topology from metric functionals (2026-09-18).",
+        "Published-record semantic search for metric-functional topology on C(K)."
+      ],
+      "rationale": "The repaired theorem gives a natural exact classification for the standard Banach-space family \\(C(K)\\) and strengthens a single-space counterexample to all infinite compact Hausdorff spaces with arbitrary prescribed growth, while explicitly excluding the already-covered general topology comparison.",
+      "residual_risks": [
+        "The repaired construction is conceptually close to the recent \\(C[0,1]\\) disjoint-support counterexample, so parallel or subsequent generalization is a material residual risk."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disclaimer": "Independent mathematical audit; not peer review, formal proof-assistant verification, or a guarantee of first discovery.",
+  "disposition": "repaired",
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json",
+    "REVIEW.md"
+  ],
+  "final_claim": "For real \\(C(K)\\) with \\(K\\) compact Hausdorff, the metric-functional weak topology equals the classical weak topology exactly when \\(K\\) is finite; if \\(K\\) is infinite, every prescribed positive norm profile is realized by a pairwise-disjoint nonnegative metric-functionally weak-null sequence.",
+  "historical_same_model_review": {
+    "axes": {
+      "correctness": {
+        "rationale": "Convexity of metric functionals gives weak lower semicontinuity and hence the upper topology inclusion; Walsh's extreme-dual metric functionals give the lower inclusion. Supporting functionals produce finite-codimensional subspaces in basic neighborhoods. On C(K), pairwise disjoint bump supports force every internal, and hence every limiting, metric functional to be negative on at most one bump, proving d-weak convergence for arbitrary prescribed amplitudes.",
+        "verdict": "PASS"
+      },
+      "originality": {
+        "rationale": "The recent topology paper proves only coarseness relative to the metric topology and a C[0,1] counterexample. The older weak-convergence paper and Walsh supply ingredients but do not state the topology sandwich, finite-dimensional topology equality, finite-codimensional neighborhood theorem, or the exact finite-versus-infinite C(K) dichotomy located here. The C(K) extension remains close enough to the recent disjoint-support construction that parallel or future coverage is a material residual risk.",
+        "verdict": "PASS"
+      },
+      "value": {
+        "rationale": "The result directly locates the new metric-functional topology among classical Banach-space topologies, upgrades sequential facts to topology-level equalities for broad classes, and shows that arbitrary norm growth of d-weak null sequences is universal across infinite compact-Hausdorff C(K) spaces rather than peculiar to C[0,1].",
+        "verdict": "PASS"
+      }
+    },
+    "reviewed_at": "2026-09-20",
+    "source_blob_sha": "19ca4565a3aca92cff618c498b5dbd56a426f366",
+    "status": "passed"
+  },
+  "independent": true,
+  "independent_audit_status": "repaired",
+  "independent_validation": true,
+  "previously_published_pending_reaudit": false,
+  "record_id": "SCOPE-20260920-c5d8c0f37cb6",
+  "record_title": "Sharp C(K) dichotomy for metric-functional weak convergence",
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "scientific_limitations": [
+    "The repaired construction is conceptually close to the recent \\(C[0,1]\\) disjoint-support counterexample, so parallel or subsequent generalization is a material residual risk."
+  ],
+  "verification_state": "independent_audit_repaired"
+}

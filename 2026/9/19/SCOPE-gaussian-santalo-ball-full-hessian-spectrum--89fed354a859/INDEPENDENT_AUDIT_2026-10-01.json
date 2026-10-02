@@ -1,0 +1,81 @@
+{
+  "axes": {
+    "C": {
+      "reason": "The two factor expansions along \\(B+te\\) have opposite quadratic coefficients, so the critical quadratic term cancels. Independent symbolic multiplication of the displayed fourth-order coefficients reproduces exactly \\(-C_n\\). The radial integration-by-parts identity gives \\(R=n-qI_2/I_0>n-q=(n-1)/2\\); substituting this lower bound makes the bracket in \\(C_n\\) exceed \\(2(n^2+8n-1)>0\\) for \\(n\\ge2\\). Thus the first nonzero translation term is indeed strictly negative quartic.",
+      "risks": [
+        "The result is only along the actual translation family; it is not a complete fourth-order normal form."
+      ],
+      "sources": [
+        "assigned RESULT.md at the audited tree",
+        "independent symbolic recombination of the two fourth-order expansions",
+        "full primary text of arXiv:2609.18472, especially Proposition 5.1"
+      ],
+      "verdict": "PASS"
+    },
+    "O": {
+      "reason": "The primary Artstein-Avidan–Fradelizi–Wyczesany paper computes the translated-ball expansion only through second order and uses it to prove instability for \\(\\sigma^2>2/(n+1)\\); at equality that coefficient vanishes and the paper does not compute the quartic term. Earlier SCOPE records compute the full Hessian but explicitly leave the nonlinear behavior of the translation kernel open. A later 2026-09-20 SCOPE record contains the quartic endpoint plus a bifurcation theorem, but it postdates this 2026-09-19 record.",
+      "risks": [
+        "The motivating preprint is recent, so unindexed parallel work remains a residual risk."
+      ],
+      "sources": [
+        "full text arXiv:2609.18472 pages containing Proposition 5.1",
+        "published SCOPE 2026-09-17 and 2026-09-18 Hessian records",
+        "Resultary search for Gaussian Santaló quartic translation"
+      ],
+      "verdict": "PASS"
+    },
+    "V": {
+      "reason": "At the exact Hessian-degeneracy threshold, the sign of the first nonzero term on the only neutral mode is a natural stability question. The explicit negative quartic coefficient resolves that boundary behavior without claiming a global theorem, and directly informs the open phase-transition interval.",
+      "risks": [
+        "No conclusion is drawn about arbitrary coupled fourth-order perturbations or global maximization."
+      ],
+      "sources": [
+        "primary threshold theorem and the earlier full-Hessian SCOPE results"
+      ],
+      "verdict": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "The theorem treats only genuine translations at the critical variance. It does not prove a complete fourth-order normal form, a topology-uniform local maximum theorem, or the unresolved higher-dimensional global maximization statement."
+  ],
+  "originality_analysis": {
+    "broader_coverage": "Earlier work covers the quadratic translation threshold and the complete second-variation spectrum, but not the first nonzero term at equality.",
+    "checked_sources": [
+      "arXiv:2609.18472",
+      "SCOPE record 2026/09/17/gaussian-volume-product-hessian-spectrum--714d3bdc8013",
+      "SCOPE record 2026/09/18/gaussian-volume-product-hessian-instability-index--adb76edfac12"
+    ],
+    "claim_vs_prior_implication": "A vanishing second derivative does not determine the quartic sign; therefore the primary quadratic instability calculation and prior Hessian theorem do not imply the audited endpoint coefficient.",
+    "equivalent_formulations": "The theorem is a fourth-variation statement restricted to the genuine translated-ball branch at the unique degree-one Hessian kernel.",
+    "exact_database_or_table": [
+      {
+        "outcome": "The audited record ranked first; the closest stronger SCOPE hit is dated 2026-09-20, after this record. ",
+        "query": "Gaussian Santaló volume product translated ball quartic critical variance 2/(n+1)",
+        "source": "Resultary"
+      },
+      {
+        "outcome": "The 2026-09-17 and 2026-09-18 records stop at second order and explicitly leave critical nonlinear behavior open.",
+        "query": "Gaussian volume product Hessian translation kernel",
+        "source": "published SCOPE archive"
+      }
+    ],
+    "residual_risks": [
+      "Very recent literature may contain unindexed concurrent fourth-order calculations."
+    ],
+    "source_inspections": [
+      "Complete arXiv:2609.18472 full text inspected, including Proposition 5.1 and its translated-ball calculation through second order.",
+      "Earlier SCOPE Hessian records inspected in full.",
+      "Assigned package files inspected from the frozen Git tree."
+    ]
+  },
+  "record_id": "SCOPE-20260919-89fed354a859",
+  "record_title": "Quartic stabilization of the critical translation mode in the Gaussian Santaló product",
+  "review_type": "independent_audit",
+  "reviewed_at_utc": "2026-10-01T13:51:38Z",
+  "same_model_review_status": "passed",
+  "verification_state": "independently_reviewed"
+}

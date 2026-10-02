@@ -1,33 +1,82 @@
 {
-  "correctness": {
-    "status": "PASS",
-    "summary": "For a support perturbation h_t=1+t f, direct differentiation gives A'(0)=a int f, A''(0)=a[-int|grad f|^2+(n-1-q)int f^2] for the Gaussian measure of K_t, while polarity gives B'(0)=-a int f and B''(0)=a(n+1-q)int f^2. The first variations cancel. The logarithmic Hessian therefore diagonalizes on spherical harmonics with nonconstant eigenvalues R(2(n-q)-lambda_l) and constant eigenvalue 2R(n-q-R). Radial integration gives R>n-q, so the constant mode is always negative; lambda_1=n-1 changes sign exactly at sigma^2=2/(n+1), while lambda_l>=2n for l>=2 keeps every higher mode negative. The critical translated-ball fourth-order coefficient is negative because R>(n-1)/2."
+  "axes": {
+    "C": {
+      "reason": "The two factor expansions along \\(B+te\\) have opposite quadratic coefficients, so the critical quadratic term cancels. Independent symbolic multiplication of the displayed fourth-order coefficients reproduces exactly \\(-C_n\\). The radial integration-by-parts identity gives \\(R=n-qI_2/I_0>n-q=(n-1)/2\\); substituting this lower bound makes the bracket in \\(C_n\\) exceed \\(2(n^2+8n-1)>0\\) for \\(n\\ge2\\). Thus the first nonzero translation term is indeed strictly negative quartic.",
+      "risks": [
+        "The result is only along the actual translation family; it is not a complete fourth-order normal form."
+      ],
+      "sources": [
+        "assigned RESULT.md at the audited tree",
+        "independent symbolic recombination of the two fourth-order expansions",
+        "full primary text of arXiv:2609.18472, especially Proposition 5.1"
+      ],
+      "verdict": "PASS"
+    },
+    "O": {
+      "reason": "The primary Artstein-Avidan–Fradelizi–Wyczesany paper computes the translated-ball expansion only through second order and uses it to prove instability for \\(\\sigma^2>2/(n+1)\\); at equality that coefficient vanishes and the paper does not compute the quartic term. Earlier SCOPE records compute the full Hessian but explicitly leave the nonlinear behavior of the translation kernel open. A later 2026-09-20 SCOPE record contains the quartic endpoint plus a bifurcation theorem, but it postdates this 2026-09-19 record.",
+      "risks": [
+        "The motivating preprint is recent, so unindexed parallel work remains a residual risk."
+      ],
+      "sources": [
+        "full text arXiv:2609.18472 pages containing Proposition 5.1",
+        "published SCOPE 2026-09-17 and 2026-09-18 Hessian records",
+        "Resultary search for Gaussian Santaló quartic translation"
+      ],
+      "verdict": "PASS"
+    },
+    "V": {
+      "reason": "At the exact Hessian-degeneracy threshold, the sign of the first nonzero term on the only neutral mode is a natural stability question. The explicit negative quartic coefficient resolves that boundary behavior without claiming a global theorem, and directly informs the open phase-transition interval.",
+      "risks": [
+        "No conclusion is drawn about arbitrary coupled fourth-order perturbations or global maximization."
+      ],
+      "sources": [
+        "primary threshold theorem and the earlier full-Hessian SCOPE results"
+      ],
+      "verdict": "PASS"
+    }
   },
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
+  "disposition": "passed",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
   "limitations": [
-    "The global maximizer is not determined for n>=3 in 1/n<sigma^2<=2/(n+1).",
-    "Strict negativity of the Hessian is a directional second-order statement; no topology-uniform quantitative neighborhood theorem is claimed.",
-    "At sigma^2=2/(n+1), only the translation branch is expanded to fourth order; a complete fourth-order normal form is not given.",
-    "The motivating preprint is very recent, so later revisions or unindexed parallel observations may overlap.",
-    "Independent audit has not been performed."
+    "The theorem treats only genuine translations at the critical variance. It does not prove a complete fourth-order normal form, a topology-uniform local maximum theorem, or the unresolved higher-dimensional global maximization statement."
   ],
-  "originality": {
-    "scope": "to the best of our knowledge",
-    "status": "PASS",
-    "summary": "The motivating 2026 preprint computes only the translated-ball quadratic perturbation to prove non-maximality above the threshold and explicitly leaves the higher-dimensional global gap open. Its full text contains no stated full Hessian or spherical-harmonic spectrum. Searches for equivalent formulations involving Gaussian volume products, weighted Blaschke-Santaló functionals, second variation, support-function perturbations, Hessians, spherical harmonics, and local stability did not locate the spectrum proved here or the critical fourth-order translation coefficient. Cordero-Erausquin's symmetric theorem covers only centrally symmetric competitors, and the 2024 weighted functional framework is different. No specifically identified inaccessible source provides concrete evidence of prior coverage; the main residual risk is a later revision or unindexed parallel calculation around the very recent motivating preprint."
+  "originality_analysis": {
+    "broader_coverage": "Earlier work covers the quadratic translation threshold and the complete second-variation spectrum, but not the first nonzero term at equality.",
+    "checked_sources": [
+      "arXiv:2609.18472",
+      "SCOPE record 2026/09/17/gaussian-volume-product-hessian-spectrum--714d3bdc8013",
+      "SCOPE record 2026/09/18/gaussian-volume-product-hessian-instability-index--adb76edfac12"
+    ],
+    "claim_vs_prior_implication": "A vanishing second derivative does not determine the quartic sign; therefore the primary quadratic instability calculation and prior Hessian theorem do not imply the audited endpoint coefficient.",
+    "equivalent_formulations": "The theorem is a fourth-variation statement restricted to the genuine translated-ball branch at the unique degree-one Hessian kernel.",
+    "exact_database_or_table": [
+      {
+        "outcome": "The audited record ranked first; the closest stronger SCOPE hit is dated 2026-09-20, after this record. ",
+        "query": "Gaussian Santaló volume product translated ball quartic critical variance 2/(n+1)",
+        "source": "Resultary"
+      },
+      {
+        "outcome": "The 2026-09-17 and 2026-09-18 records stop at second order and explicitly leave critical nonlinear behavior open.",
+        "query": "Gaussian volume product Hessian translation kernel",
+        "source": "published SCOPE archive"
+      }
+    ],
+    "residual_risks": [
+      "Very recent literature may contain unindexed concurrent fourth-order calculations."
+    ],
+    "source_inspections": [
+      "Complete arXiv:2609.18472 full text inspected, including Proposition 5.1 and its translated-ball calculation through second order.",
+      "Earlier SCOPE Hessian records inspected in full.",
+      "Assigned package files inspected from the frozen Git tree."
+    ]
   },
-  "phase": "II",
-  "previously_published_pending_reaudit": true,
+  "previously_published_pending_reaudit": false,
   "record_id": "SCOPE-20260919-89fed354a859",
-  "review_statement": "Same-model review: passed. Independent audit: not yet performed.",
-  "review_type": "same_model_review",
+  "record_title": "Quartic stabilization of the critical translation mode in the Gaussian Santaló product",
+  "review_type": "independent_audit",
+  "reviewed_at_utc": "2026-10-01T13:51:38Z",
   "same_model_review_status": "passed",
-  "scope_run_id": "c411e8e0-1b8e-461b-a228-777830377de4",
-  "value": {
-    "status": "PASS",
-    "summary": "The result turns the known one-direction translation test into a complete infinitesimal phase diagram. It proves that 2/(n+1) is the exact loss-of-second-order-stability threshold and that translations are the unique unstable modes. In the open higher-dimensional global gap below that threshold, every fixed smooth infinitesimal support direction is strictly stable, so any failure of global optimality must be nonlinear or nonlocal. The fourth-order endpoint calculation shows that the actual translation branch still decreases at equality, and the spectrum also recovers the affine degeneracies of the classical volume product in the large-variance limit."
-  },
-  "verification_state": "awaiting_fresh_independent_audit"
+  "verification_state": "independently_reviewed"
 }

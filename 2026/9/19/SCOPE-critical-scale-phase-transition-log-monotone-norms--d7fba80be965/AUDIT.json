@@ -1,27 +1,89 @@
 {
+  "audited_at_utc": "2026-10-01T12:59:57Z",
   "axes": {
     "correctness": {
-      "rationale": "The arbitrary-p_n extension uses only Jensen, the p<1 quasi-triangle estimate, and the power-integral consequence of logarithmic submajorization. When L_n(1-p_n) tends to zero, a uniform lower bound for bounded decreasing rearrangements matches Jensen and identifies the moment seminorm with the Hardy--Littlewood monotone tail limsup. Exact formulas on Huang's f,g pair give the finite response (1-exp(-c))/c and the divergent-limit value zero.",
-      "verdict": "PASS"
+      "reason": "The arbitrary-moment construction is bounded by the Marcinkiewicz norm via Jensen, inherits logarithmic-submajorization monotonicity from the power-integral inequality, and its quasi-triangle constant tends to one. When \\(\\delta_nL_n\\to0\\), the lower moment bound using the essential supremum matches the Jensen upper bound and yields exactly the tail seminorm. Direct evaluation on Huang's pair gives \\(\\Phi_\\delta(g)=1\\) and \\(\\Phi_\\delta(f)=(1-e^{-c})/c\\) when \\(\\delta_nL_n\\to c\\), with the stated endpoint regimes.",
+      "risks": [
+        "No claim is made for genuinely oscillatory sequences outside the stated limit regimes."
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2609.20270",
+        "https://arxiv.org/abs/1910.10874"
+      ],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Qualified to the best of our knowledge. The source fixes 0<alpha<=1 and treats alpha=1 and alpha=1/2; targeted exact and synonymous searches found no arbitrary-(1-p_n) critical-scale theorem, response curve, or fully symmetric alpha>1 phase. Older Marcinkiewicz and singular-functional literature remains a residual bibliographic risk.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "Background singular-functional literature contains related tail functionals but no source inspected dominates the exact sparse-scale identity and response function."
+        ],
+        "reasoning": "The audited theorem combines a precise new limit calculation with an exact order-structure consequence not supplied by the primary source.",
+        "searches": [
+          "Search for stronger Marcinkiewicz/singular-functional phase classifications"
+        ]
+      },
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Those results are recovered as special parameter choices."
+        ],
+        "reasoning": "The final theorem strictly extends the parameter domain and identifies the exact critical response, so it is not merely a restatement of those special cases.",
+        "searches": [
+          "Comparison with Huang Proposition 3.1, Propositions 3.5 and 3.6"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "Huang fixes \\(p_n=1-r_n^{-\u0007lpha}\\) with \\(0<\u0007lpha\\le1\\) and evaluates \\(\u0007lpha=1\\) and \\(\u0007lpha=1/2\\) only. A same-day kernel-filtration record concerns strict inclusions for \\(0<\u0007lpha<\beta\\le1\\) rather than the arbitrary-delta phase diagram."
+        ],
+        "reasoning": "No equivalent statement of the arbitrary-delta response function or subcritical collapse was found.",
+        "searches": [
+          "Resultary semantic search for logarithmically monotone Marcinkiewicz kernels, arbitrary p_n and critical scale",
+          "Complete Huang full-text inspection"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "The claim is analytic and not a finite lookup."
+        ],
+        "reasoning": "Not applicable.",
+        "searches": [
+          "No exact database/table is relevant."
+        ]
+      },
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result turns two separate examples in the source into a sharp phase diagram governed by L_n(1-p_n), identifies the limiting fully symmetric seminorm in the positive regime, and shows alpha=1 is the exact boundary for the original power family.",
-      "verdict": "PASS"
+      "reason": "It gives a natural complete phase diagram for the governing dimensionless scale, including an exact response function and the previously untreated return to full symmetry for alpha>1. This resolves the structural boundary of the source construction.",
+      "risks": [
+        "Generality is limited to Huang's sparse Marcinkiewicz scales."
+      ],
+      "sources": [
+        "https://arxiv.org/abs/2609.20270"
+      ],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-19",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disposition": "passed",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "No claim is made for genuinely oscillatory sequences outside the stated limit regimes.",
+    "Generality is limited to Huang's sparse Marcinkiewicz scales."
+  ],
+  "policy": "correctness-originality-scientific-value",
+  "previously_published_pending_reaudit": false,
+  "record_id": "SCOPE-20260919-d7fba80be965",
+  "review_type": "independent_audit",
+  "source_inspections": [
+    {
+      "inspection": "Complete 11-page primary full text inspected. It defines the same Marcinkiewicz construction for the power family with \\(0<\u0007lpha\\le1\\), proves the \\(\u0007lpha=1\\) values \\(\\Phi(f)=1-e^{-1}\\), \\(\\Phi(g)=1\\), and the \\(\u0007lpha=1/2\\) values \\(\\Phi(f)=0\\), \\(\\Phi(g)=1\\), but does not state the arbitrary-delta phase diagram or the alpha>1 fully symmetric regime.",
+      "url": "https://arxiv.org/abs/2609.20270"
+    },
+    {
+      "inspection": "Background source for logarithmic submajorization and power-integral monotonicity; no covering phase diagram identified.",
+      "url": "https://arxiv.org/abs/1910.10874"
+    }
+  ],
+  "verification_state": "independently_reviewed"
 }

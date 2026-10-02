@@ -1,1 +1,0 @@
-After crediting the earlier exact Rényi-2 magnitude theorem and Ogasawara's general absolute-moment series, the surviving result is a local Gaussian product-moment law: the first pair term is (1/2) sum alpha_i alpha_j rho_ij^2 and the first genuine three-way term is the signed triangle sum alpha_i alpha_j alpha_k rho_ij rho_ik rho_jk.
