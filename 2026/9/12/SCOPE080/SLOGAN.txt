@@ -1,1 +1,0 @@
-At the archived double-pendulum anchor, projected-Verlet shows large reproducible projection-induced energy drift; constant-force Verlet itself preserves H exactly, but the former uniform all-h/all-data lower-bound theorem is not certified by the available non-validated numerics.

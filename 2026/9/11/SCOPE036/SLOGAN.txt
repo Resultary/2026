@@ -1,2 +1,0 @@
-A 14-edge 3-uniform clutter on 9 vertices has the exact tuple (τ,ν,reg_Q)=(4,1,4): no 3-cover exists, every one of the 25 disjoint edge pairs contains a third edge in its union, and exhaustive Hochster homology over Q has top reduced homology dimension 3.
-The two H_3 witnesses are the full 9-vertex set and mask 383 = {0,1,2,3,4,5,6,8}; this is an explicit finite witness, with no extremality or minimality claim.
