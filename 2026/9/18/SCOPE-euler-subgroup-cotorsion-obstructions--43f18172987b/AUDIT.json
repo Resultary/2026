@@ -1,27 +1,97 @@
 {
+  "audited_at_utc": "2026-10-01T07:59:54.821020Z",
   "axes": {
     "correctness": {
-      "rationale": "Euler additivity gives the exact/Frobenius subgroup cut; the stable Ext formula proves ideal orthogonality; Euler-zero stabilizers give complete ideal approximations; long exact cohomology yields exact quotient-valued object obstructions; and the connecting-map identity gives the sharp total-Betti modulus threshold.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.18681"
+      ],
+      "rationale": "Euler additivity makes every subgroup cut extension closed; kernel/cokernel closure under split maps gives weak idempotent completeness. Splitting bounded vector-space complexes into cohomology plus contractibles yields the stated stable Ext formula. The test stalk pairs detect both ideal orthogonals, Euler-zero stabilizers prove the object-ideal equalities and complete ideal approximations, and the long exact sequence gives the two quotient-valued object obstructions. The total-Betti identity differs from additivity by twice the connecting-map rank, proving the exact modulus threshold \\(m\\in\\{1,2\\}\\).",
+      "residual_risks": [],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Qualified to the best of our knowledge. The H=2Z parity construction is prior work; targeted searches found no arbitrary-subgroup family, Z/H obstruction pair, all-residue realization, or classification of total-Betti extension closure by modulus.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "Broader sources listed in checked_sources were compared against the exact hypotheses, objects, and conclusions."
+        ],
+        "reasoning": "Known broader frameworks were separated from statements that actually imply the final claim.",
+        "searches": [
+          "Targeted primary-literature search for aliases, equivalent statements, reductions, stronger coverage and exact prior values",
+          "Published mathematical archive search for exact and synonymous formulations"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.18681",
+        "https://doi.org/10.1016/j.aim.2013.05.020"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The inspected prior results do not imply the complete final claim as a corollary, except for components explicitly credited as prior."
+        ],
+        "reasoning": "Prior ingredients were distinguished from the new implication assembled in the final claim.",
+        "searches": [
+          "Targeted primary-literature search for aliases, equivalent statements, reductions, stronger coverage and exact prior values",
+          "Published mathematical archive search for exact and synonymous formulations"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "No equivalent statement was located in the completed searches or inspected primary material."
+        ],
+        "reasoning": "The final claim was compared by implication and mathematical content, not by title matching.",
+        "searches": [
+          "Targeted primary-literature search for aliases, equivalent statements, reductions, stronger coverage and exact prior values",
+          "Published mathematical archive search for exact and synonymous formulations"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No exact database/table mechanically containing the final theorem was identified."
+        ],
+        "reasoning": "The final claim is theorem/proof content rather than a known-table lookup.",
+        "searches": [
+          "Targeted search for an exact published database or table containing the claimed invariant/formula"
+        ]
+      },
+      "rationale": "Ren--Wang's current v3 full text was inspected: it treats the even-total-cohomology category, its parity truncation criteria, and its idempotent completion, but contains no arbitrary Euler-subgroup formulation. The subgroup extension, the two \\(\\mathbb Z/H\\) obstruction coordinates, all-residue realization, and the all-modulus total-Betti closure classification are not implications stated in that source or in exact published-archive searches.",
+      "residual_risks": [
+        "Because the subgroup extension is elementary once Euler additivity is isolated, an equivalent observation could exist under terminology not surfaced by the searches."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Covers the parity case but not the arbitrary Euler-subgroup family or the all-modulus total-Betti classification.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.18681",
+          "material_read": "Current v3 introduction, construction, parity approximation criterion and idempotent-completion discussion.",
+          "method": "primary full text",
+          "title": "Ren and Wang, A parity obstruction to completeness of object cotorsion pairs",
+          "trigger": "Exact motivating category at the parity specialization."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result isolates Euler additivity as the general mechanism, proves that parity is uniquely compatible with total-Betti divisibility, and gives exact objectwise obstruction invariants across the whole subgroup family.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.18681",
+        "https://doi.org/10.1016/j.aim.2013.05.020"
+      ],
+      "rationale": "This is a natural classification rather than an arbitrary congruence slice: it identifies Euler characteristic as the invariant controlling the entire subgroup family, gives exact objectwise obstruction classes, and proves that parity is uniquely compatible with total-Betti divisibility. These statements organize and extend the motivating counterexample mechanism.",
+      "residual_risks": [
+        "Because the subgroup extension is elementary once Euler additivity is isolated, an equivalent observation could exist under terminology not surfaced by the searches."
+      ],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, formal verification, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-18",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disposition": "passed",
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": "Originality is limited to the arbitrary Euler-subgroup family, the two quotient-valued object obstructions, their completeness criterion and residue realization, and the sharp total-Betti modulus threshold. The construction is specific to bounded finite-dimensional complexes with the degreewise split exact structure.",
+  "previously_published_pending_reaudit": false,
+  "reproducibility": "The stable Ext decomposition, stalk-pair orthogonality tests, Euler-zero stabilization, obstruction criteria, universal witness and rank-one connecting-map counterexample for total-Betti modulus were re-derived from the definitions.",
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

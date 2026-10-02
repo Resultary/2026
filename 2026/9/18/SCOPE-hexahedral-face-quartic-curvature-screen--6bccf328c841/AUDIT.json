@@ -1,27 +1,101 @@
 {
+  "audited_at_utc": "2026-10-01T08:57:30Z",
   "axes": {
     "correctness": {
-      "rationale": "The reduced vertex value h=c-b^2/(4a) has h'=P/(4a^2). Its fourth derivative is nonpositive on a>0, implying a three-root stationary bound and concavity of h''. That concavity excludes two minimum-type sign crossings. At a stationary vertex the Hessian Schur complement yields det Hessian=P'/(2a). Exact symbolic checks verify these identities and a rational example attains three feasible stationary roots with only the middle root minimum-capable.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.19926"
+      ],
+      "rationale": "Along the positive-\\(a\\) vertex curve, direct symbolic elimination gives \\(h'=P/(4a^2)\\). Dividing the quadratic \\(b\\) by the affine \\(a\\) leaves a constant remainder \\(r\\) and yields \\(h^{(4)}=-6r^2a_1^4/a^5\\le0\\) (with the stated constant-\\(a\\) analogue). Repeated Rolle then bounds nondegenerate stationary roots, concavity of \\(h''\\) excludes two minimum-type crossings, and the Hessian Schur complement gives \\(\\det\\nabla^2f=P'/(2a)\\) at a stationary vertex. Independent symbolic reconstruction returned zero for all identities; the sharp example has three feasible stationary vertices with derivative signs \\(-18/25,9/25,-18/25\\).",
+      "residual_risks": [
+        "The sharpness example is algebraic and is not claimed to be geometrically realizable by a physical trilinear hexahedron."
+      ],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "The primary 2026 source derives the face quartic, allows up to four retained interior points, notes that some are saddles, and reports no concavity screening. It does not state the nonpositive fourth derivative, the three-root bound, uniqueness of the minimum-capable root, or the stationary Hessian-determinant formula. Searches of the recent source and related hexahedron-validation literature found no inspected prior coverage. Originality is only to the best of our knowledge.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "Zhang gives at most four retained roots and no concavity screen; older methods use different Bernstein/subdivision machinery."
+        ],
+        "reasoning": "No broader prior theorem was found that implies the one-minimum screen.",
+        "searches": [
+          "primary full-text inspection of Zhang Sections 4.4--6",
+          "search of Bernstein/subdivision hexahedron-validation literature"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.19926",
+        "https://arxiv.org/abs/1706.01613",
+        "https://doi.org/10.1145/3554920"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The quartic equation is prior, but the prior algorithm intentionally retains negative-curvature stationary points and does not derive the concavity consequence."
+        ],
+        "reasoning": "The new implication depends on a special fourth-derivative identity absent from the source algorithm.",
+        "searches": [
+          "comparison with Zhang Equation 24 and Algorithm 1"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "No earlier equivalent formulation was located."
+        ],
+        "reasoning": "The search compared the reduced rational vertex function and stationary-point implications, not just quartic-root terminology.",
+        "searches": [
+          "published mathematical archive semantic search for hexahedral quartic curvature screens",
+          "targeted search for concavity or Hessian tests in trilinear-hexahedron face minimization"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No exact database/table contains this structural theorem."
+        ],
+        "reasoning": "The result is a symbolic inequality and root-structure theorem.",
+        "searches": [
+          "search for tabulated face-polynomial stationary classifications"
+        ]
+      },
+      "rationale": "Zhang's primary paper derives the quartic \\(P\\), retains up to four feasible interior roots, and explicitly says some may be saddles; its implementation reports that no concavity screening is used. The inspected paper does not state the nonpositive fourth derivative, the three-root bound, uniqueness of the minimum-capable root, or the stationary determinant formula. Published-archive and hexahedral-validation searches located no earlier equivalent screen.",
+      "residual_risks": [
+        "The motivating preprint is extremely recent, so unindexed contemporaneous work remains possible."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Derives the quartic and retains up to four feasible interior candidates; does not state the curvature screen and explicitly reports no concavity screening.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.19926",
+          "material_read": "Pages 1--7, especially Sections 4.4--6 and Algorithm 1.",
+          "method": "primary full text",
+          "title": "Zhang, Validating Hexahedra through their Boundaries",
+          "trigger": "Exact source of the face quartic and candidate algorithm."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The theorem sharpens the exact candidate structure of a newly proposed hexahedral boundary-minimum algorithm: after quartic root isolation, at most one interior point per face needs minimum evaluation instead of up to four, with an exact simple-root curvature test and a correct multiple-root sign criterion.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.19926"
+      ],
+      "rationale": "The theorem is a motivated structural refinement of a newly proposed exact boundary-minimum algorithm: after the same quartic root isolation, it proves that at most one interior candidate can be minimum-capable and supplies an exact curvature test. This is a reusable theorem about the special face-polynomial class, not an arbitrary numerical slice.",
+      "residual_risks": [
+        "It reduces candidate evaluation rather than algebraic root-solving degree, so the practical speed gain is problem- and implementation-dependent."
+      ],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Same-model review: passed. Independent audit: not yet performed.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-18",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disposition": "repaired",
+  "historical_same_model_assessment": {
+    "correctness": "PASS",
+    "note": "The prior same-model assessment is retained as historical evidence and is not used as this independent audit's evidence.",
+    "originality": "PASS",
+    "value": "PASS"
+  },
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "policy": "correctness-originality-value",
+  "previously_published_pending_reaudit": false,
+  "record_id": "SCOPE-20260918-6bccf328c841",
+  "repair": "RESULT.md control-character repair only; all scientific statements were reassessed and passed C/O/V.",
+  "review_type": "independent_audit",
+  "verification_state": "independently_reviewed"
 }

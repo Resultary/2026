@@ -1,10 +1,54 @@
 {
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "previously_published_pending_reaudit": true,
+  "axes": {
+    "correctness": {
+      "reason": "A fresh independent construction of the 9460-by-9453 interpolation matrix over F_251 at the first stated ten-point specialization was eliminated through all 9453 columns with no missing pivot, proving full column rank. A nonzero 9453-minor mod 251 is a nonzero integer minor, hence the specialized characteristic-zero system has h^0=0; upper semicontinuity then gives emptiness for general points. The auxiliary shifted C source has an out-of-bounds falling-factorial stride bug, so that secondary log is removed and the source is repaired; it is not needed for the proof.",
+      "status": "PASS"
+    },
+    "originality": {
+      "reason": "Ciliberto-Miranda prove expected dimension only for d/m at least 174/55, Dumnicki proves the homogeneous Harbourne-Hirschowitz statement for multiplicities at most 42, and Petrakiev proves emptiness only below 2280/721. The ratio 136/43 lies strictly between sqrt(10) and 174/55 and is not implied by those results. Targeted Resultary and literature searches found no prior resolution of this exact cell.",
+      "status": "PASS"
+    },
+    "value": {
+      "reason": "This is the first homogeneous multiplicity-43 cell immediately beyond the published m<=42 range and the unique degree at m=43 in the narrow classical ten-point interpolation strip. It is a natural boundary instance of a long-standing interpolation problem, not an arbitrary finite slice.",
+      "status": "PASS"
+    }
+  },
+  "broader_coverage": "No inspected theorem covers this exact cell; neighboring published ranges stop on either side.",
+  "claim_vs_prior_implication": "Ciliberto-Miranda prove expected dimension only for d/m at least 174/55, Dumnicki proves the homogeneous Harbourne-Hirschowitz statement for multiplicities at most 42, and Petrakiev proves emptiness only below 2280/721. The ratio 136/43 lies strictly between sqrt(10) and 174/55 and is not implied by those results. Targeted Resultary and literature searches found no prior resolution of this exact cell.",
+  "equivalent_formulations": [
+    "Full-column interpolation rank at one rational specialization is equivalent to h^0=0 there; semicontinuity transfers this to general points."
+  ],
+  "exact_database_or_table": "No prior exact table for L(136;43^10) was located; novelty rests on comparison with explicit theorem ranges, not search failure.",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "previously_published_pending_reaudit": false,
   "record_id": "SCOPE-20260909-076",
-  "review_type": "independent_audit_pending",
+  "residual_risks": [
+    "Only the first full 9453-pivot specialization was independently completed in this audit. The repaired shifted program is retained as an optional cross-check and is not required for correctness."
+  ],
+  "review_type": "independent_audit",
   "schema_version": 1,
-  "verification_state": "awaiting_fresh_independent_audit"
+  "source_inspections": [
+    {
+      "implication": "does not cover 136/43, which is smaller",
+      "inspection": "Primary abstract/full-text search inspected; theorem covers d/m >= 174/55.",
+      "source": "Ciliberto-Miranda, Homogeneous interpolation on ten points, arXiv:0812.0032 / J. Algebraic Geometry 20 (2011)"
+    },
+    {
+      "implication": "m=43 is immediately outside the proved finite range",
+      "inspection": "Full theorem excerpt inspected. Theorem 32 proves the homogeneous Hirschowitz-Harbourne conjecture for multiplicities bounded by 42.",
+      "source": "Dumnicki, Cutting diagram method for systems of plane curves with base points, Ann. Polon. Math. 90 (2007)"
+    },
+    {
+      "implication": "does not cover 136/43",
+      "inspection": "Primary abstract/full text inspected; emptiness is proved for d/m < 2280/721.",
+      "source": "Petrakiev, Homogeneous Interpolation and Some Continued Fractions, arXiv:1211.6380"
+    },
+    {
+      "implication": "no database hit implying the exact cell; unsuccessful search alone is not used as novelty proof",
+      "inspection": "Targeted searches for the exact system and stronger ten-point homogeneous interpolation results returned the present record but no prior exact resolution of L(136;43^10).",
+      "source": "Resultary mathematical research search"
+    }
+  ]
 }

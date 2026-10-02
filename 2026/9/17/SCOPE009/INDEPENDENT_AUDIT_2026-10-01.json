@@ -1,0 +1,104 @@
+{
+  "audited_at_utc": "2026-10-01T07:11:00Z",
+  "axes": {
+    "correctness": {
+      "rationale": "The certificate principle follows from exact shell capacities and double-counting of edge-distance totals. A fresh bounded-composition enumeration independently reproduced every displayed \\(L\\) and \\(T\\) value for \\(d=7,8,9,10\\), including the tightest cases \\(909>896\\), \\(5770>5616\\), \\(8476>8460\\), and \\(12732>12540\\). Thus distinct admissible histograms cannot supply a resolving set at the excluded landmark sizes.",
+      "risks": [
+        "The archived package lacks the original local verifier files, but every displayed certificate number was independently recomputed from the mathematical definition.",
+        "Exact values of the four edge multiset dimensions remain open."
+      ],
+      "sources": [
+        "J. Allikvere, The edge multiset dimension of hypercubes, arXiv:2608.09983v1 (2026).",
+        "Resultary semantic search for edge multiset dimension of \\(Q_7,\\ldots,Q_{10}\\)."
+      ],
+      "verdict": "PASS"
+    },
+    "originality": {
+      "rationale": "Allikvere's full 2026 paper gives explicit resolving-set upper bounds 63, 115, 246, and 492 for \\(Q_7,\\ldots,Q_{10}\\), proves only \\(6\\le \\operatorname{edim}_m(Q_6)\\le15\\), and explicitly leaves exact minimum sizes open. Resultary search found the present \\(Q_7\\)–\\(Q_{10}\\) lower-bound record and the earlier \\(Q_6\\ge8\\) record, but no stronger published lower bounds implying these four \\(d+2\\) certificates.",
+      "risks": [
+        "The archived package lacks the original local verifier files, but every displayed certificate number was independently recomputed from the mathematical definition.",
+        "Exact values of the four edge multiset dimensions remain open."
+      ],
+      "sources": [
+        "J. Allikvere, The edge multiset dimension of hypercubes, arXiv:2608.09983v1 (2026).",
+        "Resultary semantic search for edge multiset dimension of \\(Q_7,\\ldots,Q_{10}\\)."
+      ],
+      "verdict": "PASS"
+    },
+    "value": {
+      "rationale": "These are exact lower-bound advances for the first finite hypercubes in a newly classified parameter, on a problem whose primary source explicitly leaves exact minima open. Four consecutive dimension-specific certificates are a motivated finite boundary contribution even though they do not determine the exact values.",
+      "risks": [
+        "The archived package lacks the original local verifier files, but every displayed certificate number was independently recomputed from the mathematical definition.",
+        "Exact values of the four edge multiset dimensions remain open."
+      ],
+      "sources": [
+        "J. Allikvere, The edge multiset dimension of hypercubes, arXiv:2608.09983v1 (2026).",
+        "Resultary semantic search for edge multiset dimension of \\(Q_7,\\ldots,Q_{10}\\)."
+      ],
+      "verdict": "PASS"
+    }
+  },
+  "broader_coverage": {
+    "evidence": "Allikvere classifies finiteness versus infiniteness for every hypercube dimension and gives explicit resolving sets through \\(d=10\\), but leaves exact finite dimensions open.",
+    "reasoning": "Existence and upper bounds do not imply the assigned lower bounds."
+  },
+  "checked_sources": [
+    "J. Allikvere, The edge multiset dimension of hypercubes, arXiv:2608.09983v1 (2026).",
+    "Resultary semantic search for edge multiset dimension of \\(Q_7,\\ldots,Q_{10}\\)."
+  ],
+  "claim_vs_prior_implication": {
+    "evidence": "The primary source's finite/infinite theorem proves only that resolving sets exist for \\(d\\ge6\\); it cannot imply any particular minimum above one. The new weighted-shell totals rule out all smaller landmark sizes through \\(d+1\\).",
+    "reasoning": "The assigned statement is a genuine strengthening of the quantitative lower bounds."
+  },
+  "disclaimer": "This independent audit assesses the mathematical claim and cited evidence; it is not peer review or formal verification.",
+  "equivalent_formulations": {
+    "evidence": "An edge-multiset resolving set is equivalent to assigning pairwise distinct edge-distance histograms. The weighted certificate is a lower bound on the total score of \\(E_d=d2^{d-1}\\) distinct capacity-bounded histograms.",
+    "reasoning": "This formulation turns nonexistence into a finite exact integer comparison \\(L>T\\)."
+  },
+  "exact_database_or_table": {
+    "evidence": "Allikvere Table 1 lists sizes 63, 115, 246, 492 for \\(Q_7,Q_8,Q_9,Q_{10}\\). Proposition 10 gives only the \\(Q_6\\) lower bound. No table entry supplies the new lower values 9, 10, 11, 12.",
+    "reasoning": "The assigned certificates sharpen the lower side of exactly those four open brackets."
+  },
+  "final_claim": "Weighted-histogram certificates for the edge multiset dimension of Q7–Q10",
+  "historical_scientific_assessment": {
+    "active_for_this_audit": false,
+    "axes": {
+      "correctness": {
+        "rationale": "Reported prior assessment; full reasoning and limitations in REVIEW.md.",
+        "verdict": "PASS"
+      },
+      "originality": {
+        "rationale": "Qualified to the best of our knowledge; full search scope and limitations in REVIEW.md.",
+        "verdict": "PASS"
+      },
+      "value": {
+        "rationale": "Reported prior assessment; full reasoning and limitations in REVIEW.md.",
+        "verdict": "PASS"
+      }
+    },
+    "status": "passed"
+  },
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "record_id": "SCOPE-20260917-009",
+  "residual_risks": [
+    "The archived package lacks the original local verifier files, but every displayed certificate number was independently recomputed from the mathematical definition.",
+    "Exact values of the four edge multiset dimensions remain open."
+  ],
+  "review_type": "independent_audit",
+  "schema_version": 2,
+  "source_inspections": [
+    {
+      "implication": "Does not imply the new \\(d+2\\) lower bounds.",
+      "inspection": "Primary full text inspected through the finite certificates and lower-bound section. It gives resolving sets of sizes 63, 115, 246, and 492 for \\(Q_7,\\ldots,Q_{10}\\), and only proves \\(6\\le \\operatorname{edim}_m(Q_6)\\le15\\); exact minima are left open.",
+      "source": "J. Allikvere, The edge multiset dimension of hypercubes, arXiv:2608.09983v1 (2026)."
+    },
+    {
+      "implication": "No published Resultary domination located.",
+      "inspection": "The current record and the earlier \\(Q_6\\ge8\\) certificate were the directly relevant hits; no stronger published lower-bound record was located.",
+      "source": "Resultary semantic search for edge multiset dimension of \\(Q_7,\\ldots,Q_{10}\\)."
+    }
+  ],
+  "verification_state": "independent_audit_passed"
+}

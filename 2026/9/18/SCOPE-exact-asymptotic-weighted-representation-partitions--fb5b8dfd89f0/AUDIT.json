@@ -1,27 +1,103 @@
 {
+  "audited_at_utc": "2026-10-01T07:59:54.821023Z",
   "axes": {
     "correctness": {
-      "rationale": "The source reduction gives an exact finite sign system and unique tail continuation. Its complement set simplifies to {0,...,Q}; the resulting boundary vector has limiting covariance k^{-2}(I+(k+2)J), while every free block has size (k-1)T/k^2+O_k(1). A parity-aware Rademacher local limit theorem, exponential tail control, and a multivariate CLT yield the stated Gaussian integral. The determinant and quadratic-form evaluation gives the closed-form constant. Exact finite counts agree with direct boundary enumeration in small cases and converge numerically to the predicted constants.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.20385",
+        "artifacts/verify_exact_counts.py",
+        "artifacts/verify_output.txt"
+      ],
+      "rationale": "The motivating paper's complete ten-page primary text was read and its Lemmas 2.1--2.6 and proof of Theorem 1.2 were checked against the record's starting reduction. The complement of the free residue blocks is exactly the initial interval through \\(Q\\); the normalized boundary vector has covariance \\(k^{-2}(I+(k+2)J)\\), while each independent residue block has asymptotic size \\((k-1)T/k^2\\). The parity-aware Rademacher local limit theorem plus exponential tails yields the Gaussian integral; its determinant and one-vector eigenvalue give exactly the stated constant and diffusive factor. The exact-count code's small direct checks and displayed convergence constants were also independently checked algebraically.",
+      "residual_risks": [
+        "The asymptotic proof is for fixed \\(k\\) and finite diffusive limit \\(c_T/\\sqrt T\\); no growing-\\(k\\) uniformity is claimed."
+      ],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Li--Xu--Yan arXiv:2609.20385v1 proves only order-of-magnitude bounds for fixed c. Full-text inspection and exact/synonymous searches found no prior explicit leading constant, asymptotic ratio, or diffusive c_T/sqrt(T) limit profile. Earlier weighted-representation papers checked address existence, structure, representation-value growth, or small-threshold formulas. The source is extremely recent, so unindexed contemporaneous work remains a residual risk.",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "Broader sources listed in checked_sources were compared against the exact hypotheses, objects, and conclusions."
+        ],
+        "reasoning": "Known broader frameworks were separated from statements that actually imply the final claim.",
+        "searches": [
+          "Targeted primary-literature search for aliases, equivalent statements, reductions, stronger coverage and exact prior values",
+          "Published mathematical archive search for exact and synonymous formulations"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.20385",
+        "https://doi.org/10.5802/crmath.573",
+        "https://doi.org/10.1007/s11139-025-01113-7"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The inspected prior results do not imply the complete final claim as a corollary, except for components explicitly credited as prior."
+        ],
+        "reasoning": "Prior ingredients were distinguished from the new implication assembled in the final claim.",
+        "searches": [
+          "Targeted primary-literature search for aliases, equivalent statements, reductions, stronger coverage and exact prior values",
+          "Published mathematical archive search for exact and synonymous formulations"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "No equivalent statement was located in the completed searches or inspected primary material."
+        ],
+        "reasoning": "The final claim was compared by implication and mathematical content, not by title matching.",
+        "searches": [
+          "Targeted primary-literature search for aliases, equivalent statements, reductions, stronger coverage and exact prior values",
+          "Published mathematical archive search for exact and synonymous formulations"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No exact database/table mechanically containing the final theorem was identified."
+        ],
+        "reasoning": "The final claim is theorem/proof content rather than a known-table lookup.",
+        "searches": [
+          "Targeted search for an exact published database or table containing the claimed invariant/formula"
+        ]
+      },
+      "rationale": "The complete Li--Xu--Yan v1 text proves only two-sided order-of-magnitude bounds for fixed offset and uses coarse central-binomial estimates. It does not state a leading constant, an asymptotic ratio, or a diffusive offset profile. The record's multivariate local-limit evaluation therefore is not mechanically implied by the published theorem alone, although it deliberately starts from the source's finite sign reduction. Exact published-archive searches returned no covering record.",
+      "residual_risks": [
+        "The motivating preprint is very recent, so concurrent refinements may be incompletely indexed."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Proves only order of magnitude for fixed offset; does not state the exact constant or diffusive profile.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.20385",
+          "material_read": "Complete ten-page v1, including Lemmas 2.1--2.6 and the full proof of Theorem 1.2.",
+          "method": "primary full text",
+          "title": "Li--Xu--Yan, A problem of Yang and Chen on weighted representation functions",
+          "trigger": "Exact finite sign reduction and prior order-of-magnitude theorem."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The theorem upgrades a new order-of-magnitude result to an exact asymptotic, identifies a closed-form universal fixed-offset constant, sharpens cross-weight comparison to an asymptotic ratio, supplies an exact constant for the Yan--Shan g_{k,m} family, and reveals an explicit Gaussian profile on the natural square-root offset scale.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.20385",
+        "https://doi.org/10.5802/crmath.573",
+        "https://doi.org/10.1007/s11139-025-01113-7"
+      ],
+      "rationale": "The theorem upgrades a newly proved order-of-magnitude count to an exact first-order asymptotic, determines a closed-form constant, sharpens comparison between weights to an asymptotic ratio, and reveals the natural Gaussian profile for diffusive offsets. These are useful exact invariants of the counting problem rather than a finite recomputation.",
+      "residual_risks": [
+        "The motivating preprint is very recent, so concurrent refinements may be incompletely indexed."
+      ],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Same-model review: passed. Independent audit: not yet performed.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-18",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disposition": "passed",
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": "The theorem keeps k fixed and treats integer offsets whose ratio to the square root of T has a finite real limit. No uniformity for growing k or larger-deviation offsets is claimed. The finite computation is supporting evidence, not a substitute for the analytic proof.",
+  "previously_published_pending_reaudit": false,
+  "reproducibility": "The complete source reduction was checked against the record; the covariance/determinant calculation reproduces constants 2.2776401389349665, 8.620181862007996 and 39.21490716676847 for k=2,3,4, matching the committed verification output.",
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

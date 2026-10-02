@@ -1,1 +1,0 @@
-Every infinite-dimensional affine algebra admits a finite-dimensional exhaustive filtration with divergent algebraic entropy. Thus zero algebraic entropy for every finite-dimensional filtration characterizes finite-dimensional algebras; the separate k[x] spectrum and linear-control repair are credited to the earlier same-day obstruction record.

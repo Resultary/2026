@@ -1,27 +1,109 @@
 {
+  "audited_at_utc": "2026-10-01T07:59:54.821021Z",
   "axes": {
     "correctness": {
-      "rationale": "The exact polar reduction gives the circular orbit, its transverse trace D, the weighted-divergence identity div(s^(gamma-1)F)=D s^(gamma-1), and an explicit first integral on D=0. These imply no surrounding invariant section curve for D!=0 and a center foliation for D=0; an admissible perturbative specialization directly contradicts the source's first correction to the claimed torus curve.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.18010",
+        "https://doi.org/10.3390/axioms14010008",
+        "artifacts/verify_obstruction.py"
+      ],
+      "rationale": "The polar reduction was re-derived directly. Symbolic differentiation independently gives both \\(\\operatorname{div}(s^{\\gamma-1}F)=D s^{\\gamma-1}\\) and \\(dH/dt=0\\) on \\(D=0\\). Weighted-area evolution excludes a compact invariant section curve when \\(D\\neq0\\); the positive Hessian at the amplitude equilibrium gives a center and nearby closed levels when \\(D=0\\). The current source abstract still asserts a unique Neimark--Sacker torus, while the older primary integrability paper independently supplies the relevant Hopf--Langford reduction/integrability context.",
+      "residual_risks": [
+        "The full 2026 source preprint was not obtainable through the available full-text routes in this run; its current primary abstract was read, so source-specific supplementary coefficient details beyond the exact structural contradiction retain an access risk."
+      ],
+      "status": "PASS"
     },
     "originality": {
-      "rationale": "Dimensional reduction and Hopf-Langford integrability are explicitly excluded from novelty and traced to prior literature. No located source applies the exact geometry to arXiv:2609.18010v1 to derive the source-specific no-torus/center-foliation correction or the explicit mismatch with its Eq. (7).",
-      "verdict": "PASS"
+      "broader_coverage": {
+        "evidence": [
+          "Broader sources listed in checked_sources were compared against the exact hypotheses, objects, and conclusions."
+        ],
+        "reasoning": "Known broader frameworks were separated from statements that actually imply the final claim.",
+        "searches": [
+          "Targeted primary-literature search for aliases, equivalent statements, reductions, stronger coverage and exact prior values",
+          "Published mathematical archive search for exact and synonymous formulations"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.18010",
+        "https://doi.org/10.3390/axioms14010008"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The inspected prior results do not imply the complete final claim as a corollary, except for components explicitly credited as prior."
+        ],
+        "reasoning": "Prior ingredients were distinguished from the new implication assembled in the final claim.",
+        "searches": [
+          "Targeted primary-literature search for aliases, equivalent statements, reductions, stronger coverage and exact prior values",
+          "Published mathematical archive search for exact and synonymous formulations"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "No equivalent statement was located in the completed searches or inspected primary material."
+        ],
+        "reasoning": "The final claim was compared by implication and mathematical content, not by title matching.",
+        "searches": [
+          "Targeted primary-literature search for aliases, equivalent statements, reductions, stronger coverage and exact prior values",
+          "Published mathematical archive search for exact and synonymous formulations"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No exact database/table mechanically containing the final theorem was identified."
+        ],
+        "reasoning": "The final claim is theorem/proof content rather than a known-table lookup.",
+        "searches": [
+          "Targeted search for an exact published database or table containing the claimed invariant/formula"
+        ]
+      },
+      "rationale": "The prior integrability paper covers a broader Hopf--Langford-type family and contains the neutral integrability mechanism, so that mechanism is explicitly treated as prior. It does not make the source-specific implication that the 2026 paper's claimed generic unique torus is impossible for the exact symmetric system. The current 2026 primary abstract still asserts such a unique surrounding torus, so the record's structural contradiction is not absorbed by that source.",
+      "residual_risks": [
+        "Full text of arXiv:2609.18010 was inaccessible in this run; only its current primary abstract and the record's exact system were independently compared."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "The asserted unique torus remains present at abstract level and conflicts with the exact amplitude dichotomy.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.18010",
+          "material_read": "Current abstract stating the unique invariant torus conclusion.",
+          "method": "current primary abstract; full-text retrieval attempted but unavailable",
+          "title": "Domingues, Torus Bifurcation in the Hopf-Langford type system through Averaging Theory",
+          "trigger": "Claim being structurally tested."
+        },
+        {
+          "assessment": "Covers integrability machinery but not the 2026 source-specific no-torus correction.",
+          "identifier_or_url": "https://doi.org/10.3390/axioms14010008",
+          "material_read": "Cylindrical reduction and first-integral sections, including the stated parameter conditions.",
+          "method": "publisher full text",
+          "title": "Vassilev and Nikolov, First and Second Integrals of Hopf--Langford-Type Systems",
+          "trigger": "Broader integrability mechanism."
+        }
+      ],
+      "status": "PASS"
     },
     "value": {
-      "rationale": "The result overturns the qualitative Neimark-Sacker conclusion of a very recent source for its stated symmetric model and replaces it with an exact local classification, while also identifying a theorem-hypothesis violation in the source's torus example.",
-      "verdict": "PASS"
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.18010",
+        "https://doi.org/10.3390/axioms14010008"
+      ],
+      "rationale": "The claim corrects the qualitative bifurcation picture of a current source by replacing a claimed generic Neimark--Sacker torus with an exact no-torus/center dichotomy. A source correction of this kind is mathematically consequential and the weighted-area/first-integral mechanism is reusable for the stated symmetric system.",
+      "residual_risks": [
+        "Full text of arXiv:2609.18010 was inaccessible in this run; only its current primary abstract and the record's exact system were independently compared."
+      ],
+      "status": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-18",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "disposition": "passed",
+  "evidence_files": [
+    "INDEPENDENT_AUDIT_2026-10-01.md",
+    "INDEPENDENT_AUDIT_2026-10-01.json"
+  ],
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": "The obstruction concerns smooth local tori in positive amplitude surrounding the circular orbit and transverse to the nonzero angular flow. It does not treat symmetry-breaking generalized systems, invariant sets touching the rotation axis, or beta=0. The reduction and neutral integrability mechanism are prior literature.",
+  "previously_published_pending_reaudit": false,
+  "reproducibility": "Independent symbolic algebra gave zero for the claimed first-integral derivative and zero for the difference between the weighted divergence and its stated formula; source-example arithmetic was treated as supporting rather than essential evidence.",
+  "schema_version": 1,
+  "verification_state": "independently_reviewed"
 }

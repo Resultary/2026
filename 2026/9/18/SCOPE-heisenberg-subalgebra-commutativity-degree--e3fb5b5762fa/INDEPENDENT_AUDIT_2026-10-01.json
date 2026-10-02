@@ -1,0 +1,105 @@
+{
+  "audited_at_utc": "2026-10-01T08:57:30Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.19086",
+        "published archive record SCOPE-20260917-8a9eab50ab21"
+      ],
+      "rationale": "The subalgebra classification was reconstructed from the central quotient: center-containing subalgebras are arbitrary inverse images of subspaces, while center-avoiding subalgebras are graphs of functionals over totally isotropic subspaces. For graph pairs the nonpermutability condition is exactly agreement of the functionals on the intersection together with nonorthogonality of the two isotropic spaces. Re-deriving the Möbius inversion count gives the displayed finite-sum formula. Independent exact evaluation reproduced the small-rank values, and a complete enumeration of the five-dimensional algebra over the two-element field reproduced 158 subalgebras, 18964 permutable ordered pairs, and 6000 nonpermutable ordered pairs.",
+      "residual_risks": [
+        "The exhaustive computation is finite evidence only; the all-rank theorem rests on the symplectic counting proof."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The primary paper asks for the family and proves rank one only; the earlier archive record proves rank two only."
+        ],
+        "reasoning": "Neither source supplies arbitrary-rank coverage before the audited record.",
+        "searches": [
+          "primary full-text inspection of arXiv:2609.19086",
+          "published archive search across all-rank Heisenberg and extraspecial variants"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.19086",
+        "published archive record SCOPE-20260917-8a9eab50ab21",
+        "published archive record SCOPE-20260920-b9894cdd2e29",
+        "https://arxiv.org/abs/1312.0296",
+        "https://doi.org/10.1016/j.jalgebra.2009.02.010"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "Prior work gives the invariant, rank one, Lazard transfer, and a rank-two special case, but does not imply the arbitrary-rank incidence sum or the phase transition."
+        ],
+        "reasoning": "The final all-rank statement requires a new isotropic-pair enumeration beyond the cited prior special cases.",
+        "searches": [
+          "comparison with Muhie--Otera--Russo Theorems 1.2 and 1.4",
+          "comparison with the 2026-09-17 rank-two archive result"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "The 2026-09-17 rank-two archive record is a strict special case; the 2026-09-20 all-rank archive record is later than the audited publication."
+        ],
+        "reasoning": "The comparison used implication and the symplectic pair-count formula rather than title matching.",
+        "searches": [
+          "published mathematical archive semantic search for Heisenberg subalgebra commutativity and extraspecial-group equivalents",
+          "targeted web search for extraspecial subgroup commutativity formulas"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No exact table or database containing the all-rank finite-field formula was found."
+        ],
+        "reasoning": "The claim is a symbolic all-rank enumeration and phase transition, not a finite table lookup.",
+        "searches": [
+          "search for tables or formulas of subgroup commutativity degrees of extraspecial groups"
+        ]
+      },
+      "rationale": "The primary Muhie--Otera--Russo paper explicitly asks for the values of the Heisenberg family and proves only the rank-one case. The earlier published archive record gives the rank-two closed formula and the graph criterion, but not the arbitrary-rank nonorthogonal-pair sum or the field-size phase transition. A later archive record from 2026-09-20 gives an equivalent all-rank formula, but it postdates this 2026-09-18 record and is not prior coverage. Searches of subgroup-commutativity literature did not locate an older extraspecial-group formula implying the full result.",
+      "residual_risks": [
+        "The 2009 general subgroup-commutativity paper was not inspected in complete full text; older extraspecial-subgroup-lattice computations could still encode an equivalent odd-prime specialization."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "The paper explicitly asks for the values for general Heisenberg rank but computes rank one only.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.19086",
+          "material_read": "Pages 1--12, including the introduction, Theorems 1.2 and 1.4, the rank-one Heisenberg proof and Lazard discussion.",
+          "method": "primary full text",
+          "title": "Muhie--Otera--Russo, On the number of modular pairs in finite dimensional Lie algebras on finite fields",
+          "trigger": "Primary source defining the invariant and posing the higher-Heisenberg problem."
+        },
+        {
+          "assessment": "Covers the five-dimensional special case and general subalgebra count, not the arbitrary-rank nonorthogonal incidence sum or phase transition.",
+          "identifier_or_url": "published archive record SCOPE-20260917-8a9eab50ab21",
+          "material_read": "Full result, proof, symplectic graph criterion and rank-two enumeration.",
+          "method": "complete record text",
+          "title": "Exact subalgebra commutativity degree of the five-dimensional Heisenberg algebra",
+          "trigger": "Closest earlier published record."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.19086",
+        "published archive record SCOPE-20260917-8a9eab50ab21"
+      ],
+      "rationale": "The result answers an explicitly posed natural family problem, gives a reusable symplectic incidence formula for every rank and finite field, and identifies a nontrivial large-field transition \\(0,0,5/9,1,\\ldots\\). That is a meaningful structural classification rather than a small numerical extension.",
+      "residual_risks": [
+        "The odd-prime group corollary is less intrinsically new than the Lie-algebra formula because classical extraspecial subgroup structure is well developed."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "limitations": "The formula concerns subalgebra permutability, not element commutativity. The rank-one case and Lazard transfer are prior work. Older subgroup-lattice literature on extraspecial groups remains a residual originality risk for the odd-prime group corollary.",
+  "record_id": "SCOPE-20260918-e3fb5b5762fa",
+  "record_title": "Exact subalgebra commutativity degree of finite Heisenberg Lie algebras",
+  "reproducibility": "The symplectic incidence formula was evaluated independently for several small ranks and fields, and the complete subalgebra lattice of the five-dimensional algebra over the two-element field was independently enumerated, reproducing 158 subalgebras and 6000 nonpermutable ordered pairs.",
+  "schema_version": 1,
+  "source_tree_sha": "589009e2484f81c3b26168054c70a54e48b45a9a"
+}

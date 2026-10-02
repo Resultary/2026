@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/18/SCOPE-exact-local-limit-weighted-representation-counts--4e870c1cf2eb",
   "resultary_record_key": "SCOPE-exact-local-limit-weighted-representation-counts--4e870c1cf2eb",
-  "source_commit": "a7cc69d784246a36eca421019db9c279a2c15a0e",
-  "source_commit_time": "2026-09-30T19:52:54Z",
+  "source_commit": "7d05a86627db950eaed23e27dda1a8f8ca75caf3",
+  "source_commit_time": "2026-10-02T09:37:48Z",
   "source_path": "2026/09/18/exact-local-limit-weighted-representation-counts--4e870c1cf2eb",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260918-4e870c1cf2eb",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-01T08:22:11Z",
+  "synced_at": "2026-10-02T09:39:11Z",
   "time_standard": "UTC"
 }

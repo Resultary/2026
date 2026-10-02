@@ -1,1 +1,0 @@
-At t=q=1/2, boundary blocks of the Kaad-Kyed/Kaad-Senior Dirac carry eigenvalues tending to -2/3 with multiplicity n+1, so the ordinary resolvent is non-compact and Tr(|D|^{-s}) diverges for every real s; this is an explicit corollary of known non-compactness, not a new dimension-spectrum theorem.

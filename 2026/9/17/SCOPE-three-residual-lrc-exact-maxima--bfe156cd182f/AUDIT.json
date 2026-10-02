@@ -1,30 +1,114 @@
 {
+  "audited_at_utc": "2026-10-01T07:11:00Z",
   "axes": {
     "correctness": {
-      "assessor": "same_model_reviewer",
-      "rationale": "The locality-one upper bounds are proved directly from coordinate-partition structure, the binary linear upper bound follows from the published three-block LP value, and all three attaining linear witnesses were exhaustively checked.",
+      "rationale": "The locality-one partition lemma is valid without linearity: coordinates with the same symbol-partition form classes of size at least three, the representative map is injective, and changing one class changes every coordinate in that class. This gives the binary size bound 16 and ternary size bound 9. Independently enumerating the displayed binary 14-coordinate generator reproduced 128 distinct codewords and minimum distance 4, while the certified three-block bound is strictly below 256, so the maximum linear dimension is 7.",
+      "risks": [
+        "The binary nonlinear maximum for parameters \\((14,4;2,2)\\) remains outside the claim.",
+        "Bibliographic records for some older construction sources were inspected less deeply than the full Kang–Xiong source; those sources are used only as acknowledged ingredients, not to establish novelty."
+      ],
+      "sources": [
+        "M.-H. Kang and M. Xiong, Linear Programming Bounds for Locally Recovery Codes II, arXiv:2609.16044v1 (2026).",
+        "Y. Xia and B. Chen, Complete Characterizations of Optimal Locally Repairable Codes With Locality 1 and K-1, IEEE Access 7 (2019).",
+        "Resultary semantic search for the three exact residual LRC rows."
+      ],
       "verdict": "PASS"
     },
     "originality": {
-      "assessor": "same_model_reviewer",
-      "rationale": "Qualified to the best of our knowledge. Prior construction ingredients are explicitly disclosed and not claimed as new; no inspected source states the combined exact closure of the three residual parameter rows.",
+      "rationale": "Kang–Xiong explicitly leave exactly these three rows outside Corollary V.2; their Table V.1 gives the needed upper bounds but not the exact residual conclusions. Xia–Chen's locality-one characterization and Yang et al.'s binary construction cover ingredients, not the combined nonlinear exact maxima or the residual closure. Resultary search returned this record as the matching exact closure and no stronger earlier published result.",
+      "risks": [
+        "The binary nonlinear maximum for parameters \\((14,4;2,2)\\) remains outside the claim.",
+        "Bibliographic records for some older construction sources were inspected less deeply than the full Kang–Xiong source; those sources are used only as acknowledged ingredients, not to establish novelty."
+      ],
+      "sources": [
+        "M.-H. Kang and M. Xiong, Linear Programming Bounds for Locally Recovery Codes II, arXiv:2609.16044v1 (2026).",
+        "Y. Xia and B. Chen, Complete Characterizations of Optimal Locally Repairable Codes With Locality 1 and K-1, IEEE Access 7 (2019).",
+        "Resultary semantic search for the three exact residual LRC rows."
+      ],
       "verdict": "PASS"
     },
     "value": {
-      "assessor": "same_model_reviewer",
-      "rationale": "The result removes all three exceptions in the recent exact linear-dimension table and strengthens two rows to exact maximum sizes for arbitrary codes.",
+      "rationale": "Closing all three named residual rows of a new finite-length LRC table is a natural completeness problem; two closures strengthen linear information to nonlinear maximum code size. This is a finite but motivated exact classification, not an arbitrary parameter slice.",
+      "risks": [
+        "The binary nonlinear maximum for parameters \\((14,4;2,2)\\) remains outside the claim.",
+        "Bibliographic records for some older construction sources were inspected less deeply than the full Kang–Xiong source; those sources are used only as acknowledged ingredients, not to establish novelty."
+      ],
+      "sources": [
+        "M.-H. Kang and M. Xiong, Linear Programming Bounds for Locally Recovery Codes II, arXiv:2609.16044v1 (2026).",
+        "Y. Xia and B. Chen, Complete Characterizations of Optimal Locally Repairable Codes With Locality 1 and K-1, IEEE Access 7 (2019).",
+        "Resultary semantic search for the three exact residual LRC rows."
+      ],
       "verdict": "PASS"
     }
   },
-  "disclaimer": "Not independent validation, peer review, or a guarantee of first discovery.",
-  "evidence_file": "REVIEW.md",
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "policy": "to-the-best-of-our-knowledge",
-  "previously_published_pending_reaudit": true,
-  "review_type": "same_model_review",
-  "reviewed_at": "2026-09-17",
-  "same_model_review_status": "passed",
-  "verification_state": "awaiting_fresh_independent_audit"
+  "broader_coverage": {
+    "evidence": "Kang–Xiong Table V.1 gives three-block LP upper bounds and Corollary V.2 explicitly excludes the three assigned rows from its exact linear-dimension conclusion.",
+    "reasoning": "The assigned theorem fills exactly those residual rows; the source does not dominate it."
+  },
+  "checked_sources": [
+    "M.-H. Kang and M. Xiong, Linear Programming Bounds for Locally Recovery Codes II, arXiv:2609.16044v1 (2026).",
+    "Y. Xia and B. Chen, Complete Characterizations of Optimal Locally Repairable Codes With Locality 1 and K-1, IEEE Access 7 (2019).",
+    "Resultary semantic search for the three exact residual LRC rows."
+  ],
+  "claim_vs_prior_implication": {
+    "evidence": "Xia–Chen covers optimal linear locality-one structure and earlier work supplies a binary \\([14,7,4;2]\\) witness, but neither gives the two nonlinear maxima or combines with the new LP upper bound to close all three rows.",
+    "reasoning": "Prior ingredients do not mechanically imply the final three-part claim without the additional partition argument and residual comparison."
+  },
+  "disclaimer": "This independent audit assesses the mathematical claim and cited evidence; it is not peer review or formal verification.",
+  "equivalent_formulations": {
+    "evidence": "For locality \\((1,3)\\), the recovery relation is a partition into repetition classes of size at least three; the code injects into the representative alphabet with weighted Hamming distance.",
+    "reasoning": "This converts the two nonlinear rows to short ordinary-code packing problems without assuming linearity."
+  },
+  "exact_database_or_table": {
+    "evidence": "Kang–Xiong Table V.1 has rows \\((2,14,4,2,2)\\), \\((2,15,5,1,3)\\), and \\((3,7,3,1,3)\\); the latter two have nonintegral size bounds above known constructions, and Corollary V.2 names all three as exceptions.",
+    "reasoning": "This is the precise table gap closed by the assigned record."
+  },
+  "final_claim": "Exact maxima for the three residual three-block LRC cases",
+  "historical_scientific_assessment": {
+    "active_for_this_audit": false,
+    "axes": {
+      "correctness": {
+        "rationale": "The locality-one upper bounds are proved directly from coordinate-partition structure, the binary linear upper bound follows from the published three-block LP value, and all three attaining linear witnesses were exhaustively checked.",
+        "verdict": "PASS"
+      },
+      "originality": {
+        "rationale": "Qualified to the best of our knowledge. Prior construction ingredients are explicitly disclosed and not claimed as new; no inspected source states the combined exact closure of the three residual parameter rows.",
+        "verdict": "PASS"
+      },
+      "value": {
+        "rationale": "The result removes all three exceptions in the recent exact linear-dimension table and strengthens two rows to exact maximum sizes for arbitrary codes.",
+        "verdict": "PASS"
+      }
+    },
+    "status": "passed"
+  },
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "previously_published_pending_reaudit": false,
+  "record_id": "SCOPE-20260917-bfe156cd182f",
+  "residual_risks": [
+    "The binary nonlinear maximum for parameters \\((14,4;2,2)\\) remains outside the claim.",
+    "Bibliographic records for some older construction sources were inspected less deeply than the full Kang–Xiong source; those sources are used only as acknowledged ingredients, not to establish novelty."
+  ],
+  "review_type": "independent_audit",
+  "schema_version": 2,
+  "source_inspections": [
+    {
+      "implication": "The paper supplies the upper bounds but leaves the three residual exact maxima/dimensions unresolved.",
+      "inspection": "Full text inspected, especially Table V.1 and Corollary V.2. The three assigned parameter rows are exactly the exceptions left outside the paper's exact linear-dimension conclusion.",
+      "source": "M.-H. Kang and M. Xiong, Linear Programming Bounds for Locally Recovery Codes II, arXiv:2609.16044v1 (2026)."
+    },
+    {
+      "implication": "Covers linear locality-one construction context, not the nonlinear residual maxima proved here.",
+      "inspection": "Bibliographic record and the assigned paper's disclosed use were compared.",
+      "source": "Y. Xia and B. Chen, Complete Characterizations of Optimal Locally Repairable Codes With Locality 1 and K-1, IEEE Access 7 (2019)."
+    },
+    {
+      "implication": "No published Resultary coverage located; search failure is not used alone as novelty proof.",
+      "inspection": "Search returned the assigned closure as the direct hit and no stronger earlier record implying all three conclusions.",
+      "source": "Resultary semantic search for the three exact residual LRC rows."
+    }
+  ],
+  "verification_state": "independent_audit_passed"
 }

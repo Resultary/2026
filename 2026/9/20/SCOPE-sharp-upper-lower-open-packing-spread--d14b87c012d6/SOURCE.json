@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/20/SCOPE-sharp-upper-lower-open-packing-spread--d14b87c012d6",
   "resultary_record_key": "SCOPE-sharp-upper-lower-open-packing-spread--d14b87c012d6",
-  "source_commit": "a7cc69d784246a36eca421019db9c279a2c15a0e",
-  "source_commit_time": "2026-09-30T19:52:54Z",
+  "source_commit": "87a27c3d7737bd826dc41ad002ef201cd2b4cae7",
+  "source_commit_time": "2026-10-02T09:37:47Z",
   "source_path": "2026/09/20/sharp-upper-lower-open-packing-spread--d14b87c012d6",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260920-d14b87c012d6",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-01T08:22:11Z",
+  "synced_at": "2026-10-02T09:39:11Z",
   "time_standard": "UTC"
 }

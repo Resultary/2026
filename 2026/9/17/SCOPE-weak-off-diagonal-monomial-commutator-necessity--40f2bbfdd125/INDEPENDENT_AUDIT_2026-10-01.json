@@ -1,0 +1,113 @@
+{
+  "audited_at_utc": "2026-10-01T07:11:00Z",
+  "axes": {
+    "correctness": {
+      "rationale": "Li–Zeng's full proof supplies the all-dimensional companion-cube geometry, Jacobian normalization, error absorption, and a finite logarithmic average of commutator outputs. For \\(1<q<\\infty\\), the Marcinkiewicz norm \\(\\sup_E |E|^{-1/q'}\\int_E|F|\\) is a Banach norm equivalent to weak \\(L^q\\), so Minkowski remains valid. Replacing only the final \\(L^p\\) output norm therefore gives \\(m_Q|Q|^{1/q}\\lesssim \\|[b,H_\\gamma]\\|_{L^p\\to L^{q,\\infty}}|Q|^{1/p}\\), exactly the stated Campanato scaling; the complementary-major-subset case uses Li–Zeng's bounded mean-zero test function unchanged.",
+      "risks": [
+        "The argument inherits Li–Zeng's asserted extension of the companion-cube geometry from the detailed three-dimensional proof to arbitrary dimension.",
+        "The Li–Zeng preprint is very recent, so contemporaneous unindexed observations remain possible."
+      ],
+      "sources": [
+        "K. Li and Y. Zeng, Curved commutators in higher dimensions, arXiv:2609.18613v1 (2026).",
+        "T. Oikari, On the Lp-to-Lq boundedness and compactness of commutators along monomial curves, arXiv:2304.00621v2 (2023).",
+        "Resultary and current web searches for higher-dimensional weak off-diagonal monomial-curve commutator necessity."
+      ],
+      "verdict": "PASS"
+    },
+    "originality": {
+      "rationale": "Oikari's full 2023 paper proves all-dimensional off-diagonal sufficiency but explicitly restricts necessity to the plane and asks in Question 1.22 for higher-dimensional necessity. Li–Zeng's 2026 theorem proves only diagonal \\(L^p\\to L^p\\) necessity in all dimensions. Resultary and web searches found no prior all-dimensional weak-\\(L^q\\) necessity statement. The new statement is therefore not implied by either source alone.",
+      "risks": [
+        "The argument inherits Li–Zeng's asserted extension of the companion-cube geometry from the detailed three-dimensional proof to arbitrary dimension.",
+        "The Li–Zeng preprint is very recent, so contemporaneous unindexed observations remain possible."
+      ],
+      "sources": [
+        "K. Li and Y. Zeng, Curved commutators in higher dimensions, arXiv:2609.18613v1 (2026).",
+        "T. Oikari, On the Lp-to-Lq boundedness and compactness of commutators along monomial curves, arXiv:2304.00621v2 (2023).",
+        "Resultary and current web searches for higher-dimensional weak off-diagonal monomial-curve commutator necessity."
+      ],
+      "verdict": "PASS"
+    },
+    "value": {
+      "rationale": "The theorem settles the boundedness-necessity side of Oikari's explicit higher-dimensional question in the known sufficiency region and strengthens the target from strong to weak \\(L^q\\). This is a motivated structural extension with a clean function-space consequence.",
+      "risks": [
+        "The argument inherits Li–Zeng's asserted extension of the companion-cube geometry from the detailed three-dimensional proof to arbitrary dimension.",
+        "The Li–Zeng preprint is very recent, so contemporaneous unindexed observations remain possible."
+      ],
+      "sources": [
+        "K. Li and Y. Zeng, Curved commutators in higher dimensions, arXiv:2609.18613v1 (2026).",
+        "T. Oikari, On the Lp-to-Lq boundedness and compactness of commutators along monomial curves, arXiv:2304.00621v2 (2023).",
+        "Resultary and current web searches for higher-dimensional weak off-diagonal monomial-curve commutator necessity."
+      ],
+      "verdict": "PASS"
+    }
+  },
+  "broader_coverage": {
+    "evidence": "Oikari proves all-dimensional strong off-diagonal sufficiency; Li–Zeng proves all-dimensional diagonal necessity. Neither covers all-dimensional off-diagonal necessity.",
+    "reasoning": "The assigned theorem crosses the missing implication and additionally allows a weak target."
+  },
+  "checked_sources": [
+    "K. Li and Y. Zeng, Curved commutators in higher dimensions, arXiv:2609.18613v1 (2026).",
+    "T. Oikari, On the Lp-to-Lq boundedness and compactness of commutators along monomial curves, arXiv:2304.00621v2 (2023).",
+    "Resultary and current web searches for higher-dimensional weak off-diagonal monomial-curve commutator necessity."
+  ],
+  "claim_vs_prior_implication": {
+    "evidence": "Oikari's full text says necessity is restricted to \\(n=2\\) and Question 1.22 asks for \\(n\\ge3\\); Li–Zeng's theorem assumes \\(L^p\to L^p\\).",
+    "reasoning": "The prior results do not imply \\(L^p\to L^{q,\\infty}\\) necessity when \\(q>p\\)."
+  },
+  "disclaimer": "This independent audit assesses the mathematical claim and cited evidence; it is not peer review or formal verification.",
+  "equivalent_formulations": {
+    "evidence": "Weak \\(L^q\\) is used through the equivalent Marcinkiewicz norm \\(\\sup_E |E|^{-1/q'}\\int_E|F|\\), making the last Li–Zeng Minkowski step a genuine norm estimate.",
+    "reasoning": "The theorem is an off-diagonal Campanato necessity statement, not a renaming of diagonal BMO necessity."
+  },
+  "exact_database_or_table": {
+    "evidence": "No finite database/table is germane. The exact comparison is theorem-level: Oikari Theorem 1.10 and Question 1.22 versus Li–Zeng Theorem 1.2.",
+    "reasoning": "Statement implication, rather than parameter matching, decides coverage."
+  },
+  "final_claim": "Weak off-diagonal necessity for monomial-curve commutators in every dimension",
+  "historical_scientific_assessment": {
+    "active_for_this_audit": false,
+    "axes": {
+      "correctness": {
+        "rationale": "Li--Zeng's companion-cube decomposition reduces the mean oscillation on a gamma-cube to finitely many logarithmic averages of commutator outputs on translated indicator functions, or on a bounded mean-zero substitute. The normalization is comparable to the cube volume in every dimension. Replacing the final strong norm by the equivalent associate norm of weak L^q preserves Minkowski and gives m_Q |Q|^(1/q) bounded by the weak operator norm times |Q|^(1/p), exactly yielding the BMO^{gamma,alpha} scaling.",
+        "verdict": "PASS"
+      },
+      "originality": {
+        "rationale": "Qualified to the best of our knowledge. Li--Zeng's September 2026 theorem is diagonal L^p-to-L^p. Oikari's 2023 off-diagonal paper proves sufficiency in all dimensions but restricts necessity to the plane and explicitly asks for higher-dimensional necessity. Searches found no all-dimensional L^p-to-weak-L^q necessity statement. The source preprint is very recent, so contemporaneous unindexed coverage remains a residual risk.",
+        "verdict": "PASS"
+      },
+      "value": {
+        "rationale": "The theorem extends off-diagonal necessity from the plane to every dimension and strengthens the target to weak L^q. Together with the known strong sufficiency range, it yields an all-dimensional equivalence between the Campanato condition, strong boundedness, and weak boundedness in that range.",
+        "verdict": "PASS"
+      }
+    },
+    "status": "passed"
+  },
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "record_id": "SCOPE-20260917-40f2bbfdd125",
+  "residual_risks": [
+    "The argument inherits Li–Zeng's asserted extension of the companion-cube geometry from the detailed three-dimensional proof to arbitrary dimension.",
+    "The Li–Zeng preprint is very recent, so contemporaneous unindexed observations remain possible."
+  ],
+  "review_type": "independent_audit",
+  "schema_version": 2,
+  "source_inspections": [
+    {
+      "implication": "Supplies the geometric engine but not off-diagonal or weak-target necessity.",
+      "inspection": "Complete nine-page full text inspected. Theorem 1.2 is diagonal strong \\(L^p\\to L^p\\); Sections 2–3 provide the companion-cube/Jacobian/telescoping argument, and Remark 2.4 states the geometry extends to higher dimensions.",
+      "source": "K. Li and Y. Zeng, Curved commutators in higher dimensions, arXiv:2609.18613v1 (2026)."
+    },
+    {
+      "implication": "The assigned theorem answers a stated gap rather than restating Oikari.",
+      "inspection": "Primary full text inspected through the main theorem and Question 1.22. Off-diagonal sufficiency is all-dimensional, necessity is restricted to the plane, and Question 1.22 asks for higher-dimensional necessity.",
+      "source": "T. Oikari, On the Lp-to-Lq boundedness and compactness of commutators along monomial curves, arXiv:2304.00621v2 (2023)."
+    },
+    {
+      "implication": "No covering result found; this is supporting evidence, not a novelty proof by itself.",
+      "inspection": "No independent published statement matching \\(L^p\\to L^{q,\\infty}\\) necessity in all dimensions was located.",
+      "source": "Resultary and current web searches for higher-dimensional weak off-diagonal monomial-curve commutator necessity."
+    }
+  ],
+  "verification_state": "independent_audit_passed"
+}

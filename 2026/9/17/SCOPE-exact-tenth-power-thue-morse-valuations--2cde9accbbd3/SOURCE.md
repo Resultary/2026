@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20260917-2cde9accbbd3`](https://github.com/SCOPE-Science/SCOPE2026/tree/a7cc69d784246a36eca421019db9c279a2c15a0e/2026/09/17/exact-tenth-power-thue-morse-valuations--2cde9accbbd3)
+Original record: [`SCOPE-20260917-2cde9accbbd3`](https://github.com/SCOPE-Science/SCOPE2026/tree/21924469783345930e931e49334baa4ecf604406/2026/09/17/exact-tenth-power-thue-morse-valuations--2cde9accbbd3)
 
 Imported into Resultary as `2026/9/17/SCOPE-exact-tenth-power-thue-morse-valuations--2cde9accbbd3`. The finding, audit, and attached artifacts remain attributable to SCOPE.

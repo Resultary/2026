@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/20/SCOPE-inner-shear-derivations-free-associative-plane--9f640016dfca",
   "resultary_record_key": "SCOPE-inner-shear-derivations-free-associative-plane--9f640016dfca",
-  "source_commit": "a7cc69d784246a36eca421019db9c279a2c15a0e",
-  "source_commit_time": "2026-09-30T19:52:54Z",
+  "source_commit": "baf54f57526ce406f5fda6d19e213b1d8163c459",
+  "source_commit_time": "2026-10-02T09:37:47Z",
   "source_path": "2026/09/20/inner-shear-derivations-free-associative-plane--9f640016dfca",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260920-9f640016dfca",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-01T08:22:11Z",
+  "synced_at": "2026-10-02T09:39:11Z",
   "time_standard": "UTC"
 }

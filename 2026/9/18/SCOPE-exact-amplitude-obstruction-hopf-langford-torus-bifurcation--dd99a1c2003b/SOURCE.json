@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/9/18/SCOPE-exact-amplitude-obstruction-hopf-langford-torus-bifurcation--dd99a1c2003b",
   "resultary_record_key": "SCOPE-exact-amplitude-obstruction-hopf-langford-torus-bifurcation--dd99a1c2003b",
-  "source_commit": "a7cc69d784246a36eca421019db9c279a2c15a0e",
-  "source_commit_time": "2026-09-30T19:52:54Z",
+  "source_commit": "34f10a34b38b03a3b732b17db26d20ffa979e9db",
+  "source_commit_time": "2026-10-02T09:37:46Z",
   "source_path": "2026/09/18/exact-amplitude-obstruction-hopf-langford-torus-bifurcation--dd99a1c2003b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20260918-dd99a1c2003b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-01T08:22:11Z",
+  "synced_at": "2026-10-02T09:39:11Z",
   "time_standard": "UTC"
 }

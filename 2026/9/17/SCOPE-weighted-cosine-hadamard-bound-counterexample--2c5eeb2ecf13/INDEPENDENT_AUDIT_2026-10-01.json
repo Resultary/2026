@@ -1,0 +1,113 @@
+{
+  "audited_at_utc": "2026-10-01T07:11:00Z",
+  "axes": {
+    "correctness": {
+      "rationale": "Independent exact rational arithmetic reproduces the dimension-three value \\(197/40\\), effective dimension \\(13/7\\), and positive gap \\(41/520\\). The displayed factorization has positive denominator and positive cubic factor for \\(t\\ge3/2\\), giving a robust family. The order-four embedding gives gap \\(13/40\\). The dimension-two proof is sound: both normalized-frame Gram matrices have trace two, their traceless parts have norm controlled by \\((a-b)/(a+b)\\), and Frobenius Cauchy–Schwarz yields the conjectured \\(4/\\gamma\\) bound.",
+      "risks": [
+        "The primary arXiv PDF for arXiv:2609.17947v1 was not obtainable through the lawful full-text routes checked in this audit; the current abstract and a public record quoting Appendix A were inspected instead.",
+        "No classification of global maximizers for \\(n\\ge3\\) follows from the counterexample."
+      ],
+      "sources": [
+        "T. Loe, L. Huang, D. Needell, A Geometric View of Adaptive Cross Approximation via Exterior Algebra, arXiv:2609.17947v1 (2026).",
+        "Public problem record for the weighted-cosine Frobenius norm conjecture, updated from arXiv:2609.17947 Appendix A.",
+        "Resultary semantic search for the exact weighted-cosine/Hadamard counterexample."
+      ],
+      "verdict": "PASS"
+    },
+    "originality": {
+      "rationale": "The source arXiv record is still v1 and its abstract confirms the same weighted-cosine/ACA framework; a current public problem record quotes Appendix A as explicitly conjecturing this global upper bound without proof. Resultary search found no competing counterexample, robust family, or minimal-dimension theorem. The primary PDF itself was unavailable through the lawful full-text routes checked in this audit, so contemporaneous corrections remain a residual risk rather than evidence of coverage.",
+      "risks": [
+        "The primary arXiv PDF for arXiv:2609.17947v1 was not obtainable through the lawful full-text routes checked in this audit; the current abstract and a public record quoting Appendix A were inspected instead.",
+        "No classification of global maximizers for \\(n\\ge3\\) follows from the counterexample."
+      ],
+      "sources": [
+        "T. Loe, L. Huang, D. Needell, A Geometric View of Adaptive Cross Approximation via Exterior Algebra, arXiv:2609.17947v1 (2026).",
+        "Public problem record for the weighted-cosine Frobenius norm conjecture, updated from arXiv:2609.17947 Appendix A.",
+        "Resultary semantic search for the exact weighted-cosine/Hadamard counterexample."
+      ],
+      "verdict": "PASS"
+    },
+    "value": {
+      "rationale": "An exact minimal-dimension counterexample to an explicit current structural conjecture, together with an open family and a Hadamard-order violation, materially changes the proposed extremal picture. The result identifies a genuine boundary rather than a one-off numerical discrepancy.",
+      "risks": [
+        "The primary arXiv PDF for arXiv:2609.17947v1 was not obtainable through the lawful full-text routes checked in this audit; the current abstract and a public record quoting Appendix A were inspected instead.",
+        "No classification of global maximizers for \\(n\\ge3\\) follows from the counterexample."
+      ],
+      "sources": [
+        "T. Loe, L. Huang, D. Needell, A Geometric View of Adaptive Cross Approximation via Exterior Algebra, arXiv:2609.17947v1 (2026).",
+        "Public problem record for the weighted-cosine Frobenius norm conjecture, updated from arXiv:2609.17947 Appendix A.",
+        "Resultary semantic search for the exact weighted-cosine/Hadamard counterexample."
+      ],
+      "verdict": "PASS"
+    }
+  },
+  "broader_coverage": {
+    "evidence": "The current source framework proves other exterior-algebraic and weighted-cosine statements but publicly records the global upper bound as conjectural; classical Benedetto–Fickus theory gives tight-frame minima rather than this upper extremum.",
+    "reasoning": "No broader theorem located implies or precludes the explicit counterexample."
+  },
+  "checked_sources": [
+    "T. Loe, L. Huang, D. Needell, A Geometric View of Adaptive Cross Approximation via Exterior Algebra, arXiv:2609.17947v1 (2026).",
+    "Public problem record for the weighted-cosine Frobenius norm conjecture, updated from arXiv:2609.17947 Appendix A.",
+    "Resultary semantic search for the exact weighted-cosine/Hadamard counterexample."
+  ],
+  "claim_vs_prior_implication": {
+    "evidence": "The source conjecture predicts \\(\\|C_\\Sigma(U,V)\\|_F^2\\le n^2/\\gamma\\); the displayed \\(n=3\\) example has \\(197/40-63/13=41/520>0\\).",
+    "reasoning": "This is a logical disproof, while the \\(n\\le2\\) argument establishes minimality independently."
+  },
+  "disclaimer": "This independent audit assesses the mathematical claim and cited evidence; it is not peer review or formal verification.",
+  "equivalent_formulations": {
+    "evidence": "For \\(U=V\\), the weighted-cosine matrix is the correlation Gram matrix of the positive definite matrix \\(U\\Sigma U^\top\\), so the counterexample is equivalently an excessive normalized frame potential.",
+    "reasoning": "This translation was checked against classical frame-potential theory, which concerns minimization and does not impose the conjectured spectrum-dependent upper bound."
+  },
+  "exact_database_or_table": {
+    "evidence": "The exact source locus is Appendix A of arXiv:2609.17947v1 as quoted in the current public problem record; no later arXiv version or erratum was located.",
+    "reasoning": "The assigned gap \\(41/520\\) directly contradicts that precise conjectural inequality."
+  },
+  "final_claim": "A dimension-three counterexample to the weighted-cosine Hadamard bound",
+  "historical_scientific_assessment": {
+    "active_for_this_audit": false,
+    "axes": {
+      "correctness": {
+        "rationale": "The explicit three-dimensional orthogonal frame gives weighted-cosine Frobenius square 197/40 against conjectured bound 63/13, an exact positive gap 41/520. A symbolic factorization proves a continuum of violations for spectra diag(t,1,t^-1) with t>=3/2; an embedded order-four example gives gap 13/40. A separate determinant-and-trace argument proves the conjectured inequality for every real orthogonal pair in dimensions one and two. The included exact-symbolic artifact checks the algebraic identities.",
+        "verdict": "PASS"
+      },
+      "originality": {
+        "rationale": "The September 2026 source manuscript states the upper bound as a numerically suggested conjecture and currently lists only arXiv v1. No located erratum, comment, or literature source gives this counterexample, robust family, order-four violation, or minimal-dimension theorem. Classical frame-potential results concern minimization rather than this spectrum-dependent upper bound, and the claim is explicitly limited to the best of our knowledge.",
+        "verdict": "PASS"
+      },
+      "value": {
+        "rationale": "The result refutes an explicit structural conjecture in a current numerical-analysis framework for ACA, shows the failure is robust rather than exceptional, establishes the exact first possible dimension, and demonstrates failure even at an order admitting real Hadamard matrices. It therefore constrains any corrected theory of weighted singular-vector coherence and Hadamard extremality.",
+        "verdict": "PASS"
+      }
+    },
+    "status": "passed"
+  },
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "record_id": "SCOPE-20260917-2c5eeb2ecf13",
+  "residual_risks": [
+    "The primary arXiv PDF for arXiv:2609.17947v1 was not obtainable through the lawful full-text routes checked in this audit; the current abstract and a public record quoting Appendix A were inspected instead.",
+    "No classification of global maximizers for \\(n\\ge3\\) follows from the counterexample."
+  ],
+  "review_type": "independent_audit",
+  "schema_version": 2,
+  "source_inspections": [
+    {
+      "implication": "Confirms the source framework; full-text unavailability is retained as an originality risk.",
+      "inspection": "Current arXiv abstract and bibliographic record inspected. Full primary PDF could not be obtained through the lawful full-text routes used in this audit.",
+      "source": "T. Loe, L. Huang, D. Needell, A Geometric View of Adaptive Cross Approximation via Exterior Algebra, arXiv:2609.17947v1 (2026)."
+    },
+    {
+      "implication": "The assigned exact example directly falsifies the stated conjecture.",
+      "inspection": "The public record quotes Appendix A as proposing \\(\\|C_\\Sigma(U,V)\\|_F^2\\le n^2/\\gamma\\) as a numerical conjecture with no proof.",
+      "source": "Public problem record for the weighted-cosine Frobenius norm conjecture, updated from arXiv:2609.17947 Appendix A."
+    },
+    {
+      "implication": "No covering result found; contemporaneous unindexed work remains possible.",
+      "inspection": "Only the assigned counterexample appeared as a matching published mathematical record; no later correction or stronger counterexample was located.",
+      "source": "Resultary semantic search for the exact weighted-cosine/Hadamard counterexample."
+    }
+  ],
+  "verification_state": "independent_audit_passed"
+}

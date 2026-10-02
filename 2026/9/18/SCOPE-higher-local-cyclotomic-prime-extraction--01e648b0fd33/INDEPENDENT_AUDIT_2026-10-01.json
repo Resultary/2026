@@ -1,0 +1,103 @@
+{
+  "audited_at_utc": "2026-10-01T08:57:30Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.18480",
+        "published archive record SCOPE-20260918-08dfc55c58fd"
+      ],
+      "rationale": "Splitting the squarefree cyclotomic Möbius product at the recovered prefix leaves a residual whose unique smallest remaining divisor is the next prime \\(q\\); its first nonzero local term has valuation \\(q\\nu_\\ell(x)\\). The wrong sign branch differs at the baseline local scale, giving the sign-free odd-prime pair. In the binary odd-squarefree case the known least-prime valuation supplies the wrong-branch baseline \\(p_1+1\\). Independent exact-integer checks verified 53 odd-local prefix cases and the complete binary recursion on 20 odd squarefree indices below 160.",
+      "residual_risks": [
+        "The full text of the very recent Shunia preprint could not be obtained through the attempted lawful routes; only its abstract/metadata and the formulas quoted and compared in the published archive material were available."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "The broader normalized-residual theorem handles arbitrary indices under a sign-recovery hypothesis but leaves squarefree base two outside that hypothesis."
+        ],
+        "reasoning": "Broader parameter coverage does not dominate the audited odd-squarefree binary conclusion because it omits the exact sign-resolution mechanism.",
+        "searches": [
+          "complete comparison with SCOPE-20260918-08dfc55c58fd",
+          "primary abstract comparison with arXiv:2609.18480"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.18480",
+        "published archive record SCOPE-20260918-08dfc55c58fd",
+        "https://arxiv.org/abs/1903.01962"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The signed residual identity is a special case of the same-day broader archive theorem, but the complete final claim additionally proves how to identify the correct branch without the Möbius sign in the squarefree binary regime."
+        ],
+        "reasoning": "That missing orientation step is exactly the regime the broader archive theorem lists as outside its sign-recovery hypothesis.",
+        "searches": [
+          "comparison of the signed residual theorem with the sign-free pair and binary baseline",
+          "comparison with Shunia's advertised least-prime and logarithmic peeling mechanisms"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "A same-day archive record covers the signed normalized residual but explicitly excludes binary squarefree sign recovery; later 2026-09-19 records give complete 2-adic peeling and therefore postdate the audited result."
+        ],
+        "reasoning": "The final claim was split into the covered signed identity and the additional sign-free recursion before judging implication.",
+        "searches": [
+          "published mathematical archive semantic search for squarefree binary local cyclotomic peeling and normalized residuals",
+          "targeted web search for Shunia's extractor and p-adic residual formulations"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No exact database/table was found that mechanically contains the recursive theorem."
+        ],
+        "reasoning": "The result is a symbolic local-valuation recursion.",
+        "searches": [
+          "search for tables of cyclotomic valuations and prime-support recovery"
+        ]
+      },
+      "rationale": "The same-day broader published archive record gives a normalized residual theorem and, for squarefree indices, contains the signed residual identity as a special case when the Möbius sign is known. Crucially, that record explicitly does not resolve the binary squarefree sign ambiguity. The audited result adds the sign-free two-branch valuation comparison and a complete exact binary recursion for odd squarefree indices. Shunia's primary abstract advertises the least binary prime and successive Archimedean logarithmic peeling, not this higher local sign-free recursion. Thus the core signed identity is covered, but the final sign-free squarefree extraction theorem is not mechanically implied by the inspected prior statements.",
+      "residual_risks": [
+        "Both cyclotomic extractor records are dated 2026-09-18 without finer public ordering, and Shunia's full text was inaccessible through the attempted routes. A contemporaneous local formulation could therefore overlap more strongly than the material actually read shows."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "The available material states binary least-prime detection and successive logarithmic peeling, not the audited higher local sign-free recursion. Full-text overlap remains a residual risk.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.18480",
+          "material_read": "Abstract and publication metadata; lawful full-text routes were attempted and returned no verified PDF.",
+          "method": "primary abstract/metadata; full-text retrieval attempted but unavailable",
+          "title": "Shunia, Cyclotomic Prime Extractors",
+          "trigger": "Primary motivating extractor paper."
+        },
+        {
+          "assessment": "Covers the signed normalized residual, but explicitly excludes squarefree base two from sign recovery; it therefore does not contain the audited complete odd-squarefree binary recursion.",
+          "identifier_or_url": "published archive record SCOPE-20260918-08dfc55c58fd",
+          "material_read": "Full theorem, proof, examples, relation to Shunia and limitations.",
+          "method": "complete record text",
+          "title": "Single-value p-adic peeling of cyclotomic index radicals",
+          "trigger": "Closest broader local theorem."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.18480",
+        "published archive record SCOPE-20260918-08dfc55c58fd"
+      ],
+      "rationale": "The result closes a concrete missing local regime in the contemporaneous extractor framework: it removes the unknown Möbius-sign branch for odd local primes and, most notably, gives a complete exact 2-adic recursion for odd squarefree indices where the broader normalized-residual theorem explicitly cannot orient the sign. That is a motivated boundary result rather than a routine numerical specialization.",
+      "residual_risks": [
+        "Because the motivating literature is only days old, the future-utility and priority assessment is necessarily more fragile than for a mature topic."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "limitations": "The index and base are assumed known; this is not an efficient integer-factorization algorithm. The primary 2026 extractor preprint is extremely recent and its full text could not be obtained through the attempted lawful routes, so contemporaneous overlap remains a material residual originality risk.",
+  "record_id": "SCOPE-20260918-01e648b0fd33",
+  "record_title": "Higher local cyclotomic prime extraction",
+  "reproducibility": "The local residual identity and sign-free valuation pair were independently checked over dozens of squarefree indices at an odd local prime, and the complete binary recursion was independently checked on odd squarefree indices below 160.",
+  "schema_version": 1,
+  "source_tree_sha": "0debfeeeaad29ae95303d7cbbd01873ebd403d4c"
+}

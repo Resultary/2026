@@ -1,0 +1,104 @@
+{
+  "audited_at_utc": "2026-10-01T07:59:54.821019Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.15514",
+        "https://arxiv.org/abs/2502.09030"
+      ],
+      "rationale": "The normal-coordinate scaling was re-derived term by term: the powers of the small radius cancel and the nonzero limit factor is \\(2^{\\mu+1}\\). Distributional continuation by \\(s_+^{\\mu-1}/\\Gamma(\\mu)\\), finite-radius maxima, Fatou, and density of finite radius sets transfer any curved \\(L^p\\) bound to the Euclidean single-scale maximal operator. The primary Dakshi--Pusti full text confirms the analytic range \\(\\operatorname{Re}\\mu>-d/2\\) and its weaker real-parameter necessity, while Liu--Shen--Song--Yan state exactly the Euclidean single-scale necessary region used here.",
+      "residual_risks": [
+        "The analytic-continuation transfer uses standard pullback/distribution continuity rather than a separately cited transfer theorem; the boundary defining functions are smooth submersions in the stated local regime."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Broader sources listed in checked_sources were compared against the exact hypotheses, objects, and conclusions."
+        ],
+        "reasoning": "Known broader frameworks were separated from statements that actually imply the final claim.",
+        "searches": [
+          "Targeted primary-literature search for aliases, equivalent statements, reductions, stronger coverage and exact prior values",
+          "Published mathematical archive search for exact and synonymous formulations"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.15514",
+        "https://arxiv.org/abs/2502.09030",
+        "https://arxiv.org/abs/2408.02180"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The inspected prior results do not imply the complete final claim as a corollary, except for components explicitly credited as prior."
+        ],
+        "reasoning": "Prior ingredients were distinguished from the new implication assembled in the final claim.",
+        "searches": [
+          "Targeted primary-literature search for aliases, equivalent statements, reductions, stronger coverage and exact prior values",
+          "Published mathematical archive search for exact and synonymous formulations"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "No equivalent statement was located in the completed searches or inspected primary material."
+        ],
+        "reasoning": "The final claim was compared by implication and mathematical content, not by title matching.",
+        "searches": [
+          "Targeted primary-literature search for aliases, equivalent statements, reductions, stronger coverage and exact prior values",
+          "Published mathematical archive search for exact and synonymous formulations"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No exact database/table mechanically containing the final theorem was identified."
+        ],
+        "reasoning": "The final claim is theorem/proof content rather than a known-table lookup.",
+        "searches": [
+          "Targeted search for an exact published database or table containing the claimed invariant/formula"
+        ]
+      },
+      "rationale": "The primary all-rank-one paper proves only the weaker real-parameter necessary condition and explicitly treats local Euclidean behavior as an ingredient; the Euclidean paper supplies the exact single-scale obstruction, but no inspected prior statement transfers that full complex-order boundary to every rank-one noncompact symmetric space. The real-hyperbolic case is a strict special case. Exact published-archive searches for the transfer formulation returned no other record.",
+      "residual_risks": [
+        "The motivating all-rank-one preprint is very recent, so concurrent unindexed work remains possible."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Does not cover the final all-rank-one complex-order necessary region; its necessary theorem is weaker and real-parameter only.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.15514",
+          "material_read": "Introduction, definitions, Theorems 1.5 and 1.6, analytic-continuation range in Lemmas 2.2--2.3 and the multiplier continuation.",
+          "method": "primary full text",
+          "title": "Dakshi and Pusti, Spherical maximal operators on rank one Riemannian symmetric spaces of noncompact type",
+          "trigger": "Same operator family and strongest direct prior comparison."
+        },
+        {
+          "assessment": "Supplies the Euclidean obstruction but not the curved rank-one transfer.",
+          "identifier_or_url": "https://arxiv.org/abs/2502.09030",
+          "material_read": "Definition of the single-scale operator and stated necessary formula.",
+          "method": "primary abstract/result statement",
+          "title": "Liu--Shen--Song--Yan, Lp to Lq estimates for Stein's spherical maximal operators",
+          "trigger": "Exact Euclidean obstruction used by the proof."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.15514",
+        "https://arxiv.org/abs/2502.09030",
+        "https://arxiv.org/abs/2408.02180"
+      ],
+      "rationale": "The result closes a concrete gap explicitly left by a new all-rank-one maximal-operator theory: for every \\(p>2\\) it gives a strictly stronger necessary boundary and extends a real-hyperbolic obstruction to complex, quaternionic, and Cayley rank-one spaces and complex order. This constrains any future sharp boundedness theorem.",
+      "residual_risks": [
+        "The motivating all-rank-one preprint is very recent, so concurrent unindexed work remains possible."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "limitations": "Necessary conditions only. The result narrows but does not close the gap to known sufficient bounds for p>2. No endpoint, weak-type, lacunary, or higher-rank claim is made. The tangent-space mechanism is classical in spirit, and recent concurrent coverage remains a residual originality risk.",
+  "record_id": "SCOPE-20260918-814747ecb6ab",
+  "record_title": "Euclidean tangent obstructions for complex-order spherical maximal operators on rank-one spaces",
+  "reproducibility": "Normal-coordinate scaling powers and normalization were re-derived; the two primary theorem statements governing the curved analytic range and Euclidean necessary region were checked directly.",
+  "schema_version": 1,
+  "source_tree_sha": "41d51ab43470eb39850a73830255491959154b26"
+}

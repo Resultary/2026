@@ -1,1 +1,0 @@
-This record is an alternate derivation of a Steinberg tensor-covering theorem already present in SCOPE on 2026-09-17. It retains the exact description of the Steinberg-square defect, a short degree-obstruction proof that the cube is universal, and the twisted GL_n(q) central-character-fiber corollary; it does not claim first discovery of the 2/3 covering exponent.

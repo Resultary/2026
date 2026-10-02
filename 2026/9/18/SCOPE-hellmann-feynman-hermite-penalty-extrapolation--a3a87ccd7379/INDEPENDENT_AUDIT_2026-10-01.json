@@ -1,0 +1,103 @@
+{
+  "audited_at_utc": "2026-10-01T08:57:30Z",
+  "axes": {
+    "correctness": {
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.18538",
+        "https://doi.org/10.1137/21M1397349"
+      ],
+      "rationale": "For a simple smallest eigenvalue of the reduced block, Schur-complement elimination produces an analytic effective matrix in \\(t=1/\\rho\\). Standard simple-eigenvalue perturbation gives the second coefficient \\(v^T(J-GSG)v\\) with the signs stated. Independently expanding a random symmetric example numerically converged to this coefficient. The two-level Hermite weights were re-derived symbolically: they cancel the \\(t,t^2,t^3\\) terms exactly and leave the fourth-order term, while the stated two-dimensional witness expands to \\(1-\\rho^{-1}+2\\rho^{-2}-3\\rho^{-3}+2\\rho^{-4}+\\cdots\\) and its \\(q=2\\) estimator has leading error \\(-\\tfrac12\\rho^{-4}\\).",
+      "residual_risks": [
+        "The theorem is asymptotic and assumes a simple constrained target; multiple eigenvalues are not covered."
+      ],
+      "status": "PASS"
+    },
+    "originality": {
+      "broader_coverage": {
+        "evidence": [
+          "Wang--Xia stop at first order and value-only second-order extrapolation; Bach covers generic extrapolation settings without this derivative spectral formula."
+        ],
+        "reasoning": "Neither broader framework mechanically states the final spectral coefficients and \\(2p\\)-order Hermite estimator.",
+        "searches": [
+          "full-text comparison with Wang--Xia Sections 3.1--3.2",
+          "search of generic Richardson literature"
+        ]
+      },
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.18538",
+        "https://doi.org/10.1137/21M1397349",
+        "published archive record SCOPE-20260919-b0d1ece5e105"
+      ],
+      "claim_vs_prior_implication": {
+        "evidence": [
+          "The prior first-order expansion alone does not determine the explicit second coefficient, and value-only Richardson does not imply the derivative Hermite order-doubling formula without the additional analytic branch and derivative structure."
+        ],
+        "reasoning": "Classical Hermite interpolation is an ingredient, but the complete claim is not a stated prior corollary.",
+        "searches": [
+          "comparison of Wang--Xia Theorem 3.6 and Corollary 3.8 with the audited theorem",
+          "comparison with generic Richardson extrapolation"
+        ]
+      },
+      "equivalent_formulations": {
+        "evidence": [
+          "No pre-2026-09-18 equivalent formula was located; an exact archive analogue is dated 2026-09-19."
+        ],
+        "reasoning": "Chronologically later duplication is not prior coverage of the audited record.",
+        "searches": [
+          "published mathematical archive semantic search for Hellmann--Feynman Hermite penalty extrapolation",
+          "targeted search for derivative Richardson/Hermite extrapolation on constrained eigenvalue penalty paths"
+        ]
+      },
+      "exact_database_or_table": {
+        "evidence": [
+          "No database or table containing the claimed coefficient or estimator was found."
+        ],
+        "reasoning": "The claim is analytic perturbation theory, not a database lookup.",
+        "searches": [
+          "search for tabulated projected-Hessian penalty coefficients or extrapolation weights"
+        ]
+      },
+      "rationale": "Wang--Xia prove finite-versus-asymptotic recovery, the first-order coefficient, and the value-only two-level \\(O(\\rho^{-2})\\) extrapolation. Their inspected full text does not give the explicit second coefficient or derivative-enhanced fourth-/higher-order Hermite formulas. Bach treats Richardson extrapolation for regularization parameters generically but not this constrained eigenvalue path or the Hellmann--Feynman derivative construction. The only exact archive duplicate located is dated 2026-09-19, after the audited record.",
+      "residual_risks": [
+        "Generic Hermite extrapolation is classical, so the originality is in the penalty-path expansion and its derivative-enabled specialization rather than the interpolation algebra itself."
+      ],
+      "source_inspections": [
+        {
+          "assessment": "Provides first-order asymptotics and value-only two-level extrapolation, not the audited second coefficient or derivative Hermite formulas.",
+          "identifier_or_url": "https://arxiv.org/abs/2609.18538",
+          "material_read": "Pages 1--12, especially Theorem 3.2, Theorem 3.6 and Corollary 3.8.",
+          "method": "primary full text",
+          "title": "Wang--Xia, The Projected Hessian Quantification Theorem: An Exact Duality for Constrained Eigenvalues",
+          "trigger": "Exact same penalty path and strongest primary comparison."
+        },
+        {
+          "assessment": "Generic extrapolation prior art; no projected-Hessian or Hellmann--Feynman Hermite formula was located.",
+          "identifier_or_url": "https://doi.org/10.1137/21M1397349",
+          "material_read": "Abstract, publication metadata and described regularization-parameter applications.",
+          "method": "primary abstract and indexed article description",
+          "title": "Bach, On the Effectiveness of Richardson Extrapolation in Data Science",
+          "trigger": "Generic regularization-parameter Richardson framework."
+        }
+      ],
+      "status": "PASS"
+    },
+    "value": {
+      "checked_sources": [
+        "https://arxiv.org/abs/2609.18538",
+        "https://doi.org/10.1137/21M1397349"
+      ],
+      "rationale": "The result gives a nontrivial next asymptotic coefficient and converts derivative information already available from penalized eigenpairs into a fourth-order two-level estimator and \\(2p\\)-order \\(p\\)-level family. This directly addresses the penalty-size/accuracy tradeoff in the motivating constrained-eigenvalue method and is more than a renaming of generic Richardson extrapolation.",
+      "residual_risks": [
+        "No finite-precision stability theorem is supplied, so practical gains can be limited by eigenpair-solver error amplification."
+      ],
+      "status": "PASS"
+    }
+  },
+  "disposition": "passed",
+  "limitations": "The analytic scalar branch and explicit coefficients assume a simple constrained target eigenvalue. Multiple target eigenvalues need degenerate perturbation theory. The asymptotic extrapolation can amplify finite-precision eigensolver errors, and no finite-precision stability theorem is claimed.",
+  "record_id": "SCOPE-20260918-a3a87ccd7379",
+  "record_title": "Hellmann-Feynman Hermite extrapolation for projected-Hessian penalty paths",
+  "reproducibility": "Hermite coefficient cancellation was independently derived symbolically; an independent random symmetric-matrix calculation converged to the stated second coefficient, and the exact two-dimensional witness expands as claimed through fourth order.",
+  "schema_version": 1,
+  "source_tree_sha": "a2105768b957ffbb665529d004776eaf9e549098"
+}

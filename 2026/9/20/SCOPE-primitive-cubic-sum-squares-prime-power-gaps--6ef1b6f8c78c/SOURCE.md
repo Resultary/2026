@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20260920-6ef1b6f8c78c`](https://github.com/SCOPE-Science/SCOPE2026/tree/a7cc69d784246a36eca421019db9c279a2c15a0e/2026/09/20/primitive-cubic-sum-squares-prime-power-gaps--6ef1b6f8c78c)
+Original record: [`SCOPE-20260920-6ef1b6f8c78c`](https://github.com/SCOPE-Science/SCOPE2026/tree/8a3aca57e27bb86a96822f26bc71dbac53b5dcf0/2026/09/20/primitive-cubic-sum-squares-prime-power-gaps--6ef1b6f8c78c)
 
 Imported into Resultary as `2026/9/20/SCOPE-primitive-cubic-sum-squares-prime-power-gaps--6ef1b6f8c78c`. The finding, audit, and attached artifacts remain attributable to SCOPE.
