@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/4/SCOPE-base-plane-flat-limits-behind-the-line-distortion-degree-drops--c466980abacd",
+  "resultary_record_key": "SCOPE-base-plane-flat-limits-behind-the-line-distortion-degree-drops--c466980abacd",
+  "source_commit": "49e1f22bc5eac54574fde40dfb188ac873b1067c",
+  "source_commit_time": "2026-10-04T04:40:15Z",
+  "source_path": "2026/10/04/base-plane-flat-limits-behind-the-line-distortion-degree-drops--c466980abacd",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261004-c466980abacd",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-04T04:49:09Z",
+  "time_standard": "UTC"
+}

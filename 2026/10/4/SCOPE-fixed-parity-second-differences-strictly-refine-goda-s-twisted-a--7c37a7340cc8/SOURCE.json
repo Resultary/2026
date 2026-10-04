@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/4/SCOPE-fixed-parity-second-differences-strictly-refine-goda-s-twisted-a--7c37a7340cc8",
+  "resultary_record_key": "SCOPE-fixed-parity-second-differences-strictly-refine-goda-s-twisted-a--7c37a7340cc8",
+  "source_commit": "c1e5ac7c4252768a7ac437a56eb83e5ad90c6286",
+  "source_commit_time": "2026-10-04T04:43:31Z",
+  "source_path": "2026/10/04/fixed-parity-second-differences-strictly-refine-goda-s-twisted-a--7c37a7340cc8",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261004-7c37a7340cc8",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-04T04:49:09Z",
+  "time_standard": "UTC"
+}
