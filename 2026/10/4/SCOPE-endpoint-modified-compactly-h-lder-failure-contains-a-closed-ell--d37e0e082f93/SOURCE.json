@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/4/SCOPE-endpoint-modified-compactly-h-lder-failure-contains-a-closed-ell--d37e0e082f93",
+  "resultary_record_key": "SCOPE-endpoint-modified-compactly-h-lder-failure-contains-a-closed-ell--d37e0e082f93",
+  "source_commit": "1b6b9834a1df8280bc732b3dca8cf038bf00bf2f",
+  "source_commit_time": "2026-10-04T05:06:31Z",
+  "source_path": "2026/10/04/endpoint-modified-compactly-h-lder-failure-contains-a-closed-ell--d37e0e082f93",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261004-d37e0e082f93",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-04T05:10:12Z",
+  "time_standard": "UTC"
+}

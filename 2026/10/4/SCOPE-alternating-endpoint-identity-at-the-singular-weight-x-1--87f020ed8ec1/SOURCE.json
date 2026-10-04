@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/4/SCOPE-alternating-endpoint-identity-at-the-singular-weight-x-1--87f020ed8ec1",
+  "resultary_record_key": "SCOPE-alternating-endpoint-identity-at-the-singular-weight-x-1--87f020ed8ec1",
+  "source_commit": "06b9722c7d082bc010d1cf479d3877bc6d8f9a7a",
+  "source_commit_time": "2026-10-04T05:05:37Z",
+  "source_path": "2026/10/04/alternating-endpoint-identity-at-the-singular-weight-x-1--87f020ed8ec1",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261004-87f020ed8ec1",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-04T05:10:12Z",
+  "time_standard": "UTC"
+}

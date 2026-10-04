@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261004-7a46e6c434a8`](https://github.com/SCOPE-Science/SCOPE2026/tree/517ebf6e3fb7831ce678c7034f767b4765d069e1/2026/10/04/integral-homology-of-the-five-point-parabolic-very-stable-surfac--7a46e6c434a8)
+
+Imported into Resultary as `2026/10/4/SCOPE-integral-homology-of-the-five-point-parabolic-very-stable-surfac--7a46e6c434a8`. The finding, audit, and attached artifacts remain attributable to SCOPE.

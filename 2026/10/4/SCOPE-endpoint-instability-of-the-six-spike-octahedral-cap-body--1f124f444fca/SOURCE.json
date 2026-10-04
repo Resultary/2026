@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/4/SCOPE-endpoint-instability-of-the-six-spike-octahedral-cap-body--1f124f444fca",
+  "resultary_record_key": "SCOPE-endpoint-instability-of-the-six-spike-octahedral-cap-body--1f124f444fca",
+  "source_commit": "83bd280ffde1c645871be715ce80c52d5453c5c3",
+  "source_commit_time": "2026-10-04T05:04:05Z",
+  "source_path": "2026/10/04/endpoint-instability-of-the-six-spike-octahedral-cap-body--1f124f444fca",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261004-1f124f444fca",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-04T05:10:12Z",
+  "time_standard": "UTC"
+}
