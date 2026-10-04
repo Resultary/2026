@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/4/SCOPE-projection-can-overcount-k-frame-excess-by-an-arbitrarily-large--088a776f2636",
+  "resultary_record_key": "SCOPE-projection-can-overcount-k-frame-excess-by-an-arbitrarily-large--088a776f2636",
+  "source_commit": "c244fe5a3f43108348e360b9ab5f9a5abf9f7870",
+  "source_commit_time": "2026-10-04T04:50:13Z",
+  "source_path": "2026/10/04/projection-can-overcount-k-frame-excess-by-an-arbitrarily-large--088a776f2636",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261004-088a776f2636",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-04T04:59:35Z",
+  "time_standard": "UTC"
+}

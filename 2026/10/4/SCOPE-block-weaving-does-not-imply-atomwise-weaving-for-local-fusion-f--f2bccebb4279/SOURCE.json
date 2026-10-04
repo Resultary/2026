@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/4/SCOPE-block-weaving-does-not-imply-atomwise-weaving-for-local-fusion-f--f2bccebb4279",
+  "resultary_record_key": "SCOPE-block-weaving-does-not-imply-atomwise-weaving-for-local-fusion-f--f2bccebb4279",
+  "source_commit": "bf56a622601c2d381f9dabb803a4c221672f1c1a",
+  "source_commit_time": "2026-10-04T04:50:12Z",
+  "source_path": "2026/10/04/block-weaving-does-not-imply-atomwise-weaving-for-local-fusion-f--f2bccebb4279",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261004-f2bccebb4279",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-04T04:59:35Z",
+  "time_standard": "UTC"
+}
