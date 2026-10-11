@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/11/SCOPE-fiberwise-flux-calibration-and-exact-anticorrelation-in-the-schn--0c5dc030ae79",
+  "resultary_record_key": "SCOPE-fiberwise-flux-calibration-and-exact-anticorrelation-in-the-schn--0c5dc030ae79",
+  "source_commit": "54df6d476fbaacf8fcd63471b8828b492fdc5867",
+  "source_commit_time": "2026-10-11T13:02:03Z",
+  "source_path": "2026/10/11/fiberwise-flux-calibration-and-exact-anticorrelation-in-the-schn--0c5dc030ae79",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261011-0c5dc030ae79",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

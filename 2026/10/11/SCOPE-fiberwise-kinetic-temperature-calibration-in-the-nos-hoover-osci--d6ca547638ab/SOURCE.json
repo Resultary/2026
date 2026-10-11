@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/11/SCOPE-fiberwise-kinetic-temperature-calibration-in-the-nos-hoover-osci--d6ca547638ab",
+  "resultary_record_key": "SCOPE-fiberwise-kinetic-temperature-calibration-in-the-nos-hoover-osci--d6ca547638ab",
+  "source_commit": "b3c54770345c1540a71048731cbea8291eb4e438",
+  "source_commit_time": "2026-10-11T13:01:56Z",
+  "source_path": "2026/10/11/fiberwise-kinetic-temperature-calibration-in-the-nos-hoover-osci--d6ca547638ab",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261011-d6ca547638ab",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

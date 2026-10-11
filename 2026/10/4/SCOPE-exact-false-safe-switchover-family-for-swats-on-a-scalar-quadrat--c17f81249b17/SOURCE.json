@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/4/SCOPE-exact-false-safe-switchover-family-for-swats-on-a-scalar-quadrat--c17f81249b17",
+  "resultary_record_key": "SCOPE-exact-false-safe-switchover-family-for-swats-on-a-scalar-quadrat--c17f81249b17",
+  "source_commit": "b715f82c45e87e0fadb0eb869401217f7c19f251",
+  "source_commit_time": "2026-10-04T06:00:30Z",
+  "source_path": "2026/10/04/exact-false-safe-switchover-family-for-swats-on-a-scalar-quadrat--c17f81249b17",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261004-c17f81249b17",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/4/SCOPE-correct-harmonic-response-amplitude-for-a-periodically-harvested--9f60f33dcbb0",
+  "resultary_record_key": "SCOPE-correct-harmonic-response-amplitude-for-a-periodically-harvested--9f60f33dcbb0",
+  "source_commit": "73180f3e38bb59c2776d126bb3fe6af359102c4b",
+  "source_commit_time": "2026-10-04T05:53:36Z",
+  "source_path": "2026/10/04/correct-harmonic-response-amplitude-for-a-periodically-harvested--9f60f33dcbb0",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261004-9f60f33dcbb0",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261004-50b4f24a80d9`](https://github.com/SCOPE-Science/SCOPE2026/tree/cb497c9937d2cceb25478ccce71767893d427a26/2026/10/04/mixed-metric-dimension-of-complete-multipartite-graphs-a-correct--50b4f24a80d9)
+
+Imported into Resultary as `2026/10/4/SCOPE-mixed-metric-dimension-of-complete-multipartite-graphs-a-correct--50b4f24a80d9`. The finding, audit, and attached artifacts remain attributable to SCOPE.

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/4/SCOPE-exact-gaussian-timing-jitter-law-for-the-analytic-perfect-state--a2adc1874d32",
+  "resultary_record_key": "SCOPE-exact-gaussian-timing-jitter-law-for-the-analytic-perfect-state--a2adc1874d32",
+  "source_commit": "39770d5d2da1e8a29047b772a76698d89828c6de",
+  "source_commit_time": "2026-10-04T05:58:48Z",
+  "source_path": "2026/10/04/exact-gaussian-timing-jitter-law-for-the-analytic-perfect-state--a2adc1874d32",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261004-a2adc1874d32",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261004-1f7d0f360ee1`](https://github.com/SCOPE-Science/SCOPE2026/tree/c4c7b9cedfc40e1fe4515991ba0341f60d79c953/2026/10/04/fiberwise-barycentric-calibration-on-the-neutral-may-leonard-sim--1f7d0f360ee1)
+
+Imported into Resultary as `2026/10/4/SCOPE-fiberwise-barycentric-calibration-on-the-neutral-may-leonard-sim--1f7d0f360ee1`. The finding, audit, and attached artifacts remain attributable to SCOPE.

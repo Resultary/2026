@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/4/SCOPE-exact-stationary-flux-calibrations-and-nuclear-transport-rigidit--c8ce95f16109",
+  "resultary_record_key": "SCOPE-exact-stationary-flux-calibrations-and-nuclear-transport-rigidit--c8ce95f16109",
+  "source_commit": "07ce53400ec582f6aa17b228f257b1c7f27a820a",
+  "source_commit_time": "2026-10-04T05:57:19Z",
+  "source_path": "2026/10/04/exact-stationary-flux-calibrations-and-nuclear-transport-rigidit--c8ce95f16109",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261004-c8ce95f16109",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/4/SCOPE-independent-transmission-noises-are-not-transmission-rate-noise--41bbc0978013",
+  "resultary_record_key": "SCOPE-independent-transmission-noises-are-not-transmission-rate-noise--41bbc0978013",
+  "source_commit": "ec295a29fc78e88044102e640abb983c6a007bf8",
+  "source_commit_time": "2026-10-04T05:54:06Z",
+  "source_path": "2026/10/04/independent-transmission-noises-are-not-transmission-rate-noise--41bbc0978013",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261004-41bbc0978013",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/4/SCOPE-exact-default-parameter-local-stability-ceiling-for-adan--03b85640eef8",
+  "resultary_record_key": "SCOPE-exact-default-parameter-local-stability-ceiling-for-adan--03b85640eef8",
+  "source_commit": "aa074dd2845bc5343900a49148623c9e61c13d8f",
+  "source_commit_time": "2026-10-04T06:00:25Z",
+  "source_path": "2026/10/04/exact-default-parameter-local-stability-ceiling-for-adan--03b85640eef8",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261004-03b85640eef8",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

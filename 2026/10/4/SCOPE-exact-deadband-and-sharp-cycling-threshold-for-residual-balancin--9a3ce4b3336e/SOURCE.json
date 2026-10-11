@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/4/SCOPE-exact-deadband-and-sharp-cycling-threshold-for-residual-balancin--9a3ce4b3336e",
+  "resultary_record_key": "SCOPE-exact-deadband-and-sharp-cycling-threshold-for-residual-balancin--9a3ce4b3336e",
+  "source_commit": "10ff7b1473ca652eb9e1323a97d978a48d4c76c0",
+  "source_commit_time": "2026-10-04T05:59:59Z",
+  "source_path": "2026/10/04/exact-deadband-and-sharp-cycling-threshold-for-residual-balancin--9a3ce4b3336e",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261004-9a3ce4b3336e",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

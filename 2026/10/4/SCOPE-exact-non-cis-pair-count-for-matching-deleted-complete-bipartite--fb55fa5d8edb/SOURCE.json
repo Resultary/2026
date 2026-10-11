@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/4/SCOPE-exact-non-cis-pair-count-for-matching-deleted-complete-bipartite--fb55fa5d8edb",
+  "resultary_record_key": "SCOPE-exact-non-cis-pair-count-for-matching-deleted-complete-bipartite--fb55fa5d8edb",
+  "source_commit": "81dd7ed508c86772e3a845016762f0abae2266c6",
+  "source_commit_time": "2026-10-04T05:55:24Z",
+  "source_path": "2026/10/04/exact-non-cis-pair-count-for-matching-deleted-complete-bipartite--fb55fa5d8edb",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261004-fb55fa5d8edb",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

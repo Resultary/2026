@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261004-d29b3d2b6cba`](https://github.com/SCOPE-Science/SCOPE2026/tree/dc8ac2211f863bfab9015d8ca9c9a14136fcee8c/2026/10/04/the-covering-truncation-qutrit-protocol-has-a-sharp-343-bit-cert--d29b3d2b6cba)
+
+Imported into Resultary as `2026/10/4/SCOPE-the-covering-truncation-qutrit-protocol-has-a-sharp-343-bit-cert--d29b3d2b6cba`. The finding, audit, and attached artifacts remain attributable to SCOPE.

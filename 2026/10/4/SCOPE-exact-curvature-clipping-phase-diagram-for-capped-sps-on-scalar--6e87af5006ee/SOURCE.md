@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261004-6e87af5006ee`](https://github.com/SCOPE-Science/SCOPE2026/tree/57ba131ec2521e99ce2509dda8e007b6a3e77ed4/2026/10/04/exact-curvature-clipping-phase-diagram-for-capped-sps-on-scalar--6e87af5006ee)
+
+Imported into Resultary as `2026/10/4/SCOPE-exact-curvature-clipping-phase-diagram-for-capped-sps-on-scalar--6e87af5006ee`. The finding, audit, and attached artifacts remain attributable to SCOPE.

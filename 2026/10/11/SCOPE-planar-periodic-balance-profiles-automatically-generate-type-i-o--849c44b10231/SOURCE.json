@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/11/SCOPE-planar-periodic-balance-profiles-automatically-generate-type-i-o--849c44b10231",
+  "resultary_record_key": "SCOPE-planar-periodic-balance-profiles-automatically-generate-type-i-o--849c44b10231",
+  "source_commit": "f6dd735a51e7644b292ff332332ba967975ac52d",
+  "source_commit_time": "2026-10-11T13:05:16Z",
+  "source_path": "2026/10/11/planar-periodic-balance-profiles-automatically-generate-type-i-o--849c44b10231",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261011-849c44b10231",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

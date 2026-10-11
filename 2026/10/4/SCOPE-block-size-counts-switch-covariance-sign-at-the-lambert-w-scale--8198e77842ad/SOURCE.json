@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/4/SCOPE-block-size-counts-switch-covariance-sign-at-the-lambert-w-scale--8198e77842ad",
+  "resultary_record_key": "SCOPE-block-size-counts-switch-covariance-sign-at-the-lambert-w-scale--8198e77842ad",
+  "source_commit": "e12deb22f44519bf3fc54f9b83925ccab49a83e2",
+  "source_commit_time": "2026-10-04T06:01:31Z",
+  "source_path": "2026/10/04/block-size-counts-switch-covariance-sign-at-the-lambert-w-scale--8198e77842ad",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261004-8198e77842ad",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

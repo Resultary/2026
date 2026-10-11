@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/4/SCOPE-exact-size-of-the-5-3-7-1-reed-solomon-sunflower--bbc4c8dfc083",
+  "resultary_record_key": "SCOPE-exact-size-of-the-5-3-7-1-reed-solomon-sunflower--bbc4c8dfc083",
+  "source_commit": "69693ec5994561747bdf6d0309f85ab67c7e25c3",
+  "source_commit_time": "2026-10-04T05:56:26Z",
+  "source_path": "2026/10/04/exact-size-of-the-5-3-7-1-reed-solomon-sunflower--bbc4c8dfc083",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261004-bbc4c8dfc083",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

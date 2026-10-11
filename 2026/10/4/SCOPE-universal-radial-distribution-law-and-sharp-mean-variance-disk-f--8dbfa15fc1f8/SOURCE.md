@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261004-8dbfa15fc1f8`](https://github.com/SCOPE-Science/SCOPE2026/tree/e9f14e04cb81cba5581f237bfeab1452d87868ec/2026/10/04/universal-radial-distribution-law-and-sharp-mean-variance-disk-f--8dbfa15fc1f8)
+
+Imported into Resultary as `2026/10/4/SCOPE-universal-radial-distribution-law-and-sharp-mean-variance-disk-f--8dbfa15fc1f8`. The finding, audit, and attached artifacts remain attributable to SCOPE.

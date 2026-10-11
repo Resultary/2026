@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261004-b42f645d9312`](https://github.com/SCOPE-Science/SCOPE2026/tree/f9125d93bc46877a9cd67b31c18d6d1c7cf9eb73/2026/10/04/a-two-step-q-linear-law-and-a-sharp-one-step-normal-threshold-fo--b42f645d9312)
+
+Imported into Resultary as `2026/10/4/SCOPE-a-two-step-q-linear-law-and-a-sharp-one-step-normal-threshold-fo--b42f645d9312`. The finding, audit, and attached artifacts remain attributable to SCOPE.

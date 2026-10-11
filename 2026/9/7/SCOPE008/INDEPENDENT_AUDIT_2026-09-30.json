@@ -1,0 +1,75 @@
+{
+  "audit_date_utc": "2026-09-30",
+  "checked_sources": [
+    {
+      "inspection": "Full result inspected.",
+      "kind": "package",
+      "url": "https://github.com/SCOPE-Science/SCOPE2026/blob/92c7f26b45ce94be6cda0eafed44298c598d7b47/2026/09/07/008/RESULT.md"
+    },
+    {
+      "inspection": "Actual package audit source inspected.",
+      "kind": "package",
+      "url": "https://github.com/SCOPE-Science/SCOPE2026/blob/92c7f26b45ce94be6cda0eafed44298c598d7b47/2026/09/07/008/artifacts/audit.py"
+    },
+    {
+      "inspection": "Stored exact factor data inspected.",
+      "kind": "package",
+      "url": "https://github.com/SCOPE-Science/SCOPE2026/blob/92c7f26b45ce94be6cda0eafed44298c598d7b47/2026/09/07/008/artifacts/exact_factors.json"
+    },
+    {
+      "inspection": "All six fooling-set witness records inspected.",
+      "kind": "package",
+      "url": "https://github.com/SCOPE-Science/SCOPE2026/blob/92c7f26b45ce94be6cda0eafed44298c598d7b47/2026/09/07/008/artifacts/fooling_witnesses.json"
+    },
+    {
+      "inspection": "Exact semantic search; own record was the direct match.",
+      "kind": "published_results_search",
+      "url": "https://github.com/Resultary/2026/tree/main/2026/9/7/SCOPE008"
+    },
+    {
+      "inspection": "Gillis–Glineur primary paper record/full-text source checked for general rank-3 nonnegative-rank geometry; it does not give this finite binary census.",
+      "kind": "primary_literature",
+      "url": "https://arxiv.org/abs/1009.0880"
+    },
+    {
+      "inspection": "Beasley–Laffey gap literature checked for implication; isolated lower-dimensional examples do not furnish the 5-by-5 classification.",
+      "kind": "primary_literature",
+      "url": "https://doi.org/10.1016/j.laa.2009.03.050"
+    }
+  ],
+  "correctness": {
+    "reason": "A fresh exact implementation independently enumerated all 376,992 column multisets, computed ordinary rank using integer elimination, reproduced the full rank histogram and the 63,015 rank-3 multisets, canonicalized under row/column permutations and transpose to exactly 719 classes, then established 713 nonnegative-rank-3 cases by exact rational nonnegative three-generator factorizations and the remaining six as rank 4 via explicit four-point fooling sets. No case remained unresolved.",
+    "risk": "Canonicalization and finite enumeration are software-assisted, though the fresh implementation used exact integer/rational checks for the scientific classification.",
+    "status": "PASS"
+  },
+  "final_claim": "Up to row and column permutations and transpose, exactly 719 binary 5-by-5 matrices have ordinary rank 3; 713 have nonnegative rank 3 and six have nonnegative rank 4, so none in this stratum has nonnegative rank 5.",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "originality": {
+    "reason": "Published-results search found the exact census only in this record. Gillis–Glineur provides general rank-3 geometric theory, and Beasley–Laffey supplies isolated lower-dimensional gap patterns, but neither gives the complete binary 5-by-5 ordinary-rank-3 classification. No exact 719-class table was found elsewhere.",
+    "risk": "A non-indexed computational table could exist; search cannot prove universal absence.",
+    "status": "PASS"
+  },
+  "originality_checks": {
+    "broader_coverage": "General geometric/nonnegative-rank theory and lower-dimensional examples do not classify the finite binary 5-by-5 stratum.",
+    "claim_vs_prior_implication": "Known existence of rank-3 versus nonnegative-rank-4 examples does not imply that only six classes occur or that nonnegative rank 5 is absent.",
+    "equivalent_formulations": "Searched ordinary-rank-3 binary 5-by-5 matrices, nonnegative rank, fooling sets, monomial equivalence, and the exact counts 719/713/6.",
+    "exact_database_or_table": "No external table with 719 canonical classes or the 713/6 split was located."
+  },
+  "previously_published_pending_reaudit": false,
+  "record_id": "SCOPE-20260907-008",
+  "residual_risks": [
+    "Canonicalization and finite enumeration are software-assisted, though the fresh implementation used exact integer/rational checks for the scientific classification.",
+    "A non-indexed computational table could exist; search cannot prove universal absence.",
+    "The six gap classes themselves are structurally degenerate, so the value rests mainly in the exhaustive boundary classification."
+  ],
+  "review_type": "fresh_independent_audit",
+  "schema_version": 1,
+  "value": {
+    "reason": "This is a natural complete classification at the first small binary square size where a rank versus nonnegative-rank gap is visible, with direct relevance to nonnegative factorization and extension complexity; the exact no-rank-5 boundary is a reusable finite fact.",
+    "risk": "The six gap classes themselves are structurally degenerate, so the value rests mainly in the exhaustive boundary classification.",
+    "status": "PASS"
+  },
+  "verification_state": "independent_audit_passed"
+}

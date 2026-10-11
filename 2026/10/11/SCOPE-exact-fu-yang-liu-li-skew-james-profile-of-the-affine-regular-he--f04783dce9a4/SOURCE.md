@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261011-f04783dce9a4`](https://github.com/SCOPE-Science/SCOPE2026/tree/60fbe4e457c91706840aa0db266dd3556249ed3d/2026/10/11/exact-fu-yang-liu-li-skew-james-profile-of-the-affine-regular-he--f04783dce9a4)
+
+Imported into Resultary as `2026/10/11/SCOPE-exact-fu-yang-liu-li-skew-james-profile-of-the-affine-regular-he--f04783dce9a4`. The finding, audit, and attached artifacts remain attributable to SCOPE.

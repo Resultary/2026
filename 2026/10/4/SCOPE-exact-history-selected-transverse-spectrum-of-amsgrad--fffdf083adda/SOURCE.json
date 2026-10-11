@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/4/SCOPE-exact-history-selected-transverse-spectrum-of-amsgrad--fffdf083adda",
+  "resultary_record_key": "SCOPE-exact-history-selected-transverse-spectrum-of-amsgrad--fffdf083adda",
+  "source_commit": "d1401ec6811b24866d454e7937e807bbf87c3b46",
+  "source_commit_time": "2026-10-04T06:00:32Z",
+  "source_path": "2026/10/04/exact-history-selected-transverse-spectrum-of-amsgrad--fffdf083adda",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261004-fffdf083adda",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

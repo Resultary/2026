@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/11/SCOPE-true-orbit-krr-accuracy-does-not-control-coupled-closure-rollout--cfd55c317846",
+  "resultary_record_key": "SCOPE-true-orbit-krr-accuracy-does-not-control-coupled-closure-rollout--cfd55c317846",
+  "source_commit": "007fea0ed655b6872a97636b3deac48b9ecab0ee",
+  "source_commit_time": "2026-10-11T13:05:08Z",
+  "source_path": "2026/10/11/true-orbit-krr-accuracy-does-not-control-coupled-closure-rollout--cfd55c317846",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261011-cfd55c317846",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

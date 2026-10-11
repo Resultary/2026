@@ -1,0 +1,75 @@
+{
+  "audit_date_utc": "2026-09-30",
+  "checked_sources": [
+    {
+      "inspection": "Full result text inspected.",
+      "kind": "package",
+      "url": "https://github.com/SCOPE-Science/SCOPE2026/blob/92c7f26b45ce94be6cda0eafed44298c598d7b47/2026/09/07/006/RESULT.md"
+    },
+    {
+      "inspection": "Actual replay source inspected; exact character-table and census logic checked.",
+      "kind": "package",
+      "url": "https://github.com/SCOPE-Science/SCOPE2026/blob/92c7f26b45ce94be6cda0eafed44298c598d7b47/2026/09/07/006/artifacts/replay.py"
+    },
+    {
+      "inspection": "Exact 77-row extremal class-sum certificate inspected.",
+      "kind": "package",
+      "url": "https://github.com/SCOPE-Science/SCOPE2026/blob/92c7f26b45ce94be6cda0eafed44298c598d7b47/2026/09/07/006/artifacts/certificate_Tstar.csv"
+    },
+    {
+      "inspection": "Exact semantic search; own record was top exact match.",
+      "kind": "published_results_search",
+      "url": "https://github.com/Resultary/2026/tree/main/2026/9/7/SCOPE006"
+    },
+    {
+      "inspection": "Related later Kronecker atlas; main complete census only through degree 10.",
+      "kind": "published_results_search",
+      "url": "https://github.com/Resultary/2026/tree/main/2026/9/8/SCOPE058"
+    },
+    {
+      "inspection": "Ikenmeyer–Mulmuley–Walter abstract/full record inspected; establishes complexity context, not the fixed degree-12 census.",
+      "kind": "primary_literature",
+      "url": "https://arxiv.org/abs/1507.02955"
+    },
+    {
+      "inspection": "Pak–Panova bounds comparison searched; no implication of the exact fixed-degree census.",
+      "kind": "primary_literature",
+      "url": "https://arxiv.org/abs/1406.2988"
+    }
+  ],
+  "correctness": {
+    "reason": "A fresh from-scratch exact Murnaghan–Nakayama implementation enumerated all 77 partitions, rebuilt the full character table, checked the sum of squared dimensions and all row orthogonality identities, then evaluated all 79,079 unordered triples by exact integer class sums. It reproduced 30,336 zeros and a unique maximum 945 at index triple (37,37,37). The package certificate and top-10 table were also inspected at the assigned commit.",
+    "risk": "As with any software-assisted finite proof, a defect shared by mathematically equivalent implementations remains a residual risk, but the fresh implementation used exact integer arithmetic and did not rely on the package's stored success log.",
+    "status": "PASS"
+  },
+  "final_claim": "For partitions of 12, the complete unordered Kronecker census has 79,079 S3-orbits, exactly 30,336 vanishing orbits, and maximum coefficient 945 attained uniquely by the orbit of ((5,3,2,1,1),(5,3,2,1,1),(5,3,2,1,1)).",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "originality": {
+    "reason": "Published-results search returned the record itself as the exact match; a later SCOPE Kronecker atlas covers degrees through 10 as its main census and does not dominate the complete degree-12 census. Primary literature on vanishing complexity, general bounds, dilations, Saxl-type cases, and Durfee bounds does not imply the exact degree-12 zero count or exact maximum. No independent exact degree-12 database/table with these counts was found.",
+    "risk": "Literature search is not logically exhaustive; an obscure unpublished table could exist.",
+    "status": "PASS"
+  },
+  "originality_checks": {
+    "broader_coverage": "General complexity/bounds/dilation/Saxl/Durfee results do not furnish the full degree-12 table. The later published SCOPE atlas found in search is not a complete degree-12 census.",
+    "claim_vs_prior_implication": "NP-hardness and analytic upper/lower bounds do not imply the finite exact zero count or unique maximum.",
+    "equivalent_formulations": "Searched exact zero count, exact maximum, degree 12, S3-reduced census, and character-table formulations; no external equivalent statement found.",
+    "exact_database_or_table": "No independent exact database/table with the 79,079-orbit degree-12 census was found in the searches."
+  },
+  "previously_published_pending_reaudit": false,
+  "record_id": "SCOPE-20260907-006",
+  "residual_risks": [
+    "As with any software-assisted finite proof, a defect shared by mathematically equivalent implementations remains a residual risk, but the fresh implementation used exact integer arithmetic and did not rely on the package's stored success log.",
+    "Literature search is not logically exhaustive; an obscure unpublished table could exist.",
+    "The contribution is a finite benchmark and does not by itself provide a structural formula or asymptotic theorem."
+  ],
+  "review_type": "fresh_independent_audit",
+  "schema_version": 1,
+  "value": {
+    "reason": "A complete exact census at a natural symmetric-group degree supplies reusable ground truth for a hard and actively studied positivity problem, and the exact extremal multiplicity plus certificate is a meaningful finite invariant rather than an arbitrary parameter slice.",
+    "risk": "The contribution is a finite benchmark and does not by itself provide a structural formula or asymptotic theorem.",
+    "status": "PASS"
+  },
+  "verification_state": "independent_audit_passed"
+}

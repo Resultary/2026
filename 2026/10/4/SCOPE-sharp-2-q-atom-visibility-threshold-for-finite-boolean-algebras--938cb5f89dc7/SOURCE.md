@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261004-938cb5f89dc7`](https://github.com/SCOPE-Science/SCOPE2026/tree/c6b5840d4af06424015fda8e4eb4c483e0c89af6/2026/10/04/sharp-2-q-atom-visibility-threshold-for-finite-boolean-algebras--938cb5f89dc7)
+
+Imported into Resultary as `2026/10/4/SCOPE-sharp-2-q-atom-visibility-threshold-for-finite-boolean-algebras--938cb5f89dc7`. The finding, audit, and attached artifacts remain attributable to SCOPE.

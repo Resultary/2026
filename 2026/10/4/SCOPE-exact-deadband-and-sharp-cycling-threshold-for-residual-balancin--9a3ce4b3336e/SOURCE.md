@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261004-9a3ce4b3336e`](https://github.com/SCOPE-Science/SCOPE2026/tree/10ff7b1473ca652eb9e1323a97d978a48d4c76c0/2026/10/04/exact-deadband-and-sharp-cycling-threshold-for-residual-balancin--9a3ce4b3336e)
+
+Imported into Resultary as `2026/10/4/SCOPE-exact-deadband-and-sharp-cycling-threshold-for-residual-balancin--9a3ce4b3336e`. The finding, audit, and attached artifacts remain attributable to SCOPE.

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/4/SCOPE-exact-parity-split-high-energy-offsets-for-the-preferred-orienta--4bf9fd9b3edc",
+  "resultary_record_key": "SCOPE-exact-parity-split-high-energy-offsets-for-the-preferred-orienta--4bf9fd9b3edc",
+  "source_commit": "ebca7f12ef47a81fa6b9a252457f1654811d2536",
+  "source_commit_time": "2026-10-04T05:58:59Z",
+  "source_path": "2026/10/04/exact-parity-split-high-energy-offsets-for-the-preferred-orienta--4bf9fd9b3edc",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261004-4bf9fd9b3edc",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

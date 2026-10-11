@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/11/SCOPE-dimension-saturated-joint-numerical-radius-for-common-source-ran--8d865e6176dd",
+  "resultary_record_key": "SCOPE-dimension-saturated-joint-numerical-radius-for-common-source-ran--8d865e6176dd",
+  "source_commit": "84c7673ad04155a9ca58c37ac657743a1dc0bde6",
+  "source_commit_time": "2026-10-11T13:12:47Z",
+  "source_path": "2026/10/11/dimension-saturated-joint-numerical-radius-for-common-source-ran--8d865e6176dd",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261011-8d865e6176dd",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

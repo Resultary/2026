@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/4/SCOPE-rank-one-tcp-cores-detect-toroidal-correlations-exactly--2a493af0e07d",
+  "resultary_record_key": "SCOPE-rank-one-tcp-cores-detect-toroidal-correlations-exactly--2a493af0e07d",
+  "source_commit": "f028d79d4ee461ba321b61d177a0f481ddc7f129",
+  "source_commit_time": "2026-10-04T05:59:42Z",
+  "source_path": "2026/10/04/rank-one-tcp-cores-detect-toroidal-correlations-exactly--2a493af0e07d",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261004-2a493af0e07d",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

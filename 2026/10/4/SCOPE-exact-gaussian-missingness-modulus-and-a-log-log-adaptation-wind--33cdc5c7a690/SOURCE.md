@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261004-33cdc5c7a690`](https://github.com/SCOPE-Science/SCOPE2026/tree/9471f03969bf243b296c842e411ad80cae53dce8/2026/10/04/exact-gaussian-missingness-modulus-and-a-log-log-adaptation-wind--33cdc5c7a690)
+
+Imported into Resultary as `2026/10/4/SCOPE-exact-gaussian-missingness-modulus-and-a-log-log-adaptation-wind--33cdc5c7a690`. The finding, audit, and attached artifacts remain attributable to SCOPE.

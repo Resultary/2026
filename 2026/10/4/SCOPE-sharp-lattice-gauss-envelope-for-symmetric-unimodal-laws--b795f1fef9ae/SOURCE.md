@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261004-b795f1fef9ae`](https://github.com/SCOPE-Science/SCOPE2026/tree/fbf5380acd20c4c1e1e5eb5f13e7c884ba8504a1/2026/10/04/sharp-lattice-gauss-envelope-for-symmetric-unimodal-laws--b795f1fef9ae)
+
+Imported into Resultary as `2026/10/4/SCOPE-sharp-lattice-gauss-envelope-for-symmetric-unimodal-laws--b795f1fef9ae`. The finding, audit, and attached artifacts remain attributable to SCOPE.

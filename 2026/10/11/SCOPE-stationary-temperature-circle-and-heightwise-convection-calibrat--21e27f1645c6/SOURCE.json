@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/11/SCOPE-stationary-temperature-circle-and-heightwise-convection-calibrat--21e27f1645c6",
+  "resultary_record_key": "SCOPE-stationary-temperature-circle-and-heightwise-convection-calibrat--21e27f1645c6",
+  "source_commit": "a7c8541601ad73c3364aef1f3ccbfa29f1879970",
+  "source_commit_time": "2026-10-11T13:02:02Z",
+  "source_path": "2026/10/11/stationary-temperature-circle-and-heightwise-convection-calibrat--21e27f1645c6",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261011-21e27f1645c6",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

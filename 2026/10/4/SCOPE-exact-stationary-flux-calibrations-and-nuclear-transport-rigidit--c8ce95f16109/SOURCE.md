@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261004-c8ce95f16109`](https://github.com/SCOPE-Science/SCOPE2026/tree/07ce53400ec582f6aa17b228f257b1c7f27a820a/2026/10/04/exact-stationary-flux-calibrations-and-nuclear-transport-rigidit--c8ce95f16109)
+
+Imported into Resultary as `2026/10/4/SCOPE-exact-stationary-flux-calibrations-and-nuclear-transport-rigidit--c8ce95f16109`. The finding, audit, and attached artifacts remain attributable to SCOPE.

@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261004-d7d7a1fe0f08`](https://github.com/SCOPE-Science/SCOPE2026/tree/2bdf2e52b9a0c419d8c521c55ebd2a0d48463b3b/2026/10/04/exact-klx-number-of-balanced-complete-multipartite-graphs--d7d7a1fe0f08)
+
+Imported into Resultary as `2026/10/4/SCOPE-exact-klx-number-of-balanced-complete-multipartite-graphs--d7d7a1fe0f08`. The finding, audit, and attached artifacts remain attributable to SCOPE.

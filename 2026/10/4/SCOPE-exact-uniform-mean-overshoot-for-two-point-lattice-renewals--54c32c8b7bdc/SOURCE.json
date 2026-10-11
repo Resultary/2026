@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/4/SCOPE-exact-uniform-mean-overshoot-for-two-point-lattice-renewals--54c32c8b7bdc",
+  "resultary_record_key": "SCOPE-exact-uniform-mean-overshoot-for-two-point-lattice-renewals--54c32c8b7bdc",
+  "source_commit": "43f1e1f6ab1c32177c376f7b922da1cf6c1a8512",
+  "source_commit_time": "2026-10-04T06:01:05Z",
+  "source_path": "2026/10/04/exact-uniform-mean-overshoot-for-two-point-lattice-renewals--54c32c8b7bdc",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261004-54c32c8b7bdc",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

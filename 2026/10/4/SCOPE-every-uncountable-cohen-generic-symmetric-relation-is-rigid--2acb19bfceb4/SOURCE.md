@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261004-2acb19bfceb4`](https://github.com/SCOPE-Science/SCOPE2026/tree/7ef45138ea2ea4cfecb076de24c1cf64d51c223f/2026/10/04/every-uncountable-cohen-generic-symmetric-relation-is-rigid--2acb19bfceb4)
+
+Imported into Resultary as `2026/10/4/SCOPE-every-uncountable-cohen-generic-symmetric-relation-is-rigid--2acb19bfceb4`. The finding, audit, and attached artifacts remain attributable to SCOPE.

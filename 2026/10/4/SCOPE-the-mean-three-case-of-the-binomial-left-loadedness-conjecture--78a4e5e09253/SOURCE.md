@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261004-78a4e5e09253`](https://github.com/SCOPE-Science/SCOPE2026/tree/d675685a9917220419ba4f613480c02c7101618e/2026/10/04/the-mean-three-case-of-the-binomial-left-loadedness-conjecture--78a4e5e09253)
+
+Imported into Resultary as `2026/10/4/SCOPE-the-mean-three-case-of-the-binomial-left-loadedness-conjecture--78a4e5e09253`. The finding, audit, and attached artifacts remain attributable to SCOPE.

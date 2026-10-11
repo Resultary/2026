@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/4/SCOPE-correction-and-optimizer-classification-for-fractional-local-met--47dc94fb749e",
+  "resultary_record_key": "SCOPE-correction-and-optimizer-classification-for-fractional-local-met--47dc94fb749e",
+  "source_commit": "aa5d3b5ec6c22ffe33c3cd1140aa0d59a5cbbc24",
+  "source_commit_time": "2026-10-04T05:54:44Z",
+  "source_path": "2026/10/04/correction-and-optimizer-classification-for-fractional-local-met--47dc94fb749e",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261004-47dc94fb749e",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

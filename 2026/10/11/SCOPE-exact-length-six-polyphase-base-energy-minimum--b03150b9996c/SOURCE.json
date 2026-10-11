@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/11/SCOPE-exact-length-six-polyphase-base-energy-minimum--b03150b9996c",
+  "resultary_record_key": "SCOPE-exact-length-six-polyphase-base-energy-minimum--b03150b9996c",
+  "source_commit": "657ed587f71c9fb261ec80524b469725b4e73e3f",
+  "source_commit_time": "2026-10-11T12:56:54Z",
+  "source_path": "2026/10/11/exact-length-six-polyphase-base-energy-minimum--b03150b9996c",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261011-b03150b9996c",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

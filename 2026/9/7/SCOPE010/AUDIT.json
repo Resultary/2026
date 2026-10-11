@@ -1,10 +1,75 @@
 {
-  "independent": false,
-  "independent_audit_status": "not_performed",
-  "independent_validation": false,
-  "previously_published_pending_reaudit": true,
+  "audit_date_utc": "2026-09-30",
+  "checked_sources": [
+    {
+      "inspection": "Full result inspected.",
+      "kind": "package",
+      "url": "https://github.com/SCOPE-Science/SCOPE2026/blob/92c7f26b45ce94be6cda0eafed44298c598d7b47/2026/09/07/010/RESULT.md"
+    },
+    {
+      "inspection": "Actual standalone exact verifier inspected.",
+      "kind": "package",
+      "url": "https://github.com/SCOPE-Science/SCOPE2026/blob/92c7f26b45ce94be6cda0eafed44298c598d7b47/2026/09/07/010/artifacts/recheck.py"
+    },
+    {
+      "inspection": "Complete pattern/primal/dual/packing certificates for all five entries inspected.",
+      "kind": "package",
+      "url": "https://github.com/SCOPE-Science/SCOPE2026/blob/92c7f26b45ce94be6cda0eafed44298c598d7b47/2026/09/07/010/artifacts/catalog.json"
+    },
+    {
+      "inspection": "Exact semantic search; own record was the direct match.",
+      "kind": "published_results_search",
+      "url": "https://github.com/Resultary/2026/tree/main/2026/9/7/SCOPE010"
+    },
+    {
+      "inspection": "Kartak–Kurz–Ripatti–Scheithauer primary record inspected; its total-demand stratification does not imply this capacity-24 typed-demand catalog.",
+      "kind": "primary_literature",
+      "url": "https://arxiv.org/abs/1405.5988"
+    },
+    {
+      "inspection": "MIRUP literature checked; provides the property and numerical context, not the exact present table.",
+      "kind": "primary_literature",
+      "url": "https://doi.org/10.1016/0377-2217(95)00022-I"
+    },
+    {
+      "inspection": "Published MIRUP subcase results checked for broader coverage; no implication of the exact five-instance catalog was found.",
+      "kind": "primary_literature",
+      "url": "https://ideas.repec.org/a/spr/mathme/v48y1998i1p105-115.html"
+    }
+  ],
+  "correctness": {
+    "reason": "Fresh verification independently enumerated complete patterns for all five catalog entries, solved the configuration LP and converted both primal and dual solutions to exact rational certificates, and independently proved the claimed integer optima by complete item-branching search. A separate exact low-dimensional dual-vertex enumeration plus dynamic program reproduced all 3,520 two-type and 84,465 three-type IRUP instances. The 63 Hamming-1 neighbors were regenerated and independently checked by exact rational primal-dual equality plus complete packing search, with zero gap-one neighbors.",
+    "risk": "The much larger k=4 through k=6 box was not exhaustively classified, consistent with the record's explicit limitation.",
+    "status": "PASS"
+  },
+  "final_claim": "The five listed capacity-24 cutting-stock instances each have exact Gilmore–Gomory gap one; every defined Hamming-1 neighbor has gap zero; and the stated k-at-most-3 box contains 3,520 two-type and 84,465 three-type instances, all satisfying IRUP. Full k-at-most-6 maximality is not claimed.",
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "originality": {
+    "reason": "Kartak–Kurz–Ripatti–Scheithauer proves proper IRUP through total demand 9 and gives non-IRUP examples from total demand 10, while the present capacity-24 high-multiplicity instances have different total demands and are not implied by that result. MIRUP papers give general or subproblem bounds rather than this capacity-stratified exact catalog. Exact searches for the listed size/demand vectors did not locate prior matches.",
+    "risk": "Small benchmark instances can circulate in solver test sets without searchable prose; no such exact match was found.",
+    "status": "PASS"
+  },
+  "originality_checks": {
+    "broader_coverage": "Known MIRUP/IRUP results cover different demand regimes or sufficient subcases and do not imply the exact capacity-24 benchmark list or local-neighbor statement.",
+    "claim_vs_prior_implication": "Prior existence of non-IRUP instances does not imply these five exact LP/IP values, the 63-neighbor local maximality, or the stated low-type box census.",
+    "equivalent_formulations": "Searched exact size/demand vectors, capacity 24, IRUP failure, gap one, and Gilmore–Gomory certificate formulations.",
+    "exact_database_or_table": "No external capacity-24 table containing these exact five certified vectors was found."
+  },
+  "previously_published_pending_reaudit": false,
   "record_id": "SCOPE-20260907-010",
-  "review_type": "independent_audit_pending",
+  "residual_risks": [
+    "The much larger k=4 through k=6 box was not exhaustively classified, consistent with the record's explicit limitation.",
+    "Small benchmark instances can circulate in solver test sets without searchable prose; no such exact match was found.",
+    "The full capacity-24 k-at-most-6 maximality remains open, so the value is in the certified benchmark/boundary data rather than a global extremal theorem."
+  ],
+  "review_type": "independent_audit",
   "schema_version": 1,
-  "verification_state": "awaiting_fresh_independent_audit"
+  "value": {
+    "reason": "Exact configuration-LP versus integer-gap witnesses with complete primal-dual and packing certificates are directly useful as reproducible column-generation and branch-and-price benchmarks. The exhaustive low-type boundary and strict local gap maxima give mathematically motivated structure beyond merely reporting random hard instances.",
+    "risk": "The full capacity-24 k-at-most-6 maximality remains open, so the value is in the certified benchmark/boundary data rather than a global extremal theorem.",
+    "status": "PASS"
+  },
+  "verification_state": "independent_audit_passed"
 }

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/11/SCOPE-barycenter-determined-covariance-anisotropy-in-the-tinkerbell-ma--53c96a94ab48",
+  "resultary_record_key": "SCOPE-barycenter-determined-covariance-anisotropy-in-the-tinkerbell-ma--53c96a94ab48",
+  "source_commit": "4b2f1f3bc9a33560dd310872e298dc8d799207a1",
+  "source_commit_time": "2026-10-11T13:02:02Z",
+  "source_path": "2026/10/11/barycenter-determined-covariance-anisotropy-in-the-tinkerbell-ma--53c96a94ab48",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261011-53c96a94ab48",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

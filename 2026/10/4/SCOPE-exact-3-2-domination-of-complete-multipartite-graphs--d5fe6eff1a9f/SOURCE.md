@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261004-d5fe6eff1a9f`](https://github.com/SCOPE-Science/SCOPE2026/tree/957d079a0ee9954dc9f5de9821090e8cdecc58c1/2026/10/04/exact-3-2-domination-of-complete-multipartite-graphs--d5fe6eff1a9f)
+
+Imported into Resultary as `2026/10/4/SCOPE-exact-3-2-domination-of-complete-multipartite-graphs--d5fe6eff1a9f`. The finding, audit, and attached artifacts remain attributable to SCOPE.

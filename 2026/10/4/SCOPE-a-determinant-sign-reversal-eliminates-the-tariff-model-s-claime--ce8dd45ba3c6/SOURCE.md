@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261004-ce8dd45ba3c6`](https://github.com/SCOPE-Science/SCOPE2026/tree/4370694079fb78f1f970f4a7652c61c182bf19ea/2026/10/04/a-determinant-sign-reversal-eliminates-the-tariff-model-s-claime--ce8dd45ba3c6)
+
+Imported into Resultary as `2026/10/4/SCOPE-a-determinant-sign-reversal-eliminates-the-tariff-model-s-claime--ce8dd45ba3c6`. The finding, audit, and attached artifacts remain attributable to SCOPE.

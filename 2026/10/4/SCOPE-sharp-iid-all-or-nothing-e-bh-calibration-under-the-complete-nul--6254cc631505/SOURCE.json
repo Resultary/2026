@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/4/SCOPE-sharp-iid-all-or-nothing-e-bh-calibration-under-the-complete-nul--6254cc631505",
+  "resultary_record_key": "SCOPE-sharp-iid-all-or-nothing-e-bh-calibration-under-the-complete-nul--6254cc631505",
+  "source_commit": "4fa6e94f567e00d41252dc2f8990a7fa0a4ff30f",
+  "source_commit_time": "2026-10-04T06:01:45Z",
+  "source_path": "2026/10/04/sharp-iid-all-or-nothing-e-bh-calibration-under-the-complete-nul--6254cc631505",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261004-6254cc631505",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

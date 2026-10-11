@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/11/SCOPE-constant-drive-restores-spike-count-monotonicity-in-the-mhr-hybr--25060b90e607",
+  "resultary_record_key": "SCOPE-constant-drive-restores-spike-count-monotonicity-in-the-mhr-hybr--25060b90e607",
+  "source_commit": "ecb7f0ad45e452d9c4aadda6c522ae91dc009ed8",
+  "source_commit_time": "2026-10-11T13:04:44Z",
+  "source_path": "2026/10/11/constant-drive-restores-spike-count-monotonicity-in-the-mhr-hybr--25060b90e607",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261011-25060b90e607",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

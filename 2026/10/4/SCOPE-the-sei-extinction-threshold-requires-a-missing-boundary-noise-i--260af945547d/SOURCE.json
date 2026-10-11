@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/4/SCOPE-the-sei-extinction-threshold-requires-a-missing-boundary-noise-i--260af945547d",
+  "resultary_record_key": "SCOPE-the-sei-extinction-threshold-requires-a-missing-boundary-noise-i--260af945547d",
+  "source_commit": "3a08eb8f6038db7d6e10eafbb6e833d3bb3405c4",
+  "source_commit_time": "2026-10-04T05:54:05Z",
+  "source_path": "2026/10/04/the-sei-extinction-threshold-requires-a-missing-boundary-noise-i--260af945547d",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261004-260af945547d",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

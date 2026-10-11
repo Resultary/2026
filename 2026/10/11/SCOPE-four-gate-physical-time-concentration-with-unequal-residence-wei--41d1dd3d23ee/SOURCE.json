@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/11/SCOPE-four-gate-physical-time-concentration-with-unequal-residence-wei--41d1dd3d23ee",
+  "resultary_record_key": "SCOPE-four-gate-physical-time-concentration-with-unequal-residence-wei--41d1dd3d23ee",
+  "source_commit": "9229f44636b084800b347a7e17ac492c29505608",
+  "source_commit_time": "2026-10-11T13:04:22Z",
+  "source_path": "2026/10/11/four-gate-physical-time-concentration-with-unequal-residence-wei--41d1dd3d23ee",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261011-41d1dd3d23ee",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

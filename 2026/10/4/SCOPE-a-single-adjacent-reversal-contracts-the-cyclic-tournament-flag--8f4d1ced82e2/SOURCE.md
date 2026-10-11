@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261004-8f4d1ced82e2`](https://github.com/SCOPE-Science/SCOPE2026/tree/ee3f078dfacb983b8b483fd64027c56d7a4ef6f1/2026/10/04/a-single-adjacent-reversal-contracts-the-cyclic-tournament-flag--8f4d1ced82e2)
+
+Imported into Resultary as `2026/10/4/SCOPE-a-single-adjacent-reversal-contracts-the-cyclic-tournament-flag--8f4d1ced82e2`. The finding, audit, and attached artifacts remain attributable to SCOPE.

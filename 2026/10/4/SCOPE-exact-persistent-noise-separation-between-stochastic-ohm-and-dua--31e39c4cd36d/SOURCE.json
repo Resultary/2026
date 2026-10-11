@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/4/SCOPE-exact-persistent-noise-separation-between-stochastic-ohm-and-dua--31e39c4cd36d",
+  "resultary_record_key": "SCOPE-exact-persistent-noise-separation-between-stochastic-ohm-and-dua--31e39c4cd36d",
+  "source_commit": "75f8e7be9181ab59cf8bcb52963368060163ed3f",
+  "source_commit_time": "2026-10-04T06:00:55Z",
+  "source_path": "2026/10/04/exact-persistent-noise-separation-between-stochastic-ohm-and-dua--31e39c4cd36d",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261004-31e39c4cd36d",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

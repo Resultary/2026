@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261004-1507362764fa`](https://github.com/SCOPE-Science/SCOPE2026/tree/e50c809a6e9240158198df11ec781859a3522f4b/2026/10/04/the-metric-james-constant-is-exactly-a-reparameterization-of-the--1507362764fa)
+
+Imported into Resultary as `2026/10/4/SCOPE-the-metric-james-constant-is-exactly-a-reparameterization-of-the--1507362764fa`. The finding, audit, and attached artifacts remain attributable to SCOPE.

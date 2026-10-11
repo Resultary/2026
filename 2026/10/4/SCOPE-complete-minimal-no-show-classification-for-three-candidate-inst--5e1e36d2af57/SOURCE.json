@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/4/SCOPE-complete-minimal-no-show-classification-for-three-candidate-inst--5e1e36d2af57",
+  "resultary_record_key": "SCOPE-complete-minimal-no-show-classification-for-three-candidate-inst--5e1e36d2af57",
+  "source_commit": "5afb553bf231572d7a8965167f3f756156d6c7d6",
+  "source_commit_time": "2026-10-04T05:53:16Z",
+  "source_path": "2026/10/04/complete-minimal-no-show-classification-for-three-candidate-inst--5e1e36d2af57",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261004-5e1e36d2af57",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

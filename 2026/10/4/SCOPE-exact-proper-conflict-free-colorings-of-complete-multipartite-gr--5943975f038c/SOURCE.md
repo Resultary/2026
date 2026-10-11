@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261004-5943975f038c`](https://github.com/SCOPE-Science/SCOPE2026/tree/29635a896c70b9a50a14e1dc3e260bb238465e3b/2026/10/04/exact-proper-conflict-free-colorings-of-complete-multipartite-gr--5943975f038c)
+
+Imported into Resultary as `2026/10/4/SCOPE-exact-proper-conflict-free-colorings-of-complete-multipartite-gr--5943975f038c`. The finding, audit, and attached artifacts remain attributable to SCOPE.

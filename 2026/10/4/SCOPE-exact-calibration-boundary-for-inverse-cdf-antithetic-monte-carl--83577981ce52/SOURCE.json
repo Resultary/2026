@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/4/SCOPE-exact-calibration-boundary-for-inverse-cdf-antithetic-monte-carl--83577981ce52",
+  "resultary_record_key": "SCOPE-exact-calibration-boundary-for-inverse-cdf-antithetic-monte-carl--83577981ce52",
+  "source_commit": "fe10f4ecf26153d8f95a9307d6cfd2d3611151e0",
+  "source_commit_time": "2026-10-04T06:01:49Z",
+  "source_path": "2026/10/04/exact-calibration-boundary-for-inverse-cdf-antithetic-monte-carl--83577981ce52",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261004-83577981ce52",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-11T13:31:00Z",
+  "time_standard": "UTC"
+}

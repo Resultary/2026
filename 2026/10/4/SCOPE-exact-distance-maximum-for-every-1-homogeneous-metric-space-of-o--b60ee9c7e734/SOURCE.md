@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261004-b60ee9c7e734`](https://github.com/SCOPE-Science/SCOPE2026/tree/847063030d165075f9f102be82a1438c2627ce3c/2026/10/04/exact-distance-maximum-for-every-1-homogeneous-metric-space-of-o--b60ee9c7e734)
+
+Imported into Resultary as `2026/10/4/SCOPE-exact-distance-maximum-for-every-1-homogeneous-metric-space-of-o--b60ee9c7e734`. The finding, audit, and attached artifacts remain attributable to SCOPE.
