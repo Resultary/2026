@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-endpoint-normal-form-and-exact-census-for-finite-chain-ki-frames--df6301f11b97",
   "resultary_record_key": "SCOPE-endpoint-normal-form-and-exact-census-for-finite-chain-ki-frames--df6301f11b97",
-  "source_commit": "d58189fd54d8f40b7694cf7863e7d08336dd4119",
-  "source_commit_time": "2026-10-11T16:08:53Z",
+  "source_commit": "764248781b125d67d9c00a9419246aeb6c8785e7",
+  "source_commit_time": "2026-10-12T23:29:32Z",
   "source_path": "2026/10/04/endpoint-normal-form-and-exact-census-for-finite-chain-ki-frames--df6301f11b97",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-df6301f11b97",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-12T22:56:03Z",
+  "synced_at": "2026-10-12T23:41:45Z",
   "time_standard": "UTC"
 }

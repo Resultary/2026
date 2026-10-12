@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20261004-13e55324248c`](https://github.com/SCOPE-Science/SCOPE2026/tree/d58189fd54d8f40b7694cf7863e7d08336dd4119/2026/10/04/total-and-paired-domination-of-the-reduced-comaximal-graph-of-a--13e55324248c)
+Original record: [`SCOPE-20261004-13e55324248c`](https://github.com/SCOPE-Science/SCOPE2026/tree/764248781b125d67d9c00a9419246aeb6c8785e7/2026/10/04/total-and-paired-domination-of-the-reduced-comaximal-graph-of-a--13e55324248c)
 
 Imported into Resultary as `2026/10/4/SCOPE-total-and-paired-domination-of-the-reduced-comaximal-graph-of-a--13e55324248c`. The finding, audit, and attached artifacts remain attributable to SCOPE.

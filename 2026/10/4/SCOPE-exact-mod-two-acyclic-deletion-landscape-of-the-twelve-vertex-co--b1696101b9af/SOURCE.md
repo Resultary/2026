@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20261004-b1696101b9af`](https://github.com/SCOPE-Science/SCOPE2026/tree/d58189fd54d8f40b7694cf7863e7d08336dd4119/2026/10/04/exact-mod-two-acyclic-deletion-landscape-of-the-twelve-vertex-co--b1696101b9af)
+Original record: [`SCOPE-20261004-b1696101b9af`](https://github.com/SCOPE-Science/SCOPE2026/tree/764248781b125d67d9c00a9419246aeb6c8785e7/2026/10/04/exact-mod-two-acyclic-deletion-landscape-of-the-twelve-vertex-co--b1696101b9af)
 
 Imported into Resultary as `2026/10/4/SCOPE-exact-mod-two-acyclic-deletion-landscape-of-the-twelve-vertex-co--b1696101b9af`. The finding, audit, and attached artifacts remain attributable to SCOPE.

@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20261004-c34f07e8ca57`](https://github.com/SCOPE-Science/SCOPE2026/tree/d58189fd54d8f40b7694cf7863e7d08336dd4119/2026/10/04/exact-certification-of-the-5-9-hole-in-the-order-16-fourier-unce--c34f07e8ca57)
+Original record: [`SCOPE-20261004-c34f07e8ca57`](https://github.com/SCOPE-Science/SCOPE2026/tree/764248781b125d67d9c00a9419246aeb6c8785e7/2026/10/04/exact-certification-of-the-5-9-hole-in-the-order-16-fourier-unce--c34f07e8ca57)
 
 Imported into Resultary as `2026/10/4/SCOPE-exact-certification-of-the-5-9-hole-in-the-order-16-fourier-unce--c34f07e8ca57`. The finding, audit, and attached artifacts remain attributable to SCOPE.

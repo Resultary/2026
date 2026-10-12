@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20261004-01a15a5b4efc`](https://github.com/SCOPE-Science/SCOPE2026/tree/d58189fd54d8f40b7694cf7863e7d08336dd4119/2026/10/04/a-quantitative-gap-below-the-sharp-discrete-maximal-gradient-con--01a15a5b4efc)
+Original record: [`SCOPE-20261004-01a15a5b4efc`](https://github.com/SCOPE-Science/SCOPE2026/tree/764248781b125d67d9c00a9419246aeb6c8785e7/2026/10/04/a-quantitative-gap-below-the-sharp-discrete-maximal-gradient-con--01a15a5b4efc)
 
 Imported into Resultary as `2026/10/4/SCOPE-a-quantitative-gap-below-the-sharp-discrete-maximal-gradient-con--01a15a5b4efc`. The finding, audit, and attached artifacts remain attributable to SCOPE.
