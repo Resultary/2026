@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20261004-fa14717d1b6a`](https://github.com/SCOPE-Science/SCOPE2026/tree/01c264806af92b58f2c225de7bd05b18ae5f231f/2026/10/04/sharp-five-voter-divergence-boundary-for-kemeny-and-slater-with--fa14717d1b6a)
+Original record: [`SCOPE-20261004-fa14717d1b6a`](https://github.com/SCOPE-Science/SCOPE2026/tree/d58189fd54d8f40b7694cf7863e7d08336dd4119/2026/10/04/sharp-five-voter-divergence-boundary-for-kemeny-and-slater-with--fa14717d1b6a)
 
 Imported into Resultary as `2026/10/4/SCOPE-sharp-five-voter-divergence-boundary-for-kemeny-and-slater-with--fa14717d1b6a`. The finding, audit, and attached artifacts remain attributable to SCOPE.

@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20261004-bfefef62086b`](https://github.com/SCOPE-Science/SCOPE2026/tree/dd5c55cf0eb9bbb3bbbe02adf60ceffeea86c1df/2026/10/04/sharp-match-sparsity-for-borda-inversion--bfefef62086b)
+Original record: [`SCOPE-20261004-bfefef62086b`](https://github.com/SCOPE-Science/SCOPE2026/tree/d58189fd54d8f40b7694cf7863e7d08336dd4119/2026/10/04/sharp-match-sparsity-for-borda-inversion--bfefef62086b)
 
 Imported into Resultary as `2026/10/4/SCOPE-sharp-match-sparsity-for-borda-inversion--bfefef62086b`. The finding, audit, and attached artifacts remain attributable to SCOPE.

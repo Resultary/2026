@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20261004-5f6e926df82f`](https://github.com/SCOPE-Science/SCOPE2026/tree/cba21488ed0f064612960391d7d08583d3095a4f/2026/10/04/a-sharp-flip-frontier-for-the-polar-express-surrogate-on-scalar--5f6e926df82f)
+Original record: [`SCOPE-20261004-5f6e926df82f`](https://github.com/SCOPE-Science/SCOPE2026/tree/d58189fd54d8f40b7694cf7863e7d08336dd4119/2026/10/04/a-sharp-flip-frontier-for-the-polar-express-surrogate-on-scalar--5f6e926df82f)
 
 Imported into Resultary as `2026/10/4/SCOPE-a-sharp-flip-frontier-for-the-polar-express-surrogate-on-scalar--5f6e926df82f`. The finding, audit, and attached artifacts remain attributable to SCOPE.

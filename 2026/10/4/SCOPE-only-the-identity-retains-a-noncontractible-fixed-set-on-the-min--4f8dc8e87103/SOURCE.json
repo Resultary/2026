@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-only-the-identity-retains-a-noncontractible-fixed-set-on-the-min--4f8dc8e87103",
   "resultary_record_key": "SCOPE-only-the-identity-retains-a-noncontractible-fixed-set-on-the-min--4f8dc8e87103",
-  "source_commit": "546a29a65e54365bbb634952fd33916ec63dfd42",
-  "source_commit_time": "2026-10-04T04:43:21Z",
+  "source_commit": "d58189fd54d8f40b7694cf7863e7d08336dd4119",
+  "source_commit_time": "2026-10-11T16:08:53Z",
   "source_path": "2026/10/04/only-the-identity-retains-a-noncontractible-fixed-set-on-the-min--4f8dc8e87103",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-4f8dc8e87103",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-04T04:49:09Z",
+  "synced_at": "2026-10-12T22:56:03Z",
   "time_standard": "UTC"
 }

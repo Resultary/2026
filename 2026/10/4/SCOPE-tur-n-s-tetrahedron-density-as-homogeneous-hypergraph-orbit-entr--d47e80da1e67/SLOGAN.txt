@@ -1,1 +1,0 @@
-The injective tuple-orbit entropy of the universal homogeneous tetrahedron-free 3-hypergraph is exactly Turán's tetrahedron density.

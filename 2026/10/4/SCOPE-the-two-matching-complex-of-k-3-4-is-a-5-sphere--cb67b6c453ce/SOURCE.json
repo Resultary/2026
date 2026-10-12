@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-the-two-matching-complex-of-k-3-4-is-a-5-sphere--cb67b6c453ce",
   "resultary_record_key": "SCOPE-the-two-matching-complex-of-k-3-4-is-a-5-sphere--cb67b6c453ce",
-  "source_commit": "99a2d09cb50cc2bf5dbda30930edba4244593eae",
-  "source_commit_time": "2026-10-04T04:54:35Z",
+  "source_commit": "d58189fd54d8f40b7694cf7863e7d08336dd4119",
+  "source_commit_time": "2026-10-11T16:08:53Z",
   "source_path": "2026/10/04/the-two-matching-complex-of-k-3-4-is-a-5-sphere--cb67b6c453ce",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-cb67b6c453ce",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-04T04:59:35Z",
+  "synced_at": "2026-10-12T22:56:03Z",
   "time_standard": "UTC"
 }

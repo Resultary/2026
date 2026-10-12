@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-exact-3-2-domination-of-complete-multipartite-graphs--d5fe6eff1a9f",
   "resultary_record_key": "SCOPE-exact-3-2-domination-of-complete-multipartite-graphs--d5fe6eff1a9f",
-  "source_commit": "957d079a0ee9954dc9f5de9821090e8cdecc58c1",
-  "source_commit_time": "2026-10-04T05:55:16Z",
+  "source_commit": "d58189fd54d8f40b7694cf7863e7d08336dd4119",
+  "source_commit_time": "2026-10-11T16:08:53Z",
   "source_path": "2026/10/04/exact-3-2-domination-of-complete-multipartite-graphs--d5fe6eff1a9f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-d5fe6eff1a9f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-12T22:56:03Z",
   "time_standard": "UTC"
 }

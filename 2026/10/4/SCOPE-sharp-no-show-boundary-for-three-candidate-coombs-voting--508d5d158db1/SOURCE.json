@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-sharp-no-show-boundary-for-three-candidate-coombs-voting--508d5d158db1",
   "resultary_record_key": "SCOPE-sharp-no-show-boundary-for-three-candidate-coombs-voting--508d5d158db1",
-  "source_commit": "2203c0fe6fc27ad44c723f8284d2fb5d59fa2bd8",
-  "source_commit_time": "2026-10-04T05:53:20Z",
+  "source_commit": "d58189fd54d8f40b7694cf7863e7d08336dd4119",
+  "source_commit_time": "2026-10-11T16:08:53Z",
   "source_path": "2026/10/04/sharp-no-show-boundary-for-three-candidate-coombs-voting--508d5d158db1",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-508d5d158db1",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-12T22:56:03Z",
   "time_standard": "UTC"
 }

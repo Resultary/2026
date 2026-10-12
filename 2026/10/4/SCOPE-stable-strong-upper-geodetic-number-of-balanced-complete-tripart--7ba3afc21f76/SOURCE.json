@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-stable-strong-upper-geodetic-number-of-balanced-complete-tripart--7ba3afc21f76",
   "resultary_record_key": "SCOPE-stable-strong-upper-geodetic-number-of-balanced-complete-tripart--7ba3afc21f76",
-  "source_commit": "39c3e06f7f5ec079b818cc03c47f7d4c6d3b2df8",
-  "source_commit_time": "2026-10-04T05:54:27Z",
+  "source_commit": "d58189fd54d8f40b7694cf7863e7d08336dd4119",
+  "source_commit_time": "2026-10-11T16:08:53Z",
   "source_path": "2026/10/04/stable-strong-upper-geodetic-number-of-balanced-complete-tripart--7ba3afc21f76",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-7ba3afc21f76",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-12T22:56:03Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-cubic-grid-phase-law-for-a-sampled-bang-switch-in-a-controlled-q--99b8c1c493cd",
   "resultary_record_key": "SCOPE-cubic-grid-phase-law-for-a-sampled-bang-switch-in-a-controlled-q--99b8c1c493cd",
-  "source_commit": "f09ee66c389fbd7b356a967c8acd59f698765b5a",
-  "source_commit_time": "2026-10-04T05:58:54Z",
+  "source_commit": "d58189fd54d8f40b7694cf7863e7d08336dd4119",
+  "source_commit_time": "2026-10-11T16:08:53Z",
   "source_path": "2026/10/04/cubic-grid-phase-law-for-a-sampled-bang-switch-in-a-controlled-q--99b8c1c493cd",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-99b8c1c493cd",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-12T22:56:03Z",
   "time_standard": "UTC"
 }

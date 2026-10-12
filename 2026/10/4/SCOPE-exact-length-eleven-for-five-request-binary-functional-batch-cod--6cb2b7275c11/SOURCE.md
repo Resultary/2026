@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20261004-6cb2b7275c11`](https://github.com/SCOPE-Science/SCOPE2026/tree/09918a533846ecc25d426dce1b08eb8c4477ca7d/2026/10/04/exact-length-eleven-for-five-request-binary-functional-batch-cod--6cb2b7275c11)
+Original record: [`SCOPE-20261004-6cb2b7275c11`](https://github.com/SCOPE-Science/SCOPE2026/tree/d58189fd54d8f40b7694cf7863e7d08336dd4119/2026/10/04/exact-length-eleven-for-five-request-binary-functional-batch-cod--6cb2b7275c11)
 
 Imported into Resultary as `2026/10/4/SCOPE-exact-length-eleven-for-five-request-binary-functional-batch-cod--6cb2b7275c11`. The finding, audit, and attached artifacts remain attributable to SCOPE.

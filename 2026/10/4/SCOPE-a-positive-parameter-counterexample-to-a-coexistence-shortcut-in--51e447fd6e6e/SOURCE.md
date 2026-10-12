@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20261004-51e447fd6e6e`](https://github.com/SCOPE-Science/SCOPE2026/tree/0c0a542d8c6bea092aa4bff183ed9f9b51fdcd28/2026/10/04/a-positive-parameter-counterexample-to-a-coexistence-shortcut-in--51e447fd6e6e)
+Original record: [`SCOPE-20261004-51e447fd6e6e`](https://github.com/SCOPE-Science/SCOPE2026/tree/d58189fd54d8f40b7694cf7863e7d08336dd4119/2026/10/04/a-positive-parameter-counterexample-to-a-coexistence-shortcut-in--51e447fd6e6e)
 
 Imported into Resultary as `2026/10/4/SCOPE-a-positive-parameter-counterexample-to-a-coexistence-shortcut-in--51e447fd6e6e`. The finding, audit, and attached artifacts remain attributable to SCOPE.

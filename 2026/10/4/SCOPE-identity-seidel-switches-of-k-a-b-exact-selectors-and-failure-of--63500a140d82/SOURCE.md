@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20261004-63500a140d82`](https://github.com/SCOPE-Science/SCOPE2026/tree/5d3ec3e50204d0729cdd0b2af550943fed7b8723/2026/10/04/identity-seidel-switches-of-k-a-b-exact-selectors-and-failure-of--63500a140d82)
+Original record: [`SCOPE-20261004-63500a140d82`](https://github.com/SCOPE-Science/SCOPE2026/tree/d58189fd54d8f40b7694cf7863e7d08336dd4119/2026/10/04/identity-seidel-switches-of-k-a-b-exact-selectors-and-failure-of--63500a140d82)
 
 Imported into Resultary as `2026/10/4/SCOPE-identity-seidel-switches-of-k-a-b-exact-selectors-and-failure-of--63500a140d82`. The finding, audit, and attached artifacts remain attributable to SCOPE.

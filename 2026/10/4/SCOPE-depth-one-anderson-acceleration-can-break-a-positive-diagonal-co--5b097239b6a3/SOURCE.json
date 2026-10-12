@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-depth-one-anderson-acceleration-can-break-a-positive-diagonal-co--5b097239b6a3",
   "resultary_record_key": "SCOPE-depth-one-anderson-acceleration-can-break-a-positive-diagonal-co--5b097239b6a3",
-  "source_commit": "6ccc3726c5afb98f21ee91b10718c4ee92f81140",
-  "source_commit_time": "2026-10-04T06:00:10Z",
+  "source_commit": "d58189fd54d8f40b7694cf7863e7d08336dd4119",
+  "source_commit_time": "2026-10-11T16:08:53Z",
   "source_path": "2026/10/04/depth-one-anderson-acceleration-can-break-a-positive-diagonal-co--5b097239b6a3",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-5b097239b6a3",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-12T22:56:03Z",
   "time_standard": "UTC"
 }

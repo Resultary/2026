@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-a-near-exact-bracket-for-the-segment-sum-constant-in-the-argyros--e986eea367ff",
   "resultary_record_key": "SCOPE-a-near-exact-bracket-for-the-segment-sum-constant-in-the-argyros--e986eea367ff",
-  "source_commit": "b3109ff0e724df4c3c21ff12935bf825dab58d36",
-  "source_commit_time": "2026-10-04T05:06:27Z",
+  "source_commit": "d58189fd54d8f40b7694cf7863e7d08336dd4119",
+  "source_commit_time": "2026-10-11T16:08:53Z",
   "source_path": "2026/10/04/a-near-exact-bracket-for-the-segment-sum-constant-in-the-argyros--e986eea367ff",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-e986eea367ff",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-04T05:10:12Z",
+  "synced_at": "2026-10-12T22:56:03Z",
   "time_standard": "UTC"
 }

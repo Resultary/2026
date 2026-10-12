@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-complete-five-alternative-banks-minimal-covering-disparity-layer--cdf9bdf7fa72",
   "resultary_record_key": "SCOPE-complete-five-alternative-banks-minimal-covering-disparity-layer--cdf9bdf7fa72",
-  "source_commit": "49d3a30c5e4d28707929e3ef5d68b3b51608aa2f",
-  "source_commit_time": "2026-10-04T05:53:34Z",
+  "source_commit": "d58189fd54d8f40b7694cf7863e7d08336dd4119",
+  "source_commit_time": "2026-10-11T16:08:53Z",
   "source_path": "2026/10/04/complete-five-alternative-banks-minimal-covering-disparity-layer--cdf9bdf7fa72",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-cdf9bdf7fa72",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-12T22:56:03Z",
   "time_standard": "UTC"
 }

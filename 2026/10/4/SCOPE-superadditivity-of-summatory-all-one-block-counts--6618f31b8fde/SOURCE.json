@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-superadditivity-of-summatory-all-one-block-counts--6618f31b8fde",
   "resultary_record_key": "SCOPE-superadditivity-of-summatory-all-one-block-counts--6618f31b8fde",
-  "source_commit": "e94acc43c49fd0dbdd0680f60acec5375a930919",
-  "source_commit_time": "2026-10-04T05:56:18Z",
+  "source_commit": "d58189fd54d8f40b7694cf7863e7d08336dd4119",
+  "source_commit_time": "2026-10-11T16:08:53Z",
   "source_path": "2026/10/04/superadditivity-of-summatory-all-one-block-counts--6618f31b8fde",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-6618f31b8fde",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-12T22:56:03Z",
   "time_standard": "UTC"
 }

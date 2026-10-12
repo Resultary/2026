@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-exact-stationary-nullcline-regressions-and-speed-defects-in-the--73e167a0e4cd",
   "resultary_record_key": "SCOPE-exact-stationary-nullcline-regressions-and-speed-defects-in-the--73e167a0e4cd",
-  "source_commit": "f1ef4fa20bdcbde01c04a1dbdb659be8180d1cf0",
-  "source_commit_time": "2026-10-04T05:57:19Z",
+  "source_commit": "d58189fd54d8f40b7694cf7863e7d08336dd4119",
+  "source_commit_time": "2026-10-11T16:08:53Z",
   "source_path": "2026/10/04/exact-stationary-nullcline-regressions-and-speed-defects-in-the--73e167a0e4cd",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-73e167a0e4cd",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-12T22:56:03Z",
   "time_standard": "UTC"
 }

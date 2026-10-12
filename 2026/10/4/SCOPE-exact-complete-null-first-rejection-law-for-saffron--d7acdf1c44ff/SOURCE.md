@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20261004-d7acdf1c44ff`](https://github.com/SCOPE-Science/SCOPE2026/tree/9d3030e35c86ad688e9427a05ee3a4fdc009c198/2026/10/04/exact-complete-null-first-rejection-law-for-saffron--d7acdf1c44ff)
+Original record: [`SCOPE-20261004-d7acdf1c44ff`](https://github.com/SCOPE-Science/SCOPE2026/tree/d58189fd54d8f40b7694cf7863e7d08336dd4119/2026/10/04/exact-complete-null-first-rejection-law-for-saffron--d7acdf1c44ff)
 
 Imported into Resultary as `2026/10/4/SCOPE-exact-complete-null-first-rejection-law-for-saffron--d7acdf1c44ff`. The finding, audit, and attached artifacts remain attributable to SCOPE.

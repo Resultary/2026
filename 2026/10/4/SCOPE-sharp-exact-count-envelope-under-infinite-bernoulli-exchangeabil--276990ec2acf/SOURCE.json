@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-sharp-exact-count-envelope-under-infinite-bernoulli-exchangeabil--276990ec2acf",
   "resultary_record_key": "SCOPE-sharp-exact-count-envelope-under-infinite-bernoulli-exchangeabil--276990ec2acf",
-  "source_commit": "004a1b2f5bd03d88b4c0e4f08c04a247a7c99fc0",
-  "source_commit_time": "2026-10-04T06:01:11Z",
+  "source_commit": "d58189fd54d8f40b7694cf7863e7d08336dd4119",
+  "source_commit_time": "2026-10-11T16:08:53Z",
   "source_path": "2026/10/04/sharp-exact-count-envelope-under-infinite-bernoulli-exchangeabil--276990ec2acf",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-276990ec2acf",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-12T22:56:03Z",
   "time_standard": "UTC"
 }

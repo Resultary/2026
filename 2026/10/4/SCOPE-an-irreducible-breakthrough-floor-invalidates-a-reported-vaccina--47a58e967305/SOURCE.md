@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20261004-47a58e967305`](https://github.com/SCOPE-Science/SCOPE2026/tree/eebfdd6adadb42ac2d6149e3cce5b391a10e402d/2026/10/04/an-irreducible-breakthrough-floor-invalidates-a-reported-vaccina--47a58e967305)
+Original record: [`SCOPE-20261004-47a58e967305`](https://github.com/SCOPE-Science/SCOPE2026/tree/d58189fd54d8f40b7694cf7863e7d08336dd4119/2026/10/04/an-irreducible-breakthrough-floor-invalidates-a-reported-vaccina--47a58e967305)
 
 Imported into Resultary as `2026/10/4/SCOPE-an-irreducible-breakthrough-floor-invalidates-a-reported-vaccina--47a58e967305`. The finding, audit, and attached artifacts remain attributable to SCOPE.

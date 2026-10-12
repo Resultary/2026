@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-equality-at-upper-median-degree-two--536fdb43ad2e",
   "resultary_record_key": "SCOPE-equality-at-upper-median-degree-two--536fdb43ad2e",
-  "source_commit": "455778fa7c5bb8f2754dfba448582ddc60c7f9da",
-  "source_commit_time": "2026-10-04T05:55:26Z",
+  "source_commit": "d58189fd54d8f40b7694cf7863e7d08336dd4119",
+  "source_commit_time": "2026-10-11T16:08:53Z",
   "source_path": "2026/10/04/equality-at-upper-median-degree-two--536fdb43ad2e",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-536fdb43ad2e",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-12T22:56:03Z",
   "time_standard": "UTC"
 }

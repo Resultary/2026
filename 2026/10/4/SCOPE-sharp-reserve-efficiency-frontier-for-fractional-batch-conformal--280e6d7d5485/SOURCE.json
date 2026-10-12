@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-sharp-reserve-efficiency-frontier-for-fractional-batch-conformal--280e6d7d5485",
   "resultary_record_key": "SCOPE-sharp-reserve-efficiency-frontier-for-fractional-batch-conformal--280e6d7d5485",
-  "source_commit": "5ace3c6d844aea8a5229ddeb2870ac8d626ba1f2",
-  "source_commit_time": "2026-10-04T06:02:04Z",
+  "source_commit": "d58189fd54d8f40b7694cf7863e7d08336dd4119",
+  "source_commit_time": "2026-10-11T16:08:53Z",
   "source_path": "2026/10/04/sharp-reserve-efficiency-frontier-for-fractional-batch-conformal--280e6d7d5485",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-280e6d7d5485",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-12T22:56:03Z",
   "time_standard": "UTC"
 }

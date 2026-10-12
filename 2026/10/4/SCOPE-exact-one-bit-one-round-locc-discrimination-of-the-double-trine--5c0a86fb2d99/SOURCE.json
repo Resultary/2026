@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-exact-one-bit-one-round-locc-discrimination-of-the-double-trine--5c0a86fb2d99",
   "resultary_record_key": "SCOPE-exact-one-bit-one-round-locc-discrimination-of-the-double-trine--5c0a86fb2d99",
-  "source_commit": "3e4858104e99b2ab1e7ab7f99767f2963b57fc8f",
-  "source_commit_time": "2026-10-04T05:59:37Z",
+  "source_commit": "d58189fd54d8f40b7694cf7863e7d08336dd4119",
+  "source_commit_time": "2026-10-11T16:08:53Z",
   "source_path": "2026/10/04/exact-one-bit-one-round-locc-discrimination-of-the-double-trine--5c0a86fb2d99",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-5c0a86fb2d99",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-12T22:56:03Z",
   "time_standard": "UTC"
 }

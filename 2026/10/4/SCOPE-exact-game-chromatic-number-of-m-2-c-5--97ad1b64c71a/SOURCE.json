@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-exact-game-chromatic-number-of-m-2-c-5--97ad1b64c71a",
   "resultary_record_key": "SCOPE-exact-game-chromatic-number-of-m-2-c-5--97ad1b64c71a",
-  "source_commit": "58791d9587eca6076fa5ce35f2eacca339b1b5d5",
-  "source_commit_time": "2026-10-04T05:55:09Z",
+  "source_commit": "d58189fd54d8f40b7694cf7863e7d08336dd4119",
+  "source_commit_time": "2026-10-11T16:08:53Z",
   "source_path": "2026/10/04/exact-game-chromatic-number-of-m-2-c-5--97ad1b64c71a",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-97ad1b64c71a",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-12T22:56:03Z",
   "time_standard": "UTC"
 }

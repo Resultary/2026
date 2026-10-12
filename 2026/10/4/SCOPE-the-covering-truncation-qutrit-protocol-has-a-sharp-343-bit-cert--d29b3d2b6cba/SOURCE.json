@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-the-covering-truncation-qutrit-protocol-has-a-sharp-343-bit-cert--d29b3d2b6cba",
   "resultary_record_key": "SCOPE-the-covering-truncation-qutrit-protocol-has-a-sharp-343-bit-cert--d29b3d2b6cba",
-  "source_commit": "dc8ac2211f863bfab9015d8ca9c9a14136fcee8c",
-  "source_commit_time": "2026-10-04T05:59:22Z",
+  "source_commit": "d58189fd54d8f40b7694cf7863e7d08336dd4119",
+  "source_commit_time": "2026-10-11T16:08:53Z",
   "source_path": "2026/10/04/the-covering-truncation-qutrit-protocol-has-a-sharp-343-bit-cert--d29b3d2b6cba",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-d29b3d2b6cba",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-12T22:56:03Z",
   "time_standard": "UTC"
 }

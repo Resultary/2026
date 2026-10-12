@@ -2,6 +2,6 @@
 
 Source project: **SCOPE**
 
-Original record: [`SCOPE-20261004-d12ccf377888`](https://github.com/SCOPE-Science/SCOPE2026/tree/bdba49ddf193eef38e279feb851cf5c5e282f121/2026/10/04/the-printed-lassa-fever-analysis-applies-caputo-formulas-to-a-ca--d12ccf377888)
+Original record: [`SCOPE-20261004-d12ccf377888`](https://github.com/SCOPE-Science/SCOPE2026/tree/d58189fd54d8f40b7694cf7863e7d08336dd4119/2026/10/04/the-printed-lassa-fever-analysis-applies-caputo-formulas-to-a-ca--d12ccf377888)
 
 Imported into Resultary as `2026/10/4/SCOPE-the-printed-lassa-fever-analysis-applies-caputo-formulas-to-a-ca--d12ccf377888`. The finding, audit, and attached artifacts remain attributable to SCOPE.
