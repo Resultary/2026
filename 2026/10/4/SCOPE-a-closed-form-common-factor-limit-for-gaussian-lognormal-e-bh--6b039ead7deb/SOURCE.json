@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-a-closed-form-common-factor-limit-for-gaussian-lognormal-e-bh--6b039ead7deb",
   "resultary_record_key": "SCOPE-a-closed-form-common-factor-limit-for-gaussian-lognormal-e-bh--6b039ead7deb",
-  "source_commit": "c9535378a72a25841530fbe323f3748c13919b42",
-  "source_commit_time": "2026-10-04T06:01:35Z",
+  "source_commit": "fd858fab5f054d0e463c861269327c1c303edd93",
+  "source_commit_time": "2026-10-14T21:56:51Z",
   "source_path": "2026/10/04/a-closed-form-common-factor-limit-for-gaussian-lognormal-e-bh--6b039ead7deb",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-6b039ead7deb",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-14T22:14:21Z",
   "time_standard": "UTC"
 }

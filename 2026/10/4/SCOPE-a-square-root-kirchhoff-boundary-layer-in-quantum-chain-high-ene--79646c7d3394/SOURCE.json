@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-a-square-root-kirchhoff-boundary-layer-in-quantum-chain-high-ene--79646c7d3394",
   "resultary_record_key": "SCOPE-a-square-root-kirchhoff-boundary-layer-in-quantum-chain-high-ene--79646c7d3394",
-  "source_commit": "de2fbd856f59ed946edad6acb36d4cc50b06294a",
-  "source_commit_time": "2026-10-04T05:59:00Z",
+  "source_commit": "a71d01c2c7868b45e7c5d39146fa4e85f7ca9ed7",
+  "source_commit_time": "2026-10-14T21:56:52Z",
   "source_path": "2026/10/04/a-square-root-kirchhoff-boundary-layer-in-quantum-chain-high-ene--79646c7d3394",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-79646c7d3394",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-14T22:14:21Z",
   "time_standard": "UTC"
 }
