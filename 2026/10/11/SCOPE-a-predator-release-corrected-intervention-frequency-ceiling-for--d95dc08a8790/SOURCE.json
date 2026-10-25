@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-a-predator-release-corrected-intervention-frequency-ceiling-for--d95dc08a8790",
   "resultary_record_key": "SCOPE-a-predator-release-corrected-intervention-frequency-ceiling-for--d95dc08a8790",
-  "source_commit": "44d1ddbf13b95713a302f17ac8a160dcc9a06315",
-  "source_commit_time": "2026-10-11T13:03:45Z",
+  "source_commit": "892864273263622c612f3bb335f433420bac5149",
+  "source_commit_time": "2026-10-25T20:40:09Z",
   "source_path": "2026/10/11/a-predator-release-corrected-intervention-frequency-ceiling-for--d95dc08a8790",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-d95dc08a8790",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T20:48:41Z",
   "time_standard": "UTC"
 }
