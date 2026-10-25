@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-complete-area-spectrum-of-maximum-perimeter-diameter-one-nonagon--8a925661a2af",
   "resultary_record_key": "SCOPE-complete-area-spectrum-of-maximum-perimeter-diameter-one-nonagon--8a925661a2af",
-  "source_commit": "3d5e0824c1d73a8a55ac05007acd062386091cab",
-  "source_commit_time": "2026-10-11T13:06:24Z",
+  "source_commit": "c0d24b0dde667cd9f4f4ae5c826d370cc1787d76",
+  "source_commit_time": "2026-10-25T20:05:25Z",
   "source_path": "2026/10/11/complete-area-spectrum-of-maximum-perimeter-diameter-one-nonagon--8a925661a2af",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-8a925661a2af",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T20:10:08Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-a-countable-affine-skoda-test-family-detects-plurisubharmonicity--3b108dbc570b",
   "resultary_record_key": "SCOPE-a-countable-affine-skoda-test-family-detects-plurisubharmonicity--3b108dbc570b",
-  "source_commit": "22707791658dcbedeac836512a87e9245ed096be",
-  "source_commit_time": "2026-10-11T13:00:37Z",
+  "source_commit": "8e7e6b0e974f434d58935344cb6fb1af6e6dc8fd",
+  "source_commit_time": "2026-10-25T20:05:24Z",
   "source_path": "2026/10/11/a-countable-affine-skoda-test-family-detects-plurisubharmonicity--3b108dbc570b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-3b108dbc570b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T20:10:08Z",
   "time_standard": "UTC"
 }

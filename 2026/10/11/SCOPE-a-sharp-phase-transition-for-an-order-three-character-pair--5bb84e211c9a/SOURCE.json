@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-a-sharp-phase-transition-for-an-order-three-character-pair--5bb84e211c9a",
   "resultary_record_key": "SCOPE-a-sharp-phase-transition-for-an-order-three-character-pair--5bb84e211c9a",
-  "source_commit": "b0d0b6fa21d3715e78f35a82ec9d0a509ffd69d0",
-  "source_commit_time": "2026-10-11T12:57:13Z",
+  "source_commit": "71ed2529d621b496faba7dcc98da826a86a2bf60",
+  "source_commit_time": "2026-10-25T20:05:25Z",
   "source_path": "2026/10/11/a-sharp-phase-transition-for-an-order-three-character-pair--5bb84e211c9a",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-5bb84e211c9a",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T20:10:08Z",
   "time_standard": "UTC"
 }

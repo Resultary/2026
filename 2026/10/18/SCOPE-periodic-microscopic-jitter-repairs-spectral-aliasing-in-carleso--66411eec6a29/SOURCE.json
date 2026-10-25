@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/18/SCOPE-periodic-microscopic-jitter-repairs-spectral-aliasing-in-carleso--66411eec6a29",
+  "resultary_record_key": "SCOPE-periodic-microscopic-jitter-repairs-spectral-aliasing-in-carleso--66411eec6a29",
+  "source_commit": "1b53a2bf7113671506903ceb4c0e09ae310a70b5",
+  "source_commit_time": "2026-10-25T20:00:11Z",
+  "source_path": "2026/10/18/periodic-microscopic-jitter-repairs-spectral-aliasing-in-carleso--66411eec6a29",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261018-66411eec6a29",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T20:10:08Z",
+  "time_standard": "UTC"
+}
