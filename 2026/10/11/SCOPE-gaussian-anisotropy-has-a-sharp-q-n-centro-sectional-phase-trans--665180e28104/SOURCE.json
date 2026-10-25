@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-gaussian-anisotropy-has-a-sharp-q-n-centro-sectional-phase-trans--665180e28104",
   "resultary_record_key": "SCOPE-gaussian-anisotropy-has-a-sharp-q-n-centro-sectional-phase-trans--665180e28104",
-  "source_commit": "8da07965c5380322b5bd485b582f33b9f92830eb",
-  "source_commit_time": "2026-10-11T13:09:19Z",
+  "source_commit": "c0e01cb60a73565951dba62a70d9e98cc466f08b",
+  "source_commit_time": "2026-10-18T19:27:14Z",
   "source_path": "2026/10/11/gaussian-anisotropy-has-a-sharp-q-n-centro-sectional-phase-trans--665180e28104",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-665180e28104",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

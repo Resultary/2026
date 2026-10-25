@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-lower-moment-thresholds-for-independent-coordinate-high-dimensio--a18d192bb54c",
   "resultary_record_key": "SCOPE-lower-moment-thresholds-for-independent-coordinate-high-dimensio--a18d192bb54c",
-  "source_commit": "e8fe9adc9fc3d589b1a09a5866af98253a499b3b",
-  "source_commit_time": "2026-10-04T06:02:19Z",
+  "source_commit": "24ecaae0b4113059bbf931e7d3df930fc2dd3e1f",
+  "source_commit_time": "2026-10-18T20:10:27Z",
   "source_path": "2026/10/04/lower-moment-thresholds-for-independent-coordinate-high-dimensio--a18d192bb54c",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-a18d192bb54c",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

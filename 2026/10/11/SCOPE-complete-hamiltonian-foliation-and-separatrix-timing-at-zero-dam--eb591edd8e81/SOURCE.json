@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-complete-hamiltonian-foliation-and-separatrix-timing-at-zero-dam--eb591edd8e81",
   "resultary_record_key": "SCOPE-complete-hamiltonian-foliation-and-separatrix-timing-at-zero-dam--eb591edd8e81",
-  "source_commit": "9dae9d3c053591165496c92767e30c6bb558cd4c",
-  "source_commit_time": "2026-10-11T13:02:50Z",
+  "source_commit": "3a4d9e452368bc513bb418461ffc8d29f386868c",
+  "source_commit_time": "2026-10-18T20:10:34Z",
   "source_path": "2026/10/11/complete-hamiltonian-foliation-and-separatrix-timing-at-zero-dam--eb591edd8e81",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-eb591edd8e81",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

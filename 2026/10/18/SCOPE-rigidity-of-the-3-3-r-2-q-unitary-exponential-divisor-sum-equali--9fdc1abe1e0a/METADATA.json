@@ -1,0 +1,20 @@
+{
+  "first_public_date": "2013-12-17",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "integrity": "All calculations reproducible from exact integer identities; infinite proof not inferred from numerical range.",
+  "phase": "II",
+  "previously_published_pending_reaudit": false,
+  "primary_msc": "11A25",
+  "publication_date": "2026-10-18",
+  "record_id": "SCOPE-20261018-9fdc1abe1e0a",
+  "scientific_limitations": "Only the pattern 3^3 r^2 q with pairwise distinct primes is classified; no claim on other exponent patterns or infinitude. Unindexed equivalent literature remains possible.",
+  "scope_run_id": "9fdc1abe-1e0a-419d-8e04-bcafa4a38fae",
+  "self_review_status": "passed",
+  "source_ids": [
+    "arXiv:1312.4615v1",
+    "OEIS:A236474"
+  ],
+  "title": "Rigidity of the \\(3^3 r^2 q\\) unitary–exponential divisor-sum equality",
+  "verification_state": "independently_reviewed"
+}

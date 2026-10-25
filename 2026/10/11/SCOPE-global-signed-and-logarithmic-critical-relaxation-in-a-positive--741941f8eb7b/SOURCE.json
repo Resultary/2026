@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-global-signed-and-logarithmic-critical-relaxation-in-a-positive--741941f8eb7b",
   "resultary_record_key": "SCOPE-global-signed-and-logarithmic-critical-relaxation-in-a-positive--741941f8eb7b",
-  "source_commit": "401df570d911e5202aba6f1c6764d4319521d9cb",
-  "source_commit_time": "2026-10-11T13:04:39Z",
+  "source_commit": "cb6194d49de08145826e6784540eaf4cc9f09490",
+  "source_commit_time": "2026-10-25T19:11:58Z",
   "source_path": "2026/10/11/global-signed-and-logarithmic-critical-relaxation-in-a-positive--741941f8eb7b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-741941f8eb7b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/12/SCOPE-exact-row-fixed-no-isolate-null-expectation-of-classical-nodf--d7208f450f39",
+  "resultary_record_key": "SCOPE-exact-row-fixed-no-isolate-null-expectation-of-classical-nodf--d7208f450f39",
+  "source_commit": "836ce69fdf94a6247604cc9d2584410e67d09d4f",
+  "source_commit_time": "2026-10-18T20:05:59Z",
+  "source_path": "2026/10/12/exact-row-fixed-no-isolate-null-expectation-of-classical-nodf--d7208f450f39",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261012-d7208f450f39",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

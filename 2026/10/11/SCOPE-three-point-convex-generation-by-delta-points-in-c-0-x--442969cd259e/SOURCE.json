@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-three-point-convex-generation-by-delta-points-in-c-0-x--442969cd259e",
   "resultary_record_key": "SCOPE-three-point-convex-generation-by-delta-points-in-c-0-x--442969cd259e",
-  "source_commit": "8acf49ee10b78e4a0c8bab4e8f260d6ef57a4f42",
-  "source_commit_time": "2026-10-11T13:13:39Z",
+  "source_commit": "f5a4c0fd0b2ee7fad29b2b427a93f4d76fd556cf",
+  "source_commit_time": "2026-10-18T20:02:29Z",
   "source_path": "2026/10/11/three-point-convex-generation-by-delta-points-in-c-0-x--442969cd259e",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-442969cd259e",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-sharp-r-1-convergence-witness-for-stochastic-phase-bath-reductio--499d564f8baa",
   "resultary_record_key": "SCOPE-sharp-r-1-convergence-witness-for-stochastic-phase-bath-reductio--499d564f8baa",
-  "source_commit": "4ab46689522bc91773886813fffe85e7e1c77d15",
-  "source_commit_time": "2026-10-04T05:59:26Z",
+  "source_commit": "54a2fc98272821eac993e29c54193b1935634d84",
+  "source_commit_time": "2026-10-18T20:10:29Z",
   "source_path": "2026/10/04/sharp-r-1-convergence-witness-for-stochastic-phase-bath-reductio--499d564f8baa",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-499d564f8baa",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

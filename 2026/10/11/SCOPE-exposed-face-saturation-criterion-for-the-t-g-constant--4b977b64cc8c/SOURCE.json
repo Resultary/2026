@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exposed-face-saturation-criterion-for-the-t-g-constant--4b977b64cc8c",
   "resultary_record_key": "SCOPE-exposed-face-saturation-criterion-for-the-t-g-constant--4b977b64cc8c",
-  "source_commit": "17edde8de62555616f369cedbba43c0a501444da",
-  "source_commit_time": "2026-10-11T13:11:43Z",
+  "source_commit": "b5c5e9569d593f1c211315e69dccd8782acd1253",
+  "source_commit_time": "2026-10-18T19:27:57Z",
   "source_path": "2026/10/11/exposed-face-saturation-criterion-for-the-t-g-constant--4b977b64cc8c",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-4b977b64cc8c",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

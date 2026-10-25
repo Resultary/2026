@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-contractible-affine-moduli-of-convex-equal-area-heptagons--ca240653373b",
   "resultary_record_key": "SCOPE-contractible-affine-moduli-of-convex-equal-area-heptagons--ca240653373b",
-  "source_commit": "28b6211f15698eb31909c6bfc6403ac05dac591c",
-  "source_commit_time": "2026-10-11T13:06:10Z",
+  "source_commit": "70f8adf20b30e8e0da3746fbecdd1af8a4fc1f07",
+  "source_commit_time": "2026-10-18T19:27:08Z",
   "source_path": "2026/10/11/contractible-affine-moduli-of-convex-equal-area-heptagons--ca240653373b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-ca240653373b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

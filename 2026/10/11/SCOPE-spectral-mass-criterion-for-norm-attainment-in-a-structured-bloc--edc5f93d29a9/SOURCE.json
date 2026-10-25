@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-spectral-mass-criterion-for-norm-attainment-in-a-structured-bloc--edc5f93d29a9",
   "resultary_record_key": "SCOPE-spectral-mass-criterion-for-norm-attainment-in-a-structured-bloc--edc5f93d29a9",
-  "source_commit": "0c82b58a5b179c65887629608455a9d1684a059d",
-  "source_commit_time": "2026-10-11T13:13:16Z",
+  "source_commit": "4d1072ef747cc139b771742141dca0cad5818765",
+  "source_commit_time": "2026-10-18T20:04:28Z",
   "source_path": "2026/10/11/spectral-mass-criterion-for-norm-attainment-in-a-structured-bloc--edc5f93d29a9",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-edc5f93d29a9",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

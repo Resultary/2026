@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-four-frequency-determinant-optimum-on-every-cyclic-grid--bb69c4d14769",
   "resultary_record_key": "SCOPE-exact-four-frequency-determinant-optimum-on-every-cyclic-grid--bb69c4d14769",
-  "source_commit": "99b9507990af0b0ff758b60e52b2f2b509dd67ab",
-  "source_commit_time": "2026-10-11T12:59:20Z",
+  "source_commit": "8348e4e4bd33358cec9d87c55ff7ac55f6689092",
+  "source_commit_time": "2026-10-18T20:04:13Z",
   "source_path": "2026/10/11/exact-four-frequency-determinant-optimum-on-every-cyclic-grid--bb69c4d14769",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-bb69c4d14769",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

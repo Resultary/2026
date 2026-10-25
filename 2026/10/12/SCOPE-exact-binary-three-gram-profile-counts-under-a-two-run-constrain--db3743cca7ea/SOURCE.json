@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/12/SCOPE-exact-binary-three-gram-profile-counts-under-a-two-run-constrain--db3743cca7ea",
+  "resultary_record_key": "SCOPE-exact-binary-three-gram-profile-counts-under-a-two-run-constrain--db3743cca7ea",
+  "source_commit": "39a618643c5599b3423f5b9afb778376df916221",
+  "source_commit_time": "2026-10-18T20:04:35Z",
+  "source_path": "2026/10/12/exact-binary-three-gram-profile-counts-under-a-two-run-constrain--db3743cca7ea",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261012-db3743cca7ea",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

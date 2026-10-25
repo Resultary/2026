@@ -1,0 +1,9 @@
+# Scientific assessment of the corrected prime-shift progression
+
+**Correctness.** The displayed Vieta conic is invariant under the recurrence, the seed for every k=41+21t satisfies the exact two algebraic identities, and strict growth and reciprocal divisibility follow for all recurrence indices. Coprimality follows from Q_k(x) congruent to 1 mod x. Dirichlet's theorem in the reduced residue class 1 mod 21 supplies infinitely many prime-shift parameters. These are all-parameter deductions, independent of any finite experiment.
+
+**Originality.** Mills (1953), *A system of quadratic Diophantine equations*, pp. 219–220, already proved infinitely many positive solutions whenever k>8 and k+2 is composite, and recorded the single prime-shift example k=41. Thus the broader composite-shift density-one statement and its k=41 base case are established prior facts and have been removed as novelty claims. The remaining explicit uniform progression k=41+21t yields infinitely many prime-shift parameters; the inspected original Mills account did not state that whole progression. This narrow novelty assessment has a significant residual risk of implicit derivability from the classical general alpha-chain theory.
+
+**Value.** Replacing one exceptional prime-shift parameter by a full arithmetic progression is a motivated strengthening of Mills's explicit finiteness obstruction. Dirichlet turns it into an infinite set of prime-shift counterexamples rather than an isolated curiosity.
+
+**Scope.** This corrected result gives an explicit family of solvable coefficients, not all coefficients, nor a new Vieta recurrence or a new density-one theorem. The included `verify.py` additionally checks the historically known composite-shift construction; those auxiliary checks are not a novelty claim for the present theorem. No external formal verification or outside expert attestation is asserted.

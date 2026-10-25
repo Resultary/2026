@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-a-sharp-steiner-area-phase-diagram-for-regular-disk-triangles--3d6ed11c0577",
   "resultary_record_key": "SCOPE-a-sharp-steiner-area-phase-diagram-for-regular-disk-triangles--3d6ed11c0577",
-  "source_commit": "b2a07510b34ca28b0d8201725c13f1beb67b414d",
-  "source_commit_time": "2026-10-11T13:10:23Z",
+  "source_commit": "eed096b986031150620654d96989985271fbd23a",
+  "source_commit_time": "2026-10-25T19:12:53Z",
   "source_path": "2026/10/11/a-sharp-steiner-area-phase-diagram-for-regular-disk-triangles--3d6ed11c0577",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-3d6ed11c0577",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

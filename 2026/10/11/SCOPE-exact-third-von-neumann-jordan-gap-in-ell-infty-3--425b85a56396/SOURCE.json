@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-third-von-neumann-jordan-gap-in-ell-infty-3--425b85a56396",
   "resultary_record_key": "SCOPE-exact-third-von-neumann-jordan-gap-in-ell-infty-3--425b85a56396",
-  "source_commit": "04a7064ddeee8e991ac534499379b84884f24568",
-  "source_commit_time": "2026-10-11T13:11:46Z",
+  "source_commit": "e16f42d69c44be73d95c67f13474b1bf01fcadaf",
+  "source_commit_time": "2026-10-18T20:10:38Z",
   "source_path": "2026/10/11/exact-third-von-neumann-jordan-gap-in-ell-infty-3--425b85a56396",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-425b85a56396",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

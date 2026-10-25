@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-sharp-convexity-threshold-in-the-klee-inner-section-counterexamp--732de9be2eb9",
   "resultary_record_key": "SCOPE-sharp-convexity-threshold-in-the-klee-inner-section-counterexamp--732de9be2eb9",
-  "source_commit": "903797738d74c56d42d6223d439a0c4fa29ce0f2",
-  "source_commit_time": "2026-10-11T13:06:38Z",
+  "source_commit": "dd5d51cbc647117281e083c1638989efc85b7b49",
+  "source_commit_time": "2026-10-18T20:10:43Z",
   "source_path": "2026/10/11/sharp-convexity-threshold-in-the-klee-inner-section-counterexamp--732de9be2eb9",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-732de9be2eb9",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

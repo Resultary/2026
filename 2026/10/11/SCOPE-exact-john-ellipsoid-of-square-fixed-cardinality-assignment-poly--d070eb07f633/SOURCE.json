@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-john-ellipsoid-of-square-fixed-cardinality-assignment-poly--d070eb07f633",
   "resultary_record_key": "SCOPE-exact-john-ellipsoid-of-square-fixed-cardinality-assignment-poly--d070eb07f633",
-  "source_commit": "be2a4a08bda1652e764192bbf928a23f689b1fbd",
-  "source_commit_time": "2026-10-11T13:09:05Z",
+  "source_commit": "39264df0d15df98281186e5d5da459297eff3eb3",
+  "source_commit_time": "2026-10-25T19:11:18Z",
   "source_path": "2026/10/11/exact-john-ellipsoid-of-square-fixed-cardinality-assignment-poly--d070eb07f633",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-d070eb07f633",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

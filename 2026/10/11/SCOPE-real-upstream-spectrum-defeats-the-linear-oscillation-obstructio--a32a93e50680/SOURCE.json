@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-real-upstream-spectrum-defeats-the-linear-oscillation-obstructio--a32a93e50680",
   "resultary_record_key": "SCOPE-real-upstream-spectrum-defeats-the-linear-oscillation-obstructio--a32a93e50680",
-  "source_commit": "b75dce092b88590bd59e06999c0be4b6b5f43c20",
-  "source_commit_time": "2026-10-11T13:04:54Z",
+  "source_commit": "d69dd54305e6eb7baf8649e095ec7cf523fbf204",
+  "source_commit_time": "2026-10-18T20:04:22Z",
   "source_path": "2026/10/11/real-upstream-spectrum-defeats-the-linear-oscillation-obstructio--a32a93e50680",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-a32a93e50680",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

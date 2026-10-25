@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-dimension-six-onset-for-square-free-quadratic-polarization--33f109163888",
   "resultary_record_key": "SCOPE-exact-dimension-six-onset-for-square-free-quadratic-polarization--33f109163888",
-  "source_commit": "f85dff77e7a76c3cc7dab7af85726ebc0848744c",
-  "source_commit_time": "2026-10-11T13:13:15Z",
+  "source_commit": "8e43b45a0dfb836e2a7f319fc2b8736571fab664",
+  "source_commit_time": "2026-10-18T20:08:40Z",
   "source_path": "2026/10/11/exact-dimension-six-onset-for-square-free-quadratic-polarization--33f109163888",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-33f109163888",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

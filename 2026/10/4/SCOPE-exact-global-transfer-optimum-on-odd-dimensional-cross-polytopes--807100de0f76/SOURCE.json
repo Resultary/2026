@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-exact-global-transfer-optimum-on-odd-dimensional-cross-polytopes--807100de0f76",
   "resultary_record_key": "SCOPE-exact-global-transfer-optimum-on-odd-dimensional-cross-polytopes--807100de0f76",
-  "source_commit": "090cbc7037b0c537a3e840442b25c088bad45ca7",
-  "source_commit_time": "2026-10-04T05:58:42Z",
+  "source_commit": "4856f1d7cb869674fb15b644ad1192d9adde42fa",
+  "source_commit_time": "2026-10-18T19:28:35Z",
   "source_path": "2026/10/04/exact-global-transfer-optimum-on-odd-dimensional-cross-polytopes--807100de0f76",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-807100de0f76",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

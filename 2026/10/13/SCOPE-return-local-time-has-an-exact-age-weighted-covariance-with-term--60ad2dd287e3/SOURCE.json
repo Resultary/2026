@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/13/SCOPE-return-local-time-has-an-exact-age-weighted-covariance-with-term--60ad2dd287e3",
+  "resultary_record_key": "SCOPE-return-local-time-has-an-exact-age-weighted-covariance-with-term--60ad2dd287e3",
+  "source_commit": "451fe64c396730686cbf832608df7586233713e2",
+  "source_commit_time": "2026-10-18T20:05:23Z",
+  "source_path": "2026/10/13/return-local-time-has-an-exact-age-weighted-covariance-with-term--60ad2dd287e3",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261013-60ad2dd287e3",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

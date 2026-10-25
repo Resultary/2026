@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-no-l-p-associated-selector-above-the-hilbert-exponent--bc07dc6a2ef2",
   "resultary_record_key": "SCOPE-no-l-p-associated-selector-above-the-hilbert-exponent--bc07dc6a2ef2",
-  "source_commit": "5b99633389379d0fb18420b4f40b248abd5a9785",
-  "source_commit_time": "2026-10-11T13:06:27Z",
+  "source_commit": "41c15d8fad0758fb57fb5dab49f6f24392702496",
+  "source_commit_time": "2026-10-18T20:05:48Z",
   "source_path": "2026/10/11/no-l-p-associated-selector-above-the-hilbert-exponent--bc07dc6a2ef2",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-bc07dc6a2ef2",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

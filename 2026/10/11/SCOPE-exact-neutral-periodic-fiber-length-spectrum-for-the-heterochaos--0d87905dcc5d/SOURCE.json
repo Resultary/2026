@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-neutral-periodic-fiber-length-spectrum-for-the-heterochaos--0d87905dcc5d",
   "resultary_record_key": "SCOPE-exact-neutral-periodic-fiber-length-spectrum-for-the-heterochaos--0d87905dcc5d",
-  "source_commit": "6499b0ee804d2e30ca9a64e8441ee6082a5dd6f6",
-  "source_commit_time": "2026-10-11T13:04:13Z",
+  "source_commit": "23dd2ebdafd62514bc657e05036e53bc7b4b6f7c",
+  "source_commit_time": "2026-10-18T19:27:11Z",
   "source_path": "2026/10/11/exact-neutral-periodic-fiber-length-spectrum-for-the-heterochaos--0d87905dcc5d",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-0d87905dcc5d",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

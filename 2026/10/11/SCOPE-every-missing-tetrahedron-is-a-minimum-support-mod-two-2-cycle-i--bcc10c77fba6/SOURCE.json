@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-every-missing-tetrahedron-is-a-minimum-support-mod-two-2-cycle-i--bcc10c77fba6",
   "resultary_record_key": "SCOPE-every-missing-tetrahedron-is-a-minimum-support-mod-two-2-cycle-i--bcc10c77fba6",
-  "source_commit": "9b0d8a530d4977b375c1e2bf13319a9106ffa728",
-  "source_commit_time": "2026-10-11T13:14:56Z",
+  "source_commit": "6a5fe3e4d0daeaaa956b2170a4331f124309a897",
+  "source_commit_time": "2026-10-18T20:10:35Z",
   "source_path": "2026/10/11/every-missing-tetrahedron-is-a-minimum-support-mod-two-2-cycle-i--bcc10c77fba6",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-bcc10c77fba6",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

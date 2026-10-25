@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-quadratic-onset-and-quartic-gain-of-anisotropy-in-sharp-harmonic--b8405b60013e",
   "resultary_record_key": "SCOPE-quadratic-onset-and-quartic-gain-of-anisotropy-in-sharp-harmonic--b8405b60013e",
-  "source_commit": "e860ed2bea3686e5f1cdb0b884a53c535851597e",
-  "source_commit_time": "2026-10-11T13:00:27Z",
+  "source_commit": "2ce0378b52c6ed590df56eb540657faa36170a36",
+  "source_commit_time": "2026-10-18T20:09:47Z",
   "source_path": "2026/10/11/quadratic-onset-and-quartic-gain-of-anisotropy-in-sharp-harmonic--b8405b60013e",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-b8405b60013e",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

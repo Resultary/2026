@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-numerical-index-of-four-point-equiradial-star-lipschitz-fr--7e5bebb360bb",
   "resultary_record_key": "SCOPE-exact-numerical-index-of-four-point-equiradial-star-lipschitz-fr--7e5bebb360bb",
-  "source_commit": "d0cda6fa0bd896274543b500fc12cdd235e9c1a5",
-  "source_commit_time": "2026-10-11T13:13:11Z",
+  "source_commit": "e46b98432b8b6902cab598b7c19c60738c5a8bfa",
+  "source_commit_time": "2026-10-18T19:28:55Z",
   "source_path": "2026/10/11/exact-numerical-index-of-four-point-equiradial-star-lipschitz-fr--7e5bebb360bb",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-7e5bebb360bb",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

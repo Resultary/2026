@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-complete-mod-two-rips-persistence-of-the-four-letter-permutahedr--5b20bd61b710",
   "resultary_record_key": "SCOPE-complete-mod-two-rips-persistence-of-the-four-letter-permutahedr--5b20bd61b710",
-  "source_commit": "498febda47403d17b1ca036fb15495601a660869",
-  "source_commit_time": "2026-10-11T13:15:49Z",
+  "source_commit": "2f45eb7cb80d1be929e17296fb6bb5f896a909fb",
+  "source_commit_time": "2026-10-18T19:28:50Z",
   "source_path": "2026/10/11/complete-mod-two-rips-persistence-of-the-four-letter-permutahedr--5b20bd61b710",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-5b20bd61b710",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-sharp-edge-threshold-for-torsion-in-matching-complexes-of-seven--f0ba41f16bfb",
   "resultary_record_key": "SCOPE-sharp-edge-threshold-for-torsion-in-matching-complexes-of-seven--f0ba41f16bfb",
-  "source_commit": "20b1af987abc766b93b0bfa5714d48fc05c33013",
-  "source_commit_time": "2026-10-11T13:16:20Z",
+  "source_commit": "c56a0453a600fca7e6130e661d1ae1a5add662cc",
+  "source_commit_time": "2026-10-18T20:02:53Z",
   "source_path": "2026/10/11/sharp-edge-threshold-for-torsion-in-matching-complexes-of-seven--f0ba41f16bfb",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-f0ba41f16bfb",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

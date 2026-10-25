@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-a-thin-toroidal-grid-has-scale-two-rips-type-s-1-vee-bigvee-ns-3--a2c9f7beb39c",
   "resultary_record_key": "SCOPE-a-thin-toroidal-grid-has-scale-two-rips-type-s-1-vee-bigvee-ns-3--a2c9f7beb39c",
-  "source_commit": "e5a24ddcf02c8abb1a0830aaad529365db3b509f",
-  "source_commit_time": "2026-10-11T13:18:39Z",
+  "source_commit": "c6987e05899683a15ff8f2d72299b68f5bbe2797",
+  "source_commit_time": "2026-10-18T19:27:06Z",
   "source_path": "2026/10/11/a-thin-toroidal-grid-has-scale-two-rips-type-s-1-vee-bigvee-ns-3--a2c9f7beb39c",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-a2c9f7beb39c",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

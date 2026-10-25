@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-a-seven-petal-trefoil-requires-a-nine-petal-detour--0bd263a7d0e5",
   "resultary_record_key": "SCOPE-a-seven-petal-trefoil-requires-a-nine-petal-detour--0bd263a7d0e5",
-  "source_commit": "b713b571767c7c36f784e258fd0b3565ff9d59e1",
-  "source_commit_time": "2026-10-11T13:18:00Z",
+  "source_commit": "fac956452a9cb0ca83fdec46833c6110d9ce0988",
+  "source_commit_time": "2026-10-18T19:27:06Z",
   "source_path": "2026/10/11/a-seven-petal-trefoil-requires-a-nine-petal-detour--0bd263a7d0e5",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-0bd263a7d0e5",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

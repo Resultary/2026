@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-phase-velocity-thresholds-for-ces-ro-commutators-with-oscillator--b2f67a1e1e7a",
   "resultary_record_key": "SCOPE-phase-velocity-thresholds-for-ces-ro-commutators-with-oscillator--b2f67a1e1e7a",
-  "source_commit": "6d6f4673a79fcb84dbb6349cc845951457a7c294",
-  "source_commit_time": "2026-10-11T13:14:20Z",
+  "source_commit": "8e60364843f89117beb008cf51ae3fdf6c4d54ce",
+  "source_commit_time": "2026-10-18T19:29:00Z",
   "source_path": "2026/10/11/phase-velocity-thresholds-for-ces-ro-commutators-with-oscillator--b2f67a1e1e7a",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-b2f67a1e1e7a",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/13/SCOPE-tip-count-adjustment-reverses-cherry-pendant-length-covariance-i--95f7d53ef408",
+  "resultary_record_key": "SCOPE-tip-count-adjustment-reverses-cherry-pendant-length-covariance-i--95f7d53ef408",
+  "source_commit": "fea79d594da2beef2c7dd2be4664e644690602a1",
+  "source_commit_time": "2026-10-18T20:06:56Z",
+  "source_path": "2026/10/13/tip-count-adjustment-reverses-cherry-pendant-length-covariance-i--95f7d53ef408",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261013-95f7d53ef408",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

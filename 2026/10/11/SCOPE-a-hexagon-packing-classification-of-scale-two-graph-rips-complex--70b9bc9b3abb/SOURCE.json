@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-a-hexagon-packing-classification-of-scale-two-graph-rips-complex--70b9bc9b3abb",
   "resultary_record_key": "SCOPE-a-hexagon-packing-classification-of-scale-two-graph-rips-complex--70b9bc9b3abb",
-  "source_commit": "cee2d57cc6e41b52ae1008f826e9aeba8809362a",
-  "source_commit_time": "2026-10-11T13:17:18Z",
+  "source_commit": "ac0d9f058f06111a3c1af96ed2b9d78d686b11e2",
+  "source_commit_time": "2026-10-18T20:08:32Z",
   "source_path": "2026/10/11/a-hexagon-packing-classification-of-scale-two-graph-rips-complex--70b9bc9b3abb",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-70b9bc9b3abb",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

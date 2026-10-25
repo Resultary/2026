@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/13/SCOPE-zero-crossing-count-has-exact-opposite-sign-covariance-with-gaus--96b52b268e48",
+  "resultary_record_key": "SCOPE-zero-crossing-count-has-exact-opposite-sign-covariance-with-gaus--96b52b268e48",
+  "source_commit": "d767e4319d531087b220610c03c66d0078b5fffc",
+  "source_commit_time": "2026-10-18T20:03:54Z",
+  "source_path": "2026/10/13/zero-crossing-count-has-exact-opposite-sign-covariance-with-gaus--96b52b268e48",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261013-96b52b268e48",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

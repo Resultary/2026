@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-a-resonant-phase-invariant-separates-two-kp-mew-burgers-forcing--750da7b95916",
   "resultary_record_key": "SCOPE-a-resonant-phase-invariant-separates-two-kp-mew-burgers-forcing--750da7b95916",
-  "source_commit": "b53cecedd208f210fd4c0eb623f618eeb5111e9d",
-  "source_commit_time": "2026-10-11T13:03:04Z",
+  "source_commit": "67b15edf864ed939802433de2bb98bc2447d997a",
+  "source_commit_time": "2026-10-18T20:09:38Z",
   "source_path": "2026/10/11/a-resonant-phase-invariant-separates-two-kp-mew-burgers-forcing--750da7b95916",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-750da7b95916",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

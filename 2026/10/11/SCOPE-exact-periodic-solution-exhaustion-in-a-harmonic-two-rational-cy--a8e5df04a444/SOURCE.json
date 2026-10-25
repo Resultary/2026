@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-periodic-solution-exhaustion-in-a-harmonic-two-rational-cy--a8e5df04a444",
   "resultary_record_key": "SCOPE-exact-periodic-solution-exhaustion-in-a-harmonic-two-rational-cy--a8e5df04a444",
-  "source_commit": "d4279f47773ace886ae5b52136bd9539eea1b17e",
-  "source_commit_time": "2026-10-11T13:04:29Z",
+  "source_commit": "bc74b4010cdac41dfb8a4429f12eb460b0aba0e5",
+  "source_commit_time": "2026-10-18T20:08:42Z",
   "source_path": "2026/10/11/exact-periodic-solution-exhaustion-in-a-harmonic-two-rational-cy--a8e5df04a444",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-a8e5df04a444",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

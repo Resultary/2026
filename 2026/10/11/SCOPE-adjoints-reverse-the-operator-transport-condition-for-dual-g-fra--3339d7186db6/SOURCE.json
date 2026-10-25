@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-adjoints-reverse-the-operator-transport-condition-for-dual-g-fra--3339d7186db6",
   "resultary_record_key": "SCOPE-adjoints-reverse-the-operator-transport-condition-for-dual-g-fra--3339d7186db6",
-  "source_commit": "2a28d607655102b172c90cdb20f6f03970bfe9a9",
-  "source_commit_time": "2026-10-11T12:58:34Z",
+  "source_commit": "ed9386c32c89b9718c40aabef31a5bdd09c5cd21",
+  "source_commit_time": "2026-10-25T18:52:09Z",
   "source_path": "2026/10/11/adjoints-reverse-the-operator-transport-condition-for-dual-g-fra--3339d7186db6",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-3339d7186db6",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

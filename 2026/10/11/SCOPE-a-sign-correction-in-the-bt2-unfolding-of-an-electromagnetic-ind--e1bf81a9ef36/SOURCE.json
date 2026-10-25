@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-a-sign-correction-in-the-bt2-unfolding-of-an-electromagnetic-ind--e1bf81a9ef36",
   "resultary_record_key": "SCOPE-a-sign-correction-in-the-bt2-unfolding-of-an-electromagnetic-ind--e1bf81a9ef36",
-  "source_commit": "5f6cb285383835a6479afb205acc1cd3795ddada",
-  "source_commit_time": "2026-10-11T13:03:48Z",
+  "source_commit": "9ea54638bc4efe6009b9eb908b09bbedf40eec48",
+  "source_commit_time": "2026-10-18T20:08:34Z",
   "source_path": "2026/10/11/a-sign-correction-in-the-bt2-unfolding-of-an-electromagnetic-ind--e1bf81a9ef36",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-e1bf81a9ef36",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-jensen-gap-mean-bias-in-a-discrete-fear-allee-predator-pre--47747bbc4b54",
   "resultary_record_key": "SCOPE-exact-jensen-gap-mean-bias-in-a-discrete-fear-allee-predator-pre--47747bbc4b54",
-  "source_commit": "72efd76ba785b449085769416e6f5c8fa827f95a",
-  "source_commit_time": "2026-10-11T13:03:39Z",
+  "source_commit": "b5170eff61ef5cf8c4a7b3f2a0695da78d7669d9",
+  "source_commit_time": "2026-10-18T20:07:32Z",
   "source_path": "2026/10/11/exact-jensen-gap-mean-bias-in-a-discrete-fear-allee-predator-pre--47747bbc4b54",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-47747bbc4b54",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

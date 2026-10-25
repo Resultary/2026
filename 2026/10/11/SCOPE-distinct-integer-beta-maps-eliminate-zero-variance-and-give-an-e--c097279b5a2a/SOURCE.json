@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-distinct-integer-beta-maps-eliminate-zero-variance-and-give-an-e--c097279b5a2a",
   "resultary_record_key": "SCOPE-distinct-integer-beta-maps-eliminate-zero-variance-and-give-an-e--c097279b5a2a",
-  "source_commit": "f8f02943d358d712651031f6a8919e862859359a",
-  "source_commit_time": "2026-10-11T13:04:22Z",
+  "source_commit": "bd4c6c63bbe3ff8830d348d023466b5c78e7e356",
+  "source_commit_time": "2026-10-18T19:28:51Z",
   "source_path": "2026/10/11/distinct-integer-beta-maps-eliminate-zero-variance-and-give-an-e--c097279b5a2a",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-c097279b5a2a",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-finite-amplitude-mean-variance-shell-for-an-oscillatory-si-epide--fd78dfabf528",
   "resultary_record_key": "SCOPE-finite-amplitude-mean-variance-shell-for-an-oscillatory-si-epide--fd78dfabf528",
-  "source_commit": "562f64e405a71e050d8849a7adecc53512a0eccf",
-  "source_commit_time": "2026-10-11T13:03:22Z",
+  "source_commit": "8004b852b26e4a74f997a60c6396ab115cc6db4d",
+  "source_commit_time": "2026-10-18T20:07:37Z",
   "source_path": "2026/10/11/finite-amplitude-mean-variance-shell-for-an-oscillatory-si-epide--fd78dfabf528",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-fd78dfabf528",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

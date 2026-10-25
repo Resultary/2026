@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-sharp-eighth-moment-norm-at-the-first-fourth-order-resonance--5598303b6ef1",
   "resultary_record_key": "SCOPE-sharp-eighth-moment-norm-at-the-first-fourth-order-resonance--5598303b6ef1",
-  "source_commit": "fa511ae66f4ecf56616b6cc477b2430f89de09a0",
-  "source_commit_time": "2026-10-11T12:57:02Z",
+  "source_commit": "34726753bd37f5d90a962443ba3c9b91c0a65734",
+  "source_commit_time": "2026-10-18T20:02:53Z",
   "source_path": "2026/10/11/sharp-eighth-moment-norm-at-the-first-fourth-order-resonance--5598303b6ef1",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-5598303b6ef1",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

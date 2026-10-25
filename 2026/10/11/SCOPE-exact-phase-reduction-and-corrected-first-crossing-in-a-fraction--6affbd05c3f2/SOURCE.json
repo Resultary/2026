@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-phase-reduction-and-corrected-first-crossing-in-a-fraction--6affbd05c3f2",
   "resultary_record_key": "SCOPE-exact-phase-reduction-and-corrected-first-crossing-in-a-fraction--6affbd05c3f2",
-  "source_commit": "fe14b0983cacb9f919418f77aa6034062ddb0162",
-  "source_commit_time": "2026-10-11T13:03:34Z",
+  "source_commit": "efbc63a8a6289e5bbbe58d7211a0785f7088d8ff",
+  "source_commit_time": "2026-10-18T20:09:43Z",
   "source_path": "2026/10/11/exact-phase-reduction-and-corrected-first-crossing-in-a-fraction--6affbd05c3f2",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-6affbd05c3f2",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

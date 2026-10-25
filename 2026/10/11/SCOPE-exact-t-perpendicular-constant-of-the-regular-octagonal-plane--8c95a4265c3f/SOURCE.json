@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-t-perpendicular-constant-of-the-regular-octagonal-plane--8c95a4265c3f",
   "resultary_record_key": "SCOPE-exact-t-perpendicular-constant-of-the-regular-octagonal-plane--8c95a4265c3f",
-  "source_commit": "00ba21dde2dda2186cfc0c9306ff4820c42280d7",
-  "source_commit_time": "2026-10-11T13:11:58Z",
+  "source_commit": "d7fe6619e062e7d657b18400d5afeacc5104ff42",
+  "source_commit_time": "2026-10-18T20:10:38Z",
   "source_path": "2026/10/11/exact-t-perpendicular-constant-of-the-regular-octagonal-plane--8c95a4265c3f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-8c95a4265c3f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-iterated-logarithm-endpoint-failure-for-disk-wiman-valiron-inequ--89cdb1f3ed20",
   "resultary_record_key": "SCOPE-iterated-logarithm-endpoint-failure-for-disk-wiman-valiron-inequ--89cdb1f3ed20",
-  "source_commit": "258f33e9c791b8d726cfc9ebe3e96199f47b04f9",
-  "source_commit_time": "2026-10-11T13:01:15Z",
+  "source_commit": "677692dcc1444e110cc0967362c85354f35adadd",
+  "source_commit_time": "2026-10-18T20:09:46Z",
   "source_path": "2026/10/11/iterated-logarithm-endpoint-failure-for-disk-wiman-valiron-inequ--89cdb1f3ed20",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-89cdb1f3ed20",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

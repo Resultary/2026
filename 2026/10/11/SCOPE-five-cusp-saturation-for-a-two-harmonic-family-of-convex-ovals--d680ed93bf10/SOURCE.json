@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-five-cusp-saturation-for-a-two-harmonic-family-of-convex-ovals--d680ed93bf10",
   "resultary_record_key": "SCOPE-five-cusp-saturation-for-a-two-harmonic-family-of-convex-ovals--d680ed93bf10",
-  "source_commit": "77e6e9c05270cb431b5f5d5d49f1ef8dd6d8a856",
-  "source_commit_time": "2026-10-11T13:06:26Z",
+  "source_commit": "59130f3c3938e69bc9609216e02994ef23788be8",
+  "source_commit_time": "2026-10-18T20:10:39Z",
   "source_path": "2026/10/11/five-cusp-saturation-for-a-two-harmonic-family-of-convex-ovals--d680ed93bf10",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-d680ed93bf10",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

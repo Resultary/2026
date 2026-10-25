@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-exact-speed-weighted-fold-balance-in-the-koper-mixed-mode-oscill--55de557a38e3",
   "resultary_record_key": "SCOPE-exact-speed-weighted-fold-balance-in-the-koper-mixed-mode-oscill--55de557a38e3",
-  "source_commit": "ffeedb75a636f4a34ab6f3d9ab338432f24f5355",
-  "source_commit_time": "2026-10-04T05:57:20Z",
+  "source_commit": "773052cae1c369b8d7af3445e389eca0430c04ab",
+  "source_commit_time": "2026-10-18T19:28:36Z",
   "source_path": "2026/10/04/exact-speed-weighted-fold-balance-in-the-koper-mixed-mode-oscill--55de557a38e3",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-55de557a38e3",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

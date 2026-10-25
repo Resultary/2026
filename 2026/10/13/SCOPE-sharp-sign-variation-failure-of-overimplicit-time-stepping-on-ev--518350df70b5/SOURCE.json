@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/13/SCOPE-sharp-sign-variation-failure-of-overimplicit-time-stepping-on-ev--518350df70b5",
+  "resultary_record_key": "SCOPE-sharp-sign-variation-failure-of-overimplicit-time-stepping-on-ev--518350df70b5",
+  "source_commit": "75e550343e09e1ebbb3db5d59fa0834f6f31730d",
+  "source_commit_time": "2026-10-18T20:09:30Z",
+  "source_path": "2026/10/13/sharp-sign-variation-failure-of-overimplicit-time-stepping-on-ev--518350df70b5",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261013-518350df70b5",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

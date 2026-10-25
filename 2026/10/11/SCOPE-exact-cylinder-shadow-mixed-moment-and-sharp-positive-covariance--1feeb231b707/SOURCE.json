@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-cylinder-shadow-mixed-moment-and-sharp-positive-covariance--1feeb231b707",
   "resultary_record_key": "SCOPE-exact-cylinder-shadow-mixed-moment-and-sharp-positive-covariance--1feeb231b707",
-  "source_commit": "7cd49e7090c4a4799aff3e90abc9eae50389793a",
-  "source_commit_time": "2026-10-11T13:07:26Z",
+  "source_commit": "67ceb9415df3bfefab395d7ee468459341c75d26",
+  "source_commit_time": "2026-10-18T20:04:11Z",
   "source_path": "2026/10/11/exact-cylinder-shadow-mixed-moment-and-sharp-positive-covariance--1feeb231b707",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-1feeb231b707",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,0 +1,36 @@
+{
+  "correctness": {
+    "rationale": "The Vieta conic polynomial identity, recurrence positivity, gcd argument, and exact t-parameter seed equalities prove all claimed orbits; Dirichlet gives infinitely many prime k+2 in residue 1 mod 21.",
+    "status": "PASS"
+  },
+  "independent": false,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "limitations": [
+    "Historical original audit and scientific evidence remain available at its verified Git blob.",
+    "No claim of independent certification or formal checking in this public source file."
+  ],
+  "originality": {
+    "checked_sources": [
+      "Mills (1953), Pacific J. Math. 3, 209–220, final page and recurrence sections",
+      "Alekseyev–Khomovsky (2026), arXiv:2610.00808, Sections 4 and 7.1"
+    ],
+    "rationale": "The claim has been narrowed to an explicit infinite progression of prime-shift exceptions. Mills (1953) establishes all composite-shift parameters and a single k=41 exception; these are explicitly excluded from novelty claims. Full text did not identify all 41+21t, but equivalent implicit derivations remain possible.",
+    "residual_risks": [
+      "The progression may be an easy implicit consequence of earlier a-chain parameter theory; no exhaustive priority proof."
+    ],
+    "status": "PASS"
+  },
+  "previously_published_pending_reaudit": false,
+  "prior_review_evidence": {
+    "original_source_blob_sha": "7088b8f4789395694f150d8a6166feee2cdf0484",
+    "reason": "Original self-review concerned a broader theorem; this scope correction explicitly credits Mills (1953) and does not rewrite the historical review as if it covered the revised claim.",
+    "status": "preserved_at_original_repository_snapshot"
+  },
+  "review_type": "scientific_scope_correction",
+  "schema_version": 1,
+  "value": {
+    "rationale": "The uniform progression proves infinitely many prime-shift exceptions to a classical necessary finiteness condition, strengthening the single known k=41 example in a natural arithmetic direction.",
+    "status": "PASS"
+  }
+}

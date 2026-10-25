@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-the-printed-exponential-synapse-phase-kernel-is-not-periodic--a17b157327e5",
   "resultary_record_key": "SCOPE-the-printed-exponential-synapse-phase-kernel-is-not-periodic--a17b157327e5",
-  "source_commit": "0a8dece2d66fccbfae4d4bc026501e74f7e6ed94",
-  "source_commit_time": "2026-10-11T13:05:07Z",
+  "source_commit": "043c52975a0e9f3b757b086b86963dc418008138",
+  "source_commit_time": "2026-10-18T20:07:51Z",
   "source_path": "2026/10/11/the-printed-exponential-synapse-phase-kernel-is-not-periodic--a17b157327e5",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-a17b157327e5",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

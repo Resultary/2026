@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-minimum-support-codimension-one-homology-in-k-hnel-s-2d-3-vertex--a9ab2ef7c61f",
   "resultary_record_key": "SCOPE-minimum-support-codimension-one-homology-in-k-hnel-s-2d-3-vertex--a9ab2ef7c61f",
-  "source_commit": "7ad3ffc6a26efd7542d00534cf50952b9a621375",
-  "source_commit_time": "2026-10-11T13:14:55Z",
+  "source_commit": "486a0035959996e626f3cb3a6a0d1dac94c3fee6",
+  "source_commit_time": "2026-10-18T20:10:41Z",
   "source_path": "2026/10/11/minimum-support-codimension-one-homology-in-k-hnel-s-2d-3-vertex--a9ab2ef7c61f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-a9ab2ef7c61f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-global-compact-recurrence-threshold-and-exact-activation-budget--d42489a97746",
   "resultary_record_key": "SCOPE-global-compact-recurrence-threshold-and-exact-activation-budget--d42489a97746",
-  "source_commit": "73e840b5c63c4837793cfdd65d26d6f617c59391",
-  "source_commit_time": "2026-10-11T13:02:38Z",
+  "source_commit": "d0b6fe9e44c7fe76d9aba73d044ddd6be6b65ee7",
+  "source_commit_time": "2026-10-18T19:28:58Z",
   "source_path": "2026/10/11/global-compact-recurrence-threshold-and-exact-activation-budget--d42489a97746",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-d42489a97746",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

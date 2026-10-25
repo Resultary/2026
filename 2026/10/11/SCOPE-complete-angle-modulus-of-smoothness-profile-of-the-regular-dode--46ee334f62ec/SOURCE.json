@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-complete-angle-modulus-of-smoothness-profile-of-the-regular-dode--46ee334f62ec",
   "resultary_record_key": "SCOPE-complete-angle-modulus-of-smoothness-profile-of-the-regular-dode--46ee334f62ec",
-  "source_commit": "3e5ffb67018bc6e4208e5638e6300a6755329c09",
-  "source_commit_time": "2026-10-11T13:12:29Z",
+  "source_commit": "e8461a0290a563fc9420e83eb7f267326108f769",
+  "source_commit_time": "2026-10-25T19:35:48Z",
   "source_path": "2026/10/11/complete-angle-modulus-of-smoothness-profile-of-the-regular-dode--46ee334f62ec",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-46ee334f62ec",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

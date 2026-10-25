@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-exact-spike-and-reset-law-for-nipg-on-scalar-strongly-convex-qua--4385d4d84505",
   "resultary_record_key": "SCOPE-exact-spike-and-reset-law-for-nipg-on-scalar-strongly-convex-qua--4385d4d84505",
-  "source_commit": "09dd9c112abd675cf3c3f1d2e8cf14a959acf1db",
-  "source_commit_time": "2026-10-04T06:00:58Z",
+  "source_commit": "3f6f05012a2c01d3d64a68f67064019e2086caed",
+  "source_commit_time": "2026-10-18T19:28:36Z",
   "source_path": "2026/10/04/exact-spike-and-reset-law-for-nipg-on-scalar-strongly-convex-qua--4385d4d84505",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-4385d4d84505",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

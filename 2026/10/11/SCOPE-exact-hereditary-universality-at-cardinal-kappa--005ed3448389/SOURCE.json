@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-hereditary-universality-at-cardinal-kappa--005ed3448389",
   "resultary_record_key": "SCOPE-exact-hereditary-universality-at-cardinal-kappa--005ed3448389",
-  "source_commit": "1445873d2b16fe571859435cf294274ca97bca7e",
-  "source_commit_time": "2026-10-11T13:13:46Z",
+  "source_commit": "b149cdc786b7bef0d3a136a6174c6b57f909a46c",
+  "source_commit_time": "2026-10-18T19:28:54Z",
   "source_path": "2026/10/11/exact-hereditary-universality-at-cardinal-kappa--005ed3448389",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-005ed3448389",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-fourth-moment-range-and-all-phase-orbits-of-a-six-mode-fou--5147476c65ae",
   "resultary_record_key": "SCOPE-exact-fourth-moment-range-and-all-phase-orbits-of-a-six-mode-fou--5147476c65ae",
-  "source_commit": "18e1396b9bdf8c705128f8f694ce69c9116de29e",
-  "source_commit_time": "2026-10-11T12:59:45Z",
+  "source_commit": "b1fd01e84056f5e010cf1e7633567f6ac1b6e88a",
+  "source_commit_time": "2026-10-25T19:11:18Z",
   "source_path": "2026/10/11/exact-fourth-moment-range-and-all-phase-orbits-of-a-six-mode-fou--5147476c65ae",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-5147476c65ae",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

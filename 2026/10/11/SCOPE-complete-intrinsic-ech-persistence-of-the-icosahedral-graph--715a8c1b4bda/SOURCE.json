@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-complete-intrinsic-ech-persistence-of-the-icosahedral-graph--715a8c1b4bda",
   "resultary_record_key": "SCOPE-complete-intrinsic-ech-persistence-of-the-icosahedral-graph--715a8c1b4bda",
-  "source_commit": "1cc38a772eaee435de32c0841fd5a23ff6b606d5",
-  "source_commit_time": "2026-10-11T13:17:32Z",
+  "source_commit": "72492e2f402843c2ab38b9519bdbff550c53f67b",
+  "source_commit_time": "2026-10-18T19:27:08Z",
   "source_path": "2026/10/11/complete-intrinsic-ech-persistence-of-the-icosahedral-graph--715a8c1b4bda",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-715a8c1b4bda",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

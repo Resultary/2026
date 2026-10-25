@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-two-absent-finite-support-periods-for-reversible-rule-115-cellul--692b925dfcdf",
   "resultary_record_key": "SCOPE-two-absent-finite-support-periods-for-reversible-rule-115-cellul--692b925dfcdf",
-  "source_commit": "25677daa7400c113cdd106d9b22827cfaeb6b8a6",
-  "source_commit_time": "2026-10-11T13:06:03Z",
+  "source_commit": "dbacda0e03770bb47cb8dfae417e64adb7860e8c",
+  "source_commit_time": "2026-10-18T20:09:52Z",
   "source_path": "2026/10/11/two-absent-finite-support-periods-for-reversible-rule-115-cellul--692b925dfcdf",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-692b925dfcdf",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

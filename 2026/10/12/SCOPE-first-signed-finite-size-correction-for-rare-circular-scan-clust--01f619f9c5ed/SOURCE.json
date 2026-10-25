@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/12/SCOPE-first-signed-finite-size-correction-for-rare-circular-scan-clust--01f619f9c5ed",
+  "resultary_record_key": "SCOPE-first-signed-finite-size-correction-for-rare-circular-scan-clust--01f619f9c5ed",
+  "source_commit": "7000c3183a91580a888b2ac93fa712e385be3e03",
+  "source_commit_time": "2026-10-18T20:03:09Z",
+  "source_path": "2026/10/12/first-signed-finite-size-correction-for-rare-circular-scan-clust--01f619f9c5ed",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261012-01f619f9c5ed",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

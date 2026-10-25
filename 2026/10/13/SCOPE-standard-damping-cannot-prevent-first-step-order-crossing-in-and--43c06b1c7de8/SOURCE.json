@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/13/SCOPE-standard-damping-cannot-prevent-first-step-order-crossing-in-and--43c06b1c7de8",
+  "resultary_record_key": "SCOPE-standard-damping-cannot-prevent-first-step-order-crossing-in-and--43c06b1c7de8",
+  "source_commit": "d9437b2916ad4b14809de786254ff236f6b8e039",
+  "source_commit_time": "2026-10-18T20:08:15Z",
+  "source_path": "2026/10/13/standard-damping-cannot-prevent-first-step-order-crossing-in-and--43c06b1c7de8",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261013-43c06b1c7de8",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

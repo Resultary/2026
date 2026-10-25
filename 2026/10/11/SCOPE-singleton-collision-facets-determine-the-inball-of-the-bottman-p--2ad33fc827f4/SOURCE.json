@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-singleton-collision-facets-determine-the-inball-of-the-bottman-p--2ad33fc827f4",
   "resultary_record_key": "SCOPE-singleton-collision-facets-determine-the-inball-of-the-bottman-p--2ad33fc827f4",
-  "source_commit": "9399d537ee05620a671b123ac7f909b39b5807dc",
-  "source_commit_time": "2026-10-11T13:08:03Z",
+  "source_commit": "4d02b23ba0922712b3da29e5235f8fe276571745",
+  "source_commit_time": "2026-10-18T19:27:21Z",
   "source_path": "2026/10/11/singleton-collision-facets-determine-the-inball-of-the-bottman-p--2ad33fc827f4",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-2ad33fc827f4",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-two-way-inclusion-profile-for-exponential-apple-interpolan--1dda31d540c7",
   "resultary_record_key": "SCOPE-exact-two-way-inclusion-profile-for-exponential-apple-interpolan--1dda31d540c7",
-  "source_commit": "0871c8f0cac4470c7470b242f1387c890f2380c7",
-  "source_commit_time": "2026-10-11T13:01:35Z",
+  "source_commit": "6d26d1c0bf834be187e82a4ac2939dde152cec88",
+  "source_commit_time": "2026-10-18T20:04:16Z",
   "source_path": "2026/10/11/exact-two-way-inclusion-profile-for-exponential-apple-interpolan--1dda31d540c7",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-1dda31d540c7",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

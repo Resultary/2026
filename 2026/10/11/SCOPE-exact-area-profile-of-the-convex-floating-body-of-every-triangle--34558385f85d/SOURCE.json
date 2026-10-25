@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-area-profile-of-the-convex-floating-body-of-every-triangle--34558385f85d",
   "resultary_record_key": "SCOPE-exact-area-profile-of-the-convex-floating-body-of-every-triangle--34558385f85d",
-  "source_commit": "b2eaa93eb595eab8c2a107502efb90965719e22f",
-  "source_commit_time": "2026-10-11T13:06:48Z",
+  "source_commit": "fd8ad381be2faeaa87d295446b5d75785a405cbf",
+  "source_commit_time": "2026-10-18T20:04:11Z",
   "source_path": "2026/10/11/exact-area-profile-of-the-convex-floating-body-of-every-triangle--34558385f85d",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-34558385f85d",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

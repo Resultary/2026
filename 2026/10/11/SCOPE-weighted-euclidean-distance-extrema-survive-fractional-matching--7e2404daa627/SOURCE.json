@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-weighted-euclidean-distance-extrema-survive-fractional-matching--7e2404daa627",
   "resultary_record_key": "SCOPE-weighted-euclidean-distance-extrema-survive-fractional-matching--7e2404daa627",
-  "source_commit": "101f55c241e663b98f56fe65c097ad612f10b256",
-  "source_commit_time": "2026-10-11T13:09:11Z",
+  "source_commit": "92f7e26a106b7e703b5973a9a7fb3fef74ae0de1",
+  "source_commit_time": "2026-10-18T20:05:59Z",
   "source_path": "2026/10/11/weighted-euclidean-distance-extrema-survive-fractional-matching--7e2404daa627",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-7e2404daa627",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

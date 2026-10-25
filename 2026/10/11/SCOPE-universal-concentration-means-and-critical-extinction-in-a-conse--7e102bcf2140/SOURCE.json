@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-universal-concentration-means-and-critical-extinction-in-a-conse--7e102bcf2140",
   "resultary_record_key": "SCOPE-universal-concentration-means-and-critical-extinction-in-a-conse--7e102bcf2140",
-  "source_commit": "74fb17de8c82525164c5b227bcbd9cf2572e3dbc",
-  "source_commit_time": "2026-10-11T13:04:09Z",
+  "source_commit": "928201be6bc03dc12ec182affc322a9ef1c0ead3",
+  "source_commit_time": "2026-10-18T20:09:52Z",
   "source_path": "2026/10/11/universal-concentration-means-and-critical-extinction-in-a-conse--7e102bcf2140",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-7e102bcf2140",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

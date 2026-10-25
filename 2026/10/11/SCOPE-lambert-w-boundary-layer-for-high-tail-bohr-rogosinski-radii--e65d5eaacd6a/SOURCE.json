@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-lambert-w-boundary-layer-for-high-tail-bohr-rogosinski-radii--e65d5eaacd6a",
   "resultary_record_key": "SCOPE-lambert-w-boundary-layer-for-high-tail-bohr-rogosinski-radii--e65d5eaacd6a",
-  "source_commit": "77f89e4690d1c1e8699cb3781417a5e75e4a7bce",
-  "source_commit_time": "2026-10-11T13:00:45Z",
+  "source_commit": "7085a2fc9aa18fe09853d1c4b267ee1f937ad8f5",
+  "source_commit_time": "2026-10-18T19:27:15Z",
   "source_path": "2026/10/11/lambert-w-boundary-layer-for-high-tail-bohr-rogosinski-radii--e65d5eaacd6a",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-e65d5eaacd6a",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

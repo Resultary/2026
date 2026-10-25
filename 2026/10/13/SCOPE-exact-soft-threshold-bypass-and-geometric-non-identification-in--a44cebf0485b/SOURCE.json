@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/13/SCOPE-exact-soft-threshold-bypass-and-geometric-non-identification-in--a44cebf0485b",
+  "resultary_record_key": "SCOPE-exact-soft-threshold-bypass-and-geometric-non-identification-in--a44cebf0485b",
+  "source_commit": "603cd3f0f9ecaa7add675705bf45819103d132fe",
+  "source_commit_time": "2026-10-18T20:06:38Z",
+  "source_path": "2026/10/13/exact-soft-threshold-bypass-and-geometric-non-identification-in--a44cebf0485b",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261013-a44cebf0485b",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

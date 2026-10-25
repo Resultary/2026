@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-three-to-five-real-fiber-valence-transition-in-a-harmonic--c0d4ae0d2148",
   "resultary_record_key": "SCOPE-exact-three-to-five-real-fiber-valence-transition-in-a-harmonic--c0d4ae0d2148",
-  "source_commit": "8ff359ae8668c2a98c9f5b780bc893da0c99f6c8",
-  "source_commit_time": "2026-10-11T13:01:22Z",
+  "source_commit": "6e1eb993c1051c91f161cb1ad5b5255282475ba2",
+  "source_commit_time": "2026-10-18T19:27:13Z",
   "source_path": "2026/10/11/exact-three-to-five-real-fiber-valence-transition-in-a-harmonic--c0d4ae0d2148",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-c0d4ae0d2148",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

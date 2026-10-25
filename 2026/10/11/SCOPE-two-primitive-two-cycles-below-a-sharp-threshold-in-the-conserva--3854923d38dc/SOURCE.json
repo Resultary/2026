@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-two-primitive-two-cycles-below-a-sharp-threshold-in-the-conserva--3854923d38dc",
   "resultary_record_key": "SCOPE-two-primitive-two-cycles-below-a-sharp-threshold-in-the-conserva--3854923d38dc",
-  "source_commit": "62d26064e4e78eba9d6da442a04854c97bb51e51",
-  "source_commit_time": "2026-10-11T13:02:47Z",
+  "source_commit": "92011714ac5c9027fd06d8af16d071ccf3dc84ac",
+  "source_commit_time": "2026-10-18T19:28:04Z",
   "source_path": "2026/10/11/two-primitive-two-cycles-below-a-sharp-threshold-in-the-conserva--3854923d38dc",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-3854923d38dc",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/13/SCOPE-exact-binary-dimension-three-six-request-functional-batch-length--4abf711d3224",
+  "resultary_record_key": "SCOPE-exact-binary-dimension-three-six-request-functional-batch-length--4abf711d3224",
+  "source_commit": "c612a26ad076fbc81fd6a738e760bd8e10290667",
+  "source_commit_time": "2026-10-18T20:06:21Z",
+  "source_path": "2026/10/13/exact-binary-dimension-three-six-request-functional-batch-length--4abf711d3224",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261013-4abf711d3224",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

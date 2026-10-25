@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-inverse-temperature-pressure-law-for-the-digit-potential-on-boun--451ebc0e8963",
   "resultary_record_key": "SCOPE-inverse-temperature-pressure-law-for-the-digit-potential-on-boun--451ebc0e8963",
-  "source_commit": "d422e4027f575e7b862fc91694bb33c5581f10c9",
-  "source_commit_time": "2026-10-11T13:06:08Z",
+  "source_commit": "28ebb500c6462be2001fa352f33c57911c77e2a8",
+  "source_commit_time": "2026-10-18T20:09:46Z",
   "source_path": "2026/10/11/inverse-temperature-pressure-law-for-the-digit-potential-on-boun--451ebc0e8963",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-451ebc0e8963",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

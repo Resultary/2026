@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/12/SCOPE-exact-fixed-two-burst-unstable-deletion-codes-in-s-6--dc5185767268",
+  "resultary_record_key": "SCOPE-exact-fixed-two-burst-unstable-deletion-codes-in-s-6--dc5185767268",
+  "source_commit": "922518c768fd1f11f6990694e9ba1df7da28b301",
+  "source_commit_time": "2026-10-18T20:06:01Z",
+  "source_path": "2026/10/12/exact-fixed-two-burst-unstable-deletion-codes-in-s-6--dc5185767268",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261012-dc5185767268",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-forward-shift-blow-ups-preserve-digraph-homotopy-type--1f84401a7952",
   "resultary_record_key": "SCOPE-forward-shift-blow-ups-preserve-digraph-homotopy-type--1f84401a7952",
-  "source_commit": "1342a95ac2ad94243e0e77dbe902d6d2aad58546",
-  "source_commit_time": "2026-10-11T13:16:45Z",
+  "source_commit": "b3e5972e3a4ba732e01d18b52afbe3bec81e671f",
+  "source_commit_time": "2026-10-18T20:02:47Z",
   "source_path": "2026/10/11/forward-shift-blow-ups-preserve-digraph-homotopy-type--1f84401a7952",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-1f84401a7952",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

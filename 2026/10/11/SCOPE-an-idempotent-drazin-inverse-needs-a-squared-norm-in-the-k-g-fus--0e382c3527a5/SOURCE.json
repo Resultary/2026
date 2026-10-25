@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-an-idempotent-drazin-inverse-needs-a-squared-norm-in-the-k-g-fus--0e382c3527a5",
   "resultary_record_key": "SCOPE-an-idempotent-drazin-inverse-needs-a-squared-norm-in-the-k-g-fus--0e382c3527a5",
-  "source_commit": "0cfb023be9f794586f34c9e97cf9849913404e0c",
-  "source_commit_time": "2026-10-11T12:58:25Z",
+  "source_commit": "49adfa3bac55847f4c06e62e90857e4a4881e512",
+  "source_commit_time": "2026-10-25T19:11:16Z",
   "source_path": "2026/10/11/an-idempotent-drazin-inverse-needs-a-squared-norm-in-the-k-g-fus--0e382c3527a5",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-0e382c3527a5",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

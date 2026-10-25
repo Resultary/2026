@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/13/SCOPE-agc-s-parameter-norm-floor-restores-the-raw-quadratic-stability--b70cb735aae2",
+  "resultary_record_key": "SCOPE-agc-s-parameter-norm-floor-restores-the-raw-quadratic-stability--b70cb735aae2",
+  "source_commit": "edc06d8af56307b6cc8a0402af2e7e36f8493ba9",
+  "source_commit_time": "2026-10-18T20:10:12Z",
+  "source_path": "2026/10/13/agc-s-parameter-norm-floor-restores-the-raw-quadratic-stability--b70cb735aae2",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261013-b70cb735aae2",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

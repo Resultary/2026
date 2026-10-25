@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-three-unlabeled-width-statistics-reconstruct-a-parallelogram-wit--dcfda0360928",
   "resultary_record_key": "SCOPE-three-unlabeled-width-statistics-reconstruct-a-parallelogram-wit--dcfda0360928",
-  "source_commit": "885081f41a5e953776c7cff5903fee004ea0f292",
-  "source_commit_time": "2026-10-11T13:07:23Z",
+  "source_commit": "6a412c32639e1edb5a94754dca1420b93cdaa250",
+  "source_commit_time": "2026-10-18T20:02:59Z",
   "source_path": "2026/10/11/three-unlabeled-width-statistics-reconstruct-a-parallelogram-wit--dcfda0360928",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-dcfda0360928",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

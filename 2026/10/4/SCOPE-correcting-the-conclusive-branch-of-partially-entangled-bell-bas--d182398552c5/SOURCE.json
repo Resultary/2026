@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-correcting-the-conclusive-branch-of-partially-entangled-bell-bas--d182398552c5",
   "resultary_record_key": "SCOPE-correcting-the-conclusive-branch-of-partially-entangled-bell-bas--d182398552c5",
-  "source_commit": "151c0f397c903b328fe221b2158b6419793583ea",
-  "source_commit_time": "2026-10-04T05:58:48Z",
+  "source_commit": "ed04c9093183a6a357af00f95868f751a0a5624e",
+  "source_commit_time": "2026-10-18T19:28:32Z",
   "source_path": "2026/10/04/correcting-the-conclusive-branch-of-partially-entangled-bell-bas--d182398552c5",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-d182398552c5",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

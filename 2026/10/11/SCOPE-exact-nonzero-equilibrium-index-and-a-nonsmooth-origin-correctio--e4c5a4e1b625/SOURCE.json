@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-nonzero-equilibrium-index-and-a-nonsmooth-origin-correctio--e4c5a4e1b625",
   "resultary_record_key": "SCOPE-exact-nonzero-equilibrium-index-and-a-nonsmooth-origin-correctio--e4c5a4e1b625",
-  "source_commit": "60eea05ad512c1e16679ffd24f5344b75a731d42",
-  "source_commit_time": "2026-10-11T13:03:11Z",
+  "source_commit": "3b0568ce01bf8f26ab30548e9c9eb300468c39e9",
+  "source_commit_time": "2026-10-18T19:27:11Z",
   "source_path": "2026/10/11/exact-nonzero-equilibrium-index-and-a-nonsmooth-origin-correctio--e4c5a4e1b625",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-e4c5a4e1b625",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

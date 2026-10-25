@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/13/SCOPE-powergrad-is-exactly-cross-entropy-sgd-with-a-reciprocal-head-bo--c0a54340c5b2",
+  "resultary_record_key": "SCOPE-powergrad-is-exactly-cross-entropy-sgd-with-a-reciprocal-head-bo--c0a54340c5b2",
+  "source_commit": "6c2d40d2f31a0646f21c73eeb21dda860b6f98e8",
+  "source_commit_time": "2026-10-18T20:09:27Z",
+  "source_path": "2026/10/13/powergrad-is-exactly-cross-entropy-sgd-with-a-reciprocal-head-bo--c0a54340c5b2",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261013-c0a54340c5b2",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

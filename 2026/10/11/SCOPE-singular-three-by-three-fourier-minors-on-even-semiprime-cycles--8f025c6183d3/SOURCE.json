@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-singular-three-by-three-fourier-minors-on-even-semiprime-cycles--8f025c6183d3",
   "resultary_record_key": "SCOPE-singular-three-by-three-fourier-minors-on-even-semiprime-cycles--8f025c6183d3",
-  "source_commit": "7d801010090fab48008f354bfa02c2b714eb7d32",
-  "source_commit_time": "2026-10-11T13:01:38Z",
+  "source_commit": "a0d1129fb168600481fbe49ea96ab870107b869f",
+  "source_commit_time": "2026-10-18T19:28:02Z",
   "source_path": "2026/10/11/singular-three-by-three-fourier-minors-on-even-semiprime-cycles--8f025c6183d3",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-8f025c6183d3",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

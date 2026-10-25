@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-universal-unit-amplitude-excursion-for-recurrent-moore-spiegel-d--0d716adfaf25",
   "resultary_record_key": "SCOPE-universal-unit-amplitude-excursion-for-recurrent-moore-spiegel-d--0d716adfaf25",
-  "source_commit": "3c9e91eeddddd7e4ef63c7f41c4d2dd4fd3aa76b",
-  "source_commit_time": "2026-10-11T13:02:34Z",
+  "source_commit": "79aa7361d7a9911bac3aabb6b4cc54b4a2e214c0",
+  "source_commit_time": "2026-10-18T20:02:30Z",
   "source_path": "2026/10/11/universal-unit-amplitude-excursion-for-recurrent-moore-spiegel-d--0d716adfaf25",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-0d716adfaf25",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-log-periodic-second-order-entropy-law-for-geometric-gap-shifts--166969f68799",
   "resultary_record_key": "SCOPE-log-periodic-second-order-entropy-law-for-geometric-gap-shifts--166969f68799",
-  "source_commit": "0ebdb826dc5d6ff70cf1fb47d459835e15124e63",
-  "source_commit_time": "2026-10-11T13:05:41Z",
+  "source_commit": "dabd41363326a8d5b9ada3b0b2117fcf0786987b",
+  "source_commit_time": "2026-10-18T20:04:19Z",
   "source_path": "2026/10/11/log-periodic-second-order-entropy-law-for-geometric-gap-shifts--166969f68799",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-166969f68799",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

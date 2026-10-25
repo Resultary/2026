@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-complete-inball-contact-spectrum-of-dense-symmetric-edge-polytop--458bf3929dde",
   "resultary_record_key": "SCOPE-complete-inball-contact-spectrum-of-dense-symmetric-edge-polytop--458bf3929dde",
-  "source_commit": "ece5d8e05bf3efdbbc5dd1af1eea8d21eb46e47f",
-  "source_commit_time": "2026-10-11T13:08:38Z",
+  "source_commit": "c657f5ee9a6953ba5e6aed7e73a25bd760343035",
+  "source_commit_time": "2026-10-18T20:10:35Z",
   "source_path": "2026/10/11/complete-inball-contact-spectrum-of-dense-symmetric-edge-polytop--458bf3929dde",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-458bf3929dde",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

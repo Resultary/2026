@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-arithmetic-resonance-and-exact-linear-response-radius-for-mean-f--3ccc7c7409d3",
   "resultary_record_key": "SCOPE-arithmetic-resonance-and-exact-linear-response-radius-for-mean-f--3ccc7c7409d3",
-  "source_commit": "6466ca6127a3f203af1e51efdb9fa6304c8a5bfa",
-  "source_commit_time": "2026-10-11T13:06:01Z",
+  "source_commit": "f1cfa2f6ab32ed1f51cd60173c0276ba8a510b85",
+  "source_commit_time": "2026-10-18T19:27:07Z",
   "source_path": "2026/10/11/arithmetic-resonance-and-exact-linear-response-radius-for-mean-f--3ccc7c7409d3",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-3ccc7c7409d3",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

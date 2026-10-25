@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-odd-ring-and-twice-odd-bijectivity-for-quadratic-five-site--8948cda228be",
   "resultary_record_key": "SCOPE-exact-odd-ring-and-twice-odd-bijectivity-for-quadratic-five-site--8948cda228be",
-  "source_commit": "88cbb28d952e71e26ae2852b93389839c19c2125",
-  "source_commit_time": "2026-10-11T13:06:07Z",
+  "source_commit": "ffdac7cd6c3e466ecc126f182c0ef564441fb3ab",
+  "source_commit_time": "2026-10-18T19:28:55Z",
   "source_path": "2026/10/11/exact-odd-ring-and-twice-odd-bijectivity-for-quadratic-five-site--8948cda228be",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-8948cda228be",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

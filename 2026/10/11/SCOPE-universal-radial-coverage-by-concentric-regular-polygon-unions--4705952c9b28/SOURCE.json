@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-universal-radial-coverage-by-concentric-regular-polygon-unions--4705952c9b28",
   "resultary_record_key": "SCOPE-universal-radial-coverage-by-concentric-regular-polygon-unions--4705952c9b28",
-  "source_commit": "7251ee7049ddd87126f8995fbaf2ee3db5cca543",
-  "source_commit_time": "2026-10-11T13:07:02Z",
+  "source_commit": "96a2263b8b568f29e9ff50c0259a0dddd0de2fd9",
+  "source_commit_time": "2026-10-18T19:28:04Z",
   "source_path": "2026/10/11/universal-radial-coverage-by-concentric-regular-polygon-unions--4705952c9b28",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-4705952c9b28",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

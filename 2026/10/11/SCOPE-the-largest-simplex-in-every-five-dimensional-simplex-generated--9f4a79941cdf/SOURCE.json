@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-the-largest-simplex-in-every-five-dimensional-simplex-generated--9f4a79941cdf",
   "resultary_record_key": "SCOPE-the-largest-simplex-in-every-five-dimensional-simplex-generated--9f4a79941cdf",
-  "source_commit": "9325d70402b6556169f4afc517758de4ad8a64af",
-  "source_commit_time": "2026-10-11T13:07:30Z",
+  "source_commit": "5c6019800014278d5f37ed398e38fd1f9ca60f80",
+  "source_commit_time": "2026-10-18T19:27:23Z",
   "source_path": "2026/10/11/the-largest-simplex-in-every-five-dimensional-simplex-generated--9f4a79941cdf",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-9f4a79941cdf",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

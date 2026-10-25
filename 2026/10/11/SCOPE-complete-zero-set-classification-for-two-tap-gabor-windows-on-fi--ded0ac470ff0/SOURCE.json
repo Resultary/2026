@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-complete-zero-set-classification-for-two-tap-gabor-windows-on-fi--ded0ac470ff0",
   "resultary_record_key": "SCOPE-complete-zero-set-classification-for-two-tap-gabor-windows-on-fi--ded0ac470ff0",
-  "source_commit": "3d5ba5b2a0c9f6e609036d81fbc1f0eb4eb30e33",
-  "source_commit_time": "2026-10-11T12:57:49Z",
+  "source_commit": "983e9605506045dccf1a17357ee0cfea28d6bba1",
+  "source_commit_time": "2026-10-18T20:08:37Z",
   "source_path": "2026/10/11/complete-zero-set-classification-for-two-tap-gabor-windows-on-fi--ded0ac470ff0",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-ded0ac470ff0",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

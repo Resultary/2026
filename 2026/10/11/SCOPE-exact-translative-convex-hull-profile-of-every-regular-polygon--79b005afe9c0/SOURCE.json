@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-translative-convex-hull-profile-of-every-regular-polygon--79b005afe9c0",
   "resultary_record_key": "SCOPE-exact-translative-convex-hull-profile-of-every-regular-polygon--79b005afe9c0",
-  "source_commit": "4a2e83be1508a61c607f072a6c18ce7d0ef9b04f",
-  "source_commit_time": "2026-10-11T13:06:41Z",
+  "source_commit": "1c7fc14fa71558c6b096252a725a1ddbd0001377",
+  "source_commit_time": "2026-10-18T19:27:57Z",
   "source_path": "2026/10/11/exact-translative-convex-hull-profile-of-every-regular-polygon--79b005afe9c0",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-79b005afe9c0",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

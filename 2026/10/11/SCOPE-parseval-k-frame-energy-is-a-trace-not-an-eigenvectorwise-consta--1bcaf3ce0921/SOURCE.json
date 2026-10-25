@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-parseval-k-frame-energy-is-a-trace-not-an-eigenvectorwise-consta--1bcaf3ce0921",
   "resultary_record_key": "SCOPE-parseval-k-frame-energy-is-a-trace-not-an-eigenvectorwise-consta--1bcaf3ce0921",
-  "source_commit": "dc862a40e5e217a7204ce282881e6407196735dd",
-  "source_commit_time": "2026-10-11T12:58:25Z",
+  "source_commit": "eafd1697e1c88e712d33a4f59f7269997a7c9c35",
+  "source_commit_time": "2026-10-18T20:09:47Z",
   "source_path": "2026/10/11/parseval-k-frame-energy-is-a-trace-not-an-eigenvectorwise-consta--1bcaf3ce0921",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-1bcaf3ce0921",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

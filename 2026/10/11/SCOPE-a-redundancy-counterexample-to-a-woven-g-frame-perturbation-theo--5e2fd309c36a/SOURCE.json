@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-a-redundancy-counterexample-to-a-woven-g-frame-perturbation-theo--5e2fd309c36a",
   "resultary_record_key": "SCOPE-a-redundancy-counterexample-to-a-woven-g-frame-perturbation-theo--5e2fd309c36a",
-  "source_commit": "98dbb4241d66b289aa2443edf2e420d4f6977c41",
-  "source_commit_time": "2026-10-11T12:58:45Z",
+  "source_commit": "d4e5ff87066b9272e6b9f26365b7c72e5930bdd5",
+  "source_commit_time": "2026-10-18T20:09:38Z",
   "source_path": "2026/10/11/a-redundancy-counterexample-to-a-woven-g-frame-perturbation-theo--5e2fd309c36a",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-5e2fd309c36a",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

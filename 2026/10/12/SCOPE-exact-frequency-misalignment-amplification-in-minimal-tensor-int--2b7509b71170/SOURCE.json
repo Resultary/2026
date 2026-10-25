@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/12/SCOPE-exact-frequency-misalignment-amplification-in-minimal-tensor-int--2b7509b71170",
+  "resultary_record_key": "SCOPE-exact-frequency-misalignment-amplification-in-minimal-tensor-int--2b7509b71170",
+  "source_commit": "5026b671ffd971fb190b2b7adafe669b9d14df57",
+  "source_commit_time": "2026-10-18T20:10:18Z",
+  "source_path": "2026/10/12/exact-frequency-misalignment-amplification-in-minimal-tensor-int--2b7509b71170",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261012-2b7509b71170",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

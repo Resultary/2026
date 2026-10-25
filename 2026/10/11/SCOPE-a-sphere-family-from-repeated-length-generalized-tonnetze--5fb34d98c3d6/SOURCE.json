@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-a-sphere-family-from-repeated-length-generalized-tonnetze--5fb34d98c3d6",
   "resultary_record_key": "SCOPE-a-sphere-family-from-repeated-length-generalized-tonnetze--5fb34d98c3d6",
-  "source_commit": "b078d88bb04e3d6c805d51aa38ab00900f3bd751",
-  "source_commit_time": "2026-10-11T13:16:44Z",
+  "source_commit": "f2d2939387caf63a632736a23fbd750b071ad533",
+  "source_commit_time": "2026-10-18T20:10:33Z",
   "source_path": "2026/10/11/a-sphere-family-from-repeated-length-generalized-tonnetze--5fb34d98c3d6",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-5fb34d98c3d6",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

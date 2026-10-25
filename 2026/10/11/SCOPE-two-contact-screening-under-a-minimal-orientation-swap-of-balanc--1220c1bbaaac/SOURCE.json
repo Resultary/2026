@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-two-contact-screening-under-a-minimal-orientation-swap-of-balanc--1220c1bbaaac",
   "resultary_record_key": "SCOPE-two-contact-screening-under-a-minimal-orientation-swap-of-balanc--1220c1bbaaac",
-  "source_commit": "d10f43afc018cbb2a9684e6ed01febdbb5e39d7c",
-  "source_commit_time": "2026-10-11T13:08:45Z",
+  "source_commit": "8fa47cd9327312bfd504bb042ee7c8cc3db00b8e",
+  "source_commit_time": "2026-10-18T20:10:46Z",
   "source_path": "2026/10/11/two-contact-screening-under-a-minimal-orientation-swap-of-balanc--1220c1bbaaac",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-1220c1bbaaac",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

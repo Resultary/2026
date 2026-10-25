@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-two-disk-covering-radius-of-every-regular-odd-polygon--d4b06863483b",
   "resultary_record_key": "SCOPE-exact-two-disk-covering-radius-of-every-regular-odd-polygon--d4b06863483b",
-  "source_commit": "93869987ddd9248fd86106b75d78d6fde6cbc88a",
-  "source_commit_time": "2026-10-11T13:06:57Z",
+  "source_commit": "0d73072252fe33069138b3ab3e5f677493669311",
+  "source_commit_time": "2026-10-18T19:28:57Z",
   "source_path": "2026/10/11/exact-two-disk-covering-radius-of-every-regular-odd-polygon--d4b06863483b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-d4b06863483b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-homotopy-classification-of-bidirected-double-star-multipath-comp--9525e342e100",
   "resultary_record_key": "SCOPE-homotopy-classification-of-bidirected-double-star-multipath-comp--9525e342e100",
-  "source_commit": "7ce2da81e83fc0b9a9fa37ab4aa793d59aaef8ca",
-  "source_commit_time": "2026-10-11T13:18:35Z",
+  "source_commit": "fcd2de246ab57b2f9da6d01c0ec7868ef9e9580c",
+  "source_commit_time": "2026-10-18T20:57:34Z",
   "source_path": "2026/10/11/homotopy-classification-of-bidirected-double-star-multipath-comp--9525e342e100",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-9525e342e100",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

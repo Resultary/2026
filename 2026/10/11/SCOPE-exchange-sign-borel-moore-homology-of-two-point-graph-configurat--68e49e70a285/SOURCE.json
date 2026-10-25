@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exchange-sign-borel-moore-homology-of-two-point-graph-configurat--68e49e70a285",
   "resultary_record_key": "SCOPE-exchange-sign-borel-moore-homology-of-two-point-graph-configurat--68e49e70a285",
-  "source_commit": "ef205d31635d841444a06522d71d171905aa1f76",
-  "source_commit_time": "2026-10-11T13:18:14Z",
+  "source_commit": "af7ef7ba2340bbfdc8628f23ae9fd73891aca8db",
+  "source_commit_time": "2026-10-18T20:10:39Z",
   "source_path": "2026/10/11/exchange-sign-borel-moore-homology-of-two-point-graph-configurat--68e49e70a285",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-68e49e70a285",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

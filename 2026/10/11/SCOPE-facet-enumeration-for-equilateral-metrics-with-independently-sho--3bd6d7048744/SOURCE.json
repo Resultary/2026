@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-facet-enumeration-for-equilateral-metrics-with-independently-sho--3bd6d7048744",
   "resultary_record_key": "SCOPE-facet-enumeration-for-equilateral-metrics-with-independently-sho--3bd6d7048744",
-  "source_commit": "fa52be266997c831a10297c303051b4ae25bcfbc",
-  "source_commit_time": "2026-10-11T13:13:13Z",
+  "source_commit": "5fb5100bbfda9071e64793f197b9cf7b7b373657",
+  "source_commit_time": "2026-10-18T20:02:47Z",
   "source_path": "2026/10/11/facet-enumeration-for-equilateral-metrics-with-independently-sho--3bd6d7048744",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-3bd6d7048744",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

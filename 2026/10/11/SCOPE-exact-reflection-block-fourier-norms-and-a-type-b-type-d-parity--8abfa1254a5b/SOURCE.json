@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-reflection-block-fourier-norms-and-a-type-b-type-d-parity--8abfa1254a5b",
   "resultary_record_key": "SCOPE-exact-reflection-block-fourier-norms-and-a-type-b-type-d-parity--8abfa1254a5b",
-  "source_commit": "02a335271eeea81b55ffa298f0ad2906ff68d030",
-  "source_commit_time": "2026-10-11T12:57:23Z",
+  "source_commit": "75372307eb26f791bac2f4fa3f00d37dc6b7409c",
+  "source_commit_time": "2026-10-18T19:27:12Z",
   "source_path": "2026/10/11/exact-reflection-block-fourier-norms-and-a-type-b-type-d-parity--8abfa1254a5b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-8abfa1254a5b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

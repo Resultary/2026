@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-pointwise-daugavet-delta-profile-in-scalar-daugavet-ell-p--6e228b1e1934",
   "resultary_record_key": "SCOPE-exact-pointwise-daugavet-delta-profile-in-scalar-daugavet-ell-p--6e228b1e1934",
-  "source_commit": "ca6d45173c05d2ae2c608a6a3eb953af4b68d952",
-  "source_commit_time": "2026-10-11T13:12:32Z",
+  "source_commit": "550fd1146fb564a19cac02e868c78a74391c4d65",
+  "source_commit_time": "2026-10-18T20:10:38Z",
   "source_path": "2026/10/11/exact-pointwise-daugavet-delta-profile-in-scalar-daugavet-ell-p--6e228b1e1934",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-6e228b1e1934",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

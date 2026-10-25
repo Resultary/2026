@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-exact-full-support-insertion-radius-of-subsequence-universality--967f04fec949",
   "resultary_record_key": "SCOPE-exact-full-support-insertion-radius-of-subsequence-universality--967f04fec949",
-  "source_commit": "841c245aee4ace47c3120275a3e07b377445ccb3",
-  "source_commit_time": "2026-10-04T05:56:10Z",
+  "source_commit": "f99710442c94a6da614212346338da8a7205d2fc",
+  "source_commit_time": "2026-10-18T20:10:24Z",
   "source_path": "2026/10/04/exact-full-support-insertion-radius-of-subsequence-universality--967f04fec949",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-967f04fec949",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

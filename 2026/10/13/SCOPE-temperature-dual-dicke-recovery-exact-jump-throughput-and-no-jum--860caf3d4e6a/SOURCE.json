@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/13/SCOPE-temperature-dual-dicke-recovery-exact-jump-throughput-and-no-jum--860caf3d4e6a",
+  "resultary_record_key": "SCOPE-temperature-dual-dicke-recovery-exact-jump-throughput-and-no-jum--860caf3d4e6a",
+  "source_commit": "0cb5c7fe740bbd1af266d0742c0c8d4ada3a8853",
+  "source_commit_time": "2026-10-18T20:05:27Z",
+  "source_path": "2026/10/13/temperature-dual-dicke-recovery-exact-jump-throughput-and-no-jum--860caf3d4e6a",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261013-860caf3d4e6a",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

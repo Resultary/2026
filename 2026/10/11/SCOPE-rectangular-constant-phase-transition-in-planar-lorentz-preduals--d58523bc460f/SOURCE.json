@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-rectangular-constant-phase-transition-in-planar-lorentz-preduals--d58523bc460f",
   "resultary_record_key": "SCOPE-rectangular-constant-phase-transition-in-planar-lorentz-preduals--d58523bc460f",
-  "source_commit": "637ae20fd7ba35cc08fdf03c3e9a23fc3c006e13",
-  "source_commit_time": "2026-10-11T13:11:01Z",
+  "source_commit": "8d078d4dfe34a81ea1fce663bf1b4db22b131598",
+  "source_commit_time": "2026-10-18T20:04:23Z",
   "source_path": "2026/10/11/rectangular-constant-phase-transition-in-planar-lorentz-preduals--d58523bc460f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-d58523bc460f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

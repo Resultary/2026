@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-a-repaired-lyapunov-gap-comparison-for-ellipsoidal-open-billiard--f290e988fe0b",
   "resultary_record_key": "SCOPE-a-repaired-lyapunov-gap-comparison-for-ellipsoidal-open-billiard--f290e988fe0b",
-  "source_commit": "d27748d6cea23435f856f166e5a22378209723c1",
-  "source_commit_time": "2026-10-11T13:05:00Z",
+  "source_commit": "894e626cb1192d79de57b65783a743e5c91f34ec",
+  "source_commit_time": "2026-10-18T20:09:38Z",
   "source_path": "2026/10/11/a-repaired-lyapunov-gap-comparison-for-ellipsoidal-open-billiard--f290e988fe0b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-f290e988fe0b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

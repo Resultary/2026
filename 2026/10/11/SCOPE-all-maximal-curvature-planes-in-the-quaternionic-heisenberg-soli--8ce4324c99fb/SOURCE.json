@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-all-maximal-curvature-planes-in-the-quaternionic-heisenberg-soli--8ce4324c99fb",
   "resultary_record_key": "SCOPE-all-maximal-curvature-planes-in-the-quaternionic-heisenberg-soli--8ce4324c99fb",
-  "source_commit": "ba16aa2af56b68f39c96c51d4c5cb1b4289cd700",
-  "source_commit_time": "2026-10-11T13:09:49Z",
+  "source_commit": "83c45ec54ecad704ae5ac8fa8e8d5d70b772d527",
+  "source_commit_time": "2026-10-18T19:27:07Z",
   "source_path": "2026/10/11/all-maximal-curvature-planes-in-the-quaternionic-heisenberg-soli--8ce4324c99fb",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-8ce4324c99fb",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

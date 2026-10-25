@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-unlabeled-directional-widths-determine-a-right-circular-cone--30a3b32d19eb",
   "resultary_record_key": "SCOPE-unlabeled-directional-widths-determine-a-right-circular-cone--30a3b32d19eb",
-  "source_commit": "ef3e76543539cdf262464d244951fb9ac0a848d5",
-  "source_commit_time": "2026-10-11T13:07:26Z",
+  "source_commit": "9122ecd91910bf417a896a6684a15a5bc5539926",
+  "source_commit_time": "2026-10-18T20:02:31Z",
   "source_path": "2026/10/11/unlabeled-directional-widths-determine-a-right-circular-cone--30a3b32d19eb",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-30a3b32d19eb",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

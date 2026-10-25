@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-exact-generating-function-and-integer-momentum-resonance-for-sca--eebc6c3de00d",
   "resultary_record_key": "SCOPE-exact-generating-function-and-integer-momentum-resonance-for-sca--eebc6c3de00d",
-  "source_commit": "811f09153fc7284eef14f476fcdcc94efa85b434",
-  "source_commit_time": "2026-10-04T06:00:14Z",
+  "source_commit": "546cd957468e13cf990082319757efbcd1e59858",
+  "source_commit_time": "2026-10-18T19:28:34Z",
   "source_path": "2026/10/04/exact-generating-function-and-integer-momentum-resonance-for-sca--eebc6c3de00d",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-eebc6c3de00d",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-first-homology-of-hyperelliptic-branch-complements--dc418674fc96",
   "resultary_record_key": "SCOPE-first-homology-of-hyperelliptic-branch-complements--dc418674fc96",
-  "source_commit": "2a9aa003c00fc4dd97688c63abb8d7a0a5241e2b",
-  "source_commit_time": "2026-10-11T13:17:58Z",
+  "source_commit": "143fa7324e08216b69da0cbb261f5c3026d7628c",
+  "source_commit_time": "2026-10-18T20:09:44Z",
   "source_path": "2026/10/11/first-homology-of-hyperelliptic-branch-complements--dc418674fc96",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-dc418674fc96",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

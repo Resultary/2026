@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-lyapunov-monotonicity-rules-out-bounded-recurrent-dynamics--dced9fadf5ee",
   "resultary_record_key": "SCOPE-exact-lyapunov-monotonicity-rules-out-bounded-recurrent-dynamics--dced9fadf5ee",
-  "source_commit": "43952aa51b56846e18932f9ad2feba7a1a909f71",
-  "source_commit_time": "2026-10-11T13:03:06Z",
+  "source_commit": "9b9ae9c935aec8b33c844be3e1a5a12e2fbc00f0",
+  "source_commit_time": "2026-10-18T20:04:14Z",
   "source_path": "2026/10/11/exact-lyapunov-monotonicity-rules-out-bounded-recurrent-dynamics--dced9fadf5ee",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-dced9fadf5ee",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

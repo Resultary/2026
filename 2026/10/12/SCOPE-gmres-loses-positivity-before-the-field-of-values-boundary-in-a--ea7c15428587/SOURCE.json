@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/12/SCOPE-gmres-loses-positivity-before-the-field-of-values-boundary-in-a--ea7c15428587",
+  "resultary_record_key": "SCOPE-gmres-loses-positivity-before-the-field-of-values-boundary-in-a--ea7c15428587",
+  "source_commit": "b528e5c1f23ea402a12a18a90bec885596567b6c",
+  "source_commit_time": "2026-10-18T20:07:58Z",
+  "source_path": "2026/10/12/gmres-loses-positivity-before-the-field-of-values-boundary-in-a--ea7c15428587",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261012-ea7c15428587",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

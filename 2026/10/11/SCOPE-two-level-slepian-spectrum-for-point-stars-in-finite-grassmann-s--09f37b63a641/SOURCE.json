@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-two-level-slepian-spectrum-for-point-stars-in-finite-grassmann-s--09f37b63a641",
   "resultary_record_key": "SCOPE-two-level-slepian-spectrum-for-point-stars-in-finite-grassmann-s--09f37b63a641",
-  "source_commit": "fe3366da0b6041f952b022373cf008dbf604d249",
-  "source_commit_time": "2026-10-11T12:57:28Z",
+  "source_commit": "d0f00c06dbb171dfdda8eb1a4829f4e27266b952",
+  "source_commit_time": "2026-10-18T19:27:25Z",
   "source_path": "2026/10/11/two-level-slepian-spectrum-for-point-stars-in-finite-grassmann-s--09f37b63a641",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-09f37b63a641",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

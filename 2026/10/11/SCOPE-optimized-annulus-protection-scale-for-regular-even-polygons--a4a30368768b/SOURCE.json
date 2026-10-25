@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-optimized-annulus-protection-scale-for-regular-even-polygons--a4a30368768b",
   "resultary_record_key": "SCOPE-optimized-annulus-protection-scale-for-regular-even-polygons--a4a30368768b",
-  "source_commit": "f8528d85b0f6015b28420ffe1fbe27817703e68d",
-  "source_commit_time": "2026-10-11T13:06:46Z",
+  "source_commit": "028d5c81919b85bd815193ea6c2513134c50b20f",
+  "source_commit_time": "2026-10-18T19:29:00Z",
   "source_path": "2026/10/11/optimized-annulus-protection-scale-for-regular-even-polygons--a4a30368768b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-a4a30368768b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-lambda-4-constants-for-every-three-character-subset-of-a-c--5562292e7127",
   "resultary_record_key": "SCOPE-exact-lambda-4-constants-for-every-three-character-subset-of-a-c--5562292e7127",
-  "source_commit": "a8408b62303fa1e38b20c0b83741834aba6d914b",
-  "source_commit_time": "2026-10-11T12:56:43Z",
+  "source_commit": "936f1444022668907147a4994f32526dc4b8231b",
+  "source_commit_time": "2026-10-18T19:27:10Z",
   "source_path": "2026/10/11/exact-lambda-4-constants-for-every-three-character-subset-of-a-c--5562292e7127",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-5562292e7127",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

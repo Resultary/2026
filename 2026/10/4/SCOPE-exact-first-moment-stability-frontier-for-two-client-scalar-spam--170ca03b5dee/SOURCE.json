@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-exact-first-moment-stability-frontier-for-two-client-scalar-spam--170ca03b5dee",
   "resultary_record_key": "SCOPE-exact-first-moment-stability-frontier-for-two-client-scalar-spam--170ca03b5dee",
-  "source_commit": "bce914364ec3215d01fd66bba2a6e82143b6c4fe",
-  "source_commit_time": "2026-10-04T06:00:12Z",
+  "source_commit": "fd96c0bb19bacfd55dd8e0243afcd36d75d694d5",
+  "source_commit_time": "2026-10-18T19:28:34Z",
   "source_path": "2026/10/04/exact-first-moment-stability-frontier-for-two-client-scalar-spam--170ca03b5dee",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-170ca03b5dee",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

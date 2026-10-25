@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-rectangular-constant-of-the-two-dimensional-ces-ro-space--e35bdcf68e30",
   "resultary_record_key": "SCOPE-exact-rectangular-constant-of-the-two-dimensional-ces-ro-space--e35bdcf68e30",
-  "source_commit": "1a90c282462e97b79aa5ece7ac0f6babb8c8e8b2",
-  "source_commit_time": "2026-10-11T13:10:47Z",
+  "source_commit": "d58380814ed096d2b7ed1ad2f78bfc8ba2362967",
+  "source_commit_time": "2026-10-18T20:10:38Z",
   "source_path": "2026/10/11/exact-rectangular-constant-of-the-two-dimensional-ces-ro-space--e35bdcf68e30",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-e35bdcf68e30",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

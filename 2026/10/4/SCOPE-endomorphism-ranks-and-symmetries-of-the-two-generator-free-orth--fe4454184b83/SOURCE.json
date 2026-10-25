@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-endomorphism-ranks-and-symmetries-of-the-two-generator-free-orth--fe4454184b83",
   "resultary_record_key": "SCOPE-endomorphism-ranks-and-symmetries-of-the-two-generator-free-orth--fe4454184b83",
-  "source_commit": "89de4dced236ef462d894b6034a91f8bdaf2af98",
-  "source_commit_time": "2026-10-04T05:58:11Z",
+  "source_commit": "c765e15304cb06fcfd35ee1954aec6d40b3604f8",
+  "source_commit_time": "2026-10-18T19:28:33Z",
   "source_path": "2026/10/04/endomorphism-ranks-and-symmetries-of-the-two-generator-free-orth--fe4454184b83",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-fe4454184b83",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

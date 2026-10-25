@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/12/SCOPE-matched-mean-and-worst-loss-delay-var-expected-shortfall-reversa--1c03f1cd74eb",
+  "resultary_record_key": "SCOPE-matched-mean-and-worst-loss-delay-var-expected-shortfall-reversa--1c03f1cd74eb",
+  "source_commit": "d86340e7387af64b10d4d9c3e226f7b92b95d534",
+  "source_commit_time": "2026-10-18T20:08:08Z",
+  "source_path": "2026/10/12/matched-mean-and-worst-loss-delay-var-expected-shortfall-reversa--1c03f1cd74eb",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261012-1c03f1cd74eb",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

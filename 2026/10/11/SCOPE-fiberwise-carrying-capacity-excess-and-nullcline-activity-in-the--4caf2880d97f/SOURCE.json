@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-fiberwise-carrying-capacity-excess-and-nullcline-activity-in-the--4caf2880d97f",
   "resultary_record_key": "SCOPE-fiberwise-carrying-capacity-excess-and-nullcline-activity-in-the--4caf2880d97f",
-  "source_commit": "c1804594e8ed32bc3d5e7080aa646da43b54d27d",
-  "source_commit_time": "2026-10-11T13:02:28Z",
+  "source_commit": "c32e20ff4d7f08f7079a42c74170552694540781",
+  "source_commit_time": "2026-10-18T20:04:17Z",
   "source_path": "2026/10/11/fiberwise-carrying-capacity-excess-and-nullcline-activity-in-the--4caf2880d97f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-4caf2880d97f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

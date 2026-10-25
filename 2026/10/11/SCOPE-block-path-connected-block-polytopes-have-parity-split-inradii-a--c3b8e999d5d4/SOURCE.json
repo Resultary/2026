@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-block-path-connected-block-polytopes-have-parity-split-inradii-a--c3b8e999d5d4",
   "resultary_record_key": "SCOPE-block-path-connected-block-polytopes-have-parity-split-inradii-a--c3b8e999d5d4",
-  "source_commit": "5ea2bfa51e027487ef5306b6ed4395322e9dafb6",
-  "source_commit_time": "2026-10-11T13:08:34Z",
+  "source_commit": "50732a7db1dd5c9030fca612d1530418c4133537",
+  "source_commit_time": "2026-10-25T19:35:48Z",
   "source_path": "2026/10/11/block-path-connected-block-polytopes-have-parity-split-inradii-a--c3b8e999d5d4",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-c3b8e999d5d4",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

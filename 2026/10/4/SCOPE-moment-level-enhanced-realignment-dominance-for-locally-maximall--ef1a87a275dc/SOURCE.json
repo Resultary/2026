@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-moment-level-enhanced-realignment-dominance-for-locally-maximall--ef1a87a275dc",
   "resultary_record_key": "SCOPE-moment-level-enhanced-realignment-dominance-for-locally-maximall--ef1a87a275dc",
-  "source_commit": "fd5f3ebc347ca1428a9e1b2249d48272987d7b63",
-  "source_commit_time": "2026-10-04T05:59:21Z",
+  "source_commit": "2bb6cfced34bbb0c5cf2c2af0d0fed3b3d322450",
+  "source_commit_time": "2026-10-18T20:10:28Z",
   "source_path": "2026/10/04/moment-level-enhanced-realignment-dominance-for-locally-maximall--ef1a87a275dc",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-ef1a87a275dc",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

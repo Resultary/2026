@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-richardson-acceleration-creates-a-sharp-positivity-barrier-for-b--c9c2b9f6d7e1",
   "resultary_record_key": "SCOPE-richardson-acceleration-creates-a-sharp-positivity-barrier-for-b--c9c2b9f6d7e1",
-  "source_commit": "bed50076d721c55f07cf4c408a459aba42a70aba",
-  "source_commit_time": "2026-10-04T06:00:05Z",
+  "source_commit": "d91214a5f9e4710f85df2e3aecfe4fc9d84857f6",
+  "source_commit_time": "2026-10-18T20:10:29Z",
   "source_path": "2026/10/04/richardson-acceleration-creates-a-sharp-positivity-barrier-for-b--c9c2b9f6d7e1",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-c9c2b9f6d7e1",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-square-disk-envelope-for-the-area-diameter-functional-on-regular--ed3e8b2fd6f3",
   "resultary_record_key": "SCOPE-square-disk-envelope-for-the-area-diameter-functional-on-regular--ed3e8b2fd6f3",
-  "source_commit": "7a075aa15c16a98fbaae7261334e293777a9f691",
-  "source_commit_time": "2026-10-11T13:06:25Z",
+  "source_commit": "d34e65e13417a4a7dafed07b9661270b5d92cd3f",
+  "source_commit_time": "2026-10-18T20:05:55Z",
   "source_path": "2026/10/11/square-disk-envelope-for-the-area-diameter-functional-on-regular--ed3e8b2fd6f3",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-ed3e8b2fd6f3",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

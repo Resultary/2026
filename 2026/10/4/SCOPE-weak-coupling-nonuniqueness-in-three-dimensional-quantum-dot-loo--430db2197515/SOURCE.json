@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-weak-coupling-nonuniqueness-in-three-dimensional-quantum-dot-loo--430db2197515",
   "resultary_record_key": "SCOPE-weak-coupling-nonuniqueness-in-three-dimensional-quantum-dot-loo--430db2197515",
-  "source_commit": "2a5e0cbc60d6e5b01d75a38234a014d0c3815b4a",
-  "source_commit_time": "2026-10-04T05:59:12Z",
+  "source_commit": "1060ab21e69f4ed73c161f08549e50f4404ee303",
+  "source_commit_time": "2026-10-18T19:28:46Z",
   "source_path": "2026/10/04/weak-coupling-nonuniqueness-in-three-dimensional-quantum-dot-loo--430db2197515",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-430db2197515",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

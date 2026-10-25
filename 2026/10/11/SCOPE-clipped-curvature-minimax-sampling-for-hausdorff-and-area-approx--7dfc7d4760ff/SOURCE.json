@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-clipped-curvature-minimax-sampling-for-hausdorff-and-area-approx--7dfc7d4760ff",
   "resultary_record_key": "SCOPE-clipped-curvature-minimax-sampling-for-hausdorff-and-area-approx--7dfc7d4760ff",
-  "source_commit": "b22c517b2ee02c2b1dea9bac9ed2478e67ae06a7",
-  "source_commit_time": "2026-10-11T13:10:27Z",
+  "source_commit": "40ea88646f7b937c775809eed5536b4c28a2a399",
+  "source_commit_time": "2026-10-18T20:10:34Z",
   "source_path": "2026/10/11/clipped-curvature-minimax-sampling-for-hausdorff-and-area-approx--7dfc7d4760ff",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-7dfc7d4760ff",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

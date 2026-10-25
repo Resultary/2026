@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/13/SCOPE-arrival-count-and-longest-idle-gap-have-an-exact-negative-covari--b19b3a3b3920",
+  "resultary_record_key": "SCOPE-arrival-count-and-longest-idle-gap-have-an-exact-negative-covari--b19b3a3b3920",
+  "source_commit": "2d25afa7114c80187c8fc9daa832f738faede144",
+  "source_commit_time": "2026-10-18T20:06:29Z",
+  "source_path": "2026/10/13/arrival-count-and-longest-idle-gap-have-an-exact-negative-covari--b19b3a3b3920",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261013-b19b3a3b3920",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

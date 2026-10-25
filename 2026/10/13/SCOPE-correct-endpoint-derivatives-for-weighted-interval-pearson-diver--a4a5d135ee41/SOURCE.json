@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/13/SCOPE-correct-endpoint-derivatives-for-weighted-interval-pearson-diver--a4a5d135ee41",
+  "resultary_record_key": "SCOPE-correct-endpoint-derivatives-for-weighted-interval-pearson-diver--a4a5d135ee41",
+  "source_commit": "7f5505af92a7a08502f1c10daef051e9f82b95a9",
+  "source_commit_time": "2026-10-18T19:27:49Z",
+  "source_path": "2026/10/13/correct-endpoint-derivatives-for-weighted-interval-pearson-diver--a4a5d135ee41",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261013-a4a5d135ee41",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

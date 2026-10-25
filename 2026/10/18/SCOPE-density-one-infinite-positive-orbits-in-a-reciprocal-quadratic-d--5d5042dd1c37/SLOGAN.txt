@@ -1,0 +1,1 @@
+For every k=41+21t (t≥0), an explicit increasing coprime Vieta orbit solves the two reciprocal quadratic divisibilities; infinitely many such k have prime k+2. The composite-shift density-one theorem and the k=41 instance were already covered by Mills (1953).

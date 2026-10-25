@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-coercive-scalar-reversal-of-reflection-tuning-in-generalized-frb--d4929a21d2f4",
   "resultary_record_key": "SCOPE-coercive-scalar-reversal-of-reflection-tuning-in-generalized-frb--d4929a21d2f4",
-  "source_commit": "90136c352af6607e31ea2844bd1b6c9a2208ec26",
-  "source_commit_time": "2026-10-04T06:00:59Z",
+  "source_commit": "d6216cdfac4e660eae436103a95f207725909520",
+  "source_commit_time": "2026-10-18T19:28:32Z",
   "source_path": "2026/10/04/coercive-scalar-reversal-of-reflection-tuning-in-generalized-frb--d4929a21d2f4",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-d4929a21d2f4",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

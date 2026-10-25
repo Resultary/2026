@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-von-neumann-jordan-constant-of-the-three-coordinate-james--fb01fcfcdfe2",
   "resultary_record_key": "SCOPE-exact-von-neumann-jordan-constant-of-the-three-coordinate-james--fb01fcfcdfe2",
-  "source_commit": "988dc8135ed5ad853679a2d84d8919f77b454f02",
-  "source_commit_time": "2026-10-11T13:13:55Z",
+  "source_commit": "072089890e8d092c6b4aa0dd61475f2d70d278cc",
+  "source_commit_time": "2026-10-18T20:07:36Z",
   "source_path": "2026/10/11/exact-von-neumann-jordan-constant-of-the-three-coordinate-james--fb01fcfcdfe2",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-fb01fcfcdfe2",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,0 +1,1 @@
+For each tadpole graph T_{m,k} with m>=3 cycle vertices and k>=1 tail vertices, ordinary one-dimensional color refinement stabilizes in exactly max{floor(m/2),ceil(k/2),min(m,k)} rounds. The maximum at fixed order N is floor(N/2) for N>=5: T_{3,2} attains the N=5 case and balanced admissible tadpoles attain it for every N>=6.

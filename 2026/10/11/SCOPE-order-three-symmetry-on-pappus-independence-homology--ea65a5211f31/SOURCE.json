@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-order-three-symmetry-on-pappus-independence-homology--ea65a5211f31",
   "resultary_record_key": "SCOPE-order-three-symmetry-on-pappus-independence-homology--ea65a5211f31",
-  "source_commit": "b1f64014bf812d648f34caa74ac6a959aab4c819",
-  "source_commit_time": "2026-10-11T13:16:52Z",
+  "source_commit": "561d2cd7b807df73b8208abbd0e508ad05961a31",
+  "source_commit_time": "2026-10-18T20:02:50Z",
   "source_path": "2026/10/11/order-three-symmetry-on-pappus-independence-homology--ea65a5211f31",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-ea65a5211f31",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

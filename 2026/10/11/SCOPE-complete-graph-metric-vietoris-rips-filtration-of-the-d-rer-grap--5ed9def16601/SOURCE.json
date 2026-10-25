@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-complete-graph-metric-vietoris-rips-filtration-of-the-d-rer-grap--5ed9def16601",
   "resultary_record_key": "SCOPE-complete-graph-metric-vietoris-rips-filtration-of-the-d-rer-grap--5ed9def16601",
-  "source_commit": "5c4a02ae28f1c161ba5479888bc93b1d2811444c",
-  "source_commit_time": "2026-10-11T13:16:49Z",
+  "source_commit": "a3a04d3fcf27ddf62ffd4c6c1586fab8a5786aab",
+  "source_commit_time": "2026-10-18T20:09:40Z",
   "source_path": "2026/10/11/complete-graph-metric-vietoris-rips-filtration-of-the-d-rer-grap--5ed9def16601",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-5ed9def16601",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

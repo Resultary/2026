@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-a-fibonacci-entropy-staircase-and-its-full-scaled-accumulation-i--be7c0c99809f",
   "resultary_record_key": "SCOPE-a-fibonacci-entropy-staircase-and-its-full-scaled-accumulation-i--be7c0c99809f",
-  "source_commit": "2744d97ebdfe6918b9b7bd4a0dee53ac76cd313f",
-  "source_commit_time": "2026-10-11T13:05:48Z",
+  "source_commit": "0fd1d2a8e8f3901e3c534db1fb2abd0dc28b947b",
+  "source_commit_time": "2026-10-25T19:26:19Z",
   "source_path": "2026/10/11/a-fibonacci-entropy-staircase-and-its-full-scaled-accumulation-i--be7c0c99809f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-be7c0c99809f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

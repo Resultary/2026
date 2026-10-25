@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-fixed-point-chord-excess-and-heightwise-convective-energy-calibr--7a88293af2be",
   "resultary_record_key": "SCOPE-fixed-point-chord-excess-and-heightwise-convective-energy-calibr--7a88293af2be",
-  "source_commit": "1b6134f7899e0bdbcf27438ee717c040d39aea05",
-  "source_commit_time": "2026-10-11T13:02:06Z",
+  "source_commit": "2879bd6f7a812824aadf9837cf9de988442fa751",
+  "source_commit_time": "2026-10-18T19:27:57Z",
   "source_path": "2026/10/11/fixed-point-chord-excess-and-heightwise-convective-energy-calibr--7a88293af2be",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-7a88293af2be",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

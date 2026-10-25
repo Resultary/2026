@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-gao-constant-of-the-regular-octagonal-plane--eef797ecbe11",
   "resultary_record_key": "SCOPE-exact-gao-constant-of-the-regular-octagonal-plane--eef797ecbe11",
-  "source_commit": "cfba7cc97eb29fcd757875ad6fb0cefe1de9bc06",
-  "source_commit_time": "2026-10-11T13:11:50Z",
+  "source_commit": "5bf7e0b50e0e8aec323835060ca76c8891725ac1",
+  "source_commit_time": "2026-10-18T20:08:41Z",
   "source_path": "2026/10/11/exact-gao-constant-of-the-regular-octagonal-plane--eef797ecbe11",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-eef797ecbe11",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

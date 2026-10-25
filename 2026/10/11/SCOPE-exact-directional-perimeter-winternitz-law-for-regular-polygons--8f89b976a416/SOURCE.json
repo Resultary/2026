@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-directional-perimeter-winternitz-law-for-regular-polygons--8f89b976a416",
   "resultary_record_key": "SCOPE-exact-directional-perimeter-winternitz-law-for-regular-polygons--8f89b976a416",
-  "source_commit": "b2cb1fae5b3c0105686236d13d9bc6ad1df07efd",
-  "source_commit_time": "2026-10-11T13:10:26Z",
+  "source_commit": "0c4598248b53163dc26a934e9361058ebf4fcc9d",
+  "source_commit_time": "2026-10-18T20:08:40Z",
   "source_path": "2026/10/11/exact-directional-perimeter-winternitz-law-for-regular-polygons--8f89b976a416",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-8f89b976a416",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-stationary-kinetic-energy-reconstruction-and-an-exact-fourth-mom--de69b43a7766",
   "resultary_record_key": "SCOPE-stationary-kinetic-energy-reconstruction-and-an-exact-fourth-mom--de69b43a7766",
-  "source_commit": "e31ca4e9902df2949624d0cbd327b1624f4539bf",
-  "source_commit_time": "2026-10-11T13:01:54Z",
+  "source_commit": "6e44a04095e55d5d26a2fcea4e6f3dde2db06203",
+  "source_commit_time": "2026-10-18T20:07:48Z",
   "source_path": "2026/10/11/stationary-kinetic-energy-reconstruction-and-an-exact-fourth-mom--de69b43a7766",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-de69b43a7766",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

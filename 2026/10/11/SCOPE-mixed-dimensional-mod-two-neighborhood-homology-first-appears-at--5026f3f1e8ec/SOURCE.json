@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-mixed-dimensional-mod-two-neighborhood-homology-first-appears-at--5026f3f1e8ec",
   "resultary_record_key": "SCOPE-mixed-dimensional-mod-two-neighborhood-homology-first-appears-at--5026f3f1e8ec",
-  "source_commit": "0fb8733e7c4f189a61dc531255a6a9e3a0b0c650",
-  "source_commit_time": "2026-10-11T13:15:38Z",
+  "source_commit": "90fc8eadda784455360372e1940977fc0c297a6b",
+  "source_commit_time": "2026-10-18T19:27:16Z",
   "source_path": "2026/10/11/mixed-dimensional-mod-two-neighborhood-homology-first-appears-at--5026f3f1e8ec",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-5026f3f1e8ec",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

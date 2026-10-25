@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-cone-fillability-detects-the-null-empty-triangle-orbit-in-a-neig--776d4107de45",
   "resultary_record_key": "SCOPE-cone-fillability-detects-the-null-empty-triangle-orbit-in-a-neig--776d4107de45",
-  "source_commit": "a8b02ce22a7ec913bf933fdb8fe58a4a22ca8d1d",
-  "source_commit_time": "2026-10-11T13:15:29Z",
+  "source_commit": "3c6e279e94a94500ae51ea15ebc13906682962cf",
+  "source_commit_time": "2026-10-18T20:09:40Z",
   "source_path": "2026/10/11/cone-fillability-detects-the-null-empty-triangle-orbit-in-a-neig--776d4107de45",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-776d4107de45",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

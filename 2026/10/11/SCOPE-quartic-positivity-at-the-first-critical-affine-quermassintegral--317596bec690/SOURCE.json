@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-quartic-positivity-at-the-first-critical-affine-quermassintegral--317596bec690",
   "resultary_record_key": "SCOPE-quartic-positivity-at-the-first-critical-affine-quermassintegral--317596bec690",
-  "source_commit": "fd18c7997e13eb2d92b43e590a2df45880a16140",
-  "source_commit_time": "2026-10-11T13:10:06Z",
+  "source_commit": "e739849e365efd97de91ced8294210998b7a1197",
+  "source_commit_time": "2026-10-18T19:27:17Z",
   "source_path": "2026/10/11/quartic-positivity-at-the-first-critical-affine-quermassintegral--317596bec690",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-317596bec690",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

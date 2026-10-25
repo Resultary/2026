@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-the-franklin-graph-is-the-unique-twelve-vertex-cubic-bipartite-e--f490f3f3f842",
   "resultary_record_key": "SCOPE-the-franklin-graph-is-the-unique-twelve-vertex-cubic-bipartite-e--f490f3f3f842",
-  "source_commit": "bc3650dbb7ac39e4ef150323a5327490e29f69d2",
-  "source_commit_time": "2026-10-04T06:06:08Z",
+  "source_commit": "f7f3f95dd0be8e035a9da4e24c22b6491123344d",
+  "source_commit_time": "2026-10-18T20:10:31Z",
   "source_path": "2026/10/04/the-franklin-graph-is-the-unique-twelve-vertex-cubic-bipartite-e--f490f3f3f842",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-f490f3f3f842",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

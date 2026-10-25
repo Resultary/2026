@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-sharp-triaxial-octahedron-shadow-bound-and-quadratic-shape-stabi--c544249c351b",
   "resultary_record_key": "SCOPE-sharp-triaxial-octahedron-shadow-bound-and-quadratic-shape-stabi--c544249c351b",
-  "source_commit": "5b75cfd47c6b191c227e73b5e9209e658b89de52",
-  "source_commit_time": "2026-10-11T13:07:25Z",
+  "source_commit": "dd16d4ca8ffc81a50105d5c43b3cce548ca04a76",
+  "source_commit_time": "2026-10-18T20:02:55Z",
   "source_path": "2026/10/11/sharp-triaxial-octahedron-shadow-bound-and-quadratic-shape-stabi--c544249c351b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-c544249c351b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

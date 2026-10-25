@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-saturation-threshold-for-quadratic-skew-sch-ffer-constants--c3c39dc819be",
   "resultary_record_key": "SCOPE-exact-saturation-threshold-for-quadratic-skew-sch-ffer-constants--c3c39dc819be",
-  "source_commit": "ab42026570736152091803897a238c93f7326aa5",
-  "source_commit_time": "2026-10-11T13:14:24Z",
+  "source_commit": "d6c859a31fc7b5bdd7ba494c797887afab85c203",
+  "source_commit_time": "2026-10-18T19:27:56Z",
   "source_path": "2026/10/11/exact-saturation-threshold-for-quadratic-skew-sch-ffer-constants--c3c39dc819be",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-c3c39dc819be",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-gabor-tomography-rank-for-hyperbolic-quadratic-shells-over--b9e240edb677",
   "resultary_record_key": "SCOPE-exact-gabor-tomography-rank-for-hyperbolic-quadratic-shells-over--b9e240edb677",
-  "source_commit": "84079816cfa673109d0194b768f9eb67b82d4902",
-  "source_commit_time": "2026-10-11T12:57:58Z",
+  "source_commit": "e7d022843257437b683fd039d01dac9131982391",
+  "source_commit_time": "2026-10-18T20:08:41Z",
   "source_path": "2026/10/11/exact-gabor-tomography-rank-for-hyperbolic-quadratic-shells-over--b9e240edb677",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-b9e240edb677",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

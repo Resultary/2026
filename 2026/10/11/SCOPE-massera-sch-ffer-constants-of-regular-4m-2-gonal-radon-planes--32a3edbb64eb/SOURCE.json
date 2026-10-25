@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-massera-sch-ffer-constants-of-regular-4m-2-gonal-radon-planes--32a3edbb64eb",
   "resultary_record_key": "SCOPE-massera-sch-ffer-constants-of-regular-4m-2-gonal-radon-planes--32a3edbb64eb",
-  "source_commit": "d51bcf0bb8de36df80c3a9bac941a33dc28abf3c",
-  "source_commit_time": "2026-10-11T13:12:11Z",
+  "source_commit": "13587d3b93c6d887d801830c90765f13c000dec5",
+  "source_commit_time": "2026-10-18T20:07:39Z",
   "source_path": "2026/10/11/massera-sch-ffer-constants-of-regular-4m-2-gonal-radon-planes--32a3edbb64eb",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-32a3edbb64eb",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

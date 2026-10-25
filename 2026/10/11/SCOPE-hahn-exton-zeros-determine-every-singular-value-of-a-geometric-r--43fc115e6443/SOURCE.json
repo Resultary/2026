@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-hahn-exton-zeros-determine-every-singular-value-of-a-geometric-r--43fc115e6443",
   "resultary_record_key": "SCOPE-hahn-exton-zeros-determine-every-singular-value-of-a-geometric-r--43fc115e6443",
-  "source_commit": "ae39e157377363b233d569332130a0cb995c6c9b",
-  "source_commit_time": "2026-10-11T13:01:04Z",
+  "source_commit": "e509ea0c9dee10fe84d117ac7a04a59c792de5f3",
+  "source_commit_time": "2026-10-18T20:07:38Z",
   "source_path": "2026/10/11/hahn-exton-zeros-determine-every-singular-value-of-a-geometric-r--43fc115e6443",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-43fc115e6443",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

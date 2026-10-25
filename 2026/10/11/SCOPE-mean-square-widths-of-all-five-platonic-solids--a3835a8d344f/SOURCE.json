@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-mean-square-widths-of-all-five-platonic-solids--a3835a8d344f",
   "resultary_record_key": "SCOPE-mean-square-widths-of-all-five-platonic-solids--a3835a8d344f",
-  "source_commit": "864dcbf75afd3d39e67bcc802ce906f5ac59a410",
-  "source_commit_time": "2026-10-11T13:06:36Z",
+  "source_commit": "1c9f2fa2e611e6d8fb3040bf588f9d8f3e0b3492",
+  "source_commit_time": "2026-10-18T20:08:46Z",
   "source_path": "2026/10/11/mean-square-widths-of-all-five-platonic-solids--a3835a8d344f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-a3835a8d344f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

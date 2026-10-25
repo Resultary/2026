@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-reciprocal-girth-gnarledness-for-multi-cycle-cactus-graphs--bf9c21673306",
   "resultary_record_key": "SCOPE-reciprocal-girth-gnarledness-for-multi-cycle-cactus-graphs--bf9c21673306",
-  "source_commit": "07d69915ad8c433346c88711ee805d357081082c",
-  "source_commit_time": "2026-10-11T13:17:55Z",
+  "source_commit": "84746f4df8fdf57e4b21bbc1c811b6784679722b",
+  "source_commit_time": "2026-10-18T20:04:22Z",
   "source_path": "2026/10/11/reciprocal-girth-gnarledness-for-multi-cycle-cactus-graphs--bf9c21673306",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-bf9c21673306",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

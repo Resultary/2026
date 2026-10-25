@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-a-stationary-size-biased-moment-floor-and-delayed-recruitment-co--1ea78ae46723",
   "resultary_record_key": "SCOPE-a-stationary-size-biased-moment-floor-and-delayed-recruitment-co--1ea78ae46723",
-  "source_commit": "c284caec9ca1a4e942e8eb5f194f497f5c38648f",
-  "source_commit_time": "2026-10-11T13:02:27Z",
+  "source_commit": "96a3fdf4853b4c8982db8b9cf5d001b910034cc3",
+  "source_commit_time": "2026-10-18T20:10:33Z",
   "source_path": "2026/10/11/a-stationary-size-biased-moment-floor-and-delayed-recruitment-co--1ea78ae46723",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-1ea78ae46723",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

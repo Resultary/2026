@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-non-polydisc-equality-cases-for-complex-fractional-illumination--0a60cadb20cc",
   "resultary_record_key": "SCOPE-non-polydisc-equality-cases-for-complex-fractional-illumination--0a60cadb20cc",
-  "source_commit": "ab3aeb2fb484d6413f8e0964fa09cc024d889d4f",
-  "source_commit_time": "2026-10-11T13:10:01Z",
+  "source_commit": "3de2e2e8e5a2dcedb5dcc1dbbeb9260e521baec6",
+  "source_commit_time": "2026-10-18T20:05:49Z",
   "source_path": "2026/10/11/non-polydisc-equality-cases-for-complex-fractional-illumination--0a60cadb20cc",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-0a60cadb20cc",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-sharp-volume-interval-for-concentric-bicentric-tetrahedra--3c21c1faa6d8",
   "resultary_record_key": "SCOPE-sharp-volume-interval-for-concentric-bicentric-tetrahedra--3c21c1faa6d8",
-  "source_commit": "4e0afa87b13673f84601de9b989a9c63d85abeff",
-  "source_commit_time": "2026-10-11T13:07:41Z",
+  "source_commit": "d7798521e6e6712003c165ee77fd02cf5e2e4342",
+  "source_commit_time": "2026-10-18T20:07:47Z",
   "source_path": "2026/10/11/sharp-volume-interval-for-concentric-bicentric-tetrahedra--3c21c1faa6d8",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-3c21c1faa6d8",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

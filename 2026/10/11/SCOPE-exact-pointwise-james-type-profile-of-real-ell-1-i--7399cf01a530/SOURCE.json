@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-pointwise-james-type-profile-of-real-ell-1-i--7399cf01a530",
   "resultary_record_key": "SCOPE-exact-pointwise-james-type-profile-of-real-ell-1-i--7399cf01a530",
-  "source_commit": "5fa048859f9a77c31f82fbd6b1a4eb95c11d8137",
-  "source_commit_time": "2026-10-11T13:11:47Z",
+  "source_commit": "8c24209c928733d3a50963b19eb289ba40a169e7",
+  "source_commit_time": "2026-10-18T19:27:11Z",
   "source_path": "2026/10/11/exact-pointwise-james-type-profile-of-real-ell-1-i--7399cf01a530",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-7399cf01a530",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-four-s-number-spectra-for-weighted-composition-on-quasi-ba--e56d634150db",
   "resultary_record_key": "SCOPE-exact-four-s-number-spectra-for-weighted-composition-on-quasi-ba--e56d634150db",
-  "source_commit": "e78b4a51c60e679d0c941cf82b6ca07781a9e939",
-  "source_commit_time": "2026-10-11T13:12:43Z",
+  "source_commit": "a907b29f059ef30d3e477b4de930c96b06abb78b",
+  "source_commit_time": "2026-10-18T20:04:13Z",
   "source_path": "2026/10/11/exact-four-s-number-spectra-for-weighted-composition-on-quasi-ba--e56d634150db",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-e56d634150db",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

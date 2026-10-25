@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-only-cubes-satisfy-reid-s-polar-rectification-identity-among-rec--18ffcac0b1f8",
   "resultary_record_key": "SCOPE-only-cubes-satisfy-reid-s-polar-rectification-identity-among-rec--18ffcac0b1f8",
-  "source_commit": "88147bdda3c07728e0bac773534e8e295ef52345",
-  "source_commit_time": "2026-10-11T13:06:41Z",
+  "source_commit": "fea333653f94db013033ada27570a6829c1155d1",
+  "source_commit_time": "2026-10-18T20:10:41Z",
   "source_path": "2026/10/11/only-cubes-satisfy-reid-s-polar-rectification-identity-among-rec--18ffcac0b1f8",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-18ffcac0b1f8",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-sharp-lambda-4-constants-for-a-single-pair-product-collision--b11b0dc59997",
   "resultary_record_key": "SCOPE-sharp-lambda-4-constants-for-a-single-pair-product-collision--b11b0dc59997",
-  "source_commit": "5927d170e47fdc3fe42f2e7e190987aa41694cc7",
-  "source_commit_time": "2026-10-11T12:57:10Z",
+  "source_commit": "a5bd4cae296311fe09a236b66a3aae562cfc253d",
+  "source_commit_time": "2026-10-18T20:10:43Z",
   "source_path": "2026/10/11/sharp-lambda-4-constants-for-a-single-pair-product-collision--b11b0dc59997",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-b11b0dc59997",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

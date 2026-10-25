@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-torsion-alone-fills-the-four-edge-systolic-shell-of-q-2m-1-2-for--faa176d73418",
   "resultary_record_key": "SCOPE-torsion-alone-fills-the-four-edge-systolic-shell-of-q-2m-1-2-for--faa176d73418",
-  "source_commit": "d037e0543ea6ca5fdbc9aa98c9b4b51ccc9ac733",
-  "source_commit_time": "2026-10-11T13:15:27Z",
+  "source_commit": "6715088d4740b337079f48327fe6fdaebd60c4f5",
+  "source_commit_time": "2026-10-18T20:04:31Z",
   "source_path": "2026/10/11/torsion-alone-fills-the-four-edge-systolic-shell-of-q-2m-1-2-for--faa176d73418",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-faa176d73418",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

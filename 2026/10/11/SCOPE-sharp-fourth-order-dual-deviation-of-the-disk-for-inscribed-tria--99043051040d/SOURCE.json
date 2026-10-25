@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-sharp-fourth-order-dual-deviation-of-the-disk-for-inscribed-tria--99043051040d",
   "resultary_record_key": "SCOPE-sharp-fourth-order-dual-deviation-of-the-disk-for-inscribed-tria--99043051040d",
-  "source_commit": "e459ed4d9e571186a26b004297c66df5146298b3",
-  "source_commit_time": "2026-10-11T13:10:26Z",
+  "source_commit": "997d6292cfefce0576c1f5349598b3a6fe6155bb",
+  "source_commit_time": "2026-10-18T20:04:25Z",
   "source_path": "2026/10/11/sharp-fourth-order-dual-deviation-of-the-disk-for-inscribed-tria--99043051040d",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-99043051040d",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

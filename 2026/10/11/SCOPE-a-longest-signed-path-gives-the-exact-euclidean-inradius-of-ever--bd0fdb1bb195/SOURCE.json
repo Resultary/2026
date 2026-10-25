@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-a-longest-signed-path-gives-the-exact-euclidean-inradius-of-ever--bd0fdb1bb195",
   "resultary_record_key": "SCOPE-a-longest-signed-path-gives-the-exact-euclidean-inradius-of-ever--bd0fdb1bb195",
-  "source_commit": "888ad86404f2526dd6768ac9f6183b25bc145b40",
-  "source_commit_time": "2026-10-11T13:08:23Z",
+  "source_commit": "c423e8dcb43102c3b085110c0624ee080bb07d0e",
+  "source_commit_time": "2026-10-18T20:10:32Z",
   "source_path": "2026/10/11/a-longest-signed-path-gives-the-exact-euclidean-inradius-of-ever--bd0fdb1bb195",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-bd0fdb1bb195",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-empty-triangles-realize-all-shortest-integral-homology-types-in--1a54a7f1b064",
   "resultary_record_key": "SCOPE-empty-triangles-realize-all-shortest-integral-homology-types-in--1a54a7f1b064",
-  "source_commit": "c531d1be8c5392e63232818397a107ef659c7334",
-  "source_commit_time": "2026-10-11T13:14:56Z",
+  "source_commit": "573ae5c5a5b524b19a879ce2d535de2e83911e7d",
+  "source_commit_time": "2026-10-18T20:04:10Z",
   "source_path": "2026/10/11/empty-triangles-realize-all-shortest-integral-homology-types-in--1a54a7f1b064",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-1a54a7f1b064",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

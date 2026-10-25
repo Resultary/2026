@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-sharp-quadratic-onset-of-the-tent-spline-gabor-lower-frame-bound--9587a4647148",
   "resultary_record_key": "SCOPE-sharp-quadratic-onset-of-the-tent-spline-gabor-lower-frame-bound--9587a4647148",
-  "source_commit": "dc34586e8c6832f101884f54a25928b8286276ec",
-  "source_commit_time": "2026-10-11T13:01:32Z",
+  "source_commit": "ad23529225abfb3bbb031afb58013b48d9504c12",
+  "source_commit_time": "2026-10-18T19:27:20Z",
   "source_path": "2026/10/11/sharp-quadratic-onset-of-the-tent-spline-gabor-lower-frame-bound--9587a4647148",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-9587a4647148",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

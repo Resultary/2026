@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-sharp-lambda-p-constants-for-order-four-character-pairs--edfa311d2932",
   "resultary_record_key": "SCOPE-sharp-lambda-p-constants-for-order-four-character-pairs--edfa311d2932",
-  "source_commit": "67159638e2998ad2c9311040b619a6157504631c",
-  "source_commit_time": "2026-10-11T12:57:16Z",
+  "source_commit": "979bd2b5eb53a31b2100b6371e51d37d91a370da",
+  "source_commit_time": "2026-10-18T19:27:19Z",
   "source_path": "2026/10/11/sharp-lambda-p-constants-for-order-four-character-pairs--edfa311d2932",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-edfa311d2932",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

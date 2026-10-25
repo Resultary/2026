@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-paley-half-band-concentration-exact-character-spectrum-and-compl--a14287c60e05",
   "resultary_record_key": "SCOPE-paley-half-band-concentration-exact-character-spectrum-and-compl--a14287c60e05",
-  "source_commit": "e046dccb9988269f4ee0e711f33a87a72b96aee9",
-  "source_commit_time": "2026-10-11T12:57:48Z",
+  "source_commit": "d005f361d225fbba3695a72a2bf8ba6a4820a23d",
+  "source_commit_time": "2026-10-18T20:05:49Z",
   "source_path": "2026/10/11/paley-half-band-concentration-exact-character-spectrum-and-compl--a14287c60e05",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-a14287c60e05",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

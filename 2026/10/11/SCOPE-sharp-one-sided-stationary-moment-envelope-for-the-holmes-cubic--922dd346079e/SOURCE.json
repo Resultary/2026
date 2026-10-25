@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-sharp-one-sided-stationary-moment-envelope-for-the-holmes-cubic--922dd346079e",
   "resultary_record_key": "SCOPE-sharp-one-sided-stationary-moment-envelope-for-the-holmes-cubic--922dd346079e",
-  "source_commit": "13fb0514fea2e8ac940b53f550a757099d20c9d7",
-  "source_commit_time": "2026-10-11T13:02:04Z",
+  "source_commit": "13e2decb15bf45b9774e3889b25b96c5be713cd3",
+  "source_commit_time": "2026-10-18T20:07:46Z",
   "source_path": "2026/10/11/sharp-one-sided-stationary-moment-envelope-for-the-holmes-cubic--922dd346079e",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-922dd346079e",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

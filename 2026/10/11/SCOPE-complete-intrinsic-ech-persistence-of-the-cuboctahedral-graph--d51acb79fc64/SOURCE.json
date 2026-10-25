@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-complete-intrinsic-ech-persistence-of-the-cuboctahedral-graph--d51acb79fc64",
   "resultary_record_key": "SCOPE-complete-intrinsic-ech-persistence-of-the-cuboctahedral-graph--d51acb79fc64",
-  "source_commit": "67dbe69d5a335b672a4219014092ec85df653131",
-  "source_commit_time": "2026-10-11T13:17:34Z",
+  "source_commit": "1527a4885707727c353747d71e169cec6cf8a618",
+  "source_commit_time": "2026-10-18T19:27:08Z",
   "source_path": "2026/10/11/complete-intrinsic-ech-persistence-of-the-cuboctahedral-graph--d51acb79fc64",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-d51acb79fc64",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

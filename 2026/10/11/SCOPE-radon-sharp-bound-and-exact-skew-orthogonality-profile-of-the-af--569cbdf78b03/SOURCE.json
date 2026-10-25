@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-radon-sharp-bound-and-exact-skew-orthogonality-profile-of-the-af--569cbdf78b03",
   "resultary_record_key": "SCOPE-radon-sharp-bound-and-exact-skew-orthogonality-profile-of-the-af--569cbdf78b03",
-  "source_commit": "23bf4df0e2e50841ec109dbded35dd0652bca6a3",
-  "source_commit_time": "2026-10-11T13:12:07Z",
+  "source_commit": "c5527afcfbf4963dcb4b425e9b901de508b67fda",
+  "source_commit_time": "2026-10-18T19:27:59Z",
   "source_path": "2026/10/11/radon-sharp-bound-and-exact-skew-orthogonality-profile-of-the-af--569cbdf78b03",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-569cbdf78b03",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

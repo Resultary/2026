@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-joint-chi-square-face-vector-fluctuations-of-random-central-regu--aa90c887fe90",
   "resultary_record_key": "SCOPE-joint-chi-square-face-vector-fluctuations-of-random-central-regu--aa90c887fe90",
-  "source_commit": "21c3bdcb95182f2f3124396636b286adca849189",
-  "source_commit_time": "2026-10-11T13:07:08Z",
+  "source_commit": "e861a2a37cb993ecffa55e6206d26afd11a4161c",
+  "source_commit_time": "2026-10-18T20:10:41Z",
   "source_path": "2026/10/11/joint-chi-square-face-vector-fluctuations-of-random-central-regu--aa90c887fe90",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-aa90c887fe90",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

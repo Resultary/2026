@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-mixing-norms-and-time-reversal-obstruction-for-binary-cond--8cff936fbe0f",
   "resultary_record_key": "SCOPE-exact-mixing-norms-and-time-reversal-obstruction-for-binary-cond--8cff936fbe0f",
-  "source_commit": "052737718860318f5a27cde22d970180f4abec33",
-  "source_commit_time": "2026-10-11T13:11:15Z",
+  "source_commit": "dea552c2325775e4eaddb0958d3543a8b81d2068",
+  "source_commit_time": "2026-10-18T20:09:43Z",
   "source_path": "2026/10/11/exact-mixing-norms-and-time-reversal-obstruction-for-binary-cond--8cff936fbe0f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-8cff936fbe0f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

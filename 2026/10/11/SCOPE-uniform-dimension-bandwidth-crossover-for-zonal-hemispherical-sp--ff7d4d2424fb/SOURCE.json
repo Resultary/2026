@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-uniform-dimension-bandwidth-crossover-for-zonal-hemispherical-sp--ff7d4d2424fb",
   "resultary_record_key": "SCOPE-uniform-dimension-bandwidth-crossover-for-zonal-hemispherical-sp--ff7d4d2424fb",
-  "source_commit": "a2e365a78d525f7d90f52d4599a8ebdc5b0fc13a",
-  "source_commit_time": "2026-10-11T12:57:25Z",
+  "source_commit": "2fa1f221fe36641f1bb1568a4055faedf5d84801",
+  "source_commit_time": "2026-10-18T20:05:58Z",
   "source_path": "2026/10/11/uniform-dimension-bandwidth-crossover-for-zonal-hemispherical-sp--ff7d4d2424fb",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-ff7d4d2424fb",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

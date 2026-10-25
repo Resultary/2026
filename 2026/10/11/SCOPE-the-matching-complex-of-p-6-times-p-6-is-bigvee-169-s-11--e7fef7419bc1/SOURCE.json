@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-the-matching-complex-of-p-6-times-p-6-is-bigvee-169-s-11--e7fef7419bc1",
   "resultary_record_key": "SCOPE-the-matching-complex-of-p-6-times-p-6-is-bigvee-169-s-11--e7fef7419bc1",
-  "source_commit": "500102b9dcd511551d810685e82a09775145e30a",
-  "source_commit_time": "2026-10-11T13:16:38Z",
+  "source_commit": "25cd51f587320c0479a85caef0b4ce0d02e0cf59",
+  "source_commit_time": "2026-10-18T19:27:24Z",
   "source_path": "2026/10/11/the-matching-complex-of-p-6-times-p-6-is-bigvee-169-s-11--e7fef7419bc1",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-e7fef7419bc1",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

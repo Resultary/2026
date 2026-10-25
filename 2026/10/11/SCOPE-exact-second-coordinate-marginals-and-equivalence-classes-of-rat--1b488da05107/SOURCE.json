@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-second-coordinate-marginals-and-equivalence-classes-of-rat--1b488da05107",
   "resultary_record_key": "SCOPE-exact-second-coordinate-marginals-and-equivalence-classes-of-rat--1b488da05107",
-  "source_commit": "56f1449fa624939dc1bcce88f971ddfd2d91781c",
-  "source_commit_time": "2026-10-11T13:01:02Z",
+  "source_commit": "dda71e4004154831c245390b7876c2191339c0ad",
+  "source_commit_time": "2026-10-18T19:28:56Z",
   "source_path": "2026/10/11/exact-second-coordinate-marginals-and-equivalence-classes-of-rat--1b488da05107",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-1b488da05107",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

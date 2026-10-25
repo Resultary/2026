@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-temporal-trace-complexity-for-all-18-ternary-semigroup-cel--17d5e8d883ec",
   "resultary_record_key": "SCOPE-exact-temporal-trace-complexity-for-all-18-ternary-semigroup-cel--17d5e8d883ec",
-  "source_commit": "979486d0dca552b3ea237454966eea4e1322a24f",
-  "source_commit_time": "2026-10-11T13:05:55Z",
+  "source_commit": "ca6f6ededb384608d488cb22e6b4472f652e983e",
+  "source_commit_time": "2026-10-18T20:10:38Z",
   "source_path": "2026/10/11/exact-temporal-trace-complexity-for-all-18-ternary-semigroup-cel--17d5e8d883ec",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-17d5e8d883ec",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

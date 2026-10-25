@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-minimum-area-enclosing-parallelograms-for-regular-polygons--827c68cd7bad",
   "resultary_record_key": "SCOPE-exact-minimum-area-enclosing-parallelograms-for-regular-polygons--827c68cd7bad",
-  "source_commit": "a6f504302bd180f8d914f830e24aaf500fecca01",
-  "source_commit_time": "2026-10-11T13:06:50Z",
+  "source_commit": "2593ad8e608bd287f3ddb79f457a086e654390c9",
+  "source_commit_time": "2026-10-18T20:08:41Z",
   "source_path": "2026/10/11/exact-minimum-area-enclosing-parallelograms-for-regular-polygons--827c68cd7bad",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-827c68cd7bad",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

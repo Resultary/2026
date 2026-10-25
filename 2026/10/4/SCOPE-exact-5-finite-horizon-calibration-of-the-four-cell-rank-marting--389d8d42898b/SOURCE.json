@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-exact-5-finite-horizon-calibration-of-the-four-cell-rank-marting--389d8d42898b",
   "resultary_record_key": "SCOPE-exact-5-finite-horizon-calibration-of-the-four-cell-rank-marting--389d8d42898b",
-  "source_commit": "17698351c46a31c65723a95c124bc427e4983bf9",
-  "source_commit_time": "2026-10-04T06:01:37Z",
+  "source_commit": "b278636a1cea383ae0c503ccf2f3722d91c24af9",
+  "source_commit_time": "2026-10-18T19:28:33Z",
   "source_path": "2026/10/04/exact-5-finite-horizon-calibration-of-the-four-cell-rank-marting--389d8d42898b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-389d8d42898b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-a-scale-independent-maximizing-vertex-pair-for-regular-polygon-s--bc87110eaa4f",
   "resultary_record_key": "SCOPE-a-scale-independent-maximizing-vertex-pair-for-regular-polygon-s--bc87110eaa4f",
-  "source_commit": "ae3b6f9c42d07874050c99312598c736c2e53eee",
-  "source_commit_time": "2026-10-11T13:11:02Z",
+  "source_commit": "31e082eed116eb0cfa55491b9fe846ecf52d0f78",
+  "source_commit_time": "2026-10-18T20:10:33Z",
   "source_path": "2026/10/11/a-scale-independent-maximizing-vertex-pair-for-regular-polygon-s--bc87110eaa4f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-bc87110eaa4f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-exact-global-coupling-frontier-for-proximal-multiblock-admm-on-a--75453f340b95",
   "resultary_record_key": "SCOPE-exact-global-coupling-frontier-for-proximal-multiblock-admm-on-a--75453f340b95",
-  "source_commit": "ba0b1535fd19751b9d82c7f61d43e74cf17cf931",
-  "source_commit_time": "2026-10-04T06:01:00Z",
+  "source_commit": "6f797c090dddd1a3f026eaf82bd8556d94a8ff58",
+  "source_commit_time": "2026-10-18T19:28:35Z",
   "source_path": "2026/10/04/exact-global-coupling-frontier-for-proximal-multiblock-admm-on-a--75453f340b95",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-75453f340b95",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

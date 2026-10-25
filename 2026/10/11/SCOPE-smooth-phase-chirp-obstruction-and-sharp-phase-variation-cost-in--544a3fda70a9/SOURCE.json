@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-smooth-phase-chirp-obstruction-and-sharp-phase-variation-cost-in--544a3fda70a9",
   "resultary_record_key": "SCOPE-smooth-phase-chirp-obstruction-and-sharp-phase-variation-cost-in--544a3fda70a9",
-  "source_commit": "41038d6a80e9f149564ded39bbcb5b0cfc2fa299",
-  "source_commit_time": "2026-10-11T13:13:05Z",
+  "source_commit": "b8b5554c4640eefcd65ad74cec22a018807c1be7",
+  "source_commit_time": "2026-10-18T20:02:56Z",
   "source_path": "2026/10/11/smooth-phase-chirp-obstruction-and-sharp-phase-variation-cost-in--544a3fda70a9",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-544a3fda70a9",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

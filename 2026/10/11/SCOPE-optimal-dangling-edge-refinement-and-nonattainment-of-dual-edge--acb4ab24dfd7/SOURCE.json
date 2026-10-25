@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-optimal-dangling-edge-refinement-and-nonattainment-of-dual-edge--acb4ab24dfd7",
   "resultary_record_key": "SCOPE-optimal-dangling-edge-refinement-and-nonattainment-of-dual-edge--acb4ab24dfd7",
-  "source_commit": "6a65fa28a3998ed6d2b0d02f69724ac47043b3ea",
-  "source_commit_time": "2026-10-11T13:09:56Z",
+  "source_commit": "6aad7e2892de390ed2a41dbbd01b6887204d478c",
+  "source_commit_time": "2026-10-18T19:27:59Z",
   "source_path": "2026/10/11/optimal-dangling-edge-refinement-and-nonattainment-of-dual-edge--acb4ab24dfd7",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-acb4ab24dfd7",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

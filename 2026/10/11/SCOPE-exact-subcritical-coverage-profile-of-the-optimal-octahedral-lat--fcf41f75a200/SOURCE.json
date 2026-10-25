@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-subcritical-coverage-profile-of-the-optimal-octahedral-lat--fcf41f75a200",
   "resultary_record_key": "SCOPE-exact-subcritical-coverage-profile-of-the-optimal-octahedral-lat--fcf41f75a200",
-  "source_commit": "d23afe91541cc82811d08d74188318d5c7ec0fb1",
-  "source_commit_time": "2026-10-11T13:09:25Z",
+  "source_commit": "6a4eac6025266143f11dd0d4c23c54fbc9bc0982",
+  "source_commit_time": "2026-10-18T20:08:42Z",
   "source_path": "2026/10/11/exact-subcritical-coverage-profile-of-the-optimal-octahedral-lat--fcf41f75a200",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-fcf41f75a200",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

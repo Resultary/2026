@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-optimized-closing-angle-lower-coefficient-for-soft-waveguide-eig--8df53c617132",
   "resultary_record_key": "SCOPE-optimized-closing-angle-lower-coefficient-for-soft-waveguide-eig--8df53c617132",
-  "source_commit": "e7d56cde74a028c195e60d47ce659c37fda63576",
-  "source_commit_time": "2026-10-04T05:59:10Z",
+  "source_commit": "f4e9b8ffad6fd48daba8672b621f4fd0f8a0f40f",
+  "source_commit_time": "2026-10-18T19:28:39Z",
   "source_path": "2026/10/04/optimized-closing-angle-lower-coefficient-for-soft-waveguide-eig--8df53c617132",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-8df53c617132",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

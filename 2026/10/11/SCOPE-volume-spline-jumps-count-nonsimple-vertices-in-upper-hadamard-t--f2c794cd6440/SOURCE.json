@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-volume-spline-jumps-count-nonsimple-vertices-in-upper-hadamard-t--f2c794cd6440",
   "resultary_record_key": "SCOPE-volume-spline-jumps-count-nonsimple-vertices-in-upper-hadamard-t--f2c794cd6440",
-  "source_commit": "b1c5ce9beadbcdc35188c6b083234f2c71c8de1a",
-  "source_commit_time": "2026-10-11T13:09:28Z",
+  "source_commit": "eca7c504a22e38a25f407282c93df22027fc6fd2",
+  "source_commit_time": "2026-10-18T20:04:33Z",
   "source_path": "2026/10/11/volume-spline-jumps-count-nonsimple-vertices-in-upper-hadamard-t--f2c794cd6440",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-f2c794cd6440",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

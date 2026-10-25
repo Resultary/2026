@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-ptolemy-constant-of-the-canonical-nonabsolute-day-james-oc--b0821a176262",
   "resultary_record_key": "SCOPE-exact-ptolemy-constant-of-the-canonical-nonabsolute-day-james-oc--b0821a176262",
-  "source_commit": "f776fb9d4ba3e175d0d49dca6f18fa035a4b2f14",
-  "source_commit_time": "2026-10-11T13:10:42Z",
+  "source_commit": "9d369c4e639ca95d43e04fe14beb9a1b507dcdd0",
+  "source_commit_time": "2026-10-25T19:11:19Z",
   "source_path": "2026/10/11/exact-ptolemy-constant-of-the-canonical-nonabsolute-day-james-oc--b0821a176262",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-b0821a176262",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

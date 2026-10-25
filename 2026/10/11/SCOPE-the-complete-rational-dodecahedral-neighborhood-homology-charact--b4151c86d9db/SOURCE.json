@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-the-complete-rational-dodecahedral-neighborhood-homology-charact--b4151c86d9db",
   "resultary_record_key": "SCOPE-the-complete-rational-dodecahedral-neighborhood-homology-charact--b4151c86d9db",
-  "source_commit": "f712e9bb7043dec1ab872c6773198a7dea94d29f",
-  "source_commit_time": "2026-10-11T13:17:22Z",
+  "source_commit": "2a1cdc937c241633029554fa2104bad3ca21d743",
+  "source_commit_time": "2026-10-18T20:08:52Z",
   "source_path": "2026/10/11/the-complete-rational-dodecahedral-neighborhood-homology-charact--b4151c86d9db",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-b4151c86d9db",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

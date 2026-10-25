@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-a-right-circular-cone-disproves-the-dual-volume-affine-section-i--45143ecc1e38",
   "resultary_record_key": "SCOPE-a-right-circular-cone-disproves-the-dual-volume-affine-section-i--45143ecc1e38",
-  "source_commit": "3e3461004d68b26ded7c03d347266b1c6ebd51cc",
-  "source_commit_time": "2026-10-11T13:06:28Z",
+  "source_commit": "67d85cfcd9ba8bf976959658f4851745b5be09c2",
+  "source_commit_time": "2026-10-18T20:10:33Z",
   "source_path": "2026/10/11/a-right-circular-cone-disproves-the-dual-volume-affine-section-i--45143ecc1e38",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-45143ecc1e38",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

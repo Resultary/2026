@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-gaussian-anisotropy-reversal-for-dual-l-p-john-ellipsoids--7f6754d3f52c",
   "resultary_record_key": "SCOPE-gaussian-anisotropy-reversal-for-dual-l-p-john-ellipsoids--7f6754d3f52c",
-  "source_commit": "ffd20dec048dd8275a43acb713ac37b7509df280",
-  "source_commit_time": "2026-10-11T13:09:25Z",
+  "source_commit": "2be45adaefdcce7943da67dc927d9e1ab47cc7d9",
+  "source_commit_time": "2026-10-18T19:27:57Z",
   "source_path": "2026/10/11/gaussian-anisotropy-reversal-for-dual-l-p-john-ellipsoids--7f6754d3f52c",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-7f6754d3f52c",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

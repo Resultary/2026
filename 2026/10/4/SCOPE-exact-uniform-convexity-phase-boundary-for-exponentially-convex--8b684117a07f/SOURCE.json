@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-exact-uniform-convexity-phase-boundary-for-exponentially-convex--8b684117a07f",
   "resultary_record_key": "SCOPE-exact-uniform-convexity-phase-boundary-for-exponentially-convex--8b684117a07f",
-  "source_commit": "ecc274bab2cf0fbc4a45df6e086f125c7cd4636f",
-  "source_commit_time": "2026-10-04T04:50:48Z",
+  "source_commit": "94bb214fce2fc688321b00cee8b71c6c3d412a81",
+  "source_commit_time": "2026-10-18T19:28:37Z",
   "source_path": "2026/10/04/exact-uniform-convexity-phase-boundary-for-exponentially-convex--8b684117a07f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-8b684117a07f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-04T04:59:35Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

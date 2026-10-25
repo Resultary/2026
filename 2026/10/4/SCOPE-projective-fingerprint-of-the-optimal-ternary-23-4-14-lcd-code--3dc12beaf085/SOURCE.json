@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-projective-fingerprint-of-the-optimal-ternary-23-4-14-lcd-code--3dc12beaf085",
   "resultary_record_key": "SCOPE-projective-fingerprint-of-the-optimal-ternary-23-4-14-lcd-code--3dc12beaf085",
-  "source_commit": "d0b316204f4ba687a00ecd819868c5176a4e92f7",
-  "source_commit_time": "2026-10-04T05:56:37Z",
+  "source_commit": "414390ea127a8f0bc05926987fbd3b60f973f5b4",
+  "source_commit_time": "2026-10-18T20:10:29Z",
   "source_path": "2026/10/04/projective-fingerprint-of-the-optimal-ternary-23-4-14-lcd-code--3dc12beaf085",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-3dc12beaf085",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-one-primitive-two-cycle-in-the-classical-tinkerbell-map-an-exact--f77cb55301a3",
   "resultary_record_key": "SCOPE-one-primitive-two-cycle-in-the-classical-tinkerbell-map-an-exact--f77cb55301a3",
-  "source_commit": "b747c9fb805d1087f929fd756e283db2ba348e91",
-  "source_commit_time": "2026-10-11T13:02:48Z",
+  "source_commit": "1d963242ae60db259e9054bfb49b5a85225164d3",
+  "source_commit_time": "2026-10-18T20:10:41Z",
   "source_path": "2026/10/11/one-primitive-two-cycle-in-the-classical-tinkerbell-map-an-exact--f77cb55301a3",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-f77cb55301a3",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-rigid-unit-isosceles-orthogonality-in-the-regular-octagon--4935fd6dd285",
   "resultary_record_key": "SCOPE-rigid-unit-isosceles-orthogonality-in-the-regular-octagon--4935fd6dd285",
-  "source_commit": "2d6f0c9ac19bef957e7dc2054aef547903395eb6",
-  "source_commit_time": "2026-10-11T13:12:28Z",
+  "source_commit": "83490b4212352c8154351e8253c809d4737f4234",
+  "source_commit_time": "2026-10-18T20:07:43Z",
   "source_path": "2026/10/11/rigid-unit-isosceles-orthogonality-in-the-regular-octagon--4935fd6dd285",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-4935fd6dd285",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

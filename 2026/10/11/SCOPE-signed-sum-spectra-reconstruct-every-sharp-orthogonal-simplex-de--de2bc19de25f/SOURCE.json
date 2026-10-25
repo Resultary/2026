@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-signed-sum-spectra-reconstruct-every-sharp-orthogonal-simplex-de--de2bc19de25f",
   "resultary_record_key": "SCOPE-signed-sum-spectra-reconstruct-every-sharp-orthogonal-simplex-de--de2bc19de25f",
-  "source_commit": "3300d7ddaf78d4700128699095cc8bfd177c9197",
-  "source_commit_time": "2026-10-11T13:09:29Z",
+  "source_commit": "f719904ba4349cf3dc13d36e1496020b0804b47f",
+  "source_commit_time": "2026-10-18T20:09:50Z",
   "source_path": "2026/10/11/signed-sum-spectra-reconstruct-every-sharp-orthogonal-simplex-de--de2bc19de25f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-de2bc19de25f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

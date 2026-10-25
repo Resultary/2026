@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-sharp-spherical-leakage-and-two-sided-completeness-for-a-reversi--40e03b90cd9d",
   "resultary_record_key": "SCOPE-sharp-spherical-leakage-and-two-sided-completeness-for-a-reversi--40e03b90cd9d",
-  "source_commit": "1ac545ccb1a6b4bbf6dfb8c43953ab96ef7171ca",
-  "source_commit_time": "2026-10-11T13:02:51Z",
+  "source_commit": "fe6f5c99215e0f51a76279da125419e97e8129fe",
+  "source_commit_time": "2026-10-18T20:09:49Z",
   "source_path": "2026/10/11/sharp-spherical-leakage-and-two-sided-completeness-for-a-reversi--40e03b90cd9d",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-40e03b90cd9d",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

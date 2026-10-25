@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-haar-polygon-type-law-for-central-icosahedron-sections--65970a533c4f",
   "resultary_record_key": "SCOPE-exact-haar-polygon-type-law-for-central-icosahedron-sections--65970a533c4f",
-  "source_commit": "c937c34beb28f67554ea2eeb3bd674f990e13810",
-  "source_commit_time": "2026-10-11T13:10:16Z",
+  "source_commit": "da62db7bc2bda843ef290112183ec7072d1f8d52",
+  "source_commit_time": "2026-10-18T19:27:10Z",
   "source_path": "2026/10/11/exact-haar-polygon-type-law-for-central-icosahedron-sections--65970a533c4f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-65970a533c4f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

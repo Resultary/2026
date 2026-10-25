@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/13/SCOPE-exact-binary-length-six-one-deletion-one-adjacent-transposition--4d675c096f6e",
+  "resultary_record_key": "SCOPE-exact-binary-length-six-one-deletion-one-adjacent-transposition--4d675c096f6e",
+  "source_commit": "f93f075ef5bffba306bb4ab8fdfd41723aded5c2",
+  "source_commit_time": "2026-10-18T19:28:25Z",
+  "source_path": "2026/10/13/exact-binary-length-six-one-deletion-one-adjacent-transposition--4d675c096f6e",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261013-4d675c096f6e",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

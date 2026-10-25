@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-prime-order-onset-and-first-ambiguous-fibers-for-signed-four-ato--3383b59ee81f",
   "resultary_record_key": "SCOPE-prime-order-onset-and-first-ambiguous-fibers-for-signed-four-ato--3383b59ee81f",
-  "source_commit": "effd04f02ebf38ec7dc90ebb5527422c64d91b98",
-  "source_commit_time": "2026-10-11T12:59:44Z",
+  "source_commit": "6bf52824e2ad718866a444a5b81c47bf84b4c063",
+  "source_commit_time": "2026-10-18T20:07:42Z",
   "source_path": "2026/10/11/prime-order-onset-and-first-ambiguous-fibers-for-signed-four-ato--3383b59ee81f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-3383b59ee81f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

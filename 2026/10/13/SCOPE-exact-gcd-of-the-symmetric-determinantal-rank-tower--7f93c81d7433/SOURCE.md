@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261013-7f93c81d7433`](https://github.com/SCOPE-Science/SCOPE2026/tree/a61dbc9101a3c49d7d21b85f0da19f67435d9c7f/2026/10/13/exact-gcd-of-the-symmetric-determinantal-rank-tower--7f93c81d7433)
+
+Imported into Resultary as `2026/10/13/SCOPE-exact-gcd-of-the-symmetric-determinantal-rank-tower--7f93c81d7433`. The finding, audit, and attached artifacts remain attributable to SCOPE.

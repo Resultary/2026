@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-half-line-hermite-spectral-gaps-arbitrary-mask-cauchy-formula-an--5e08b6020a88",
   "resultary_record_key": "SCOPE-half-line-hermite-spectral-gaps-arbitrary-mask-cauchy-formula-an--5e08b6020a88",
-  "source_commit": "0b46b1ecdb5d4d532094856f13223902ccf6fbcb",
-  "source_commit_time": "2026-10-11T12:57:24Z",
+  "source_commit": "420bad101dc7af2c7decc373c89f738959966128",
+  "source_commit_time": "2026-10-18T20:08:44Z",
   "source_path": "2026/10/11/half-line-hermite-spectral-gaps-arbitrary-mask-cauchy-formula-an--5e08b6020a88",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-5e08b6020a88",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

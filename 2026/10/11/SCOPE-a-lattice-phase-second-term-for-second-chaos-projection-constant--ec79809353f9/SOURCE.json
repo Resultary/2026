@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-a-lattice-phase-second-term-for-second-chaos-projection-constant--ec79809353f9",
   "resultary_record_key": "SCOPE-a-lattice-phase-second-term-for-second-chaos-projection-constant--ec79809353f9",
-  "source_commit": "65a10504d69b55fa60fafe6c4e161fc893516dbf",
-  "source_commit_time": "2026-10-11T12:57:17Z",
+  "source_commit": "9ed90e332971216cc343b6c8455896a5bdf45d03",
+  "source_commit_time": "2026-10-18T20:08:33Z",
   "source_path": "2026/10/11/a-lattice-phase-second-term-for-second-chaos-projection-constant--ec79809353f9",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-ec79809353f9",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

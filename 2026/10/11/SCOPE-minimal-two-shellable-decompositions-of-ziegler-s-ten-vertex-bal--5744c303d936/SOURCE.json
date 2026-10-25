@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-minimal-two-shellable-decompositions-of-ziegler-s-ten-vertex-bal--5744c303d936",
   "resultary_record_key": "SCOPE-minimal-two-shellable-decompositions-of-ziegler-s-ten-vertex-bal--5744c303d936",
-  "source_commit": "5ec8372e747dda8cf96c2b60cc0f8c51e54c5a03",
-  "source_commit_time": "2026-10-11T13:14:58Z",
+  "source_commit": "5a2f380324967fe3932b97ab62b553da432fd423",
+  "source_commit_time": "2026-10-18T20:09:46Z",
   "source_path": "2026/10/11/minimal-two-shellable-decompositions-of-ziegler-s-ten-vertex-bal--5744c303d936",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-5744c303d936",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

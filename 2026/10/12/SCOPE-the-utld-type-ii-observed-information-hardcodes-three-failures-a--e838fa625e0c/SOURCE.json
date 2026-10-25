@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/12/SCOPE-the-utld-type-ii-observed-information-hardcodes-three-failures-a--e838fa625e0c",
+  "resultary_record_key": "SCOPE-the-utld-type-ii-observed-information-hardcodes-three-failures-a--e838fa625e0c",
+  "source_commit": "3dbe8f24ce340a9a17128e919c79c3e22d21fe3b",
+  "source_commit_time": "2026-10-18T20:04:39Z",
+  "source_path": "2026/10/12/the-utld-type-ii-observed-information-hardcodes-three-failures-a--e838fa625e0c",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261012-e838fa625e0c",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-sharp-riesz-conditioning-for-consecutive-triples-on-finite-cycle--1200745c9cae",
   "resultary_record_key": "SCOPE-sharp-riesz-conditioning-for-consecutive-triples-on-finite-cycle--1200745c9cae",
-  "source_commit": "b2ff5aa9c6f9f05da3594ccf528051b166d27aa8",
-  "source_commit_time": "2026-10-11T12:59:50Z",
+  "source_commit": "1214168348280e9e70bf1a7883f1d964c820a007",
+  "source_commit_time": "2026-10-18T20:02:55Z",
   "source_path": "2026/10/11/sharp-riesz-conditioning-for-consecutive-triples-on-finite-cycle--1200745c9cae",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-1200745c9cae",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

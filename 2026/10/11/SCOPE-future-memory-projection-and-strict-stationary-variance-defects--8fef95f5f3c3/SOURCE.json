@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-future-memory-projection-and-strict-stationary-variance-defects--8fef95f5f3c3",
   "resultary_record_key": "SCOPE-future-memory-projection-and-strict-stationary-variance-defects--8fef95f5f3c3",
-  "source_commit": "0b2f02ae383070c43eb509e137cfdf068d364d64",
-  "source_commit_time": "2026-10-11T13:02:35Z",
+  "source_commit": "48cccf42940cd71fea4dd86e17d467c07625d053",
+  "source_commit_time": "2026-10-18T19:27:14Z",
   "source_path": "2026/10/11/future-memory-projection-and-strict-stationary-variance-defects--8fef95f5f3c3",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-8fef95f5f3c3",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-sharp-finite-horizon-power-amplification-under-absolute-ces-ro-b--1b6cb9a310fc",
   "resultary_record_key": "SCOPE-sharp-finite-horizon-power-amplification-under-absolute-ces-ro-b--1b6cb9a310fc",
-  "source_commit": "91de432e2d161ae05af3f733d4805d40aede04cf",
-  "source_commit_time": "2026-10-11T13:14:17Z",
+  "source_commit": "3f2416a1536072f50f490f42ff05a8d7dddaff2a",
+  "source_commit_time": "2026-10-18T20:09:48Z",
   "source_path": "2026/10/11/sharp-finite-horizon-power-amplification-under-absolute-ces-ro-b--1b6cb9a310fc",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-1b6cb9a310fc",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-sharp-saturation-threshold-for-the-generalized-minimum-von-neuma--ee63219d4554",
   "resultary_record_key": "SCOPE-sharp-saturation-threshold-for-the-generalized-minimum-von-neuma--ee63219d4554",
-  "source_commit": "d8c9d48e5a164357f3018ce4e6bd633605e24ecd",
-  "source_commit_time": "2026-10-11T13:11:59Z",
+  "source_commit": "73acb42c276d2b54307a7a8cd11dd03c93d21995",
+  "source_commit_time": "2026-10-18T20:04:26Z",
   "source_path": "2026/10/11/sharp-saturation-threshold-for-the-generalized-minimum-von-neuma--ee63219d4554",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-ee63219d4554",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

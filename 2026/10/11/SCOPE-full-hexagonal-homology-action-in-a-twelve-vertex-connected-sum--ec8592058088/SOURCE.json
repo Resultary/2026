@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-full-hexagonal-homology-action-in-a-twelve-vertex-connected-sum--ec8592058088",
   "resultary_record_key": "SCOPE-full-hexagonal-homology-action-in-a-twelve-vertex-connected-sum--ec8592058088",
-  "source_commit": "8ad92a49cee4fd4603bff0f9b8bd3859c39b8a35",
-  "source_commit_time": "2026-10-11T13:15:09Z",
+  "source_commit": "b02a6df43ebaf6e2115041effed65db03ffa189f",
+  "source_commit_time": "2026-10-18T20:10:39Z",
   "source_path": "2026/10/11/full-hexagonal-homology-action-in-a-twelve-vertex-connected-sum--ec8592058088",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-ec8592058088",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

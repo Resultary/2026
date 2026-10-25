@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-dihedral-rational-homology-of-bidirectional-polygon-multipath-co--627013477864",
   "resultary_record_key": "SCOPE-dihedral-rational-homology-of-bidirectional-polygon-multipath-co--627013477864",
-  "source_commit": "352040c89de1bf6cbae183c2a2d33447133b5309",
-  "source_commit_time": "2026-10-11T13:18:16Z",
+  "source_commit": "8b0b773fe1ba85fc54cbab015056fb97f14da37f",
+  "source_commit_time": "2026-10-18T19:27:08Z",
   "source_path": "2026/10/11/dihedral-rational-homology-of-bidirectional-polygon-multipath-co--627013477864",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-627013477864",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

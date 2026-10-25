@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-ambient-norm-perturbations-do-not-stabilize-noninjective-k-g-fus--92ab1cc07127",
   "resultary_record_key": "SCOPE-ambient-norm-perturbations-do-not-stabilize-noninjective-k-g-fus--92ab1cc07127",
-  "source_commit": "8bd45032b5e67bdfc9aff861d37fd50ca163540d",
-  "source_commit_time": "2026-10-11T12:58:50Z",
+  "source_commit": "c4b004dc60c07dd1d93092d0df5befe83a282c69",
+  "source_commit_time": "2026-10-25T19:35:46Z",
   "source_path": "2026/10/11/ambient-norm-perturbations-do-not-stabilize-noninjective-k-g-fus--92ab1cc07127",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-92ab1cc07127",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

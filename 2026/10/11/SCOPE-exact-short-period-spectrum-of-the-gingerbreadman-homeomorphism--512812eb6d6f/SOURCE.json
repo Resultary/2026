@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-short-period-spectrum-of-the-gingerbreadman-homeomorphism--512812eb6d6f",
   "resultary_record_key": "SCOPE-exact-short-period-spectrum-of-the-gingerbreadman-homeomorphism--512812eb6d6f",
-  "source_commit": "77cc80d2b5ef0ffa55e44f415187a65c7a70c852",
-  "source_commit_time": "2026-10-11T13:02:42Z",
+  "source_commit": "f0518ffee688b83aa20307775accd60c51d5615f",
+  "source_commit_time": "2026-10-18T19:28:56Z",
   "source_path": "2026/10/11/exact-short-period-spectrum-of-the-gingerbreadman-homeomorphism--512812eb6d6f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-512812eb6d6f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

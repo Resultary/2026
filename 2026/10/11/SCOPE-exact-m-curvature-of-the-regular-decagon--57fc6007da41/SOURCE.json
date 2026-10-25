@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-m-curvature-of-the-regular-decagon--57fc6007da41",
   "resultary_record_key": "SCOPE-exact-m-curvature-of-the-regular-decagon--57fc6007da41",
-  "source_commit": "94c010604c17a51631cd022428867f79769b7dfe",
-  "source_commit_time": "2026-10-11T13:06:30Z",
+  "source_commit": "fdb37b92508d7e724d4cfcb8fd5e93b829bc123e",
+  "source_commit_time": "2026-10-18T20:04:14Z",
   "source_path": "2026/10/11/exact-m-curvature-of-the-regular-decagon--57fc6007da41",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-57fc6007da41",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

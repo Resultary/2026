@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/13/SCOPE-uniform-longitudinal-fields-preserve-partial-transpose-inertia-i--b0fc3b108848",
+  "resultary_record_key": "SCOPE-uniform-longitudinal-fields-preserve-partial-transpose-inertia-i--b0fc3b108848",
+  "source_commit": "db2d10bcb25b3622a49ebfe20157e2292d00e471",
+  "source_commit_time": "2026-10-18T20:06:56Z",
+  "source_path": "2026/10/13/uniform-longitudinal-fields-preserve-partial-transpose-inertia-i--b0fc3b108848",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261013-b0fc3b108848",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

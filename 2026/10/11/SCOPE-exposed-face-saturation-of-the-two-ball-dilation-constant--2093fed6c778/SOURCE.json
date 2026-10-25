@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exposed-face-saturation-of-the-two-ball-dilation-constant--2093fed6c778",
   "resultary_record_key": "SCOPE-exposed-face-saturation-of-the-two-ball-dilation-constant--2093fed6c778",
-  "source_commit": "29a7840dfe8e15e45aec54967bbfa1b382bc7d94",
-  "source_commit_time": "2026-10-11T13:10:10Z",
+  "source_commit": "12582792f0acaca685c5650a7e5709ac8b25a08b",
+  "source_commit_time": "2026-10-18T19:28:57Z",
   "source_path": "2026/10/11/exposed-face-saturation-of-the-two-ball-dilation-constant--2093fed6c778",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-2093fed6c778",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

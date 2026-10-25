@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-real-four-by-four-projective-injective-tensor-norm-ratio--ceb65eb1d232",
   "resultary_record_key": "SCOPE-exact-real-four-by-four-projective-injective-tensor-norm-ratio--ceb65eb1d232",
-  "source_commit": "f22c7685349c3a34227e74254837c12b4980ce8e",
-  "source_commit_time": "2026-10-11T13:14:32Z",
+  "source_commit": "55fbfa25e999072e29fcbc2355aceb5be1d7c8c6",
+  "source_commit_time": "2026-10-18T20:09:44Z",
   "source_path": "2026/10/11/exact-real-four-by-four-projective-injective-tensor-norm-ratio--ceb65eb1d232",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-ceb65eb1d232",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

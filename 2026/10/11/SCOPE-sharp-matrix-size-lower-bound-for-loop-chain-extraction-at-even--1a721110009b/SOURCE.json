@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-sharp-matrix-size-lower-bound-for-loop-chain-extraction-at-even--1a721110009b",
   "resultary_record_key": "SCOPE-sharp-matrix-size-lower-bound-for-loop-chain-extraction-at-even--1a721110009b",
-  "source_commit": "caa88296cee30d9d0b27e1409b69acdf8ca16a20",
-  "source_commit_time": "2026-10-11T13:13:47Z",
+  "source_commit": "8df9677f2c5ec293e8e8c4aef57df62fc12b5f92",
+  "source_commit_time": "2026-10-18T20:02:54Z",
   "source_path": "2026/10/11/sharp-matrix-size-lower-bound-for-loop-chain-extraction-at-even--1a721110009b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-1a721110009b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

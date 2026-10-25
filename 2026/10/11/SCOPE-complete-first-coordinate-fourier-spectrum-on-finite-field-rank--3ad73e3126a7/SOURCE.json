@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-complete-first-coordinate-fourier-spectrum-on-finite-field-rank--3ad73e3126a7",
   "resultary_record_key": "SCOPE-complete-first-coordinate-fourier-spectrum-on-finite-field-rank--3ad73e3126a7",
-  "source_commit": "eecdd1f967cba3fbc84042ad8d2277ce97e61764",
-  "source_commit_time": "2026-10-11T12:57:51Z",
+  "source_commit": "3b65772e483c975c083dfac870a7b4b3d15bbe62",
+  "source_commit_time": "2026-10-25T19:12:54Z",
   "source_path": "2026/10/11/complete-first-coordinate-fourier-spectrum-on-finite-field-rank--3ad73e3126a7",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-3ad73e3126a7",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

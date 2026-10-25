@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-global-planar-barker-larman-rigidity-for-arbitrary-ellipses--17ed1eab809b",
   "resultary_record_key": "SCOPE-global-planar-barker-larman-rigidity-for-arbitrary-ellipses--17ed1eab809b",
-  "source_commit": "47976110758bc800673b7004d74fca09cc59fb6b",
-  "source_commit_time": "2026-10-11T13:06:36Z",
+  "source_commit": "518cf4d9525a9c1c86eb76d991d01fa3e11c88ba",
+  "source_commit_time": "2026-10-18T20:02:49Z",
   "source_path": "2026/10/11/global-planar-barker-larman-rigidity-for-arbitrary-ellipses--17ed1eab809b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-17ed1eab809b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

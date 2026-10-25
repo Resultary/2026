@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-exact-ehrenfest-law-and-linear-noise-floor-for-additive-noise-si--91e3f2750878",
   "resultary_record_key": "SCOPE-exact-ehrenfest-law-and-linear-noise-floor-for-additive-noise-si--91e3f2750878",
-  "source_commit": "e6f619b090112f0aef6675d4631d43331d272777",
-  "source_commit_time": "2026-10-04T06:00:24Z",
+  "source_commit": "a96f0382e0df3406ea8665db2d6a4cb1733d7641",
+  "source_commit_time": "2026-10-18T20:10:23Z",
   "source_path": "2026/10/04/exact-ehrenfest-law-and-linear-noise-floor-for-additive-noise-si--91e3f2750878",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-91e3f2750878",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-collision-layer-asymptotics-for-tuple-orbits-of-universal-homoge--a3fb4bcdc85a",
   "resultary_record_key": "SCOPE-collision-layer-asymptotics-for-tuple-orbits-of-universal-homoge--a3fb4bcdc85a",
-  "source_commit": "a2c7ece3b80e8eea7998e2c569c9283aa48a639c",
-  "source_commit_time": "2026-10-04T06:06:16Z",
+  "source_commit": "46882b9964029571c2350d52794cb84210de32b2",
+  "source_commit_time": "2026-10-18T19:28:32Z",
   "source_path": "2026/10/04/collision-layer-asymptotics-for-tuple-orbits-of-universal-homoge--a3fb4bcdc85a",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-a3fb4bcdc85a",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

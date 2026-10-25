@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-arithmetic-isolation-of-identity-resonances-in-a-cat-driven-m-bi--a1ced3096486",
   "resultary_record_key": "SCOPE-arithmetic-isolation-of-identity-resonances-in-a-cat-driven-m-bi--a1ced3096486",
-  "source_commit": "48c26033c6f81f18c49f73afa203c061d95f01bf",
-  "source_commit_time": "2026-10-11T13:04:37Z",
+  "source_commit": "3acbc9cac1ec33f8dd799b633a3edef2140190ad",
+  "source_commit_time": "2026-10-18T19:27:07Z",
   "source_path": "2026/10/11/arithmetic-isolation-of-identity-resonances-in-a-cat-driven-m-bi--a1ced3096486",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-a1ced3096486",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

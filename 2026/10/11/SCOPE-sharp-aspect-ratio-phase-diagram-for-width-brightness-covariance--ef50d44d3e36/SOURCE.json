@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-sharp-aspect-ratio-phase-diagram-for-width-brightness-covariance--ef50d44d3e36",
   "resultary_record_key": "SCOPE-sharp-aspect-ratio-phase-diagram-for-width-brightness-covariance--ef50d44d3e36",
-  "source_commit": "11357ab10fc2b08e2a007f08b4734e53bd07c0cc",
-  "source_commit_time": "2026-10-11T13:07:24Z",
+  "source_commit": "0c4bfea2d3cc2eeb2514c678145ccb43b0d89243",
+  "source_commit_time": "2026-10-18T20:05:51Z",
   "source_path": "2026/10/11/sharp-aspect-ratio-phase-diagram-for-width-brightness-covariance--ef50d44d3e36",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-ef50d44d3e36",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

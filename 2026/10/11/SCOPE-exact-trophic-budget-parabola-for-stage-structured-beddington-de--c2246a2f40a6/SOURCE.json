@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-trophic-budget-parabola-for-stage-structured-beddington-de--c2246a2f40a6",
   "resultary_record_key": "SCOPE-exact-trophic-budget-parabola-for-stage-structured-beddington-de--c2246a2f40a6",
-  "source_commit": "ae3acde52062e37a36b98ea644f12830dbdec5f8",
-  "source_commit_time": "2026-10-11T13:03:45Z",
+  "source_commit": "a22382732aaffecf353d7147ef4214646b8b3ea4",
+  "source_commit_time": "2026-10-18T19:27:57Z",
   "source_path": "2026/10/11/exact-trophic-budget-parabola-for-stage-structured-beddington-de--c2246a2f40a6",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-c2246a2f40a6",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-only-endpoint-parameters-preserve-carath-odory-positivity-for-al--82f2dcfb52c7",
   "resultary_record_key": "SCOPE-only-endpoint-parameters-preserve-carath-odory-positivity-for-al--82f2dcfb52c7",
-  "source_commit": "e1285ab6c6c6f256e86297f24439cd2e736b215a",
-  "source_commit_time": "2026-10-11T13:01:18Z",
+  "source_commit": "115687abf6d4a3aa9349de5d97b9bdbcab909a9f",
+  "source_commit_time": "2026-10-18T19:27:16Z",
   "source_path": "2026/10/11/only-endpoint-parameters-preserve-carath-odory-positivity-for-al--82f2dcfb52c7",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-82f2dcfb52c7",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

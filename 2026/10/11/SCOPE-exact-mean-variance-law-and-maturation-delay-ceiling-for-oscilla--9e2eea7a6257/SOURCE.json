@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-mean-variance-law-and-maturation-delay-ceiling-for-oscilla--9e2eea7a6257",
   "resultary_record_key": "SCOPE-exact-mean-variance-law-and-maturation-delay-ceiling-for-oscilla--9e2eea7a6257",
-  "source_commit": "ef85de9ea883ae2b6c8f888ba87e58817bbc64ca",
-  "source_commit_time": "2026-10-11T13:03:34Z",
+  "source_commit": "586d764c19c88a5ac15e03947403abe7443931e7",
+  "source_commit_time": "2026-10-18T20:07:33Z",
   "source_path": "2026/10/11/exact-mean-variance-law-and-maturation-delay-ceiling-for-oscilla--9e2eea7a6257",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-9e2eea7a6257",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

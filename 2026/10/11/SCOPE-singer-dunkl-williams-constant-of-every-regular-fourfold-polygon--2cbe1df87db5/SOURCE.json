@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-singer-dunkl-williams-constant-of-every-regular-fourfold-polygon--2cbe1df87db5",
   "resultary_record_key": "SCOPE-singer-dunkl-williams-constant-of-every-regular-fourfold-polygon--2cbe1df87db5",
-  "source_commit": "4fb507e6f4e3bd0cdc4f1489a3bec3eaa094a463",
-  "source_commit_time": "2026-10-11T13:12:04Z",
+  "source_commit": "3eb099c796f527eddb2376188686cc13ab7ad952",
+  "source_commit_time": "2026-10-18T20:10:44Z",
   "source_path": "2026/10/11/singer-dunkl-williams-constant-of-every-regular-fourfold-polygon--2cbe1df87db5",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-2cbe1df87db5",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

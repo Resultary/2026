@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-sharp-weak-identification-experiment-for-exponential-tilt-respon--d699c30203d4",
   "resultary_record_key": "SCOPE-sharp-weak-identification-experiment-for-exponential-tilt-respon--d699c30203d4",
-  "source_commit": "8fffba919b8d137a38e83f5eb2301166c0e43703",
-  "source_commit_time": "2026-10-04T06:02:15Z",
+  "source_commit": "0c651067fd3802d3e8acab420f5d13a347b6da02",
+  "source_commit_time": "2026-10-18T20:10:30Z",
   "source_path": "2026/10/04/sharp-weak-identification-experiment-for-exponential-tilt-respon--d699c30203d4",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-d699c30203d4",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

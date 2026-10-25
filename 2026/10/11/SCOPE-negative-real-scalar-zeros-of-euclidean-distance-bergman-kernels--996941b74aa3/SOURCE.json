@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-negative-real-scalar-zeros-of-euclidean-distance-bergman-kernels--996941b74aa3",
   "resultary_record_key": "SCOPE-negative-real-scalar-zeros-of-euclidean-distance-bergman-kernels--996941b74aa3",
-  "source_commit": "0701655a92293173dc3ff109d8e83fa674bdbbac",
-  "source_commit_time": "2026-10-11T13:01:10Z",
+  "source_commit": "ee27f5fe4f25d5ae6542f110908e11be11542a28",
+  "source_commit_time": "2026-10-18T20:04:20Z",
   "source_path": "2026/10/11/negative-real-scalar-zeros-of-euclidean-distance-bergman-kernels--996941b74aa3",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-996941b74aa3",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

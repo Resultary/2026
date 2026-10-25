@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-center-alignment-for-lp-optimal-matching-of-centrally-symmetric--a10d73b05022",
   "resultary_record_key": "SCOPE-center-alignment-for-lp-optimal-matching-of-centrally-symmetric--a10d73b05022",
-  "source_commit": "2a8b22d8b9233e1035bd4b84b2a5712d0e007595",
-  "source_commit_time": "2026-10-11T13:06:35Z",
+  "source_commit": "e39e9d430ea4c6e83d39a4ea1903a1ee3f1f0a04",
+  "source_commit_time": "2026-10-18T20:10:34Z",
   "source_path": "2026/10/11/center-alignment-for-lp-optimal-matching-of-centrally-symmetric--a10d73b05022",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-a10d73b05022",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

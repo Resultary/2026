@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-exterior-power-packing-makes-exponent-three-strict-envelopes-nea--4f9610967555",
   "resultary_record_key": "SCOPE-exterior-power-packing-makes-exponent-three-strict-envelopes-nea--4f9610967555",
-  "source_commit": "045377d4767bf48860f42972e8632f574be25c7e",
-  "source_commit_time": "2026-10-04T05:58:22Z",
+  "source_commit": "33447062002c73c214e0676ed8de2844914a81fa",
+  "source_commit_time": "2026-10-25T19:26:18Z",
   "source_path": "2026/10/04/exterior-power-packing-makes-exponent-three-strict-envelopes-nea--4f9610967555",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-4f9610967555",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

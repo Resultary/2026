@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-quiescence-release-law-for-the-tumor-free-spectral-gap--073a58122cb7",
   "resultary_record_key": "SCOPE-exact-quiescence-release-law-for-the-tumor-free-spectral-gap--073a58122cb7",
-  "source_commit": "8adb25ff3bb29a1c40b1fdf0676f5ee5a24809f8",
-  "source_commit_time": "2026-10-11T13:04:52Z",
+  "source_commit": "35715a524f035a8ec251a058dcd1a311f69afaec",
+  "source_commit_time": "2026-10-18T20:07:34Z",
   "source_path": "2026/10/11/exact-quiescence-release-law-for-the-tumor-free-spectral-gap--073a58122cb7",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-073a58122cb7",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

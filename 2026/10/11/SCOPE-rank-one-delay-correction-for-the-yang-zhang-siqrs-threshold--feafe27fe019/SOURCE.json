@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-rank-one-delay-correction-for-the-yang-zhang-siqrs-threshold--feafe27fe019",
   "resultary_record_key": "SCOPE-rank-one-delay-correction-for-the-yang-zhang-siqrs-threshold--feafe27fe019",
-  "source_commit": "b3285f73ceb8521ec10db119ccd49c602a4a7ff0",
-  "source_commit_time": "2026-10-11T13:03:23Z",
+  "source_commit": "2c851313f7d2fc7bb7185d45ca17320f5448e65b",
+  "source_commit_time": "2026-10-18T19:29:01Z",
   "source_path": "2026/10/11/rank-one-delay-correction-for-the-yang-zhang-siqrs-threshold--feafe27fe019",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-feafe27fe019",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-mu-p-profile-of-the-regular-octagonal-banach-plane--aa03310b9c95",
   "resultary_record_key": "SCOPE-exact-mu-p-profile-of-the-regular-octagonal-banach-plane--aa03310b9c95",
-  "source_commit": "71e8f6c14fa3722fe4b4e3f73f21ddd85d67b168",
-  "source_commit_time": "2026-10-11T13:12:15Z",
+  "source_commit": "6687af21f30ebbb31014a1e5c250bf95234be7ee",
+  "source_commit_time": "2026-10-18T20:10:37Z",
   "source_path": "2026/10/11/exact-mu-p-profile-of-the-regular-octagonal-banach-plane--aa03310b9c95",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-aa03310b9c95",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

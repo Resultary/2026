@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-doubled-harmonic-carath-odory-fej-r-family--f8b2aed0e5e0",
   "resultary_record_key": "SCOPE-exact-doubled-harmonic-carath-odory-fej-r-family--f8b2aed0e5e0",
-  "source_commit": "fc06e7ff1df621463195a9f9dfe9b7ad182c64ac",
-  "source_commit_time": "2026-10-11T12:56:44Z",
+  "source_commit": "92bd9abbea108c1cb7cd55f6650de77892808bbb",
+  "source_commit_time": "2026-10-18T20:09:41Z",
   "source_path": "2026/10/11/exact-doubled-harmonic-carath-odory-fej-r-family--f8b2aed0e5e0",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-f8b2aed0e5e0",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

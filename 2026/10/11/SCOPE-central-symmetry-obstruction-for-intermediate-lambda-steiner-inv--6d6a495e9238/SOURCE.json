@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-central-symmetry-obstruction-for-intermediate-lambda-steiner-inv--6d6a495e9238",
   "resultary_record_key": "SCOPE-central-symmetry-obstruction-for-intermediate-lambda-steiner-inv--6d6a495e9238",
-  "source_commit": "cb5bdd1214a571b6fbd37997d2765acb3c9aeee8",
-  "source_commit_time": "2026-10-11T13:09:43Z",
+  "source_commit": "a8ee6a44e8bca9657d240cf0b9f41e056b72b869",
+  "source_commit_time": "2026-10-18T20:10:34Z",
   "source_path": "2026/10/11/central-symmetry-obstruction-for-intermediate-lambda-steiner-inv--6d6a495e9238",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-6d6a495e9238",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-a-single-operator-tuple-attains-completely-bounded-distortion-th--a760d650c36e",
   "resultary_record_key": "SCOPE-a-single-operator-tuple-attains-completely-bounded-distortion-th--a760d650c36e",
-  "source_commit": "476a755a24b77d96be7631e66904b131e4534ba7",
-  "source_commit_time": "2026-10-11T13:13:17Z",
+  "source_commit": "394333a7a5917b51afd94a072cf13803dfe80729",
+  "source_commit_time": "2026-10-18T20:09:38Z",
   "source_path": "2026/10/11/a-single-operator-tuple-attains-completely-bounded-distortion-th--a760d650c36e",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-a760d650c36e",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

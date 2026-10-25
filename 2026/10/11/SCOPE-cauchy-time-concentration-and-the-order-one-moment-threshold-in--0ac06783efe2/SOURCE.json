@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-cauchy-time-concentration-and-the-order-one-moment-threshold-in--0ac06783efe2",
   "resultary_record_key": "SCOPE-cauchy-time-concentration-and-the-order-one-moment-threshold-in--0ac06783efe2",
-  "source_commit": "e688c041c0c875cf801fe28aa4e5c77f07adf9db",
-  "source_commit_time": "2026-10-11T13:04:33Z",
+  "source_commit": "0f89ab6a7fa97c15217f1aaa062999b1984f2ec4",
+  "source_commit_time": "2026-10-18T20:09:39Z",
   "source_path": "2026/10/11/cauchy-time-concentration-and-the-order-one-moment-threshold-in--0ac06783efe2",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-0ac06783efe2",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

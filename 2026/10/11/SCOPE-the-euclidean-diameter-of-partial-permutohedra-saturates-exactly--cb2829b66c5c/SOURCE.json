@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-the-euclidean-diameter-of-partial-permutohedra-saturates-exactly--cb2829b66c5c",
   "resultary_record_key": "SCOPE-the-euclidean-diameter-of-partial-permutohedra-saturates-exactly--cb2829b66c5c",
-  "source_commit": "078ac4a34e5d318b42ea359c262227b42e606915",
-  "source_commit_time": "2026-10-11T13:08:25Z",
+  "source_commit": "d7f4ffe2712cf4f56ab18658eaf4dd672d736bc4",
+  "source_commit_time": "2026-10-18T20:02:27Z",
   "source_path": "2026/10/11/the-euclidean-diameter-of-partial-permutohedra-saturates-exactly--cb2829b66c5c",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-cb2829b66c5c",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

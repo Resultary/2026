@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-inradius-and-contact-facet-rigidity-of-the-petersen-symmet--af8a32ec1f59",
   "resultary_record_key": "SCOPE-exact-inradius-and-contact-facet-rigidity-of-the-petersen-symmet--af8a32ec1f59",
-  "source_commit": "032cfe510c67947d2935524b69b67771f8da8973",
-  "source_commit_time": "2026-10-11T13:08:53Z",
+  "source_commit": "bbea0df3baa76c8da70f7acfbbd9c1fa9eda4c7a",
+  "source_commit_time": "2026-10-18T20:04:13Z",
   "source_path": "2026/10/11/exact-inradius-and-contact-facet-rigidity-of-the-petersen-symmet--af8a32ec1f59",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-af8a32ec1f59",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

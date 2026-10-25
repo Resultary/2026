@@ -1,0 +1,1 @@
+A finite-dimensional reduced commutative algebra, even without a unit and over a field of any characteristic, admits only the zero weight-zero Rota–Baxter operator; a nonzero square-zero element gives multiplication by a nonzero Rota–Baxter map when the algebra is unital. The characteristic-zero split-field vanishing result is prior work.

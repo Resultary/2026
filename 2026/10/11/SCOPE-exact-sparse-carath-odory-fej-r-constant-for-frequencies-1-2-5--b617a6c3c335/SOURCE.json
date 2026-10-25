@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-sparse-carath-odory-fej-r-constant-for-frequencies-1-2-5--b617a6c3c335",
   "resultary_record_key": "SCOPE-exact-sparse-carath-odory-fej-r-constant-for-frequencies-1-2-5--b617a6c3c335",
-  "source_commit": "1cd9a79fa28a6457f706f19f05f92704d6f3e770",
-  "source_commit_time": "2026-10-11T12:56:40Z",
+  "source_commit": "34ddce5637bc177e39bf38315ac147a9fe3ff66b",
+  "source_commit_time": "2026-10-18T20:04:15Z",
   "source_path": "2026/10/11/exact-sparse-carath-odory-fej-r-constant-for-frequencies-1-2-5--b617a6c3c335",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-b617a6c3c335",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-neutral-strain-continua-and-sharp-exchange-damping-in-a-delayed--fbb1f90164cc",
   "resultary_record_key": "SCOPE-neutral-strain-continua-and-sharp-exchange-damping-in-a-delayed--fbb1f90164cc",
-  "source_commit": "3bb7d2d734ef6185ec29c95fc7e403d4ba859ca3",
-  "source_commit_time": "2026-10-11T13:03:52Z",
+  "source_commit": "193bd3e9abf5a463ba2020224419c92bf8d0ff84",
+  "source_commit_time": "2026-10-18T20:04:21Z",
   "source_path": "2026/10/11/neutral-strain-continua-and-sharp-exchange-damping-in-a-delayed--fbb1f90164cc",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-fbb1f90164cc",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

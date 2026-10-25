@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-sharp-global-recurrence-and-period-constraints-for-velocity-feed--7e1886508580",
   "resultary_record_key": "SCOPE-sharp-global-recurrence-and-period-constraints-for-velocity-feed--7e1886508580",
-  "source_commit": "84139f3c63c183a651f021aac9ceb61f51e3246d",
-  "source_commit_time": "2026-10-11T13:02:39Z",
+  "source_commit": "918a2f140ad473368df72792076c3c08190c0795",
+  "source_commit_time": "2026-10-18T20:05:52Z",
   "source_path": "2026/10/11/sharp-global-recurrence-and-period-constraints-for-velocity-feed--7e1886508580",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-7e1886508580",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

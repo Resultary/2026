@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-failed-skew-zero-forcing-at-the-false-twin-free-boundary-of-thre--4300fa13ef6a",
   "resultary_record_key": "SCOPE-failed-skew-zero-forcing-at-the-false-twin-free-boundary-of-thre--4300fa13ef6a",
-  "source_commit": "d2a2e5ba90b21abbe39354b86d9b4d04b27b39f1",
-  "source_commit_time": "2026-10-04T04:40:50Z",
+  "source_commit": "941489bf00a20f992e9eab86504a2a63b0038258",
+  "source_commit_time": "2026-10-18T19:28:37Z",
   "source_path": "2026/10/04/failed-skew-zero-forcing-at-the-false-twin-free-boundary-of-thre--4300fa13ef6a",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-4300fa13ef6a",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-04T04:49:09Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

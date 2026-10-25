@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-global-periodic-asymptotic-phase-for-cyclic-two-sex-volterra-flo--a2bc26c3ba7a",
   "resultary_record_key": "SCOPE-global-periodic-asymptotic-phase-for-cyclic-two-sex-volterra-flo--a2bc26c3ba7a",
-  "source_commit": "79bfff4e28c815769e88bc01815adc8fbe126871",
-  "source_commit_time": "2026-10-11T13:05:22Z",
+  "source_commit": "c88c01b2a3078cb1e9149d88e9b3c051c2620e92",
+  "source_commit_time": "2026-10-18T20:02:48Z",
   "source_path": "2026/10/11/global-periodic-asymptotic-phase-for-cyclic-two-sex-volterra-flo--a2bc26c3ba7a",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-a2bc26c3ba7a",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

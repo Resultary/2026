@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-universal-escape-direction-and-exact-superexponential-scale-for--329ac93ba819",
   "resultary_record_key": "SCOPE-universal-escape-direction-and-exact-superexponential-scale-for--329ac93ba819",
-  "source_commit": "a34d90971488f91025863563e0653e0f65dbf814",
-  "source_commit_time": "2026-10-11T13:04:40Z",
+  "source_commit": "3cad7967597770aed54c081297138b17efdd004e",
+  "source_commit_time": "2026-10-18T20:10:47Z",
   "source_path": "2026/10/11/universal-escape-direction-and-exact-superexponential-scale-for--329ac93ba819",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-329ac93ba819",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

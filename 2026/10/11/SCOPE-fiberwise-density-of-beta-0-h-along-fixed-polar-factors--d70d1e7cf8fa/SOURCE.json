@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-fiberwise-density-of-beta-0-h-along-fixed-polar-factors--d70d1e7cf8fa",
   "resultary_record_key": "SCOPE-fiberwise-density-of-beta-0-h-along-fixed-polar-factors--d70d1e7cf8fa",
-  "source_commit": "b3f8ce7c9d12201a19d290222ebafd92dcab189c",
-  "source_commit_time": "2026-10-11T13:13:19Z",
+  "source_commit": "9fe5ab7b50589b426db445214dd7cf502a9133d2",
+  "source_commit_time": "2026-10-18T20:04:17Z",
   "source_path": "2026/10/11/fiberwise-density-of-beta-0-h-along-fixed-polar-factors--d70d1e7cf8fa",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-d70d1e7cf8fa",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

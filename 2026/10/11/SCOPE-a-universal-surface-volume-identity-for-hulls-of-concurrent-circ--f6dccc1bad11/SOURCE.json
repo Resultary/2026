@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-a-universal-surface-volume-identity-for-hulls-of-concurrent-circ--f6dccc1bad11",
   "resultary_record_key": "SCOPE-a-universal-surface-volume-identity-for-hulls-of-concurrent-circ--f6dccc1bad11",
-  "source_commit": "994adbb497a5237fda9a75baf77e47d18d3a5a2a",
-  "source_commit_time": "2026-10-11T13:07:11Z",
+  "source_commit": "e4cf350cd1c78afc4924ab07dd680f886bb75d42",
+  "source_commit_time": "2026-10-25T19:12:53Z",
   "source_path": "2026/10/11/a-universal-surface-volume-identity-for-hulls-of-concurrent-circ--f6dccc1bad11",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-f6dccc1bad11",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

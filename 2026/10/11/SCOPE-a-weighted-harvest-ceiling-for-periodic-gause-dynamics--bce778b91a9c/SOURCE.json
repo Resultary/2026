@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-a-weighted-harvest-ceiling-for-periodic-gause-dynamics--bce778b91a9c",
   "resultary_record_key": "SCOPE-a-weighted-harvest-ceiling-for-periodic-gause-dynamics--bce778b91a9c",
-  "source_commit": "16ff172a7a98a3ba02b3f9b20fe832478988bb06",
-  "source_commit_time": "2026-10-11T13:03:47Z",
+  "source_commit": "e7ba033780ae3823ee9589f5d00078555cd52d03",
+  "source_commit_time": "2026-10-25T19:35:46Z",
   "source_path": "2026/10/11/a-weighted-harvest-ceiling-for-periodic-gause-dynamics--bce778b91a9c",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-bce778b91a9c",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

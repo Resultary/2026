@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-seasonal-density-dependence-cannot-be-scaled-out-of-the-periodic--7dc69a5fd160",
   "resultary_record_key": "SCOPE-seasonal-density-dependence-cannot-be-scaled-out-of-the-periodic--7dc69a5fd160",
-  "source_commit": "2ecebabb6433dfa3cc10aa1278f866c2725772d1",
-  "source_commit_time": "2026-10-04T06:20:35Z",
+  "source_commit": "3e55ac20c2ab960ee7a21a54743b2a7a0d0bccde",
+  "source_commit_time": "2026-10-18T19:28:40Z",
   "source_path": "2026/10/04/seasonal-density-dependence-cannot-be-scaled-out-of-the-periodic--7dc69a5fd160",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-7dc69a5fd160",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

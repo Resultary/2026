@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-euclidean-equilateral-derived-lengths-in-the-regular-dodecagonal--173971828069",
   "resultary_record_key": "SCOPE-euclidean-equilateral-derived-lengths-in-the-regular-dodecagonal--173971828069",
-  "source_commit": "43ef50f7c400bffdaeca24372783b35e58a783c7",
-  "source_commit_time": "2026-10-11T13:11:55Z",
+  "source_commit": "05ed28886da69defa2072869bca0e575d9d057e2",
+  "source_commit_time": "2026-10-18T20:08:38Z",
   "source_path": "2026/10/11/euclidean-equilateral-derived-lengths-in-the-regular-dodecagonal--173971828069",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-173971828069",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

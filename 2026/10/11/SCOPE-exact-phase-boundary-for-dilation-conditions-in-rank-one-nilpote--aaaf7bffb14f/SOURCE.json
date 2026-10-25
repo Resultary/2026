@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-phase-boundary-for-dilation-conditions-in-rank-one-nilpote--aaaf7bffb14f",
   "resultary_record_key": "SCOPE-exact-phase-boundary-for-dilation-conditions-in-rank-one-nilpote--aaaf7bffb14f",
-  "source_commit": "8b1f71238fb043d481f0fe92cabb5b8696506d58",
-  "source_commit_time": "2026-10-11T13:13:21Z",
+  "source_commit": "492db9d7121645e591503279338f23431d7593dc",
+  "source_commit_time": "2026-10-18T20:08:42Z",
   "source_path": "2026/10/11/exact-phase-boundary-for-dilation-conditions-in-rank-one-nilpote--aaaf7bffb14f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-aaaf7bffb14f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

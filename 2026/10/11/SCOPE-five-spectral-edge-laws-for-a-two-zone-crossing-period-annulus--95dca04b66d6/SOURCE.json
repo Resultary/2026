@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-five-spectral-edge-laws-for-a-two-zone-crossing-period-annulus--95dca04b66d6",
   "resultary_record_key": "SCOPE-five-spectral-edge-laws-for-a-two-zone-crossing-period-annulus--95dca04b66d6",
-  "source_commit": "9958d6b5beb89c0aad226374ad3dd38309c6a801",
-  "source_commit_time": "2026-10-11T13:04:27Z",
+  "source_commit": "b9798620299a43c6646d216befc24f593e5bf00c",
+  "source_commit_time": "2026-10-18T19:27:14Z",
   "source_path": "2026/10/11/five-spectral-edge-laws-for-a-two-zone-crossing-period-annulus--95dca04b66d6",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-95dca04b66d6",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

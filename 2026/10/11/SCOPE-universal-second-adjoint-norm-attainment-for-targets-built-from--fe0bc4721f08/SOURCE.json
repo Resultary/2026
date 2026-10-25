@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-universal-second-adjoint-norm-attainment-for-targets-built-from--fe0bc4721f08",
   "resultary_record_key": "SCOPE-universal-second-adjoint-norm-attainment-for-targets-built-from--fe0bc4721f08",
-  "source_commit": "a5c23503857aad4a7594dabbc9dfefae77c1b598",
-  "source_commit_time": "2026-10-11T13:14:25Z",
+  "source_commit": "25a9df94b8665ff0dcbfb31b451dc86cb33e2956",
+  "source_commit_time": "2026-10-18T19:28:04Z",
   "source_path": "2026/10/11/universal-second-adjoint-norm-attainment-for-targets-built-from--fe0bc4721f08",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-fe0bc4721f08",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

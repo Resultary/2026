@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-odd-grid-newman-face-sidon-bound-for-three-consecutive-cha--ad1839179554",
   "resultary_record_key": "SCOPE-exact-odd-grid-newman-face-sidon-bound-for-three-consecutive-cha--ad1839179554",
-  "source_commit": "65006625da04060ab83acae8f977f3dd54a4409b",
-  "source_commit_time": "2026-10-11T12:57:07Z",
+  "source_commit": "485fb7894c347662b6752d91a8b7ae725f2d6bc0",
+  "source_commit_time": "2026-10-18T19:28:55Z",
   "source_path": "2026/10/11/exact-odd-grid-newman-face-sidon-bound-for-three-consecutive-cha--ad1839179554",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-ad1839179554",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

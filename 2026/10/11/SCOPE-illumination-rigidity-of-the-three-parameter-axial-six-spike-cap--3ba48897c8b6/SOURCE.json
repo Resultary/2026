@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-illumination-rigidity-of-the-three-parameter-axial-six-spike-cap--3ba48897c8b6",
   "resultary_record_key": "SCOPE-illumination-rigidity-of-the-three-parameter-axial-six-spike-cap--3ba48897c8b6",
-  "source_commit": "6b37c8996ab4518dee0426dc3f81c19f5ef1c13e",
-  "source_commit_time": "2026-10-11T13:10:02Z",
+  "source_commit": "fcd2de246ab57b2f9da6d01c0ec7868ef9e9580c",
+  "source_commit_time": "2026-10-18T20:57:34Z",
   "source_path": "2026/10/11/illumination-rigidity-of-the-three-parameter-axial-six-spike-cap--3ba48897c8b6",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-3ba48897c8b6",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

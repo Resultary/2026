@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-maximal-hilbert-distortion-for-complete-bipartite-transportation--203c5ca21810",
   "resultary_record_key": "SCOPE-maximal-hilbert-distortion-for-complete-bipartite-transportation--203c5ca21810",
-  "source_commit": "8bfe1719402dde5e93abe66eb2926d3359678b42",
-  "source_commit_time": "2026-10-11T13:11:23Z",
+  "source_commit": "4879e892a4159f6a1372cbf8df951d795278ea12",
+  "source_commit_time": "2026-10-18T20:07:40Z",
   "source_path": "2026/10/11/maximal-hilbert-distortion-for-complete-bipartite-transportation--203c5ca21810",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-203c5ca21810",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

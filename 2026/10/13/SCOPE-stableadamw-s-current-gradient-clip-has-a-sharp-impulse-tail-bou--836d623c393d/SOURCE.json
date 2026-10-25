@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/13/SCOPE-stableadamw-s-current-gradient-clip-has-a-sharp-impulse-tail-bou--836d623c393d",
+  "resultary_record_key": "SCOPE-stableadamw-s-current-gradient-clip-has-a-sharp-impulse-tail-bou--836d623c393d",
+  "source_commit": "6f8ccf025ac69b1868e84a438758efdc76273be6",
+  "source_commit_time": "2026-10-18T20:05:27Z",
+  "source_path": "2026/10/13/stableadamw-s-current-gradient-clip-has-a-sharp-impulse-tail-bou--836d623c393d",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261013-836d623c393d",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

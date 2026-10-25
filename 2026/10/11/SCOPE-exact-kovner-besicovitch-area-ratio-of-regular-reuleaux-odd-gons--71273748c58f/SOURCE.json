@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-kovner-besicovitch-area-ratio-of-regular-reuleaux-odd-gons--71273748c58f",
   "resultary_record_key": "SCOPE-exact-kovner-besicovitch-area-ratio-of-regular-reuleaux-odd-gons--71273748c58f",
-  "source_commit": "ce2c927025575f3f27f25105c25237ce29812503",
-  "source_commit_time": "2026-10-11T13:07:09Z",
+  "source_commit": "730c587e5275a444628350be7d6932c756f7e702",
+  "source_commit_time": "2026-10-18T20:09:42Z",
   "source_path": "2026/10/11/exact-kovner-besicovitch-area-ratio-of-regular-reuleaux-odd-gons--71273748c58f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-71273748c58f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

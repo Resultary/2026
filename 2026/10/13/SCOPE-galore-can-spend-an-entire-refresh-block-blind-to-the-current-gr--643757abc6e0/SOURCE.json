@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/13/SCOPE-galore-can-spend-an-entire-refresh-block-blind-to-the-current-gr--643757abc6e0",
+  "resultary_record_key": "SCOPE-galore-can-spend-an-entire-refresh-block-blind-to-the-current-gr--643757abc6e0",
+  "source_commit": "6dfe0817467b308f1d385304be3e5f12f200e872",
+  "source_commit_time": "2026-10-18T20:09:24Z",
+  "source_path": "2026/10/13/galore-can-spend-an-entire-refresh-block-blind-to-the-current-gr--643757abc6e0",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261013-643757abc6e0",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

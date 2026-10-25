@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-strict-mahler-product-monotonicity-along-simplex-asymmetric-diff--516fa817d276",
   "resultary_record_key": "SCOPE-strict-mahler-product-monotonicity-along-simplex-asymmetric-diff--516fa817d276",
-  "source_commit": "7147c06dd8adcdc76d69a5c635bc25c2cf124f6a",
-  "source_commit_time": "2026-10-11T13:07:35Z",
+  "source_commit": "dcfa6804d9d11f3d4baf842a99b31401a2efe6e8",
+  "source_commit_time": "2026-10-18T20:10:44Z",
   "source_path": "2026/10/11/strict-mahler-product-monotonicity-along-simplex-asymmetric-diff--516fa817d276",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-516fa817d276",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

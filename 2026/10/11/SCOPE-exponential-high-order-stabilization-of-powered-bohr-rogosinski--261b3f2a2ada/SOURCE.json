@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exponential-high-order-stabilization-of-powered-bohr-rogosinski--261b3f2a2ada",
   "resultary_record_key": "SCOPE-exponential-high-order-stabilization-of-powered-bohr-rogosinski--261b3f2a2ada",
-  "source_commit": "a85729b73c4a6deac315415df25952632235f6a1",
-  "source_commit_time": "2026-10-11T13:00:23Z",
+  "source_commit": "9423e83b997a91c451967766396609fc13657eca",
+  "source_commit_time": "2026-10-18T19:27:13Z",
   "source_path": "2026/10/11/exponential-high-order-stabilization-of-powered-bohr-rogosinski--261b3f2a2ada",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-261b3f2a2ada",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

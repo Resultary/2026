@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-odd-torsion-splits-the-triangular-systoles-of-the-seventeen-vert--eb1ba0fae9d9",
   "resultary_record_key": "SCOPE-odd-torsion-splits-the-triangular-systoles-of-the-seventeen-vert--eb1ba0fae9d9",
-  "source_commit": "1ba2a4054a9981f83ded853203f00e935b395262",
-  "source_commit_time": "2026-10-11T13:15:19Z",
+  "source_commit": "705a0117dbe946162b31706fbdf1bb1364ea0b2e",
+  "source_commit_time": "2026-10-18T20:09:46Z",
   "source_path": "2026/10/11/odd-torsion-splits-the-triangular-systoles-of-the-seventeen-vert--eb1ba0fae9d9",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-eb1ba0fae9d9",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

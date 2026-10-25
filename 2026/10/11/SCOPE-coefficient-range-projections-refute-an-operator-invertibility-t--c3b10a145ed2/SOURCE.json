@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-coefficient-range-projections-refute-an-operator-invertibility-t--c3b10a145ed2",
   "resultary_record_key": "SCOPE-coefficient-range-projections-refute-an-operator-invertibility-t--c3b10a145ed2",
-  "source_commit": "a7d2d4502b99050c66e41074ba5a101d1bcb7360",
-  "source_commit_time": "2026-10-11T12:58:16Z",
+  "source_commit": "e473bbf434d422e10116bf6596878635d577c49a",
+  "source_commit_time": "2026-10-25T19:12:54Z",
   "source_path": "2026/10/11/coefficient-range-projections-refute-an-operator-invertibility-t--c3b10a145ed2",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-c3b10a145ed2",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

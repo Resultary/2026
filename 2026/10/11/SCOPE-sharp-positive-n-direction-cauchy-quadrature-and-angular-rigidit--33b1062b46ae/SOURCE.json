@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-sharp-positive-n-direction-cauchy-quadrature-and-angular-rigidit--33b1062b46ae",
   "resultary_record_key": "SCOPE-sharp-positive-n-direction-cauchy-quadrature-and-angular-rigidit--33b1062b46ae",
-  "source_commit": "aee27cf15179611cf098280637369d3c1f6e5dac",
-  "source_commit_time": "2026-10-11T13:10:07Z",
+  "source_commit": "b36d1ae35040bbf4030d26d767a815d5d51dc363",
+  "source_commit_time": "2026-10-18T20:10:44Z",
   "source_path": "2026/10/11/sharp-positive-n-direction-cauchy-quadrature-and-angular-rigidit--33b1062b46ae",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-33b1062b46ae",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

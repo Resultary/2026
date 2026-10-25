@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-an-exact-four-dimensional-spectral-bound-for-khachiyan-central-c--ca780e6942d9",
   "resultary_record_key": "SCOPE-an-exact-four-dimensional-spectral-bound-for-khachiyan-central-c--ca780e6942d9",
-  "source_commit": "859f2702372e47c8e7ba615a48df8c048dfdfc35",
-  "source_commit_time": "2026-10-11T13:09:33Z",
+  "source_commit": "98265d4f5f1a13562d5fc681de145fd86e226541",
+  "source_commit_time": "2026-10-25T18:57:47Z",
   "source_path": "2026/10/11/an-exact-four-dimensional-spectral-bound-for-khachiyan-central-c--ca780e6942d9",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-ca780e6942d9",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

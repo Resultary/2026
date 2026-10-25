@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-sharp-facet-jumps-for-interpolated-complete-multipartite-lipschi--5c07b142df09",
   "resultary_record_key": "SCOPE-sharp-facet-jumps-for-interpolated-complete-multipartite-lipschi--5c07b142df09",
-  "source_commit": "ad633fc0d75c3b3266fca2b9e5b213ab3808388d",
-  "source_commit_time": "2026-10-11T13:13:10Z",
+  "source_commit": "094363237bcf8fbd91e5a8ca6fd452336e97a73c",
+  "source_commit_time": "2026-10-18T20:08:48Z",
   "source_path": "2026/10/11/sharp-facet-jumps-for-interpolated-complete-multipartite-lipschi--5c07b142df09",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-5c07b142df09",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

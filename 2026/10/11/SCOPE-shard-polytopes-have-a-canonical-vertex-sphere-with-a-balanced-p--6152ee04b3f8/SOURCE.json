@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-shard-polytopes-have-a-canonical-vertex-sphere-with-a-balanced-p--6152ee04b3f8",
   "resultary_record_key": "SCOPE-shard-polytopes-have-a-canonical-vertex-sphere-with-a-balanced-p--6152ee04b3f8",
-  "source_commit": "360c135b5691920297434d99c617020da03b1acf",
-  "source_commit_time": "2026-10-11T13:08:14Z",
+  "source_commit": "b396591b388083931617f69c6b6fc1348d726bdb",
+  "source_commit_time": "2026-10-18T20:04:23Z",
   "source_path": "2026/10/11/shard-polytopes-have-a-canonical-vertex-sphere-with-a-balanced-p--6152ee04b3f8",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-6152ee04b3f8",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

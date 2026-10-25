@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-fixed-content-bracelet-orbit-profiles-for-simon-s-circular-finit--087e4dd04736",
   "resultary_record_key": "SCOPE-fixed-content-bracelet-orbit-profiles-for-simon-s-circular-finit--087e4dd04736",
-  "source_commit": "330a1652f1d234ea33ee9963f504c4ffe60cbfe4",
-  "source_commit_time": "2026-10-04T05:57:45Z",
+  "source_commit": "e5fa200cdb8db68545631b395879e65f34984163",
+  "source_commit_time": "2026-10-18T19:28:37Z",
   "source_path": "2026/10/04/fixed-content-bracelet-orbit-profiles-for-simon-s-circular-finit--087e4dd04736",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-087e4dd04736",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

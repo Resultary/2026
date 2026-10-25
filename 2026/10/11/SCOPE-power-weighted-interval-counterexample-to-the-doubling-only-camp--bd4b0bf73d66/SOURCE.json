@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-power-weighted-interval-counterexample-to-the-doubling-only-camp--bd4b0bf73d66",
   "resultary_record_key": "SCOPE-power-weighted-interval-counterexample-to-the-doubling-only-camp--bd4b0bf73d66",
-  "source_commit": "0a48fa73a11c3d69c20e886fc7bcb07703495b6a",
-  "source_commit_time": "2026-10-11T13:14:07Z",
+  "source_commit": "59638fb7b54f5f34df4cfc97e774be765e2913b8",
+  "source_commit_time": "2026-10-18T20:05:50Z",
   "source_path": "2026/10/11/power-weighted-interval-counterexample-to-the-doubling-only-camp--bd4b0bf73d66",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-bd4b0bf73d66",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

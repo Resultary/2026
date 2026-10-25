@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-three-phase-john-ellipsoid-of-a-capped-hypercube--9b8726b32127",
   "resultary_record_key": "SCOPE-three-phase-john-ellipsoid-of-a-capped-hypercube--9b8726b32127",
-  "source_commit": "94b3788e0e330c3bc09132e1488a759d1f4c141d",
-  "source_commit_time": "2026-10-11T13:08:55Z",
+  "source_commit": "7ccb07ac4d4eb7048f7832f097e79f08f1260c1e",
+  "source_commit_time": "2026-10-18T20:02:29Z",
   "source_path": "2026/10/11/three-phase-john-ellipsoid-of-a-capped-hypercube--9b8726b32127",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-9b8726b32127",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

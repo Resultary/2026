@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-exact-binary-rank-four-fooling-set-maximum--aa5c74ce689a",
   "resultary_record_key": "SCOPE-exact-binary-rank-four-fooling-set-maximum--aa5c74ce689a",
-  "source_commit": "fcc7baf676cfce71354975f98d679b64b11bee4f",
-  "source_commit_time": "2026-10-04T05:55:33Z",
+  "source_commit": "5edfbcd3efb8b880c393e85cd12a8271f739a590",
+  "source_commit_time": "2026-10-18T20:10:23Z",
   "source_path": "2026/10/04/exact-binary-rank-four-fooling-set-maximum--aa5c74ce689a",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-aa5c74ce689a",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

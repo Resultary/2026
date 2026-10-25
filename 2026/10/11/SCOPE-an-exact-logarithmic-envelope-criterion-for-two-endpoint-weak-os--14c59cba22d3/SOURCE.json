@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-an-exact-logarithmic-envelope-criterion-for-two-endpoint-weak-os--14c59cba22d3",
   "resultary_record_key": "SCOPE-an-exact-logarithmic-envelope-criterion-for-two-endpoint-weak-os--14c59cba22d3",
-  "source_commit": "3acb5271de045deb5e9be0837b71c0594b9691c4",
-  "source_commit_time": "2026-10-11T13:14:09Z",
+  "source_commit": "28c7e846b800c275d317c7b118f4d7eb9fb6c5f0",
+  "source_commit_time": "2026-10-25T19:12:54Z",
   "source_path": "2026/10/11/an-exact-logarithmic-envelope-criterion-for-two-endpoint-weak-os--14c59cba22d3",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-14c59cba22d3",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

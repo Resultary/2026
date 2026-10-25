@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/18/SCOPE-a-factorized-local-time-displacement-covariance-profile-for-the--254aad83cd24",
+  "resultary_record_key": "SCOPE-a-factorized-local-time-displacement-covariance-profile-for-the--254aad83cd24",
+  "source_commit": "b31c33633c0915c716f0ab49afa8bd5aad1999aa",
+  "source_commit_time": "2026-10-25T18:56:16Z",
+  "source_path": "2026/10/18/a-factorized-local-time-displacement-covariance-profile-for-the--254aad83cd24",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261018-254aad83cd24",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-lipschitz-stability-and-contractivity-threshold-for-weight--c92b6dad1bd0",
   "resultary_record_key": "SCOPE-exact-lipschitz-stability-and-contractivity-threshold-for-weight--c92b6dad1bd0",
-  "source_commit": "91e79a79d88bf2bba4d611bd332b85390b5e31d2",
-  "source_commit_time": "2026-10-11T13:11:30Z",
+  "source_commit": "f493c9f9a85ce0457c94492d6bd39982d3f35483",
+  "source_commit_time": "2026-10-18T19:27:55Z",
   "source_path": "2026/10/11/exact-lipschitz-stability-and-contractivity-threshold-for-weight--c92b6dad1bd0",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-c92b6dad1bd0",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-real-and-complex-quadratic-hilbert-coefficient-constants-w--c36cc14a214a",
   "resultary_record_key": "SCOPE-exact-real-and-complex-quadratic-hilbert-coefficient-constants-w--c36cc14a214a",
-  "source_commit": "8bf6949b67245ac12d695ac7faf6226a5d794e36",
-  "source_commit_time": "2026-10-11T13:14:14Z",
+  "source_commit": "f770a7cdae98af553e0ab8945d86d1aa0e642795",
+  "source_commit_time": "2026-10-18T20:09:43Z",
   "source_path": "2026/10/11/exact-real-and-complex-quadratic-hilbert-coefficient-constants-w--c36cc14a214a",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-c36cc14a214a",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

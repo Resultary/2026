@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-primitive-one-systoles-in-the-15-vertex-three-torus--fb3e28d91411",
   "resultary_record_key": "SCOPE-primitive-one-systoles-in-the-15-vertex-three-torus--fb3e28d91411",
-  "source_commit": "d18128cd2b55088613c7e3bfb8d21ca600ff883e",
-  "source_commit_time": "2026-10-11T13:15:02Z",
+  "source_commit": "69b8d66412249f906efeca7d1b84bf9f2e914e19",
+  "source_commit_time": "2026-10-18T20:07:42Z",
   "source_path": "2026/10/11/primitive-one-systoles-in-the-15-vertex-three-torus--fb3e28d91411",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-fb3e28d91411",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

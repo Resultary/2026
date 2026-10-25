@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-finite-summary-risk-reversal-for-sage-step-size-adaptation--29a8e488b106",
   "resultary_record_key": "SCOPE-finite-summary-risk-reversal-for-sage-step-size-adaptation--29a8e488b106",
-  "source_commit": "4a20a315f3aa384589d290241d4c719d143a23c0",
-  "source_commit_time": "2026-10-04T06:02:18Z",
+  "source_commit": "ec9619f4f79331d3f92ab3e82413b7b0e9ff3416",
+  "source_commit_time": "2026-10-18T20:10:26Z",
   "source_path": "2026/10/04/finite-summary-risk-reversal-for-sage-step-size-adaptation--29a8e488b106",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-29a8e488b106",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

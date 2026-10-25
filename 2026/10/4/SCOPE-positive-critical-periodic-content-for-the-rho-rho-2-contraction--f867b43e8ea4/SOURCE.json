@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-positive-critical-periodic-content-for-the-rho-rho-2-contraction--f867b43e8ea4",
   "resultary_record_key": "SCOPE-positive-critical-periodic-content-for-the-rho-rho-2-contraction--f867b43e8ea4",
-  "source_commit": "77027204dd834ebc901545724db18f86eb849f11",
-  "source_commit_time": "2026-10-04T04:51:24Z",
+  "source_commit": "b73557db3164544c67a42768a8b41271f9d33f81",
+  "source_commit_time": "2026-10-18T19:28:40Z",
   "source_path": "2026/10/04/positive-critical-periodic-content-for-the-rho-rho-2-contraction--f867b43e8ea4",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-f867b43e8ea4",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-04T04:59:35Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

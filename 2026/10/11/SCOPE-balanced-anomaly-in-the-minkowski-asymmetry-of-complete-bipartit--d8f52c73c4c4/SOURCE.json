@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-balanced-anomaly-in-the-minkowski-asymmetry-of-complete-bipartit--d8f52c73c4c4",
   "resultary_record_key": "SCOPE-balanced-anomaly-in-the-minkowski-asymmetry-of-complete-bipartit--d8f52c73c4c4",
-  "source_commit": "81743e5464b35ecbd338313419ac3f02d5e3f75f",
-  "source_commit_time": "2026-10-11T13:09:12Z",
+  "source_commit": "4c2d03117cf8e97bdb4e6e69307ac984cdd2b299",
+  "source_commit_time": "2026-10-25T18:57:47Z",
   "source_path": "2026/10/11/balanced-anomaly-in-the-minkowski-asymmetry-of-complete-bipartit--d8f52c73c4c4",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-d8f52c73c4c4",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

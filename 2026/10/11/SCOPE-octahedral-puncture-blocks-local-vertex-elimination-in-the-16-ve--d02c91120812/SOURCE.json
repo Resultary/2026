@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-octahedral-puncture-blocks-local-vertex-elimination-in-the-16-ve--d02c91120812",
   "resultary_record_key": "SCOPE-octahedral-puncture-blocks-local-vertex-elimination-in-the-16-ve--d02c91120812",
-  "source_commit": "10f7c442a194124fd1d3a0e74049a8103e0b9004",
-  "source_commit_time": "2026-10-11T13:14:59Z",
+  "source_commit": "0e777057b0ae3eebe09bd84799b3f8df6833c65e",
+  "source_commit_time": "2026-10-18T20:08:46Z",
   "source_path": "2026/10/11/octahedral-puncture-blocks-local-vertex-elimination-in-the-16-ve--d02c91120812",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-d02c91120812",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

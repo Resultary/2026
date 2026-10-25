@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-exponential-realizer-window-for-line-deleted-critical-fock--d12873545f9a",
   "resultary_record_key": "SCOPE-exact-exponential-realizer-window-for-line-deleted-critical-fock--d12873545f9a",
-  "source_commit": "e31d7086954f4dfa55f705b873caf416b25f430f",
-  "source_commit_time": "2026-10-11T13:00:01Z",
+  "source_commit": "1a744eb70ac651b531521fb1d27611102fbc766b",
+  "source_commit_time": "2026-10-18T20:09:42Z",
   "source_path": "2026/10/11/exact-exponential-realizer-window-for-line-deleted-critical-fock--d12873545f9a",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-d12873545f9a",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

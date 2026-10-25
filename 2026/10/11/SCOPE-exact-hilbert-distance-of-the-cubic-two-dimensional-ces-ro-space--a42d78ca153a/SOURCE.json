@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-hilbert-distance-of-the-cubic-two-dimensional-ces-ro-space--a42d78ca153a",
   "resultary_record_key": "SCOPE-exact-hilbert-distance-of-the-cubic-two-dimensional-ces-ro-space--a42d78ca153a",
-  "source_commit": "bba000e77aad5f9c4ea2bacb2ddf71d8886fa27e",
-  "source_commit_time": "2026-10-11T13:11:00Z",
+  "source_commit": "714c74888a8306ab8c2d1e4532aebbb2018b5893",
+  "source_commit_time": "2026-10-18T19:28:54Z",
   "source_path": "2026/10/11/exact-hilbert-distance-of-the-cubic-two-dimensional-ces-ro-space--a42d78ca153a",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-a42d78ca153a",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

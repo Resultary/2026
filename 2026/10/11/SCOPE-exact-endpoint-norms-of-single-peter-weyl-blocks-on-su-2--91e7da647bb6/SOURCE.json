@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-endpoint-norms-of-single-peter-weyl-blocks-on-su-2--91e7da647bb6",
   "resultary_record_key": "SCOPE-exact-endpoint-norms-of-single-peter-weyl-blocks-on-su-2--91e7da647bb6",
-  "source_commit": "e1737e94900a441ba070a16006c49393fccee12e",
-  "source_commit_time": "2026-10-11T12:57:18Z",
+  "source_commit": "0f0a954846e8fb9d772284a15b8c2174638ffa3c",
+  "source_commit_time": "2026-10-18T19:28:52Z",
   "source_path": "2026/10/11/exact-endpoint-norms-of-single-peter-weyl-blocks-on-su-2--91e7da647bb6",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-91e7da647bb6",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

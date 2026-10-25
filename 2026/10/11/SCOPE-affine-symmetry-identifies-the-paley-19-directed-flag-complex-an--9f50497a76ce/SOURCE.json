@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-affine-symmetry-identifies-the-paley-19-directed-flag-complex-an--9f50497a76ce",
   "resultary_record_key": "SCOPE-affine-symmetry-identifies-the-paley-19-directed-flag-complex-an--9f50497a76ce",
-  "source_commit": "eeb1ac36a4fed7aa90aa0df982ecb38c6786b5ad",
-  "source_commit_time": "2026-10-11T13:16:56Z",
+  "source_commit": "cd30bf5cfb42462c4ec01f9a908d028f6b371fea",
+  "source_commit_time": "2026-10-18T20:08:34Z",
   "source_path": "2026/10/11/affine-symmetry-identifies-the-paley-19-directed-flag-complex-an--9f50497a76ce",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-9f50497a76ce",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-sharp-affine-certificate-region-and-global-attraction-for-quinti--b0b8c4a8818d",
   "resultary_record_key": "SCOPE-sharp-affine-certificate-region-and-global-attraction-for-quinti--b0b8c4a8818d",
-  "source_commit": "3fb425d5da7c745821384581c24ff674cce8700c",
-  "source_commit_time": "2026-10-11T13:04:21Z",
+  "source_commit": "76bdada1059e68d447ce5cf090a3fec0b342172d",
+  "source_commit_time": "2026-10-18T20:04:23Z",
   "source_path": "2026/10/11/sharp-affine-certificate-region-and-global-attraction-for-quinti--b0b8c4a8818d",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-b0b8c4a8818d",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

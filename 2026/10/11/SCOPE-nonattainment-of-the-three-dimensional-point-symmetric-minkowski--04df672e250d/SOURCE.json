@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-nonattainment-of-the-three-dimensional-point-symmetric-minkowski--04df672e250d",
   "resultary_record_key": "SCOPE-nonattainment-of-the-three-dimensional-point-symmetric-minkowski--04df672e250d",
-  "source_commit": "53720ba64b6f4e4100139e557be51ae6a0e41252",
-  "source_commit_time": "2026-10-11T13:09:44Z",
+  "source_commit": "4315c1a7b31faafb31a28e74e494208e7ee45669",
+  "source_commit_time": "2026-10-18T20:07:40Z",
   "source_path": "2026/10/11/nonattainment-of-the-three-dimensional-point-symmetric-minkowski--04df672e250d",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-04df672e250d",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

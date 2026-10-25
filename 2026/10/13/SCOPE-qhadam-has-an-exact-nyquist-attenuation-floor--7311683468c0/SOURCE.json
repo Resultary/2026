@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/13/SCOPE-qhadam-has-an-exact-nyquist-attenuation-floor--7311683468c0",
+  "resultary_record_key": "SCOPE-qhadam-has-an-exact-nyquist-attenuation-floor--7311683468c0",
+  "source_commit": "0acda01dd8b2df81ab29946981721039dcb79f49",
+  "source_commit_time": "2026-10-18T20:06:46Z",
+  "source_path": "2026/10/13/qhadam-has-an-exact-nyquist-attenuation-floor--7311683468c0",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261013-7311683468c0",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

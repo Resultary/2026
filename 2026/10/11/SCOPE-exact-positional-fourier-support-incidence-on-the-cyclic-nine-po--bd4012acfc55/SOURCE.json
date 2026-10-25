@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-positional-fourier-support-incidence-on-the-cyclic-nine-po--bd4012acfc55",
   "resultary_record_key": "SCOPE-exact-positional-fourier-support-incidence-on-the-cyclic-nine-po--bd4012acfc55",
-  "source_commit": "cdab4f17322f8c636c2dd49b7b0d138424368ad0",
-  "source_commit_time": "2026-10-11T12:59:52Z",
+  "source_commit": "73078f317db8905fd2fc69d9c4dee58dc8cd0ab9",
+  "source_commit_time": "2026-10-18T19:27:12Z",
   "source_path": "2026/10/11/exact-positional-fourier-support-incidence-on-the-cyclic-nine-po--bd4012acfc55",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-bd4012acfc55",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

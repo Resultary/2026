@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/13/SCOPE-exact-tribonacci-3-pseudoperiod-census-below-the-504-substitutio--795df7267243",
+  "resultary_record_key": "SCOPE-exact-tribonacci-3-pseudoperiod-census-below-the-504-substitutio--795df7267243",
+  "source_commit": "ef211a5f542c1a63bd2afb02ee95af989973685f",
+  "source_commit_time": "2026-10-18T19:27:52Z",
+  "source_path": "2026/10/13/exact-tribonacci-3-pseudoperiod-census-below-the-504-substitutio--795df7267243",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261013-795df7267243",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

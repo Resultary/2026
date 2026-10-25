@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-zero-free-power-deficit-radial-bergman-kernels--19710ce10193",
   "resultary_record_key": "SCOPE-zero-free-power-deficit-radial-bergman-kernels--19710ce10193",
-  "source_commit": "c4a77c8e104e6d4f8eec44f0a43a60fbb21acf53",
-  "source_commit_time": "2026-10-11T13:01:21Z",
+  "source_commit": "71ab7cc014525a0b3258cec10ddfdce97590eca2",
+  "source_commit_time": "2026-10-18T20:07:54Z",
   "source_path": "2026/10/11/zero-free-power-deficit-radial-bergman-kernels--19710ce10193",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-19710ce10193",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

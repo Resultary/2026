@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-laplacian-factorization-and-paired-harmonics-of-consecutiv--4e1f2dfdd255",
   "resultary_record_key": "SCOPE-exact-laplacian-factorization-and-paired-harmonics-of-consecutiv--4e1f2dfdd255",
-  "source_commit": "4a627953b7ec9bf2644aa536fd51cd9344708bc3",
-  "source_commit_time": "2026-10-11T13:08:43Z",
+  "source_commit": "116ab940ef78a01ab2554593503f05ac06d772fb",
+  "source_commit_time": "2026-10-18T19:27:11Z",
   "source_path": "2026/10/11/exact-laplacian-factorization-and-paired-harmonics-of-consecutiv--4e1f2dfdd255",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-4e1f2dfdd255",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

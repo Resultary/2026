@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-exact-binary-two-mathrm-pal-2-code-sizes-through-length-eight--ba7c5d4a4968",
   "resultary_record_key": "SCOPE-exact-binary-two-mathrm-pal-2-code-sizes-through-length-eight--ba7c5d4a4968",
-  "source_commit": "34fa4f7875a75c4110d420bc3f7d86d53cdd986f",
-  "source_commit_time": "2026-10-04T05:56:35Z",
+  "source_commit": "622fdae11afe95dfca8aaf8cb1481400747b364c",
+  "source_commit_time": "2026-10-18T20:10:23Z",
   "source_path": "2026/10/04/exact-binary-two-mathrm-pal-2-code-sizes-through-length-eight--ba7c5d4a4968",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-ba7c5d4a4968",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

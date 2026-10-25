@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-fish-mean-ceiling-and-zooplankton-variance-defect-on-crowl--8c8973578260",
   "resultary_record_key": "SCOPE-exact-fish-mean-ceiling-and-zooplankton-variance-defect-on-crowl--8c8973578260",
-  "source_commit": "48eb4c9340139c6f7966fa8b8576a16e1fc32da1",
-  "source_commit_time": "2026-10-11T13:03:32Z",
+  "source_commit": "64d585f02e81d907f3c4c2df4d70e55e585a1b72",
+  "source_commit_time": "2026-10-18T19:28:53Z",
   "source_path": "2026/10/11/exact-fish-mean-ceiling-and-zooplankton-variance-defect-on-crowl--8c8973578260",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-8c8973578260",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

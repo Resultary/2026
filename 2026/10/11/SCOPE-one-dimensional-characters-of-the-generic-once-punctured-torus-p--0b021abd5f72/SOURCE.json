@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-one-dimensional-characters-of-the-generic-once-punctured-torus-p--0b021abd5f72",
   "resultary_record_key": "SCOPE-one-dimensional-characters-of-the-generic-once-punctured-torus-p--0b021abd5f72",
-  "source_commit": "633593f576de25e0b04eb98fcdee3e50515b12da",
-  "source_commit_time": "2026-10-11T13:17:56Z",
+  "source_commit": "aab943efe404549dedaa9e09b5088910dc72ddc4",
+  "source_commit_time": "2026-10-18T20:09:47Z",
   "source_path": "2026/10/11/one-dimensional-characters-of-the-generic-once-punctured-torus-p--0b021abd5f72",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-0b021abd5f72",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

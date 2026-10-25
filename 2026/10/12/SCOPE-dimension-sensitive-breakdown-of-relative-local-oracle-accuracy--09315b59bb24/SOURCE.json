@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/12/SCOPE-dimension-sensitive-breakdown-of-relative-local-oracle-accuracy--09315b59bb24",
+  "resultary_record_key": "SCOPE-dimension-sensitive-breakdown-of-relative-local-oracle-accuracy--09315b59bb24",
+  "source_commit": "12972671461ed8bb4d71c0f2c578ebbdfdb1e854",
+  "source_commit_time": "2026-10-18T20:03:09Z",
+  "source_path": "2026/10/12/dimension-sensitive-breakdown-of-relative-local-oracle-accuracy--09315b59bb24",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261012-09315b59bb24",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

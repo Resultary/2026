@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-eight-move-untangling-distances-for-two-minimal-hard-petal--84c0c8215d06",
   "resultary_record_key": "SCOPE-exact-eight-move-untangling-distances-for-two-minimal-hard-petal--84c0c8215d06",
-  "source_commit": "d1136df6230f0fc18da8653aba61f922a9488755",
-  "source_commit_time": "2026-10-11T13:17:42Z",
+  "source_commit": "69cf800d94318bf53b6775bd6f89cf1bdc98563a",
+  "source_commit_time": "2026-10-18T20:10:36Z",
   "source_path": "2026/10/11/exact-eight-move-untangling-distances-for-two-minimal-hard-petal--84c0c8215d06",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-84c0c8215d06",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

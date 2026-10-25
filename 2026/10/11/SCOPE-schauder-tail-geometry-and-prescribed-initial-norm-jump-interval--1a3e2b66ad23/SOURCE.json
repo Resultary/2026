@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-schauder-tail-geometry-and-prescribed-initial-norm-jump-interval--1a3e2b66ad23",
   "resultary_record_key": "SCOPE-schauder-tail-geometry-and-prescribed-initial-norm-jump-interval--1a3e2b66ad23",
-  "source_commit": "185bb51c8e18a392f21eca7d59db77fb677145c3",
-  "source_commit_time": "2026-10-11T13:14:12Z",
+  "source_commit": "720d6f7c44df8f879da3a056f3b1eae614fcaa4a",
+  "source_commit_time": "2026-10-18T19:29:01Z",
   "source_path": "2026/10/11/schauder-tail-geometry-and-prescribed-initial-norm-jump-interval--1a3e2b66ad23",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-1a3e2b66ad23",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

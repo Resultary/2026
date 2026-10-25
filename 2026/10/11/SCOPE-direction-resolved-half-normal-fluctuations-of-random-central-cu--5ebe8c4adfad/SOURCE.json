@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-direction-resolved-half-normal-fluctuations-of-random-central-cu--5ebe8c4adfad",
   "resultary_record_key": "SCOPE-direction-resolved-half-normal-fluctuations-of-random-central-cu--5ebe8c4adfad",
-  "source_commit": "feb6ae8589c6039c155903940f4463f118aaa98a",
-  "source_commit_time": "2026-10-11T13:10:20Z",
+  "source_commit": "790d6d8136b6b8d7ed08bcbeca31d7adeb0450d0",
+  "source_commit_time": "2026-10-18T19:28:51Z",
   "source_path": "2026/10/11/direction-resolved-half-normal-fluctuations-of-random-central-cu--5ebe8c4adfad",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-5ebe8c4adfad",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

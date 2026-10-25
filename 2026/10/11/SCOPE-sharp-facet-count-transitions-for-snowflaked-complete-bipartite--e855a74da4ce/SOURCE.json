@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-sharp-facet-count-transitions-for-snowflaked-complete-bipartite--e855a74da4ce",
   "resultary_record_key": "SCOPE-sharp-facet-count-transitions-for-snowflaked-complete-bipartite--e855a74da4ce",
-  "source_commit": "ce6257e85b4d032546b681320ea56614836b36be",
-  "source_commit_time": "2026-10-11T13:13:08Z",
+  "source_commit": "b04abfcd3be713ce85e6a47e9d93d93abb42f41f",
+  "source_commit_time": "2026-10-18T20:08:48Z",
   "source_path": "2026/10/11/sharp-facet-count-transitions-for-snowflaked-complete-bipartite--e855a74da4ce",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-e855a74da4ce",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

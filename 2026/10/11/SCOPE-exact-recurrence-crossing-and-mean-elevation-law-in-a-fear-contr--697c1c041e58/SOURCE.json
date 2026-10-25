@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-recurrence-crossing-and-mean-elevation-law-in-a-fear-contr--697c1c041e58",
   "resultary_record_key": "SCOPE-exact-recurrence-crossing-and-mean-elevation-law-in-a-fear-contr--697c1c041e58",
-  "source_commit": "77cd9769cc807a3bd508b857f19b63f99a58a94d",
-  "source_commit_time": "2026-10-11T13:03:35Z",
+  "source_commit": "77f15ac01f660da6ba5d7580a7285cb1d63d0837",
+  "source_commit_time": "2026-10-18T19:27:12Z",
   "source_path": "2026/10/11/exact-recurrence-crossing-and-mean-elevation-law-in-a-fear-contr--697c1c041e58",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-697c1c041e58",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

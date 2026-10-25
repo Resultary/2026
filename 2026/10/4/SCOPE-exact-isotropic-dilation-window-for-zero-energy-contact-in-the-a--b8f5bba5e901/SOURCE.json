@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-exact-isotropic-dilation-window-for-zero-energy-contact-in-the-a--b8f5bba5e901",
   "resultary_record_key": "SCOPE-exact-isotropic-dilation-window-for-zero-energy-contact-in-the-a--b8f5bba5e901",
-  "source_commit": "0d7365bcb55493af503bfc6622878d1a68ed395a",
-  "source_commit_time": "2026-10-04T05:59:13Z",
+  "source_commit": "f3d012ff9d9658aa4cd23fdd5e24ef5e5315e408",
+  "source_commit_time": "2026-10-18T19:28:35Z",
   "source_path": "2026/10/04/exact-isotropic-dilation-window-for-zero-energy-contact-in-the-a--b8f5bba5e901",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-b8f5bba5e901",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

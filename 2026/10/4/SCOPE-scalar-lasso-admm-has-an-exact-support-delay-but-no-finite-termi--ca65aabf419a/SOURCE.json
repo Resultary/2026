@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-scalar-lasso-admm-has-an-exact-support-delay-but-no-finite-termi--ca65aabf419a",
   "resultary_record_key": "SCOPE-scalar-lasso-admm-has-an-exact-support-delay-but-no-finite-termi--ca65aabf419a",
-  "source_commit": "6ab01622fc6c6c6b303770f05bdf1ce70a078e53",
-  "source_commit_time": "2026-10-04T05:59:54Z",
+  "source_commit": "794e2d3d0b33a56be6ad913a5c87cfed765cdc04",
+  "source_commit_time": "2026-10-18T19:28:40Z",
   "source_path": "2026/10/04/scalar-lasso-admm-has-an-exact-support-delay-but-no-finite-termi--ca65aabf419a",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-ca65aabf419a",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

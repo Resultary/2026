@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-block-weight-phase-diagram-for-the-qutrit-holevo-mld-separation--d300fb75e7b8",
   "resultary_record_key": "SCOPE-block-weight-phase-diagram-for-the-qutrit-holevo-mld-separation--d300fb75e7b8",
-  "source_commit": "81b6c48cdce35e2d50492985cbef9b4b7927c4fc",
-  "source_commit_time": "2026-10-04T05:59:25Z",
+  "source_commit": "7950194252196f55438640b78f7ae65dc98a35fb",
+  "source_commit_time": "2026-10-18T20:20:07Z",
   "source_path": "2026/10/04/block-weight-phase-diagram-for-the-qutrit-holevo-mld-separation--d300fb75e7b8",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-d300fb75e7b8",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/13/SCOPE-random-bipartite-type-counts-persist-exactly-through-the-first-a--669309f61ec2",
+  "resultary_record_key": "SCOPE-random-bipartite-type-counts-persist-exactly-through-the-first-a--669309f61ec2",
+  "source_commit": "59dc235f8c64a8f8eaaff312abab3398661b5fea",
+  "source_commit_time": "2026-10-18T20:09:28Z",
+  "source_path": "2026/10/13/random-bipartite-type-counts-persist-exactly-through-the-first-a--669309f61ec2",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261013-669309f61ec2",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-delay-independent-finite-amplitude-mean-corridor-for-periodic-pr--4cc59f562ca9",
   "resultary_record_key": "SCOPE-delay-independent-finite-amplitude-mean-corridor-for-periodic-pr--4cc59f562ca9",
-  "source_commit": "244ca09b2f12792e7488728b1a29519d9cb9c64c",
-  "source_commit_time": "2026-10-11T13:03:36Z",
+  "source_commit": "1a96b69a7b002c9c852232e755522bec6a1023bf",
+  "source_commit_time": "2026-10-18T20:08:37Z",
   "source_path": "2026/10/11/delay-independent-finite-amplitude-mean-corridor-for-periodic-pr--4cc59f562ca9",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-4cc59f562ca9",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

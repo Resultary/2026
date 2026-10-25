@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-local-conditioning-and-optimal-weighting-for-two-tap-cycli--52be44b25eaa",
   "resultary_record_key": "SCOPE-exact-local-conditioning-and-optimal-weighting-for-two-tap-cycli--52be44b25eaa",
-  "source_commit": "12b4800f0fe24034dc12d47ad1814fc0636a5461",
-  "source_commit_time": "2026-10-11T12:59:30Z",
+  "source_commit": "8696ce455abac5f5ce4253c1ae74b4da8161ce95",
+  "source_commit_time": "2026-10-18T19:28:54Z",
   "source_path": "2026/10/11/exact-local-conditioning-and-optimal-weighting-for-two-tap-cycli--52be44b25eaa",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-52be44b25eaa",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

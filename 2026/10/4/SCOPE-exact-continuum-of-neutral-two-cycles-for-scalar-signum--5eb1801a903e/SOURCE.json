@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-exact-continuum-of-neutral-two-cycles-for-scalar-signum--5eb1801a903e",
   "resultary_record_key": "SCOPE-exact-continuum-of-neutral-two-cycles-for-scalar-signum--5eb1801a903e",
-  "source_commit": "970df9a13777069074aa545b8a4e0357443e64f7",
-  "source_commit_time": "2026-10-04T06:00:17Z",
+  "source_commit": "2ca77bbd6a4b8c010a25d31dbd5be5c45e867c77",
+  "source_commit_time": "2026-10-18T20:10:23Z",
   "source_path": "2026/10/04/exact-continuum-of-neutral-two-cycles-for-scalar-signum--5eb1801a903e",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-5eb1801a903e",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

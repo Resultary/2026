@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-strict-log-concavity-for-complete-graph-coronas--cc76f1cb7642",
   "resultary_record_key": "SCOPE-strict-log-concavity-for-complete-graph-coronas--cc76f1cb7642",
-  "source_commit": "b21947e8722256b18aba9a482627812c5a0fd526",
-  "source_commit_time": "2026-10-04T05:54:39Z",
+  "source_commit": "fb4f3a47363d66b3ae9187e3e647f9f6ee7b891f",
+  "source_commit_time": "2026-10-18T20:10:30Z",
   "source_path": "2026/10/04/strict-log-concavity-for-complete-graph-coronas--cc76f1cb7642",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-cc76f1cb7642",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

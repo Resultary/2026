@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-strict-recurrent-sector-barriers-for-the-single-unstable-node-qu--d0e4172ca104",
   "resultary_record_key": "SCOPE-strict-recurrent-sector-barriers-for-the-single-unstable-node-qu--d0e4172ca104",
-  "source_commit": "a7c8ad903920204f08715d637630745a5ffa8d0b",
-  "source_commit_time": "2026-10-11T13:02:53Z",
+  "source_commit": "29f1457354869ff9339d83fd0d9a1fc3b79b549b",
+  "source_commit_time": "2026-10-18T20:10:45Z",
   "source_path": "2026/10/11/strict-recurrent-sector-barriers-for-the-single-unstable-node-qu--d0e4172ca104",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-d0e4172ca104",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

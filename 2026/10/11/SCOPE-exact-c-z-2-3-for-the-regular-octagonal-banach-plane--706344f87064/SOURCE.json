@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-c-z-2-3-for-the-regular-octagonal-banach-plane--706344f87064",
   "resultary_record_key": "SCOPE-exact-c-z-2-3-for-the-regular-octagonal-banach-plane--706344f87064",
-  "source_commit": "229f2ad3ece1b88e701d8a4b17f75f9eebf060fd",
-  "source_commit_time": "2026-10-11T13:11:44Z",
+  "source_commit": "56e462a8eb7e15647050fb71c0c1b4e6041e9103",
+  "source_commit_time": "2026-10-18T20:08:39Z",
   "source_path": "2026/10/11/exact-c-z-2-3-for-the-regular-octagonal-banach-plane--706344f87064",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-706344f87064",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

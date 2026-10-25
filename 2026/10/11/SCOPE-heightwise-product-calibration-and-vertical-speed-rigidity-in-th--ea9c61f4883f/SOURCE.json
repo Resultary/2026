@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-heightwise-product-calibration-and-vertical-speed-rigidity-in-th--ea9c61f4883f",
   "resultary_record_key": "SCOPE-heightwise-product-calibration-and-vertical-speed-rigidity-in-th--ea9c61f4883f",
-  "source_commit": "5b7b93e6b98558aa931b95098a3f8ebb6363712f",
-  "source_commit_time": "2026-10-11T13:02:01Z",
+  "source_commit": "72d6b5db437c76b0c50c447e5fd0037a500ef6e1",
+  "source_commit_time": "2026-10-18T20:10:40Z",
   "source_path": "2026/10/11/heightwise-product-calibration-and-vertical-speed-rigidity-in-th--ea9c61f4883f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-ea9c61f4883f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

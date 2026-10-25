@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-clock-distance-gives-reciprocal-euclidean-radii-for-the-cyclohed--c649852b7de6",
   "resultary_record_key": "SCOPE-clock-distance-gives-reciprocal-euclidean-radii-for-the-cyclohed--c649852b7de6",
-  "source_commit": "e32ba75c9a21dcd6e594d7eeb45fc479bac12191",
-  "source_commit_time": "2026-10-11T13:08:23Z",
+  "source_commit": "f23a18054885f1b36b7c0df1ff610bc8d13102bc",
+  "source_commit_time": "2026-10-18T19:27:08Z",
   "source_path": "2026/10/11/clock-distance-gives-reciprocal-euclidean-radii-for-the-cyclohed--c649852b7de6",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-c649852b7de6",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

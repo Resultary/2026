@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-pendant-loop-threshold-for-discontinuous-chiral-ordering-in-fini--95727938984e",
   "resultary_record_key": "SCOPE-pendant-loop-threshold-for-discontinuous-chiral-ordering-in-fini--95727938984e",
-  "source_commit": "585c7ac510a426dfcac5bc78ed0ac02f72bdb86a",
-  "source_commit_time": "2026-10-11T13:05:20Z",
+  "source_commit": "2d78c52b66b2f3b0fc96b11147a7a33da6109843",
+  "source_commit_time": "2026-10-18T20:10:42Z",
   "source_path": "2026/10/11/pendant-loop-threshold-for-discontinuous-chiral-ordering-in-fini--95727938984e",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-95727938984e",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

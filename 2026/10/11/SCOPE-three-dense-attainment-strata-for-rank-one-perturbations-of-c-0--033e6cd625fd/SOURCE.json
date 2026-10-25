@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-three-dense-attainment-strata-for-rank-one-perturbations-of-c-0--033e6cd625fd",
   "resultary_record_key": "SCOPE-three-dense-attainment-strata-for-rank-one-perturbations-of-c-0--033e6cd625fd",
-  "source_commit": "34db8f52c9b820b0ce4aeec8e74089aa966d547e",
-  "source_commit_time": "2026-10-11T13:12:58Z",
+  "source_commit": "ad2c3322a18b47da47bd0fba58b9f7f5fc117e88",
+  "source_commit_time": "2026-10-18T19:28:03Z",
   "source_path": "2026/10/11/three-dense-attainment-strata-for-rank-one-perturbations-of-c-0--033e6cd625fd",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-033e6cd625fd",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

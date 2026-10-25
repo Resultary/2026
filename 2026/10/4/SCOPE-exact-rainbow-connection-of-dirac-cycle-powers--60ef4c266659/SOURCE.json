@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-exact-rainbow-connection-of-dirac-cycle-powers--60ef4c266659",
   "resultary_record_key": "SCOPE-exact-rainbow-connection-of-dirac-cycle-powers--60ef4c266659",
-  "source_commit": "fb061b68a6305ff9515f9bbe9ce3ebb72b7c1a94",
-  "source_commit_time": "2026-10-04T05:55:08Z",
+  "source_commit": "bfe42ef7f5f9ef98a33d5a4fbadca49d00feeaa5",
+  "source_commit_time": "2026-10-18T20:10:25Z",
   "source_path": "2026/10/04/exact-rainbow-connection-of-dirac-cycle-powers--60ef4c266659",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-60ef4c266659",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

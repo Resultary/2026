@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-inscribed-quadrilateral-constant-of-the-regular-octagonal--55375e344773",
   "resultary_record_key": "SCOPE-exact-inscribed-quadrilateral-constant-of-the-regular-octagonal--55375e344773",
-  "source_commit": "3055cc8f489c80aa510fffa8b29cb67a048483ad",
-  "source_commit_time": "2026-10-11T13:11:42Z",
+  "source_commit": "a2fa24f3396c443daaad61b07dae47babff6a341",
+  "source_commit_time": "2026-10-18T20:04:14Z",
   "source_path": "2026/10/11/exact-inscribed-quadrilateral-constant-of-the-regular-octagonal--55375e344773",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-55375e344773",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

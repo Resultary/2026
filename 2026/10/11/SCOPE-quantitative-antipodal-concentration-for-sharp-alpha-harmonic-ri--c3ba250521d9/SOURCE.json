@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-quantitative-antipodal-concentration-for-sharp-alpha-harmonic-ri--c3ba250521d9",
   "resultary_record_key": "SCOPE-quantitative-antipodal-concentration-for-sharp-alpha-harmonic-ri--c3ba250521d9",
-  "source_commit": "c5376699560f49a90e09a4ae91826747a12ee27c",
-  "source_commit_time": "2026-10-11T13:01:12Z",
+  "source_commit": "aa4c5b252153105610f445af8c649992d304257d",
+  "source_commit_time": "2026-10-18T20:10:42Z",
   "source_path": "2026/10/11/quantitative-antipodal-concentration-for-sharp-alpha-harmonic-ri--c3ba250521d9",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-c3ba250521d9",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-sharp-period-four-census-for-complete-multipartite-parity-automa--acea41c73be7",
   "resultary_record_key": "SCOPE-sharp-period-four-census-for-complete-multipartite-parity-automa--acea41c73be7",
-  "source_commit": "bf369894a3f0f884687f00721b7ab626257dcef7",
-  "source_commit_time": "2026-10-11T13:05:59Z",
+  "source_commit": "ce1d238c4850d1e83e774ebee3c3297b10e4d9be",
+  "source_commit_time": "2026-10-18T20:09:49Z",
   "source_path": "2026/10/11/sharp-period-four-census-for-complete-multipartite-parity-automa--acea41c73be7",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-acea41c73be7",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

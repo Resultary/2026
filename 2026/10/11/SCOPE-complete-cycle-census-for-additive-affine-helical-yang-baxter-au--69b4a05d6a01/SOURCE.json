@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-complete-cycle-census-for-additive-affine-helical-yang-baxter-au--69b4a05d6a01",
   "resultary_record_key": "SCOPE-complete-cycle-census-for-additive-affine-helical-yang-baxter-au--69b4a05d6a01",
-  "source_commit": "36de73a6cb429837a8b479ce48744e53d977c073",
-  "source_commit_time": "2026-10-11T13:06:00Z",
+  "source_commit": "e2aa7f35ddbd580fc48377a35440c4468d00db94",
+  "source_commit_time": "2026-10-25T19:12:54Z",
   "source_path": "2026/10/11/complete-cycle-census-for-additive-affine-helical-yang-baxter-au--69b4a05d6a01",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-69b4a05d6a01",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

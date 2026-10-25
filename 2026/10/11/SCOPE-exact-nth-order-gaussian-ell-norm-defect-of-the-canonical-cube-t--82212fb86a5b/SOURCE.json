@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-nth-order-gaussian-ell-norm-defect-of-the-canonical-cube-t--82212fb86a5b",
   "resultary_record_key": "SCOPE-exact-nth-order-gaussian-ell-norm-defect-of-the-canonical-cube-t--82212fb86a5b",
-  "source_commit": "8014f75c5e90cb0b1927731870036f889475f7bb",
-  "source_commit_time": "2026-10-11T13:09:29Z",
+  "source_commit": "c093eeba7f81d87f8e5f0f91752cf84e9dee9da4",
+  "source_commit_time": "2026-10-18T19:27:55Z",
   "source_path": "2026/10/11/exact-nth-order-gaussian-ell-norm-defect-of-the-canonical-cube-t--82212fb86a5b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-82212fb86a5b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

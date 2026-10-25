@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-sharp-local-stability-frontier-for-fixed-parameter-proximal-augm--b8117b8b15ed",
   "resultary_record_key": "SCOPE-sharp-local-stability-frontier-for-fixed-parameter-proximal-augm--b8117b8b15ed",
-  "source_commit": "93dd1f48b6385f0103a29cda44122a2410d9126d",
-  "source_commit_time": "2026-10-04T06:00:57Z",
+  "source_commit": "6bdda98185e3b0944eea91ba0d77edcb66dd1b3e",
+  "source_commit_time": "2026-10-18T19:28:41Z",
   "source_path": "2026/10/04/sharp-local-stability-frontier-for-fixed-parameter-proximal-augm--b8117b8b15ed",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-b8117b8b15ed",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

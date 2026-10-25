@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-the-correlated-noise-sensitivity-formula-double-counts-brownian--645774f4d661",
   "resultary_record_key": "SCOPE-the-correlated-noise-sensitivity-formula-double-counts-brownian--645774f4d661",
-  "source_commit": "2a42d321392548233a41d167844f1f89cef39959",
-  "source_commit_time": "2026-10-04T05:54:01Z",
+  "source_commit": "2e5460d31999e23a02a0fb6f1547770cc2bb27af",
+  "source_commit_time": "2026-10-18T20:10:31Z",
   "source_path": "2026/10/04/the-correlated-noise-sensitivity-formula-double-counts-brownian--645774f4d661",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-645774f4d661",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

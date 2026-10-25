@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-dixmier-residue-and-trace-class-boundary-for-polydisc-quot--4bcefc511d71",
   "resultary_record_key": "SCOPE-exact-dixmier-residue-and-trace-class-boundary-for-polydisc-quot--4bcefc511d71",
-  "source_commit": "0256580a0c9dc60d1e2dc09e726684cd8b627421",
-  "source_commit_time": "2026-10-11T13:14:22Z",
+  "source_commit": "88886f66fbe3356bdfcda01c442c3ebcf2105db6",
+  "source_commit_time": "2026-10-18T20:09:41Z",
   "source_path": "2026/10/11/exact-dixmier-residue-and-trace-class-boundary-for-polydisc-quot--4bcefc511d71",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-4bcefc511d71",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

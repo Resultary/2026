@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-2-2-flip-graph-of-the-six-eight-vertex-klein-bottle-triang--3078dc303ec9",
   "resultary_record_key": "SCOPE-exact-2-2-flip-graph-of-the-six-eight-vertex-klein-bottle-triang--3078dc303ec9",
-  "source_commit": "ce67c3f48681385afd87b40542d459d079d1d13f",
-  "source_commit_time": "2026-10-11T13:15:06Z",
+  "source_commit": "22a9773f8d51143f814df42e99106f78dcf4e734",
+  "source_commit_time": "2026-10-18T19:28:51Z",
   "source_path": "2026/10/11/exact-2-2-flip-graph-of-the-six-eight-vertex-klein-bottle-triang--3078dc303ec9",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-3078dc303ec9",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

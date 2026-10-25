@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-full-box-dimension-for-higher-effective-genericity-despite-zero--896edebc4aaf",
   "resultary_record_key": "SCOPE-full-box-dimension-for-higher-effective-genericity-despite-zero--896edebc4aaf",
-  "source_commit": "1eebcf3e327681841e5269eace1462652332d791",
-  "source_commit_time": "2026-10-04T05:58:22Z",
+  "source_commit": "cdba162ed60e0c51c8074bffaf4a72921b69e031",
+  "source_commit_time": "2026-10-18T20:10:27Z",
   "source_path": "2026/10/04/full-box-dimension-for-higher-effective-genericity-despite-zero--896edebc4aaf",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-896edebc4aaf",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

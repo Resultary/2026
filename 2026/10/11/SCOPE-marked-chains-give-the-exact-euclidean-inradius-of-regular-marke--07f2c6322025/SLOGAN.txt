@@ -1,1 +1,0 @@
-For every bounded regular marked order polytope, the Euclidean inradius is the smallest marking gap divided by the exact Euclidean length of a saturated marked chain, with endpoint edges weighted \(1\) and internal edges weighted \(\sqrt2\). The same chain barriers describe every incenter and force all facets on any minimizing marked chain to be tangent.

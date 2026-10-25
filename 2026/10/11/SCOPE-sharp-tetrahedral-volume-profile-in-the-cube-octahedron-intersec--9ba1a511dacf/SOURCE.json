@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-sharp-tetrahedral-volume-profile-in-the-cube-octahedron-intersec--9ba1a511dacf",
   "resultary_record_key": "SCOPE-sharp-tetrahedral-volume-profile-in-the-cube-octahedron-intersec--9ba1a511dacf",
-  "source_commit": "59ddf22d6578f7a374af6105b4d3e3d9f9a2b5b9",
-  "source_commit_time": "2026-10-11T13:07:37Z",
+  "source_commit": "0268b622e10c4a246c31cb2fb3bf09d45a9d1d42",
+  "source_commit_time": "2026-10-18T19:28:01Z",
   "source_path": "2026/10/11/sharp-tetrahedral-volume-profile-in-the-cube-octahedron-intersec--9ba1a511dacf",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-9ba1a511dacf",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

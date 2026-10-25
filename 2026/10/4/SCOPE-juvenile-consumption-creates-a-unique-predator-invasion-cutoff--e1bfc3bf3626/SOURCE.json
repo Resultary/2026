@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-juvenile-consumption-creates-a-unique-predator-invasion-cutoff--e1bfc3bf3626",
   "resultary_record_key": "SCOPE-juvenile-consumption-creates-a-unique-predator-invasion-cutoff--e1bfc3bf3626",
-  "source_commit": "0e270d35ea97e215abd1722ae7386161fe1f8e68",
-  "source_commit_time": "2026-10-04T06:20:43Z",
+  "source_commit": "364b73b9f8810eb2f3bdb3dc1eced1b444963423",
+  "source_commit_time": "2026-10-18T19:28:38Z",
   "source_path": "2026/10/04/juvenile-consumption-creates-a-unique-predator-invasion-cutoff--e1bfc3bf3626",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-e1bfc3bf3626",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

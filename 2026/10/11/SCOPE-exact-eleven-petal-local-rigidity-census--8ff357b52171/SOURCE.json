@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-eleven-petal-local-rigidity-census--8ff357b52171",
   "resultary_record_key": "SCOPE-exact-eleven-petal-local-rigidity-census--8ff357b52171",
-  "source_commit": "3600c71e92a3e9b19711869730d79423e7999c7a",
-  "source_commit_time": "2026-10-11T13:17:57Z",
+  "source_commit": "df32b838964254d02d5efbe49f94977c1ded4158",
+  "source_commit_time": "2026-10-18T19:27:10Z",
   "source_path": "2026/10/11/exact-eleven-petal-local-rigidity-census--8ff357b52171",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-8ff357b52171",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

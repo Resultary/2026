@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-a-reverse-doubling-window-beyond-the-campanato-threshold--8dcb9fbc87f8",
   "resultary_record_key": "SCOPE-a-reverse-doubling-window-beyond-the-campanato-threshold--8dcb9fbc87f8",
-  "source_commit": "9d992bbd3ed006f7563cd8c71028246eb1695df1",
-  "source_commit_time": "2026-10-11T13:13:52Z",
+  "source_commit": "3d7d839e6a15d01aeb3baa00ec89c5fe4f66727e",
+  "source_commit_time": "2026-10-18T20:09:38Z",
   "source_path": "2026/10/11/a-reverse-doubling-window-beyond-the-campanato-threshold--8dcb9fbc87f8",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-8dcb9fbc87f8",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

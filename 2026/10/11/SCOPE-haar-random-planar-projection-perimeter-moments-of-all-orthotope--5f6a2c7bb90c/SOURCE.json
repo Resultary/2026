@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-haar-random-planar-projection-perimeter-moments-of-all-orthotope--5f6a2c7bb90c",
   "resultary_record_key": "SCOPE-haar-random-planar-projection-perimeter-moments-of-all-orthotope--5f6a2c7bb90c",
-  "source_commit": "4fe7d65144e3a9603456bb9585144203fd2fd2bb",
-  "source_commit_time": "2026-10-11T13:06:57Z",
+  "source_commit": "a5e6301338b01abd8bf54587916b3bbca209ba43",
+  "source_commit_time": "2026-10-18T20:07:38Z",
   "source_path": "2026/10/11/haar-random-planar-projection-perimeter-moments-of-all-orthotope--5f6a2c7bb90c",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-5f6a2c7bb90c",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

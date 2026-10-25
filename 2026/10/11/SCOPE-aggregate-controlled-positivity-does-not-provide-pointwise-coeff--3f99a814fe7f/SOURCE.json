@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-aggregate-controlled-positivity-does-not-provide-pointwise-coeff--3f99a814fe7f",
   "resultary_record_key": "SCOPE-aggregate-controlled-positivity-does-not-provide-pointwise-coeff--3f99a814fe7f",
-  "source_commit": "325ee44d0b714839c4c2933f384142379705e251",
-  "source_commit_time": "2026-10-11T12:58:58Z",
+  "source_commit": "00aa46e81b697bff1ca5e92debc838c545d3d6e4",
+  "source_commit_time": "2026-10-18T20:08:34Z",
   "source_path": "2026/10/11/aggregate-controlled-positivity-does-not-provide-pointwise-coeff--3f99a814fe7f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-3f99a814fe7f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

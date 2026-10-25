@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-complete-monotonicity-of-the-period-on-four-cubic-kolmogorov-ham--4339a649dd41",
   "resultary_record_key": "SCOPE-complete-monotonicity-of-the-period-on-four-cubic-kolmogorov-ham--4339a649dd41",
-  "source_commit": "b41b1b05ff80873c6c7dd92aed652598044ba608",
-  "source_commit_time": "2026-10-11T13:04:16Z",
+  "source_commit": "c9b7fb354ea0b6724672ba36379770305a45ffce",
+  "source_commit_time": "2026-10-18T19:28:50Z",
   "source_path": "2026/10/11/complete-monotonicity-of-the-period-on-four-cubic-kolmogorov-ham--4339a649dd41",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-4339a649dd41",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

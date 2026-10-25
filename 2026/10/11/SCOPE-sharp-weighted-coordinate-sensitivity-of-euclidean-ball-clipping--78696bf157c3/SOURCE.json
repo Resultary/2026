@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-sharp-weighted-coordinate-sensitivity-of-euclidean-ball-clipping--78696bf157c3",
   "resultary_record_key": "SCOPE-sharp-weighted-coordinate-sensitivity-of-euclidean-ball-clipping--78696bf157c3",
-  "source_commit": "2ac1e09d4f08b18fc0891e50339068a425ee1c07",
-  "source_commit_time": "2026-10-11T13:11:35Z",
+  "source_commit": "fe37ff8129b9ea4a1f37d4a37f4dc207f1c36f13",
+  "source_commit_time": "2026-10-18T20:07:48Z",
   "source_path": "2026/10/11/sharp-weighted-coordinate-sensitivity-of-euclidean-ball-clipping--78696bf157c3",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-78696bf157c3",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

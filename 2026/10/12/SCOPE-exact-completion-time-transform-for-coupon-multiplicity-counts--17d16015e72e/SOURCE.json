@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/12/SCOPE-exact-completion-time-transform-for-coupon-multiplicity-counts--17d16015e72e",
+  "resultary_record_key": "SCOPE-exact-completion-time-transform-for-coupon-multiplicity-counts--17d16015e72e",
+  "source_commit": "a2a40a9c992f3d6bc06e42eddc1787818488a0a9",
+  "source_commit_time": "2026-10-18T20:08:07Z",
+  "source_path": "2026/10/12/exact-completion-time-transform-for-coupon-multiplicity-counts--17d16015e72e",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261012-17d16015e72e",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T19:46:21Z",
+  "time_standard": "UTC"
+}

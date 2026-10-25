@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-no-attracting-three-left-one-right-four-cycle-in-the-non-inverti--829828b41a37",
   "resultary_record_key": "SCOPE-no-attracting-three-left-one-right-four-cycle-in-the-non-inverti--829828b41a37",
-  "source_commit": "8fda6c9e222658d973bc5cf05da7f0323297a3fa",
-  "source_commit_time": "2026-10-11T13:04:37Z",
+  "source_commit": "eb3ee00b732be822c757e19fe3d275b07431b6d4",
+  "source_commit_time": "2026-10-18T20:05:48Z",
   "source_path": "2026/10/11/no-attracting-three-left-one-right-four-cycle-in-the-non-inverti--829828b41a37",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-829828b41a37",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-factual-simplicial-revision-is-an-idempotent-support-retraction--f5df286eac42",
   "resultary_record_key": "SCOPE-factual-simplicial-revision-is-an-idempotent-support-retraction--f5df286eac42",
-  "source_commit": "b22ebf28b7ee13279cafc474542fc156410a4107",
-  "source_commit_time": "2026-10-04T05:58:08Z",
+  "source_commit": "6f2ac0faf6b7798eee53ccc73ff74996d9f8ee62",
+  "source_commit_time": "2026-10-18T19:28:37Z",
   "source_path": "2026/10/04/factual-simplicial-revision-is-an-idempotent-support-retraction--f5df286eac42",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-f5df286eac42",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }

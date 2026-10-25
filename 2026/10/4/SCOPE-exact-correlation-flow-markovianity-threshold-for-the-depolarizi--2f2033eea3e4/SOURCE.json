@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/4/SCOPE-exact-correlation-flow-markovianity-threshold-for-the-depolarizi--2f2033eea3e4",
   "resultary_record_key": "SCOPE-exact-correlation-flow-markovianity-threshold-for-the-depolarizi--2f2033eea3e4",
-  "source_commit": "0538337ecf7d5b3d44ab54bd648140c4f98d0285",
-  "source_commit_time": "2026-10-04T05:58:40Z",
+  "source_commit": "e0e44b851dd161b55df24f5af0d414e794c09275",
+  "source_commit_time": "2026-10-18T20:10:23Z",
   "source_path": "2026/10/04/exact-correlation-flow-markovianity-threshold-for-the-depolarizi--2f2033eea3e4",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261004-2f2033eea3e4",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-25T19:46:21Z",
   "time_standard": "UTC"
 }
