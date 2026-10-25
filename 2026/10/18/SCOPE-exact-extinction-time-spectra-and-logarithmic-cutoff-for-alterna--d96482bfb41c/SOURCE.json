@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/18/SCOPE-exact-extinction-time-spectra-and-logarithmic-cutoff-for-alterna--d96482bfb41c",
+  "resultary_record_key": "SCOPE-exact-extinction-time-spectra-and-logarithmic-cutoff-for-alterna--d96482bfb41c",
+  "source_commit": "737e89f752ebc68747d994d977f8a0dd0de9612f",
+  "source_commit_time": "2026-10-25T22:23:55Z",
+  "source_path": "2026/10/18/exact-extinction-time-spectra-and-logarithmic-cutoff-for-alterna--d96482bfb41c",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261018-d96482bfb41c",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T22:32:29Z",
+  "time_standard": "UTC"
+}

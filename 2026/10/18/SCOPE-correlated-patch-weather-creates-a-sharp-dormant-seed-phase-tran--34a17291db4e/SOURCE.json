@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/18/SCOPE-correlated-patch-weather-creates-a-sharp-dormant-seed-phase-tran--34a17291db4e",
+  "resultary_record_key": "SCOPE-correlated-patch-weather-creates-a-sharp-dormant-seed-phase-tran--34a17291db4e",
+  "source_commit": "635a8709bf7ebfd4881068e6caa749c3c729ad74",
+  "source_commit_time": "2026-10-25T22:23:45Z",
+  "source_path": "2026/10/18/correlated-patch-weather-creates-a-sharp-dormant-seed-phase-tran--34a17291db4e",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261018-34a17291db4e",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-25T22:32:29Z",
+  "time_standard": "UTC"
+}
