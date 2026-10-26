@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/18/SCOPE-two-adjacent-deleted-skew-entries-create-a-segre-singular-compon--db1b3b05bae0",
+  "resultary_record_key": "SCOPE-two-adjacent-deleted-skew-entries-create-a-segre-singular-compon--db1b3b05bae0",
+  "source_commit": "dec08b23706da70b8e1bbb69357a387944ebc16f",
+  "source_commit_time": "2026-10-25T22:28:35Z",
+  "source_path": "2026/10/18/two-adjacent-deleted-skew-entries-create-a-segre-singular-compon--db1b3b05bae0",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261018-db1b3b05bae0",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-10-26T12:48:56Z",
+  "time_standard": "UTC"
+}

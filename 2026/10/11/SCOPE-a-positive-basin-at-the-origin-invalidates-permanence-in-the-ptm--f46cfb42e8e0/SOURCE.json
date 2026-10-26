@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-a-positive-basin-at-the-origin-invalidates-permanence-in-the-ptm--f46cfb42e8e0",
   "resultary_record_key": "SCOPE-a-positive-basin-at-the-origin-invalidates-permanence-in-the-ptm--f46cfb42e8e0",
-  "source_commit": "b5c3192d9da7528b6bc4e605333fcc4776c7fad1",
-  "source_commit_time": "2026-10-11T13:03:15Z",
+  "source_commit": "33c81cd12196539341f42e6f47ffa940923b7ec0",
+  "source_commit_time": "2026-10-25T22:50:51Z",
   "source_path": "2026/10/11/a-positive-basin-at-the-origin-invalidates-permanence-in-the-ptm--f46cfb42e8e0",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-f46cfb42e8e0",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-10-26T12:48:56Z",
   "time_standard": "UTC"
 }
