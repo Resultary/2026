@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-endpoint-norms-and-residue-law-for-consecutive-cyclic-four--8f1466cba7af",
   "resultary_record_key": "SCOPE-exact-endpoint-norms-and-residue-law-for-consecutive-cyclic-four--8f1466cba7af",
-  "source_commit": "32016f8e71148f9c37d8bc649ab61c83391c128e",
-  "source_commit_time": "2026-10-11T12:57:05Z",
+  "source_commit": "20348d038d7dac1b48d744e1670a5a839c48141c",
+  "source_commit_time": "2026-11-01T21:55:09Z",
   "source_path": "2026/10/11/exact-endpoint-norms-and-residue-law-for-consecutive-cyclic-four--8f1466cba7af",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-8f1466cba7af",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-11-01T21:59:37Z",
   "time_standard": "UTC"
 }
