@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/26/SCOPE-exact-multi-stage-epidemic-source-migration-on-broom-contact-tre--5d05a9b4e6b1",
+  "resultary_record_key": "SCOPE-exact-multi-stage-epidemic-source-migration-on-broom-contact-tre--5d05a9b4e6b1",
+  "source_commit": "b3815b618d82b2e2e9a3fd6764d9d8f869134ede",
+  "source_commit_time": "2026-11-01T22:11:12Z",
+  "source_path": "2026/10/26/exact-multi-stage-epidemic-source-migration-on-broom-contact-tre--5d05a9b4e6b1",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261026-5d05a9b4e6b1",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-01T22:20:39Z",
+  "time_standard": "UTC"
+}

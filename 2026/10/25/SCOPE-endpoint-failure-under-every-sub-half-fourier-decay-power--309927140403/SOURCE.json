@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/25/SCOPE-endpoint-failure-under-every-sub-half-fourier-decay-power--309927140403",
+  "resultary_record_key": "SCOPE-endpoint-failure-under-every-sub-half-fourier-decay-power--309927140403",
+  "source_commit": "12aa7a7361ea53d5ec73499a3c52b66298895848",
+  "source_commit_time": "2026-11-01T22:11:02Z",
+  "source_path": "2026/10/25/endpoint-failure-under-every-sub-half-fourier-decay-power--309927140403",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261025-309927140403",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-01T22:20:39Z",
+  "time_standard": "UTC"
+}

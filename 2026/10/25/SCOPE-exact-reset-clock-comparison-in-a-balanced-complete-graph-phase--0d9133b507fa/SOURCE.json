@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/25/SCOPE-exact-reset-clock-comparison-in-a-balanced-complete-graph-phase--0d9133b507fa",
+  "resultary_record_key": "SCOPE-exact-reset-clock-comparison-in-a-balanced-complete-graph-phase--0d9133b507fa",
+  "source_commit": "112b35daa541f83ea2fe84fb36a4eadbd5dc2d8d",
+  "source_commit_time": "2026-11-01T22:10:06Z",
+  "source_path": "2026/10/25/exact-reset-clock-comparison-in-a-balanced-complete-graph-phase--0d9133b507fa",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261025-0d9133b507fa",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-01T22:20:39Z",
+  "time_standard": "UTC"
+}

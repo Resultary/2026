@@ -1,0 +1,19 @@
+{
+  "first_public_date": "2026-02-21",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "integrity": "Self-contained proof, exact code for finite corroboration, no claimed external independent validation or novelty certification.",
+  "phase": "II",
+  "previously_published_pending_reaudit": false,
+  "primary_msc": "05C60",
+  "publication_date": "2026-10-25",
+  "record_id": "SCOPE-20261025-04a54641d6e0",
+  "scientific_limitations": "Only connected finite complete multipartite graphs of order at least three; no count of optimal partitions; small four-vertex cases already covered in the founding paper.",
+  "scope_run_id": "04a54641-d6e0-4833-abab-088c9d722b15",
+  "self_review_status": "passed",
+  "source_ids": [
+    "arxiv:2602.18760"
+  ],
+  "title": "Exact locating-domination coalition numbers of complete multipartite graphs",
+  "verification_state": "independently_reviewed"
+}

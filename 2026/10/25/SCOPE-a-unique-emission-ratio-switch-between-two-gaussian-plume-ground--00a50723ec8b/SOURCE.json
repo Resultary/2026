@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/25/SCOPE-a-unique-emission-ratio-switch-between-two-gaussian-plume-ground--00a50723ec8b",
+  "resultary_record_key": "SCOPE-a-unique-emission-ratio-switch-between-two-gaussian-plume-ground--00a50723ec8b",
+  "source_commit": "b0e634c819d9115ce74974e7c40954ab5f837ede",
+  "source_commit_time": "2026-11-01T22:10:45Z",
+  "source_path": "2026/10/25/a-unique-emission-ratio-switch-between-two-gaussian-plume-ground--00a50723ec8b",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261025-00a50723ec8b",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-01T22:20:39Z",
+  "time_standard": "UTC"
+}

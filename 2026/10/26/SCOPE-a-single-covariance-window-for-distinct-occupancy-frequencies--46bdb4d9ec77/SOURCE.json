@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/26/SCOPE-a-single-covariance-window-for-distinct-occupancy-frequencies--46bdb4d9ec77",
+  "resultary_record_key": "SCOPE-a-single-covariance-window-for-distinct-occupancy-frequencies--46bdb4d9ec77",
+  "source_commit": "870612d5ae18c054e3ab14291d87c1439fe1f771",
+  "source_commit_time": "2026-11-01T22:11:06Z",
+  "source_path": "2026/10/26/a-single-covariance-window-for-distinct-occupancy-frequencies--46bdb4d9ec77",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261026-46bdb4d9ec77",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-01T22:20:39Z",
+  "time_standard": "UTC"
+}

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/26/SCOPE-exact-sparse-time-observability-on-mersenne-multiple-rule-60-rin--4cfa11c9fe9f",
+  "resultary_record_key": "SCOPE-exact-sparse-time-observability-on-mersenne-multiple-rule-60-rin--4cfa11c9fe9f",
+  "source_commit": "a0ef8a07483c0f6813296917d2ff381e682b4953",
+  "source_commit_time": "2026-11-01T22:10:25Z",
+  "source_path": "2026/10/26/exact-sparse-time-observability-on-mersenne-multiple-rule-60-rin--4cfa11c9fe9f",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261026-4cfa11c9fe9f",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-01T22:20:39Z",
+  "time_standard": "UTC"
+}

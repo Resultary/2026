@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/25/SCOPE-exact-seven-level-common-neighbor-census-of-the-welch-zero-subsp--0283f762dc31",
+  "resultary_record_key": "SCOPE-exact-seven-level-common-neighbor-census-of-the-welch-zero-subsp--0283f762dc31",
+  "source_commit": "8fbe5d9f095e5d2df73ad33157d7368112620a1a",
+  "source_commit_time": "2026-11-01T22:10:06Z",
+  "source_path": "2026/10/25/exact-seven-level-common-neighbor-census-of-the-welch-zero-subsp--0283f762dc31",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261025-0283f762dc31",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-01T22:20:39Z",
+  "time_standard": "UTC"
+}

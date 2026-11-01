@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-arithmetic-rank-of-two-hole-cyclic-gabor-measurements--6aad25598ee0",
   "resultary_record_key": "SCOPE-exact-arithmetic-rank-of-two-hole-cyclic-gabor-measurements--6aad25598ee0",
-  "source_commit": "6048ecd642926c3d3a08cabc95da86b4f9071d3e",
-  "source_commit_time": "2026-10-11T12:59:21Z",
+  "source_commit": "3bb970c3c2c1f2b8990b6086d875e561e6af5cdb",
+  "source_commit_time": "2026-11-01T22:10:39Z",
   "source_path": "2026/10/11/exact-arithmetic-rank-of-two-hole-cyclic-gabor-measurements--6aad25598ee0",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-6aad25598ee0",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-11-01T22:20:39Z",
   "time_standard": "UTC"
 }

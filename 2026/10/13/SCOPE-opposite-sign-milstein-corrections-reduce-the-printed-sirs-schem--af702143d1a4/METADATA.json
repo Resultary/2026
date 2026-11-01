@@ -1,0 +1,18 @@
+{
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "phase": "II",
+  "previously_published_pending_reaudit": false,
+  "primary_msc": "92D30",
+  "publication_date": "2026-10-13",
+  "record_id": "SCOPE-20261013-af702143d1a4",
+  "scientific limitations/integrity": "This finding concerns the printed Eq. (4.3), not author implementation. The exact global convergence rate is established only for the scalar multiplicative-noise test. For the nonlinear SIRS update, only the sign mismatch in the local Milstein correction is established.",
+  "scope_run_id": "af702143-d1a4-422d-a6b0-dd419a04da53",
+  "self_review_status": "passed",
+  "source_ids": [
+    "DOI:10.3934/math.2026278",
+    "DOI:10.1137/S0036144500378302"
+  ],
+  "title": "Opposite-sign Milstein corrections reduce the printed SIRS scheme to strong order one-half",
+  "verification_state": "independently_reviewed"
+}
