@@ -1,0 +1,20 @@
+{
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "integrity": "Explicit elementary-symmetric algebraic proof and exact symbolic reproducibility checks. No independent mathematical validation is claimed in this source snapshot.",
+  "phase": "II",
+  "previously_published_pending_reaudit": false,
+  "primary_msc": "14M12",
+  "publication_date": "2026-10-18",
+  "record_id": "SCOPE-20261018-676395148d09",
+  "scientific_limitations": "The theorem is characteristic-two only and concerns graded Jacobian coordinate rings, not primary decomposition, depth or the local intersection structure. Generic multiplicity and reduced-support conclusions already follow from positive-characteristic derivative-locus work; only the complete uniform Hilbert series and Groebner presentation are claimed as new. Possible implicit equivalent formulas remain an originality risk.",
+  "scope_run_id": "67639514-8d09-41d7-a242-b0643159d488",
+  "self_review_status": "passed",
+  "source_ids": [
+    "arXiv:0807.1690",
+    "arXiv:1004.5166",
+    "arXiv:2610.00259"
+  ],
+  "title": "A triangular Hilbert series for characteristic-two banana graph Jacobian schemes",
+  "verification_state": "independently_reviewed"
+}

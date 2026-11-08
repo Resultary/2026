@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261102-6c1c5de9e0a4`](https://github.com/SCOPE-Science/SCOPE2026/tree/8b53124a3b233d84c4b54544ec54b7cf28ddb9c0/2026/11/02/sharp-first-step-euclidean-error-frontier-for-inexact-flexible-g--6c1c5de9e0a4)
+
+Imported into Resultary as `2026/11/2/SCOPE-sharp-first-step-euclidean-error-frontier-for-inexact-flexible-g--6c1c5de9e0a4`. The finding, audit, and attached artifacts remain attributable to SCOPE.

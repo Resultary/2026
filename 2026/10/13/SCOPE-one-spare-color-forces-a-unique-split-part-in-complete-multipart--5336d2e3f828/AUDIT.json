@@ -1,0 +1,101 @@
+{
+  "correctness": {
+    "rationale": "The original self-review proves the r/r+1 final-color dichotomy, impossibility of forcing a blank in the split part, necessity of at most one blank nonsplit part, constructive sufficiency, the disjoint seed polynomial and the minimum coefficient. It reports exhaustive package checks of 34 profiles and 9,213,533 states. The finite checker is corroborative only.",
+    "status": "PASS"
+  },
+  "independent": false,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "originality": {
+    "broader_coverage": {
+      "evidence": [
+        "Chromatic-palette λ=r result lacks any split color class; first spare palette on r=2 contains just two parts."
+      ],
+      "reasoning": "Inspected published statements do not logically quantify over both r>=3 and λ=r+1.",
+      "searches": [
+        "arXiv:2609.17108v1",
+        "https://github.com/Resultary/2026/tree/main/2026/10/4/SCOPE-forced-colourings-of-complete-multipartite-graphs-at-the-chromat--ab08eebc2655",
+        "https://github.com/Resultary/2026/tree/main/2026/10/4/SCOPE-forced-three-colouring-polynomial-of-complete-bipartite-graphs--3fb93c858f69",
+        "https://github.com/Resultary/2026/tree/main/2026/9/17/SCOPE-forced-three-colouring-max-degree-two--2226d8f07ffd"
+      ]
+    },
+    "checked_sources": [
+      "https://arxiv.org/abs/2609.17108",
+      "https://github.com/Resultary/2026/tree/main/2026/10/4/SCOPE-forced-colourings-of-complete-multipartite-graphs-at-the-chromat--ab08eebc2655",
+      "https://github.com/Resultary/2026/tree/main/2026/10/4/SCOPE-forced-three-colouring-polynomial-of-complete-bipartite-graphs--3fb93c858f69",
+      "https://github.com/Resultary/2026/tree/main/2026/9/17/SCOPE-forced-three-colouring-max-degree-two--2226d8f07ffd",
+      "arXiv:1912.02001"
+    ],
+    "claim_vs_prior_implication": {
+      "evidence": [
+        "λ=r has no split part; λ=r+1 requires two colors in a fully seeded split part; r=2 lacks support constraints across multiple other parts."
+      ],
+      "reasoning": "Known boundary statements do not by specialization force the full r>=3 polynomial, although analogous arguments exist.",
+      "searches": [
+        "https://arxiv.org/abs/2609.17108",
+        "https://github.com/Resultary/2026/tree/main/2026/10/4/SCOPE-forced-colourings-of-complete-multipartite-graphs-at-the-chromat--ab08eebc2655",
+        "https://github.com/Resultary/2026/tree/main/2026/10/4/SCOPE-forced-three-colouring-polynomial-of-complete-bipartite-graphs--3fb93c858f69",
+        "https://github.com/Resultary/2026/tree/main/2026/9/17/SCOPE-forced-three-colouring-max-degree-two--2226d8f07ffd"
+      ]
+    },
+    "equivalent_formulations": {
+      "evidence": [
+        "Farr missing-color process and fixed-palette random polynomial are the same invariant; the claim is not mere proper coloring existence."
+      ],
+      "reasoning": "Synonyms include British/American spelling and forcing-seed enumerator. No matching all-r statement was identified; absence not proven.",
+      "searches": [
+        "Farr 2026 forced r+1-colouring polynomial complete multipartite",
+        "r+1 palette seeded colors",
+        "arXiv:2609.17108v1"
+      ]
+    },
+    "exact_database_or_table": {
+      "evidence": [
+        "Known numerical examples and r=2 formulas are boundary data only."
+      ],
+      "reasoning": "No arbitrary r>=3 λ=r+1 coefficient table was identified in the original review; no exhaustive database absence is asserted.",
+      "searches": [
+        "https://github.com/Resultary/2026/tree/main/2026/10/4/SCOPE-forced-three-colouring-polynomial-of-complete-bipartite-graphs--3fb93c858f69",
+        "https://github.com/Resultary/2026/tree/main/2026/9/17/SCOPE-forced-three-colouring-max-degree-two--2226d8f07ffd",
+        "forced colouring complete tripartite 4 colors coefficient table"
+      ]
+    },
+    "rationale": "Original self-review compares Farr 2026, the chromatic-palette multipartite theorem, the 3-color complete bipartite theorem, and maximum-degree-two formulas; it acknowledges the known boundary cases and a risk of an equivalent unindexed result. The original preprint was only partially checked in that self-review; this is not represented as full independent primary reading.",
+    "residual_risks": [
+      "Earlier work using different forcing terminology or unindexed preprints could include equivalent formula."
+    ],
+    "source_inspections": [
+      {
+        "assessment": "No claimed exclusion of unread pages",
+        "evidence": [
+          "Definition, worked small examples, complexity results, concluding section examined by original reviewer."
+        ],
+        "identifier_or_url": "https://arxiv.org/abs/2609.17108",
+        "material_read": "Original self-review reports preprint pages 1,4–11 and 25, not the complete 29 pages",
+        "method": "Historical self-review report; not independently repeated full-text",
+        "title": "The forced colouring function of a graph",
+        "trigger": "Identical forcing invariant"
+      },
+      {
+        "assessment": "Different recoloring dynamics, not blank-vertex sole-missing-color rule",
+        "evidence": [
+          "The former process changes already-colored vertices."
+        ],
+        "identifier_or_url": "https://arxiv.org/abs/1912.02001",
+        "material_read": "Original self-review reports abstract/introduction and later discussion only",
+        "method": "Historical self-review report",
+        "title": "Multi-color forcing in graphs",
+        "trigger": "Terminology ambiguity"
+      }
+    ],
+    "status": "PASS"
+  },
+  "previously_published_pending_reaudit": false,
+  "review_type": "self_review",
+  "schema_version": 1,
+  "self_review_status": "passed",
+  "value": {
+    "rationale": "Original self-review motivates the first surplus color after χ(G), structural split-part rigidity and the exact all-domain polynomial for an unbounded natural graph family. It claims no larger palette or universal class theorem.",
+    "status": "PASS"
+  }
+}

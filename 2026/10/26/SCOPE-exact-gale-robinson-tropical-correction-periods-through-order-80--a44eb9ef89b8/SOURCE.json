@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/26/SCOPE-exact-gale-robinson-tropical-correction-periods-through-order-80--a44eb9ef89b8",
+  "resultary_record_key": "SCOPE-exact-gale-robinson-tropical-correction-periods-through-order-80--a44eb9ef89b8",
+  "source_commit": "a99982d9c4901be32a8247ffcf649eec13bad3e4",
+  "source_commit_time": "2026-11-02T00:37:47Z",
+  "source_path": "2026/10/26/exact-gale-robinson-tropical-correction-periods-through-order-80--a44eb9ef89b8",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261026-a44eb9ef89b8",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/2/SCOPE-sharp-speed-relative-residual-gain-for-front-pinned-ignition-pro--20b1d3a03df1",
+  "resultary_record_key": "SCOPE-sharp-speed-relative-residual-gain-for-front-pinned-ignition-pro--20b1d3a03df1",
+  "source_commit": "405074032557b9bb7f63d0704bc2379201a6991f",
+  "source_commit_time": "2026-11-08T18:26:42Z",
+  "source_path": "2026/11/02/sharp-speed-relative-residual-gain-for-front-pinned-ignition-pro--20b1d3a03df1",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261102-20b1d3a03df1",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

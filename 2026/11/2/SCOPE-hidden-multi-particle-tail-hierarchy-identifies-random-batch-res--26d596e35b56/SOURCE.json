@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/2/SCOPE-hidden-multi-particle-tail-hierarchy-identifies-random-batch-res--26d596e35b56",
+  "resultary_record_key": "SCOPE-hidden-multi-particle-tail-hierarchy-identifies-random-batch-res--26d596e35b56",
+  "source_commit": "2b6ecfc06621def115c5d7bf48196a678c454a8e",
+  "source_commit_time": "2026-11-08T18:40:00Z",
+  "source_path": "2026/11/02/hidden-multi-particle-tail-hierarchy-identifies-random-batch-res--26d596e35b56",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261102-26d596e35b56",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

@@ -1,0 +1,19 @@
+{
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "phase": "II",
+  "previously_published_pending_reaudit": false,
+  "primary_msc": "52A23",
+  "publication_date": "2026-11-02",
+  "record_id": "SCOPE-20261102-8f18f059a757",
+  "scientific_integrity": "The complete all-height least-volume enclosing ellipsoid formula and its -1/d threshold are prior work of Michael J. Todd (1982); the present claim is solely the strict excess-volume monotonicity and dimensional asymptotics proved from that formula.",
+  "scientific_limitations": "One halfspace-truncated Euclidean ball in dimension at least two. Derivative and dimensional asymptotics are elementary consequences requiring proof from the prior semiaxis formula; their novelty is qualified and no general ellipsoid formula is asserted as new.",
+  "scope_run_id": "8f18f059-a757-4b85-aa45-75321029917d",
+  "source_ids": [
+    "DOI:10.1287/moor.7.2.253",
+    "arXiv:2212.11781",
+    "MathStackExchange:5040265"
+  ],
+  "title": "Strict monotonicity and dimensional scaling of enclosing-ellipsoid excess volume for Euclidean ball caps",
+  "verification_state": "independently_reviewed"
+}

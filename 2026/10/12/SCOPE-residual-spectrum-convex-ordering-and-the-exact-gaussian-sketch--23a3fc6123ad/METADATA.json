@@ -1,0 +1,22 @@
+{
+  "earliest_cited_source_date": "2016-08-31",
+  "expert_attestation": "not_performed",
+  "formal_proof": "not_performed",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "integrity": "The Gaussian factor/error decomposition and spectrum-blind expected squared Frobenius inflation are prior published results. The additional spectrum-indexed convex-risk and sharp moment analysis is explicitly distinguished from these premises.",
+  "phase": "II",
+  "previously_published_pending_reaudit": false,
+  "primary_msc": "65F30",
+  "publication_date": "2026-10-12",
+  "record_id": "SCOPE-20261012-23a3fc6123ad",
+  "scientific_scope": "Real two-sided independent-Gaussian sketch; fixed orthonormal Q, nonzero orthogonal residual, exact arithmetic; squared-Frobenius normalized error. Convex order for ell>=r+2; finite variance for ell>=r+4; no unconditional random-Q ordering or every-tail stochastic dominance.",
+  "scope_run_id": "23a3fc61-23ad-4abf-a8cd-b752178ef716",
+  "source_ids": [
+    "arXiv:1609.00048",
+    "arXiv:2009.11392",
+    "doi:10.1002/nla.2576"
+  ],
+  "title": "Residual-spectrum convex ordering and the exact Gaussian sketch failure law",
+  "verification_state": "independently_reviewed"
+}

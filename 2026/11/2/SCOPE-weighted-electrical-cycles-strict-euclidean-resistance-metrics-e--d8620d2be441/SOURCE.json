@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/2/SCOPE-weighted-electrical-cycles-strict-euclidean-resistance-metrics-e--d8620d2be441",
+  "resultary_record_key": "SCOPE-weighted-electrical-cycles-strict-euclidean-resistance-metrics-e--d8620d2be441",
+  "source_commit": "4ea61ea83df494001c39b8b4d9f9bc066c792b5f",
+  "source_commit_time": "2026-11-08T18:26:44Z",
+  "source_path": "2026/11/02/weighted-electrical-cycles-strict-euclidean-resistance-metrics-e--d8620d2be441",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261102-d8620d2be441",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

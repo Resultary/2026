@@ -1,0 +1,43 @@
+# Grounded semantics of degree-one argumentation graphs: exact stages and a corrected effective degree spectrum
+
+## Finding
+Let \(\mathcal F=(A,R)\) be a countable directed argumentation framework with at most one incoming and one outgoing attack at each vertex. Every component is a finite consistently directed path, a one-way ray (possibly oriented toward its endpoint), a two-way directed path, or a directed cycle, including loops. The grounded extension is precisely the set of vertices at even finite attack-direction distance from a source of their component; source-free components contribute no vertices. A source-rooted finite path with \(m\) vertices stabilizes at grounding stage \(\lceil m/2\rceil\). Globally the least stabilization ordinal is 0 if no source-rooted component occurs, the largest of these finite stages if all such finite path lengths are bounded and no source-rooted ray occurs, or \(\omega\) if a source-rooted ray exists or their finite lengths are unbounded.
+
+**Effective part, with the essential neighbor-domain hypothesis.** Suppose that \(A\) is computably enumerated and there are **total computable optional-neighbor maps**
+\[
+ P,S:A\longrightarrow A\cup\{\bot\},
+\]
+where \(P(x)=\bot\) exactly when \(x\) has no attacker, \(S(x)=\bot\) exactly when \(x\) attacks no vertex, and otherwise the maps return the unique predecessor or successor. In particular, nonexistence of a neighbor is **decidable**, not merely represented by divergence of a partial algorithm. In this effectively presented class, every finite grounding ordinal forces the grounded extension to be computable, whereas at grounding ordinal \(\omega\) the spectrum of its Turing degree is **exactly the c.e. degrees**. Every finite ordinal and every c.e. degree at \(\omega\) occurs.
+
+The effective hypothesis cannot be weakened to ordinary partial-computable predecessor/successor algorithms with possibly undecidable domains: then a graph of grounding ordinal 1 can have a noncomputable grounded extension (see the counterexample below). The structural classification itself does not require any effectivity.
+
+## Definitions and assumptions
+An attack \(yRx\) is the directed edge \(y\to x\). The defense operator is
+\[
+F(T)=\{x:\forall y(yRx\implies\exists z\in T\ zRy)\}.
+\]
+Put \(G_0=\varnothing\), \(G_{\alpha+1}=F(G_\alpha)\) and \(G_\lambda=\bigcup_{\beta<\lambda}G_\beta\) at limit stages. The least fixed stage is the grounding ordinal. In the effective part vertices may be identified with a computable subset of \(\mathbb N\), and the optional-neighbor functions return their values in finite time on **every** input. There is no uniform algorithm promised for determining the finite grounding ordinal from a description of the framework.
+
+## Proof
+**Component form and grounding stages.** With both degrees bounded by one, there is no undirected branching. At each internal vertex one edge enters and one leaves, so orientations propagate consistently. Components must be directed finite paths, one-way or two-way infinite paths, or directed cycles (a self-loop included). If \(v_0\to v_1\to\cdots\) starts at a source, \(v_0\in G_1\); \(v_1\) can never be defended because \(v_0\) has no attacker. For \(j\ge2\), the only possible defender of \(v_j\) is \(v_{j-2}\), so induction shows that exactly \(v_{2r}\) enters, first at stage \(r+1\). No vertex of a component lacking a source enters by induction on stages (including limit ordinals). Thus finite source paths take exactly \(\lceil m/2\rceil\) stages; source-rooted rays or unbounded finite path lengths require all finite stages, and since each vertex entering at all does so at a finite stage, stage \(\omega\) is stable. This proves the structural and ordinal assertions.
+
+**Computability at finite stage.** With total optional-neighbor maps, a source is recognized by the explicit value \(\bot\). Iterating \(P\) until \(\bot\) is found at even finite distance semi-decides grounded membership. If the global ordinal is the finite number \(t\), every grounded vertex has a source at even distance at most \(2t-2\). On an input vertex, inspect at most \(2t\) predecessor links; accept exactly when \(\bot\) occurs at even distance, reject otherwise. This is a total algorithm for the fixed framework. The number \(t\) need not be uniformly extractable from the framework's program. Consequently the grounded extension has computable Turing degree at each finite grounding ordinal.
+
+**Universality at \(\omega\).** Let \(W\subseteq\mathbb N\) be any c.e. set. Form the c.e. set \(W^*=\{2e:e\in W\}\cup\{2e+1:e\in\mathbb N\}\), enumerating odd index \(2e+1\) no earlier than stage \(e+1\) and using any effective enumeration for the even copy. Then \(W^*\equiv_T W\). Take vertices \(a_{i,n},b_{i,n}\) for all \(i,n\ge0\), with edges \(a_{i,n}\to b_{i,n}\) always and \(b_{i,n+1}\to a_{i,n}\) exactly if \(i\notin W^*[n]\), where \(W^*[n]\) is the finite decidable stage-\(n\) approximation. All in- and out-degrees are at most one, and both total optional-neighbor maps are computable by checking the finite predicate \(i\in W^*[n]\). If \(i\) enters at stage \(s\), the chain through \(a_{i,0}\) has source \(a_{i,s}\), and every \(a_{i,n}\) is grounded while every \(b_{i,n}\) is not. If \(i\) never enters, the component through \(a_{i,0}\) has no source, and no \(a_{i,n}\) or \(b_{i,n}\) is grounded. Hence the grounded extension codes \(W^*\) exactly and has Turing degree \(\deg_T(W)\). Odd indices have arbitrarily late entry stages, giving unbounded finite source-rooted path lengths and grounding ordinal \(\omega\). This realizes all c.e. degrees, and the preceding effective enumeration gives no other degrees. A directed path of \(2t-1\) vertices realizes each finite \(t\ge1\), and a computable union of loops realizes \(t=0\).
+
+**Why merely partial-computable neighbors do not suffice.** Index machines \(M_e\). Introduce vertices \(x_e\) and \(y_{e,s}\) for every \(e,s\in\mathbb N\). Put the edge \(y_{e,s}\to x_e\) iff machine \(M_e\) **first** halts at exactly stage \(s\). The edge relation is decidable by finite simulation; both predecessor and successor are ordinary partial-computable functions: to find the predecessor of \(x_e\), search for a halting stage; to find the successor of \(y_{e,s}\), simulate through stage \(s\). A missing edge makes the relevant partial computation undefined. Every component is an isolated vertex or a single directed edge, so the grounding ordinal is 1, but
+\[
+ x_e\in G_1\quad\Longleftrightarrow\quad M_e\text{ never halts}.
+\]
+Thus \(G_1\) has noncomputable degree \(\mathbf0'\) despite stabilization at stage 1. This counterexample invalidates the unqualified partial-function version and proves the necessity of a decidable no-neighbor test for the corrected effective theorem.
+
+## Scope and verification
+The geometric component/stage theorem holds for arbitrary countable degree-one frameworks. The effective degree statement assumes a **total computable optional-neighbor presentation**. The counterexample shows why ordinary partial-recursive neighbor functions alone are insufficient. No claim is made for higher local degrees or grounding ordinals above \(\omega\), and no finite experiment substitutes for the inductive and effective arguments. No formal Lean proof or expert attestation is claimed.
+
+## Relationship to previous work
+Andrews and San Mauro, *On the Complexity of the Grounded Semantics for Infinite Argumentation Frameworks* (arXiv:2511.22376v1, Theorems 19 and 22, Appendix A), establish computability-theoretic constructions in general frameworks. The same authors' *Complexity in Finitary Argumentation* (doi:10.3233/FAIA251010, Table 2) treats broader acceptance-complexity classes. Neither inspected statement directly gives the complete degree-one component/stage classification paired with the corrected **total optional-neighbor** c.e.-degree spectrum. The path-based realizability gadget and elementary stage analysis may follow from older work, so historical priority is not claimed. Classical grounded semantics originate in Dung, *Artificial Intelligence* 77 (1995), 321–357.
+
+## References
+1. U. Andrews and L. San Mauro, *On the Complexity of the Grounded Semantics for Infinite Argumentation Frameworks*, arXiv:2511.22376v1 (2025), Theorems 19 and 22 and Appendix A.
+2. U. Andrews and L. San Mauro, *Complexity in Finitary Argumentation*, doi:10.3233/FAIA251010 (2026), definitions and Table 2.
+3. P. M. Dung, *On the acceptability of arguments and its fundamental role in nonmonotonic reasoning, logic programming and n-person games*, Artificial Intelligence 77 (1995), 321–357.

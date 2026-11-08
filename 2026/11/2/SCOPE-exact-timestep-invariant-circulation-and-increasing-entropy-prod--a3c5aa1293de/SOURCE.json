@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/2/SCOPE-exact-timestep-invariant-circulation-and-increasing-entropy-prod--a3c5aa1293de",
+  "resultary_record_key": "SCOPE-exact-timestep-invariant-circulation-and-increasing-entropy-prod--a3c5aa1293de",
+  "source_commit": "61e5935830cd8d792deb7590ac0960e0a824f646",
+  "source_commit_time": "2026-11-08T18:41:22Z",
+  "source_path": "2026/11/02/exact-timestep-invariant-circulation-and-increasing-entropy-prod--a3c5aa1293de",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261102-a3c5aa1293de",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

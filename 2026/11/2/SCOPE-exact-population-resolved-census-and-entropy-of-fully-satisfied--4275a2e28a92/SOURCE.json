@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/2/SCOPE-exact-population-resolved-census-and-entropy-of-fully-satisfied--4275a2e28a92",
+  "resultary_record_key": "SCOPE-exact-population-resolved-census-and-entropy-of-fully-satisfied--4275a2e28a92",
+  "source_commit": "16754cc2b4e91df34f442b6a405680bb66712819",
+  "source_commit_time": "2026-11-08T18:37:42Z",
+  "source_path": "2026/11/02/exact-population-resolved-census-and-entropy-of-fully-satisfied--4275a2e28a92",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261102-4275a2e28a92",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

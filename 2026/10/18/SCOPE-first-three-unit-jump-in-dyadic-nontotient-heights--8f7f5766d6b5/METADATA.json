@@ -1,0 +1,18 @@
+{
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "integrity": "Exact two-method totient and height recurrences; complete extremal-position fiber fixture verified through 2^19.",
+  "previously_published_pending_reaudit": false,
+  "primary_msc": "11A25",
+  "publication_date": "2026-10-18",
+  "record_id": "SCOPE-20261018-8f7f5766d6b5",
+  "scientific_limitations": "Finite complete argmax fibers for k=1..19 only. First three-unit dyadic maximum jump and the least height-33 argument were already implicit in OEIS A098197; only full fibers and multiplicity profile are asserted as new, subject to priority risk.",
+  "scope_run_id": "8f7f5766-d6b5-4c5a-b69e-4540c702a043",
+  "source_ids": [
+    "OEIS:A098197",
+    "OEIS:A071575",
+    "arXiv:2309.01231"
+  ],
+  "title": "Complete dyadic maximizer fibers for cototient iteration through the first three-unit jump",
+  "verification_state": "independently_reviewed"
+}

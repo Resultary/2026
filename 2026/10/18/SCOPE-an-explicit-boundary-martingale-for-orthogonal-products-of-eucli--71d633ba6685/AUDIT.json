@@ -1,0 +1,123 @@
+{
+  "correctness": {
+    "rationale": "Euclidean boundary face weights are V*d_i/a_i. The radius-dependent two-point sign kernel preserves each selected block conditional mean and has uniform spherical marginal; independent untouched blocks retain uniform ball laws. Jensen yields convex order and independent-sample separately convex comparison. Positive-probability noncollinear support gives strict Euclidean distance moments for a curved block. Exact covariance follows from block isotropy. Finite exact and stochastic checks corroborate but do not prove the unrestricted theorem.",
+    "status": "PASS"
+  },
+  "independent": false,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "originality": {
+    "broader_coverage": {
+      "evidence": [
+        "Tokmachev arXiv:2607.08869 abstract: dimension-two centroid-aligned bodies and circumscribed centered polytopes.",
+        "Shen arXiv:2608.06470 full primary text: planar comparison and higher-dimensional counterexamples.",
+        "Lotnikov arXiv:2608.14848 abstract: centrally symmetric high-dimensional counterexamples."
+      ],
+      "reasoning": "Mixed-dimensional ball products with a curved sphere boundary stratum in dimension at least three are neither planar nor circumscribed polytopes. Neither Shen’s planar result nor high-dimensional counterexamples cover the positive convex-order assertion. The inaccessible Tokmachev body text remains a priority risk.",
+      "searches": [
+        "Zaporozhets Tarasov expected distance convex bodies products ball interval",
+        "Zaporozhets Tarasov conjecture centrally symmetric ball products convex order",
+        "boundary surface measure dominates volume measure in convex order products of Euclidean balls spheres martingale",
+        "Inequalities for convex functions of random points inside and on the boundary of convex bodies Tokmachev theorem",
+        "Zaporozhets Tarasov centrally symmetric counterexamples 2026"
+      ]
+    },
+    "checked_sources": [
+      "arXiv:2607.08869 (public abstract; full text unavailable)",
+      "arXiv:2608.06470 (author-hosted primary full text inspected)",
+      "arXiv:2608.14848 (public abstract)",
+      "Published Resultary/2026 difference-body beta stochastic result (RESULT.md read)",
+      "Published Resultary/2026 cylinder-shadow mixed-moment result (RESULT.md read)"
+    ],
+    "claim_vs_prior_implication": {
+      "evidence": [
+        "Shen arXiv:2608.06470 Theorem 1.2 and Proposition 4.5 prove the planar directional comparison and higher-dimensional counterexamples, not an all-radii positive ball-product martingale.",
+        "Tokmachev arXiv:2607.08869 abstract restricts to planar centroid-aligned bodies and centered circumscribed polytopes.",
+        "Lotnikov arXiv:2608.14848 abstract describes counterexamples to unrestricted high-dimensional symmetry claims."
+      ],
+      "reasoning": "The proposed theorem implies simultaneous separately convex inequalities for any finite number of independent uniform ball-product samples, including Euclidean chord moments and block covariance excess. The accessible prior implications do not establish it on curved nonsmooth products, although inaccessible detailed hypotheses are a material literature risk.",
+      "searches": [
+        "Zaporozhets Tarasov mean distance inequality right circular cylinders all aspect ratios surface versus interior",
+        "orthogonal Cartesian product Euclidean balls surface measure convex order uniform interior explicit martingale diameter random chords",
+        "site:arxiv.org 2607.08869 full convex order boundary"
+      ]
+    },
+    "equivalent_formulations": {
+      "evidence": [
+        "Tokmachev arXiv:2607.08869: convex-order formulation for restricted classes.",
+        "Earlier published-finding corpus comparisons did not reveal a surface-law martingale for orthogonal ball products."
+      ],
+      "reasoning": "A mean-preserving coupling between normalized uniform volume and Euclidean surface-area law implies convex order and is stronger than a two-point distance inequality. A single ball radial coupling alone does not establish the correct boundary-face mixture for a nonsmooth product.",
+      "searches": [
+        "Zaporozhets Tarasov conjecture centrally symmetric ball products convex order",
+        "boundary surface measure dominates volume measure in convex order products of Euclidean balls spheres martingale",
+        "surface versus volume convex order uniform cartesian products ellipsoids orthotopes",
+        "product balls boundary surface measure convex order martingale coupling",
+        "cartesian product of balls convex order uniform interior surface measure boundary expected convex function"
+      ]
+    },
+    "exact_database_or_table": {
+      "evidence": [
+        "Published SCOPE/Resultary difference-body beta stochastic result concerns a uniform interior pair’s Minkowski gauge, not Euclidean boundary sampling.",
+        "Published SCOPE/Resultary cylinder-shadow result concerns random projection area and perimeter moments, not the uniform-boundary law."
+      ],
+      "reasoning": "The compared records and indexed searches do not supply the exact surface-minus-volume covariance matrix or the specified conditional martingale. Absence from a database does not prove novelty.",
+      "searches": [
+        "orthogonal Cartesian product Euclidean balls surface measure convex order uniform interior explicit martingale diameter random chords",
+        "Zaporozhets Tarasov product of balls solid cylinders martingale coupling boundary uniform surface",
+        "convex order tensorization boundary area ball product surface random point probability",
+        "exact covariance surface interior product balls sphere faces weights Hausdorff"
+      ]
+    },
+    "rationale": "Best-of-knowledge claim concerns explicit Euclidean-surface-law martingale and exact covariance for orthogonal ball products in all dimensions and radii, not the planar general result, the known single-ball coupling, or arbitrary centrally symmetric bodies. Priority is qualified because the most directly relevant full convex-order preprint was not retrieved.",
+    "residual_risks": [
+      "Full Tokmachev 2026 paper and appendices inaccessible despite lawful requests; possible unadvertised product result.",
+      "A martingale transport of this form could appear in older stochastic-order literature under an alternate name.",
+      "Independent finite computations do not establish priority or unrestricted analytical proof."
+    ],
+    "source_inspections": [
+      {
+        "assessment": "Stated scope is dimension-two centroid alignment or certain centered circumscribed polytopes; neither stated class covers curved ball products in higher dimensions. Additional uninspected text could matter.",
+        "evidence": [
+          "The arXiv abstract specifically lists its two sufficient geometric hypotheses."
+        ],
+        "identifier_or_url": "arXiv:2607.08869 | https://arxiv.org/abs/2607.08869",
+        "material_read": "Full publicly indexed abstract; full preprint not accessible.",
+        "method": "Read original arXiv abstract and scholarly bibliographic summaries, attempted lawful full-text retrieval.",
+        "title": "Inequalities for convex functions of random points inside and on the boundary of convex bodies",
+        "trigger": "Direct comparison of identical convex-order law with different geometric classes."
+      },
+      {
+        "assessment": "Theorem 1.2 compares projected Gini differences in dimension two; Example 4.2 and Proposition 4.5 give high-dimensional negative examples. No positive all-ball-product martingale is stated in the sections inspected.",
+        "evidence": [
+          "Theorem 1.2: planar directional inequality; Example 4.2 and Proposition 4.5: polytopal counterexamples and segment-product lifting."
+        ],
+        "identifier_or_url": "arXiv:2608.06470 | https://www.researchgate.net/publication/411851456_The_Zaporozhets-Tarasov_Conjecture_on_Mean_Distances",
+        "material_read": "Selected relevant sections of the complete author-hosted primary text: introduction, Theorem 1.2, Lemma 4.1, Example 4.2, Remark 4.4 and Proposition 4.5.",
+        "method": "Read openly accessible author-hosted primary full text.",
+        "title": "The Zaporozhets–Tarasov Conjecture on Mean Distances",
+        "trigger": "Closest original planar theorem and high-dimensional product counterexample mechanism."
+      },
+      {
+        "assessment": "High-dimensional centrally symmetric counterexamples limit generality but do not by themselves imply the positive mixed-ball-product convex-order martingale.",
+        "evidence": [
+          "Abstract describes centrally symmetric counterexamples in dimensions at least three."
+        ],
+        "identifier_or_url": "arXiv:2608.14848 | https://arxiv.org/abs/2608.14848",
+        "material_read": "Public arXiv abstract; not the full paper.",
+        "method": "Bibliographic and abstract comparison.",
+        "title": "Mean distance between points inside and on the boundary of a convex body",
+        "trigger": "Potential earlier counterexamples limiting high-dimensional claims."
+      }
+    ],
+    "status": "PASS"
+  },
+  "previously_published_pending_reaudit": false,
+  "review_type": "self_review",
+  "schema_version": 1,
+  "self_review_status": "passed",
+  "value": {
+    "rationale": "Since general high-dimensional central symmetry does not ensure the target distance inequality, the explicit curved nonsmooth ball-product family is an informative natural positive class. The construction yields all convex and separately convex expectations plus sharp blockwise covariance, not a small numerical improvement or a single special case.",
+    "status": "PASS"
+  }
+}

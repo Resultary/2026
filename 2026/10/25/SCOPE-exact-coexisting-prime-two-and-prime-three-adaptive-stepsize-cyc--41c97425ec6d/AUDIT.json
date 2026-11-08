@@ -1,0 +1,110 @@
+{
+  "correctness": {
+    "rationale": "The corrected final statement has exact prime-two and prime-three strict-branch algebraic identities, an exact rank-one cap Jacobian, return eigenvalues zero and <−1, and a stable two-step preimage curve showing they are not all-directions repellers; primal period factors contract.",
+    "status": "PASS"
+  },
+  "historical_review_note": "The prior self-review of the original wording called these cycles repelling. This is an editorial scientific correction of that earlier conclusion, not a claim that the original reviewer assessed the corrected statement or that independent attestation has already occurred.",
+  "independent": false,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "originality": {
+    "broader_coverage": {
+      "evidence": [
+        "The 2024 theorem concerns general convergence of primal iterates and uses a different cap.",
+        "A generic convergence theorem allows oscillating adaptive parameters but does not furnish exact algebraic orbits of this map."
+      ],
+      "reasoning": "No inspected broader prior theorem implies both prime periods of the exact original algorithm. A full-text unindexed specialization remains possible.",
+      "searches": [
+        "2024 PMLR 242 adaptive proximal convergence",
+        "arXiv:2508.01353 Bregman proximal gradient"
+      ]
+    },
+    "checked_sources": [
+      "Latafat et al, Adaptive proximal algorithms, arXiv:2301.04431, Algorithm 2.1 and Section 4.3",
+      "Latafat et al, On the convergence of adaptive first order methods, PMLR 242 (2024), pp.197–200",
+      "Published finding: Plastic-constant exact stepsize two-cycle for quadratic-kernel B-adaPGα, RESULT.md"
+    ],
+    "claim_vs_prior_implication": {
+      "evidence": [
+        "The 2023 authors note apparent cycles and request mathematical characterization.",
+        "The present prime-three equation r^2(r−1)^2(r+1)^3=1 and cap/growth inequalities require additional derivation."
+      ],
+      "reasoning": "The correction to saddle-type instability is forced by the exact zero return eigenvalue; earlier sources inspected neither supply this periodic point nor imply the corrected one-zero/one-expanding spectrum.",
+      "searches": [
+        "arXiv:2301.04431 original update and cyclic plot",
+        "PMLR 242 2024 parametric update",
+        "published finding e7d7ac1b509b"
+      ]
+    },
+    "equivalent_formulations": {
+      "evidence": [
+        "Original 2023 update has the scalar cap F(v)=sqrt(v/(v-1))/2; the 2024 follow-up uses a different cap.",
+        "Published B-adaPGα plastic-constant two-cycle has a nonidentical cap."
+      ],
+      "reasoning": "Equivalent branch and update coefficients were distinguished: a general cyclic observation, a modified cap and a distinct Bregman method do not logically imply the exact two/three periodic points, nor their one-zero/one-expanding return spectrum.",
+      "searches": [
+        "arXiv:2301.04431 Algorithm 2.1 Section 4.3",
+        "adaptive proximal gradient local stepsize cycles period two three Latafat quadratic"
+      ]
+    },
+    "exact_database_or_table": {
+      "evidence": [
+        "Closest identified published finding tabulates the plastic-constant two-cycle for a different curvature cap and different steps."
+      ],
+      "reasoning": "This claim is an algebraic dynamical-system existence theorem, not a finite-table entry. The closest identified record is not an equal-state update; lack of a match is not proof of historical priority.",
+      "searches": [
+        "Resultary search adaptive proximal gradient local stepsize cycles period two three Latafat quadratic",
+        "published finding e7d7ac1b509b"
+      ]
+    },
+    "rationale": "Original 2023 oscillation was qualitative; the different later proximal and Bregman rules do not imply the exact two periods and saddle return spectrum.",
+    "residual_risks": [
+      "An unindexed specialization of the original scalar recurrence could predate the exact formulas.",
+      "The full paper arXiv:2508.01353 has not been read as part of this correction; no whole-document noncoverage claim is made."
+    ],
+    "source_inspections": [
+      {
+        "assessment": "Specifies scalar update and observes oscillation; no exact period-three point or return spectrum in inspected portions.",
+        "evidence": [
+          "Algorithm 2.1; Section 4.3"
+        ],
+        "identifier_or_url": "https://arxiv.org/abs/2301.04431",
+        "material_read": "Algorithm 2.1 pp.6 and Section 4.3 discussion/plots",
+        "method": "Original open-access PDF text and page images",
+        "title": "Adaptive proximal algorithms for convex optimization under local Lipschitz continuity of the gradient",
+        "trigger": "Original exact update and oscillation motivation"
+      },
+      {
+        "assessment": "Different algorithm coefficient and primal convergence, not an implication of the precise cycles.",
+        "evidence": [
+          "PMLR 242, 197–200"
+        ],
+        "identifier_or_url": "https://proceedings.mlr.press/v242/latafat24a/latafat24a.pdf",
+        "material_read": "pp.197–200: algorithm update and comparison",
+        "method": "Primary open-access PMLR PDF",
+        "title": "On the convergence of adaptive first order methods: Proximal gradient and alternating minimization algorithms",
+        "trigger": "Potentially stronger general algorithm"
+      },
+      {
+        "assessment": "Different update and values, no prime-three implication.",
+        "evidence": [
+          "B-adaPGα cap and two-cycle values as recorded in published result"
+        ],
+        "identifier_or_url": "https://github.com/Resultary/2026/tree/main/2026/10/4/SCOPE-plastic-constant-exact-stepsize-two-cycle-for-quadratic-kernel-b--e7d7ac1b509b",
+        "material_read": "Published finding summary and differentiation of specific curvature cap",
+        "method": "Published Resultary semantic comparison",
+        "title": "Plastic-constant exact stepsize two-cycle for quadratic-kernel B-adaPGα",
+        "trigger": "Most similar published algebraic cycle"
+      }
+    ],
+    "status": "PASS"
+  },
+  "previously_published_pending_reaudit": false,
+  "review_type": "self_review",
+  "schema_version": 1,
+  "self_review_status": "passed",
+  "value": {
+    "rationale": "Two distinct exact prime-step periods on a natural strongly convex test problem, with simultaneous converging primal dynamics and saddle-type return spectrum, clarify a concrete question raised by the original method; no generic attraction claim.",
+    "status": "PASS"
+  }
+}

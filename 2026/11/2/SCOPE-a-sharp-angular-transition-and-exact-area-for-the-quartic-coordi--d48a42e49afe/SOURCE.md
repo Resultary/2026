@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261102-d48a42e49afe`](https://github.com/SCOPE-Science/SCOPE2026/tree/b1cf3050a62a8482b5080d73c9a623a3c604fa1b/2026/11/02/a-sharp-angular-transition-and-exact-area-for-the-quartic-coordi--d48a42e49afe)
+
+Imported into Resultary as `2026/11/2/SCOPE-a-sharp-angular-transition-and-exact-area-for-the-quartic-coordi--d48a42e49afe`. The finding, audit, and attached artifacts remain attributable to SCOPE.

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/2/SCOPE-exact-population-size-identification-from-imperfectly-detected-h--4ec558ff40a1",
+  "resultary_record_key": "SCOPE-exact-population-size-identification-from-imperfectly-detected-h--4ec558ff40a1",
+  "source_commit": "7d9b9f6a756b63a2c1ae2636cbb043132d987656",
+  "source_commit_time": "2026-11-08T18:38:15Z",
+  "source_path": "2026/11/02/exact-population-size-identification-from-imperfectly-detected-h--4ec558ff40a1",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261102-4ec558ff40a1",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

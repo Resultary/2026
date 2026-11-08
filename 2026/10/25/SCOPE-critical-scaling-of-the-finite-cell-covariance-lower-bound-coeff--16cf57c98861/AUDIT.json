@@ -1,0 +1,93 @@
+{
+  "checked_sources": [
+    "arXiv:2510.13555v2, Eq. (42), Appendices B/C",
+    "Independent analytic linear-dispersion boundary calculation",
+    "Independent quadrature z=1,2"
+  ],
+  "correctness": {
+    "rationale": "For each fixed beta>0 the cellwise covariance expansion and midpoint summation yield C_E(beta)/M^2+O_beta(M^-4); endpoint rescaling gives C_E(beta) asymptotic to K_z(beta v)^(1/z). The corrected theorem specifies the iterated order, not a joint necessary cell-count law. For E(k)=pi-k, direct integration yields lim_{beta->infty} S_M(beta)=log(2)/(2M) at every fixed M while C_E(beta) grows linearly in beta. This refutes the original unqualified scaling consequence and validates its removal from the final claim.",
+    "status": "PASS"
+  },
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "originality": {
+    "broader_coverage": {
+      "evidence": [
+        "Appendix B derives the bound for the Ising process; Appendix C studies the modulated Ising critical class with linear vanishing.",
+        "A model-independent smooth function with any integer endpoint order z is not a physical Hamiltonian theorem in that paper."
+      ],
+      "reasoning": "The new coefficient theorem does not claim a previously unknown physical universality class, and earlier general spectral framework does not explicitly provide the stated endpoint integral constant.",
+      "searches": [
+        "arXiv:2510.13555v2 Appendix B Appendix C",
+        "endpoint critical dispersion general power order Laplace integral thermal preparation"
+      ]
+    },
+    "checked_sources": [
+      "T. Shirai, arXiv:2510.13555v2, main text Eq. (42), Appendix B and Appendix C",
+      "Relevant published-finding corpus searches for thermal entropy and critical covariance"
+    ],
+    "claim_vs_prior_implication": {
+      "evidence": [
+        "The source explicitly gives the lower-bound functional and M^-2 order but no evaluated coefficient.",
+        "Classic quadrature principles can derive the coefficient, and the endpoint method is a standard deduction once the specific coefficient is identified."
+      ],
+      "reasoning": "The narrowed claim is a new explicit specialization of classical tools to the exact physically motivated object, not a new generic quadrature theorem. The separate counterexample establishes the correct interpretation boundaries.",
+      "searches": [
+        "Shirai Eq. (42) and discussion of n_p^-2",
+        "standard midpoint quadrature coefficient and endpoint Laplace asymptotics"
+      ]
+    },
+    "equivalent_formulations": {
+      "evidence": [
+        "Shirai defines the interval-covariance lower bound using tanh(beta Lambda) and cell-average Lambda.",
+        "The corrected statement isolates its asymptotic coefficient and demonstrates the noncommutativity of beta and cell refinement on a linear model."
+      ],
+      "reasoning": "The source functional equals S_M after notation changes, but the original derivation supplies its M^-2 order, not the exact C_E coefficient or arbitrary z formula.",
+      "searches": [
+        "arXiv:2510.13555v2 Eq. (42)",
+        "critical dispersion covariance sech^2 beta midpoint partition coefficient"
+      ]
+    },
+    "exact_database_or_table": {
+      "evidence": [
+        "Searches returned no exact coefficient table for this functional; unrelated thermal-spin or entropy entries were distinguished by object and parameter."
+      ],
+      "reasoning": "No already-checked database of numerical coefficients appears to encompass the exact whole-parameter formula. Search absence is not proof of priority.",
+      "searches": [
+        "Resultary exact finite-cell covariance critical endpoint M^-2 beta z",
+        "published coefficient tables thermal Ising preparation"
+      ]
+    },
+    "rationale": "The physical covariance floor and the M^-2 decay order are prior results of Shirai. The explicit coefficient, arbitrary endpoint-power law, and exact nonuniform boundary example are the narrowed contribution; standard quadrature and endpoint Laplace methods are prior mathematics.",
+    "residual_risks": [
+      "An equivalent coefficient in unindexed thermal or classical quadrature literature remains possible.",
+      "A generic quadrature expansion makes the calculation accessible, so novelty is specific to this motivated coefficient, not the technique."
+    ],
+    "source_inspections": [
+      {
+        "assessment": "COVERS functional and decay order, but NOT explicit coefficient or arbitrary endpoint-order asymptotic",
+        "evidence": [
+          "Eq. (42) defines the cell covariance integral",
+          "text after Eq. (43) states order n_p^-2",
+          "Appendix C treats the Ising critical symmetry class"
+        ],
+        "identifier_or_url": "https://arxiv.org/html/2510.13555v2",
+        "material_read": "Main text including Eq. (42) and n_p^-2 discussion; Appendix B derivation; Appendix C universality class",
+        "method": "lawful full-text arXiv HTML inspection",
+        "title": "Quasi-adiabatic thermal ensemble preparation in the thermodynamic limit",
+        "trigger": "identical interval covariance lower-bound object and M^-2 order"
+      }
+    ],
+    "status": "PASS"
+  },
+  "previously_published_pending_reaudit": false,
+  "residual_risks": [
+    "No uniform joint (M,beta) limit is proved.",
+    "Model-specific physical interpretation and external historical priority remain unverified."
+  ],
+  "schema_version": 1,
+  "value": {
+    "rationale": "The exact finite-cell coefficient and endpoint-exponent classification are natural quantitative refinements of an entropy lower bound. Their mathematical value includes the demonstrated failure of the tempting joint-beta/M necessary resolution law, preventing erroneous transfer to physical resource bounds. The result does not claim a full physical preparation theorem.",
+    "status": "PASS"
+  }
+}

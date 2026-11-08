@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/2/SCOPE-exact-one-step-image-counts-for-cyclic-elementary-cellular-autom--ce660bdc5af3",
+  "resultary_record_key": "SCOPE-exact-one-step-image-counts-for-cyclic-elementary-cellular-autom--ce660bdc5af3",
+  "source_commit": "7777b5fe84adcb5ccb610c929bd15fb66aabbb10",
+  "source_commit_time": "2026-11-08T18:39:17Z",
+  "source_path": "2026/11/02/exact-one-step-image-counts-for-cyclic-elementary-cellular-autom--ce660bdc5af3",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261102-ce660bdc5af3",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

@@ -1,0 +1,121 @@
+{
+  "correctness": {
+    "rationale": "The nine rational Hermitian points form a transverse (3,3) complete intersection with G=X(Y²+YZ+Z²). Cayley–Bacharach forces a cubic through eight of them through all nine, while the non-H members of the cubic pencil factor into rational lines. The displayed C0 is smooth and meets H at exactly seven rational points. Exact full-coefficient and seven-constraint-nullspace enumerations establish 180 extremizers, five per omitted pair, with a 72/108 split. High rational point counts and absence of a rational line factor force geometric smoothness; Bezout, absence of degree-two Hermitian closed points and tangent gradients give the claimed contact divisors.",
+    "status": "PASS"
+  },
+  "independent": false,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "originality": {
+    "broader_coverage": {
+      "evidence": [
+        "Beelen et al. prove general intersection-existence statements, explicitly isolating the (2,3) failure; their q=2 displayed specialization factors.",
+        "Kaplan–Matei enumerate all ordered cubic pairs but not conditionally for fixed Hermitian H and smooth C.",
+        "Homma separates two projective classes of cubic curves with nine rational points."
+      ],
+      "reasoning": "The more general domains do not supply the required conditional extremizer distribution. Uniform pair counts and total rational-point classifications do not logically determine the counts in the fixed-H fiber.",
+      "searches": [
+        "arXiv:2407.13521v1 Theorem 2.2, Theorem 3.14",
+        "arXiv:2003.13944v3 Theorem 1 and §7",
+        "Homma DOI 10.13069/jacodesmath.v11i2.273 Theorem 1.2"
+      ]
+    },
+    "checked_sources": [
+      "Beelen et al., arXiv:2407.13521v1, introduction, Theorems 2.2 and 3.14",
+      "Homma, DOI 10.13069/jacodesmath.v11i2.273, Theorem 1.2",
+      "Kaplan and Matei, arXiv:2003.13944v3, Theorem 1 and Lemma 32",
+      "Published mathematical research records, searches on F4 Hermitian cubic seven-point incidence"
+    ],
+    "claim_vs_prior_implication": {
+      "evidence": [
+        "Nine-point impossibility alone implies an upper bound eight, not the sharp bound seven or exact 180.",
+        "Cayley–Bacharach yields an eight-point obstruction after the special nine-point complete-intersection pencil is reconstructed, but gives no 180 smooth-companion count.",
+        "General cubic-pair counts are aggregated over the first cubic and include nonsmooth companions; Homma concerns the maximal nine-point total."
+      ],
+      "reasoning": "The complete refined census, including per-omitted-pair and tangency split, requires more than any inspected prior theorem states or immediately implies.",
+      "searches": [
+        "arXiv:2407.13521v1 §2 and §3",
+        "arXiv:2003.13944v3 Theorem 1 and Lemma 32",
+        "Homma DOI 10.13069/jacodesmath.v11i2.273 Theorem 1.2"
+      ]
+    },
+    "equivalent_formulations": {
+      "evidence": [
+        "The sharp problem can be restated via zeros of ternary cubic evaluations on the nine Hermitian points, or as fixed-curve intersection incidence.",
+        "Prior sources examine the nine-point full-intersection obstruction or aggregate pairs of cubics, rather than the refined fixed-H count."
+      ],
+      "reasoning": "The reduced nine-point complete intersection and its code constrain eight-point incidence. Neither that bare incidence reduction nor the aggregate pair-count theorem itself determines the number of geometrically smooth seven-point companions per omitted pair.",
+      "searches": [
+        "arXiv:2407.13521v1 §1–§3",
+        "arXiv:2003.13944v3 theorem 1 and §7",
+        "Hermitian cubic F4 nine rational points seven point intersections with integral cubic exactly 180 smooth cubics"
+      ]
+    },
+    "exact_database_or_table": {
+      "evidence": [
+        "The inspected papers and finite-field curve tables have no explicit matching 180/72/108 fixed-H classification.",
+        "Beelen et al. mention a negative exhaustive calculation for nine-point integral intersection, not a complete seven-point census."
+      ],
+      "reasoning": "No queried exact table established the refined statement. A missing hit is not a mathematical proof of novelty; an unindexed table or code could contain the same enumeration.",
+      "searches": [
+        "Hermitian cubic F4 nine rational points seven point intersections with integral cubic exactly 180 smooth cubics",
+        "nine Hermitian elliptic points over GF(4) 180 smooth cubic companions 72 108 tangency strata",
+        "Hermitian cubic F4 seven point intersections research-index query",
+        "manypoints.org genus 1 F4"
+      ]
+    },
+    "rationale": "Beelen–Datta–Montanucci–Niemann establish nonexistence of full nine-point integral intersections for (q,d)=(2,3), not the seven-point optimum or complete 180/72/108 classification; their displayed q=2 pencil specialization is reducible. Homma classifies cubic curves with nine rational points up to projective equivalence, not incidence against a fixed Hermitian cubic. Kaplan–Matei count all ordered cubic pairs by number of rational intersection points, not the conditional smooth-companion census for fixed H. Classical Cayley–Bacharach is credited as prior art. Earlier isolated numerical tables remain a priority risk.",
+    "residual_risks": [
+      "An unindexed F4 code enumeration or finite geometry table could contain the same exact 180 and contact-count formulas.",
+      "The available primary-source search is not exhaustive and does not establish global first-priority.",
+      "No independent human attestation or Lean verification is asserted."
+    ],
+    "source_inspections": [
+      {
+        "assessment": "Establishes the exceptional impossibility of nine common rational points, not the seven-point extremizer distribution",
+        "evidence": [
+          "Introduction lists (2,3) among exhaustive-search failures for full nine-point intersection.",
+          "Theorem 3.14 is restricted to q≥3; q=2 specialization of Theorem 2.2 factors into lines."
+        ],
+        "identifier_or_url": "https://arxiv.org/pdf/2407.13521",
+        "material_read": "Abstract, introduction, Theorems 2.2 and 3.14, their proofs and relevant section boundaries",
+        "method": "Read accessible preprint PDF text and visually inspect Theorem 2.2 page",
+        "title": "Intersection of irreducible curves and the Hermitian curve",
+        "trigger": "Directly addresses (q,d)=(2,3) exception"
+      },
+      {
+        "assessment": "Two classes of maximal nine-point plane cubics; no fixed-H smooth seven-point incidence census established by the inspected result",
+        "evidence": [
+          "Theorem 1.2 lists Hermitian and another nonsingular class with nine F4 points.",
+          "It classifies individual curves by their total point count, not pairs by a fixed intersection."
+        ],
+        "identifier_or_url": "https://jacodesmath.com/index.php/jacodesmath/article/download/273/198/",
+        "material_read": "Abstract, introduction, page of Theorems 1.1–1.2 and discussion of maximal plane cubic types",
+        "method": "Read full-text PDF excerpts and visually inspect theorem page",
+        "title": "On maximal plane curves of degree 3 over F4, and Sziklai’s example of degree q−1 over Fq",
+        "trigger": "Classifies the same-field maximal nine-point plane cubics"
+      },
+      {
+        "assessment": "All-pair intersection count does not provide the conditional fixed-H smooth-companion and contact stratification",
+        "evidence": [
+          "Theorem 1 counts pairs (f,g) of nonzero cubic forms by k rational common zeros, with no conditioning on f being the designated Hermitian curve.",
+          "Lemma 32 concerns nine-point cubic evaluation dependence, not the 180/72/108 conditional distribution."
+        ],
+        "identifier_or_url": "https://arxiv.org/pdf/2003.13944",
+        "material_read": "Abstract, Theorem 1, sections on cubic evaluation code and nine-point configurations, Lemma 32, §7 proof and further questions",
+        "method": "Read full-text PDF at cited pages and inspect screenshots of title and nine-point lemma",
+        "title": "Counting Plane Cubic Curves over Finite Fields with a Prescribed Number of Rational Intersection Points",
+        "trigger": "Potentially dominating exact count of cubic–cubic intersections over F4"
+      }
+    ],
+    "status": "PASS"
+  },
+  "previously_published_pending_reaudit": false,
+  "review_type": "self_review",
+  "schema_version": 1,
+  "self_review_status": "passed",
+  "value": {
+    "rationale": "The classified exact extremizers resolve the small-field exception to a natural Hermitian-curve intersection problem. The five-per-omitted-pair phenomenon and 72/108 contact stratification give a full incidence invariant beyond the known failure to attain nine, and are not a routine normalization or table restatement.",
+    "status": "PASS"
+  }
+}

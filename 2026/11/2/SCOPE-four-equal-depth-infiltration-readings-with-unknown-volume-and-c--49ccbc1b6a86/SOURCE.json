@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/2/SCOPE-four-equal-depth-infiltration-readings-with-unknown-volume-and-c--49ccbc1b6a86",
+  "resultary_record_key": "SCOPE-four-equal-depth-infiltration-readings-with-unknown-volume-and-c--49ccbc1b6a86",
+  "source_commit": "9a629b05c2a8f3e9b882e153435dbc4226818b4c",
+  "source_commit_time": "2026-11-08T18:38:54Z",
+  "source_path": "2026/11/02/four-equal-depth-infiltration-readings-with-unknown-volume-and-c--49ccbc1b6a86",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261102-49ccbc1b6a86",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

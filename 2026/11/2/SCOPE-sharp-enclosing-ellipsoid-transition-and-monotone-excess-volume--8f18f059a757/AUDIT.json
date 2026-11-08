@@ -1,0 +1,101 @@
+{
+  "correctness": {
+    "rationale": "Known Todd semiaxes together with a strict positive-weight integral derivative yield global strict excess-volume monotonicity; exact endpoint Laplace and Gaussian marginal arguments prove the limiting laws. Representative numeric checks independently corroborated the formulas.",
+    "status": "PASS"
+  },
+  "independent": true,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "originality": {
+    "broader_coverage": {
+      "evidence": [
+        "Todd is a genuine dominating theorem for the ellipsoid parameter formulas, but does not itself state the quantified strict ratio ordering or the Gaussian transition.",
+        "Ivanov–Naszódi concerns general functional contact conditions; the cited abstract does not supply the cap ratio laws."
+      ],
+      "reasoning": "General optimality theory and Todd's full parameter law solve the geometric optimization component; the separate normalized volume-to-cap comparison requires an integral inequality and scaling analysis.",
+      "searches": [
+        "Todd 1982 one-sided and two-sided ellipsoid cuts",
+        "Ivanov Naszódi 2022 Functional John and Löwner conditions",
+        "Resultary capped hypercube John ellipsoid"
+      ]
+    },
+    "checked_sources": [
+      "Todd 1982 author-uploaded full-text rendering, Proposition 1 and section 3",
+      "Ivanov–Naszódi arXiv:2212.11781 abstract",
+      "Mathematics Stack Exchange 5040265 citation and accessible description of the a=0 case",
+      "Relevant published Resultary ellipsoid findings"
+    ],
+    "claim_vs_prior_implication": {
+      "evidence": [
+        "Todd's explicit enclosing ellipsoid makes all the amended quantities computable; the novel assertion is a strict inequality for every pair of heights, and two dimension-varying limits.",
+        "In the inspected Todd discussion no monotonicity of enclosing-volume divided by cap-volume is claimed."
+      ],
+      "reasoning": "The original optimization-and-transition claim is decisively prior; the amended ratio monotonicity and scaling are mathematical consequences requiring additional analysis and are treated as narrow qualified contributions rather than independent rediscovery of the ellipsoid.",
+      "searches": [
+        "Todd 1982 Proposition 1 explicit volume one-sided ellipsoid slice",
+        "Todd 1982 section 3 tight ellipsoid parameters",
+        "minimum volume ellipsoid ball cap gaussian high dimensional ratio"
+      ]
+    },
+    "equivalent_formulations": {
+      "evidence": [
+        "Todd Proposition 1 and §3 give formulae for all one-sided cuts, including -1/d and semiaxes; those are prior.",
+        "Todd's accessible full text did not present a strict monotonicity theorem for the ratio to cap volume."
+      ],
+      "reasoning": "The cap ellipsoid formula is equivalent to a Todd specialization and is fully credited; the repaired final claim is only the normalized-ratio ordering and three limiting regimes.",
+      "searches": [
+        "Michael J. Todd (1982) On Minimum Volume Ellipsoids Containing Part of a Given Ellipsoid DOI 10.1287/moor.7.2.253",
+        "minimum volume ellipsoid spherical cap monotone normalized volume ratio"
+      ]
+    },
+    "exact_database_or_table": {
+      "evidence": [
+        "Todd already gives an exact all-height optimization formula, superseding a single-height 2025 discussion.",
+        "No independently checked ratio table with the claimed strict ordering and both dimension limits was identified."
+      ],
+      "reasoning": "A table of parameters would not by itself establish global monotonicity, but the prior exact formula prevents treating the ellipsoid parameters as new. Negative table searches are not evidence of novelty.",
+      "searches": [
+        "spherical cap Löwner ellipsoid volume ratio monotonicity table",
+        "smallest enclosing ellipsoid ball cut by hyperplane numeric approximations"
+      ]
+    },
+    "rationale": "The all-height minimum-volume ellipsoid including its sharp phase change was solved by Todd (1982) and is explicitly excluded from the amended originality claim. The surviving claim concerns strict monotonicity of the normalized ellipsoid/cap volume ratio and its sharp thin-cap, positive-height and Gaussian-window dimensional limits. These follow by a nontrivial integral comparison and asymptotic analysis not identified in the inspected Todd primary text. Priority is qualified, and the elementary nature of the deduction is acknowledged.",
+    "residual_risks": [
+      "An earlier derivative or geometric rounding paper may already state the ratio monotonicity or same dimension limits.",
+      "Some may view the residual derivative and asymptotic formulas as routine consequences of Todd's explicit parameters; their value is narrow but the strict global geometric comparison is motivated.",
+      "Todd's 1982 work is decisive prior coverage of the original headline; do not restore that novelty claim."
+    ],
+    "source_inspections": [
+      {
+        "assessment": "Covers original ellipsoid and phase transition, but no explicit strict excess-volume-to-cap ordering or high-dimensional limit statement seen.",
+        "evidence": [
+          "Proposition 1 (2.6)-(2.7) gives the same one-sided-cut volume factor and threshold -1/n; section 3 constructs the optimizer."
+        ],
+        "identifier_or_url": "DOI:10.1287/moor.7.2.253; https://www.researchgate.net/publication/242929698_On_Minimum_Volume_Ellipsoids_Containing_Part_of_a_Given_Ellipsoid",
+        "material_read": "Author-uploaded full-text HTML rendering including introduction, Proposition 1, the -1/d threshold and section 3 construction; searches for monotonicity and asymptotic limits.",
+        "method": "Read primary full-text rendering and compare normalized one-sided-cut formulas",
+        "title": "On Minimum Volume Ellipsoids Containing Part of a Given Ellipsoid",
+        "trigger": "Exact earlier problem of minimum-volume ellipsoid around a one-sided ball cut"
+      },
+      {
+        "assessment": "General contact theory; no direct ratio conclusion established from material read.",
+        "evidence": [
+          "Abstract concerns functional John/Löwner extremal positions."
+        ],
+        "identifier_or_url": "arXiv:2212.11781",
+        "material_read": "Primary abstract and stated general problem; full article not independently reviewed in this audit.",
+        "method": "Arxiv abstract indexing",
+        "title": "Functional John and Löwner conditions for pairs of log-concave functions",
+        "trigger": "Potentially broader enclosing-ellipsoid optimality theory"
+      }
+    ],
+    "status": "PASS"
+  },
+  "previously_published_pending_reaudit": false,
+  "review_type": "independent_audit",
+  "schema_version": 1,
+  "value": {
+    "rationale": "The ellipsoid/cap volume overhead is a natural efficiency parameter for geometric rounding, and a global strict height-ordering plus asymptotic regimes are independently useful structural laws, even though the necessary optimal ellipsoid is known from Todd (1982).",
+    "status": "PASS"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/25/SCOPE-square-root-covariance-windows-for-consecutive-square-occupancy--053907168747",
+  "resultary_record_key": "SCOPE-square-root-covariance-windows-for-consecutive-square-occupancy--053907168747",
+  "source_commit": "b90155fe7caadb04aac4486cae872d62407f880f",
+  "source_commit_time": "2026-11-08T19:20:14Z",
+  "source_path": "2026/10/25/square-root-covariance-windows-for-consecutive-square-occupancy--053907168747",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261025-053907168747",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

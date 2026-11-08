@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/2/SCOPE-mixed-capacity-birthday-failures-a-sharp-competing-hazard-thresh--80ccf1ac6bcf",
+  "resultary_record_key": "SCOPE-mixed-capacity-birthday-failures-a-sharp-competing-hazard-thresh--80ccf1ac6bcf",
+  "source_commit": "8d94fe4ce10e0b527e35eefb96d665f66971dded",
+  "source_commit_time": "2026-11-08T19:20:33Z",
+  "source_path": "2026/11/02/mixed-capacity-birthday-failures-a-sharp-competing-hazard-thresh--80ccf1ac6bcf",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261102-80ccf1ac6bcf",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

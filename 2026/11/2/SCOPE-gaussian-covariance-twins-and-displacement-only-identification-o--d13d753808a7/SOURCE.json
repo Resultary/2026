@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/2/SCOPE-gaussian-covariance-twins-and-displacement-only-identification-o--d13d753808a7",
+  "resultary_record_key": "SCOPE-gaussian-covariance-twins-and-displacement-only-identification-o--d13d753808a7",
+  "source_commit": "fba44d62fcf717fc973d351d052d0b163ec8da5d",
+  "source_commit_time": "2026-11-08T19:20:47Z",
+  "source_path": "2026/11/02/gaussian-covariance-twins-and-displacement-only-identification-o--d13d753808a7",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261102-d13d753808a7",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/26/SCOPE-exact-temporal-two-orbit-census-and-spatial-zeta-for-elementary--752b17859ec3",
+  "resultary_record_key": "SCOPE-exact-temporal-two-orbit-census-and-spatial-zeta-for-elementary--752b17859ec3",
+  "source_commit": "54ed8204cc30515a01b79f429f41af0b33e3ea88",
+  "source_commit_time": "2026-11-02T00:37:23Z",
+  "source_path": "2026/10/26/exact-temporal-two-orbit-census-and-spatial-zeta-for-elementary--752b17859ec3",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261026-752b17859ec3",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/2/SCOPE-exact-two-resample-calibration-and-its-sharp-boundary-for-weight--d985cfd378db",
+  "resultary_record_key": "SCOPE-exact-two-resample-calibration-and-its-sharp-boundary-for-weight--d985cfd378db",
+  "source_commit": "a4e46f21c4a8c94c3208adb76d185db195cf3b70",
+  "source_commit_time": "2026-11-08T18:39:18Z",
+  "source_path": "2026/11/02/exact-two-resample-calibration-and-its-sharp-boundary-for-weight--d985cfd378db",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261102-d985cfd378db",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

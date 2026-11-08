@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/25/SCOPE-critical-delegation-produces-non-self-averaging-lost-voting-weig--40fc4ee846bf",
+  "resultary_record_key": "SCOPE-critical-delegation-produces-non-self-averaging-lost-voting-weig--40fc4ee846bf",
+  "source_commit": "3046073fbe9468886c7ff7aab66d8c8f80ade0a7",
+  "source_commit_time": "2026-11-02T01:10:36Z",
+  "source_path": "2026/10/25/critical-delegation-produces-non-self-averaging-lost-voting-weig--40fc4ee846bf",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261025-40fc4ee846bf",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

@@ -1,0 +1,1 @@
+For squarefree characteristic-polynomial fibres over any finite field, the fibre-size-normalized additive Fourier coefficients at all nonzero rank-one frequencies depend exactly on the rational-root set. The unnormalized coefficients also depend on the fibre cardinality. Knowing that size, a finite-field Fourier inversion recovers every rational root.

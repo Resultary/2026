@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/26/SCOPE-exact-conservative-flux-cap-feasibility-for-active-flux-total-va--83883158b124",
+  "resultary_record_key": "SCOPE-exact-conservative-flux-cap-feasibility-for-active-flux-total-va--83883158b124",
+  "source_commit": "5cef2f497eb3d41787fc0bb2b9a13eb1d19b86f7",
+  "source_commit_time": "2026-11-02T02:57:37Z",
+  "source_path": "2026/10/26/exact-conservative-flux-cap-feasibility-for-active-flux-total-va--83883158b124",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261026-83883158b124",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

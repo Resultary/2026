@@ -1,0 +1,18 @@
+{
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "integrity": "The unrefined 2^n+n+1 closure count and individual diamond normal forms are prior results; the assessed claim is the maximal commutation classification and arbitrary-arity enumeration, with a mathematical proof and independent bounded computations.",
+  "limitations": "n≥3, labelled atoms, extensive isotone idempotent maps, no join/meet preservation; general finite lattices are not classified; priority assessment is best-of-knowledge.",
+  "previously_published_pending_reaudit": false,
+  "primary_msc": "03B45",
+  "publication_date": "2026-10-18",
+  "record_id": "SCOPE-20261018-e805649f7cfd",
+  "scope_run_id": "e805649f-7cfd-491c-9ed7-2558e20f4dec",
+  "self_review_status": "passed",
+  "source_ids": [
+    "doi:10.1093/logcom/exac028",
+    "arxiv:2302.13081"
+  ],
+  "title": "Maximal commuting families of closure modalities on finite diamond lattices",
+  "verification_state": "independently_reviewed"
+}

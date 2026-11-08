@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261102-5a941bba5a1e`](https://github.com/SCOPE-Science/SCOPE2026/tree/66d608d550a20b59a60ba2bae1769d48f9d763ef/2026/11/02/eight-projective-orbit-classes-of-conic-free-points-over-mathbb--5a941bba5a1e)
+
+Imported into Resultary as `2026/11/2/SCOPE-eight-projective-orbit-classes-of-conic-free-points-over-mathbb--5a941bba5a1e`. The finding, audit, and attached artifacts remain attributable to SCOPE.

@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261102-cd61381281e0`](https://github.com/SCOPE-Science/SCOPE2026/tree/777b1aec6f291f938f61348a600beee07bd14ad5/2026/11/02/sharp-finite-distance-moment-tomography-of-solid-euclidean-ellip--cd61381281e0)
+
+Imported into Resultary as `2026/11/2/SCOPE-sharp-finite-distance-moment-tomography-of-solid-euclidean-ellip--cd61381281e0`. The finding, audit, and attached artifacts remain attributable to SCOPE.

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/1/SCOPE-exact-endpoint-stability-and-part-size-threshold-for-balanced-mu--15fe144028e2",
+  "resultary_record_key": "SCOPE-exact-endpoint-stability-and-part-size-threshold-for-balanced-mu--15fe144028e2",
+  "source_commit": "b48a88818eb50bdc6b1487262a6abb9e17b17cf2",
+  "source_commit_time": "2026-11-08T18:26:31Z",
+  "source_path": "2026/11/01/exact-endpoint-stability-and-part-size-threshold-for-balanced-mu--15fe144028e2",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261101-15fe144028e2",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

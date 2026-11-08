@@ -1,0 +1,86 @@
+{
+  "correctness": {
+    "rationale": "For the length-16 binary first-order Reed-Muller generator g_x=(1,x), no target can be recovered from a different singleton or two columns. For seven equal requests, at most one disjoint recovery set contains that coordinate and six other sets would need at least 18 of the remaining 15 coordinates, impossible. For six requests, all 54,264 multisets of six indices are exhaustively processed using the complete singleton-or-XOR-triple candidate family; each returned witness is validated against five-bit generator-column sums, multiplicities, and disjointness. This is a finite exhaustive witness proof, not an extension to other lengths.",
+    "status": "PASS"
+  },
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "originality": {
+    "broader_coverage": {
+      "evidence": [
+        "Boruchovsky et al. (2026), Proposition 29 bounds t by 1+floor((n-1)/(d_dual-1)), giving at most six for n=16,d_dual=4.",
+        "The same work identifies Reed-Muller all-symbol PIR/batch properties as a further direction.",
+        "Yohananov–Yaakobi's Hadamard functional-batch constructions use different length/dimension parameters; the service-rate literature studies fractional demand and/or message symbols."
+      ],
+      "reasoning": "An upper bound and repeated-one-symbol accessibility are weaker than all-six-multisets sufficiency. No inspected construction yields this exact RM(1,4), n=16, six-mixed-request statement by a demonstrated implication.",
+      "searches": [
+        "arxiv:2601.04041 Proposition 29 Section 5",
+        "arxiv:2101.06722 functional Hadamard batch",
+        "Reed-Muller service-rate region 2025"
+      ]
+    },
+    "claim_vs_prior_implication": {
+      "evidence": [
+        "Prior four-query batch property does not directly establish the t=6 property.",
+        "The dual-distance argument gives t<=6 but not t>=6.",
+        "Recovery of each individual coordinate from six disjoint sets does not ensure all arbitrary six-target requests can be served together."
+      ],
+      "reasoning": "The new claim is the matching mixed-multiset six-request construction, not the known repeated-target upper-bound calculation.",
+      "searches": [
+        "arxiv:1710.07386 Theorems 4.13 4.14",
+        "arxiv:2601.04041 Definition 2 Proposition 29",
+        "arxiv:2508.08736 Section IV"
+      ]
+    },
+    "equivalent_formulations": {
+      "evidence": [
+        "Baumbaugh et al. (2018), Theorems 4.13–4.14: four-request batch guarantee on RM(1,4) with a 10-bucket partition.",
+        "Ly–Soljanin (2026), Section IV: recovery sets for message coefficients, not six stored-coordinate requests."
+      ],
+      "reasoning": "The exact target is any multiset of codeword-coordinate values, not a multiset of input-message basis vectors; one-target parallel parity-check recovery does not provide pairwise disjoint assignments for six mixed targets.",
+      "searches": [
+        "RM(1,4) all symbol batch six requests",
+        "Hadamard first-order Reed-Muller 16 servers six mixed demand recovery",
+        "arxiv:1710.07386",
+        "arxiv:2508.08736"
+      ]
+    },
+    "exact_database_or_table": {
+      "evidence": [
+        "Published Resultary dimension-three five-request length-10 census treats dimension three, not the [16,5,8] code.",
+        "Published odd-dimensional first-order Reed-Muller all-symbol PIR theorem concerns odd m and identical demands.",
+        "A new exhaustive validation covers the 54,264 multisets; no matching published census identified."
+      ],
+      "reasoning": "Neither the different-parameter tables nor single-symbol availability gives the six-mixed-demand exact capacity on this specified code. Search nonmatches alone are not a proof of novelty.",
+      "searches": [
+        "Resultary all symbol RM(1,4) six arbitrary requests",
+        "Resultary exact dimension three five-request all symbol lengths",
+        "RM(1,4) 54264 batch request census"
+      ]
+    },
+    "rationale": "The published four-request Reed-Muller batch guarantee and the published six-identical-request all-symbol PIR counting bound do not imply simultaneous recovery of all six-coordinate multisets. The established affine/majority-logic constructions and simplex-code results use differing targets, code lengths or strength. Full mixed-demand attainment at the sharp six-request limit is the claimed contribution; inaccessible historic parity-check material remains a priority risk.",
+    "residual_risks": [
+      "An unindexed older design/orthogonal parity-check theorem could imply the six-mixed-demand result.",
+      "Rahman–Blake (1975) full text was unavailable; only its publisher abstract was accessible.",
+      "Published six-request all-symbol batch facts under a different code-theory equivalence may have escaped the focused search."
+    ],
+    "status": "PASS"
+  },
+  "previously_published_pending_reaudit": false,
+  "review_type": "scientific_review",
+  "schema_version": 1,
+  "scientific_limits": [
+    "Only the binary length-16 first-order Reed-Muller code and primitive per-coordinate disjointness model.",
+    "Recovery witnesses of sizes one and three; no claim on smaller locality or online efficiency.",
+    "The computational part is finite and exact only because all 54,264 request multisets are enumerated and checked."
+  ],
+  "source_ids": [
+    "arxiv:2601.04041",
+    "arxiv:1710.07386",
+    "arxiv:2508.08736"
+  ],
+  "value": {
+    "rationale": "A natural exact batch-access invariant of the classical binary RM(1,4) code is fixed sharply. Its simultaneous six-mixed-demand attainment strengthens the previously documented four-request construction and separates full batch service from PIR availability; the result has a complete finite witness enumeration and a locality-three witness bound. It does not claim an all-length theorem or optimal access cost.",
+    "status": "PASS"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "expert_attestation_status": "not_performed",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "integrity": "The complete matching-deletion formula is proved by a first-force shore-count obstruction and explicit forcing/dominating witnesses. The all-parameter theorem does not rely on finite experiment. The undeleted complete-bipartite case and known standard-graph boundaries are prior coverage.",
+  "lean_verification_status": "not_performed",
+  "previously_published_pending_reaudit": false,
+  "primary_msc": "05C50",
+  "publication_date": "2026-10-12",
+  "record_id": "SCOPE-20261012-189e5d974ee5",
+  "scientific_limitations": [
+    "No extension to arbitrary sets of removed edges is claimed.",
+    "Small-graph enumeration independently corroborates but does not replace the proof.",
+    "Previously known t=0 and isolated standard-graph cases are not claimed as separately novel.",
+    "Originality is a qualified best-of-knowledge judgment."
+  ],
+  "scope_run_id": "189e5d97-4ee5-4bb5-b2e5-640a10d3ac4b",
+  "source_ids": [
+    "arXiv:2411.00580v1",
+    "doi:10.9734/arjom/2026/v22i31058",
+    "doi:10.3934/math.2026802",
+    "arXiv:1801.08910v1"
+  ],
+  "title": "Dom-forcing under matching deletions in complete bipartite graphs",
+  "verification_state": "independently_reviewed"
+}

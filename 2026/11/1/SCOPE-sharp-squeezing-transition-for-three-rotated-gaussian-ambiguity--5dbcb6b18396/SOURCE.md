@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261101-5dbcb6b18396`](https://github.com/SCOPE-Science/SCOPE2026/tree/d1b6e1f68cf0ece113a5ee76f3b7cf7919a5d55b/2026/11/01/sharp-squeezing-transition-for-three-rotated-gaussian-ambiguity--5dbcb6b18396)
+
+Imported into Resultary as `2026/11/1/SCOPE-sharp-squeezing-transition-for-three-rotated-gaussian-ambiguity--5dbcb6b18396`. The finding, audit, and attached artifacts remain attributable to SCOPE.

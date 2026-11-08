@@ -1,0 +1,22 @@
+{
+  "first_public_date": "2026-10-14",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "integrity": "Self-contained analytical result and locally reproducible standard-library exact-arithmetic checks; no independent validation or priority certification.",
+  "phase": "II",
+  "previously_published_pending_reaudit": false,
+  "primary_msc": "65T40",
+  "publication_date": "2026-10-25",
+  "record_id": "SCOPE-20261025-057551e22287",
+  "scientific_limitations": "Exact worst-case infinity-norm input perturbation sensitivity for disjoint, equispaced Lagrange endpoint stencils and symmetric strictly increasing flat-ended blends; no claims on floating-point recurrence errors, smooth-data accuracy, or FFT spectral convergence.",
+  "scope_run_id": "057551e2-2287-44eb-a097-93d431d6b426",
+  "self_review_status": "passed",
+  "source_ids": [
+    "arxiv:2610.19797",
+    "doi:10.1137/130932533",
+    "arxiv:1409.2808",
+    "arxiv:2605.04765"
+  ],
+  "title": "Sharp worst-case noise amplification for smooth Fourier-continuation blending",
+  "verification_state": "independently_reviewed"
+}

@@ -1,0 +1,17 @@
+{
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "integrity": "Standalone proof and computational checks; finite checks do not replace analytic quantifiers; no claim of external independent validation.",
+  "previously_published_pending_reaudit": false,
+  "primary_msc": "60J60",
+  "publication_date": "2026-10-18",
+  "record_id": "SCOPE-20261018-b63d184a119d",
+  "scientific_limitations": "Exact spectral optimization and phase extrema apply only to the golden-slope constant drift on the 2π-periodic two-torus. The relaxation time of averages is proved only up to two-sided order; a precise leading coefficient is not claimed. General singular-gap texts not completely accessible remain an originality risk.",
+  "scope_run_id": "b63d184a-119d-4675-ae76-63a061a12d7c",
+  "self_review_status": "passed",
+  "source_ids": [
+    "arXiv:2610.12425v1"
+  ],
+  "title": "Fibonacci resonance and log-periodic singular-gap growth for a torus diffusion",
+  "verification_state": "independently_reviewed"
+}

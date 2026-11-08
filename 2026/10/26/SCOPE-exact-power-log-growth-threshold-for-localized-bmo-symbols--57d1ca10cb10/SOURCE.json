@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/26/SCOPE-exact-power-log-growth-threshold-for-localized-bmo-symbols--57d1ca10cb10",
+  "resultary_record_key": "SCOPE-exact-power-log-growth-threshold-for-localized-bmo-symbols--57d1ca10cb10",
+  "source_commit": "1d98244924f137ece95fecbaa928ea0e15e5063d",
+  "source_commit_time": "2026-11-02T02:54:38Z",
+  "source_path": "2026/10/26/exact-power-log-growth-threshold-for-localized-bmo-symbols--57d1ca10cb10",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261026-57d1ca10cb10",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

@@ -1,0 +1,153 @@
+{
+  "correctness": {
+    "rationale": "Mandatory nonoverlined copies yield an exact reversible multivariate deletion bijection. Sills–Engel quantitative overpartition-count asymptotics give a uniform ratio at shifts O(sqrt(N)) and imply the joint Rayleigh running-minimum limit. Exact coincidence counts are sums of coefficient differences, with locally uniform error O(N^(-1/2)) per term on an O(N^(1/4)) window, a Riemann-sum limit r/s and Rayleigh tail control. Direct enumeration through weight 12 checks the exact identities but does not establish the infinite theorem.",
+    "status": "PASS"
+  },
+  "independent": false,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "originality": {
+    "broader_coverage": {
+      "evidence": [
+        "Wagner proves ordinary partition marginal laws, even for generalized allowed-part sets, not the joint overpartition least-r-gap process.",
+        "Chern–Xia studies marginal ordinary-partition excludant moments rather than nonoverlined overpartition tie events."
+      ],
+      "reasoning": "These results do not dominate the joint simultaneous threshold probability or exact lattice coincidence under the same overline convention. A broad conditioned-partition theorem could conceivably imply part of the result, a residual priority risk.",
+      "searches": [
+        "Wagner 2011 Theorems 1–2, general allowed part sets",
+        "Chern–Xia arXiv:2507.14431v1 Theorems 1.4 and 1.8",
+        "Aricheta–Donato arXiv:2309.04398v1 full text",
+        "overpartition Boltzmann multiplicities conditional limit literature searches"
+      ]
+    },
+    "checked_sources": [
+      "Aricheta–Donato, Minimal Excludant over Overpartitions, arXiv:2309.04398v1, full open text",
+      "Wagner, Limit distributions of smallest gap and largest repeated part in integer partitions, DOI:10.1007/s11139-010-9264-z, author-hosted full PDF",
+      "Engel, Log-concavity of the overpartition function, arXiv:1412.4603v2, full open PDF",
+      "Sills, A Rademacher Type Formula for Partitions and Overpartitions, DOI:10.1155/2010/630458, open article relevant sections",
+      "Chern–Xia, Asymptotics for moments of the minimal partition excludant in congruence classes, arXiv:2507.14431v1, relevant PDF sections",
+      "Sarkar–Thejitha–Fathima, A Note On Certain Minimal Excludants Over Overpartitions, arXiv:2609.21649v1, abstract only"
+    ],
+    "claim_vs_prior_implication": {
+      "evidence": [
+        "The deletion identity extends known single-index arguments to several simultaneous constraints.",
+        "Quantitative overpartition asymptotics are established prior analytic tools; neither source states the r/s overpartition coincidence theorem.",
+        "The September 2026 same-object paper is not available in full text to exclude an implicit equivalent theorem."
+      ],
+      "reasoning": "Established ingredients make the proof accessible but are not the same as a published statement or immediate parameter substitution: diagonal probabilities require summing local differences and controlling a nontrivial tail. A stronger unindexed theorem or inaccessible 2026 appendix may affect priority.",
+      "searches": [
+        "arXiv:2309.04398v1 Proposition 2",
+        "Engel arXiv:1412.4603v2 explicit coefficient error bound",
+        "Wagner 2011 ordinary-partition local limit",
+        "arXiv:2609.21649v1 abstract only"
+      ]
+    },
+    "equivalent_formulations": {
+      "evidence": [
+        "Aricheta–Donato Proposition 2 provides a single-threshold triangular-number shift and its main theorems treat single-index statistics.",
+        "Wagner studies an individual least gap of ordinary partitions, not the overpartition process."
+      ],
+      "reasoning": "The joint dependence of nonoverlined overpartition gaps cannot be reconstructed from individual one-index marginals. Weak convergence of the vector also does not itself control equality on the discrete diagonal; the second claim requires a local coefficient-difference proof.",
+      "searches": [
+        "arXiv:2309.04398v1 Definition 2, Proposition 2 and Theorems 1.4–1.5",
+        "Wagner DOI:10.1007/s11139-010-9264-z Theorem 1",
+        "overpartition mex_1 mex_2 joint distribution and exact equal probability searches"
+      ]
+    },
+    "exact_database_or_table": {
+      "evidence": [
+        "Semantic published mathematical-record results returned no direct matching overpartition least-gap joint or diagonal theorem.",
+        "The primary 2023 text provides one-index coefficient formulas, not an indexed joint-coincidence table."
+      ],
+      "reasoning": "An individual overpartition-number table or one-index generating series does not directly yield the asserted joint process and tie asymptotics. Failed searches do not prove novelty.",
+      "searches": [
+        "Resultary searches of overpartition least-r-gap joint law and coincidence r/s, 29 Oct 2026",
+        "overpartition minimal excludant two gap equality exact limit table searches",
+        "arXiv:2309.04398v1 exact univariate generating functions"
+      ]
+    },
+    "rationale": "Aricheta–Donato establishes individual nonoverlined least-r-gap counting formulas, but the inspected full text does not state the simultaneous multivariate limit or the lattice coincidence limit. Earlier ordinary-partition marginal limit and moment studies and overpartition coefficient analyses provide ingredients, not these conclusions. Historical priority remains best-of-knowledge and unindexed or inaccessible full-text coverage remains possible.",
+    "residual_risks": [
+      "A general conditioned-partition theorem may implicitly contain a closely related joint limit.",
+      "The September 2026 same-object preprint arXiv:2609.21649 was inaccessible in complete form; abstract-only comparison does not exclude full-paper coverage.",
+      "Finite tests do not certify the uniform coefficient asymptotics; the argument relies on quantitative Sills–Engel estimates."
+    ],
+    "source_inspections": [
+      {
+        "assessment": "Single-index counts and moments, no inspected joint running-minimum law or lattice r/s tie limit",
+        "evidence": [
+          "Aricheta–Donato 2023 Definition 2, Proposition 2, Theorems 1.4 and 1.5"
+        ],
+        "identifier_or_url": "https://arxiv.org/pdf/2309.04398",
+        "material_read": "Original self-review reports complete 24-page preprint with Definition 2, Proposition 2, Section 3, Theorems 1.4–1.5; independent auditor re-read relevant pages of the open full text.",
+        "method": "Lawful arXiv full PDF; extracted text and page inspection",
+        "title": "Minimal Excludant over Overpartitions",
+        "trigger": "Exactly the same least-r-gap statistic and overline convention"
+      },
+      {
+        "assessment": "Ordinary partition marginal/local least-gap results; no same overpartition joint law or tie theorem",
+        "evidence": [
+          "Wagner 2011 Theorem 1, local limit and Eq. (4)"
+        ],
+        "identifier_or_url": "https://www.finanz.math.tugraz.at/~wagner/limitdist.pdf",
+        "material_read": "Original self-review reports 16-page full author PDF and the independent auditor read Theorems 1–2 and smallest-gap coefficient formulas, including relevant displayed pages.",
+        "method": "Author-hosted lawful full PDF, text and page inspection",
+        "title": "Limit distributions of smallest gap and largest repeated part in integer partitions",
+        "trigger": "Earlier marginal Rayleigh/local limit on related least gaps"
+      },
+      {
+        "assessment": "Quantitative overpartition-count estimates are established ingredients, without the studied random gaps",
+        "evidence": [
+          "Engel 2014 Section 2, explicit Rademacher main term and error bound (21)"
+        ],
+        "identifier_or_url": "https://arxiv.org/pdf/1412.4603",
+        "material_read": "Original review reports the full nine-page preprint; independent auditor inspected the quantitative main term and error theorem and pages.",
+        "method": "Lawful arXiv full PDF and page inspection",
+        "title": "Log-concavity of the overpartition function",
+        "trigger": "Analytic count asymptotic necessary for finite shift ratio and local differences"
+      },
+      {
+        "assessment": "Source of coefficient expansion, not a joint least-gap theorem",
+        "evidence": [
+          "Sills 2010, Section 1.2 and Theorem 2.1"
+        ],
+        "identifier_or_url": "https://onlinelibrary.wiley.com/doi/10.1155/2010/630458",
+        "material_read": "Original self-review inspected open HTML sections 1–2 and Theorem 2.1; not re-read fully during the independent audit.",
+        "method": "Open access article HTML in original review",
+        "title": "A Rademacher Type Formula for Partitions and Overpartitions",
+        "trigger": "Original overpartition coefficient series"
+      },
+      {
+        "assessment": "Ordinary partition congruence/marginal moments, not same overpartition joint variables",
+        "evidence": [
+          "Chern–Xia 2025 Theorems 1.4 and 1.8"
+        ],
+        "identifier_or_url": "https://arxiv.org/pdf/2507.14431",
+        "material_read": "Original self-review inspected relevant sections and Theorems 1.4, 1.8 of a 12-page PDF; not fully re-read independently.",
+        "method": "Lawful arXiv full PDF in original review",
+        "title": "Asymptotics for moments of the minimal partition excludant in congruence classes",
+        "trigger": "Newer generalized marginal mex asymptotics"
+      },
+      {
+        "assessment": "Abstract suggests sums, parity and even-excludant questions; full-document coverage unresolved",
+        "evidence": [
+          "Sarkar–Thejitha–Fathima, arXiv:2609.21649v1 abstract; full text not read"
+        ],
+        "identifier_or_url": "https://arxiv.org/abs/2609.21649",
+        "material_read": "Only an indexed abstract accessible. The independent audit failed lawful full arXiv/OA attempts and authorized institutional download reported a disconnected VPN.",
+        "method": "Search-indexed abstract; no accessible full text",
+        "title": "A Note On Certain Minimal Excludants Over Overpartitions",
+        "trigger": "Very recent paper on closely related overpartition excludants"
+      }
+    ],
+    "status": "PASS"
+  },
+  "previously_published_pending_reaudit": false,
+  "review_type": "self_review",
+  "schema_version": 1,
+  "self_review_status": "passed",
+  "value": {
+    "rationale": "The naturally studied hierarchy of nonoverlined overpartition least gaps has a complete fixed-index joint dependence law, not determined by any one-dimensional marginal asymptotic. The exact persistent diagonal probability r/s survives at diverging scales and requires a separate nontrivial discrete local-limit argument; the exact finite joint formula is a reusable tool.",
+    "status": "PASS"
+  }
+}

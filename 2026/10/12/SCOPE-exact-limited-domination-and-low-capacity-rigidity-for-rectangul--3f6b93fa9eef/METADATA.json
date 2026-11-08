@@ -1,0 +1,32 @@
+{
+  "independent_audit_status": "passed",
+  "independent_scientific_assessment": {
+    "correctness": "PASS",
+    "disposition": "passed",
+    "mathematical_value": "PASS",
+    "originality": "PASS, qualified by unavailable revised primary text"
+  },
+  "independent_validation": true,
+  "integrity": {
+    "computational_scope": "Source verifier reports 14 exhaustive boards, 93 capacity cases and 1,763,138 nonempty subsets; independent check covers 58 capacity cases and 124,742 nonempty subsets.",
+    "external_certification": "No Lean formalization or external expert attestation is asserted.",
+    "proof_status": "Complete elementary proof of the stated infinite theorem.",
+    "unproved_extensions": "No results claimed for Cartesian products with three or more factors or all high-capacity optimum-set configurations."
+  },
+  "previously_published_pending_reaudit": false,
+  "primary_msc": "05C69",
+  "publication_date": "2026-10-12",
+  "record_id": "SCOPE-20261012-3f6b93fa9eef",
+  "scientific_limitations": [
+    "The exact minimum concerns K_m□K_n with both factors of order at least 2 and capacity 0≤k≤m+n−2.",
+    "Every minimum set is classified only for 1≤k<min(m,n).",
+    "Full October 2026 revision of Tepeh arXiv:2606.22428v2 was not accessible; all originality conclusions are best-of-knowledge with residual risk."
+  ],
+  "scope_run_id": "3f6b93fa-9eef-4b64-8077-af35b6ea7b95",
+  "source_ids": [
+    "arxiv:2606.22422",
+    "arxiv:2606.22428"
+  ],
+  "title": "Exact limited domination and low-capacity rigidity for rectangular rook graphs",
+  "verification_state": "independently_reviewed"
+}

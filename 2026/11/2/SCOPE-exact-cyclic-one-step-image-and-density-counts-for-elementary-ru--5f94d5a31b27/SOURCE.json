@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/2/SCOPE-exact-cyclic-one-step-image-and-density-counts-for-elementary-ru--5f94d5a31b27",
+  "resultary_record_key": "SCOPE-exact-cyclic-one-step-image-and-density-counts-for-elementary-ru--5f94d5a31b27",
+  "source_commit": "85258d7fa8a7906a47f6d855201765a31e5e5131",
+  "source_commit_time": "2026-11-08T18:39:04Z",
+  "source_path": "2026/11/02/exact-cyclic-one-step-image-and-density-counts-for-elementary-ru--5f94d5a31b27",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261102-5f94d5a31b27",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

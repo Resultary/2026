@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261102-85d7efe37f5f`](https://github.com/SCOPE-Science/SCOPE2026/tree/5c3214f84e96bb829540df9da0089dfa32ce1c5e/2026/11/02/polar-body-instability-of-affine-least-squares-projection-on-cub--85d7efe37f5f)
+
+Imported into Resultary as `2026/11/2/SCOPE-polar-body-instability-of-affine-least-squares-projection-on-cub--85d7efe37f5f`. The finding, audit, and attached artifacts remain attributable to SCOPE.

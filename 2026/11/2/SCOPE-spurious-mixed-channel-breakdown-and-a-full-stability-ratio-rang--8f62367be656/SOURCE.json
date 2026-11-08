@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/2/SCOPE-spurious-mixed-channel-breakdown-and-a-full-stability-ratio-rang--8f62367be656",
+  "resultary_record_key": "SCOPE-spurious-mixed-channel-breakdown-and-a-full-stability-ratio-rang--8f62367be656",
+  "source_commit": "f60d6937e1700fb471fa9a744c3d88a64793c5c6",
+  "source_commit_time": "2026-11-08T18:26:50Z",
+  "source_path": "2026/11/02/spurious-mixed-channel-breakdown-and-a-full-stability-ratio-rang--8f62367be656",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261102-8f62367be656",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

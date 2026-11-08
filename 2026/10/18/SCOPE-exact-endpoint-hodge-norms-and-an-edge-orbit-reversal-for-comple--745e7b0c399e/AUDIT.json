@@ -1,0 +1,117 @@
+{
+  "correctness": {
+    "rationale": "For all r>=2 and positive part sizes, the five-level zero-mean potential directly satisfies Lu=e_a-e_b. Eight edge-current classes have controlled signs and give S=F_N(s)+F_N(t); the diagonal is the known effective resistance, yielding the complementary norm 1+H_N(s)+H_N(t). The score differences and nonnegative factorization prove the cut extremizer, while K_{N-3,2,1} gives the strict cut/cycle maximizing-orbit reversal and rational norm difference. The exact rational checker covers 131 profiles and 3029 columns; the unbounded theorem rests on the algebraic proof, not the finite tests.",
+    "status": "PASS"
+  },
+  "independent": false,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "originality": {
+    "broader_coverage": {
+      "evidence": [
+        "arXiv:2305.12582 studies graph projection theory and explicit torus/Hamming graph families, not the unequal complete-multipartite family.",
+        "arXiv:1611.09457 covers every multipartite pairwise resistance and therefore determines Q entries after polarization."
+      ],
+      "reasoning": "The strong existing matrix-entry description is credited, but the inspected theorems do not deliver the global absolute-column operator norms or the comparison of Q and I-Q extremizers as an asserted solved classification.",
+      "searches": [
+        "complete multipartite graph projection norm all parts",
+        "Dilworth Kutzarova Ostrovskii cycle spaces invariant projections full text",
+        "Bapat Karimi Liu complete multipartite resistance Corollary 2.6"
+      ]
+    },
+    "checked_sources": [
+      "arXiv:2305.12582 (original self-review relevant accessible PDF sections)",
+      "arXiv:1611.09457 (original self-review relevant full text)",
+      "Gervacio 2012 journal abstract only; Bapat--Karimi--Liu reproduce main resistance formula",
+      "Accessible published earlier equal-part and complete-split special-case descriptions",
+      "Relevant published mathematical findings on graph projection constants and distinct graph invariants"
+    ],
+    "claim_vs_prior_implication": {
+      "evidence": [
+        "Resistance formula is mathematically enough to reconstruct every Q entry, so matrix entry computation is known.",
+        "Current claim also proves S_{s,t}=F_N(s)+F_N(t) and its complementary analogue, F-score monotonicity for actual parts, and H-score reversal on K_{N-3,2,1}.",
+        "The prior full-text statements and numerical tables located treat resistance/Kirchhoff indices or other graph families, not these norm extrema."
+      ],
+      "reasoning": "The asserted novelty is narrower than all transfer currents: it lies in the global absolute-value aggregation and optimization across inequivalent edges, which are nontrivial additional sign/count and ordering steps. If a prior stronger theorem explicitly optimizes these same norms, it would cover the claim despite different notation; no such theorem was found in inspected material.",
+      "searches": [
+        "arXiv:1611.09457 Corollary 2.6 and Theorem 2.2",
+        "Dilworth Kutzarova Ostrovskii 2024 projection results section 2"
+      ]
+    },
+    "equivalent_formulations": {
+      "evidence": [
+        "Bapat--Karimi--Liu Corollary 2.6 specifies all pairwise resistances for K_{n1,...,nr}.",
+        "Four-point polarization of pairwise effective resistance determines edge-to-edge transfer-current entries.",
+        "Dilworth--Kutzarova--Ostrovskii describe canonical and invariant cycle-space projections."
+      ],
+      "reasoning": "Electrical total-current amplification is the same invariant as an absolute column sum of D^T L^+D; the claim does not assert new currents alone. Absolute summation and maximization of inequivalent edge orbits require an additional explicit classification.",
+      "searches": [
+        "complete multipartite cut cycle orthogonal projection l1 norm current transfer total variation",
+        "arXiv:1611.09457 Corollary 2.6",
+        "arXiv:2305.12582 Sections 1.1 and 2.1"
+      ]
+    },
+    "exact_database_or_table": {
+      "evidence": [
+        "Nearest accessible published results on cactus transportation-space projections and other graph projection constants address different graph families or invariants.",
+        "Bapat--Karimi--Liu numerical tables concern Kirchhoff indices rather than the present projection-norm family."
+      ],
+      "reasoning": "No exact indexed table recovered for the two-score all-partition norm formulas or orbit reversal. Searches are only negative evidence, not a proof of novelty; a hidden prior table remains possible.",
+      "searches": [
+        "Complete multipartite projection norms cut cycle edge-current l1",
+        "Complete multipartite current variation norms unequal part sizes",
+        "Published graph projection constants and all part-profile norm tables"
+      ]
+    },
+    "rationale": "Existing general projection theory and the previously published complete-multipartite effective-resistance formulas cover the graph-projector framework and matrix entries. The surviving claim is the explicit all-multipartition endpoint operator-norm aggregation and reversed maximizing edge orbits, not resistance distances or a minimum-norm projection theorem. The accessible primary material did not provide that complete norm-and-extremizer classification. Historical coverage by equivalent electrical-network formulas remains a stated risk.",
+    "residual_risks": [
+      "The inaccessible original Gervacio 2012/2016 full text might contain an equivalent electrical-current norm statement.",
+      "General effective-resistance data determines the entire transfer-current matrix; the normative novelty depends on the additional abs-sum/edge-orbit classification not being previously articulated or directly implied as a published corollary.",
+      "An unindexed prior exact norm theorem or table under electrical-network terminology may exist; database non-detection is not proof of historical priority."
+    ],
+    "source_inspections": [
+      {
+        "assessment": "Studies projection theory and explicit torus/Hamming graph cases; no all-unequal-part multipartite norm formula in the inspected sections.",
+        "evidence": [
+          "Section 2.1 enumerates tori and Hamming applications, not general multipartite part-size profiles."
+        ],
+        "identifier_or_url": "https://arxiv.org/pdf/2305.12582",
+        "material_read": "Abstract, contents, Section 1.1, Section 2.1 summary, and relevant sections through a full-text search for complete multipartite and complete bipartite",
+        "method": "Lawful open-access arXiv PDF, relevant visual and text inspection",
+        "title": "Cycle spaces: invariant projections and applications to transportation cost",
+        "trigger": "Relevant primary paper on cycle-space and canonical projection framework"
+      },
+      {
+        "assessment": "All vertex-pair resistances are already computed; this is an essential known input but is not a stated endpoint projection norm classification.",
+        "evidence": [
+          "Corollary 2.6 is the complete-multipartite resistance-distance formula; tables compare Kirchhoff indices."
+        ],
+        "identifier_or_url": "https://arxiv.org/pdf/1611.09457",
+        "material_read": "Abstract, Section 2 through Corollary 2.6, numerical tables and bibliography",
+        "method": "Lawful open-access full PDF, mathematical formula inspection",
+        "title": "Kirchhoff index and degree Kirchhoff index of complete multipartite graph",
+        "trigger": "Same-graph resistance theorem, primary scientific prior result"
+      },
+      {
+        "assessment": "Resistance formula is established; additional unseen observations cannot be ruled out.",
+        "evidence": [
+          "2012 abstract announces explicit resistance distance; arXiv:1611.09457 cites the original result."
+        ],
+        "identifier_or_url": "https://journals.msuiit.edu.ph/tmjm/article/view/26",
+        "material_read": "Public 2012 journal landing page and abstract only, not the original full text",
+        "method": "Lawful publisher page and listed PDF link; accessible related reproduction in arXiv:1611.09457",
+        "title": "Resistance distance in complete n-partite graphs",
+        "trigger": "Original journal article on same graph family"
+      }
+    ],
+    "status": "PASS"
+  },
+  "previously_published_pending_reaudit": false,
+  "review_type": "self_review",
+  "schema_version": 1,
+  "self_review_status": "passed",
+  "value": {
+    "rationale": "Canonical real l1 and l-infinity norms of cut/cycle projections are natural edge-flow amplification and Banach complementability invariants. Their all-profile classification on arbitrary unequal complete multipartite graphs is not an arbitrary numerical slice: it reduces a full matrix norm to two class-size scores, proves a largest-parts rule for the cut projection, and exhibits an infinite family with opposite cycle-projection maximizing edge orbits. No optimality among all nonorthogonal projections or major downstream theorem is claimed.",
+    "status": "PASS"
+  }
+}

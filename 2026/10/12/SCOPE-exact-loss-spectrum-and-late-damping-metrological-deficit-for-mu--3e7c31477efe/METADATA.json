@@ -1,0 +1,22 @@
+{
+  "first_public_date": "2014-03-10",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "integrity": "The all-N Boolean inclusion-matrix proof gives the rank-resolved spectrum and full collective SLD QFI; finite dense tests are corroboration, not formal verification. External certification is not claimed by these computations.",
+  "phase": "II",
+  "previously_published_pending_reaudit": false,
+  "primary_msc": "81P45",
+  "publication_date": "2026-10-12",
+  "record_id": "SCOPE-20261012-3e7c31477efe",
+  "scientific_limitations": "N>=4, 2<=k<N, local identical zero-temperature damping before collective-spin rotation; no optimal measurement, heterogeneous rates, noise after encoding, or uniqueness of Fisher threshold crossings. Publication priority assessed at best of knowledge.",
+  "scope_run_id": "3e7c3147-7efe-4b75-938f-560f77dedd99",
+  "self_review_status": "passed",
+  "source_ids": [
+    "arXiv:1403.2376",
+    "arXiv:1405.4878",
+    "arXiv:1511.05203",
+    "arXiv:2601.23043"
+  ],
+  "title": "Exact loss spectrum and late-damping metrological deficit for multi-excitation Dicke probes",
+  "verification_state": "independently_reviewed"
+}

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/2/SCOPE-exact-endpoint-amplification-and-spoke-rim-transition-in-weighte--c1aaa10e9030",
+  "resultary_record_key": "SCOPE-exact-endpoint-amplification-and-spoke-rim-transition-in-weighte--c1aaa10e9030",
+  "source_commit": "f1556316c726da6bc1d72fcac5a56a4478ef4566",
+  "source_commit_time": "2026-11-08T18:37:42Z",
+  "source_path": "2026/11/02/exact-endpoint-amplification-and-spoke-rim-transition-in-weighte--c1aaa10e9030",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261102-c1aaa10e9030",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/26/SCOPE-sharp-aridity-balance-envelope-for-spatial-calibration-bias-in-f--93379c65ad4f",
+  "resultary_record_key": "SCOPE-sharp-aridity-balance-envelope-for-spatial-calibration-bias-in-f--93379c65ad4f",
+  "source_commit": "1a608cbecf491c3c771d0b12dbcf2bb91a711a6c",
+  "source_commit_time": "2026-11-02T02:00:50Z",
+  "source_path": "2026/10/26/sharp-aridity-balance-envelope-for-spatial-calibration-bias-in-f--93379c65ad4f",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261026-93379c65ad4f",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

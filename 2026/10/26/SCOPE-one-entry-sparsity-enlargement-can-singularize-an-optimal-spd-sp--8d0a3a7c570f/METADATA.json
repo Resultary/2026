@@ -1,0 +1,20 @@
+{
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "integrity": "Exact rational matrix and polynomial identities with standalone symbolic/standard-library checks; no publication-priority guarantee.",
+  "previously_published_pending_reaudit": false,
+  "primary_msc": "65F10",
+  "publication_date": "2026-10-26",
+  "record_id": "SCOPE-20261026-8d0a3a7c570f",
+  "scientific_limitations": "Prescribed permitted sparsity patterns, real SPD matrices and exact arithmetic; not a prediction of adaptive implementation, Krylov iterations or finite-precision behavior. Qualitative nonsingularity risk is prior art; exact small-dimensional witness and relative conditioning behavior are assessed separately.",
+  "scope_run_id": "8d0a3a7c-570f-4196-8e83-0a8fc0d6e5d3",
+  "self_review_status": "passed",
+  "source_ids": [
+    "arxiv:2202.10204v1",
+    "doi:10.1155/2010/930218",
+    "doi:10.5402/2012/127647",
+    "doi:10.1137/S1064827594276552"
+  ],
+  "title": "One-entry sparsity enlargement can singularize an optimal SPD sparse approximate inverse",
+  "verification_state": "independently_reviewed"
+}

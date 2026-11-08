@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/2/SCOPE-exact-echo-attenuation-bias-and-the-nonuniform-grid-positivity-f--6d343a3a1db9",
+  "resultary_record_key": "SCOPE-exact-echo-attenuation-bias-and-the-nonuniform-grid-positivity-f--6d343a3a1db9",
+  "source_commit": "c6c8adc83bb2e3a86a317c09248c23f8ad87e5eb",
+  "source_commit_time": "2026-11-08T19:21:11Z",
+  "source_path": "2026/11/02/exact-echo-attenuation-bias-and-the-nonuniform-grid-positivity-f--6d343a3a1db9",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261102-6d343a3a1db9",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

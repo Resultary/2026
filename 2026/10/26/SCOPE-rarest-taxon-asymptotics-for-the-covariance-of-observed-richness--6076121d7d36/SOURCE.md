@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261026-6076121d7d36`](https://github.com/SCOPE-Science/SCOPE2026/tree/0c0e9ead20c97fa8013d4e3a9a5eb6b67167cd79/2026/10/26/rarest-taxon-asymptotics-for-the-covariance-of-observed-richness--6076121d7d36)
+
+Imported into Resultary as `2026/10/26/SCOPE-rarest-taxon-asymptotics-for-the-covariance-of-observed-richness--6076121d7d36`. The finding, audit, and attached artifacts remain attributable to SCOPE.

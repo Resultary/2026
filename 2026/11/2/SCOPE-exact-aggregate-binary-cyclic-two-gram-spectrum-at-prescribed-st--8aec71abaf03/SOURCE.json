@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/2/SCOPE-exact-aggregate-binary-cyclic-two-gram-spectrum-at-prescribed-st--8aec71abaf03",
+  "resultary_record_key": "SCOPE-exact-aggregate-binary-cyclic-two-gram-spectrum-at-prescribed-st--8aec71abaf03",
+  "source_commit": "f635cbd27153ef5a42224557b425f70958c8308f",
+  "source_commit_time": "2026-11-08T18:41:09Z",
+  "source_path": "2026/11/02/exact-aggregate-binary-cyclic-two-gram-spectrum-at-prescribed-st--8aec71abaf03",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261102-8aec71abaf03",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/2/SCOPE-critical-fourth-cumulant-cancellation-in-an-active-memory-reset--ec2c64764980",
+  "resultary_record_key": "SCOPE-critical-fourth-cumulant-cancellation-in-an-active-memory-reset--ec2c64764980",
+  "source_commit": "38105c9994e3bed173a6d883e9e840b06fb1e14c",
+  "source_commit_time": "2026-11-08T18:26:54Z",
+  "source_path": "2026/11/02/critical-fourth-cumulant-cancellation-in-an-active-memory-reset--ec2c64764980",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261102-ec2c64764980",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

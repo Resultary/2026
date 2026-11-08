@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/26/SCOPE-stable-signed-area-fluctuations-and-a-critical-variance-anomaly--615283e54117",
+  "resultary_record_key": "SCOPE-stable-signed-area-fluctuations-and-a-critical-variance-anomaly--615283e54117",
+  "source_commit": "f5fceb3d29f03491b71a82e4b31feb1da4cbe4ed",
+  "source_commit_time": "2026-11-02T00:36:37Z",
+  "source_path": "2026/10/26/stable-signed-area-fluctuations-and-a-critical-variance-anomaly--615283e54117",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261026-615283e54117",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

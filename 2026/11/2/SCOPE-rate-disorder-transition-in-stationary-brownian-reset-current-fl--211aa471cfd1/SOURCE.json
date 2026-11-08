@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/2/SCOPE-rate-disorder-transition-in-stationary-brownian-reset-current-fl--211aa471cfd1",
+  "resultary_record_key": "SCOPE-rate-disorder-transition-in-stationary-brownian-reset-current-fl--211aa471cfd1",
+  "source_commit": "b4816f56acfbb82d05cb460ddfb2bb4a57134e4b",
+  "source_commit_time": "2026-11-08T19:20:24Z",
+  "source_path": "2026/11/02/rate-disorder-transition-in-stationary-brownian-reset-current-fl--211aa471cfd1",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261102-211aa471cfd1",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

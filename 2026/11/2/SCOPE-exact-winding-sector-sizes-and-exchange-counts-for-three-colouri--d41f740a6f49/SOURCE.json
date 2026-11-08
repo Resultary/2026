@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/2/SCOPE-exact-winding-sector-sizes-and-exchange-counts-for-three-colouri--d41f740a6f49",
+  "resultary_record_key": "SCOPE-exact-winding-sector-sizes-and-exchange-counts-for-three-colouri--d41f740a6f49",
+  "source_commit": "5224884b3b9c0c5d6a201f1e102e77a07bb7826d",
+  "source_commit_time": "2026-11-08T18:40:24Z",
+  "source_path": "2026/11/02/exact-winding-sector-sizes-and-exchange-counts-for-three-colouri--d41f740a6f49",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261102-d41f740a6f49",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

@@ -1,0 +1,21 @@
+{
+  "first_public_date": "2015-07-04",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "integrity": "Self-contained analytical argument with exact-rational and sampled checks; no computational enumeration is used as proof of an infinite statement.",
+  "phase": "II",
+  "previously_published_pending_reaudit": false,
+  "primary_msc": "11B05",
+  "publication_date": "2026-10-25",
+  "record_id": "SCOPE-20261025-0690182e4b03",
+  "scientific_limitations": "Only the squarefull domain at parameter -2 is classified. Nagura prime-interval theorem is used; no independent mathematical assessment has been performed. Later equivalences remain a literature risk.",
+  "scope_run_id": "0690182e-4b03-41f9-b25a-e406497f236a",
+  "self_review_status": "passed",
+  "source_ids": [
+    "arxiv:1507.01128v1",
+    "Nagura-1952-primes-in-short-intervals",
+    "published-finding corpus-f19c7ab30430"
+  ],
+  "title": "Exactly three closure components of the alternating divisor range on squarefull integers",
+  "verification_state": "independently_reviewed"
+}

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/2/SCOPE-failed-power-domination-of-the-three-row-torus--2f30965436bc",
+  "resultary_record_key": "SCOPE-failed-power-domination-of-the-three-row-torus--2f30965436bc",
+  "source_commit": "c49d2cbaaf165ed578c1070faef14403cc87785b",
+  "source_commit_time": "2026-11-08T18:38:53Z",
+  "source_path": "2026/11/02/failed-power-domination-of-the-three-row-torus--2f30965436bc",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261102-2f30965436bc",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

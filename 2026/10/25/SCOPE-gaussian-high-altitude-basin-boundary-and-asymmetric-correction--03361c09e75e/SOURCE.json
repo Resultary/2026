@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/25/SCOPE-gaussian-high-altitude-basin-boundary-and-asymmetric-correction--03361c09e75e",
+  "resultary_record_key": "SCOPE-gaussian-high-altitude-basin-boundary-and-asymmetric-correction--03361c09e75e",
+  "source_commit": "79ee82a08fcbb4154b0bc9c171c2fd53ad513048",
+  "source_commit_time": "2026-11-02T01:34:24Z",
+  "source_path": "2026/10/25/gaussian-high-altitude-basin-boundary-and-asymmetric-correction--03361c09e75e",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261025-03361c09e75e",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

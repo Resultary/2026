@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/2/SCOPE-geometry-and-observation-cadence-in-first-passage-with-stable-di--0cf125437e8a",
+  "resultary_record_key": "SCOPE-geometry-and-observation-cadence-in-first-passage-with-stable-di--0cf125437e8a",
+  "source_commit": "7f57c206b1b31bda48c833cf1d1e4a361c910372",
+  "source_commit_time": "2026-11-08T19:20:22Z",
+  "source_path": "2026/11/02/geometry-and-observation-cadence-in-first-passage-with-stable-di--0cf125437e8a",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261102-0cf125437e8a",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

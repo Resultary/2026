@@ -1,0 +1,21 @@
+{
+  "first_public_date": null,
+  "first_public_date_note": "No verified first-public date for this finding is established by the available source record; the preceding value referred to a cited 2021 paper.",
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "integrity": "Finite code checks supplement, but do not replace, analytic proofs for every integer n >= 3.",
+  "phase": "II",
+  "previously_published_pending_reaudit": false,
+  "primary_msc": "52B11",
+  "publication_date": "2026-10-25",
+  "record_id": "SCOPE-20261025-771379f5fcb8",
+  "scientific_limitations": "Intrinsic Euclidean coordinates only; no general forbidden-edge graph extension; unindexed overlap is possible. Independent mathematical validation remains outstanding.",
+  "scope_run_id": "771379f5-fcb8-4aae-831c-b17e8197912d",
+  "self_review_status": "passed",
+  "source_ids": [
+    "arXiv:2103.15045",
+    "arXiv:2209.09851"
+  ],
+  "title": "Rare exponential directional loss despite constant Hausdorff distance in crown-graph root polytopes",
+  "verification_state": "independently_reviewed"
+}

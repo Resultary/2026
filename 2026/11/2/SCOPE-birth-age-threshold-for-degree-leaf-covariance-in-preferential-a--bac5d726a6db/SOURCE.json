@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/2/SCOPE-birth-age-threshold-for-degree-leaf-covariance-in-preferential-a--bac5d726a6db",
+  "resultary_record_key": "SCOPE-birth-age-threshold-for-degree-leaf-covariance-in-preferential-a--bac5d726a6db",
+  "source_commit": "a93356cf00bffcb467a52ba77e5dcfa523cc0d5e",
+  "source_commit_time": "2026-11-08T18:38:35Z",
+  "source_path": "2026/11/02/birth-age-threshold-for-degree-leaf-covariance-in-preferential-a--bac5d726a6db",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261102-bac5d726a6db",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

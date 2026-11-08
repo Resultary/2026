@@ -1,0 +1,19 @@
+{
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "previously_published_pending_reaudit": false,
+  "primary_msc": "94B05",
+  "publication_date": "2026-10-12",
+  "record_id": "SCOPE-20261012-013d9030ed5c",
+  "scientific_limitation": "No corresponding assertion for other Reed–Muller lengths, code families, or access-cost optimality.",
+  "scope_run_id": "013d9030-ed5c-45a7-80bd-54c9b55c14fc",
+  "source_ids": [
+    "arxiv:2601.04041",
+    "arxiv:1710.07386",
+    "arxiv:2508.08736"
+  ],
+  "statement_scope": "Binary RM_2(1,4), length 16, all six-multiset requests for stored coordinates under disjoint singleton/triple recovery. Seven identical requests are impossible.",
+  "title": "Sharp six-request all-symbol batch capacity of the binary length-16 first-order Reed–Muller code",
+  "verification": "The six-request assertion has a finite exhaustive witness certificate for 54,264 multisets; expert or formal-proof attestations are not asserted.",
+  "verification_state": "independently_reviewed"
+}

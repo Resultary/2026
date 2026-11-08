@@ -1,0 +1,88 @@
+{
+  "correctness": {
+    "rationale": "Kraus-sum fixed-excitation blocks are disjointness Gram matrices, conjugate to Boolean inclusion Gram operators; primitive rank-j ladder chains determine full eigenvalue multiplicities and spin-raising edge amplitudes. Full zero-kernel SLD spectral sum, two endpoints and O(1-p) coefficient are derived analytically; finite dense checks are corroboration.",
+    "status": "PASS"
+  },
+  "independent": false,
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "originality": {
+    "broader_coverage": {
+      "evidence": [
+        "Hartmann 2012/2016 gives SU(4)-symmetric Liouville evolution, but not the eigenvalue/multiplicity and transverse QFI claim for each Dicke excitation.",
+        "Tóth–Apellaniz 2014 gives general QFI/pure Dicke; Apellaniz et al. 2015 gives witness lower bounds, neither supplies exact amplitude-damped density spectrum.",
+        "He et al. 2025 consider dark-matter field Fisher information with damping after signal encoding; different invariant/order."
+      ],
+      "reasoning": "A generic permutation-symmetric Lindbladian reduction could be stronger only if it specializes with no further nontrivial analysis to the precise rank-j eigenvalues and spin-Jx QFI. The inspected results provide bases, general bounds or a different estimation problem, not that implication. Residual risk of unlocated specialized representation-theoretic theorem remains.",
+      "searches": [
+        "permutation invariant Dicke states amplitude damping spectrum Schur Weyl spectral decomposition local loss Fisher information",
+        "arXiv:1201.1732",
+        "arXiv:1405.4878",
+        "arXiv:2512.14821",
+        "arXiv:1511.05203"
+      ]
+    },
+    "checked_sources": [
+      "arXiv:1403.2376; https://arxiv.org/abs/1403.2376",
+      "arXiv:1405.4878; https://arxiv.org/abs/1405.4878",
+      "arXiv:1511.05203; https://arxiv.org/abs/1511.05203",
+      "arXiv:2601.23043; https://arxiv.org/html/2601.23043v1"
+    ],
+    "claim_vs_prior_implication": {
+      "evidence": [
+        "k=1 W-state theory does not imply k>=2 spectra; general QFI identity alone does not calculate rho_s eigenvalues.",
+        "Hartmann general SU(4) Liouville methods do not present the precise result, although they may be adapted.",
+        "He et al. 2025 uses a different physical order/noise estimand; Sudha et al. 2026 finite plots overlap but do not prove unbounded family or first-order coefficient."
+      ],
+      "reasoning": "Checked actual hypotheses, quantity and implications rather than title/parameter coincidences. No inspected theorem directly entails both the exact Boolean rank spectrum and negative coefficient -2k(N-k+2) for this before-encoding scenario. Priority remains best-of-knowledge, not certified.",
+      "searches": [
+        "collective spin Fisher information symmetric Dicke states after amplitude damping closed form 2025 2026",
+        "arXiv:1403.2376",
+        "arXiv:1511.05203",
+        "arXiv:2601.23043",
+        "arXiv:2512.14821",
+        "arXiv:1201.1732"
+      ]
+    },
+    "equivalent_formulations": {
+      "evidence": [
+        "For the same Kraus damping applied before encoding, the density blocks are disjoint-subset inclusion Gram matrices with multiplicities binom(N,j)-binom(N,j-1); no inspected full text gives that all-k spectrum.",
+        "Ozaydin 2014 restricts to W-state k=1; Sudha et al. 2026 give N=8 balanced numerical Fisher curves."
+      ],
+      "reasoning": "Searched equivalent names permutation-invariant Schur-Weyl/Johnson schemes, inclusion-matrix harmonic chains, and Dicke-state spin SLD QFI. W-state k=1 and N=8 balanced numerical subcases do not mathematically imply all 2<=k<N, all p, or the universal late-loss coefficient; methods overlap is acknowledged.",
+      "searches": [
+        "Dicke state local amplitude damping exact quantum Fisher information k excitations collective spin rotation analytical arbitrary N",
+        "locally damped Dicke states Johnson scheme spectrum amplitude damping exact eigenvalues",
+        "arXiv:1403.2376",
+        "arXiv:2601.23043"
+      ]
+    },
+    "exact_database_or_table": {
+      "evidence": [
+        "Sudha et al. arXiv:2601.23043, Fig. 2–3 present finite balanced N=8 amplitude-damping Fisher data, a covered finite numerical slice.",
+        "Searches of exact late-loss coefficient and binomial eigenvalues did not locate a general pre-existing table in inspected sources."
+      ],
+      "reasoning": "Do not count individual N=8 numerical values as new. The proof instead gives every N>=4 and 2<=k<N, a closed eigenvalue census and first derivative at p=1. A failed search alone is no priority proof.",
+      "searches": [
+        "Dicke state amplitude damping quantum Fisher information shot noise below N FQ N 2k N-k+2",
+        "arXiv:2601.23043; Figures 2 and 3"
+      ]
+    },
+    "rationale": "Best-of-knowledge self-assessment: the all-N,k rank-resolved lossy spectrum and explicit late-loss coefficient are not established by the inspected W-state k=1, pure-Dicke/QFI overview, noisy QFI witness, or balanced N=8 numerical comparisons. None gives the complete asserted all-excitation formula. General representation-theoretic coverage remains possible.",
+    "residual_risks": [
+      "Representation-theoretic treatments of permutation-invariant local-loss channels may contain an equivalent all-N exact spectrum/QFI not located despite targeted searches.",
+      "The balanced N=8 numerical damping response is already plotted by Sudha et al. 2026; no novelty claimed for those finite numerical values.",
+      "General Lie-superoperator/QFI formulas may yield the result by a substantial specialization; absence from inspected passages is not a definitive novelty certificate."
+    ],
+    "status": "PASS"
+  },
+  "previously_published_pending_reaudit": false,
+  "review_type": "self_review",
+  "schema_version": 1,
+  "scope": "Independent homogeneous local amplitude damping, Dicke excitation 2<=k<N, N>=4, damping before collective-spin encoding.",
+  "self_review_status": "passed",
+  "value": {
+    "rationale": "Exact metrologically natural infinite-family density spectrum and polynomial-size total spin-QFI formula, together with a strict late-relaxation sub-shot-noise interval, supply a useful nontrivial structural benchmark.",
+    "status": "PASS"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/25/SCOPE-exact-fixation-and-consensus-time-classification-for-persistent--07134c506520",
+  "resultary_record_key": "SCOPE-exact-fixation-and-consensus-time-classification-for-persistent--07134c506520",
+  "source_commit": "a2e3a6f212a1d4f151b97457ddff98858e918c47",
+  "source_commit_time": "2026-11-02T01:23:39Z",
+  "source_path": "2026/10/25/exact-fixation-and-consensus-time-classification-for-persistent--07134c506520",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261025-07134c506520",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

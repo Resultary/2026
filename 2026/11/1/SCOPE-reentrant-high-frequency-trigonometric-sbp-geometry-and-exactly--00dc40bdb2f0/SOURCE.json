@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/1/SCOPE-reentrant-high-frequency-trigonometric-sbp-geometry-and-exactly--00dc40bdb2f0",
+  "resultary_record_key": "SCOPE-reentrant-high-frequency-trigonometric-sbp-geometry-and-exactly--00dc40bdb2f0",
+  "source_commit": "8f246ddb918af0eff1492ddebbc914b0642825d4",
+  "source_commit_time": "2026-11-08T17:38:29Z",
+  "source_path": "2026/11/01/reentrant-high-frequency-trigonometric-sbp-geometry-and-exactly--00dc40bdb2f0",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261101-00dc40bdb2f0",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/26/SCOPE-complete-total-domatic-partition-counts-for-operatorname-gp-n-2--43beb49dfa00",
+  "resultary_record_key": "SCOPE-complete-total-domatic-partition-counts-for-operatorname-gp-n-2--43beb49dfa00",
+  "source_commit": "f30ff948309455d5c0214bfa0f707a05c7b26a3b",
+  "source_commit_time": "2026-11-02T00:40:50Z",
+  "source_path": "2026/10/26/complete-total-domatic-partition-counts-for-operatorname-gp-n-2--43beb49dfa00",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261026-43beb49dfa00",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

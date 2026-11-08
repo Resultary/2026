@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/2/SCOPE-exact-exchange-distances-and-distance-profile-for-minimum-connec--25e04153e0e9",
+  "resultary_record_key": "SCOPE-exact-exchange-distances-and-distance-profile-for-minimum-connec--25e04153e0e9",
+  "source_commit": "023169ed3aa8aa9dbe3c416728fa84246e53cbb9",
+  "source_commit_time": "2026-11-08T18:39:34Z",
+  "source_path": "2026/11/02/exact-exchange-distances-and-distance-profile-for-minimum-connec--25e04153e0e9",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261102-25e04153e0e9",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

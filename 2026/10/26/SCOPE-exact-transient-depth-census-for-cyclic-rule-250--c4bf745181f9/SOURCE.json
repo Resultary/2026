@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/26/SCOPE-exact-transient-depth-census-for-cyclic-rule-250--c4bf745181f9",
+  "resultary_record_key": "SCOPE-exact-transient-depth-census-for-cyclic-rule-250--c4bf745181f9",
+  "source_commit": "f1899bb3ba38b88cda277338d12a6862ee178113",
+  "source_commit_time": "2026-11-02T00:46:10Z",
+  "source_path": "2026/10/26/exact-transient-depth-census-for-cyclic-rule-250--c4bf745181f9",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261026-c4bf745181f9",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

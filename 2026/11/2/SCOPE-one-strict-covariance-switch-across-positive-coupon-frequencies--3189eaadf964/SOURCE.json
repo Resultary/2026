@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/2/SCOPE-one-strict-covariance-switch-across-positive-coupon-frequencies--3189eaadf964",
+  "resultary_record_key": "SCOPE-one-strict-covariance-switch-across-positive-coupon-frequencies--3189eaadf964",
+  "source_commit": "602689896d299ecaab7c3140769bb92abf166a61",
+  "source_commit_time": "2026-11-08T18:38:18Z",
+  "source_path": "2026/11/02/one-strict-covariance-switch-across-positive-coupon-frequencies--3189eaadf964",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261102-3189eaadf964",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

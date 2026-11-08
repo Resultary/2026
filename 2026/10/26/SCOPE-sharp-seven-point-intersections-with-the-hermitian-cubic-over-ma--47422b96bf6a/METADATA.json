@@ -1,0 +1,17 @@
+{
+  "independent_audit_status": "passed",
+  "independent_validation": true,
+  "integrity": "The sharp bound has a geometric proof. The finite classification is supported by two separate exact finite-field implementations. This is computational evidence, not independent external attestation.",
+  "previously_published_pending_reaudit": false,
+  "primary_msc": "14G05",
+  "record_id": "SCOPE-20261026-47422b96bf6a",
+  "scientific_limitations": "The count 180 is for defining cubics modulo nonzero scalar in one fixed projective plane over F4, not an isomorphism-class count. The result concerns geometrically integral cubics distinct from the fixed Hermitian cubic; no parameter-uniform formula is asserted.",
+  "scope_run_id": "47422b96-bf6a-4209-8d46-9f3336787197",
+  "self_review_status": "passed",
+  "source_ids": [
+    "arXiv:2407.13521v1",
+    "doi:10.13069/jacodesmath.v11i2.273"
+  ],
+  "title": "Sharp seven-point intersections with the Hermitian cubic over \\(\\mathbb F_4\\)",
+  "verification_state": "independently_reviewed"
+}

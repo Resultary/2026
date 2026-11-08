@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-logarithmic-modulus-of-the-hyperbolic-endpoint-counterexam--9aefaacddd3e",
   "resultary_record_key": "SCOPE-exact-logarithmic-modulus-of-the-hyperbolic-endpoint-counterexam--9aefaacddd3e",
-  "source_commit": "37aa85e17f800589834dfe1567ef8e95cb0af429",
-  "source_commit_time": "2026-10-11T13:00:25Z",
+  "source_commit": "a77d3665f94249e8af516a5cf3c008aaea61cf1b",
+  "source_commit_time": "2026-11-02T02:06:22Z",
   "source_path": "2026/10/11/exact-logarithmic-modulus-of-the-hyperbolic-endpoint-counterexam--9aefaacddd3e",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-9aefaacddd3e",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-11-08T19:43:52Z",
   "time_standard": "UTC"
 }

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/2/SCOPE-exact-poisson-plateau-crossing-counts-in-equal-rate-cyclic-trans--bf48cf1ce7ea",
+  "resultary_record_key": "SCOPE-exact-poisson-plateau-crossing-counts-in-equal-rate-cyclic-trans--bf48cf1ce7ea",
+  "source_commit": "7dcca89c48bd61904d3d3e63d901c6e12836ac89",
+  "source_commit_time": "2026-11-08T18:26:56Z",
+  "source_path": "2026/11/02/exact-poisson-plateau-crossing-counts-in-equal-rate-cyclic-trans--bf48cf1ce7ea",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261102-bf48cf1ce7ea",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

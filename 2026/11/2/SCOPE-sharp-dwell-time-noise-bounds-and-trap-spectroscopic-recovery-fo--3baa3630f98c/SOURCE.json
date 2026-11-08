@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/2/SCOPE-sharp-dwell-time-noise-bounds-and-trap-spectroscopic-recovery-fo--3baa3630f98c",
+  "resultary_record_key": "SCOPE-sharp-dwell-time-noise-bounds-and-trap-spectroscopic-recovery-fo--3baa3630f98c",
+  "source_commit": "c9d72cfd7e8d59e2a24532ad8c3a1c029cfc60b5",
+  "source_commit_time": "2026-11-08T18:40:53Z",
+  "source_path": "2026/11/02/sharp-dwell-time-noise-bounds-and-trap-spectroscopic-recovery-fo--3baa3630f98c",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261102-3baa3630f98c",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

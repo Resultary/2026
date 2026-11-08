@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/10/25/SCOPE-erlang-resetting-creates-a-clock-order-logarithmic-correction-in--28e1e568a79f",
+  "resultary_record_key": "SCOPE-erlang-resetting-creates-a-clock-order-logarithmic-correction-in--28e1e568a79f",
+  "source_commit": "90adee6c80b98a97352021b3ec4d33b05f1c5de1",
+  "source_commit_time": "2026-11-08T18:26:32Z",
+  "source_path": "2026/10/25/erlang-resetting-creates-a-clock-order-logarithmic-correction-in--28e1e568a79f",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261025-28e1e568a79f",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

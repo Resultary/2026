@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/1/SCOPE-basin-concentration-for-closed-neighborhood-nor-on-triangular-gr--4c118cb00c41",
+  "resultary_record_key": "SCOPE-basin-concentration-for-closed-neighborhood-nor-on-triangular-gr--4c118cb00c41",
+  "source_commit": "65557a85427d58d4e46ce4ddcf7c8a43465dcb1f",
+  "source_commit_time": "2026-11-08T18:40:36Z",
+  "source_path": "2026/11/01/basin-concentration-for-closed-neighborhood-nor-on-triangular-gr--4c118cb00c41",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261101-4c118cb00c41",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

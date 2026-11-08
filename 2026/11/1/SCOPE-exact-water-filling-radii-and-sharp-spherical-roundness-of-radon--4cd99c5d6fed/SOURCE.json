@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/1/SCOPE-exact-water-filling-radii-and-sharp-spherical-roundness-of-radon--4cd99c5d6fed",
+  "resultary_record_key": "SCOPE-exact-water-filling-radii-and-sharp-spherical-roundness-of-radon--4cd99c5d6fed",
+  "source_commit": "699a774dd13ed766b8ab9de1ab8e24048efbf6ae",
+  "source_commit_time": "2026-11-08T19:20:53Z",
+  "source_path": "2026/11/01/exact-water-filling-radii-and-sharp-spherical-roundness-of-radon--4cd99c5d6fed",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261101-4cd99c5d6fed",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

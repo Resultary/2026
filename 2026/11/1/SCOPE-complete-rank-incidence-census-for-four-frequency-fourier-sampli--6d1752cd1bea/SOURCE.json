@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/1/SCOPE-complete-rank-incidence-census-for-four-frequency-fourier-sampli--6d1752cd1bea",
+  "resultary_record_key": "SCOPE-complete-rank-incidence-census-for-four-frequency-fourier-sampli--6d1752cd1bea",
+  "source_commit": "828c952183e7dc66efde612e371557e234e145a0",
+  "source_commit_time": "2026-11-08T18:38:08Z",
+  "source_path": "2026/11/01/complete-rank-incidence-census-for-four-frequency-fourier-sampli--6d1752cd1bea",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261101-6d1752cd1bea",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-08T19:43:52Z",
+  "time_standard": "UTC"
+}

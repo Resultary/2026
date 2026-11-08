@@ -1,0 +1,1 @@
+All 123 maximizing arguments in the first 19 dyadic intervals of cototient-iteration height are classified explicitly. At the previously known first three-unit maximum jump, the 44 maximizers of height 30 at scale 18 give way to the sole height-33 maximizer 462210 at scale 19.

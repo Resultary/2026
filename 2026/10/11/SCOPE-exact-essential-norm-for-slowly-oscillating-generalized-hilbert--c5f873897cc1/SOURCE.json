@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-essential-norm-for-slowly-oscillating-generalized-hilbert--c5f873897cc1",
   "resultary_record_key": "SCOPE-exact-essential-norm-for-slowly-oscillating-generalized-hilbert--c5f873897cc1",
-  "source_commit": "20d37e85e516416f4a9e6eb012f560a33295eab4",
-  "source_commit_time": "2026-10-11T13:14:10Z",
+  "source_commit": "0aec38b0242abeac1b4e57d81c4829322e488d05",
+  "source_commit_time": "2026-11-02T00:33:45Z",
   "source_path": "2026/10/11/exact-essential-norm-for-slowly-oscillating-generalized-hilbert--c5f873897cc1",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-c5f873897cc1",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-11-08T19:43:52Z",
   "time_standard": "UTC"
 }
