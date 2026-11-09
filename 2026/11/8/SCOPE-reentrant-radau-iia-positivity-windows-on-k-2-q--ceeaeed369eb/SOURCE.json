@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/8/SCOPE-reentrant-radau-iia-positivity-windows-on-k-2-q--ceeaeed369eb",
+  "resultary_record_key": "SCOPE-reentrant-radau-iia-positivity-windows-on-k-2-q--ceeaeed369eb",
+  "source_commit": "9adcc3bc24942021dafa390e77b57b1e7317dcd2",
+  "source_commit_time": "2026-11-08T22:37:02Z",
+  "source_path": "2026/11/08/reentrant-radau-iia-positivity-windows-on-k-2-q--ceeaeed369eb",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261108-ceeaeed369eb",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-09T00:52:25Z",
+  "time_standard": "UTC"
+}

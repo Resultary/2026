@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/8/SCOPE-sharp-deletion-threshold-and-complete-stable-cut-census-for-matc--db042db0552c",
+  "resultary_record_key": "SCOPE-sharp-deletion-threshold-and-complete-stable-cut-census-for-matc--db042db0552c",
+  "source_commit": "d36a9ed1bbee37faa7ccbd6d65077d078fe61951",
+  "source_commit_time": "2026-11-08T20:05:02Z",
+  "source_path": "2026/11/08/sharp-deletion-threshold-and-complete-stable-cut-census-for-matc--db042db0552c",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261108-db042db0552c",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-09T00:52:25Z",
+  "time_standard": "UTC"
+}

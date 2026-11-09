@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/8/SCOPE-two-stage-radau-iia-loses-and-regains-positivity-on-balanced-bip--68358e6bf45a",
+  "resultary_record_key": "SCOPE-two-stage-radau-iia-loses-and-regains-positivity-on-balanced-bip--68358e6bf45a",
+  "source_commit": "da26dc038aa74488d1078535466ea061f6ef6b91",
+  "source_commit_time": "2026-11-08T22:32:26Z",
+  "source_path": "2026/11/08/two-stage-radau-iia-loses-and-regains-positivity-on-balanced-bip--68358e6bf45a",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261108-68358e6bf45a",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-09T00:52:25Z",
+  "time_standard": "UTC"
+}

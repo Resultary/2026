@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/8/SCOPE-mean-persistence-reserve-spacing-is-never-shorter-than-tail-pers--fe260ea93f6a",
+  "resultary_record_key": "SCOPE-mean-persistence-reserve-spacing-is-never-shorter-than-tail-pers--fe260ea93f6a",
+  "source_commit": "90d7001e278cf38c7d89e40badaae19ead9fd43d",
+  "source_commit_time": "2026-11-08T19:56:45Z",
+  "source_path": "2026/11/08/mean-persistence-reserve-spacing-is-never-shorter-than-tail-pers--fe260ea93f6a",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261108-fe260ea93f6a",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-09T00:52:25Z",
+  "time_standard": "UTC"
+}

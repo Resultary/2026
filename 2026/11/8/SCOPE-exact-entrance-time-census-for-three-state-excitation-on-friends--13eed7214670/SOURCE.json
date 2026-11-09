@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/8/SCOPE-exact-entrance-time-census-for-three-state-excitation-on-friends--13eed7214670",
+  "resultary_record_key": "SCOPE-exact-entrance-time-census-for-three-state-excitation-on-friends--13eed7214670",
+  "source_commit": "2fffa1b596dd9bfe2a0c00b61671473a82c1937f",
+  "source_commit_time": "2026-11-08T21:00:24Z",
+  "source_path": "2026/11/08/exact-entrance-time-census-for-three-state-excitation-on-friends--13eed7214670",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261108-13eed7214670",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-09T00:52:25Z",
+  "time_standard": "UTC"
+}

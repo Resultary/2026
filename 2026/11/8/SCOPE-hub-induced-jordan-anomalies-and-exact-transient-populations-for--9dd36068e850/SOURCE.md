@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261108-9dd36068e850`](https://github.com/SCOPE-Science/SCOPE2026/tree/eb63a9b772902d35e1847c447ad228e9ae62b481/2026/11/08/hub-induced-jordan-anomalies-and-exact-transient-populations-for--9dd36068e850)
+
+Imported into Resultary as `2026/11/8/SCOPE-hub-induced-jordan-anomalies-and-exact-transient-populations-for--9dd36068e850`. The finding, audit, and attached artifacts remain attributable to SCOPE.

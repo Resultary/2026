@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/8/SCOPE-reentrant-source-two-step-path-covariance-in-biased-biclique-ori--85bdb53849a3",
+  "resultary_record_key": "SCOPE-reentrant-source-two-step-path-covariance-in-biased-biclique-ori--85bdb53849a3",
+  "source_commit": "d41cd515941294071eb549e0c2ada46f82f5a93a",
+  "source_commit_time": "2026-11-08T23:05:08Z",
+  "source_path": "2026/11/08/reentrant-source-two-step-path-covariance-in-biased-biclique-ori--85bdb53849a3",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261108-85bdb53849a3",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-09T00:52:25Z",
+  "time_standard": "UTC"
+}

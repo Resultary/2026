@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/8/SCOPE-exact-signed-energy-correlations-from-counter-switching-harmonic--94471ec2b67c",
+  "resultary_record_key": "SCOPE-exact-signed-energy-correlations-from-counter-switching-harmonic--94471ec2b67c",
+  "source_commit": "fc0376f234193b2b35869405fd188dd37cd10a48",
+  "source_commit_time": "2026-11-08T22:02:28Z",
+  "source_path": "2026/11/08/exact-signed-energy-correlations-from-counter-switching-harmonic--94471ec2b67c",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261108-94471ec2b67c",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-09T00:52:25Z",
+  "time_standard": "UTC"
+}

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/8/SCOPE-low-pass-dynamical-frame-volume-transition-on-normalized-paths--4cbcd87a2ab9",
+  "resultary_record_key": "SCOPE-low-pass-dynamical-frame-volume-transition-on-normalized-paths--4cbcd87a2ab9",
+  "source_commit": "43810b8753ff9e11ce06791c1c2e40815df07f3b",
+  "source_commit_time": "2026-11-08T20:39:48Z",
+  "source_path": "2026/11/08/low-pass-dynamical-frame-volume-transition-on-normalized-paths--4cbcd87a2ab9",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261108-4cbcd87a2ab9",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-09T00:52:25Z",
+  "time_standard": "UTC"
+}

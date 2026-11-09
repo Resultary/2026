@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261108-22eb72e87c33`](https://github.com/SCOPE-Science/SCOPE2026/tree/7d5cf74ced9b6a633744123fc399ce782b4aa068/2026/11/08/sharp-square-flip-distances-and-diametral-geometry-of-four-cube--22eb72e87c33)
+
+Imported into Resultary as `2026/11/8/SCOPE-sharp-square-flip-distances-and-diametral-geometry-of-four-cube--22eb72e87c33`. The finding, audit, and attached artifacts remain attributable to SCOPE.

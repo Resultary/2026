@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/8/SCOPE-exact-winding-basins-and-complete-temporal-cycle-census-for-stri--d6a7948b82ed",
+  "resultary_record_key": "SCOPE-exact-winding-basins-and-complete-temporal-cycle-census-for-stri--d6a7948b82ed",
+  "source_commit": "7cbff21ad461a2564cf0ace309298318069bbf7b",
+  "source_commit_time": "2026-11-08T21:12:34Z",
+  "source_path": "2026/11/08/exact-winding-basins-and-complete-temporal-cycle-census-for-stri--d6a7948b82ed",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261108-d6a7948b82ed",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-09T00:52:25Z",
+  "time_standard": "UTC"
+}

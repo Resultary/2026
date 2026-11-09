@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/8/SCOPE-identical-mean-squared-displacements-but-strictly-different-four--15c61d1928ee",
+  "resultary_record_key": "SCOPE-identical-mean-squared-displacements-but-strictly-different-four--15c61d1928ee",
+  "source_commit": "85fde34d6e213af11ca7ee1446335c6a1d0825e4",
+  "source_commit_time": "2026-11-08T21:57:46Z",
+  "source_path": "2026/11/08/identical-mean-squared-displacements-but-strictly-different-four--15c61d1928ee",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261108-15c61d1928ee",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-09T00:52:25Z",
+  "time_standard": "UTC"
+}

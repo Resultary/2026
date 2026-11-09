@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/8/SCOPE-perrin-transfer-periodic-orbit-census-for-cyclic-rule-3--41d1bc3e373b",
+  "resultary_record_key": "SCOPE-perrin-transfer-periodic-orbit-census-for-cyclic-rule-3--41d1bc3e373b",
+  "source_commit": "5a2e3db6e000df1964923370339d510adc919ab8",
+  "source_commit_time": "2026-11-08T21:00:55Z",
+  "source_path": "2026/11/08/perrin-transfer-periodic-orbit-census-for-cyclic-rule-3--41d1bc3e373b",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261108-41d1bc3e373b",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-09T00:52:25Z",
+  "time_standard": "UTC"
+}

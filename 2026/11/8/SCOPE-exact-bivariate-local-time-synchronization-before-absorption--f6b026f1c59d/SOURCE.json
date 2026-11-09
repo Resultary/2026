@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/8/SCOPE-exact-bivariate-local-time-synchronization-before-absorption--f6b026f1c59d",
+  "resultary_record_key": "SCOPE-exact-bivariate-local-time-synchronization-before-absorption--f6b026f1c59d",
+  "source_commit": "740da5dbc91448c6d90547cb928ae2a146d59cff",
+  "source_commit_time": "2026-11-08T22:04:25Z",
+  "source_path": "2026/11/08/exact-bivariate-local-time-synchronization-before-absorption--f6b026f1c59d",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261108-f6b026f1c59d",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-09T00:52:25Z",
+  "time_standard": "UTC"
+}

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/8/SCOPE-exact-null-ray-x-ray-spectra-and-optimal-direction-weighting-ove--cb7f7cb7e002",
+  "resultary_record_key": "SCOPE-exact-null-ray-x-ray-spectra-and-optimal-direction-weighting-ove--cb7f7cb7e002",
+  "source_commit": "39423307652a9aa4af0be029dd1bf31ce4ec03e0",
+  "source_commit_time": "2026-11-08T20:29:34Z",
+  "source_path": "2026/11/08/exact-null-ray-x-ray-spectra-and-optimal-direction-weighting-ove--cb7f7cb7e002",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261108-cb7f7cb7e002",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-09T00:52:25Z",
+  "time_standard": "UTC"
+}

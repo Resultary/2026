@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/8/SCOPE-exact-two-terminal-source-census-for-three-color-excitable-theta--f7be757a3807",
+  "resultary_record_key": "SCOPE-exact-two-terminal-source-census-for-three-color-excitable-theta--f7be757a3807",
+  "source_commit": "522df4d96de6097e55db8c60fc8d24ef240d96b8",
+  "source_commit_time": "2026-11-08T21:04:06Z",
+  "source_path": "2026/11/08/exact-two-terminal-source-census-for-three-color-excitable-theta--f7be757a3807",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261108-f7be757a3807",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-09T00:52:25Z",
+  "time_standard": "UTC"
+}

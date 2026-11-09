@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/8/SCOPE-random-sweep-order-mixing-strictly-slows-two-row-kaczmarz-in-mea--7575b954bf9b",
+  "resultary_record_key": "SCOPE-random-sweep-order-mixing-strictly-slows-two-row-kaczmarz-in-mea--7575b954bf9b",
+  "source_commit": "69b4adf53912a40a8abe8c5c871b318e4004a792",
+  "source_commit_time": "2026-11-08T22:41:39Z",
+  "source_path": "2026/11/08/random-sweep-order-mixing-strictly-slows-two-row-kaczmarz-in-mea--7575b954bf9b",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261108-7575b954bf9b",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-09T00:52:25Z",
+  "time_standard": "UTC"
+}

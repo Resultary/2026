@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/8/SCOPE-exact-sub-160-bit-census-of-third-fourth-order-reciprocal-prime--d99005d97f3f",
+  "resultary_record_key": "SCOPE-exact-sub-160-bit-census-of-third-fourth-order-reciprocal-prime--d99005d97f3f",
+  "source_commit": "3b8fc29818d4a12558bbbd11de0013c353f950a1",
+  "source_commit_time": "2026-11-08T22:26:33Z",
+  "source_path": "2026/11/08/exact-sub-160-bit-census-of-third-fourth-order-reciprocal-prime--d99005d97f3f",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261108-d99005d97f3f",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-09T00:52:25Z",
+  "time_standard": "UTC"
+}

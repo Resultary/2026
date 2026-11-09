@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/8/SCOPE-elliptic-clocks-and-zero-phase-drift-in-a-four-oscillator-disper--5b5fad0ba35a",
+  "resultary_record_key": "SCOPE-elliptic-clocks-and-zero-phase-drift-in-a-four-oscillator-disper--5b5fad0ba35a",
+  "source_commit": "d270071772bdee1e05324180415aba454ecdda2e",
+  "source_commit_time": "2026-11-08T21:13:50Z",
+  "source_path": "2026/11/08/elliptic-clocks-and-zero-phase-drift-in-a-four-oscillator-disper--5b5fad0ba35a",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261108-5b5fad0ba35a",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-09T00:52:25Z",
+  "time_standard": "UTC"
+}

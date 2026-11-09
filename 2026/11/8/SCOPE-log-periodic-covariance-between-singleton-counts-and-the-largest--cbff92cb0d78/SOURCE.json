@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/8/SCOPE-log-periodic-covariance-between-singleton-counts-and-the-largest--cbff92cb0d78",
+  "resultary_record_key": "SCOPE-log-periodic-covariance-between-singleton-counts-and-the-largest--cbff92cb0d78",
+  "source_commit": "4c7b3a7350946dae511b00f95fa250d418f5caa2",
+  "source_commit_time": "2026-11-08T23:01:47Z",
+  "source_path": "2026/11/08/log-periodic-covariance-between-singleton-counts-and-the-largest--cbff92cb0d78",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261108-cbff92cb0d78",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-09T00:52:25Z",
+  "time_standard": "UTC"
+}

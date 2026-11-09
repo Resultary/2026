@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/8/SCOPE-exact-monitoring-edge-geodetic-sets-of-subdivided-complete-graph--54b682624f22",
+  "resultary_record_key": "SCOPE-exact-monitoring-edge-geodetic-sets-of-subdivided-complete-graph--54b682624f22",
+  "source_commit": "ab63ad54e65a34af69674c10ca6a4c65f69cd51c",
+  "source_commit_time": "2026-11-08T20:22:34Z",
+  "source_path": "2026/11/08/exact-monitoring-edge-geodetic-sets-of-subdivided-complete-graph--54b682624f22",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261108-54b682624f22",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-09T00:52:25Z",
+  "time_standard": "UTC"
+}

@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261108-8fe2a7f6e756`](https://github.com/SCOPE-Science/SCOPE2026/tree/78ef04a51d766bee587c73695113fb2602ac01e6/2026/11/08/a-sharp-false-contractivity-island-for-classical-fourth-order-ru--8fe2a7f6e756)
+
+Imported into Resultary as `2026/11/8/SCOPE-a-sharp-false-contractivity-island-for-classical-fourth-order-ru--8fe2a7f6e756`. The finding, audit, and attached artifacts remain attributable to SCOPE.

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/8/SCOPE-exact-threshold-phases-and-source-set-census-for-discounted-hitt--5f319b71f0d9",
+  "resultary_record_key": "SCOPE-exact-threshold-phases-and-source-set-census-for-discounted-hitt--5f319b71f0d9",
+  "source_commit": "a2f843c2676dd8baa6bb999b0664edf5e1f22376",
+  "source_commit_time": "2026-11-08T20:25:03Z",
+  "source_path": "2026/11/08/exact-threshold-phases-and-source-set-census-for-discounted-hitt--5f319b71f0d9",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261108-5f319b71f0d9",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-09T00:52:25Z",
+  "time_standard": "UTC"
+}

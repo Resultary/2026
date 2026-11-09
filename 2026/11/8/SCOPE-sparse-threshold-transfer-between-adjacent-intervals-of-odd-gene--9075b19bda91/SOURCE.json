@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/8/SCOPE-sparse-threshold-transfer-between-adjacent-intervals-of-odd-gene--9075b19bda91",
+  "resultary_record_key": "SCOPE-sparse-threshold-transfer-between-adjacent-intervals-of-odd-gene--9075b19bda91",
+  "source_commit": "4b04a5c6d1352f6c530242e1c48593b8af21e8d6",
+  "source_commit_time": "2026-11-08T22:28:47Z",
+  "source_path": "2026/11/08/sparse-threshold-transfer-between-adjacent-intervals-of-odd-gene--9075b19bda91",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261108-9075b19bda91",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-09T00:52:25Z",
+  "time_standard": "UTC"
+}

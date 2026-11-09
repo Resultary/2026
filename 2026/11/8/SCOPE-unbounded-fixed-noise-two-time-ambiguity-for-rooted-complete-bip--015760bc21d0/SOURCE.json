@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/8/SCOPE-unbounded-fixed-noise-two-time-ambiguity-for-rooted-complete-bip--015760bc21d0",
+  "resultary_record_key": "SCOPE-unbounded-fixed-noise-two-time-ambiguity-for-rooted-complete-bip--015760bc21d0",
+  "source_commit": "ba0d9b957105bf6cec69dee6b5b3f91ea06b564c",
+  "source_commit_time": "2026-11-08T23:10:45Z",
+  "source_path": "2026/11/08/unbounded-fixed-noise-two-time-ambiguity-for-rooted-complete-bip--015760bc21d0",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261108-015760bc21d0",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-09T00:52:25Z",
+  "time_standard": "UTC"
+}

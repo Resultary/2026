@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/8/SCOPE-exact-singleton-reconstruction-counts-for-cyclic-binary-trigram--d4f07f5f8874",
+  "resultary_record_key": "SCOPE-exact-singleton-reconstruction-counts-for-cyclic-binary-trigram--d4f07f5f8874",
+  "source_commit": "1a9324d6fa3e2a8f8088e08143cfe587ee1dd5d4",
+  "source_commit_time": "2026-11-08T20:45:02Z",
+  "source_path": "2026/11/08/exact-singleton-reconstruction-counts-for-cyclic-binary-trigram--d4f07f5f8874",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261108-d4f07f5f8874",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-09T00:52:25Z",
+  "time_standard": "UTC"
+}

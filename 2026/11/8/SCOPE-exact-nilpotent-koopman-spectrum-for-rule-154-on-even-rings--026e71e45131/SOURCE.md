@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261108-026e71e45131`](https://github.com/SCOPE-Science/SCOPE2026/tree/859b08b1e7d4f335e56d7f7af56761757e60b52f/2026/11/08/exact-nilpotent-koopman-spectrum-for-rule-154-on-even-rings--026e71e45131)
+
+Imported into Resultary as `2026/11/8/SCOPE-exact-nilpotent-koopman-spectrum-for-rule-154-on-even-rings--026e71e45131`. The finding, audit, and attached artifacts remain attributable to SCOPE.

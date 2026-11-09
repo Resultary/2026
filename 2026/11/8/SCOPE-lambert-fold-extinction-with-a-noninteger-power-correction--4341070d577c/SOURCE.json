@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/8/SCOPE-lambert-fold-extinction-with-a-noninteger-power-correction--4341070d577c",
+  "resultary_record_key": "SCOPE-lambert-fold-extinction-with-a-noninteger-power-correction--4341070d577c",
+  "source_commit": "5da9da70bee7b0f0a86f1c2291bf7b3820f4b193",
+  "source_commit_time": "2026-11-08T20:06:59Z",
+  "source_path": "2026/11/08/lambert-fold-extinction-with-a-noninteger-power-correction--4341070d577c",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261108-4341070d577c",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-09T00:52:25Z",
+  "time_standard": "UTC"
+}

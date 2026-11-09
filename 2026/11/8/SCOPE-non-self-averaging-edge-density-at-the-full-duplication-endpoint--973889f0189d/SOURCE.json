@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/8/SCOPE-non-self-averaging-edge-density-at-the-full-duplication-endpoint--973889f0189d",
+  "resultary_record_key": "SCOPE-non-self-averaging-edge-density-at-the-full-duplication-endpoint--973889f0189d",
+  "source_commit": "46ae9e223ec0269ef1789d23ab90a19afd62c1a6",
+  "source_commit_time": "2026-11-08T23:20:42Z",
+  "source_path": "2026/11/08/non-self-averaging-edge-density-at-the-full-duplication-endpoint--973889f0189d",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261108-973889f0189d",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-09T00:52:25Z",
+  "time_standard": "UTC"
+}

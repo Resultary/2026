@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/8/SCOPE-exact-ternary-two-gram-profile-counts-and-a-six-period-reconstru--f50c4e8432b0",
+  "resultary_record_key": "SCOPE-exact-ternary-two-gram-profile-counts-and-a-six-period-reconstru--f50c4e8432b0",
+  "source_commit": "d2f72c9d2e16d40ab317ecf294baa299ef3c89e9",
+  "source_commit_time": "2026-11-08T20:59:33Z",
+  "source_path": "2026/11/08/exact-ternary-two-gram-profile-counts-and-a-six-period-reconstru--f50c4e8432b0",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261108-f50c4e8432b0",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-09T00:52:25Z",
+  "time_standard": "UTC"
+}
