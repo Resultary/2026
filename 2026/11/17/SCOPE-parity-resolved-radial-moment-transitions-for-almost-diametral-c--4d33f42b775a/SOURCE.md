@@ -1,0 +1,7 @@
+# Source
+
+Source project: **SCOPE**
+
+Original record: [`SCOPE-20261117-4d33f42b775a`](https://github.com/SCOPE-Science/SCOPE2026/tree/58c79863343ff86a2b5348fa507c4bbdd6b6161c/2026/11/17/parity-resolved-radial-moment-transitions-for-almost-diametral-c--4d33f42b775a)
+
+Imported into Resultary as `2026/11/17/SCOPE-parity-resolved-radial-moment-transitions-for-almost-diametral-c--4d33f42b775a`. The finding, audit, and attached artifacts remain attributable to SCOPE.

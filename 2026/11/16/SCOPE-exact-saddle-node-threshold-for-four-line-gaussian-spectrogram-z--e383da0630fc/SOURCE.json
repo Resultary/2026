@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/16/SCOPE-exact-saddle-node-threshold-for-four-line-gaussian-spectrogram-z--e383da0630fc",
+  "resultary_record_key": "SCOPE-exact-saddle-node-threshold-for-four-line-gaussian-spectrogram-z--e383da0630fc",
+  "source_commit": "942d76c01b1d082c3a851008632b8fa59290b8d8",
+  "source_commit_time": "2026-11-16T23:53:08Z",
+  "source_path": "2026/11/16/exact-saddle-node-threshold-for-four-line-gaussian-spectrogram-z--e383da0630fc",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261116-e383da0630fc",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-17T02:00:37Z",
+  "time_standard": "UTC"
+}
