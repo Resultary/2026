@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-complete-third-order-fourier-minor-rank-incidence-for-distinct-p--6a97dfb3d140",
   "resultary_record_key": "SCOPE-complete-third-order-fourier-minor-rank-incidence-for-distinct-p--6a97dfb3d140",
-  "source_commit": "8cd03c35452a813704e32572179ae50a0bc6a56a",
-  "source_commit_time": "2026-11-08T20:28:48Z",
+  "source_commit": "1d3c56823941f8374921412aaa8c19b2330e52c4",
+  "source_commit_time": "2026-11-17T02:02:32Z",
   "source_path": "2026/11/08/complete-third-order-fourier-minor-rank-incidence-for-distinct-p--6a97dfb3d140",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-6a97dfb3d140",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

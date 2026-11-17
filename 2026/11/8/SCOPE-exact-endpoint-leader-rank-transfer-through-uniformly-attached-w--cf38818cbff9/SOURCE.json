@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-endpoint-leader-rank-transfer-through-uniformly-attached-w--cf38818cbff9",
   "resultary_record_key": "SCOPE-exact-endpoint-leader-rank-transfer-through-uniformly-attached-w--cf38818cbff9",
-  "source_commit": "196a617fd0e1ca7fcec6175a33b2d52197eb26aa",
-  "source_commit_time": "2026-11-08T22:38:10Z",
+  "source_commit": "55e3d93319c3842b7d045c3314b09ada62fb2ed6",
+  "source_commit_time": "2026-11-17T02:01:31Z",
   "source_path": "2026/11/08/exact-endpoint-leader-rank-transfer-through-uniformly-attached-w--cf38818cbff9",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-cf38818cbff9",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

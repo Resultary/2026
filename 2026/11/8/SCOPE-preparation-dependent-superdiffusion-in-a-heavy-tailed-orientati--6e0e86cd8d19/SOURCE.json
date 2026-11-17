@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-preparation-dependent-superdiffusion-in-a-heavy-tailed-orientati--6e0e86cd8d19",
   "resultary_record_key": "SCOPE-preparation-dependent-superdiffusion-in-a-heavy-tailed-orientati--6e0e86cd8d19",
-  "source_commit": "58faf8c5f8578e3d4d379f56b6ea6efb4e97f104",
-  "source_commit_time": "2026-11-08T22:01:47Z",
+  "source_commit": "f010a646861360a7e10c0ae249ad99b0b1ba71fd",
+  "source_commit_time": "2026-11-17T01:59:21Z",
   "source_path": "2026/11/08/preparation-dependent-superdiffusion-in-a-heavy-tailed-orientati--6e0e86cd8d19",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-6e0e86cd8d19",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

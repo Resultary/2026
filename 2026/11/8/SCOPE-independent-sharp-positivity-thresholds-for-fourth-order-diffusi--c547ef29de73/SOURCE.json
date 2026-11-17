@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-independent-sharp-positivity-thresholds-for-fourth-order-diffusi--c547ef29de73",
   "resultary_record_key": "SCOPE-independent-sharp-positivity-thresholds-for-fourth-order-diffusi--c547ef29de73",
-  "source_commit": "a7527b3aedef1c3e609fb80907e33086592a0b54",
-  "source_commit_time": "2026-11-08T22:33:53Z",
+  "source_commit": "9727206c3a5f3ada396931241e1ca70cba640538",
+  "source_commit_time": "2026-11-17T02:02:44Z",
   "source_path": "2026/11/08/independent-sharp-positivity-thresholds-for-fourth-order-diffusi--c547ef29de73",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-c547ef29de73",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-signed-matching-holonomy-and-color-refinement-orbits-in-tourname--766189576b2f",
   "resultary_record_key": "SCOPE-signed-matching-holonomy-and-color-refinement-orbits-in-tourname--766189576b2f",
-  "source_commit": "d5ac3c95ca3bb07601826a50e01b1ff6e2d1ce5e",
-  "source_commit_time": "2026-11-08T21:18:28Z",
+  "source_commit": "48c3d92eadb135a31e589fe2da2a4fba89c32341",
+  "source_commit_time": "2026-11-17T02:01:06Z",
   "source_path": "2026/11/08/signed-matching-holonomy-and-color-refinement-orbits-in-tourname--766189576b2f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-766189576b2f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

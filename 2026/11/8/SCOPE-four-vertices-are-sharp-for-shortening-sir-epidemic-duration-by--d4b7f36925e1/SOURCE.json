@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-four-vertices-are-sharp-for-shortening-sir-epidemic-duration-by--d4b7f36925e1",
   "resultary_record_key": "SCOPE-four-vertices-are-sharp-for-shortening-sir-epidemic-duration-by--d4b7f36925e1",
-  "source_commit": "6b745f5b9cb3f248ef82ecb32ca0c7e06c017ea7",
-  "source_commit_time": "2026-11-08T19:59:17Z",
+  "source_commit": "2db48ed27d21897e4913ba96a785bf839716bdcd",
+  "source_commit_time": "2026-11-17T02:04:13Z",
   "source_path": "2026/11/08/four-vertices-are-sharp-for-shortening-sir-epidemic-duration-by--d4b7f36925e1",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-d4b7f36925e1",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

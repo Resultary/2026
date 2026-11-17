@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-joint-recovery-and-local-blindness-in-distributed-brownian-reset--4278f0a9748c",
   "resultary_record_key": "SCOPE-joint-recovery-and-local-blindness-in-distributed-brownian-reset--4278f0a9748c",
-  "source_commit": "726ddab9a3c3ef378f1fc263d254989ec4aa6816",
-  "source_commit_time": "2026-11-08T22:01:31Z",
+  "source_commit": "cc9c0a916919ec37a33c1cd5b8c1a6bcddd91743",
+  "source_commit_time": "2026-11-17T02:02:01Z",
   "source_path": "2026/11/08/joint-recovery-and-local-blindness-in-distributed-brownian-reset--4278f0a9748c",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-4278f0a9748c",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

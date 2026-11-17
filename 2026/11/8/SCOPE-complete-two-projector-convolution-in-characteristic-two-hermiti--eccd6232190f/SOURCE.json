@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-complete-two-projector-convolution-in-characteristic-two-hermiti--eccd6232190f",
   "resultary_record_key": "SCOPE-complete-two-projector-convolution-in-characteristic-two-hermiti--eccd6232190f",
-  "source_commit": "da6ff70b18072a1c25ed088f203e19228a98224c",
-  "source_commit_time": "2026-11-08T20:33:00Z",
+  "source_commit": "898f1f65a4f66ae7ff427704c976cbfd0c5fe902",
+  "source_commit_time": "2026-11-17T02:03:49Z",
   "source_path": "2026/11/08/complete-two-projector-convolution-in-characteristic-two-hermiti--eccd6232190f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-eccd6232190f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

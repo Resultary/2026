@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-a-universal-persistence-scale-critical-autocorrelation-crossover--30049dc4d3d0",
   "resultary_record_key": "SCOPE-a-universal-persistence-scale-critical-autocorrelation-crossover--30049dc4d3d0",
-  "source_commit": "be5aa64363dcf124b31151057cc3d141518a283e",
-  "source_commit_time": "2026-11-08T22:02:13Z",
+  "source_commit": "d9ed859447af5132f51ca353e415effc5e808661",
+  "source_commit_time": "2026-11-17T01:59:52Z",
   "source_path": "2026/11/08/a-universal-persistence-scale-critical-autocorrelation-crossover--30049dc4d3d0",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-30049dc4d3d0",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

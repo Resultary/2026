@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-every-nontrivial-gibbs-partition-can-destroy-two-step-exact-mixi--e58a56157489",
   "resultary_record_key": "SCOPE-every-nontrivial-gibbs-partition-can-destroy-two-step-exact-mixi--e58a56157489",
-  "source_commit": "998814a3e47f52dec1eeddd4b934ff6531a34484",
-  "source_commit_time": "2026-11-08T23:17:59Z",
+  "source_commit": "a4a5ae64714b8f50743b7f60fbe97d9f5e555b4e",
+  "source_commit_time": "2026-11-17T02:03:16Z",
   "source_path": "2026/11/08/every-nontrivial-gibbs-partition-can-destroy-two-step-exact-mixi--e58a56157489",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-e58a56157489",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

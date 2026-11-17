@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-a-unique-covariance-conditioning-optimum-for-weighted-two-clique--6312a553822c",
   "resultary_record_key": "SCOPE-a-unique-covariance-conditioning-optimum-for-weighted-two-clique--6312a553822c",
-  "source_commit": "fc58fb368422eea98b4e000c0928c58e698ee56f",
-  "source_commit_time": "2026-11-08T21:41:36Z",
+  "source_commit": "a92b0b20b8d09241125874b3e127bcf70e0d861d",
+  "source_commit_time": "2026-11-17T02:01:23Z",
   "source_path": "2026/11/08/a-unique-covariance-conditioning-optimum-for-weighted-two-clique--6312a553822c",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-6312a553822c",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

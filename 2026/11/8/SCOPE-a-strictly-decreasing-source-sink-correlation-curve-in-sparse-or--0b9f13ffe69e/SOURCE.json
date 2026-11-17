@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-a-strictly-decreasing-source-sink-correlation-curve-in-sparse-or--0b9f13ffe69e",
   "resultary_record_key": "SCOPE-a-strictly-decreasing-source-sink-correlation-curve-in-sparse-or--0b9f13ffe69e",
-  "source_commit": "20487157cb0fa98f36fa482aff25807f9e74af73",
-  "source_commit_time": "2026-11-08T22:59:02Z",
+  "source_commit": "b4dd318646f258409e32de5557cb32b4d888b895",
+  "source_commit_time": "2026-11-17T01:58:22Z",
   "source_path": "2026/11/08/a-strictly-decreasing-source-sink-correlation-curve-in-sparse-or--0b9f13ffe69e",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-0b9f13ffe69e",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

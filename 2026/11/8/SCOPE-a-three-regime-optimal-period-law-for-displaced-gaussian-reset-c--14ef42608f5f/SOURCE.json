@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-a-three-regime-optimal-period-law-for-displaced-gaussian-reset-c--14ef42608f5f",
   "resultary_record_key": "SCOPE-a-three-regime-optimal-period-law-for-displaced-gaussian-reset-c--14ef42608f5f",
-  "source_commit": "d32d955fbc15c09e7f871e9761cce6b7d99d9277",
-  "source_commit_time": "2026-11-08T22:08:08Z",
+  "source_commit": "76bd33dd82267a3c2df8174503fe2e746fd88308",
+  "source_commit_time": "2026-11-17T02:01:23Z",
   "source_path": "2026/11/08/a-three-regime-optimal-period-law-for-displaced-gaussian-reset-c--14ef42608f5f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-14ef42608f5f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

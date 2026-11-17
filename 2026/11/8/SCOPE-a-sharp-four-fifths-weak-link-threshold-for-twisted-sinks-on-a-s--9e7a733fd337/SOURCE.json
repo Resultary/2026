@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-a-sharp-four-fifths-weak-link-threshold-for-twisted-sinks-on-a-s--9e7a733fd337",
   "resultary_record_key": "SCOPE-a-sharp-four-fifths-weak-link-threshold-for-twisted-sinks-on-a-s--9e7a733fd337",
-  "source_commit": "d9f3b2d42e6d282961a23afc04a27dab4e72d16a",
-  "source_commit_time": "2026-11-08T21:14:18Z",
+  "source_commit": "b14a2d987a3b1c4127b41fa8fa3fa856950dcb46",
+  "source_commit_time": "2026-11-17T01:59:49Z",
   "source_path": "2026/11/08/a-sharp-four-fifths-weak-link-threshold-for-twisted-sinks-on-a-s--9e7a733fd337",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-9e7a733fd337",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

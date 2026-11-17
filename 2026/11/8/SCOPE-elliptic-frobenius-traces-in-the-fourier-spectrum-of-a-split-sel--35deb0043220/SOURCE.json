@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-elliptic-frobenius-traces-in-the-fourier-spectrum-of-a-split-sel--35deb0043220",
   "resultary_record_key": "SCOPE-elliptic-frobenius-traces-in-the-fourier-spectrum-of-a-split-sel--35deb0043220",
-  "source_commit": "85356bf37e1a687908b759b3a2a21c85a12eb41e",
-  "source_commit_time": "2026-11-08T20:28:16Z",
+  "source_commit": "b98eae2203af8409ca0067f106b902f4a7ed0f41",
+  "source_commit_time": "2026-11-17T02:04:06Z",
   "source_path": "2026/11/08/elliptic-frobenius-traces-in-the-fourier-spectrum-of-a-split-sel--35deb0043220",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-35deb0043220",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

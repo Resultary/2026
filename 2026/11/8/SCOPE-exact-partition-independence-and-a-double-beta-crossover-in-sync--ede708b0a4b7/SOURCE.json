@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-partition-independence-and-a-double-beta-crossover-in-sync--ede708b0a4b7",
   "resultary_record_key": "SCOPE-exact-partition-independence-and-a-double-beta-crossover-in-sync--ede708b0a4b7",
-  "source_commit": "57037e1566c9d45229a4e223d40940817ac17659",
-  "source_commit_time": "2026-11-08T23:11:53Z",
+  "source_commit": "e05a5b5f9ef7e60e35dff3cdcb9cecbae07a8be6",
+  "source_commit_time": "2026-11-17T01:59:10Z",
   "source_path": "2026/11/08/exact-partition-independence-and-a-double-beta-crossover-in-sync--ede708b0a4b7",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-ede708b0a4b7",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

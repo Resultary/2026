@@ -1,4 +1,0 @@
-# Required only for supplementary verifier; mathematical proof is self-contained.
-numpy>=1.23
-scipy>=1.9
-sympy>=1.11

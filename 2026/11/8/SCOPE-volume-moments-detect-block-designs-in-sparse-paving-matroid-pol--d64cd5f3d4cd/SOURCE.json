@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-volume-moments-detect-block-designs-in-sparse-paving-matroid-pol--d64cd5f3d4cd",
   "resultary_record_key": "SCOPE-volume-moments-detect-block-designs-in-sparse-paving-matroid-pol--d64cd5f3d4cd",
-  "source_commit": "d31a3139e52cc9ec5c04ac67b0953d33416aed9e",
-  "source_commit_time": "2026-11-08T21:38:20Z",
+  "source_commit": "a2f6314951ea8cdf53fe75fe6541f78eb41b7268",
+  "source_commit_time": "2026-11-17T02:01:14Z",
   "source_path": "2026/11/08/volume-moments-detect-block-designs-in-sparse-paving-matroid-pol--d64cd5f3d4cd",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-d64cd5f3d4cd",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

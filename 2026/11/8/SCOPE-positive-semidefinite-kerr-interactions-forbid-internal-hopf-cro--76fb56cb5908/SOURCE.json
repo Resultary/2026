@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-positive-semidefinite-kerr-interactions-forbid-internal-hopf-cro--76fb56cb5908",
   "resultary_record_key": "SCOPE-positive-semidefinite-kerr-interactions-forbid-internal-hopf-cro--76fb56cb5908",
-  "source_commit": "ef2c8cc34bfb5576cca58ed94ef33fb2cfacc996",
-  "source_commit_time": "2026-11-08T22:09:11Z",
+  "source_commit": "91262604d5d68877edb917949dc9b11890387fe1",
+  "source_commit_time": "2026-11-17T01:58:47Z",
   "source_path": "2026/11/08/positive-semidefinite-kerr-interactions-forbid-internal-hopf-cro--76fb56cb5908",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-76fb56cb5908",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

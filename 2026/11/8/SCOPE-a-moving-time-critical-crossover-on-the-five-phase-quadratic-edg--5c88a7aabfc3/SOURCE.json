@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-a-moving-time-critical-crossover-on-the-five-phase-quadratic-edg--5c88a7aabfc3",
   "resultary_record_key": "SCOPE-a-moving-time-critical-crossover-on-the-five-phase-quadratic-edg--5c88a7aabfc3",
-  "source_commit": "222a9890ecad104c3c419c80107d1cef2afe6683",
-  "source_commit_time": "2026-11-08T21:09:27Z",
+  "source_commit": "7e722ee8a7b68ef24df2c6198fe89434731d953a",
+  "source_commit_time": "2026-11-17T02:03:57Z",
   "source_path": "2026/11/08/a-moving-time-critical-crossover-on-the-five-phase-quadratic-edg--5c88a7aabfc3",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-5c88a7aabfc3",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

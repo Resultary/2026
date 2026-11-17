@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-facet-jumps-under-two-incident-distance-elongations--ae6cbfca4c90",
   "resultary_record_key": "SCOPE-exact-facet-jumps-under-two-incident-distance-elongations--ae6cbfca4c90",
-  "source_commit": "8385e7b1510df4dd832aaca2773193e51c709f89",
-  "source_commit_time": "2026-11-08T23:30:41Z",
+  "source_commit": "d6137afa50b99edc3aa97d050ed6fcc1903d71cb",
+  "source_commit_time": "2026-11-17T02:00:01Z",
   "source_path": "2026/11/08/exact-facet-jumps-under-two-incident-distance-elongations--ae6cbfca4c90",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-ae6cbfca4c90",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

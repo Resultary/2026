@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-survival-interval-and-an-upper-density-bottleneck-crossove--44c0b8d77733",
   "resultary_record_key": "SCOPE-exact-survival-interval-and-an-upper-density-bottleneck-crossove--44c0b8d77733",
-  "source_commit": "cf97c0431e2b49340d1606724951f28237156ed6",
-  "source_commit_time": "2026-11-08T21:16:20Z",
+  "source_commit": "1f1d150b1cbda83a76b8e618e73a3ea201f64d76",
+  "source_commit_time": "2026-11-17T02:02:40Z",
   "source_path": "2026/11/08/exact-survival-interval-and-an-upper-density-bottleneck-crossove--44c0b8d77733",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-44c0b8d77733",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-finite-probe-positivity-failure-and-a-square-root-conditioning-f--03f0f72413a5",
   "resultary_record_key": "SCOPE-finite-probe-positivity-failure-and-a-square-root-conditioning-f--03f0f72413a5",
-  "source_commit": "9906175ac0e503c5a8f67515fff02cd661929f41",
-  "source_commit_time": "2026-11-08T22:52:53Z",
+  "source_commit": "1324f0ea79b5b16f086d9fb20492e1e5651dd246",
+  "source_commit_time": "2026-11-17T02:02:42Z",
   "source_path": "2026/11/08/finite-probe-positivity-failure-and-a-square-root-conditioning-f--03f0f72413a5",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-03f0f72413a5",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

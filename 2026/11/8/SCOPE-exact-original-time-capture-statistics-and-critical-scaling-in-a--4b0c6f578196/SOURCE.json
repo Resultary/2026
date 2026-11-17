@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-original-time-capture-statistics-and-critical-scaling-in-a--4b0c6f578196",
   "resultary_record_key": "SCOPE-exact-original-time-capture-statistics-and-critical-scaling-in-a--4b0c6f578196",
-  "source_commit": "a82e00924361b2f124b25aa3833467c8271843f8",
-  "source_commit_time": "2026-11-08T21:10:32Z",
+  "source_commit": "2525830161adf39de448d939bef5b49352cf3eb5",
+  "source_commit_time": "2026-11-17T02:02:39Z",
   "source_path": "2026/11/08/exact-original-time-capture-statistics-and-critical-scaling-in-a--4b0c6f578196",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-4b0c6f578196",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

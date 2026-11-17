@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-endpoint-schur-norms-of-radius-one-balls-on-stars-of-arbit--708bab8a17cc",
   "resultary_record_key": "SCOPE-exact-endpoint-schur-norms-of-radius-one-balls-on-stars-of-arbit--708bab8a17cc",
-  "source_commit": "0f10d9c610dda6e377cf3afb491a48a6494765b2",
-  "source_commit_time": "2026-11-08T17:27:09Z",
+  "source_commit": "bef8be46d4234c51dc585f95c0974ad466291a9b",
+  "source_commit_time": "2026-11-17T02:01:17Z",
   "source_path": "2026/11/08/exact-endpoint-schur-norms-of-radius-one-balls-on-stars-of-arbit--708bab8a17cc",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-708bab8a17cc",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-08T19:43:52Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

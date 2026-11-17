@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-static-state-blindness-and-a-sharp-temporal-memory-crossover-und--f3cc5401e836",
   "resultary_record_key": "SCOPE-static-state-blindness-and-a-sharp-temporal-memory-crossover-und--f3cc5401e836",
-  "source_commit": "104ab5c9f37c402de2c313de42a41516f62ee2b2",
-  "source_commit_time": "2026-11-08T22:04:59Z",
+  "source_commit": "7e75fb5f5be7199ce63ef777a6efcc877298adb0",
+  "source_commit_time": "2026-11-17T02:01:07Z",
   "source_path": "2026/11/08/static-state-blindness-and-a-sharp-temporal-memory-crossover-und--f3cc5401e836",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-f3cc5401e836",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

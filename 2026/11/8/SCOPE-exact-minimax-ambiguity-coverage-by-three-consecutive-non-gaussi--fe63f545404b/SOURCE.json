@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-minimax-ambiguity-coverage-by-three-consecutive-non-gaussi--fe63f545404b",
   "resultary_record_key": "SCOPE-exact-minimax-ambiguity-coverage-by-three-consecutive-non-gaussi--fe63f545404b",
-  "source_commit": "e1d629769716db0ecf30d7444fc4fc67df99afd8",
-  "source_commit_time": "2026-11-08T20:36:03Z",
+  "source_commit": "1467cac2a21f86eb99edc8666668f71b9f61cd48",
+  "source_commit_time": "2026-11-17T02:04:09Z",
   "source_path": "2026/11/08/exact-minimax-ambiguity-coverage-by-three-consecutive-non-gaussi--fe63f545404b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-fe63f545404b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

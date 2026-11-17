@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/10/11/SCOPE-exact-p-angle-constant-of-the-affine-regular-hexagonal-plane--81fa4d5de920",
   "resultary_record_key": "SCOPE-exact-p-angle-constant-of-the-affine-regular-hexagonal-plane--81fa4d5de920",
-  "source_commit": "b00fe1a681c7972982345bd9b0112b2d42b61a62",
-  "source_commit_time": "2026-10-11T13:11:53Z",
+  "source_commit": "d76b0f46829a9879e84f770a6a23564be600e066",
+  "source_commit_time": "2026-11-17T02:01:19Z",
   "source_path": "2026/10/11/exact-p-angle-constant-of-the-affine-regular-hexagonal-plane--81fa4d5de920",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261011-81fa4d5de920",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-10-11T13:31:00Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

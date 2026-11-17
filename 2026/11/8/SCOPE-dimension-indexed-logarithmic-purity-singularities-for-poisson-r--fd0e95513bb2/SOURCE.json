@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-dimension-indexed-logarithmic-purity-singularities-for-poisson-r--fd0e95513bb2",
   "resultary_record_key": "SCOPE-dimension-indexed-logarithmic-purity-singularities-for-poisson-r--fd0e95513bb2",
-  "source_commit": "35c673849824a0e5021317e010b0ea8cc27ab0f3",
-  "source_commit_time": "2026-11-08T22:01:01Z",
+  "source_commit": "03cef5cf60ef1f20e1677fdd9cf2fd94498c012e",
+  "source_commit_time": "2026-11-17T01:59:57Z",
   "source_path": "2026/11/08/dimension-indexed-logarithmic-purity-singularities-for-poisson-r--fd0e95513bb2",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-fd0e95513bb2",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

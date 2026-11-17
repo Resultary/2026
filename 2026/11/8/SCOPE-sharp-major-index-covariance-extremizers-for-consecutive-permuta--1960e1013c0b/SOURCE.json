@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-sharp-major-index-covariance-extremizers-for-consecutive-permuta--1960e1013c0b",
   "resultary_record_key": "SCOPE-sharp-major-index-covariance-extremizers-for-consecutive-permuta--1960e1013c0b",
-  "source_commit": "41581b66aa0d4dccd6ef22741426dc8f9a68cb95",
-  "source_commit_time": "2026-11-08T23:06:01Z",
+  "source_commit": "2aeda7669c664d0d508f26e6daec5c411ea9e49c",
+  "source_commit_time": "2026-11-17T02:03:32Z",
   "source_path": "2026/11/08/sharp-major-index-covariance-extremizers-for-consecutive-permuta--1960e1013c0b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-1960e1013c0b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-leaf-augmentation-stochastically-improves-random-greedy-matching--f7b5944c0147",
   "resultary_record_key": "SCOPE-leaf-augmentation-stochastically-improves-random-greedy-matching--f7b5944c0147",
-  "source_commit": "247debd13f1fb83541b4436c2a3653758d6782a6",
-  "source_commit_time": "2026-11-08T23:13:21Z",
+  "source_commit": "405232391281f48039f273e7e163c1e0e4c3bc30",
+  "source_commit_time": "2026-11-17T02:04:15Z",
   "source_path": "2026/11/08/leaf-augmentation-stochastically-improves-random-greedy-matching--f7b5944c0147",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-f7b5944c0147",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

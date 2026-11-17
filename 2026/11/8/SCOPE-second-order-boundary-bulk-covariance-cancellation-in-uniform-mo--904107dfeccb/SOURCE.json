@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-second-order-boundary-bulk-covariance-cancellation-in-uniform-mo--904107dfeccb",
   "resultary_record_key": "SCOPE-second-order-boundary-bulk-covariance-cancellation-in-uniform-mo--904107dfeccb",
-  "source_commit": "d24034090eaa8ae2af6408a671068703cb564d99",
-  "source_commit_time": "2026-11-08T23:02:03Z",
+  "source_commit": "4d30b5b0191409221ce0599f4e33e1a735485b0e",
+  "source_commit_time": "2026-11-17T01:59:22Z",
   "source_path": "2026/11/08/second-order-boundary-bulk-covariance-cancellation-in-uniform-mo--904107dfeccb",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-904107dfeccb",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

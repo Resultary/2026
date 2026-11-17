@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-zero-leaf-degree-variance-in-random-recursive-trees--77d623e02a17",
   "resultary_record_key": "SCOPE-exact-zero-leaf-degree-variance-in-random-recursive-trees--77d623e02a17",
-  "source_commit": "fd14734dfd3bacd5ce8afb49f19c48e8bacd0445",
-  "source_commit_time": "2026-11-08T23:21:03Z",
+  "source_commit": "3f0e6149d4a2cb8e9fb65b8229aa69a8081ab35c",
+  "source_commit_time": "2026-11-17T01:59:13Z",
   "source_path": "2026/11/08/exact-zero-leaf-degree-variance-in-random-recursive-trees--77d623e02a17",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-77d623e02a17",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

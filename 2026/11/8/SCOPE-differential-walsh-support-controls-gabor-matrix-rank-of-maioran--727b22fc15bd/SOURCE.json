@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-differential-walsh-support-controls-gabor-matrix-rank-of-maioran--727b22fc15bd",
   "resultary_record_key": "SCOPE-differential-walsh-support-controls-gabor-matrix-rank-of-maioran--727b22fc15bd",
-  "source_commit": "f0c206b02ecb9d66f00ba0b6f1feab4942509be4",
-  "source_commit_time": "2026-11-08T20:29:12Z",
+  "source_commit": "e1e380cc55d43c9febd3fff4364b19ef5be6301d",
+  "source_commit_time": "2026-11-17T01:58:30Z",
   "source_path": "2026/11/08/differential-walsh-support-controls-gabor-matrix-rank-of-maioran--727b22fc15bd",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-727b22fc15bd",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

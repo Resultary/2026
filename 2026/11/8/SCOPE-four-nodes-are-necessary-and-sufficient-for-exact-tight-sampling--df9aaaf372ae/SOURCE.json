@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-four-nodes-are-necessary-and-sufficient-for-exact-tight-sampling--df9aaaf372ae",
   "resultary_record_key": "SCOPE-four-nodes-are-necessary-and-sufficient-for-exact-tight-sampling--df9aaaf372ae",
-  "source_commit": "e4591560ce8fa9f06dbdebe2336aafdd5d4d85f7",
-  "source_commit_time": "2026-11-08T20:43:42Z",
+  "source_commit": "ad605c5de236d586c533036151816df0140a8b1a",
+  "source_commit_time": "2026-11-17T01:59:15Z",
   "source_path": "2026/11/08/four-nodes-are-necessary-and-sufficient-for-exact-tight-sampling--df9aaaf372ae",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-df9aaaf372ae",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

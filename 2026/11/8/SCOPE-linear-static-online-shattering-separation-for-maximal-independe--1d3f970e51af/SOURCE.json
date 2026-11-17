@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-linear-static-online-shattering-separation-for-maximal-independe--1d3f970e51af",
   "resultary_record_key": "SCOPE-linear-static-online-shattering-separation-for-maximal-independe--1d3f970e51af",
-  "source_commit": "12e8e42a73b3961184ae5f814a184b10d5687814",
-  "source_commit_time": "2026-11-08T21:20:24Z",
+  "source_commit": "8d5430e40feea40be98f516ebe1b0b382f8b7adf",
+  "source_commit_time": "2026-11-17T01:58:44Z",
   "source_path": "2026/11/08/linear-static-online-shattering-separation-for-maximal-independe--1d3f970e51af",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-1d3f970e51af",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

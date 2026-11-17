@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-separation-independent-modal-transition-for-harmonically-confine--a6b2a5417eeb",
   "resultary_record_key": "SCOPE-separation-independent-modal-transition-for-harmonically-confine--a6b2a5417eeb",
-  "source_commit": "565e8465d7414d8d1cc2d4bae1c1d590edd50acc",
-  "source_commit_time": "2026-11-08T22:04:35Z",
+  "source_commit": "6438d8302d9010e59cc956e4700962e018df706f",
+  "source_commit_time": "2026-11-17T02:01:01Z",
   "source_path": "2026/11/08/separation-independent-modal-transition-for-harmonically-confine--a6b2a5417eeb",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-a6b2a5417eeb",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

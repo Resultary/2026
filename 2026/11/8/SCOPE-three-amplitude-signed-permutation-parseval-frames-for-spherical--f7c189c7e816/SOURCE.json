@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-three-amplitude-signed-permutation-parseval-frames-for-spherical--f7c189c7e816",
   "resultary_record_key": "SCOPE-three-amplitude-signed-permutation-parseval-frames-for-spherical--f7c189c7e816",
-  "source_commit": "5f4dea10d8e326fc2869d903cc2c710a219572ac",
-  "source_commit_time": "2026-11-08T20:33:24Z",
+  "source_commit": "5b52b1b6d81aa0a81283fad077a7adedd666a325",
+  "source_commit_time": "2026-11-17T02:02:58Z",
   "source_path": "2026/11/08/three-amplitude-signed-permutation-parseval-frames-for-spherical--f7c189c7e816",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-f7c189c7e816",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

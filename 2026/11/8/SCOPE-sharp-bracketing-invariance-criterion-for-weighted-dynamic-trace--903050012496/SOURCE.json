@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-sharp-bracketing-invariance-criterion-for-weighted-dynamic-trace--903050012496",
   "resultary_record_key": "SCOPE-sharp-bracketing-invariance-criterion-for-weighted-dynamic-trace--903050012496",
-  "source_commit": "b474c89f101218fa04b1976212bc1dfc7af4bfc7",
-  "source_commit_time": "2026-11-08T21:27:23Z",
+  "source_commit": "70d9670d17cfbfcb232c3e1d1f212e4f82f624db",
+  "source_commit_time": "2026-11-17T02:02:49Z",
   "source_path": "2026/11/08/sharp-bracketing-invariance-criterion-for-weighted-dynamic-trace--903050012496",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-903050012496",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

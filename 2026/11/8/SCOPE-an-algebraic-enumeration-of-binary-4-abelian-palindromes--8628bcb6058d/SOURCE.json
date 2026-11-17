@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-an-algebraic-enumeration-of-binary-4-abelian-palindromes--8628bcb6058d",
   "resultary_record_key": "SCOPE-an-algebraic-enumeration-of-binary-4-abelian-palindromes--8628bcb6058d",
-  "source_commit": "25a6b322b940c340ae154f8b5ad4136e75299518",
-  "source_commit_time": "2026-11-08T20:48:00Z",
+  "source_commit": "e37301350a28e353ce21380d2a6cecf5f901ef66",
+  "source_commit_time": "2026-11-17T02:04:00Z",
   "source_path": "2026/11/08/an-algebraic-enumeration-of-binary-4-abelian-palindromes--8628bcb6058d",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-8628bcb6058d",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

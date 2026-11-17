@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-an-exact-three-day-temporal-efx-frontier-for-two-recurring-posit--9aad96a69b42",
   "resultary_record_key": "SCOPE-an-exact-three-day-temporal-efx-frontier-for-two-recurring-posit--9aad96a69b42",
-  "source_commit": "5619e1ee719faa31d8b4950acfad093a455f6de4",
-  "source_commit_time": "2026-11-08T20:10:00Z",
+  "source_commit": "a0434902ee743ef6db22182765066fb7d5539b3d",
+  "source_commit_time": "2026-11-17T02:01:25Z",
   "source_path": "2026/11/08/an-exact-three-day-temporal-efx-frontier-for-two-recurring-posit--9aad96a69b42",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-9aad96a69b42",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

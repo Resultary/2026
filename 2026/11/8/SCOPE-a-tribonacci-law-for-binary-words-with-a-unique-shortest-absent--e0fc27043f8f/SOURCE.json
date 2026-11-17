@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-a-tribonacci-law-for-binary-words-with-a-unique-shortest-absent--e0fc27043f8f",
   "resultary_record_key": "SCOPE-a-tribonacci-law-for-binary-words-with-a-unique-shortest-absent--e0fc27043f8f",
-  "source_commit": "83fd7c19acfc0fcdfb657da94686f2ed37799b54",
-  "source_commit_time": "2026-11-08T20:43:56Z",
+  "source_commit": "5583958cd209221b9848c6f05590c1e2bacdd9f2",
+  "source_commit_time": "2026-11-17T02:03:10Z",
   "source_path": "2026/11/08/a-tribonacci-law-for-binary-words-with-a-unique-shortest-absent--e0fc27043f8f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-e0fc27043f8f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

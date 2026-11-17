@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-fourier-spectrum-and-additive-energy-of-the-minimal-parabo--dfff184ef51d",
   "resultary_record_key": "SCOPE-exact-fourier-spectrum-and-additive-energy-of-the-minimal-parabo--dfff184ef51d",
-  "source_commit": "2bba020b5391ce9e456d1d9a513dd55570ebaa63",
-  "source_commit_time": "2026-11-08T20:39:39Z",
+  "source_commit": "4eb2e9b2c9ce35850e36139606f7d87189caa0d3",
+  "source_commit_time": "2026-11-17T02:01:54Z",
   "source_path": "2026/11/08/exact-fourier-spectrum-and-additive-energy-of-the-minimal-parabo--dfff184ef51d",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-dfff184ef51d",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-row-exchange-quotients-of-linear-hexagonal-chain-independence-co--2f81dd1c51cc",
   "resultary_record_key": "SCOPE-row-exchange-quotients-of-linear-hexagonal-chain-independence-co--2f81dd1c51cc",
-  "source_commit": "a727799b604113a8aa878c70fb36b3b58cf46419",
-  "source_commit_time": "2026-11-08T17:15:00Z",
+  "source_commit": "0f7f0495d4719f8f9833e8c7eacdd9f035711322",
+  "source_commit_time": "2026-11-17T02:03:54Z",
   "source_path": "2026/11/08/row-exchange-quotients-of-linear-hexagonal-chain-independence-co--2f81dd1c51cc",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-2f81dd1c51cc",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-08T19:43:52Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

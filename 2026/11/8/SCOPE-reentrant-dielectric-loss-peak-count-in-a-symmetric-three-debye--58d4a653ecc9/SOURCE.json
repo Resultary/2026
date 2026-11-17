@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-reentrant-dielectric-loss-peak-count-in-a-symmetric-three-debye--58d4a653ecc9",
   "resultary_record_key": "SCOPE-reentrant-dielectric-loss-peak-count-in-a-symmetric-three-debye--58d4a653ecc9",
-  "source_commit": "f4e8efb179e3f1a64edbba27083782029ddbbae9",
-  "source_commit_time": "2026-11-08T21:52:47Z",
+  "source_commit": "232590c6e1ca6e89c87f71249146a267b3b63de9",
+  "source_commit_time": "2026-11-17T02:04:18Z",
   "source_path": "2026/11/08/reentrant-dielectric-loss-peak-count-in-a-symmetric-three-debye--58d4a653ecc9",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-58d4a653ecc9",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

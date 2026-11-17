@@ -1,2 +1,0 @@
-# Numerical corroboration only; the written proof is independent of this package.
-numpy>=1.24

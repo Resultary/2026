@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-strictly-convex-spectral-filters-and-exact-control-resonances-on--6b66241f5d68",
   "resultary_record_key": "SCOPE-strictly-convex-spectral-filters-and-exact-control-resonances-on--6b66241f5d68",
-  "source_commit": "9708d8521b9f6089d7661cc3d886d86168991270",
-  "source_commit_time": "2026-11-08T22:32:05Z",
+  "source_commit": "f99ac7cfbd0ce1673afe45fb8a7fdf75546789ff",
+  "source_commit_time": "2026-11-17T02:00:23Z",
   "source_path": "2026/11/08/strictly-convex-spectral-filters-and-exact-control-resonances-on--6b66241f5d68",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-6b66241f5d68",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

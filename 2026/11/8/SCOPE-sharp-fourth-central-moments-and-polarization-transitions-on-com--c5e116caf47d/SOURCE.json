@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-sharp-fourth-central-moments-and-polarization-transitions-on-com--c5e116caf47d",
   "resultary_record_key": "SCOPE-sharp-fourth-central-moments-and-polarization-transitions-on-com--c5e116caf47d",
-  "source_commit": "8344874534f247c38e205cb839a40f8814b368eb",
-  "source_commit_time": "2026-11-08T23:26:18Z",
+  "source_commit": "cbc82cd614acc5c780c0768b05c773da67eeb04b",
+  "source_commit_time": "2026-11-17T02:00:18Z",
   "source_path": "2026/11/08/sharp-fourth-central-moments-and-polarization-transitions-on-com--c5e116caf47d",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-c5e116caf47d",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

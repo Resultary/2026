@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-normalization-defects-and-conductors-of-smooth-normalizati--d3c7baf3e513",
   "resultary_record_key": "SCOPE-exact-normalization-defects-and-conductors-of-smooth-normalizati--d3c7baf3e513",
-  "source_commit": "3716a9f3b9016a73f3c56565989e3ae94b221de9",
-  "source_commit_time": "2026-11-08T19:54:05Z",
+  "source_commit": "d1fc91a6349ae47dbcfdf0b7704c78f147a91be7",
+  "source_commit_time": "2026-11-17T02:04:09Z",
   "source_path": "2026/11/08/exact-normalization-defects-and-conductors-of-smooth-normalizati--d3c7baf3e513",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-d3c7baf3e513",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

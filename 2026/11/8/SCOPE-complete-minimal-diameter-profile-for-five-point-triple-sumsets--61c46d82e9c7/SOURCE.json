@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-complete-minimal-diameter-profile-for-five-point-triple-sumsets--61c46d82e9c7",
   "resultary_record_key": "SCOPE-complete-minimal-diameter-profile-for-five-point-triple-sumsets--61c46d82e9c7",
-  "source_commit": "78e6c61195bf97e6cfb240609bcd717d35d75a30",
-  "source_commit_time": "2026-11-08T22:28:18Z",
+  "source_commit": "47c4f5b207610fa135246e755e3112fc68e83ae7",
+  "source_commit_time": "2026-11-17T02:01:49Z",
   "source_path": "2026/11/08/complete-minimal-diameter-profile-for-five-point-triple-sumsets--61c46d82e9c7",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-61c46d82e9c7",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

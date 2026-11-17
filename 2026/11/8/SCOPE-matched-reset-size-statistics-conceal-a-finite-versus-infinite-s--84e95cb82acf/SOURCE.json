@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-matched-reset-size-statistics-conceal-a-finite-versus-infinite-s--84e95cb82acf",
   "resultary_record_key": "SCOPE-matched-reset-size-statistics-conceal-a-finite-versus-infinite-s--84e95cb82acf",
-  "source_commit": "ed374c7bfaceeaaec8a494d3adcd02f9ef0132be",
-  "source_commit_time": "2026-11-08T22:12:31Z",
+  "source_commit": "10db029b98150d5e47e72b67d66cc2377d616a01",
+  "source_commit_time": "2026-11-17T01:58:44Z",
   "source_path": "2026/11/08/matched-reset-size-statistics-conceal-a-finite-versus-infinite-s--84e95cb82acf",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-84e95cb82acf",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-a-two-hub-parity-onset-and-exact-period-two-majority-census-on-j--b91425eb9231",
   "resultary_record_key": "SCOPE-a-two-hub-parity-onset-and-exact-period-two-majority-census-on-j--b91425eb9231",
-  "source_commit": "1c15542ae4c25f0ccd5a5106ec444c495bdf2222",
-  "source_commit_time": "2026-11-08T21:04:27Z",
+  "source_commit": "bae92a4e0d9340df49c649d7ca87fe571cac0246",
+  "source_commit_time": "2026-11-17T02:04:00Z",
   "source_path": "2026/11/08/a-two-hub-parity-onset-and-exact-period-two-majority-census-on-j--b91425eb9231",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-b91425eb9231",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

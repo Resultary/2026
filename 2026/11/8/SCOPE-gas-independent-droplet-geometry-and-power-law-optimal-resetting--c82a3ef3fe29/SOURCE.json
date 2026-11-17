@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-gas-independent-droplet-geometry-and-power-law-optimal-resetting--c82a3ef3fe29",
   "resultary_record_key": "SCOPE-gas-independent-droplet-geometry-and-power-law-optimal-resetting--c82a3ef3fe29",
-  "source_commit": "dfa2ec12b8a2b3fb7495c307bd09ca4295f5c80c",
-  "source_commit_time": "2026-11-08T22:09:52Z",
+  "source_commit": "a9e3beb2db2f5f7fbef152ef818f098defbe9f63",
+  "source_commit_time": "2026-11-17T02:04:13Z",
   "source_path": "2026/11/08/gas-independent-droplet-geometry-and-power-law-optimal-resetting--c82a3ef3fe29",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-c82a3ef3fe29",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

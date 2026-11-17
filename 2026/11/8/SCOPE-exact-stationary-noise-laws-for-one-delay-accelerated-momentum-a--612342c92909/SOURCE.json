@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-stationary-noise-laws-for-one-delay-accelerated-momentum-a--612342c92909",
   "resultary_record_key": "SCOPE-exact-stationary-noise-laws-for-one-delay-accelerated-momentum-a--612342c92909",
-  "source_commit": "c94320475c3b992018dae83fa8424bc40bfeb479",
-  "source_commit_time": "2026-11-08T22:56:55Z",
+  "source_commit": "1ea75c69fb2463f7fb661df8173a94f8011a5498",
+  "source_commit_time": "2026-11-17T02:01:33Z",
   "source_path": "2026/11/08/exact-stationary-noise-laws-for-one-delay-accelerated-momentum-a--612342c92909",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-612342c92909",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-border-parikh-lexicographic-ordering-of-first-hit-letter-proport--8ab1bd835fc2",
   "resultary_record_key": "SCOPE-border-parikh-lexicographic-ordering-of-first-hit-letter-proport--8ab1bd835fc2",
-  "source_commit": "3ec19fe1252f4e6ad185aac5cda87da6890f8b4e",
-  "source_commit_time": "2026-11-08T20:57:44Z",
+  "source_commit": "3bde0acb5e4e4f9d3a1e51ac838b150cb50c1bd8",
+  "source_commit_time": "2026-11-17T01:58:27Z",
   "source_path": "2026/11/08/border-parikh-lexicographic-ordering-of-first-hit-letter-proport--8ab1bd835fc2",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-8ab1bd835fc2",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

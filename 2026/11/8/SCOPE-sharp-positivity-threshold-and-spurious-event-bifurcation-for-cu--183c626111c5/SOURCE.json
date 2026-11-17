@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-sharp-positivity-threshold-and-spurious-event-bifurcation-for-cu--183c626111c5",
   "resultary_record_key": "SCOPE-sharp-positivity-threshold-and-spurious-event-bifurcation-for-cu--183c626111c5",
-  "source_commit": "66b2921de9fbf7d6d408014142182c60f14b15f4",
-  "source_commit_time": "2026-11-08T22:42:12Z",
+  "source_commit": "c320edf1732b77d648a33856436f30f4f089cfb6",
+  "source_commit_time": "2026-11-17T01:58:52Z",
   "source_path": "2026/11/08/sharp-positivity-threshold-and-spurious-event-bifurcation-for-cu--183c626111c5",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-183c626111c5",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

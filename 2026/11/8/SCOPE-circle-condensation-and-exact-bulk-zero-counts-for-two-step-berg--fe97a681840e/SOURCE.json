@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-circle-condensation-and-exact-bulk-zero-counts-for-two-step-berg--fe97a681840e",
   "resultary_record_key": "SCOPE-circle-condensation-and-exact-bulk-zero-counts-for-two-step-berg--fe97a681840e",
-  "source_commit": "17f617038478ca5ea4438a4cecc0e37ce2df924a",
-  "source_commit_time": "2026-11-08T20:36:58Z",
+  "source_commit": "9fdf82fd6aa79e9065b0a3e207a8e4707577fe5a",
+  "source_commit_time": "2026-11-17T01:59:55Z",
   "source_path": "2026/11/08/circle-condensation-and-exact-bulk-zero-counts-for-two-step-berg--fe97a681840e",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-fe97a681840e",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

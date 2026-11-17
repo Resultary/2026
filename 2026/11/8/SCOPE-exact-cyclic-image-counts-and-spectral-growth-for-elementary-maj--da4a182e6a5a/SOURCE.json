@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-cyclic-image-counts-and-spectral-growth-for-elementary-maj--da4a182e6a5a",
   "resultary_record_key": "SCOPE-exact-cyclic-image-counts-and-spectral-growth-for-elementary-maj--da4a182e6a5a",
-  "source_commit": "bc1a3561daad1a05f628f170a69929cc6c62f489",
-  "source_commit_time": "2026-11-08T20:46:16Z",
+  "source_commit": "b7009533d5ee47c4f10fe8976bd3a9ede3c1e659",
+  "source_commit_time": "2026-11-17T02:00:00Z",
   "source_path": "2026/11/08/exact-cyclic-image-counts-and-spectral-growth-for-elementary-maj--da4a182e6a5a",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-da4a182e6a5a",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

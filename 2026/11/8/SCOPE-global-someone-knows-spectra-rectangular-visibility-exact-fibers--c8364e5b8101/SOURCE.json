@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-global-someone-knows-spectra-rectangular-visibility-exact-fibers--c8364e5b8101",
   "resultary_record_key": "SCOPE-global-someone-knows-spectra-rectangular-visibility-exact-fibers--c8364e5b8101",
-  "source_commit": "01ba0902b6557586292cfc657957a7af2270f7a6",
-  "source_commit_time": "2026-11-08T21:27:30Z",
+  "source_commit": "951976237981b8f2c2451ad87f9e940ee2331da2",
+  "source_commit_time": "2026-11-17T02:00:55Z",
   "source_path": "2026/11/08/global-someone-knows-spectra-rectangular-visibility-exact-fibers--c8364e5b8101",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-c8364e5b8101",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

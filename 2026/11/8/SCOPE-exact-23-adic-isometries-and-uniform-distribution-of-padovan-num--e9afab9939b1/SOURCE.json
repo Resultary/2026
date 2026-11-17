@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-23-adic-isometries-and-uniform-distribution-of-padovan-num--e9afab9939b1",
   "resultary_record_key": "SCOPE-exact-23-adic-isometries-and-uniform-distribution-of-padovan-num--e9afab9939b1",
-  "source_commit": "4eabad2e91c8ef8b326849d3dba9fdce5ff98c5b",
-  "source_commit_time": "2026-11-08T22:14:02Z",
+  "source_commit": "70809d846adb81cc5b33bb8da175aace81eaaad1",
+  "source_commit_time": "2026-11-17T02:03:50Z",
   "source_path": "2026/11/08/exact-23-adic-isometries-and-uniform-distribution-of-padovan-num--e9afab9939b1",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-e9afab9939b1",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

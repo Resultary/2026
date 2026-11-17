@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-a-hypergeometric-singular-spectrum-limit-for-second-order-point--16c3686ea641",
   "resultary_record_key": "SCOPE-a-hypergeometric-singular-spectrum-limit-for-second-order-point--16c3686ea641",
-  "source_commit": "7c70a40c250b2879c59af308fb9d36c83a345331",
-  "source_commit_time": "2026-11-08T17:28:06Z",
+  "source_commit": "d595b9777a5ddb94a99306e9dc231b9c5220c58a",
+  "source_commit_time": "2026-11-17T02:01:16Z",
   "source_path": "2026/11/08/a-hypergeometric-singular-spectrum-limit-for-second-order-point--16c3686ea641",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-16c3686ea641",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-08T19:43:52Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

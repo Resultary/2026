@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-a-sharp-tunability-threshold-for-variable-positive-extrapolation--04c30e0234f8",
   "resultary_record_key": "SCOPE-a-sharp-tunability-threshold-for-variable-positive-extrapolation--04c30e0234f8",
-  "source_commit": "a6cf9b0bce7e0456ba575563394da38125c692f2",
-  "source_commit_time": "2026-11-08T22:57:11Z",
+  "source_commit": "e13027911baf74c26128457ad3a8d7c4bfd39c93",
+  "source_commit_time": "2026-11-17T02:00:37Z",
   "source_path": "2026/11/08/a-sharp-tunability-threshold-for-variable-positive-extrapolation--04c30e0234f8",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-04c30e0234f8",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

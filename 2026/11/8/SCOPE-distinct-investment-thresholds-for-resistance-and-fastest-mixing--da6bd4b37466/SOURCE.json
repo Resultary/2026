@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-distinct-investment-thresholds-for-resistance-and-fastest-mixing--da6bd4b37466",
   "resultary_record_key": "SCOPE-distinct-investment-thresholds-for-resistance-and-fastest-mixing--da6bd4b37466",
-  "source_commit": "b9811e6e24add36051a2c636360e954a1ee1677a",
-  "source_commit_time": "2026-11-08T22:38:02Z",
+  "source_commit": "41141d705c6518e48c6539061ad44311ea4b28d2",
+  "source_commit_time": "2026-11-17T02:02:33Z",
   "source_path": "2026/11/08/distinct-investment-thresholds-for-resistance-and-fastest-mixing--da6bd4b37466",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-da6bd4b37466",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

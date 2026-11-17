@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-phase-aliasing-bounds-for-sampled-analogue-neighbor-satura--207f5a130d9b",
   "resultary_record_key": "SCOPE-exact-phase-aliasing-bounds-for-sampled-analogue-neighbor-satura--207f5a130d9b",
-  "source_commit": "75bab62ae0772c5cba5ca874b9418980201fd65c",
-  "source_commit_time": "2026-11-08T21:12:38Z",
+  "source_commit": "8dffaeedd2b9fd6d41eb8c916902a6e15b2d619a",
+  "source_commit_time": "2026-11-17T02:01:32Z",
   "source_path": "2026/11/08/exact-phase-aliasing-bounds-for-sampled-analogue-neighbor-satura--207f5a130d9b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-207f5a130d9b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

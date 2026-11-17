@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-universal-half-level-shape-transition-for-convolution-areas-of-c--337e761b8e03",
   "resultary_record_key": "SCOPE-universal-half-level-shape-transition-for-convolution-areas-of-c--337e761b8e03",
-  "source_commit": "8a1b8060485ad0bac24a8241b8c84419ad4f7f9c",
-  "source_commit_time": "2026-11-08T21:42:30Z",
+  "source_commit": "3ae43576ad061adc0dc933277d394352a90629a4",
+  "source_commit_time": "2026-11-17T02:04:29Z",
   "source_path": "2026/11/08/universal-half-level-shape-transition-for-convolution-areas-of-c--337e761b8e03",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-337e761b8e03",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

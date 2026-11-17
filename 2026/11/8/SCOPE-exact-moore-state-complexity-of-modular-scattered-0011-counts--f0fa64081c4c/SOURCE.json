@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-moore-state-complexity-of-modular-scattered-0011-counts--f0fa64081c4c",
   "resultary_record_key": "SCOPE-exact-moore-state-complexity-of-modular-scattered-0011-counts--f0fa64081c4c",
-  "source_commit": "a176808b135f2f8c85dffe237d203305911aaa19",
-  "source_commit_time": "2026-11-08T20:57:10Z",
+  "source_commit": "6428ad5df7d456b200d2266fd2cf9792501720c4",
+  "source_commit_time": "2026-11-17T02:01:32Z",
   "source_path": "2026/11/08/exact-moore-state-complexity-of-modular-scattered-0011-counts--f0fa64081c4c",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-f0fa64081c4c",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

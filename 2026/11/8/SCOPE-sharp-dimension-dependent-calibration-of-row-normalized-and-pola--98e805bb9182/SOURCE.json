@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-sharp-dimension-dependent-calibration-of-row-normalized-and-pola--98e805bb9182",
   "resultary_record_key": "SCOPE-sharp-dimension-dependent-calibration-of-row-normalized-and-pola--98e805bb9182",
-  "source_commit": "43864d21e5483f4392fc356f38262d1c80e6fa8a",
-  "source_commit_time": "2026-11-08T22:49:05Z",
+  "source_commit": "2b50d6b0aef5f50a55f8dbfeaf9b5ece05df2f99",
+  "source_commit_time": "2026-11-17T01:58:49Z",
   "source_path": "2026/11/08/sharp-dimension-dependent-calibration-of-row-normalized-and-pola--98e805bb9182",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-98e805bb9182",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

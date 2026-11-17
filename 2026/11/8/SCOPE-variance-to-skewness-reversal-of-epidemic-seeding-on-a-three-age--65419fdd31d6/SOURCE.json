@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-variance-to-skewness-reversal-of-epidemic-seeding-on-a-three-age--65419fdd31d6",
   "resultary_record_key": "SCOPE-variance-to-skewness-reversal-of-epidemic-seeding-on-a-three-age--65419fdd31d6",
-  "source_commit": "b349319ae3c81385d5041445a34795dc6e518b1d",
-  "source_commit_time": "2026-11-08T20:06:16Z",
+  "source_commit": "2e56bc20e2874f5f863b4e8e3530bb492ac32b2a",
+  "source_commit_time": "2026-11-17T01:59:39Z",
   "source_path": "2026/11/08/variance-to-skewness-reversal-of-epidemic-seeding-on-a-three-age--65419fdd31d6",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-65419fdd31d6",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

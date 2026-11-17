@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-total-variation-law-for-normalized-two-block-odd-partition--80dfafc7436c",
   "resultary_record_key": "SCOPE-exact-total-variation-law-for-normalized-two-block-odd-partition--80dfafc7436c",
-  "source_commit": "afceed846ae09824dfcb4712bc67620a65deba0e",
-  "source_commit_time": "2026-11-08T22:24:35Z",
+  "source_commit": "ad65212de029ea17b6f70b229226acfb4dc17c5c",
+  "source_commit_time": "2026-11-17T02:02:41Z",
   "source_path": "2026/11/08/exact-total-variation-law-for-normalized-two-block-odd-partition--80dfafc7436c",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-80dfafc7436c",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

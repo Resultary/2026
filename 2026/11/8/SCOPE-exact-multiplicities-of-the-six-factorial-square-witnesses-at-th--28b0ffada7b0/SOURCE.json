@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-multiplicities-of-the-six-factorial-square-witnesses-at-th--28b0ffada7b0",
   "resultary_record_key": "SCOPE-exact-multiplicities-of-the-six-factorial-square-witnesses-at-th--28b0ffada7b0",
-  "source_commit": "eb2c3462b2819adb15dc1ffda7a0e7ea334979a6",
-  "source_commit_time": "2026-11-08T22:26:06Z",
+  "source_commit": "d6380298b552007a5c2e7980e23a425156c219b6",
+  "source_commit_time": "2026-11-17T02:01:55Z",
   "source_path": "2026/11/08/exact-multiplicities-of-the-six-factorial-square-witnesses-at-th--28b0ffada7b0",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-28b0ffada7b0",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-maximizers-of-order-preserving-two-state-probabilistic-aut--9d9f39c84df0",
   "resultary_record_key": "SCOPE-exact-maximizers-of-order-preserving-two-state-probabilistic-aut--9d9f39c84df0",
-  "source_commit": "625ae286ec3d8469e70a2e3a83d5ab9628762a26",
-  "source_commit_time": "2026-11-08T20:57:51Z",
+  "source_commit": "120e5f87096633842d9219144115f8d4d980200f",
+  "source_commit_time": "2026-11-17T02:02:38Z",
   "source_path": "2026/11/08/exact-maximizers-of-order-preserving-two-state-probabilistic-aut--9d9f39c84df0",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-9d9f39c84df0",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

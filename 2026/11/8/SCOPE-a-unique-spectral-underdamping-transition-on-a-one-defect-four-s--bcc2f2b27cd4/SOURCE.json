@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-a-unique-spectral-underdamping-transition-on-a-one-defect-four-s--bcc2f2b27cd4",
   "resultary_record_key": "SCOPE-a-unique-spectral-underdamping-transition-on-a-one-defect-four-s--bcc2f2b27cd4",
-  "source_commit": "864a958a88cda25e83bfd1a9a911e5a50c8b49ac",
-  "source_commit_time": "2026-11-08T21:58:33Z",
+  "source_commit": "ba11f7e0f5ee5e4d8b242f71b89fd817a822bba6",
+  "source_commit_time": "2026-11-17T02:03:11Z",
   "source_path": "2026/11/08/a-unique-spectral-underdamping-transition-on-a-one-defect-four-s--bcc2f2b27cd4",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-bcc2f2b27cd4",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

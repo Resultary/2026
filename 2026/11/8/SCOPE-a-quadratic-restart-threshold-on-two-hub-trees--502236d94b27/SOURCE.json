@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-a-quadratic-restart-threshold-on-two-hub-trees--502236d94b27",
   "resultary_record_key": "SCOPE-a-quadratic-restart-threshold-on-two-hub-trees--502236d94b27",
-  "source_commit": "f27ef2fa97079fb39c7ffbc2853fda2920119a72",
-  "source_commit_time": "2026-11-08T23:09:39Z",
+  "source_commit": "d3c8f3e28788634b94a66e8b9b90799db934331b",
+  "source_commit_time": "2026-11-17T02:03:08Z",
   "source_path": "2026/11/08/a-quadratic-restart-threshold-on-two-hub-trees--502236d94b27",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-502236d94b27",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

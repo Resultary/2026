@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-one-time-trace-distance-reversal-and-a-double-slow-mode-tail-in--852fc356cd85",
   "resultary_record_key": "SCOPE-one-time-trace-distance-reversal-and-a-double-slow-mode-tail-in--852fc356cd85",
-  "source_commit": "ab2633e429c6b2dd0ee3abc437279acfc2d0cf11",
-  "source_commit_time": "2026-11-08T22:06:41Z",
+  "source_commit": "2b4e579e02ba78fd2c77b564d64e087f599a7d18",
+  "source_commit_time": "2026-11-17T02:03:25Z",
   "source_path": "2026/11/08/one-time-trace-distance-reversal-and-a-double-slow-mode-tail-in--852fc356cd85",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-852fc356cd85",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

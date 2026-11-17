@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-excitation-clocks-and-tetrahedral-symmetry-on-the-truncate--6c938bef9545",
   "resultary_record_key": "SCOPE-exact-excitation-clocks-and-tetrahedral-symmetry-on-the-truncate--6c938bef9545",
-  "source_commit": "cf1bbbb87b6c167db135e043c47aa80cb2c84401",
-  "source_commit_time": "2026-11-08T21:01:34Z",
+  "source_commit": "85ea0fc6ce7bdc19345144ba83c9dc146bec5aa5",
+  "source_commit_time": "2026-11-17T01:59:08Z",
   "source_path": "2026/11/08/exact-excitation-clocks-and-tetrahedral-symmetry-on-the-truncate--6c938bef9545",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-6c938bef9545",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

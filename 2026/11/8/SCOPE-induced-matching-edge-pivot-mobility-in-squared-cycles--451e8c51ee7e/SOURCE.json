@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-induced-matching-edge-pivot-mobility-in-squared-cycles--451e8c51ee7e",
   "resultary_record_key": "SCOPE-induced-matching-edge-pivot-mobility-in-squared-cycles--451e8c51ee7e",
-  "source_commit": "9fd81a59103181a1a72b3b61bdc09f24d607ef4c",
-  "source_commit_time": "2026-11-08T20:18:24Z",
+  "source_commit": "89ae41b3f07cfe9d420a4d143454d710d7609633",
+  "source_commit_time": "2026-11-17T02:03:24Z",
   "source_path": "2026/11/08/induced-matching-edge-pivot-mobility-in-squared-cycles--451e8c51ee7e",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-451e8c51ee7e",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

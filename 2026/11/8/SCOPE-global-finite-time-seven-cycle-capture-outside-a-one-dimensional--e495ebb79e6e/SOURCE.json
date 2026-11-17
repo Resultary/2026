@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-global-finite-time-seven-cycle-capture-outside-a-one-dimensional--e495ebb79e6e",
   "resultary_record_key": "SCOPE-global-finite-time-seven-cycle-capture-outside-a-one-dimensional--e495ebb79e6e",
-  "source_commit": "ee4f158e22cd91aaea7c25a85a8e0ec60950d26b",
-  "source_commit_time": "2026-11-08T21:07:53Z",
+  "source_commit": "7eaecd9e6f5f87a174eec5ff8c728fcd42e0e88e",
+  "source_commit_time": "2026-11-17T01:59:16Z",
   "source_path": "2026/11/08/global-finite-time-seven-cycle-capture-outside-a-one-dimensional--e495ebb79e6e",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-e495ebb79e6e",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

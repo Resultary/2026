@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-infinite-temperature-fluctuations-in-the-n-queens-lattice--2a99e5fe256a",
   "resultary_record_key": "SCOPE-exact-infinite-temperature-fluctuations-in-the-n-queens-lattice--2a99e5fe256a",
-  "source_commit": "2977a6557b87040aa5d07b2a78adaf31f114b318",
-  "source_commit_time": "2026-11-08T22:09:47Z",
+  "source_commit": "a98a98efd56dcb6c8dd67dc2a55f7be746510dd6",
+  "source_commit_time": "2026-11-17T02:00:02Z",
   "source_path": "2026/11/08/exact-infinite-temperature-fluctuations-in-the-n-queens-lattice--2a99e5fe256a",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-2a99e5fe256a",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

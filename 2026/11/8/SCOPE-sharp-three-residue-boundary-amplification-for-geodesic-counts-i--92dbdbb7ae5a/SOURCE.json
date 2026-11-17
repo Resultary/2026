@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-sharp-three-residue-boundary-amplification-for-geodesic-counts-i--92dbdbb7ae5a",
   "resultary_record_key": "SCOPE-sharp-three-residue-boundary-amplification-for-geodesic-counts-i--92dbdbb7ae5a",
-  "source_commit": "743876988b3022859c673e92e824b5299808a8d5",
-  "source_commit_time": "2026-11-08T20:27:28Z",
+  "source_commit": "9cd395041eabb1fb88794357add26459b17a6eb4",
+  "source_commit_time": "2026-11-17T02:02:10Z",
   "source_path": "2026/11/08/sharp-three-residue-boundary-amplification-for-geodesic-counts-i--92dbdbb7ae5a",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-92dbdbb7ae5a",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

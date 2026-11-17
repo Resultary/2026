@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-all-order-first-passage-moment-thresholds-and-orientation-memory--b5b06a8ce81b",
   "resultary_record_key": "SCOPE-all-order-first-passage-moment-thresholds-and-orientation-memory--b5b06a8ce81b",
-  "source_commit": "c8e68d45ec48874d36a157c28a7bb3b11c9da7e2",
-  "source_commit_time": "2026-11-08T21:58:38Z",
+  "source_commit": "1254376e580c35bc2e346698d2b46ae229fcd8c1",
+  "source_commit_time": "2026-11-17T02:01:24Z",
   "source_path": "2026/11/08/all-order-first-passage-moment-thresholds-and-orientation-memory--b5b06a8ce81b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-b5b06a8ce81b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

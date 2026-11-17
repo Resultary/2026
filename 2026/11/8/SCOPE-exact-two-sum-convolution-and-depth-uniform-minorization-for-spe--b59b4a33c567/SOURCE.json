@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-two-sum-convolution-and-depth-uniform-minorization-for-spe--b59b4a33c567",
   "resultary_record_key": "SCOPE-exact-two-sum-convolution-and-depth-uniform-minorization-for-spe--b59b4a33c567",
-  "source_commit": "91d38ef41bc304f579ba2b77ce9601155e6cb7ee",
-  "source_commit_time": "2026-11-08T20:32:24Z",
+  "source_commit": "032633fb2a215bbc9ebf5b2bf59ab75ccf4c112e",
+  "source_commit_time": "2026-11-17T02:00:08Z",
   "source_path": "2026/11/08/exact-two-sum-convolution-and-depth-uniform-minorization-for-spe--b59b4a33c567",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-b59b4a33c567",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

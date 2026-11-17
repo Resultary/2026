@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-r-1-tail-for-haar-rank-one-sylvester-projections--2cf8444fe5f7",
   "resultary_record_key": "SCOPE-exact-r-1-tail-for-haar-rank-one-sylvester-projections--2cf8444fe5f7",
-  "source_commit": "fa02d976ccea54881010d16b5d2c28a6eb7ff002",
-  "source_commit_time": "2026-11-08T22:50:24Z",
+  "source_commit": "995b9944182208a4940c55c50e82b90f5c1876d8",
+  "source_commit_time": "2026-11-17T02:01:56Z",
   "source_path": "2026/11/08/exact-r-1-tail-for-haar-rank-one-sylvester-projections--2cf8444fe5f7",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-2cf8444fe5f7",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

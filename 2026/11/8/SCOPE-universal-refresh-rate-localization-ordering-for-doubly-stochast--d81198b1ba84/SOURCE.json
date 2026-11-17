@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-universal-refresh-rate-localization-ordering-for-doubly-stochast--d81198b1ba84",
   "resultary_record_key": "SCOPE-universal-refresh-rate-localization-ordering-for-doubly-stochast--d81198b1ba84",
-  "source_commit": "5b489cedf88526051a084a38a037d3f7b52e8b55",
-  "source_commit_time": "2026-11-08T22:05:34Z",
+  "source_commit": "09736816281faeb835afe72544980fb603168cfe",
+  "source_commit_time": "2026-11-17T02:02:17Z",
   "source_path": "2026/11/08/universal-refresh-rate-localization-ordering-for-doubly-stochast--d81198b1ba84",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-d81198b1ba84",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

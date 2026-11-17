@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-rank-stratified-homomorphisms-into-the-three-generator-exterior--4c08460eb209",
   "resultary_record_key": "SCOPE-rank-stratified-homomorphisms-into-the-three-generator-exterior--4c08460eb209",
-  "source_commit": "eb0bcad4e42c9d823db33d4fc120169612f68c09",
-  "source_commit_time": "2026-11-08T19:35:06Z",
+  "source_commit": "aa23b313126bab5ad18c8d8444540321970153ac",
+  "source_commit_time": "2026-11-17T01:59:22Z",
   "source_path": "2026/11/08/rank-stratified-homomorphisms-into-the-three-generator-exterior--4c08460eb209",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-4c08460eb209",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

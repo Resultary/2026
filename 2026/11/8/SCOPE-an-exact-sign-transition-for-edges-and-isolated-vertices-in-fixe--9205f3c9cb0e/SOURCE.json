@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-an-exact-sign-transition-for-edges-and-isolated-vertices-in-fixe--9205f3c9cb0e",
   "resultary_record_key": "SCOPE-an-exact-sign-transition-for-edges-and-isolated-vertices-in-fixe--9205f3c9cb0e",
-  "source_commit": "295924b02d21ad8729865570d8d456422a484b72",
-  "source_commit_time": "2026-11-08T22:58:39Z",
+  "source_commit": "06fe3a94293bc412f6e8213447902f54abb1ed83",
+  "source_commit_time": "2026-11-17T02:00:41Z",
   "source_path": "2026/11/08/an-exact-sign-transition-for-edges-and-isolated-vertices-in-fixe--9205f3c9cb0e",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-9205f3c9cb0e",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

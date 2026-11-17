@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-a-factor-four-rare-winding-singularity-for-geodesically-reset-br--a3f59746a433",
   "resultary_record_key": "SCOPE-a-factor-four-rare-winding-singularity-for-geodesically-reset-br--a3f59746a433",
-  "source_commit": "45748004ab6d65d44eff237844fbb07861c06689",
-  "source_commit_time": "2026-11-08T22:01:50Z",
+  "source_commit": "b04aa6e23b581b45212e262f0b5e9d794ac5795f",
+  "source_commit_time": "2026-11-17T02:03:07Z",
   "source_path": "2026/11/08/a-factor-four-rare-winding-singularity-for-geodesically-reset-br--a3f59746a433",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-a3f59746a433",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

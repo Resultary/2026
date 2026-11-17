@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-the-exact-antipower-orbit-profile-of-distinct-run-periodic-words--bd6f1f66d162",
   "resultary_record_key": "SCOPE-the-exact-antipower-orbit-profile-of-distinct-run-periodic-words--bd6f1f66d162",
-  "source_commit": "211284022369126224bdf55f17c3cd5edcc63c1b",
-  "source_commit_time": "2026-11-08T20:54:07Z",
+  "source_commit": "0be94e8580335a3f4a5f49426371e462a092e5f5",
+  "source_commit_time": "2026-11-17T02:02:12Z",
   "source_path": "2026/11/08/the-exact-antipower-orbit-profile-of-distinct-run-periodic-words--bd6f1f66d162",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-bd6f1f66d162",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

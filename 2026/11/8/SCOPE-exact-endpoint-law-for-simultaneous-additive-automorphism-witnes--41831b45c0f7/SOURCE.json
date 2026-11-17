@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-endpoint-law-for-simultaneous-additive-automorphism-witnes--41831b45c0f7",
   "resultary_record_key": "SCOPE-exact-endpoint-law-for-simultaneous-additive-automorphism-witnes--41831b45c0f7",
-  "source_commit": "f0209a30c502736910d6d474bb63040fe0db072c",
-  "source_commit_time": "2026-11-08T19:43:03Z",
+  "source_commit": "66cf70775afe44b1b5122fc3f2ca2c314a8ae147",
+  "source_commit_time": "2026-11-17T02:01:31Z",
   "source_path": "2026/11/08/exact-endpoint-law-for-simultaneous-additive-automorphism-witnes--41831b45c0f7",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-41831b45c0f7",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-a-one-rate-consensus-clock-with-at-most-two-holdouts--5dcfac853da5",
   "resultary_record_key": "SCOPE-a-one-rate-consensus-clock-with-at-most-two-holdouts--5dcfac853da5",
-  "source_commit": "8e55ddb27c08f8f8760fa1a702c621108e1e8736",
-  "source_commit_time": "2026-11-08T20:02:20Z",
+  "source_commit": "27d27cddc3b37a916afd79f4f0246ed60fdb974c",
+  "source_commit_time": "2026-11-17T02:01:42Z",
   "source_path": "2026/11/08/a-one-rate-consensus-clock-with-at-most-two-holdouts--5dcfac853da5",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-5dcfac853da5",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

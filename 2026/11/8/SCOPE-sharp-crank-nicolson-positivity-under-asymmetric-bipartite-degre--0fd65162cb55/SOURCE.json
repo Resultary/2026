@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-sharp-crank-nicolson-positivity-under-asymmetric-bipartite-degre--0fd65162cb55",
   "resultary_record_key": "SCOPE-sharp-crank-nicolson-positivity-under-asymmetric-bipartite-degre--0fd65162cb55",
-  "source_commit": "6155791950db823433692c30a81d7edb67bfa5af",
-  "source_commit_time": "2026-11-08T22:30:06Z",
+  "source_commit": "96b6b47b573fd48767a1cc4bf3e099f8aa337c1b",
+  "source_commit_time": "2026-11-17T02:02:06Z",
   "source_path": "2026/11/08/sharp-crank-nicolson-positivity-under-asymmetric-bipartite-degre--0fd65162cb55",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-0fd65162cb55",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

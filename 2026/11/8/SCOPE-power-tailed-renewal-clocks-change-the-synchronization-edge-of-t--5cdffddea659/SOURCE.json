@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-power-tailed-renewal-clocks-change-the-synchronization-edge-of-t--5cdffddea659",
   "resultary_record_key": "SCOPE-power-tailed-renewal-clocks-change-the-synchronization-edge-of-t--5cdffddea659",
-  "source_commit": "4847784aa21ebcf329841afc74dda78ee7ea875c",
-  "source_commit_time": "2026-11-08T22:00:18Z",
+  "source_commit": "55e6245f9fd75c64c41b5c052e1c082f9a603344",
+  "source_commit_time": "2026-11-17T01:59:20Z",
   "source_path": "2026/11/08/power-tailed-renewal-clocks-change-the-synchronization-edge-of-t--5cdffddea659",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-5cdffddea659",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

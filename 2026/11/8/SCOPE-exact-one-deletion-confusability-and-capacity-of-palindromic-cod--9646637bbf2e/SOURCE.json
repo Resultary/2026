@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-one-deletion-confusability-and-capacity-of-palindromic-cod--9646637bbf2e",
   "resultary_record_key": "SCOPE-exact-one-deletion-confusability-and-capacity-of-palindromic-cod--9646637bbf2e",
-  "source_commit": "91973b6d534b2e030f18cd6a39ddb3a7d3ca037c",
-  "source_commit_time": "2026-11-08T20:47:58Z",
+  "source_commit": "39445b212b8ffdffcff4ae08ec97eda58a043c20",
+  "source_commit_time": "2026-11-17T01:58:36Z",
   "source_path": "2026/11/08/exact-one-deletion-confusability-and-capacity-of-palindromic-cod--9646637bbf2e",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-9646637bbf2e",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

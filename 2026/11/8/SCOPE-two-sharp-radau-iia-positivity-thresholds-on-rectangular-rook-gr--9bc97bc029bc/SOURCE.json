@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-two-sharp-radau-iia-positivity-thresholds-on-rectangular-rook-gr--9bc97bc029bc",
   "resultary_record_key": "SCOPE-two-sharp-radau-iia-positivity-thresholds-on-rectangular-rook-gr--9bc97bc029bc",
-  "source_commit": "422017b696661384d36dc20b3cb2cbd729290b7e",
-  "source_commit_time": "2026-11-08T22:34:42Z",
+  "source_commit": "4cab8a28d14efb57ef18023eced2ad1247ac8db3",
+  "source_commit_time": "2026-11-17T02:01:11Z",
   "source_path": "2026/11/08/two-sharp-radau-iia-positivity-thresholds-on-rectangular-rook-gr--9bc97bc029bc",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-9bc97bc029bc",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

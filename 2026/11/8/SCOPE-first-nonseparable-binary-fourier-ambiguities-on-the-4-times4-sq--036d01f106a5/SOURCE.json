@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-first-nonseparable-binary-fourier-ambiguities-on-the-4-times4-sq--036d01f106a5",
   "resultary_record_key": "SCOPE-first-nonseparable-binary-fourier-ambiguities-on-the-4-times4-sq--036d01f106a5",
-  "source_commit": "978aaaa5b6908ddb6cfe0328e5f1cb7a79f3c931",
-  "source_commit_time": "2026-11-08T20:40:40Z",
+  "source_commit": "5a3bb67884087523ddcedb6eeac5fb4200ac7b09",
+  "source_commit_time": "2026-11-17T02:00:09Z",
   "source_path": "2026/11/08/first-nonseparable-binary-fourier-ambiguities-on-the-4-times4-sq--036d01f106a5",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-036d01f106a5",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

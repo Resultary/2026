@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-sharp-four-variable-deletion-thresholds-for-paley-tournaments--9f37c0d19d9b",
   "resultary_record_key": "SCOPE-sharp-four-variable-deletion-thresholds-for-paley-tournaments--9f37c0d19d9b",
-  "source_commit": "bd7bfdc84bf4d0705ea35e40d8439ec9582681d7",
-  "source_commit_time": "2026-11-08T21:17:32Z",
+  "source_commit": "8c7281cc7ed40a0f5156a61ca9f087433ed7c5e8",
+  "source_commit_time": "2026-11-17T01:59:25Z",
   "source_path": "2026/11/08/sharp-four-variable-deletion-thresholds-for-paley-tournaments--9f37c0d19d9b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-9f37c0d19d9b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

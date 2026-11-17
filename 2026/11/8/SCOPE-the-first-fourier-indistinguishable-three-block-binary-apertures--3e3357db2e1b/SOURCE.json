@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-the-first-fourier-indistinguishable-three-block-binary-apertures--3e3357db2e1b",
   "resultary_record_key": "SCOPE-the-first-fourier-indistinguishable-three-block-binary-apertures--3e3357db2e1b",
-  "source_commit": "c77e27c5af020a79a3716a691cbab37dde02bf28",
-  "source_commit_time": "2026-11-08T20:39:11Z",
+  "source_commit": "5cc128ec3ef1ec09bf8d004ee88fff4e16c32dee",
+  "source_commit_time": "2026-11-17T02:02:57Z",
   "source_path": "2026/11/08/the-first-fourier-indistinguishable-three-block-binary-apertures--3e3357db2e1b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-3e3357db2e1b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

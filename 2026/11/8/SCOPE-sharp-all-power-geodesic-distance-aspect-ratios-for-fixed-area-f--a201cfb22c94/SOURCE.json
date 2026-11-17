@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-sharp-all-power-geodesic-distance-aspect-ratios-for-fixed-area-f--a201cfb22c94",
   "resultary_record_key": "SCOPE-sharp-all-power-geodesic-distance-aspect-ratios-for-fixed-area-f--a201cfb22c94",
-  "source_commit": "2f4fbfd9136342270fbd3ca891e937ecedb9e5fb",
-  "source_commit_time": "2026-11-08T21:33:13Z",
+  "source_commit": "ed29c6f9540fc346c818a28ead6d54942a5d85f3",
+  "source_commit_time": "2026-11-17T01:58:49Z",
   "source_path": "2026/11/08/sharp-all-power-geodesic-distance-aspect-ratios-for-fixed-area-f--a201cfb22c94",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-a201cfb22c94",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

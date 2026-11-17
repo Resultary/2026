@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-endomorphism-varieties-of-truncated-two-branch-artinian-nodes--e79ee988b8ee",
   "resultary_record_key": "SCOPE-endomorphism-varieties-of-truncated-two-branch-artinian-nodes--e79ee988b8ee",
-  "source_commit": "0a81eb2e39f013a4e5abe502ec847c3ea9949817",
-  "source_commit_time": "2026-11-08T19:34:48Z",
+  "source_commit": "039be2f48498e64074b2e8c66c1a14b5eea1b375",
+  "source_commit_time": "2026-11-17T01:59:06Z",
   "source_path": "2026/11/08/endomorphism-varieties-of-truncated-two-branch-artinian-nodes--e79ee988b8ee",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-e79ee988b8ee",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-a-binary-defect-census-of-minimum-zero-forcing-sets-on-even-helm--8cac7da6e4b1",
   "resultary_record_key": "SCOPE-a-binary-defect-census-of-minimum-zero-forcing-sets-on-even-helm--8cac7da6e4b1",
-  "source_commit": "4a22b7eb82e947ec22b569be9d8e0acb0383d61d",
-  "source_commit_time": "2026-11-08T20:14:53Z",
+  "source_commit": "1caa8684ad76f591a3b1406d65d81bc44a226351",
+  "source_commit_time": "2026-11-17T02:03:56Z",
   "source_path": "2026/11/08/a-binary-defect-census-of-minimum-zero-forcing-sets-on-even-helm--8cac7da6e4b1",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-8cac7da6e4b1",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

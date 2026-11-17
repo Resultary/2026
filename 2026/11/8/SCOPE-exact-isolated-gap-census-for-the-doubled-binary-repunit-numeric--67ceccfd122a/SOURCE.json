@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-isolated-gap-census-for-the-doubled-binary-repunit-numeric--67ceccfd122a",
   "resultary_record_key": "SCOPE-exact-isolated-gap-census-for-the-doubled-binary-repunit-numeric--67ceccfd122a",
-  "source_commit": "4bcc7e78ec332fac99dd0eb21a070d2ae11e7cb9",
-  "source_commit_time": "2026-11-08T22:18:29Z",
+  "source_commit": "c2bab0d8eb593515e15455da40dfda1de8e0357a",
+  "source_commit_time": "2026-11-17T02:01:54Z",
   "source_path": "2026/11/08/exact-isolated-gap-census-for-the-doubled-binary-repunit-numeric--67ceccfd122a",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-67ceccfd122a",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

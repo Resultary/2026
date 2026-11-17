@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-quasiperiod-spectra-of-three-marker-binary-words--11e7c6f27d1b",
   "resultary_record_key": "SCOPE-exact-quasiperiod-spectra-of-three-marker-binary-words--11e7c6f27d1b",
-  "source_commit": "a68197654b97b35fd8f8cea687be194679b0249d",
-  "source_commit_time": "2026-11-08T20:48:29Z",
+  "source_commit": "f84ce7e8c1a22ef163156f5ab3a226e873b75d64",
+  "source_commit_time": "2026-11-17T02:01:56Z",
   "source_path": "2026/11/08/exact-quasiperiod-spectra-of-three-marker-binary-words--11e7c6f27d1b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-11e7c6f27d1b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

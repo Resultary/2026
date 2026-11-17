@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-ternary-length-four-insertion-covering-threshold-and-the-t--2ff15d49787f",
   "resultary_record_key": "SCOPE-exact-ternary-length-four-insertion-covering-threshold-and-the-t--2ff15d49787f",
-  "source_commit": "2679ac11bcf0f32b628ef731383c84eeafaedfd1",
-  "source_commit_time": "2026-11-08T20:58:49Z",
+  "source_commit": "781f4689c3b6f78bcc75d3db7e845e6eb4e3ef51",
+  "source_commit_time": "2026-11-17T02:04:11Z",
   "source_path": "2026/11/08/exact-ternary-length-four-insertion-covering-threshold-and-the-t--2ff15d49787f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-2ff15d49787f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

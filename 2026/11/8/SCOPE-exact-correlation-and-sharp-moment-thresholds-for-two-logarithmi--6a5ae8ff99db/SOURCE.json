@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-correlation-and-sharp-moment-thresholds-for-two-logarithmi--6a5ae8ff99db",
   "resultary_record_key": "SCOPE-exact-correlation-and-sharp-moment-thresholds-for-two-logarithmi--6a5ae8ff99db",
-  "source_commit": "10f3c2142e937423da27d9dca4abfd5f2b60bc1e",
-  "source_commit_time": "2026-11-08T22:04:49Z",
+  "source_commit": "bc4e4fd9663272e8daa7ef514e5e8b0cbc373fdf",
+  "source_commit_time": "2026-11-17T02:01:53Z",
   "source_path": "2026/11/08/exact-correlation-and-sharp-moment-thresholds-for-two-logarithmi--6a5ae8ff99db",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-6a5ae8ff99db",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

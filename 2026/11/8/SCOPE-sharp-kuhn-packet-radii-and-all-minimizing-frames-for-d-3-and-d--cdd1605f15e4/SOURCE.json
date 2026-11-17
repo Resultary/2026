@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-sharp-kuhn-packet-radii-and-all-minimizing-frames-for-d-3-and-d--cdd1605f15e4",
   "resultary_record_key": "SCOPE-sharp-kuhn-packet-radii-and-all-minimizing-frames-for-d-3-and-d--cdd1605f15e4",
-  "source_commit": "ee2806445b6989e90c5529f0c63aeac65179b373",
-  "source_commit_time": "2026-11-08T21:43:52Z",
+  "source_commit": "778d61ec95b56582b4b5fcd763f4f25d249b5623",
+  "source_commit_time": "2026-11-17T02:04:21Z",
   "source_path": "2026/11/08/sharp-kuhn-packet-radii-and-all-minimizing-frames-for-d-3-and-d--cdd1605f15e4",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-cdd1605f15e4",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

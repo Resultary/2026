@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-universal-single-crossing-of-habitat-quorum-survival-under-synch--a9d45154842f",
   "resultary_record_key": "SCOPE-universal-single-crossing-of-habitat-quorum-survival-under-synch--a9d45154842f",
-  "source_commit": "4b8a5b8d9035a9e4ecbb3366135546100f493d48",
-  "source_commit_time": "2026-11-08T19:57:46Z",
+  "source_commit": "afa377ffc016f3ac2153b192994989eae4a97f39",
+  "source_commit_time": "2026-11-17T02:03:01Z",
   "source_path": "2026/11/08/universal-single-crossing-of-habitat-quorum-survival-under-synch--a9d45154842f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-a9d45154842f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

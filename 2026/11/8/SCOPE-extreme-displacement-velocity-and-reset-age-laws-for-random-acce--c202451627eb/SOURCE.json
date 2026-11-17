@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-extreme-displacement-velocity-and-reset-age-laws-for-random-acce--c202451627eb",
   "resultary_record_key": "SCOPE-extreme-displacement-velocity-and-reset-age-laws-for-random-acce--c202451627eb",
-  "source_commit": "d2013a0cea284f063e7f5f9c320a51c07b7e9b5b",
-  "source_commit_time": "2026-11-08T22:04:28Z",
+  "source_commit": "91f673d3f28b711564967f2df5e682767087345c",
+  "source_commit_time": "2026-11-17T02:04:12Z",
   "source_path": "2026/11/08/extreme-displacement-velocity-and-reset-age-laws-for-random-acce--c202451627eb",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-c202451627eb",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

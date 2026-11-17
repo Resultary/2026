@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-radial-conditioning-and-exact-tail-transitions-for-kronecker-gau--ca94e6a4395a",
   "resultary_record_key": "SCOPE-radial-conditioning-and-exact-tail-transitions-for-kronecker-gau--ca94e6a4395a",
-  "source_commit": "53c8c9ec6a501b74409ace30ddfaed37de9affb8",
-  "source_commit_time": "2026-11-08T22:47:41Z",
+  "source_commit": "9f4ad6d06594e601c3005a4a580654f10f6eed21",
+  "source_commit_time": "2026-11-17T02:02:05Z",
   "source_path": "2026/11/08/radial-conditioning-and-exact-tail-transitions-for-kronecker-gau--ca94e6a4395a",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-ca94e6a4395a",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

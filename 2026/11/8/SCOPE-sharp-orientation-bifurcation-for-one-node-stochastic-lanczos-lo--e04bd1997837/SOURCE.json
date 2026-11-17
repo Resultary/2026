@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-sharp-orientation-bifurcation-for-one-node-stochastic-lanczos-lo--e04bd1997837",
   "resultary_record_key": "SCOPE-sharp-orientation-bifurcation-for-one-node-stochastic-lanczos-lo--e04bd1997837",
-  "source_commit": "7d2f0a6a39a1354dd3179333c7a4bf58c1c18af9",
-  "source_commit_time": "2026-11-08T22:44:29Z",
+  "source_commit": "6cb2afe1ba6bf24be8c4cc81f26ec4a9846622cb",
+  "source_commit_time": "2026-11-17T02:01:04Z",
   "source_path": "2026/11/08/sharp-orientation-bifurcation-for-one-node-stochastic-lanczos-lo--e04bd1997837",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-e04bd1997837",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-three-exact-opinion-phases-in-a-minimal-mixed-neighborhood-confi--021f5775f684",
   "resultary_record_key": "SCOPE-three-exact-opinion-phases-in-a-minimal-mixed-neighborhood-confi--021f5775f684",
-  "source_commit": "2d6ba6c49717dc0db810d682bb91af218a30cf49",
-  "source_commit_time": "2026-11-08T20:06:36Z",
+  "source_commit": "ba72de93eda0d5d8eeb070b3b681ea2cfdfadbec",
+  "source_commit_time": "2026-11-17T01:59:00Z",
   "source_path": "2026/11/08/three-exact-opinion-phases-in-a-minimal-mixed-neighborhood-confi--021f5775f684",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-021f5775f684",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

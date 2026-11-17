@@ -1,1 +1,0 @@
-For every pair of lattice polygons, the four-dimensional Cartesian product has a real-rooted Ehrhart \(h^*\)-polynomial, even when one or both factors have nonreal numerator roots. Pick's theorem isolates three exceptional polygon types; exact quartic-discriminant certificates cover them all.

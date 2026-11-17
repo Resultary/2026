@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-primitive-igusa-quartic-degeneration-at-two-a-doubled-parabolic--ded9a85da902",
   "resultary_record_key": "SCOPE-primitive-igusa-quartic-degeneration-at-two-a-doubled-parabolic--ded9a85da902",
-  "source_commit": "7cbccaeaeaa2efdc6b6f6f46305a34c412455b30",
-  "source_commit_time": "2026-11-08T19:44:53Z",
+  "source_commit": "52d6af8795181b632f5d32e1f3dc3b0372bb6259",
+  "source_commit_time": "2026-11-17T02:02:04Z",
   "source_path": "2026/11/08/primitive-igusa-quartic-degeneration-at-two-a-doubled-parabolic--ded9a85da902",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-ded9a85da902",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

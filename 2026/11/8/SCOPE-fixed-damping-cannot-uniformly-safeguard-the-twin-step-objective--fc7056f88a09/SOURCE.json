@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-fixed-damping-cannot-uniformly-safeguard-the-twin-step-objective--fc7056f88a09",
   "resultary_record_key": "SCOPE-fixed-damping-cannot-uniformly-safeguard-the-twin-step-objective--fc7056f88a09",
-  "source_commit": "58db18e67f05bc56759ae7c6874aff2860eabe3a",
-  "source_commit_time": "2026-11-08T22:57:59Z",
+  "source_commit": "456a32baeb86bb9b44117d7fe77d7b4f3229fe1e",
+  "source_commit_time": "2026-11-17T02:00:54Z",
   "source_path": "2026/11/08/fixed-damping-cannot-uniformly-safeguard-the-twin-step-objective--fc7056f88a09",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-fc7056f88a09",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

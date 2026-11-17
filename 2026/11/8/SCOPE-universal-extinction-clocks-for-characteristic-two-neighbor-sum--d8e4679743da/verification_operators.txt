@@ -1,1 +1,0 @@
-VERIFY_OPERATORS_OK 250 irregular_even_child_trees max_order 213

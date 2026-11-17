@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-a-rank-one-covariance-gap-between-enriched-order-and-chain-polyt--6e78acb8dee8",
   "resultary_record_key": "SCOPE-a-rank-one-covariance-gap-between-enriched-order-and-chain-polyt--6e78acb8dee8",
-  "source_commit": "2256ea1ff1eb8ad0f0312dc4ac85b317960ab297",
-  "source_commit_time": "2026-11-08T21:38:59Z",
+  "source_commit": "324eab52175aa9e2a8f12af7ae02229e5a07b1bc",
+  "source_commit_time": "2026-11-17T02:03:43Z",
   "source_path": "2026/11/08/a-rank-one-covariance-gap-between-enriched-order-and-chain-polyt--6e78acb8dee8",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-6e78acb8dee8",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

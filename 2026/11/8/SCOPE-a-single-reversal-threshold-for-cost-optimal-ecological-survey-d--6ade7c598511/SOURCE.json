@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-a-single-reversal-threshold-for-cost-optimal-ecological-survey-d--6ade7c598511",
   "resultary_record_key": "SCOPE-a-single-reversal-threshold-for-cost-optimal-ecological-survey-d--6ade7c598511",
-  "source_commit": "fcc23a502fc8e4f1998ef7c69391f9eaacedfa11",
-  "source_commit_time": "2026-11-08T19:56:53Z",
+  "source_commit": "106befa6528e314e164b9cc4f30fa86dd723bd21",
+  "source_commit_time": "2026-11-17T02:00:37Z",
   "source_path": "2026/11/08/a-single-reversal-threshold-for-cost-optimal-ecological-survey-d--6ade7c598511",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-6ade7c598511",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

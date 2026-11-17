@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-five-threshold-field-diagram-of-the-three-state-clebsch-po--93c0e462128b",
   "resultary_record_key": "SCOPE-exact-five-threshold-field-diagram-of-the-three-state-clebsch-po--93c0e462128b",
-  "source_commit": "94ac7a65c22be7eaf77932a7dd7d6bb42fccdc08",
-  "source_commit_time": "2026-11-08T21:56:00Z",
+  "source_commit": "8349cade33fca25e9ced569f629d64fef7f4e09c",
+  "source_commit_time": "2026-11-17T01:58:34Z",
   "source_path": "2026/11/08/exact-five-threshold-field-diagram-of-the-three-state-clebsch-po--93c0e462128b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-93c0e462128b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

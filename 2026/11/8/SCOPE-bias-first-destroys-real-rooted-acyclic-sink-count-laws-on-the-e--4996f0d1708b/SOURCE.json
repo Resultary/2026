@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-bias-first-destroys-real-rooted-acyclic-sink-count-laws-on-the-e--4996f0d1708b",
   "resultary_record_key": "SCOPE-bias-first-destroys-real-rooted-acyclic-sink-count-laws-on-the-e--4996f0d1708b",
-  "source_commit": "e7338f4cc90fd55f46df08e8e96810a39eea5fc9",
-  "source_commit_time": "2026-11-08T23:14:04Z",
+  "source_commit": "43d4d6ea0961c361a7b1e7f645b5edd2b3d861ef",
+  "source_commit_time": "2026-11-17T02:03:13Z",
   "source_path": "2026/11/08/bias-first-destroys-real-rooted-acyclic-sink-count-laws-on-the-e--4996f0d1708b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-4996f0d1708b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

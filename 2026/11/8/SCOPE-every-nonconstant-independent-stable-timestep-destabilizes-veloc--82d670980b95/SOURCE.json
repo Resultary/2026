@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-every-nonconstant-independent-stable-timestep-destabilizes-veloc--82d670980b95",
   "resultary_record_key": "SCOPE-every-nonconstant-independent-stable-timestep-destabilizes-veloc--82d670980b95",
-  "source_commit": "7619c07a78816747c96338e5ce8a3c67a355475c",
-  "source_commit_time": "2026-11-08T22:44:23Z",
+  "source_commit": "da5fc04d0ad671a417bb57da23eaef31c78c813a",
+  "source_commit_time": "2026-11-17T02:03:16Z",
   "source_path": "2026/11/08/every-nonconstant-independent-stable-timestep-destabilizes-veloc--82d670980b95",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-82d670980b95",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

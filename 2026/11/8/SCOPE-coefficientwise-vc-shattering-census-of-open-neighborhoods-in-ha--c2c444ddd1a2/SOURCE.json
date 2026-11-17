@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-coefficientwise-vc-shattering-census-of-open-neighborhoods-in-ha--c2c444ddd1a2",
   "resultary_record_key": "SCOPE-coefficientwise-vc-shattering-census-of-open-neighborhoods-in-ha--c2c444ddd1a2",
-  "source_commit": "1c9f38fc5bb183c007ae8649dcecf56bc48087ca",
-  "source_commit_time": "2026-11-08T21:18:49Z",
+  "source_commit": "df95dd0b61e64df40245624468ecca3ae0a35983",
+  "source_commit_time": "2026-11-17T02:01:49Z",
   "source_path": "2026/11/08/coefficientwise-vc-shattering-census-of-open-neighborhoods-in-ha--c2c444ddd1a2",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-c2c444ddd1a2",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

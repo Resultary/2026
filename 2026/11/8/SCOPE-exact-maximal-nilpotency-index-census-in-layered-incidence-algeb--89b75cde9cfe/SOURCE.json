@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-maximal-nilpotency-index-census-in-layered-incidence-algeb--89b75cde9cfe",
   "resultary_record_key": "SCOPE-exact-maximal-nilpotency-index-census-in-layered-incidence-algeb--89b75cde9cfe",
-  "source_commit": "b7f52cd2bda19188eeaa0428293f3b1b70eac61d",
-  "source_commit_time": "2026-11-08T19:35:49Z",
+  "source_commit": "251f21ff0aea9c40f772380e85cb590fc4ba9add",
+  "source_commit_time": "2026-11-17T02:02:38Z",
   "source_path": "2026/11/08/exact-maximal-nilpotency-index-census-in-layered-incidence-algeb--89b75cde9cfe",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-89b75cde9cfe",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

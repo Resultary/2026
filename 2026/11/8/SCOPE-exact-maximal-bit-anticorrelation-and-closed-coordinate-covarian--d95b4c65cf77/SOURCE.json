@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-maximal-bit-anticorrelation-and-closed-coordinate-covarian--d95b4c65cf77",
   "resultary_record_key": "SCOPE-exact-maximal-bit-anticorrelation-and-closed-coordinate-covarian--d95b4c65cf77",
-  "source_commit": "fc1c9c442ecdc06d71de82cffd79e839ff4c552b",
-  "source_commit_time": "2026-11-08T21:09:25Z",
+  "source_commit": "e5d7920bb43b5920e5f27c55b724c62b6b52862c",
+  "source_commit_time": "2026-11-17T02:01:55Z",
   "source_path": "2026/11/08/exact-maximal-bit-anticorrelation-and-closed-coordinate-covarian--d95b4c65cf77",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-d95b4c65cf77",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

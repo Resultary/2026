@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-square-switch-metric-and-symmetry-quotient-of-hamilton-cyc--a9f0a06fc4c6",
   "resultary_record_key": "SCOPE-exact-square-switch-metric-and-symmetry-quotient-of-hamilton-cyc--a9f0a06fc4c6",
-  "source_commit": "2515f68d51f1aa3fb1caa083eaca863a3a1519d6",
-  "source_commit_time": "2026-11-08T20:16:59Z",
+  "source_commit": "6c40123c6dd5a6ac1e0bf013955c73c91d923d29",
+  "source_commit_time": "2026-11-17T01:59:12Z",
   "source_path": "2026/11/08/exact-square-switch-metric-and-symmetry-quotient-of-hamilton-cyc--a9f0a06fc4c6",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-a9f0a06fc4c6",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

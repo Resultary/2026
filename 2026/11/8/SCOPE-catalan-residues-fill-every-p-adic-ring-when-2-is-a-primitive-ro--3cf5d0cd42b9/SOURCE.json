@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-catalan-residues-fill-every-p-adic-ring-when-2-is-a-primitive-ro--3cf5d0cd42b9",
   "resultary_record_key": "SCOPE-catalan-residues-fill-every-p-adic-ring-when-2-is-a-primitive-ro--3cf5d0cd42b9",
-  "source_commit": "08a561b545c2674d21f9ab3d2ae599367c7eddd4",
-  "source_commit_time": "2026-11-08T22:13:22Z",
+  "source_commit": "5e225762ea58e21b7a2bb144f52447a06fb8acb0",
+  "source_commit_time": "2026-11-17T02:03:13Z",
   "source_path": "2026/11/08/catalan-residues-fill-every-p-adic-ring-when-2-is-a-primitive-ro--3cf5d0cd42b9",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-3cf5d0cd42b9",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

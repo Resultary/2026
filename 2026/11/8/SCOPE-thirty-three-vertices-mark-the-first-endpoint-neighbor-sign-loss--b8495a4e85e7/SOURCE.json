@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-thirty-three-vertices-mark-the-first-endpoint-neighbor-sign-loss--b8495a4e85e7",
   "resultary_record_key": "SCOPE-thirty-three-vertices-mark-the-first-endpoint-neighbor-sign-loss--b8495a4e85e7",
-  "source_commit": "5c40c971ffb35644ccda790fd8d71f0e7ed57e0c",
-  "source_commit_time": "2026-11-08T22:34:45Z",
+  "source_commit": "10fa423d7d89c1411e0a53144eaf0653e355e927",
+  "source_commit_time": "2026-11-17T02:02:14Z",
   "source_path": "2026/11/08/thirty-three-vertices-mark-the-first-endpoint-neighbor-sign-loss--b8495a4e85e7",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-b8495a4e85e7",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

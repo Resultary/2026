@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-a-sharp-odd-cycle-energy-readout-variance-floor-for-separable-qu--bf2ea2f1ea46",
   "resultary_record_key": "SCOPE-a-sharp-odd-cycle-energy-readout-variance-floor-for-separable-qu--bf2ea2f1ea46",
-  "source_commit": "aa1469044aaf37f53bec4a0ba58f1a648c656137",
-  "source_commit_time": "2026-11-08T22:05:10Z",
+  "source_commit": "86d8bb19ae8092a5887551f9045753148554e71b",
+  "source_commit_time": "2026-11-17T02:00:36Z",
   "source_path": "2026/11/08/a-sharp-odd-cycle-energy-readout-variance-floor-for-separable-qu--bf2ea2f1ea46",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-bf2ea2f1ea46",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

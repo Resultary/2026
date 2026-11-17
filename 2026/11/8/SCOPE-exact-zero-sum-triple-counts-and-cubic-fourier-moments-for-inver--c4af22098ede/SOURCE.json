@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-exact-zero-sum-triple-counts-and-cubic-fourier-moments-for-inver--c4af22098ede",
   "resultary_record_key": "SCOPE-exact-zero-sum-triple-counts-and-cubic-fourier-moments-for-inver--c4af22098ede",
-  "source_commit": "eb37ea6a187121ee44283fb4ba885fca213680ac",
-  "source_commit_time": "2026-11-08T22:15:58Z",
+  "source_commit": "c340e2bf7a7e75d2140fb2b448c55e561d8082b6",
+  "source_commit_time": "2026-11-17T01:59:13Z",
   "source_path": "2026/11/08/exact-zero-sum-triple-counts-and-cubic-fourier-moments-for-inver--c4af22098ede",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-c4af22098ede",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

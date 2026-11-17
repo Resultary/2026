@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-a-sharp-hub-leaf-polarization-reversal-under-viral-diffusion-on--3f4128dd3783",
   "resultary_record_key": "SCOPE-a-sharp-hub-leaf-polarization-reversal-under-viral-diffusion-on--3f4128dd3783",
-  "source_commit": "4188176787ab6f0dd4ba5fd3d08407959b114f5c",
-  "source_commit_time": "2026-11-08T20:04:34Z",
+  "source_commit": "e7768459143d1654b1e349bb37cb2eb60fdc09f6",
+  "source_commit_time": "2026-11-17T02:03:44Z",
   "source_path": "2026/11/08/a-sharp-hub-leaf-polarization-reversal-under-viral-diffusion-on--3f4128dd3783",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-3f4128dd3783",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

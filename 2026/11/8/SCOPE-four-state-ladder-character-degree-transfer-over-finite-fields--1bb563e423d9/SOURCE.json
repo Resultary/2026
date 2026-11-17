@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-four-state-ladder-character-degree-transfer-over-finite-fields--1bb563e423d9",
   "resultary_record_key": "SCOPE-four-state-ladder-character-degree-transfer-over-finite-fields--1bb563e423d9",
-  "source_commit": "97e0622aaf10aeaef85d8fc86c4c33fc338f8eec",
-  "source_commit_time": "2026-11-08T19:35:37Z",
+  "source_commit": "aa9d64bb48bd67d4c13d46c6733297d20efa15b4",
+  "source_commit_time": "2026-11-17T02:03:22Z",
   "source_path": "2026/11/08/four-state-ladder-character-degree-transfer-over-finite-fields--1bb563e423d9",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-1bb563e423d9",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

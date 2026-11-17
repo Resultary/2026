@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-sharp-five-round-logical-threshold-for-directed-successor-cycles--9d45823d322e",
   "resultary_record_key": "SCOPE-sharp-five-round-logical-threshold-for-directed-successor-cycles--9d45823d322e",
-  "source_commit": "72de7fdba4bcc3f2f512cc6a088ee998d7cbdac9",
-  "source_commit_time": "2026-11-08T21:23:23Z",
+  "source_commit": "4039177e17ad443068b211b6843e448ddf60f4a2",
+  "source_commit_time": "2026-11-17T02:02:50Z",
   "source_path": "2026/11/08/sharp-five-round-logical-threshold-for-directed-successor-cycles--9d45823d322e",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-9d45823d322e",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }

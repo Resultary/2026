@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-affine-three-tap-convolution-an-exact-subgroup-threshold-for-inv--dd2fb1d76981",
   "resultary_record_key": "SCOPE-affine-three-tap-convolution-an-exact-subgroup-threshold-for-inv--dd2fb1d76981",
-  "source_commit": "12b50853f486f07ac137bfeb20faf7b3ac551ef0",
-  "source_commit_time": "2026-11-08T20:30:37Z",
+  "source_commit": "5876e0edcb6102a020e94b7fd0fb19e27925ad90",
+  "source_commit_time": "2026-11-17T02:04:00Z",
   "source_path": "2026/11/08/affine-three-tap-convolution-an-exact-subgroup-threshold-for-inv--dd2fb1d76981",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-dd2fb1d76981",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-17T02:52:24Z",
   "time_standard": "UTC"
 }
