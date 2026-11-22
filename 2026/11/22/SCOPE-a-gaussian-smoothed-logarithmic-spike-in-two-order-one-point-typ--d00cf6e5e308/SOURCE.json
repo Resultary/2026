@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/22/SCOPE-a-gaussian-smoothed-logarithmic-spike-in-two-order-one-point-typ--d00cf6e5e308",
+  "resultary_record_key": "SCOPE-a-gaussian-smoothed-logarithmic-spike-in-two-order-one-point-typ--d00cf6e5e308",
+  "source_commit": "256e3815257e78147830da6e21b585a3b01b7636",
+  "source_commit_time": "2026-11-22T15:37:46Z",
+  "source_path": "2026/11/22/a-gaussian-smoothed-logarithmic-spike-in-two-order-one-point-typ--d00cf6e5e308",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261122-d00cf6e5e308",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-22T16:02:25Z",
+  "time_standard": "UTC"
+}
