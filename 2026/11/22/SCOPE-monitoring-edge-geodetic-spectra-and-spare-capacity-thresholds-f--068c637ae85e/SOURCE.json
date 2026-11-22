@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/22/SCOPE-monitoring-edge-geodetic-spectra-and-spare-capacity-thresholds-f--068c637ae85e",
+  "resultary_record_key": "SCOPE-monitoring-edge-geodetic-spectra-and-spare-capacity-thresholds-f--068c637ae85e",
+  "source_commit": "d896ba5ee6a6004f11b7369aa34702913c065483",
+  "source_commit_time": "2026-11-22T15:59:40Z",
+  "source_path": "2026/11/22/monitoring-edge-geodetic-spectra-and-spare-capacity-thresholds-f--068c637ae85e",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261122-068c637ae85e",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-22T16:30:19Z",
+  "time_standard": "UTC"
+}
