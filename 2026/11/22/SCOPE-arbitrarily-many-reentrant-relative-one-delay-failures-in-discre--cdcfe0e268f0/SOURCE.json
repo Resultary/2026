@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/22/SCOPE-arbitrarily-many-reentrant-relative-one-delay-failures-in-discre--cdcfe0e268f0",
+  "resultary_record_key": "SCOPE-arbitrarily-many-reentrant-relative-one-delay-failures-in-discre--cdcfe0e268f0",
+  "source_commit": "af0b18938f9f42bc149ca66688e486998262fcbb",
+  "source_commit_time": "2026-11-22T17:15:39Z",
+  "source_path": "2026/11/22/arbitrarily-many-reentrant-relative-one-delay-failures-in-discre--cdcfe0e268f0",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261122-cdcfe0e268f0",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-22T17:32:04Z",
+  "time_standard": "UTC"
+}

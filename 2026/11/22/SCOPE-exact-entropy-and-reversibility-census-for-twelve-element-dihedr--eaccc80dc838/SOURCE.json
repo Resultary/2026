@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/22/SCOPE-exact-entropy-and-reversibility-census-for-twelve-element-dihedr--eaccc80dc838",
+  "resultary_record_key": "SCOPE-exact-entropy-and-reversibility-census-for-twelve-element-dihedr--eaccc80dc838",
+  "source_commit": "abc6cf6f6758caf7fd038fba1c3613a4943d3785",
+  "source_commit_time": "2026-11-22T17:02:24Z",
+  "source_path": "2026/11/22/exact-entropy-and-reversibility-census-for-twelve-element-dihedr--eaccc80dc838",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261122-eaccc80dc838",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-22T17:32:04Z",
+  "time_standard": "UTC"
+}

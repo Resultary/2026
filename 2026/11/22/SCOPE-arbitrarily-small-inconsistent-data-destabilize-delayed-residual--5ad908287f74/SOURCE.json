@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/22/SCOPE-arbitrarily-small-inconsistent-data-destabilize-delayed-residual--5ad908287f74",
+  "resultary_record_key": "SCOPE-arbitrarily-small-inconsistent-data-destabilize-delayed-residual--5ad908287f74",
+  "source_commit": "c4c9d05cd9a348af1c25c1594b0c707b3adfe5f8",
+  "source_commit_time": "2026-11-22T17:16:21Z",
+  "source_path": "2026/11/22/arbitrarily-small-inconsistent-data-destabilize-delayed-residual--5ad908287f74",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261122-5ad908287f74",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-22T17:32:04Z",
+  "time_standard": "UTC"
+}

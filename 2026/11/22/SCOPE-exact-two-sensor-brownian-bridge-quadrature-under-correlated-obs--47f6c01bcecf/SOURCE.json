@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/22/SCOPE-exact-two-sensor-brownian-bridge-quadrature-under-correlated-obs--47f6c01bcecf",
+  "resultary_record_key": "SCOPE-exact-two-sensor-brownian-bridge-quadrature-under-correlated-obs--47f6c01bcecf",
+  "source_commit": "b5490e2bf3885ec8fe491bce0f67fbf592e6a3a5",
+  "source_commit_time": "2026-11-22T17:14:24Z",
+  "source_path": "2026/11/22/exact-two-sensor-brownian-bridge-quadrature-under-correlated-obs--47f6c01bcecf",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261122-47f6c01bcecf",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-22T17:32:04Z",
+  "time_standard": "UTC"
+}

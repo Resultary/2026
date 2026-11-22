@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/22/SCOPE-weight-resolved-two-read-deletion-ambiguity-in-fibonacci-constra--b85913bb6305",
+  "resultary_record_key": "SCOPE-weight-resolved-two-read-deletion-ambiguity-in-fibonacci-constra--b85913bb6305",
+  "source_commit": "f853799354590f4b022f2dab457943e57f24d8cd",
+  "source_commit_time": "2026-11-22T17:19:01Z",
+  "source_path": "2026/11/22/weight-resolved-two-read-deletion-ambiguity-in-fibonacci-constra--b85913bb6305",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261122-b85913bb6305",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-22T17:32:04Z",
+  "time_standard": "UTC"
+}

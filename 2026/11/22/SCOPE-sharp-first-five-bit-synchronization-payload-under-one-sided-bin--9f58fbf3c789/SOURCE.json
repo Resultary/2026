@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/22/SCOPE-sharp-first-five-bit-synchronization-payload-under-one-sided-bin--9f58fbf3c789",
+  "resultary_record_key": "SCOPE-sharp-first-five-bit-synchronization-payload-under-one-sided-bin--9f58fbf3c789",
+  "source_commit": "c71f7d0c872d1250f65536ad3f982eb49a7b7b27",
+  "source_commit_time": "2026-11-22T17:19:46Z",
+  "source_path": "2026/11/22/sharp-first-five-bit-synchronization-payload-under-one-sided-bin--9f58fbf3c789",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261122-9f58fbf3c789",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-22T17:32:04Z",
+  "time_standard": "UTC"
+}

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/22/SCOPE-exact-second-image-entropy-of-synchronous-rule-110--576dabe6a72b",
+  "resultary_record_key": "SCOPE-exact-second-image-entropy-of-synchronous-rule-110--576dabe6a72b",
+  "source_commit": "a3382d74a1b8d34d14aebf2ea641e56350e93a03",
+  "source_commit_time": "2026-11-22T17:02:32Z",
+  "source_path": "2026/11/22/exact-second-image-entropy-of-synchronous-rule-110--576dabe6a72b",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261122-576dabe6a72b",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-22T17:32:04Z",
+  "time_standard": "UTC"
+}

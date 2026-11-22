@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/22/SCOPE-exact-bfloat16-logistic-basin-inversion-under-a-single-intermedi--305f9651a5de",
+  "resultary_record_key": "SCOPE-exact-bfloat16-logistic-basin-inversion-under-a-single-intermedi--305f9651a5de",
+  "source_commit": "60f751595565aa34cde58b99327c401ba70ae38b",
+  "source_commit_time": "2026-11-22T17:00:01Z",
+  "source_path": "2026/11/22/exact-bfloat16-logistic-basin-inversion-under-a-single-intermedi--305f9651a5de",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261122-305f9651a5de",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-22T17:32:04Z",
+  "time_standard": "UTC"
+}

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/22/SCOPE-sparse-refresh-noise-creates-silent-descent-errors-in-uniform-ra--5f1e6c70b9c8",
+  "resultary_record_key": "SCOPE-sparse-refresh-noise-creates-silent-descent-errors-in-uniform-ra--5f1e6c70b9c8",
+  "source_commit": "cb51a76b7b754c50ba129c67fcf0e23b51bfdb96",
+  "source_commit_time": "2026-11-22T17:05:08Z",
+  "source_path": "2026/11/22/sparse-refresh-noise-creates-silent-descent-errors-in-uniform-ra--5f1e6c70b9c8",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261122-5f1e6c70b9c8",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-22T17:32:04Z",
+  "time_standard": "UTC"
+}

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/22/SCOPE-fault-gaps-determine-the-exact-synchronization-spectrum-of-alter--0373e211949f",
+  "resultary_record_key": "SCOPE-fault-gaps-determine-the-exact-synchronization-spectrum-of-alter--0373e211949f",
+  "source_commit": "f568fdee0cd73960a95e24fbd22ec6fddaeb7759",
+  "source_commit_time": "2026-11-22T16:58:20Z",
+  "source_path": "2026/11/22/fault-gaps-determine-the-exact-synchronization-spectrum-of-alter--0373e211949f",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261122-0373e211949f",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-22T17:32:04Z",
+  "time_standard": "UTC"
+}

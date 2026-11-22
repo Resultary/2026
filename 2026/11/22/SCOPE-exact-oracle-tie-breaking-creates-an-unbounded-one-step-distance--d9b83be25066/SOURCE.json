@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/22/SCOPE-exact-oracle-tie-breaking-creates-an-unbounded-one-step-distance--d9b83be25066",
+  "resultary_record_key": "SCOPE-exact-oracle-tie-breaking-creates-an-unbounded-one-step-distance--d9b83be25066",
+  "source_commit": "01026d2dd63a0e7921402b1c305c2895cb43bb29",
+  "source_commit_time": "2026-11-22T17:16:21Z",
+  "source_path": "2026/11/22/exact-oracle-tie-breaking-creates-an-unbounded-one-step-distance--d9b83be25066",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261122-d9b83be25066",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-22T17:32:04Z",
+  "time_standard": "UTC"
+}

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/22/SCOPE-exact-bfloat16-cycle-spectra-under-two-arithmetic-orders-of-a-re--a7b95ec2b476",
+  "resultary_record_key": "SCOPE-exact-bfloat16-cycle-spectra-under-two-arithmetic-orders-of-a-re--a7b95ec2b476",
+  "source_commit": "639d75565c646a15b1bc2c77b57f6cc05f6e91b8",
+  "source_commit_time": "2026-11-22T17:00:09Z",
+  "source_path": "2026/11/22/exact-bfloat16-cycle-spectra-under-two-arithmetic-orders-of-a-re--a7b95ec2b476",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261122-a7b95ec2b476",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-22T17:32:04Z",
+  "time_standard": "UTC"
+}

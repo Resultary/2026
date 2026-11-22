@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/22/SCOPE-unique-noise-calibrated-sensing-time-for-ornstein-uhlenbeck-quad--7c5064a2bb85",
+  "resultary_record_key": "SCOPE-unique-noise-calibrated-sensing-time-for-ornstein-uhlenbeck-quad--7c5064a2bb85",
+  "source_commit": "5e58fb813bf579ac559e4fd0b55d68cdebed1a6a",
+  "source_commit_time": "2026-11-22T17:13:45Z",
+  "source_path": "2026/11/22/unique-noise-calibrated-sensing-time-for-ornstein-uhlenbeck-quad--7c5064a2bb85",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261122-7c5064a2bb85",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-22T17:32:04Z",
+  "time_standard": "UTC"
+}

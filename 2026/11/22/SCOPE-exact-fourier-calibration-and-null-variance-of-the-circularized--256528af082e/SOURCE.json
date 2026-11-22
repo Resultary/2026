@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/22/SCOPE-exact-fourier-calibration-and-null-variance-of-the-circularized--256528af082e",
+  "resultary_record_key": "SCOPE-exact-fourier-calibration-and-null-variance-of-the-circularized--256528af082e",
+  "source_commit": "e16177ba2f2f21603e475a99c450d61fe7fb64a5",
+  "source_commit_time": "2026-11-22T17:06:38Z",
+  "source_path": "2026/11/22/exact-fourier-calibration-and-null-variance-of-the-circularized--256528af082e",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261122-256528af082e",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-22T17:32:04Z",
+  "time_standard": "UTC"
+}
