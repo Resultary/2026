@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/22/SCOPE-deletion-minimal-purdy-defect-in-the-twelve-point-g-3-3-4-config--166975234562",
+  "resultary_record_key": "SCOPE-deletion-minimal-purdy-defect-in-the-twelve-point-g-3-3-4-config--166975234562",
+  "source_commit": "6840ae3b6a670c0798212bd038898c9673a316dc",
+  "source_commit_time": "2026-11-22T16:27:18Z",
+  "source_path": "2026/11/22/deletion-minimal-purdy-defect-in-the-twelve-point-g-3-3-4-config--166975234562",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261122-166975234562",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-22T17:00:31Z",
+  "time_standard": "UTC"
+}

@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/22/SCOPE-parity-forced-missing-angular-channels-in-second-level-polyanaly--317f9bf9481f",
+  "resultary_record_key": "SCOPE-parity-forced-missing-angular-channels-in-second-level-polyanaly--317f9bf9481f",
+  "source_commit": "e3c093ebe6ec1eb5c6c06bd92725a48bcffadb43",
+  "source_commit_time": "2026-11-22T16:53:37Z",
+  "source_path": "2026/11/22/parity-forced-missing-angular-channels-in-second-level-polyanaly--317f9bf9481f",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261122-317f9bf9481f",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-22T17:00:31Z",
+  "time_standard": "UTC"
+}

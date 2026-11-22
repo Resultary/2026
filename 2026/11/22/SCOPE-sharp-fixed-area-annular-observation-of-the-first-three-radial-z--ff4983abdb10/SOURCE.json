@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/22/SCOPE-sharp-fixed-area-annular-observation-of-the-first-three-radial-z--ff4983abdb10",
+  "resultary_record_key": "SCOPE-sharp-fixed-area-annular-observation-of-the-first-three-radial-z--ff4983abdb10",
+  "source_commit": "fe8e5a34fae06103aecf2e77f4c15bfb22dba14c",
+  "source_commit_time": "2026-11-22T16:52:34Z",
+  "source_path": "2026/11/22/sharp-fixed-area-annular-observation-of-the-first-three-radial-z--ff4983abdb10",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261122-ff4983abdb10",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-22T17:00:31Z",
+  "time_standard": "UTC"
+}

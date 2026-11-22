@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/22/SCOPE-single-rung-faults-create-parity-selective-spheres-in-ladder-per--fe3206fb4c8a",
+  "resultary_record_key": "SCOPE-single-rung-faults-create-parity-selective-spheres-in-ladder-per--fe3206fb4c8a",
+  "source_commit": "3d011d4b267b3240be73d0a1bc9b78f922f5193d",
+  "source_commit_time": "2026-11-22T16:32:05Z",
+  "source_path": "2026/11/22/single-rung-faults-create-parity-selective-spheres-in-ladder-per--fe3206fb4c8a",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261122-fe3206fb4c8a",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-22T17:00:31Z",
+  "time_standard": "UTC"
+}
