@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-three-spectral-regimes-for-stretched-scale-laplace-orbit-gram-de--dc48d8d092db",
   "resultary_record_key": "SCOPE-three-spectral-regimes-for-stretched-scale-laplace-orbit-gram-de--dc48d8d092db",
-  "source_commit": "e87280effa2e64ac137e928af61b9b896a1f94c8",
-  "source_commit_time": "2026-11-17T01:08:02Z",
+  "source_commit": "a5b142da02e84994426a4693d4ec364a1b0852fc",
+  "source_commit_time": "2026-11-22T15:30:33Z",
   "source_path": "2026/11/17/three-spectral-regimes-for-stretched-scale-laplace-orbit-gram-de--dc48d8d092db",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-dc48d8d092db",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

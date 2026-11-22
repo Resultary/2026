@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-exactly-two-five-node-bernstein-grids-preserve-circle-positive-d--f6e744bea94d",
   "resultary_record_key": "SCOPE-exactly-two-five-node-bernstein-grids-preserve-circle-positive-d--f6e744bea94d",
-  "source_commit": "569b9c49d64502924e2b82d9ba59f7c50301ada7",
-  "source_commit_time": "2026-11-16T23:55:58Z",
+  "source_commit": "5955df998af1d894b0ffe5db171714232421693a",
+  "source_commit_time": "2026-11-22T15:27:30Z",
   "source_path": "2026/11/16/exactly-two-five-node-bernstein-grids-preserve-circle-positive-d--f6e744bea94d",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-f6e744bea94d",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

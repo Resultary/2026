@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-exact-radial-occupation-and-sharp-moment-transition-at-a-nonhomo--2c5a28832e95",
   "resultary_record_key": "SCOPE-exact-radial-occupation-and-sharp-moment-transition-at-a-nonhomo--2c5a28832e95",
-  "source_commit": "60bfd9ef9aeeb62b6f8ec6042649218b80f2a1cf",
-  "source_commit_time": "2026-11-17T00:10:29Z",
+  "source_commit": "864cc216e9800c6d1e5512c7eee3f70cc0db372e",
+  "source_commit_time": "2026-11-22T15:22:19Z",
   "source_path": "2026/11/17/exact-radial-occupation-and-sharp-moment-transition-at-a-nonhomo--2c5a28832e95",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-2c5a28832e95",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

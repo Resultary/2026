@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-alternating-arm-homotopy-trichotomy-for-three-particle-theta-sta--fd2b05804001",
   "resultary_record_key": "SCOPE-alternating-arm-homotopy-trichotomy-for-three-particle-theta-sta--fd2b05804001",
-  "source_commit": "649389cf31952f5d07c91ead43aa8275187b6b0d",
-  "source_commit_time": "2026-11-17T01:17:11Z",
+  "source_commit": "5f02ad8970ae39020b722df5106c8a2b585a059b",
+  "source_commit_time": "2026-11-22T15:29:50Z",
   "source_path": "2026/11/17/alternating-arm-homotopy-trichotomy-for-three-particle-theta-sta--fd2b05804001",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-fd2b05804001",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

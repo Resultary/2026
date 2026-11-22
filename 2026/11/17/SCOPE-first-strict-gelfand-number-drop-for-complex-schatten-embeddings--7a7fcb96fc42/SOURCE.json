@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-first-strict-gelfand-number-drop-for-complex-schatten-embeddings--7a7fcb96fc42",
   "resultary_record_key": "SCOPE-first-strict-gelfand-number-drop-for-complex-schatten-embeddings--7a7fcb96fc42",
-  "source_commit": "9b744e5b0903f95b563134b1dd09414f05a8e144",
-  "source_commit_time": "2026-11-17T01:05:54Z",
+  "source_commit": "380bb73902cf4119db6990f4a267189400648ad9",
+  "source_commit_time": "2026-11-22T15:28:18Z",
   "source_path": "2026/11/17/first-strict-gelfand-number-drop-for-complex-schatten-embeddings--7a7fcb96fc42",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-7a7fcb96fc42",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

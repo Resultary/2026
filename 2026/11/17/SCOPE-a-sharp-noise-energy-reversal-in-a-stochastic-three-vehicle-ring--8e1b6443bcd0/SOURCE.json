@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-a-sharp-noise-energy-reversal-in-a-stochastic-three-vehicle-ring--8e1b6443bcd0",
   "resultary_record_key": "SCOPE-a-sharp-noise-energy-reversal-in-a-stochastic-three-vehicle-ring--8e1b6443bcd0",
-  "source_commit": "3190f4fbcddcfa61973ef6fd66bf0205d13b1ed8",
-  "source_commit_time": "2026-11-17T00:15:50Z",
+  "source_commit": "4605ceb9d85d10d9001eeb6885d91581801af779",
+  "source_commit_time": "2026-11-22T15:15:02Z",
   "source_path": "2026/11/17/a-sharp-noise-energy-reversal-in-a-stochastic-three-vehicle-ring--8e1b6443bcd0",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-8e1b6443bcd0",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-exact-period-two-census-and-supercritical-onset-in-a-finite-memo--987986a474af",
   "resultary_record_key": "SCOPE-exact-period-two-census-and-supercritical-onset-in-a-finite-memo--987986a474af",
-  "source_commit": "818b31e3ef20d36ef86177bfc4cf469e8d0e85ec",
-  "source_commit_time": "2026-11-17T00:17:32Z",
+  "source_commit": "221fbe345dac4248377999e675960ce251ee581e",
+  "source_commit_time": "2026-11-22T15:30:32Z",
   "source_path": "2026/11/17/exact-period-two-census-and-supercritical-onset-in-a-finite-memo--987986a474af",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-987986a474af",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

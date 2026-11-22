@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/8/SCOPE-a-critical-star-exit-crossover-in-local-random-walk-attachment--80f893635086",
   "resultary_record_key": "SCOPE-a-critical-star-exit-crossover-in-local-random-walk-attachment--80f893635086",
-  "source_commit": "3caae918c542bc47a426dda958f5aff7a8bda2fd",
-  "source_commit_time": "2026-11-08T22:58:54Z",
+  "source_commit": "25b1534c0361773d8903c8df1ffec9b13ff56ae0",
+  "source_commit_time": "2026-11-22T15:30:34Z",
   "source_path": "2026/11/08/a-critical-star-exit-crossover-in-local-random-walk-attachment--80f893635086",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261108-80f893635086",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-09T00:52:25Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

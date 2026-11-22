@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-fourier-invertibility-transition-and-brownian-spectral-law-for-t--ba493bfce7aa",
   "resultary_record_key": "SCOPE-fourier-invertibility-transition-and-brownian-spectral-law-for-t--ba493bfce7aa",
-  "source_commit": "0bb344b2645e03db5938a97e9c361a832fc5b599",
-  "source_commit_time": "2026-11-16T23:35:29Z",
+  "source_commit": "02c72bf1d4190e93aded0962c68ad1cba4827205",
+  "source_commit_time": "2026-11-22T15:19:02Z",
   "source_path": "2026/11/16/fourier-invertibility-transition-and-brownian-spectral-law-for-t--ba493bfce7aa",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-ba493bfce7aa",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

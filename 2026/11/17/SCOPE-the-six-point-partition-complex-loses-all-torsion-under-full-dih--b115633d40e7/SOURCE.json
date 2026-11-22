@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-the-six-point-partition-complex-loses-all-torsion-under-full-dih--b115633d40e7",
   "resultary_record_key": "SCOPE-the-six-point-partition-complex-loses-all-torsion-under-full-dih--b115633d40e7",
-  "source_commit": "256b2dd810522818121e7a007b5e08353891242d",
-  "source_commit_time": "2026-11-17T01:18:37Z",
+  "source_commit": "cd48f4913fc21e128ab9d299bb290343cf5bfb55",
+  "source_commit_time": "2026-11-22T15:15:05Z",
   "source_path": "2026/11/17/the-six-point-partition-complex-loses-all-torsion-under-full-dih--b115633d40e7",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-b115633d40e7",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-sharp-parity-dependent-conic-spline-error-for-planar-ell-p-quasi--a259caf870e6",
   "resultary_record_key": "SCOPE-sharp-parity-dependent-conic-spline-error-for-planar-ell-p-quasi--a259caf870e6",
-  "source_commit": "2167d43b7583ec9c994ee2dc44b8584d67a4cdb4",
-  "source_commit_time": "2026-11-17T01:04:40Z",
+  "source_commit": "df6185e65bdb60cee28ea9402c00b70e7389a2ba",
+  "source_commit_time": "2026-11-22T15:27:33Z",
   "source_path": "2026/11/17/sharp-parity-dependent-conic-spline-error-for-planar-ell-p-quasi--a259caf870e6",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-a259caf870e6",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

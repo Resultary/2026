@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-sharp-polar-cap-slepian-spectral-floors-and-gauss-jacobi-nodal-c--79b626324167",
   "resultary_record_key": "SCOPE-sharp-polar-cap-slepian-spectral-floors-and-gauss-jacobi-nodal-c--79b626324167",
-  "source_commit": "8cba9e60f11b9cf26e657db9e6fd0a1b46cb17c9",
-  "source_commit_time": "2026-11-16T23:42:48Z",
+  "source_commit": "e6747837154ef1588d0d06782ad73c4b9226073f",
+  "source_commit_time": "2026-11-22T15:29:02Z",
   "source_path": "2026/11/16/sharp-polar-cap-slepian-spectral-floors-and-gauss-jacobi-nodal-c--79b626324167",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-79b626324167",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

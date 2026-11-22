@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-sharp-resonance-floor-and-two-term-circular-fourier-decay-of-rec--46af545a9990",
   "resultary_record_key": "SCOPE-sharp-resonance-floor-and-two-term-circular-fourier-decay-of-rec--46af545a9990",
-  "source_commit": "28a25b4e60e2ea3358299f75b07427cf40047091",
-  "source_commit_time": "2026-11-16T23:55:36Z",
+  "source_commit": "22fc1ba69b7fd8556c8e9514cd77a6c4705dffc7",
+  "source_commit_time": "2026-11-22T15:30:30Z",
   "source_path": "2026/11/16/sharp-resonance-floor-and-two-term-circular-fourier-decay-of-rec--46af545a9990",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-46af545a9990",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-an-interior-frequency-splitting-transition-for-three-tone-fourie--4a3bedbd64a2",
   "resultary_record_key": "SCOPE-an-interior-frequency-splitting-transition-for-three-tone-fourie--4a3bedbd64a2",
-  "source_commit": "5a24ad9400ba689100453ef2ce2a772cffe7dba4",
-  "source_commit_time": "2026-11-16T23:58:57Z",
+  "source_commit": "17ee5a35ddeba5b9e2bb6d6453783cd07c3b8bb8",
+  "source_commit_time": "2026-11-22T15:29:01Z",
   "source_path": "2026/11/16/an-interior-frequency-splitting-transition-for-three-tone-fourie--4a3bedbd64a2",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-4a3bedbd64a2",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

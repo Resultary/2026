@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-sharp-complete-pair-gini-norm-of-weighted-star-harmonic-replacem--716352690cc3",
   "resultary_record_key": "SCOPE-sharp-complete-pair-gini-norm-of-weighted-star-harmonic-replacem--716352690cc3",
-  "source_commit": "050740d07a9675a21ef82db473b0f910abb5bf80",
-  "source_commit_time": "2026-11-17T00:55:03Z",
+  "source_commit": "624edca92dd597d56565fd93090793cece526bd2",
+  "source_commit_time": "2026-11-22T15:22:20Z",
   "source_path": "2026/11/17/sharp-complete-pair-gini-norm-of-weighted-star-harmonic-replacem--716352690cc3",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-716352690cc3",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

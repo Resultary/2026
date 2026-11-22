@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-sharp-finite-hermite-spectral-tomography-of-concentric-gaussian--e1ef3ba1736e",
   "resultary_record_key": "SCOPE-sharp-finite-hermite-spectral-tomography-of-concentric-gaussian--e1ef3ba1736e",
-  "source_commit": "ee78a26b3080ff5adc82fa1ad47151cda7257f34",
-  "source_commit_time": "2026-11-16T23:42:27Z",
+  "source_commit": "f8b8e82d8826df7cc6e160cf7facfac6e73c77c2",
+  "source_commit_time": "2026-11-22T15:30:30Z",
   "source_path": "2026/11/16/sharp-finite-hermite-spectral-tomography-of-concentric-gaussian--e1ef3ba1736e",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-e1ef3ba1736e",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

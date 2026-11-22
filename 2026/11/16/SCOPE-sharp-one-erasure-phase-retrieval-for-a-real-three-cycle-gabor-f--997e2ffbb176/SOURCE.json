@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-sharp-one-erasure-phase-retrieval-for-a-real-three-cycle-gabor-f--997e2ffbb176",
   "resultary_record_key": "SCOPE-sharp-one-erasure-phase-retrieval-for-a-real-three-cycle-gabor-f--997e2ffbb176",
-  "source_commit": "e93aa16e788de3ddd3f785af1f39a0ba96fae018",
-  "source_commit_time": "2026-11-16T23:49:20Z",
+  "source_commit": "ba91355cbb9abc2fbe0712b93ed0d5386ca8eb92",
+  "source_commit_time": "2026-11-22T15:28:16Z",
   "source_path": "2026/11/16/sharp-one-erasure-phase-retrieval-for-a-real-three-cycle-gabor-f--997e2ffbb176",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-997e2ffbb176",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

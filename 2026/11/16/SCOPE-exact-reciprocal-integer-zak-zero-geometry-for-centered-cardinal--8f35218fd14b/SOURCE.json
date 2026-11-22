@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-exact-reciprocal-integer-zak-zero-geometry-for-centered-cardinal--8f35218fd14b",
   "resultary_record_key": "SCOPE-exact-reciprocal-integer-zak-zero-geometry-for-centered-cardinal--8f35218fd14b",
-  "source_commit": "3d087a44234f70859aacf968afe00c18386158ae",
-  "source_commit_time": "2026-11-16T23:56:49Z",
+  "source_commit": "ee114388546c444326e7aa5fe06746b4bffed098",
+  "source_commit_time": "2026-11-22T15:30:30Z",
   "source_path": "2026/11/16/exact-reciprocal-integer-zak-zero-geometry-for-centered-cardinal--8f35218fd14b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-8f35218fd14b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

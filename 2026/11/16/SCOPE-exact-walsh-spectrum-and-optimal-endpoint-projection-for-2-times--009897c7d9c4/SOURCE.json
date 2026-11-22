@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-exact-walsh-spectrum-and-optimal-endpoint-projection-for-2-times--009897c7d9c4",
   "resultary_record_key": "SCOPE-exact-walsh-spectrum-and-optimal-endpoint-projection-for-2-times--009897c7d9c4",
-  "source_commit": "a21f634f5acc5df2ae3dc5ad00443a032607f482",
-  "source_commit_time": "2026-11-16T23:37:21Z",
+  "source_commit": "6b4138738eb86a280d37d03c61f896fe9b5d9391",
+  "source_commit_time": "2026-11-22T15:26:13Z",
   "source_path": "2026/11/16/exact-walsh-spectrum-and-optimal-endpoint-projection-for-2-times--009897c7d9c4",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-009897c7d9c4",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

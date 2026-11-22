@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-optimal-signed-lipschitz-extensions-on-cartesian-products-of-cyc--d047c4edf215",
   "resultary_record_key": "SCOPE-optimal-signed-lipschitz-extensions-on-cartesian-products-of-cyc--d047c4edf215",
-  "source_commit": "cba22833e70f86b877988293cb4bc2c78ad44683",
-  "source_commit_time": "2026-11-17T01:01:26Z",
+  "source_commit": "89274abb05e36988021cab81724efb8f2cae23e0",
+  "source_commit_time": "2026-11-22T15:29:04Z",
   "source_path": "2026/11/17/optimal-signed-lipschitz-extensions-on-cartesian-products-of-cyc--d047c4edf215",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-d047c4edf215",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

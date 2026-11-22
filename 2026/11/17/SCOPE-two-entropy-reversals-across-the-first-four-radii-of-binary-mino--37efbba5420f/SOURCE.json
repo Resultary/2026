@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-two-entropy-reversals-across-the-first-four-radii-of-binary-mino--37efbba5420f",
   "resultary_record_key": "SCOPE-two-entropy-reversals-across-the-first-four-radii-of-binary-mino--37efbba5420f",
-  "source_commit": "489f0774a7e6e236567f43a3fa333d1c94974936",
-  "source_commit_time": "2026-11-17T00:01:54Z",
+  "source_commit": "de5a29d7bb5f765a93fe826ec3b9e197012fe3df",
+  "source_commit_time": "2026-11-22T15:29:06Z",
   "source_path": "2026/11/17/two-entropy-reversals-across-the-first-four-radii-of-binary-mino--37efbba5420f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-37efbba5420f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

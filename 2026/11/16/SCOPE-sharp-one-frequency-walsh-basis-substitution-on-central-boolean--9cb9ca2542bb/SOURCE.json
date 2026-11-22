@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-sharp-one-frequency-walsh-basis-substitution-on-central-boolean--9cb9ca2542bb",
   "resultary_record_key": "SCOPE-sharp-one-frequency-walsh-basis-substitution-on-central-boolean--9cb9ca2542bb",
-  "source_commit": "528bd362d72a3c3986140dbf23d7e0ef2cce62cf",
-  "source_commit_time": "2026-11-16T23:58:39Z",
+  "source_commit": "70ca72b64a90b8c6e16fe6eb01235b3cba48fc6f",
+  "source_commit_time": "2026-11-22T15:28:16Z",
   "source_path": "2026/11/16/sharp-one-frequency-walsh-basis-substitution-on-central-boolean--9cb9ca2542bb",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-9cb9ca2542bb",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

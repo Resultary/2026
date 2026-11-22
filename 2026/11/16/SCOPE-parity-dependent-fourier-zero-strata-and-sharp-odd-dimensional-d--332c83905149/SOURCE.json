@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-parity-dependent-fourier-zero-strata-and-sharp-odd-dimensional-d--332c83905149",
   "resultary_record_key": "SCOPE-parity-dependent-fourier-zero-strata-and-sharp-odd-dimensional-d--332c83905149",
-  "source_commit": "43f8967283bcc71ac20f35f6c1e433a5fa526ce6",
-  "source_commit_time": "2026-11-16T23:56:32Z",
+  "source_commit": "94539494464b7c8f3932b244343b146bbfd52fbc",
+  "source_commit_time": "2026-11-22T15:30:30Z",
   "source_path": "2026/11/16/parity-dependent-fourier-zero-strata-and-sharp-odd-dimensional-d--332c83905149",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-332c83905149",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

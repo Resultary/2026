@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-two-distinct-failure-radius-crossovers-for-square-lattice-disk-c--b8ebead585c3",
   "resultary_record_key": "SCOPE-two-distinct-failure-radius-crossovers-for-square-lattice-disk-c--b8ebead585c3",
-  "source_commit": "f4b236338bf3922f62a8b781fa9477d3fa8a8916",
-  "source_commit_time": "2026-11-17T00:25:45Z",
+  "source_commit": "7d99da68cbc5d2002c4385dde753e405e3e7d3f1",
+  "source_commit_time": "2026-11-22T15:28:20Z",
   "source_path": "2026/11/17/two-distinct-failure-radius-crossovers-for-square-lattice-disk-c--b8ebead585c3",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-b8ebead585c3",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

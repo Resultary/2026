@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-a-sharp-uniform-gini-decay-envelope-for-normalized-heat-on-compl--2ed513aa7e24",
   "resultary_record_key": "SCOPE-a-sharp-uniform-gini-decay-envelope-for-normalized-heat-on-compl--2ed513aa7e24",
-  "source_commit": "ae7fbf980cc54cd07933efda478384d80bff4e8a",
-  "source_commit_time": "2026-11-17T00:54:18Z",
+  "source_commit": "c9443602414367ae6e0506740533314acda95a90",
+  "source_commit_time": "2026-11-22T15:27:30Z",
   "source_path": "2026/11/17/a-sharp-uniform-gini-decay-envelope-for-normalized-heat-on-compl--2ed513aa7e24",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-2ed513aa7e24",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

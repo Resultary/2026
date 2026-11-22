@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-null-recurrent-dense-orbits-with-an-endpoint-physical-measure-in--7afc6cb7449a",
   "resultary_record_key": "SCOPE-null-recurrent-dense-orbits-with-an-endpoint-physical-measure-in--7afc6cb7449a",
-  "source_commit": "bcda6301e3eebf685f434da5f5c9c7ae0f59946b",
-  "source_commit_time": "2026-11-17T00:19:58Z",
+  "source_commit": "e340df23ac8bacb0945a8ff838bce571fa16abd5",
+  "source_commit_time": "2026-11-22T15:26:18Z",
   "source_path": "2026/11/17/null-recurrent-dense-orbits-with-an-endpoint-physical-measure-in--7afc6cb7449a",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-7afc6cb7449a",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

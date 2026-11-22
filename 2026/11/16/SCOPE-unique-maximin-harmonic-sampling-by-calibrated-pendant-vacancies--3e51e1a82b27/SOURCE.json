@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-unique-maximin-harmonic-sampling-by-calibrated-pendant-vacancies--3e51e1a82b27",
   "resultary_record_key": "SCOPE-unique-maximin-harmonic-sampling-by-calibrated-pendant-vacancies--3e51e1a82b27",
-  "source_commit": "1acbd1ee09302deacb7990e5d5c551bb8bbb4453",
-  "source_commit_time": "2026-11-16T23:44:58Z",
+  "source_commit": "ab22c6907d43fd8064c00fd7447a3177d688cbd2",
+  "source_commit_time": "2026-11-22T15:29:49Z",
   "source_path": "2026/11/16/unique-maximin-harmonic-sampling-by-calibrated-pendant-vacancies--3e51e1a82b27",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-3e51e1a82b27",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

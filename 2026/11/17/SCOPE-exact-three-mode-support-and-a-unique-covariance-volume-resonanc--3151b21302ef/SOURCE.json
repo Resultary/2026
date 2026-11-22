@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-exact-three-mode-support-and-a-unique-covariance-volume-resonanc--3151b21302ef",
   "resultary_record_key": "SCOPE-exact-three-mode-support-and-a-unique-covariance-volume-resonanc--3151b21302ef",
-  "source_commit": "edebf99b2d9a83fd37e3cffd2318a9b295ec35fd",
-  "source_commit_time": "2026-11-17T00:13:43Z",
+  "source_commit": "d26e69189645f4cd2fed7e7b0e98cd84d2b03686",
+  "source_commit_time": "2026-11-22T15:29:51Z",
   "source_path": "2026/11/17/exact-three-mode-support-and-a-unique-covariance-volume-resonanc--3151b21302ef",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-3151b21302ef",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

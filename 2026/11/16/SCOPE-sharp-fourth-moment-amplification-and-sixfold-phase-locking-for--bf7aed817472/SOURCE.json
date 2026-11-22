@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-sharp-fourth-moment-amplification-and-sixfold-phase-locking-for--bf7aed817472",
   "resultary_record_key": "SCOPE-sharp-fourth-moment-amplification-and-sixfold-phase-locking-for--bf7aed817472",
-  "source_commit": "531836682026cf2b9b9d886daa6118648353c8ec",
-  "source_commit_time": "2026-11-16T23:57:54Z",
+  "source_commit": "9f10f1c3986590caabf5d0a8ec98712fc8a46227",
+  "source_commit_time": "2026-11-22T15:19:03Z",
   "source_path": "2026/11/16/sharp-fourth-moment-amplification-and-sixfold-phase-locking-for--bf7aed817472",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-bf7aed817472",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

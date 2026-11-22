@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-exact-walsh-cancellation-beyond-relabeling-symmetry-for-six-vert--f605ff3212f7",
   "resultary_record_key": "SCOPE-exact-walsh-cancellation-beyond-relabeling-symmetry-for-six-vert--f605ff3212f7",
-  "source_commit": "5f368a22ffdf1ac4dd98be59b15bb8b76c08d16e",
-  "source_commit_time": "2026-11-16T23:39:45Z",
+  "source_commit": "c55985950a70f91ba083cf4554ab98f530bbd000",
+  "source_commit_time": "2026-11-22T15:25:15Z",
   "source_path": "2026/11/16/exact-walsh-cancellation-beyond-relabeling-symmetry-for-six-vert--f605ff3212f7",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-f605ff3212f7",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

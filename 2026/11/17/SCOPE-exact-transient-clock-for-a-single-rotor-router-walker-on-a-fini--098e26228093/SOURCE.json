@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-exact-transient-clock-for-a-single-rotor-router-walker-on-a-fini--098e26228093",
   "resultary_record_key": "SCOPE-exact-transient-clock-for-a-single-rotor-router-walker-on-a-fini--098e26228093",
-  "source_commit": "e79e1c8933ba638cc54cc4385808ff184fcdd734",
-  "source_commit_time": "2026-11-17T00:06:15Z",
+  "source_commit": "5c34a2aa7943ff1d8cb4600454d7cf3a76016202",
+  "source_commit_time": "2026-11-22T15:29:51Z",
   "source_path": "2026/11/17/exact-transient-clock-for-a-single-rotor-router-walker-on-a-fini--098e26228093",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-098e26228093",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

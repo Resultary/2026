@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-quadratic-logarithmic-conditioning-of-dyadic-no-carry-convolutio--d40c312bb1dc",
   "resultary_record_key": "SCOPE-quadratic-logarithmic-conditioning-of-dyadic-no-carry-convolutio--d40c312bb1dc",
-  "source_commit": "5e7a5e752c875045382414abf26c3edeb8149d69",
-  "source_commit_time": "2026-11-16T23:35:26Z",
+  "source_commit": "c7bfa83fc232fbcefe47b4ae2ba3f341d57e0d4d",
+  "source_commit_time": "2026-11-22T15:22:17Z",
   "source_path": "2026/11/16/quadratic-logarithmic-conditioning-of-dyadic-no-carry-convolutio--d40c312bb1dc",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-d40c312bb1dc",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

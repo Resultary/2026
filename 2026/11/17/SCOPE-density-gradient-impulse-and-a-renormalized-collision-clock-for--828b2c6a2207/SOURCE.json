@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-density-gradient-impulse-and-a-renormalized-collision-clock-for--828b2c6a2207",
   "resultary_record_key": "SCOPE-density-gradient-impulse-and-a-renormalized-collision-clock-for--828b2c6a2207",
-  "source_commit": "07498a8924cbc966b11e10fd9b88cd71c29a0752",
-  "source_commit_time": "2026-11-17T00:18:52Z",
+  "source_commit": "4c789fd37b377668ea9e998e76f19cdff437830c",
+  "source_commit_time": "2026-11-22T15:25:17Z",
   "source_path": "2026/11/17/density-gradient-impulse-and-a-renormalized-collision-clock-for--828b2c6a2207",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-828b2c6a2207",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

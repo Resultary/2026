@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-three-torsion-free-boundary-chambers-in-seven-column-multiple-ch--68ff739e0722",
   "resultary_record_key": "SCOPE-three-torsion-free-boundary-chambers-in-seven-column-multiple-ch--68ff739e0722",
-  "source_commit": "371d45a76bb52a173b94705366c98aeb16f5d41e",
-  "source_commit_time": "2026-11-17T01:29:08Z",
+  "source_commit": "885ed455f71019bdc74c0fab1c84d0f16341aed7",
+  "source_commit_time": "2026-11-22T15:30:33Z",
   "source_path": "2026/11/17/three-torsion-free-boundary-chambers-in-seven-column-multiple-ch--68ff739e0722",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-68ff739e0722",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-sharp-basin-inradius-at-the-third-harmonic-onset-of-three-oscill--5494ed9fb275",
   "resultary_record_key": "SCOPE-sharp-basin-inradius-at-the-third-harmonic-onset-of-three-oscill--5494ed9fb275",
-  "source_commit": "a43851c6d9ae613060338418cf801311b1796eab",
-  "source_commit_time": "2026-11-17T00:22:49Z",
+  "source_commit": "3eb0ed3da2beb58f031ef881793ee091a16a2d41",
+  "source_commit_time": "2026-11-22T15:29:51Z",
   "source_path": "2026/11/17/sharp-basin-inradius-at-the-third-harmonic-onset-of-three-oscill--5494ed9fb275",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-5494ed9fb275",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

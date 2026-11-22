@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-exact-vertex-radius-spectrum-and-a-nonconcentrating-chi-square-l--d2e7e384ca60",
   "resultary_record_key": "SCOPE-exact-vertex-radius-spectrum-and-a-nonconcentrating-chi-square-l--d2e7e384ca60",
-  "source_commit": "a237d3c51b24b585206a2f250727c67149d99f8f",
-  "source_commit_time": "2026-11-17T00:35:13Z",
+  "source_commit": "4bbaeb429c7af6730038e6c5bab849915ef3e531",
+  "source_commit_time": "2026-11-22T15:19:05Z",
   "source_path": "2026/11/17/exact-vertex-radius-spectrum-and-a-nonconcentrating-chi-square-l--d2e7e384ca60",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-d2e7e384ca60",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-exact-junction-density-central-localization-and-corner-laws-for--19100300d19b",
   "resultary_record_key": "SCOPE-exact-junction-density-central-localization-and-corner-laws-for--19100300d19b",
-  "source_commit": "4db38a878815a7526125a2cad7967056eca52336",
-  "source_commit_time": "2026-11-17T00:28:17Z",
+  "source_commit": "ce71996ba0aa3cc3d180eefcc6799d43040e26d6",
+  "source_commit_time": "2026-11-22T15:19:05Z",
   "source_path": "2026/11/17/exact-junction-density-central-localization-and-corner-laws-for--19100300d19b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-19100300d19b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

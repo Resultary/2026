@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-dihedral-fixed-points-of-the-eight-point-even-block-partition-co--5b76ed6fc2e8",
   "resultary_record_key": "SCOPE-dihedral-fixed-points-of-the-eight-point-even-block-partition-co--5b76ed6fc2e8",
-  "source_commit": "e4869b9b2f2bec1683899f688370906fd72a49a1",
-  "source_commit_time": "2026-11-17T01:19:34Z",
+  "source_commit": "2c90bf4d0058c18c5f5bc428dc177462ba19606f",
+  "source_commit_time": "2026-11-22T15:26:17Z",
   "source_path": "2026/11/17/dihedral-fixed-points-of-the-eight-point-even-block-partition-co--5b76ed6fc2e8",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-5b76ed6fc2e8",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

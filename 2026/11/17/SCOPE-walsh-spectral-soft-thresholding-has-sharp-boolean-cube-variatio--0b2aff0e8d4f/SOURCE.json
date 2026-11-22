@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-walsh-spectral-soft-thresholding-has-sharp-boolean-cube-variatio--0b2aff0e8d4f",
   "resultary_record_key": "SCOPE-walsh-spectral-soft-thresholding-has-sharp-boolean-cube-variatio--0b2aff0e8d4f",
-  "source_commit": "70c379dad50f1e880466861904c777c5b53c115a",
-  "source_commit_time": "2026-11-17T00:59:51Z",
+  "source_commit": "40eb497d6596dea2a8768e78bf4979a67acfcb78",
+  "source_commit_time": "2026-11-22T15:25:19Z",
   "source_path": "2026/11/17/walsh-spectral-soft-thresholding-has-sharp-boolean-cube-variatio--0b2aff0e8d4f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-0b2aff0e8d4f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

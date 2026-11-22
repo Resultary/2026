@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-global-two-term-critical-slowing-in-an-evolutionary-replicator-i--53feff9182d0",
   "resultary_record_key": "SCOPE-global-two-term-critical-slowing-in-an-evolutionary-replicator-i--53feff9182d0",
-  "source_commit": "ab1746e250054eb2c3c551d5e4d9828cdef602c2",
-  "source_commit_time": "2026-11-17T00:16:47Z",
+  "source_commit": "6abe06c1b485f8940dae3b985793a97ba2758cd1",
+  "source_commit_time": "2026-11-22T15:19:05Z",
   "source_path": "2026/11/17/global-two-term-critical-slowing-in-an-evolutionary-replicator-i--53feff9182d0",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-53feff9182d0",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

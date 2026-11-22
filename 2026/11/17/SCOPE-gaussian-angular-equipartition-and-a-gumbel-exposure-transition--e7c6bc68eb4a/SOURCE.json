@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-gaussian-angular-equipartition-and-a-gumbel-exposure-transition--e7c6bc68eb4a",
   "resultary_record_key": "SCOPE-gaussian-angular-equipartition-and-a-gumbel-exposure-transition--e7c6bc68eb4a",
-  "source_commit": "5dcb890c2d2e45287cb4600aa73171d0f726d4fb",
-  "source_commit_time": "2026-11-17T00:40:19Z",
+  "source_commit": "d703f9874dfcf1f578dfec9ae57880e5d78237c4",
+  "source_commit_time": "2026-11-22T15:29:04Z",
   "source_path": "2026/11/17/gaussian-angular-equipartition-and-a-gumbel-exposure-transition--e7c6bc68eb4a",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-e7c6bc68eb4a",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

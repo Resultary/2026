@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-independent-three-sphere-losses-under-separated-hamming-code-pun--7c16bdbeadde",
   "resultary_record_key": "SCOPE-independent-three-sphere-losses-under-separated-hamming-code-pun--7c16bdbeadde",
-  "source_commit": "c18a790e989a62c2c653719e0190d85f33968304",
-  "source_commit_time": "2026-11-17T01:26:31Z",
+  "source_commit": "1e7f9cbe209b59aecd43edaac6aa79bd0bc8465e",
+  "source_commit_time": "2026-11-22T15:27:32Z",
   "source_path": "2026/11/17/independent-three-sphere-losses-under-separated-hamming-code-pun--7c16bdbeadde",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-7c16bdbeadde",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

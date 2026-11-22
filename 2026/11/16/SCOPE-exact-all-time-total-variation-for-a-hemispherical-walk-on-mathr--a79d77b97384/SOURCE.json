@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-exact-all-time-total-variation-for-a-hemispherical-walk-on-mathr--a79d77b97384",
   "resultary_record_key": "SCOPE-exact-all-time-total-variation-for-a-hemispherical-walk-on-mathr--a79d77b97384",
-  "source_commit": "d9d15f44869884aa45b7dd87920923c9bb264b73",
-  "source_commit_time": "2026-11-16T23:50:23Z",
+  "source_commit": "4e271cf87941fc8f151a02d00e31259b610d0950",
+  "source_commit_time": "2026-11-22T15:30:30Z",
   "source_path": "2026/11/16/exact-all-time-total-variation-for-a-hemispherical-walk-on-mathr--a79d77b97384",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-a79d77b97384",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

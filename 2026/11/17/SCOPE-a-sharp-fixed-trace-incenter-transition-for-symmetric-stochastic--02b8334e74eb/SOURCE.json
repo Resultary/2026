@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-a-sharp-fixed-trace-incenter-transition-for-symmetric-stochastic--02b8334e74eb",
   "resultary_record_key": "SCOPE-a-sharp-fixed-trace-incenter-transition-for-symmetric-stochastic--02b8334e74eb",
-  "source_commit": "d9ff8387fc41d8a91e31006c2e3cbe7205768e9e",
-  "source_commit_time": "2026-11-17T00:34:12Z",
+  "source_commit": "f3e02f64ffa53463b1b4989d31de61476fe66db5",
+  "source_commit_time": "2026-11-22T15:27:30Z",
   "source_path": "2026/11/17/a-sharp-fixed-trace-incenter-transition-for-symmetric-stochastic--02b8334e74eb",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-02b8334e74eb",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

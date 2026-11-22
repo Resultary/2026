@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-a-sharp-length-conditioned-alignment-phase-diagram-for-random-cl--ec2ed5042709",
   "resultary_record_key": "SCOPE-a-sharp-length-conditioned-alignment-phase-diagram-for-random-cl--ec2ed5042709",
-  "source_commit": "9f30864c228ca30a6e18fefe726296017543baf1",
-  "source_commit_time": "2026-11-17T00:29:43Z",
+  "source_commit": "5d6c0ae98677811e2775e27a42e6a16aae3f8918",
+  "source_commit_time": "2026-11-22T15:29:49Z",
   "source_path": "2026/11/17/a-sharp-length-conditioned-alignment-phase-diagram-for-random-cl--ec2ed5042709",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-ec2ed5042709",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

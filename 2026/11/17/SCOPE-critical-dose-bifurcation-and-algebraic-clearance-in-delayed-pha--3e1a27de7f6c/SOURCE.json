@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-critical-dose-bifurcation-and-algebraic-clearance-in-delayed-pha--3e1a27de7f6c",
   "resultary_record_key": "SCOPE-critical-dose-bifurcation-and-algebraic-clearance-in-delayed-pha--3e1a27de7f6c",
-  "source_commit": "6b1b29922e56f1d7ced17502a1f93e8105045c41",
-  "source_commit_time": "2026-11-17T00:16:52Z",
+  "source_commit": "89700bc2a7f009cb799149afe50bccf4600bb0d4",
+  "source_commit_time": "2026-11-22T15:29:03Z",
   "source_path": "2026/11/17/critical-dose-bifurcation-and-algebraic-clearance-in-delayed-pha--3e1a27de7f6c",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-3e1a27de7f6c",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

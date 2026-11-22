@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-positive-second-order-endpoint-corrections-for-areas-and-perimet--11cd17ea6b20",
   "resultary_record_key": "SCOPE-positive-second-order-endpoint-corrections-for-areas-and-perimet--11cd17ea6b20",
-  "source_commit": "e4631f848814efb999c2a485090a4d08301b3984",
-  "source_commit_time": "2026-11-17T00:27:32Z",
+  "source_commit": "de81b1f99e89796abdefef522dbe1f151af6c91b",
+  "source_commit_time": "2026-11-22T15:28:18Z",
   "source_path": "2026/11/17/positive-second-order-endpoint-corrections-for-areas-and-perimet--11cd17ea6b20",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-11cd17ea6b20",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

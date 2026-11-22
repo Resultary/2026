@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-a-complete-parity-and-interlacing-phase-diagram-for-two-chord-no--a753522acf7d",
   "resultary_record_key": "SCOPE-a-complete-parity-and-interlacing-phase-diagram-for-two-chord-no--a753522acf7d",
-  "source_commit": "f786826f550a6bcdc8f85fe7059fa650f4aedcf5",
-  "source_commit_time": "2026-11-17T01:23:37Z",
+  "source_commit": "4b523ec5147938180c10f06c73abb6ea76c1d2ea",
+  "source_commit_time": "2026-11-22T15:26:14Z",
   "source_path": "2026/11/17/a-complete-parity-and-interlacing-phase-diagram-for-two-chord-no--a753522acf7d",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-a753522acf7d",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

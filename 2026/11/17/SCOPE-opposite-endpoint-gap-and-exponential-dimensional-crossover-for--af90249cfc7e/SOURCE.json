@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-opposite-endpoint-gap-and-exponential-dimensional-crossover-for--af90249cfc7e",
   "resultary_record_key": "SCOPE-opposite-endpoint-gap-and-exponential-dimensional-crossover-for--af90249cfc7e",
-  "source_commit": "b61157e1436b439838a5a6c40545ec96af863600",
-  "source_commit_time": "2026-11-17T01:08:41Z",
+  "source_commit": "58da2f693930f50acadb339569a6dd3d71a3fc93",
+  "source_commit_time": "2026-11-22T15:29:04Z",
   "source_path": "2026/11/17/opposite-endpoint-gap-and-exponential-dimensional-crossover-for--af90249cfc7e",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-af90249cfc7e",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

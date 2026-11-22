@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-beyond-all-orders-cancellation-in-quartic-pitchfork-phase-diffus--87a4d3fc8960",
   "resultary_record_key": "SCOPE-beyond-all-orders-cancellation-in-quartic-pitchfork-phase-diffus--87a4d3fc8960",
-  "source_commit": "fd5be5cc6663b8a2535f2d816eb21a71293f9432",
-  "source_commit_time": "2026-11-17T00:13:25Z",
+  "source_commit": "3cb8e46eb24dcd02262b66d656be8d0782903549",
+  "source_commit_time": "2026-11-22T15:19:04Z",
   "source_path": "2026/11/17/beyond-all-orders-cancellation-in-quartic-pitchfork-phase-diffus--87a4d3fc8960",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-87a4d3fc8960",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-a-triangle-chord-creates-quadratic-period-clocks-in-sequential-b--9d6911091739",
   "resultary_record_key": "SCOPE-a-triangle-chord-creates-quadratic-period-clocks-in-sequential-b--9d6911091739",
-  "source_commit": "ab6f96d3ee852213dbf15c6a33aa4f45c466b4c1",
-  "source_commit_time": "2026-11-17T00:04:38Z",
+  "source_commit": "767ae3f3d32034943afa4b51e7efb5f9a15c7a5c",
+  "source_commit_time": "2026-11-22T15:27:31Z",
   "source_path": "2026/11/17/a-triangle-chord-creates-quadratic-period-clocks-in-sequential-b--9d6911091739",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-9d6911091739",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

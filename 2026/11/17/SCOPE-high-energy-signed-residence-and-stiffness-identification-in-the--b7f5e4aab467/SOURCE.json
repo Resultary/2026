@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-high-energy-signed-residence-and-stiffness-identification-in-the--b7f5e4aab467",
   "resultary_record_key": "SCOPE-high-energy-signed-residence-and-stiffness-identification-in-the--b7f5e4aab467",
-  "source_commit": "66bdd868fb652aee33a1dd147855cb521ab3b488",
-  "source_commit_time": "2026-11-17T00:11:36Z",
+  "source_commit": "a65f3a8e7178d9200869568ce4ad4705baf91169",
+  "source_commit_time": "2026-11-22T15:25:17Z",
   "source_path": "2026/11/17/high-energy-signed-residence-and-stiffness-identification-in-the--b7f5e4aab467",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-b7f5e4aab467",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

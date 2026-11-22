@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-sixth-order-fourier-intensity-jets-reconstruct-three-equal-balls--6946541e2c6b",
   "resultary_record_key": "SCOPE-sixth-order-fourier-intensity-jets-reconstruct-three-equal-balls--6946541e2c6b",
-  "source_commit": "72aeea9ab9585a3f0529b186fd312a86f373264a",
-  "source_commit_time": "2026-11-16T23:56:17Z",
+  "source_commit": "1b01841f4949c1e982a69eee22dae6ff45db896f",
+  "source_commit_time": "2026-11-22T15:27:30Z",
   "source_path": "2026/11/16/sixth-order-fourier-intensity-jets-reconstruct-three-equal-balls--6946541e2c6b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-6946541e2c6b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

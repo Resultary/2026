@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-a-two-to-five-selective-relaxation-resonance-in-a-quadratic-stoc--f9b009712602",
   "resultary_record_key": "SCOPE-a-two-to-five-selective-relaxation-resonance-in-a-quadratic-stoc--f9b009712602",
-  "source_commit": "d77ae37dc33f4850dd8216ed4479623dd654d76c",
-  "source_commit_time": "2026-11-17T00:12:10Z",
+  "source_commit": "9dd78455f9a5165e91d7573005418d9e316ef3b1",
+  "source_commit_time": "2026-11-22T15:30:31Z",
   "source_path": "2026/11/17/a-two-to-five-selective-relaxation-resonance-in-a-quadratic-stoc--f9b009712602",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-f9b009712602",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

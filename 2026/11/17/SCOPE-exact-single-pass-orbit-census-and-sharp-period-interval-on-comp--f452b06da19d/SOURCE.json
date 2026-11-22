@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-exact-single-pass-orbit-census-and-sharp-period-interval-on-comp--f452b06da19d",
   "resultary_record_key": "SCOPE-exact-single-pass-orbit-census-and-sharp-period-interval-on-comp--f452b06da19d",
-  "source_commit": "e7321d6ec1582f9a489d35d078837bbd674575e9",
-  "source_commit_time": "2026-11-17T00:00:45Z",
+  "source_commit": "d8e2a3ffbc75a3bd45554aea229ad187157657cc",
+  "source_commit_time": "2026-11-22T15:27:32Z",
   "source_path": "2026/11/17/exact-single-pass-orbit-census-and-sharp-period-interval-on-comp--f452b06da19d",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-f452b06da19d",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

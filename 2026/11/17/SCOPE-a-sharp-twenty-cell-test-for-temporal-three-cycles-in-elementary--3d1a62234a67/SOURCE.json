@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-a-sharp-twenty-cell-test-for-temporal-three-cycles-in-elementary--3d1a62234a67",
   "resultary_record_key": "SCOPE-a-sharp-twenty-cell-test-for-temporal-three-cycles-in-elementary--3d1a62234a67",
-  "source_commit": "797f9c8e3389a44ed06fb53423c0a5f3644146e9",
-  "source_commit_time": "2026-11-17T00:02:13Z",
+  "source_commit": "403e67a6181859bda06f8c52c9cdf8fbed7571cc",
+  "source_commit_time": "2026-11-22T15:26:16Z",
   "source_path": "2026/11/17/a-sharp-twenty-cell-test-for-temporal-three-cycles-in-elementary--3d1a62234a67",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-3d1a62234a67",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

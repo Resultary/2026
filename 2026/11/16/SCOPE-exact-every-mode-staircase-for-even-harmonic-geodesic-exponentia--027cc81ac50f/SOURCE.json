@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-exact-every-mode-staircase-for-even-harmonic-geodesic-exponentia--027cc81ac50f",
   "resultary_record_key": "SCOPE-exact-every-mode-staircase-for-even-harmonic-geodesic-exponentia--027cc81ac50f",
-  "source_commit": "a42effd801ccd2d2d60fed0d03191243992681bc",
-  "source_commit_time": "2026-11-16T23:59:37Z",
+  "source_commit": "46cdc4525badb6bfa1ee1c0d9facbfd7c9fe22a6",
+  "source_commit_time": "2026-11-22T15:25:15Z",
   "source_path": "2026/11/16/exact-every-mode-staircase-for-even-harmonic-geodesic-exponentia--027cc81ac50f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-027cc81ac50f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-petersen-specific-period-doubling-between-cyclic-and-refractory--85df9829d668",
   "resultary_record_key": "SCOPE-petersen-specific-period-doubling-between-cyclic-and-refractory--85df9829d668",
-  "source_commit": "87c464e0e9df40cbff0f7afdb61e7e98e324a416",
-  "source_commit_time": "2026-11-17T00:01:49Z",
+  "source_commit": "3fbcdce6efc2110f7c833535343928de274d882e",
+  "source_commit_time": "2026-11-22T15:26:19Z",
   "source_path": "2026/11/17/petersen-specific-period-doubling-between-cyclic-and-refractory--85df9829d668",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-85df9829d668",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

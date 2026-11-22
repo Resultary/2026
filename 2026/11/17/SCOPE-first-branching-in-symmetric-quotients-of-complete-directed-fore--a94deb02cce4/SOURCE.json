@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-first-branching-in-symmetric-quotients-of-complete-directed-fore--a94deb02cce4",
   "resultary_record_key": "SCOPE-first-branching-in-symmetric-quotients-of-complete-directed-fore--a94deb02cce4",
-  "source_commit": "082a7f15c5fb3ff11965a17ea7f81597801315fc",
-  "source_commit_time": "2026-11-17T01:19:19Z",
+  "source_commit": "b37342dc0647abc4588d1da9f6eda84c3444d1ec",
+  "source_commit_time": "2026-11-22T15:27:32Z",
   "source_path": "2026/11/17/first-branching-in-symmetric-quotients-of-complete-directed-fore--a94deb02cce4",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-a94deb02cce4",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

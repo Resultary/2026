@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-sharp-endpoint-norms-of-complete-multipartite-electrical-gradien--0f6b407e194c",
   "resultary_record_key": "SCOPE-sharp-endpoint-norms-of-complete-multipartite-electrical-gradien--0f6b407e194c",
-  "source_commit": "239983c7180581dca463c879bf1361ad19244e75",
-  "source_commit_time": "2026-11-17T00:52:29Z",
+  "source_commit": "404a9be8797c708af374a8e55c2a882be847cf3d",
+  "source_commit_time": "2026-11-22T15:29:05Z",
   "source_path": "2026/11/17/sharp-endpoint-norms-of-complete-multipartite-electrical-gradien--0f6b407e194c",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-0f6b407e194c",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

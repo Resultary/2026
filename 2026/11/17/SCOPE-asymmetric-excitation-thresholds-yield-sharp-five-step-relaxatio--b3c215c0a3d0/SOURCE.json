@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-asymmetric-excitation-thresholds-yield-sharp-five-step-relaxatio--b3c215c0a3d0",
   "resultary_record_key": "SCOPE-asymmetric-excitation-thresholds-yield-sharp-five-step-relaxatio--b3c215c0a3d0",
-  "source_commit": "26d510df3aa30331e19bd98d648351a0f188dff8",
-  "source_commit_time": "2026-11-17T00:07:56Z",
+  "source_commit": "ce439a6bee153dd0b6d28d4a8e5ea340b91648fb",
+  "source_commit_time": "2026-11-22T15:15:03Z",
   "source_path": "2026/11/17/asymmetric-excitation-thresholds-yield-sharp-five-step-relaxatio--b3c215c0a3d0",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-b3c215c0a3d0",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

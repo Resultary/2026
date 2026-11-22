@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-pole-reversal-fixed-configurations-on-every-finite-multitheta-gr--43f2430517d2",
   "resultary_record_key": "SCOPE-pole-reversal-fixed-configurations-on-every-finite-multitheta-gr--43f2430517d2",
-  "source_commit": "8c58a62caf3a3e0f89da55daf653b6e611b376e2",
-  "source_commit_time": "2026-11-17T01:14:08Z",
+  "source_commit": "1d23591aba580d935e47364f6c33933fce1bebaa",
+  "source_commit_time": "2026-11-22T15:27:32Z",
   "source_path": "2026/11/17/pole-reversal-fixed-configurations-on-every-finite-multitheta-gr--43f2430517d2",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-43f2430517d2",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

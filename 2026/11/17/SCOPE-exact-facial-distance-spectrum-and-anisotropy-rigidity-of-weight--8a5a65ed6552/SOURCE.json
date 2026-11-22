@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-exact-facial-distance-spectrum-and-anisotropy-rigidity-of-weight--8a5a65ed6552",
   "resultary_record_key": "SCOPE-exact-facial-distance-spectrum-and-anisotropy-rigidity-of-weight--8a5a65ed6552",
-  "source_commit": "686ecf38294c649e1a713ba2f7374b5a883813d9",
-  "source_commit_time": "2026-11-17T00:43:09Z",
+  "source_commit": "3655bad15d81eedd1abdbce66cdad56c1439a07b",
+  "source_commit_time": "2026-11-22T15:27:31Z",
   "source_path": "2026/11/17/exact-facial-distance-spectrum-and-anisotropy-rigidity-of-weight--8a5a65ed6552",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-8a5a65ed6552",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

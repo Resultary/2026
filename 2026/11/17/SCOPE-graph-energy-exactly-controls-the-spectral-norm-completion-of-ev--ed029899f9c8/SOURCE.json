@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-graph-energy-exactly-controls-the-spectral-norm-completion-of-ev--ed029899f9c8",
   "resultary_record_key": "SCOPE-graph-energy-exactly-controls-the-spectral-norm-completion-of-ev--ed029899f9c8",
-  "source_commit": "7c8c9956286c2628f5e51e847d6832622ad0e4d3",
-  "source_commit_time": "2026-11-17T01:09:28Z",
+  "source_commit": "81e6611eac456205be6e41b87813e8f871dbe2ba",
+  "source_commit_time": "2026-11-22T15:22:19Z",
   "source_path": "2026/11/17/graph-energy-exactly-controls-the-spectral-norm-completion-of-ev--ed029899f9c8",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-ed029899f9c8",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

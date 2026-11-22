@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-exact-gaussian-exposure-inertia-and-a-radial-central-limit-law-f--61181dad6655",
   "resultary_record_key": "SCOPE-exact-gaussian-exposure-inertia-and-a-radial-central-limit-law-f--61181dad6655",
-  "source_commit": "ff78531cda60820aa6711c38ff059e50c4ce375b",
-  "source_commit_time": "2026-11-17T00:36:45Z",
+  "source_commit": "e8b139783ac1837dcec836edcf0ee812fdbf4952",
+  "source_commit_time": "2026-11-22T15:28:17Z",
   "source_path": "2026/11/17/exact-gaussian-exposure-inertia-and-a-radial-central-limit-law-f--61181dad6655",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-61181dad6655",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

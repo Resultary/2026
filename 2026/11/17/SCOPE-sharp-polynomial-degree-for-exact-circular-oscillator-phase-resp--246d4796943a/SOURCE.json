@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-sharp-polynomial-degree-for-exact-circular-oscillator-phase-resp--246d4796943a",
   "resultary_record_key": "SCOPE-sharp-polynomial-degree-for-exact-circular-oscillator-phase-resp--246d4796943a",
-  "source_commit": "de3c78f0a60a919bb13a956838f339dd3493bd6e",
-  "source_commit_time": "2026-11-17T00:14:14Z",
+  "source_commit": "63fdc5894cbeb577f4077bcc2ad2a1b1681c2bf1",
+  "source_commit_time": "2026-11-22T15:28:19Z",
   "source_path": "2026/11/17/sharp-polynomial-degree-for-exact-circular-oscillator-phase-resp--246d4796943a",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-246d4796943a",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-exact-run-erosion-clocks-for-thresholded-cyclic-dynamics-on-comp--12aea730a97d",
   "resultary_record_key": "SCOPE-exact-run-erosion-clocks-for-thresholded-cyclic-dynamics-on-comp--12aea730a97d",
-  "source_commit": "8464cc6a8f20bfd055f4d0c5642e68ec00e7fffc",
-  "source_commit_time": "2026-11-17T00:06:55Z",
+  "source_commit": "4e08484b1190e2650fcfc1630f70dab3e780b8bb",
+  "source_commit_time": "2026-11-22T15:26:18Z",
   "source_path": "2026/11/17/exact-run-erosion-clocks-for-thresholded-cyclic-dynamics-on-comp--12aea730a97d",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-12aea730a97d",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

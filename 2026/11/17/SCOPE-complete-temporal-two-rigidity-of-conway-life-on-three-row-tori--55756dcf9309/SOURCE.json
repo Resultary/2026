@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-complete-temporal-two-rigidity-of-conway-life-on-three-row-tori--55756dcf9309",
   "resultary_record_key": "SCOPE-complete-temporal-two-rigidity-of-conway-life-on-three-row-tori--55756dcf9309",
-  "source_commit": "22a62e1c9fdeb99c3593ebcbe29fe4bb346608aa",
-  "source_commit_time": "2026-11-17T00:04:44Z",
+  "source_commit": "b532d0cbd9e894093947686ed96ce2a3cc6fc411",
+  "source_commit_time": "2026-11-22T15:22:19Z",
   "source_path": "2026/11/17/complete-temporal-two-rigidity-of-conway-life-on-three-row-tori--55756dcf9309",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-55756dcf9309",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

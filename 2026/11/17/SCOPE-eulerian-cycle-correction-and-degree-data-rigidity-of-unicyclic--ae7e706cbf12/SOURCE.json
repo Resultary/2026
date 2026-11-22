@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-eulerian-cycle-correction-and-degree-data-rigidity-of-unicyclic--ae7e706cbf12",
   "resultary_record_key": "SCOPE-eulerian-cycle-correction-and-degree-data-rigidity-of-unicyclic--ae7e706cbf12",
-  "source_commit": "c0a912c3ae35ac3334eb8f88973d65773ffe361b",
-  "source_commit_time": "2026-11-17T00:35:58Z",
+  "source_commit": "bdf8258f9d9b239f117dd5beac7c359b31bcbe7e",
+  "source_commit_time": "2026-11-22T15:22:19Z",
   "source_path": "2026/11/17/eulerian-cycle-correction-and-degree-data-rigidity-of-unicyclic--ae7e706cbf12",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-ae7e706cbf12",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

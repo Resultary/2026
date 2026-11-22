@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-an-intrashore-bond-converts-balanced-majority-equilibria-into-os--3e701bd2cce6",
   "resultary_record_key": "SCOPE-an-intrashore-bond-converts-balanced-majority-equilibria-into-os--3e701bd2cce6",
-  "source_commit": "3d92c6c16833f7354eca4ed287a31e4849f3834d",
-  "source_commit_time": "2026-11-17T00:01:25Z",
+  "source_commit": "2fdc8ddb8696d38a222893864128cd7101ed7ff3",
+  "source_commit_time": "2026-11-22T15:28:17Z",
   "source_path": "2026/11/17/an-intrashore-bond-converts-balanced-majority-equilibria-into-os--3e701bd2cce6",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-3e701bd2cce6",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

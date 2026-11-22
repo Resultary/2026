@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-a-two-incidence-robustness-threshold-for-heawood-majority-consen--e9162fa87a03",
   "resultary_record_key": "SCOPE-a-two-incidence-robustness-threshold-for-heawood-majority-consen--e9162fa87a03",
-  "source_commit": "4ff9680b64b65cc84f73acfd46b88dff2d1de47f",
-  "source_commit_time": "2026-11-17T00:03:42Z",
+  "source_commit": "10d2b061f886bded37c677cad459556646915c7b",
+  "source_commit_time": "2026-11-22T15:29:03Z",
   "source_path": "2026/11/17/a-two-incidence-robustness-threshold-for-heawood-majority-consen--e9162fa87a03",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-e9162fa87a03",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

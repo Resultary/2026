@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-parity-controlled-fourier-invertibility-and-sharp-endpoint-proje--4482b9215eb1",
   "resultary_record_key": "SCOPE-parity-controlled-fourier-invertibility-and-sharp-endpoint-proje--4482b9215eb1",
-  "source_commit": "d87d7f3a62448efac941c4f20cbc1fe162588b93",
-  "source_commit_time": "2026-11-16T23:36:17Z",
+  "source_commit": "f7de96c1c365f924e135f79a5d791c537ca73755",
+  "source_commit_time": "2026-11-22T15:29:48Z",
   "source_path": "2026/11/16/parity-controlled-fourier-invertibility-and-sharp-endpoint-proje--4482b9215eb1",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-4482b9215eb1",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-sharp-geodesic-width-profiles-at-every-local-minimum-of-a-tree-g--c70b30c88547",
   "resultary_record_key": "SCOPE-sharp-geodesic-width-profiles-at-every-local-minimum-of-a-tree-g--c70b30c88547",
-  "source_commit": "2c177a420b2b2ac1c9aec2f2086c3639c85db7d2",
-  "source_commit_time": "2026-11-17T00:33:16Z",
+  "source_commit": "c4b923f9a5130053fa6ce92f0b2782ffb5ab7116",
+  "source_commit_time": "2026-11-22T15:15:04Z",
   "source_path": "2026/11/17/sharp-geodesic-width-profiles-at-every-local-minimum-of-a-tree-g--c70b30c88547",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-c70b30c88547",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

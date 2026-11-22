@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-complete-tetrahedral-volume-spectrum-and-rigid-maximal-disphenoi--a56927afafe2",
   "resultary_record_key": "SCOPE-complete-tetrahedral-volume-spectrum-and-rigid-maximal-disphenoi--a56927afafe2",
-  "source_commit": "684e768f228081d531e489b385c8f9771eafe8f5",
-  "source_commit_time": "2026-11-17T00:34:03Z",
+  "source_commit": "67122d45fcc743c9da831fd06038a8e1171efb84",
+  "source_commit_time": "2026-11-22T15:22:19Z",
   "source_path": "2026/11/17/complete-tetrahedral-volume-spectrum-and-rigid-maximal-disphenoi--a56927afafe2",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-a56927afafe2",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

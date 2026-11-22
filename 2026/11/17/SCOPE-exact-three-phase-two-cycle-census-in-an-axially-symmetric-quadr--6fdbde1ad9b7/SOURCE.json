@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-exact-three-phase-two-cycle-census-in-an-axially-symmetric-quadr--6fdbde1ad9b7",
   "resultary_record_key": "SCOPE-exact-three-phase-two-cycle-census-in-an-axially-symmetric-quadr--6fdbde1ad9b7",
-  "source_commit": "e5a8d3c95a5e819a27e97309e0419ab4455bdbbe",
-  "source_commit_time": "2026-11-17T00:09:04Z",
+  "source_commit": "980a9597a78851fd8396aa600fdde4bb3e245294",
+  "source_commit_time": "2026-11-22T15:29:51Z",
   "source_path": "2026/11/17/exact-three-phase-two-cycle-census-in-an-axially-symmetric-quadr--6fdbde1ad9b7",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-6fdbde1ad9b7",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

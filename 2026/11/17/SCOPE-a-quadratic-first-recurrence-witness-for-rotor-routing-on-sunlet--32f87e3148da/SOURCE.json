@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-a-quadratic-first-recurrence-witness-for-rotor-routing-on-sunlet--32f87e3148da",
   "resultary_record_key": "SCOPE-a-quadratic-first-recurrence-witness-for-rotor-routing-on-sunlet--32f87e3148da",
-  "source_commit": "ae153effb670137ccf5cfbf04dbd72d66b206a0d",
-  "source_commit_time": "2026-11-17T00:08:06Z",
+  "source_commit": "68f0ebdf2f92ddfc57a0447edae72b74d55c48ef",
+  "source_commit_time": "2026-11-22T15:29:49Z",
   "source_path": "2026/11/17/a-quadratic-first-recurrence-witness-for-rotor-routing-on-sunlet--32f87e3148da",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-32f87e3148da",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

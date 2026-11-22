@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-exact-cluster-geometry-of-the-original-akima-interpolant-at-slop--120d33de6aaa",
   "resultary_record_key": "SCOPE-exact-cluster-geometry-of-the-original-akima-interpolant-at-slop--120d33de6aaa",
-  "source_commit": "f86d2af0a9cceaee8e550e09b4d841945b16f55d",
-  "source_commit_time": "2026-11-17T00:59:49Z",
+  "source_commit": "74658e96226f31d0be4b4cbb67e2a657003d8e2e",
+  "source_commit_time": "2026-11-22T15:29:03Z",
   "source_path": "2026/11/17/exact-cluster-geometry-of-the-original-akima-interpolant-at-slop--120d33de6aaa",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-120d33de6aaa",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

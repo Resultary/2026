@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-sharp-hub-disc-ownership-and-false-safety-transitions-on-unique--9c990f9cf2b4",
   "resultary_record_key": "SCOPE-sharp-hub-disc-ownership-and-false-safety-transitions-on-unique--9c990f9cf2b4",
-  "source_commit": "44f0fc8525568a3f490b9237022c80225f792493",
-  "source_commit_time": "2026-11-17T00:19:11Z",
+  "source_commit": "ac1999335f30bf9fc6873afa4defa41f44e8d5f8",
+  "source_commit_time": "2026-11-22T15:27:33Z",
   "source_path": "2026/11/17/sharp-hub-disc-ownership-and-false-safety-transitions-on-unique--9c990f9cf2b4",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-9c990f9cf2b4",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

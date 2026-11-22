@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-unbounded-stable-state-multiplicity-and-fold-staircase-in-a-sinu--5ab26dddcb2a",
   "resultary_record_key": "SCOPE-unbounded-stable-state-multiplicity-and-fold-staircase-in-a-sinu--5ab26dddcb2a",
-  "source_commit": "08bcb38a0297ff0d4898d4f10448b7708fb2900d",
-  "source_commit_time": "2026-11-17T00:16:56Z",
+  "source_commit": "015316be44766e026fa2b38cf268c2c607d2c0ea",
+  "source_commit_time": "2026-11-22T15:28:20Z",
   "source_path": "2026/11/17/unbounded-stable-state-multiplicity-and-fold-staircase-in-a-sinu--5ab26dddcb2a",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-5ab26dddcb2a",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

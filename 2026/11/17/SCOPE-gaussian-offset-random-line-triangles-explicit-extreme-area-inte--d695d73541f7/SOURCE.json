@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-gaussian-offset-random-line-triangles-explicit-extreme-area-inte--d695d73541f7",
   "resultary_record_key": "SCOPE-gaussian-offset-random-line-triangles-explicit-extreme-area-inte--d695d73541f7",
-  "source_commit": "e0ecd14f3b5e4b84a05d65550f144a17f054a82c",
-  "source_commit_time": "2026-11-17T00:29:41Z",
+  "source_commit": "27e27d92fa0df2af3b11b93742b70a9eb4e72002",
+  "source_commit_time": "2026-11-22T15:29:04Z",
   "source_path": "2026/11/17/gaussian-offset-random-line-triangles-explicit-extreme-area-inte--d695d73541f7",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-d695d73541f7",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

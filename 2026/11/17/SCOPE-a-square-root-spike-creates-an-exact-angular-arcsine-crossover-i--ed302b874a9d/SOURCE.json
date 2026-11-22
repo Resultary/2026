@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-a-square-root-spike-creates-an-exact-angular-arcsine-crossover-i--ed302b874a9d",
   "resultary_record_key": "SCOPE-a-square-root-spike-creates-an-exact-angular-arcsine-crossover-i--ed302b874a9d",
-  "source_commit": "c95adb68bd8f8d4900125dd5f599d682361987ff",
-  "source_commit_time": "2026-11-17T00:36:48Z",
+  "source_commit": "e32f317f88c8602cfbd952cbeb8ddc285ccb438c",
+  "source_commit_time": "2026-11-22T15:15:03Z",
   "source_path": "2026/11/17/a-square-root-spike-creates-an-exact-angular-arcsine-crossover-i--ed302b874a9d",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-ed302b874a9d",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

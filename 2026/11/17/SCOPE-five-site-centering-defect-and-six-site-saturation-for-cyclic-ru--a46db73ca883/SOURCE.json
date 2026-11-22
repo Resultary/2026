@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-five-site-centering-defect-and-six-site-saturation-for-cyclic-ru--a46db73ca883",
   "resultary_record_key": "SCOPE-five-site-centering-defect-and-six-site-saturation-for-cyclic-ru--a46db73ca883",
-  "source_commit": "b0b1f336300b9efeabb0925d022b5659beb5625b",
-  "source_commit_time": "2026-11-17T00:54:01Z",
+  "source_commit": "a7e15e851cb5e935931d049cfde3244bb389ea0b",
+  "source_commit_time": "2026-11-22T15:29:04Z",
   "source_path": "2026/11/17/five-site-centering-defect-and-six-site-saturation-for-cyclic-ru--a46db73ca883",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-a46db73ca883",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

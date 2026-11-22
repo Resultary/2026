@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-exact-three-cycle-zeta-and-a-persistent-clock-contrast-on-two-ro--5cd946aeebcc",
   "resultary_record_key": "SCOPE-exact-three-cycle-zeta-and-a-persistent-clock-contrast-on-two-ro--5cd946aeebcc",
-  "source_commit": "560246c71c216918ffd5113965774ce6b63c4fc4",
-  "source_commit_time": "2026-11-17T00:05:48Z",
+  "source_commit": "b0c5230aa1385486860a1f5456f20e3e4a388704",
+  "source_commit_time": "2026-11-22T15:29:04Z",
   "source_path": "2026/11/17/exact-three-cycle-zeta-and-a-persistent-clock-contrast-on-two-ro--5cd946aeebcc",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-5cd946aeebcc",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

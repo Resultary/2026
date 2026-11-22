@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-no-oscillators-on-the-two-row-conway-life-cylinder-a-strict-desc--149ae5d896db",
   "resultary_record_key": "SCOPE-no-oscillators-on-the-two-row-conway-life-cylinder-a-strict-desc--149ae5d896db",
-  "source_commit": "69f374878aba1d3567784f022d233b062fbcc612",
-  "source_commit_time": "2026-11-17T00:02:18Z",
+  "source_commit": "89725671dcd0bf4fcb94e706d03a99047f57a8f0",
+  "source_commit_time": "2026-11-22T15:25:17Z",
   "source_path": "2026/11/17/no-oscillators-on-the-two-row-conway-life-cylinder-a-strict-desc--149ae5d896db",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-149ae5d896db",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

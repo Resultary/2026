@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-exact-radial-spectrum-and-innermost-vertex-shell-of-wheel-graphi--76d589b84928",
   "resultary_record_key": "SCOPE-exact-radial-spectrum-and-innermost-vertex-shell-of-wheel-graphi--76d589b84928",
-  "source_commit": "2f8e0c9dbbd2ebdf8130bf84e70d8666571f91c0",
-  "source_commit_time": "2026-11-17T00:41:19Z",
+  "source_commit": "ed4b428ea264cb7cb8f2e410bf9e98376bc03576",
+  "source_commit_time": "2026-11-22T15:22:19Z",
   "source_path": "2026/11/17/exact-radial-spectrum-and-innermost-vertex-shell-of-wheel-graphi--76d589b84928",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-76d589b84928",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

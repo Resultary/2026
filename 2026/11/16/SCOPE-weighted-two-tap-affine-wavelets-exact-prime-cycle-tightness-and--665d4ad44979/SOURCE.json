@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-weighted-two-tap-affine-wavelets-exact-prime-cycle-tightness-and--665d4ad44979",
   "resultary_record_key": "SCOPE-weighted-two-tap-affine-wavelets-exact-prime-cycle-tightness-and--665d4ad44979",
-  "source_commit": "32af2deefaf60f8d5bcee90ff0c44e0748c1c2de",
-  "source_commit_time": "2026-11-16T23:42:32Z",
+  "source_commit": "d7bc42cdec22aa4d3fda9697d1dbe6a479299e36",
+  "source_commit_time": "2026-11-22T15:30:30Z",
   "source_path": "2026/11/16/weighted-two-tap-affine-wavelets-exact-prime-cycle-tightness-and--665d4ad44979",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-665d4ad44979",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

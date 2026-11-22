@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-critical-three-phase-excitation-clocks-have-no-transient-ancesto--a9501d674038",
   "resultary_record_key": "SCOPE-critical-three-phase-excitation-clocks-have-no-transient-ancesto--a9501d674038",
-  "source_commit": "e82c2c50d4e4884fb05ce280cb214ac770594040",
-  "source_commit_time": "2026-11-17T00:01:20Z",
+  "source_commit": "5ce71f3f4e345ad733075d70d43881c254108011",
+  "source_commit_time": "2026-11-22T15:29:50Z",
   "source_path": "2026/11/17/critical-three-phase-excitation-clocks-have-no-transient-ancesto--a9501d674038",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-a9501d674038",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

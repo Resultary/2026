@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-equilibrium-flux-locking-and-three-way-anticorrelation-in-a-vert--53c6ef853a64",
   "resultary_record_key": "SCOPE-equilibrium-flux-locking-and-three-way-anticorrelation-in-a-vert--53c6ef853a64",
-  "source_commit": "2b643d0033594ffa6d9d77ddfa3bb51a8d1ba0be",
-  "source_commit_time": "2026-11-17T00:10:11Z",
+  "source_commit": "5f7145dfc48b925d92bde10b36a3a3b8968c10e5",
+  "source_commit_time": "2026-11-22T15:15:03Z",
   "source_path": "2026/11/17/equilibrium-flux-locking-and-three-way-anticorrelation-in-a-vert--53c6ef853a64",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-53c6ef853a64",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

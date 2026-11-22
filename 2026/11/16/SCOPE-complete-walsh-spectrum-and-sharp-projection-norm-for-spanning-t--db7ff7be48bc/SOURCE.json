@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-complete-walsh-spectrum-and-sharp-projection-norm-for-spanning-t--db7ff7be48bc",
   "resultary_record_key": "SCOPE-complete-walsh-spectrum-and-sharp-projection-norm-for-spanning-t--db7ff7be48bc",
-  "source_commit": "9657e2b72fb4be9c4a772f57a305eb613a4a14fe",
-  "source_commit_time": "2026-11-16T23:38:50Z",
+  "source_commit": "6b49786a0c9764c46e1aadf5852bdaa5ab06c19c",
+  "source_commit_time": "2026-11-22T15:26:12Z",
   "source_path": "2026/11/16/complete-walsh-spectrum-and-sharp-projection-norm-for-spanning-t--db7ff7be48bc",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-db7ff7be48bc",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

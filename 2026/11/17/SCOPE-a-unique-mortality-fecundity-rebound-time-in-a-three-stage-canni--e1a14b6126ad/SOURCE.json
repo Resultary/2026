@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-a-unique-mortality-fecundity-rebound-time-in-a-three-stage-canni--e1a14b6126ad",
   "resultary_record_key": "SCOPE-a-unique-mortality-fecundity-rebound-time-in-a-three-stage-canni--e1a14b6126ad",
-  "source_commit": "2cad80d0d25f44181071c143c54faf4aaaeb3a3f",
-  "source_commit_time": "2026-11-17T00:14:33Z",
+  "source_commit": "2bd69691153209cbf30f04610e347fdce8a02e36",
+  "source_commit_time": "2026-11-22T15:15:03Z",
   "source_path": "2026/11/17/a-unique-mortality-fecundity-rebound-time-in-a-three-stage-canni--e1a14b6126ad",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-e1a14b6126ad",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

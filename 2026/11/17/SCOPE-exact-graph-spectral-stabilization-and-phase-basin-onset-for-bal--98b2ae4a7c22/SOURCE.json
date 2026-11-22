@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-exact-graph-spectral-stabilization-and-phase-basin-onset-for-bal--98b2ae4a7c22",
   "resultary_record_key": "SCOPE-exact-graph-spectral-stabilization-and-phase-basin-onset-for-bal--98b2ae4a7c22",
-  "source_commit": "83b7a0b2e97f6c6d3292633440d840fbbd63bf23",
-  "source_commit_time": "2026-11-17T00:23:05Z",
+  "source_commit": "e9375e2ca6a0dc56ffcd02ec9e2613ffa732f335",
+  "source_commit_time": "2026-11-22T15:29:04Z",
   "source_path": "2026/11/17/exact-graph-spectral-stabilization-and-phase-basin-onset-for-bal--98b2ae4a7c22",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-98b2ae4a7c22",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

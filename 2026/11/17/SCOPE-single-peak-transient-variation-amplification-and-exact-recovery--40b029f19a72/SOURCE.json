@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-single-peak-transient-variation-amplification-and-exact-recovery--40b029f19a72",
   "resultary_record_key": "SCOPE-single-peak-transient-variation-amplification-and-exact-recovery--40b029f19a72",
-  "source_commit": "3fb89c5358be60387186c880ec1c5556cd5a7166",
-  "source_commit_time": "2026-11-17T00:57:47Z",
+  "source_commit": "4377cd09f52a9af3816d078fd5f29da5a3bcc197",
+  "source_commit_time": "2026-11-22T15:26:19Z",
   "source_path": "2026/11/17/single-peak-transient-variation-amplification-and-exact-recovery--40b029f19a72",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-40b029f19a72",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

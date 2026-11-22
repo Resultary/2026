@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-thin-ellipse-separation-of-acuteness-and-center-enclosure--3bc379341b7e",
   "resultary_record_key": "SCOPE-thin-ellipse-separation-of-acuteness-and-center-enclosure--3bc379341b7e",
-  "source_commit": "be55820e349a84529814422768d2adcb2853bdac",
-  "source_commit_time": "2026-11-17T00:29:59Z",
+  "source_commit": "d4c24ed4e60d67a03cc30496e783644e858872d3",
+  "source_commit_time": "2026-11-22T15:22:21Z",
   "source_path": "2026/11/17/thin-ellipse-separation-of-acuteness-and-center-enclosure--3bc379341b7e",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-3bc379341b7e",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

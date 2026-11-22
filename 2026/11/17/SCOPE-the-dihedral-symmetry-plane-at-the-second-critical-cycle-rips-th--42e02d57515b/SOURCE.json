@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-the-dihedral-symmetry-plane-at-the-second-critical-cycle-rips-th--42e02d57515b",
   "resultary_record_key": "SCOPE-the-dihedral-symmetry-plane-at-the-second-critical-cycle-rips-th--42e02d57515b",
-  "source_commit": "0ffc36070f296ecfacf5be82ef291081dec1767e",
-  "source_commit_time": "2026-11-17T01:11:30Z",
+  "source_commit": "286dd9db74172c57c0ac4285d7d309a08e2feb98",
+  "source_commit_time": "2026-11-22T15:28:19Z",
   "source_path": "2026/11/17/the-dihedral-symmetry-plane-at-the-second-critical-cycle-rips-th--42e02d57515b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-42e02d57515b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

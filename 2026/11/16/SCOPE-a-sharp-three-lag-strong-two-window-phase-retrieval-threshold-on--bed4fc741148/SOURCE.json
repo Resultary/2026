@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-a-sharp-three-lag-strong-two-window-phase-retrieval-threshold-on--bed4fc741148",
   "resultary_record_key": "SCOPE-a-sharp-three-lag-strong-two-window-phase-retrieval-threshold-on--bed4fc741148",
-  "source_commit": "10df27e4062e31217897eb780f8a3afbb74f6871",
-  "source_commit_time": "2026-11-16T23:55:10Z",
+  "source_commit": "5d168dc7c096862834492740127703164897144b",
+  "source_commit_time": "2026-11-22T15:19:02Z",
   "source_path": "2026/11/16/a-sharp-three-lag-strong-two-window-phase-retrieval-threshold-on--bed4fc741148",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-bed4fc741148",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

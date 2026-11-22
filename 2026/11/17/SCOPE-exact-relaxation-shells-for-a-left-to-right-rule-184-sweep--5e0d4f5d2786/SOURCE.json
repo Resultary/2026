@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-exact-relaxation-shells-for-a-left-to-right-rule-184-sweep--5e0d4f5d2786",
   "resultary_record_key": "SCOPE-exact-relaxation-shells-for-a-left-to-right-rule-184-sweep--5e0d4f5d2786",
-  "source_commit": "0f59ec94b7cf44a6005e2b4f127de9a54789f2b2",
-  "source_commit_time": "2026-11-17T00:07:04Z",
+  "source_commit": "686bf2fad8640f11b44a71a56fa02f8e7524061e",
+  "source_commit_time": "2026-11-22T15:25:17Z",
   "source_path": "2026/11/17/exact-relaxation-shells-for-a-left-to-right-rule-184-sweep--5e0d4f5d2786",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-5e0d4f5d2786",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

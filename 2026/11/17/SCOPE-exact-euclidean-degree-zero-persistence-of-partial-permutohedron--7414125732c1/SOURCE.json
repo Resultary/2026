@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-exact-euclidean-degree-zero-persistence-of-partial-permutohedron--7414125732c1",
   "resultary_record_key": "SCOPE-exact-euclidean-degree-zero-persistence-of-partial-permutohedron--7414125732c1",
-  "source_commit": "0bf6761830f08ec7659c68e585ee492120269412",
-  "source_commit_time": "2026-11-17T00:32:55Z",
+  "source_commit": "242d05ae7647fd3c8bec3158d658a7c6939164c5",
+  "source_commit_time": "2026-11-22T15:22:19Z",
   "source_path": "2026/11/17/exact-euclidean-degree-zero-persistence-of-partial-permutohedron--7414125732c1",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-7414125732c1",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

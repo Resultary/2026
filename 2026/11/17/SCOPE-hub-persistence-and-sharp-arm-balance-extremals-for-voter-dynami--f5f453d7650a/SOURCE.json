@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-hub-persistence-and-sharp-arm-balance-extremals-for-voter-dynami--f5f453d7650a",
   "resultary_record_key": "SCOPE-hub-persistence-and-sharp-arm-balance-extremals-for-voter-dynami--f5f453d7650a",
-  "source_commit": "fe97dfc852c218ceac0ae3588356fd55ece6bb25",
-  "source_commit_time": "2026-11-17T00:00:12Z",
+  "source_commit": "c8b6092f4d11a7c911ffcaafc2148eeaa9043b6b",
+  "source_commit_time": "2026-11-22T15:26:18Z",
   "source_path": "2026/11/17/hub-persistence-and-sharp-arm-balance-extremals-for-voter-dynami--f5f453d7650a",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-f5f453d7650a",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

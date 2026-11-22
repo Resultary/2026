@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-complete-dihedral-homology-characters-and-rational-quotients-of--e761de5afaa9",
   "resultary_record_key": "SCOPE-complete-dihedral-homology-characters-and-rational-quotients-of--e761de5afaa9",
-  "source_commit": "49582d4e5d563614ddd680e1d2e6d7d22338ee27",
-  "source_commit_time": "2026-11-17T01:12:17Z",
+  "source_commit": "aac81de7a986f32e1c47e908de41e14a5b90fb8e",
+  "source_commit_time": "2026-11-22T15:29:50Z",
   "source_path": "2026/11/17/complete-dihedral-homology-characters-and-rational-quotients-of--e761de5afaa9",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-e761de5afaa9",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-sharp-logarithmic-gini-amplification-by-finite-ces-ro-averaging--f64323950b96",
   "resultary_record_key": "SCOPE-sharp-logarithmic-gini-amplification-by-finite-ces-ro-averaging--f64323950b96",
-  "source_commit": "601849b40f50835d5fae9a5311c52bd7834a5781",
-  "source_commit_time": "2026-11-17T00:53:44Z",
+  "source_commit": "49a3db2c659cf763de599ae4c3a770f1e15277e3",
+  "source_commit_time": "2026-11-22T15:15:04Z",
   "source_path": "2026/11/17/sharp-logarithmic-gini-amplification-by-finite-ces-ro-averaging--f64323950b96",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-f64323950b96",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

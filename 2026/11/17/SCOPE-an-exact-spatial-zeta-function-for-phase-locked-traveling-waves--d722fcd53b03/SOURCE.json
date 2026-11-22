@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-an-exact-spatial-zeta-function-for-phase-locked-traveling-waves--d722fcd53b03",
   "resultary_record_key": "SCOPE-an-exact-spatial-zeta-function-for-phase-locked-traveling-waves--d722fcd53b03",
-  "source_commit": "1c929790ec88e9eb6131eae34c4fc3bfbb847309",
-  "source_commit_time": "2026-11-17T00:01:31Z",
+  "source_commit": "bd465dfcc17d11a7eed2a8ce68f5dcbb906322ed",
+  "source_commit_time": "2026-11-22T15:25:16Z",
   "source_path": "2026/11/17/an-exact-spatial-zeta-function-for-phase-locked-traveling-waves--d722fcd53b03",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-d722fcd53b03",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

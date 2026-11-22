@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-sharp-asymmetric-large-deviation-spectrum-of-the-three-dimension--38c423899acd",
   "resultary_record_key": "SCOPE-sharp-asymmetric-large-deviation-spectrum-of-the-three-dimension--38c423899acd",
-  "source_commit": "2fbfe4098760195a83d2bbb982322987380990d6",
-  "source_commit_time": "2026-11-17T00:13:08Z",
+  "source_commit": "133b026f3b68441f722fded0fe674a218dc0a57f",
+  "source_commit_time": "2026-11-22T15:29:51Z",
   "source_path": "2026/11/17/sharp-asymmetric-large-deviation-spectrum-of-the-three-dimension--38c423899acd",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-38c423899acd",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

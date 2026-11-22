@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-exact-hole-area-and-boundary-length-after-site-failures-in-the-u--34091e99996a",
   "resultary_record_key": "SCOPE-exact-hole-area-and-boundary-length-after-site-failures-in-the-u--34091e99996a",
-  "source_commit": "565ee2e576a65aa04494ee55d1a3a72609b011f9",
-  "source_commit_time": "2026-11-17T00:25:25Z",
+  "source_commit": "fe662a86d2d5a304e78fce0be566d071e7e0587a",
+  "source_commit_time": "2026-11-22T15:30:32Z",
   "source_path": "2026/11/17/exact-hole-area-and-boundary-length-after-site-failures-in-the-u--34091e99996a",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-34091e99996a",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

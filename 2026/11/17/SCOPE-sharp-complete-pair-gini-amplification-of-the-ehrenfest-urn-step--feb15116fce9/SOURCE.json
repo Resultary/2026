@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-sharp-complete-pair-gini-amplification-of-the-ehrenfest-urn-step--feb15116fce9",
   "resultary_record_key": "SCOPE-sharp-complete-pair-gini-amplification-of-the-ehrenfest-urn-step--feb15116fce9",
-  "source_commit": "4f84ae5fd126cc638e9f7c351dbcb4933e83c60f",
-  "source_commit_time": "2026-11-17T00:55:17Z",
+  "source_commit": "ee6dca1fc12146086dcbb98e07a6bc44b623d98b",
+  "source_commit_time": "2026-11-22T15:22:20Z",
   "source_path": "2026/11/17/sharp-complete-pair-gini-amplification-of-the-ehrenfest-urn-step--feb15116fce9",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-feb15116fce9",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

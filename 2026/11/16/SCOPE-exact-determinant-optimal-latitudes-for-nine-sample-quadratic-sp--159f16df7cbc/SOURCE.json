@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-exact-determinant-optimal-latitudes-for-nine-sample-quadratic-sp--159f16df7cbc",
   "resultary_record_key": "SCOPE-exact-determinant-optimal-latitudes-for-nine-sample-quadratic-sp--159f16df7cbc",
-  "source_commit": "ce25d9ea94698cc28479a19eab67d8fd7e058354",
-  "source_commit_time": "2026-11-16T23:59:55Z",
+  "source_commit": "18b62963fa560723abdec534ae6485b01191ad9c",
+  "source_commit_time": "2026-11-22T15:19:02Z",
   "source_path": "2026/11/16/exact-determinant-optimal-latitudes-for-nine-sample-quadratic-sp--159f16df7cbc",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-159f16df7cbc",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

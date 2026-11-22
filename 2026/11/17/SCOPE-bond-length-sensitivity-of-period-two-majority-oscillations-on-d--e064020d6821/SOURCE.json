@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-bond-length-sensitivity-of-period-two-majority-oscillations-on-d--e064020d6821",
   "resultary_record_key": "SCOPE-bond-length-sensitivity-of-period-two-majority-oscillations-on-d--e064020d6821",
-  "source_commit": "4bfc75255d0dd9eacc76898d8fc614001a801e29",
-  "source_commit_time": "2026-11-17T00:01:14Z",
+  "source_commit": "5b57251918499a58d47276f7a2ec265ef6c6fc3c",
+  "source_commit_time": "2026-11-22T15:25:16Z",
   "source_path": "2026/11/17/bond-length-sensitivity-of-period-two-majority-oscillations-on-d--e064020d6821",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-e064020d6821",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

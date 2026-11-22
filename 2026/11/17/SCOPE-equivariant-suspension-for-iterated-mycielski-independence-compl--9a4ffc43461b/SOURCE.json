@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-equivariant-suspension-for-iterated-mycielski-independence-compl--9a4ffc43461b",
   "resultary_record_key": "SCOPE-equivariant-suspension-for-iterated-mycielski-independence-compl--9a4ffc43461b",
-  "source_commit": "5bb2d012e882115df1c49175be4154bad89bc313",
-  "source_commit_time": "2026-11-17T01:13:50Z",
+  "source_commit": "38d9aba9116530da6e3618be35eaa793a6c07c6b",
+  "source_commit_time": "2026-11-22T15:15:03Z",
   "source_path": "2026/11/17/equivariant-suspension-for-iterated-mycielski-independence-compl--9a4ffc43461b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-9a4ffc43461b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

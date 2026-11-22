@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-oscillatory-weak-directions-in-concentric-gaussian-fock-interpol--9e0592306aa7",
   "resultary_record_key": "SCOPE-oscillatory-weak-directions-in-concentric-gaussian-fock-interpol--9e0592306aa7",
-  "source_commit": "553f78dcac145ded5fa46806ad06f84c81399b44",
-  "source_commit_time": "2026-11-16T23:51:51Z",
+  "source_commit": "bd68a3492cf8924ab3212c67ac4b6d37f2ae1f8f",
+  "source_commit_time": "2026-11-22T15:29:02Z",
   "source_path": "2026/11/16/oscillatory-weak-directions-in-concentric-gaussian-fock-interpol--9e0592306aa7",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-9e0592306aa7",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

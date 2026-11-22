@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-negative-spherical-means-from-legendre-aliasing-in-geodesic-bern--15fbd77e21d0",
   "resultary_record_key": "SCOPE-negative-spherical-means-from-legendre-aliasing-in-geodesic-bern--15fbd77e21d0",
-  "source_commit": "99473e3f8b6883f74667febdb0d14c4f871d9368",
-  "source_commit_time": "2026-11-16T23:59:09Z",
+  "source_commit": "8b44b515ab569e18a14b91b2210428b1e795b372",
+  "source_commit_time": "2026-11-22T15:27:30Z",
   "source_path": "2026/11/16/negative-spherical-means-from-legendre-aliasing-in-geodesic-bern--15fbd77e21d0",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-15fbd77e21d0",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

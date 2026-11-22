@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-adjacency-sensitive-sphere-wedges-from-two-forward-shortcuts-in--6b8bf75ceac4",
   "resultary_record_key": "SCOPE-adjacency-sensitive-sphere-wedges-from-two-forward-shortcuts-in--6b8bf75ceac4",
-  "source_commit": "8786e9909d492cf31fb70124d0905f972b7b9fdf",
-  "source_commit_time": "2026-11-17T01:26:45Z",
+  "source_commit": "bafe0e851191686f4605a156837795c2dcabb797",
+  "source_commit_time": "2026-11-22T15:27:31Z",
   "source_path": "2026/11/17/adjacency-sensitive-sphere-wedges-from-two-forward-shortcuts-in--6b8bf75ceac4",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-6b8bf75ceac4",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

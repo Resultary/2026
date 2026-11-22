@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-universal-two-level-normal-cone-angle-inversion-in-orthogonal-re--0fcd3e8e3622",
   "resultary_record_key": "SCOPE-universal-two-level-normal-cone-angle-inversion-in-orthogonal-re--0fcd3e8e3622",
-  "source_commit": "77c2c4b6f64e2286843067289687529aca5dd11c",
-  "source_commit_time": "2026-11-17T00:50:16Z",
+  "source_commit": "fda0035f02d0bb12f2d810f852e281dad268e9cf",
+  "source_commit_time": "2026-11-22T15:22:21Z",
   "source_path": "2026/11/17/universal-two-level-normal-cone-angle-inversion-in-orthogonal-re--0fcd3e8e3622",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-0fcd3e8e3622",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

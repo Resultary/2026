@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-an-exact-maximal-tamari-flip-chain-from-constant-velocity-parabo--9b8ec1dcd655",
   "resultary_record_key": "SCOPE-an-exact-maximal-tamari-flip-chain-from-constant-velocity-parabo--9b8ec1dcd655",
-  "source_commit": "e2b92810cfad1bbf8b71399b94ea930248cdefd4",
-  "source_commit_time": "2026-11-17T00:31:40Z",
+  "source_commit": "cc048bd4c54be1b0f7e8f6dd31294fed51c17680",
+  "source_commit_time": "2026-11-22T15:25:16Z",
   "source_path": "2026/11/17/an-exact-maximal-tamari-flip-chain-from-constant-velocity-parabo--9b8ec1dcd655",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-9b8ec1dcd655",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

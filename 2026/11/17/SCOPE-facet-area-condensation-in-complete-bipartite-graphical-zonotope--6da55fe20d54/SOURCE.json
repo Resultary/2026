@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-facet-area-condensation-in-complete-bipartite-graphical-zonotope--6da55fe20d54",
   "resultary_record_key": "SCOPE-facet-area-condensation-in-complete-bipartite-graphical-zonotope--6da55fe20d54",
-  "source_commit": "4ed22daaa76a5eb890eabab7fd6abb3d31360c37",
-  "source_commit_time": "2026-11-17T00:37:57Z",
+  "source_commit": "4251ad2a36775972a887da8d3eb522416c9d9841",
+  "source_commit_time": "2026-11-22T15:25:17Z",
   "source_path": "2026/11/17/facet-area-condensation-in-complete-bipartite-graphical-zonotope--6da55fe20d54",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-6da55fe20d54",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

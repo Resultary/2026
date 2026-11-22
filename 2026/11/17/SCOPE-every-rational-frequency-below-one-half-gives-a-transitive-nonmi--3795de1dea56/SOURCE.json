@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-every-rational-frequency-below-one-half-gives-a-transitive-nonmi--3795de1dea56",
   "resultary_record_key": "SCOPE-every-rational-frequency-below-one-half-gives-a-transitive-nonmi--3795de1dea56",
-  "source_commit": "a75133d7a558055ab65f15c52eceb9067a798988",
-  "source_commit_time": "2026-11-17T00:21:30Z",
+  "source_commit": "2a69c86ba96800e7157d5c96cdd90d33819fa940",
+  "source_commit_time": "2026-11-22T15:25:17Z",
   "source_path": "2026/11/17/every-rational-frequency-below-one-half-gives-a-transitive-nonmi--3795de1dea56",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-3795de1dea56",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

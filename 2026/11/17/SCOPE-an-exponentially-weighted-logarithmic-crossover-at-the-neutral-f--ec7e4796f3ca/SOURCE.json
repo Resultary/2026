@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-an-exponentially-weighted-logarithmic-crossover-at-the-neutral-f--ec7e4796f3ca",
   "resultary_record_key": "SCOPE-an-exponentially-weighted-logarithmic-crossover-at-the-neutral-f--ec7e4796f3ca",
-  "source_commit": "b68736185003b2dadc7d3685a1052fdbfd8a5aa4",
-  "source_commit_time": "2026-11-17T00:13:11Z",
+  "source_commit": "298022235e4e31129c549bfa9123d6d7edb4fd2e",
+  "source_commit_time": "2026-11-22T15:26:17Z",
   "source_path": "2026/11/17/an-exponentially-weighted-logarithmic-crossover-at-the-neutral-f--ec7e4796f3ca",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-ec7e4796f3ca",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

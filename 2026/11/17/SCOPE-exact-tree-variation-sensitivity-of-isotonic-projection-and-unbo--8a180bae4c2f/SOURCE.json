@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-exact-tree-variation-sensitivity-of-isotonic-projection-and-unbo--8a180bae4c2f",
   "resultary_record_key": "SCOPE-exact-tree-variation-sensitivity-of-isotonic-projection-and-unbo--8a180bae4c2f",
-  "source_commit": "d671a4d50af683e793908d204fa1120ac6df51a2",
-  "source_commit_time": "2026-11-17T00:52:01Z",
+  "source_commit": "7fce7759edf26a3fca19e1ad14419c72378c55cb",
+  "source_commit_time": "2026-11-22T15:30:32Z",
   "source_path": "2026/11/17/exact-tree-variation-sensitivity-of-isotonic-projection-and-unbo--8a180bae4c2f",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-8a180bae4c2f",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

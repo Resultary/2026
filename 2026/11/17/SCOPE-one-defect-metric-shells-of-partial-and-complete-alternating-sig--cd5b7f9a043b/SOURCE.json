@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-one-defect-metric-shells-of-partial-and-complete-alternating-sig--cd5b7f9a043b",
   "resultary_record_key": "SCOPE-one-defect-metric-shells-of-partial-and-complete-alternating-sig--cd5b7f9a043b",
-  "source_commit": "51271e17320a7458c73e78c3733812c11e39f0e1",
-  "source_commit_time": "2026-11-17T00:35:46Z",
+  "source_commit": "90e7e183242c32a97907a0d8099cae68f4b9c1bb",
+  "source_commit_time": "2026-11-22T15:27:32Z",
   "source_path": "2026/11/17/one-defect-metric-shells-of-partial-and-complete-alternating-sig--cd5b7f9a043b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-cd5b7f9a043b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

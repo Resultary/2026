@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-exact-cyclic-fourier-covariance-and-an-isolated-rank-defect-for--4e4e459386ca",
   "resultary_record_key": "SCOPE-exact-cyclic-fourier-covariance-and-an-isolated-rank-defect-for--4e4e459386ca",
-  "source_commit": "072ae5dbf23656ff820dbe2ac718da9d883b6373",
-  "source_commit_time": "2026-11-16T23:45:04Z",
+  "source_commit": "524d605fa1c6e46603e9771ca29257b404d5a920",
+  "source_commit_time": "2026-11-22T15:19:02Z",
   "source_path": "2026/11/16/exact-cyclic-fourier-covariance-and-an-isolated-rank-defect-for--4e4e459386ca",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-4e4e459386ca",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-consensus-promotion-and-delayed-relaxation-under-every-single-ed--98121e5d4755",
   "resultary_record_key": "SCOPE-consensus-promotion-and-delayed-relaxation-under-every-single-ed--98121e5d4755",
-  "source_commit": "d990db4de1f5cfaa000784f4480b4d9f2526eed5",
-  "source_commit_time": "2026-11-17T00:03:24Z",
+  "source_commit": "4848487f92dc2ed828fb1812fe1d68c45ff8c1f1",
+  "source_commit_time": "2026-11-22T15:26:17Z",
   "source_path": "2026/11/17/consensus-promotion-and-delayed-relaxation-under-every-single-ed--98121e5d4755",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-98121e5d4755",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

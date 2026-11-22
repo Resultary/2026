@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-first-nontrivial-walsh-singularity-of-complete-graph-forests-exa--c987bb4dd1d8",
   "resultary_record_key": "SCOPE-first-nontrivial-walsh-singularity-of-complete-graph-forests-exa--c987bb4dd1d8",
-  "source_commit": "4b61f25b164fcc17179ee37d2c8c56fd55bf3255",
-  "source_commit_time": "2026-11-16T23:39:13Z",
+  "source_commit": "87363cdf0b43c709820c3dbd21e57dc8f83353d3",
+  "source_commit_time": "2026-11-22T15:29:02Z",
   "source_path": "2026/11/16/first-nontrivial-walsh-singularity-of-complete-graph-forests-exa--c987bb4dd1d8",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-c987bb4dd1d8",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

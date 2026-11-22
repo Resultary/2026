@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-sharp-weighted-huber-location-star-variation-modulus-and-mass-ba--f2d941e4aa72",
   "resultary_record_key": "SCOPE-sharp-weighted-huber-location-star-variation-modulus-and-mass-ba--f2d941e4aa72",
-  "source_commit": "347b848e417b38703159493772a3689e09146a17",
-  "source_commit_time": "2026-11-17T00:57:40Z",
+  "source_commit": "a4169a8ce06d1294522fba17bb063657db49e6da",
+  "source_commit_time": "2026-11-22T15:22:20Z",
   "source_path": "2026/11/17/sharp-weighted-huber-location-star-variation-modulus-and-mass-ba--f2d941e4aa72",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-f2d941e4aa72",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

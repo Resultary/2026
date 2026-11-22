@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-exact-erasure-spectra-of-quadratic-harmonic-sampling-on-the-icos--f4265e782932",
   "resultary_record_key": "SCOPE-exact-erasure-spectra-of-quadratic-harmonic-sampling-on-the-icos--f4265e782932",
-  "source_commit": "c324e0295afd0fe6e00388d296a2df43b1545158",
-  "source_commit_time": "2026-11-16T23:47:28Z",
+  "source_commit": "d97349491c81900177302da4e207057e2cfc6371",
+  "source_commit_time": "2026-11-22T15:22:17Z",
   "source_path": "2026/11/16/exact-erasure-spectra-of-quadratic-harmonic-sampling-on-the-icos--f4265e782932",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-f4265e782932",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

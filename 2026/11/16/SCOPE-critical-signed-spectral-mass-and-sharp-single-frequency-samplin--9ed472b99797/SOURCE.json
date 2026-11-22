@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-critical-signed-spectral-mass-and-sharp-single-frequency-samplin--9ed472b99797",
   "resultary_record_key": "SCOPE-critical-signed-spectral-mass-and-sharp-single-frequency-samplin--9ed472b99797",
-  "source_commit": "1e22f384130bf23a8f6c8797284de6d2e91fccfb",
-  "source_commit_time": "2026-11-16T23:59:43Z",
+  "source_commit": "38d4eeb970944b61b84a8b01a44c03a38916fdff",
+  "source_commit_time": "2026-11-22T15:26:12Z",
   "source_path": "2026/11/16/critical-signed-spectral-mass-and-sharp-single-frequency-samplin--9ed472b99797",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-9ed472b99797",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

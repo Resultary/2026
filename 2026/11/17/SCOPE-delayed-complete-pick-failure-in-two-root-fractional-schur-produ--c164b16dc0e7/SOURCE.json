@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-delayed-complete-pick-failure-in-two-root-fractional-schur-produ--c164b16dc0e7",
   "resultary_record_key": "SCOPE-delayed-complete-pick-failure-in-two-root-fractional-schur-produ--c164b16dc0e7",
-  "source_commit": "24265443017587ad3dea9a4fbe4bbcc79dbd105e",
-  "source_commit_time": "2026-11-17T01:10:15Z",
+  "source_commit": "a6269dde8ceb2b5772b053f7ec5429795e63ba7b",
+  "source_commit_time": "2026-11-22T15:22:19Z",
   "source_path": "2026/11/17/delayed-complete-pick-failure-in-two-root-fractional-schur-produ--c164b16dc0e7",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-c164b16dc0e7",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

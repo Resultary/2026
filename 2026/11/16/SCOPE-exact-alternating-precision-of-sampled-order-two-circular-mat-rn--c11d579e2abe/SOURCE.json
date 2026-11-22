@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-exact-alternating-precision-of-sampled-order-two-circular-mat-rn--c11d579e2abe",
   "resultary_record_key": "SCOPE-exact-alternating-precision-of-sampled-order-two-circular-mat-rn--c11d579e2abe",
-  "source_commit": "fd73e86ae4eb6c26f2f781a963ec7a71d82d9622",
-  "source_commit_time": "2026-11-16T23:46:15Z",
+  "source_commit": "f9c998471fa261581283b213ae2b1ae8ce247f8e",
+  "source_commit_time": "2026-11-22T15:30:30Z",
   "source_path": "2026/11/16/exact-alternating-precision-of-sampled-order-two-circular-mat-rn--c11d579e2abe",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-c11d579e2abe",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

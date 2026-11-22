@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-period-doubling-without-period-six-exact-twelve-cycles-of-rule-3--be61fc1596c2",
   "resultary_record_key": "SCOPE-period-doubling-without-period-six-exact-twelve-cycles-of-rule-3--be61fc1596c2",
-  "source_commit": "f7eb0b3657b51b08d3e4d5bb5020312a5cf26a7e",
-  "source_commit_time": "2026-11-17T00:04:51Z",
+  "source_commit": "527fb7f5370b5c0ce0f3f352136cb7688880a025",
+  "source_commit_time": "2026-11-22T15:25:18Z",
   "source_path": "2026/11/17/period-doubling-without-period-six-exact-twelve-cycles-of-rule-3--be61fc1596c2",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-be61fc1596c2",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

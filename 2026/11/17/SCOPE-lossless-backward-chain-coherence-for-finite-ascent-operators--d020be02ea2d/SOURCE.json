@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-lossless-backward-chain-coherence-for-finite-ascent-operators--d020be02ea2d",
   "resultary_record_key": "SCOPE-lossless-backward-chain-coherence-for-finite-ascent-operators--d020be02ea2d",
-  "source_commit": "86836a0a1740e408f4c10dd2373f7056b858853d",
-  "source_commit_time": "2026-11-17T01:05:23Z",
+  "source_commit": "c2682b825f9d8a9f0b2133407cd191910927a08b",
+  "source_commit_time": "2026-11-22T15:28:18Z",
   "source_path": "2026/11/17/lossless-backward-chain-coherence-for-finite-ascent-operators--d020be02ea2d",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-d020be02ea2d",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

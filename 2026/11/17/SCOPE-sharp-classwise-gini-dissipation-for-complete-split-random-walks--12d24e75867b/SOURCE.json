@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-sharp-classwise-gini-dissipation-for-complete-split-random-walks--12d24e75867b",
   "resultary_record_key": "SCOPE-sharp-classwise-gini-dissipation-for-complete-split-random-walks--12d24e75867b",
-  "source_commit": "e931635fcb997a3f0d434ccfc3187e61652760e5",
-  "source_commit_time": "2026-11-17T00:54:46Z",
+  "source_commit": "25b99b0753369bb4a5b211267965937cb28d0ef7",
+  "source_commit_time": "2026-11-22T15:19:06Z",
   "source_path": "2026/11/17/sharp-classwise-gini-dissipation-for-complete-split-random-walks--12d24e75867b",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-12d24e75867b",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

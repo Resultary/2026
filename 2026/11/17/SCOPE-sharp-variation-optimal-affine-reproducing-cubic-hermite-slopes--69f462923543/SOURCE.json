@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-sharp-variation-optimal-affine-reproducing-cubic-hermite-slopes--69f462923543",
   "resultary_record_key": "SCOPE-sharp-variation-optimal-affine-reproducing-cubic-hermite-slopes--69f462923543",
-  "source_commit": "e21c5a075c32543494830ff0ab64948d63d69b6e",
-  "source_commit_time": "2026-11-17T01:00:48Z",
+  "source_commit": "e7a78bbfa5c7c1eeaa9b950e5c174160783f1639",
+  "source_commit_time": "2026-11-22T15:19:06Z",
   "source_path": "2026/11/17/sharp-variation-optimal-affine-reproducing-cubic-hermite-slopes--69f462923543",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-69f462923543",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

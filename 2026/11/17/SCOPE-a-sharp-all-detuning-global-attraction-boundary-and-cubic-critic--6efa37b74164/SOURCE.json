@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-a-sharp-all-detuning-global-attraction-boundary-and-cubic-critic--6efa37b74164",
   "resultary_record_key": "SCOPE-a-sharp-all-detuning-global-attraction-boundary-and-cubic-critic--6efa37b74164",
-  "source_commit": "77c3492437b3be2e67fa19f93cf0049bc7b20566",
-  "source_commit_time": "2026-11-17T00:17:28Z",
+  "source_commit": "8365782ea8910ceaa4ffe2d3f4a524d85ec7327d",
+  "source_commit_time": "2026-11-22T15:19:03Z",
   "source_path": "2026/11/17/a-sharp-all-detuning-global-attraction-boundary-and-cubic-critic--6efa37b74164",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-6efa37b74164",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

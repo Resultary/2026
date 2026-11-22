@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-seven-step-transients-and-sharp-twelve-cycles-in-threshold-two-c--6e5b9fbe6d44",
   "resultary_record_key": "SCOPE-seven-step-transients-and-sharp-twelve-cycles-in-threshold-two-c--6e5b9fbe6d44",
-  "source_commit": "7d29ddfa1de690308e70fd3761b16c8355d4c2c2",
-  "source_commit_time": "2026-11-17T00:00:48Z",
+  "source_commit": "6c6cd3e956b783e4d5d400fbf146aa5dc5bf783a",
+  "source_commit_time": "2026-11-22T15:28:18Z",
   "source_path": "2026/11/17/seven-step-transients-and-sharp-twelve-cycles-in-threshold-two-c--6e5b9fbe6d44",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-6e5b9fbe6d44",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-sharp-zero-free-phase-boundary-for-real-three-term-weighted-berg--cfa65cdb5c32",
   "resultary_record_key": "SCOPE-sharp-zero-free-phase-boundary-for-real-three-term-weighted-berg--cfa65cdb5c32",
-  "source_commit": "9f8596f0f5cf1622f64f0fb76d282b567e99e2f6",
-  "source_commit_time": "2026-11-16T23:51:14Z",
+  "source_commit": "bc7842e9be60fd64d4862b4b04f391ca96c73d41",
+  "source_commit_time": "2026-11-22T15:25:15Z",
   "source_path": "2026/11/16/sharp-zero-free-phase-boundary-for-real-three-term-weighted-berg--cfa65cdb5c32",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-cfa65cdb5c32",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

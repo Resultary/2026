@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/17/SCOPE-four-state-chv-tal-excitation-period-collapse-and-six-extremal-s--924e4654e069",
   "resultary_record_key": "SCOPE-four-state-chv-tal-excitation-period-collapse-and-six-extremal-s--924e4654e069",
-  "source_commit": "85d255c9ae000c853687c1a4459475437069f711",
-  "source_commit_time": "2026-11-17T00:07:13Z",
+  "source_commit": "c20bd4401fe53e382b38235123ef464ef3086774",
+  "source_commit_time": "2026-11-22T15:25:17Z",
   "source_path": "2026/11/17/four-state-chv-tal-excitation-period-collapse-and-six-extremal-s--924e4654e069",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261117-924e4654e069",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }

@@ -1,13 +1,13 @@
 {
   "resultary_path": "2026/11/16/SCOPE-four-edge-fourier-resonance-and-exact-recovery-constants-for-lab--31a21d50e71c",
   "resultary_record_key": "SCOPE-four-edge-fourier-resonance-and-exact-recovery-constants-for-lab--31a21d50e71c",
-  "source_commit": "948b7aacdc3c3b980301089c330302dab84fe842",
-  "source_commit_time": "2026-11-16T23:38:06Z",
+  "source_commit": "b9346d6361b52520ff55a7d2ca7d02db7388d617",
+  "source_commit_time": "2026-11-22T15:30:30Z",
   "source_path": "2026/11/16/four-edge-fourier-resonance-and-exact-recovery-constants-for-lab--31a21d50e71c",
   "source_project": "SCOPE",
   "source_record_id": "SCOPE-20261116-31a21d50e71c",
   "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
   "sync_schema_version": 2,
-  "synced_at": "2026-11-17T02:00:37Z",
+  "synced_at": "2026-11-22T15:34:23Z",
   "time_standard": "UTC"
 }
