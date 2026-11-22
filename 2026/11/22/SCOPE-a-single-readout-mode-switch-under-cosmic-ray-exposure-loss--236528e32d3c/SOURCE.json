@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/22/SCOPE-a-single-readout-mode-switch-under-cosmic-ray-exposure-loss--236528e32d3c",
+  "resultary_record_key": "SCOPE-a-single-readout-mode-switch-under-cosmic-ray-exposure-loss--236528e32d3c",
+  "source_commit": "f9a878ca16edc4bef1577eee5ff2455f1ecdd75d",
+  "source_commit_time": "2026-11-22T17:32:31Z",
+  "source_path": "2026/11/22/a-single-readout-mode-switch-under-cosmic-ray-exposure-loss--236528e32d3c",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261122-236528e32d3c",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-22T18:05:00Z",
+  "time_standard": "UTC"
+}

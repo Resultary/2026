@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/22/SCOPE-sharp-memory-overshoot-from-thresholded-rainfall-routing-into-a--15ba93e67784",
+  "resultary_record_key": "SCOPE-sharp-memory-overshoot-from-thresholded-rainfall-routing-into-a--15ba93e67784",
+  "source_commit": "4b8f8068b9310927af9112a54bc4b42042ea3621",
+  "source_commit_time": "2026-11-22T17:34:25Z",
+  "source_path": "2026/11/22/sharp-memory-overshoot-from-thresholded-rainfall-routing-into-a--15ba93e67784",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261122-15ba93e67784",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-22T18:05:00Z",
+  "time_standard": "UTC"
+}

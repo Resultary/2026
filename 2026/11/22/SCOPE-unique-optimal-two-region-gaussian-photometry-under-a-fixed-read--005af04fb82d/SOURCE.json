@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/22/SCOPE-unique-optimal-two-region-gaussian-photometry-under-a-fixed-read--005af04fb82d",
+  "resultary_record_key": "SCOPE-unique-optimal-two-region-gaussian-photometry-under-a-fixed-read--005af04fb82d",
+  "source_commit": "0e94d37514ff5036c28d47a398ce887f938fcf76",
+  "source_commit_time": "2026-11-22T17:32:06Z",
+  "source_path": "2026/11/22/unique-optimal-two-region-gaussian-photometry-under-a-fixed-read--005af04fb82d",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261122-005af04fb82d",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-22T18:05:00Z",
+  "time_standard": "UTC"
+}

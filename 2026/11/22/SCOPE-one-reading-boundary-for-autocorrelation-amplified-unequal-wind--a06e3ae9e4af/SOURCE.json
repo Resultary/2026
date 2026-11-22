@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/22/SCOPE-one-reading-boundary-for-autocorrelation-amplified-unequal-wind--a06e3ae9e4af",
+  "resultary_record_key": "SCOPE-one-reading-boundary-for-autocorrelation-amplified-unequal-wind--a06e3ae9e4af",
+  "source_commit": "d1afc6f7dd7bc602347121a37e6f138a24c570ec",
+  "source_commit_time": "2026-11-22T17:33:14Z",
+  "source_path": "2026/11/22/one-reading-boundary-for-autocorrelation-amplified-unequal-wind--a06e3ae9e4af",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261122-a06e3ae9e4af",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-22T18:05:00Z",
+  "time_standard": "UTC"
+}

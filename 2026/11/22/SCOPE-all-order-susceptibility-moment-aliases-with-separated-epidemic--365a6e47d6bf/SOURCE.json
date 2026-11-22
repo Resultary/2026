@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/22/SCOPE-all-order-susceptibility-moment-aliases-with-separated-epidemic--365a6e47d6bf",
+  "resultary_record_key": "SCOPE-all-order-susceptibility-moment-aliases-with-separated-epidemic--365a6e47d6bf",
+  "source_commit": "46274c89043a0b402b0dc2b05e99fe92825cc595",
+  "source_commit_time": "2026-11-22T17:36:29Z",
+  "source_path": "2026/11/22/all-order-susceptibility-moment-aliases-with-separated-epidemic--365a6e47d6bf",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261122-365a6e47d6bf",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-22T18:05:00Z",
+  "time_standard": "UTC"
+}

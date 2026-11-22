@@ -1,0 +1,13 @@
+{
+  "resultary_path": "2026/11/22/SCOPE-four-unordered-detection-counts-identify-occupancy-availability--038859ebba47",
+  "resultary_record_key": "SCOPE-four-unordered-detection-counts-identify-occupancy-availability--038859ebba47",
+  "source_commit": "ff6b380fd9bb185a9e423d26fc3491a7cbd937ec",
+  "source_commit_time": "2026-11-22T17:34:23Z",
+  "source_path": "2026/11/22/four-unordered-detection-counts-identify-occupancy-availability--038859ebba47",
+  "source_project": "SCOPE",
+  "source_record_id": "SCOPE-20261122-038859ebba47",
+  "source_repository": "https://github.com/SCOPE-Science/SCOPE2026",
+  "sync_schema_version": 2,
+  "synced_at": "2026-11-22T18:05:00Z",
+  "time_standard": "UTC"
+}
